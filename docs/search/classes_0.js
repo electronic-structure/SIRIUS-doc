@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['a',['A',['../class_a.html',1,'']]],
   ['alltoall_5fdescriptor',['alltoall_descriptor',['../structsddk_1_1alltoall__descriptor.html',1,'sddk']]],
   ['atom',['Atom',['../classsirius_1_1_atom.html',1,'sirius']]],
   ['atom_5fsymmetry_5fclass',['Atom_symmetry_class',['../classsirius_1_1_atom__symmetry__class.html',1,'sirius']]],

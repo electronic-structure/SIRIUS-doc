@@ -163,7 +163,7 @@ var searchData=
   ['sirius_5fupdate_5fatomic_5fpotential',['sirius_update_atomic_potential',['../interfacesirius_1_1sirius__update__atomic__potential.html',1,'sirius']]],
   ['sirius_5fuse_5finternal_5fmixer',['sirius_use_internal_mixer',['../interfacesirius_1_1sirius__use__internal__mixer.html',1,'sirius']]],
   ['sirius_5fwrite_5fjson_5foutput',['sirius_write_json_output',['../interfacesirius_1_1sirius__write__json__output.html',1,'sirius']]],
-  ['smooth_5fperiodic_5ffunction',['Smooth_periodic_function',['../classsirius_1_1experimental_1_1_smooth__periodic__function.html',1,'sirius::experimental::Smooth_periodic_function&lt; T &gt;'],['../classsirius_1_1_smooth__periodic__function.html',1,'sirius::Smooth_periodic_function&lt; T &gt;']]],
+  ['smooth_5fperiodic_5ffunction',['Smooth_periodic_function',['../classsirius_1_1_smooth__periodic__function.html',1,'sirius::Smooth_periodic_function&lt; T &gt;'],['../classsirius_1_1experimental_1_1_smooth__periodic__function.html',1,'sirius::experimental::Smooth_periodic_function&lt; T &gt;']]],
   ['smooth_5fperiodic_5ffunction_3c_20double_20_3e',['Smooth_periodic_function&lt; double &gt;',['../classsirius_1_1_smooth__periodic__function.html',1,'sirius']]],
   ['smooth_5fperiodic_5ffunction_5fgradient',['Smooth_periodic_function_gradient',['../classsirius_1_1_smooth__periodic__function__gradient.html',1,'sirius']]],
   ['space_5fgroup_5fsymmetry_5fdescriptor',['space_group_symmetry_descriptor',['../structsirius_1_1space__group__symmetry__descriptor.html',1,'sirius']]],

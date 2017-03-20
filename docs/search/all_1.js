@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['a',['A',['../class_a.html',1,'']]],
   ['active_5f',['active_',['../classsddk_1_1timer.html#ad18ec8c4ff4707eaaa575e94e744c70e',1,'sddk::timer']]],
   ['add',['add',['../classsirius_1_1_periodic__function.html#a39e334ef18345209c9b1f439aa8c2e86',1,'sirius::Periodic_function']]],
   ['add_5fatom',['add_atom',['../classsirius_1_1_unit__cell.html#a6370b1dd71c63be44228efabaf0d0293',1,'sirius::Unit_cell::add_atom(const std::string label, vector3d&lt; double &gt; position, vector3d&lt; double &gt; vector_field)'],['../classsirius_1_1_unit__cell.html#a89843c24de69f8968140a9cfff4bdd0f',1,'sirius::Unit_cell::add_atom(const std::string label, vector3d&lt; double &gt; position)']]],
