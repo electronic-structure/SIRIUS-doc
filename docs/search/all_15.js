@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['uj_5fcorrection_5f',['uj_correction_',['../structsirius_1_1_parameters__input.html#a562d6e5f710e0a0d0c48a728695317bb',1,'sirius::Parameters_input']]],
+  ['uj_5fcorrection_5fl_5f',['uj_correction_l_',['../classsirius_1_1_atom.html#adcf069a095d4f0f9b1c5debe34e6ed94',1,'sirius::Atom']]],
+  ['uj_5fcorrection_5fmatrix_5f',['uj_correction_matrix_',['../classsirius_1_1_atom.html#a726686bb7f7d0efe87980b93496a4315',1,'sirius::Atom']]],
+  ['unescape',['unescape',['../classnlohmann_1_1basic__json_1_1json__pointer.html#adfdb6c0cd2a62ff0ee108f2c09d3598b',1,'nlohmann::basic_json::json_pointer']]],
+  ['unflatten',['unflatten',['../classnlohmann_1_1basic__json_1_1json__pointer.html#a16cb91da82183ec5e87d90b4599591b2',1,'nlohmann::basic_json::json_pointer::unflatten()'],['../classnlohmann_1_1basic__json.html#abc459edfac71c4ecc9347731f722026b',1,'nlohmann::basic_json::unflatten()']]],
+  ['uninitialized',['uninitialized',['../classnlohmann_1_1basic__json_1_1lexer.html#a96887d6cd131e3d3a85a9d71fbdbcdf7a42dd1a73d072bb6bf3f494f22b15db8e',1,'nlohmann::basic_json::lexer']]],
+  ['unique_5fptr_5f',['unique_ptr_',['../classsddk_1_1mdarray__base.html#aae4804447519c63f7c1c72d855744dc9',1,'sddk::mdarray_base']]],
+  ['unique_5fptr_5fdevice_5f',['unique_ptr_device_',['../classsddk_1_1mdarray__base.html#a956a63062c0919ace1afb44f6ed60e0c',1,'sddk::mdarray_base']]],
+  ['unit_5fcell',['Unit_cell',['../classsirius_1_1_unit__cell.html',1,'sirius']]],
+  ['unit_5fcell_2eh',['unit_cell.h',['../unit__cell_8h.html',1,'']]],
+  ['unit_5fcell_5f',['unit_cell_',['../classsirius_1_1_band.html#a8776f7df889f8bca82ff5a9a24331205',1,'sirius::Band::unit_cell_()'],['../classsirius_1_1_k__point.html#aa67d12ebc672e0b301abe37761beb732',1,'sirius::K_point::unit_cell_()'],['../classsirius_1_1_radial__integrals__base.html#a7cd84a2b44563db9f08b17e68806a857',1,'sirius::Radial_integrals_base::unit_cell_()'],['../classsirius_1_1_simulation__context__base.html#a2e7ac6d68ac043d5b450b5d8cd251360',1,'sirius::Simulation_context_base::unit_cell_()']]],
+  ['unit_5fcell_5finput',['Unit_cell_input',['../structsirius_1_1_unit__cell__input.html',1,'sirius']]],
+  ['unit_5fcell_5fparameters_5fdescriptor',['unit_cell_parameters_descriptor',['../structunit__cell__parameters__descriptor.html',1,'']]],
+  ['use_5fsymmetry_5f',['use_symmetry_',['../structsirius_1_1_parameters__input.html#ac897c6430c4e79641e71dd387953aad0',1,'sirius::Parameters_input']]],
+  ['utils',['Utils',['../class_utils.html',1,'']]],
+  ['utils_2eh',['utils.h',['../utils_8h.html',1,'']]]
+];
