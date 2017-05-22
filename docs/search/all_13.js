@@ -281,7 +281,7 @@ var searchData=
   ['step_5ffunction_2eh',['step_function.h',['../step__function_8h.html',1,'']]],
   ['step_5ffunction_5f',['step_function_',['../classsirius_1_1_simulation__context.html#a0a1057d06e126cf048247071de680c4f',1,'sirius::Simulation_context::step_function_()'],['../classsirius_1_1_step__function.html#a811fd3e1fe15e4e66820cbee8dba05a8',1,'sirius::Step_function::step_function_()']]],
   ['step_5ffunction_5fpw_5f',['step_function_pw_',['../classsirius_1_1_step__function.html#a3a57b383d5fb66fefdd153ac94064c9d',1,'sirius::Step_function']]],
-  ['stress',['Stress',['../classsirius_1_1_stress.html',1,'sirius::Stress'],['../stress.html',1,'(Global Namespace)']]],
+  ['stress',['Stress',['../classsirius_1_1_stress.html',1,'sirius']]],
   ['stress_2eh',['stress.h',['../stress_8h.html',1,'']]],
   ['string',['string',['../unionnlohmann_1_1basic__json_1_1json__value.html#a9856fb4271b50d738e14c5a9a2f05118',1,'nlohmann::basic_json::json_value::string()'],['../namespacenlohmann_1_1detail.html#a90aa5ef615aa8305e9ea20d8a947980fab45cffe084dd3d20d928bee85e7b0f21',1,'nlohmann::detail::string()']]],
   ['string_5ft',['string_t',['../classnlohmann_1_1basic__json.html#a61f8566a1a85a424c7266fb531dca005',1,'nlohmann::basic_json']]],
