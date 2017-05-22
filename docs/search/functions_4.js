@@ -12,7 +12,6 @@ var searchData=
   ['euler_5fangles',['euler_angles',['../classsirius_1_1_symmetry.html#a2bf653e46b9285ccb73a03edec633472',1,'sirius::Symmetry']]],
   ['eval_5fsum',['eval_sum',['../classsirius_1_1_d_f_t__ground__state.html#af9e351c9f78fbd60077d038633dc1f99',1,'sirius::DFT_ground_state']]],
   ['ewald_5fenergy',['ewald_energy',['../classsirius_1_1_d_f_t__ground__state.html#af4ba0c4e7d2cae0611052e68e8f5bf93',1,'sirius::DFT_ground_state']]],
-  ['exception',['exception',['../classnlohmann_1_1detail_1_1exception.html#a4d4fc417d5db15482480e63f27bfcb05',1,'nlohmann::detail::exception']]],
   ['expect',['expect',['../classnlohmann_1_1basic__json_1_1parser.html#aa0403d27b84db70cc5ea0ab8fd4509af',1,'nlohmann::basic_json::parser']]],
   ['extra_5fspace',['extra_space',['../classnlohmann_1_1basic__json_1_1serializer.html#a41e4517b4182bf20d264c7b285a93172',1,'nlohmann::basic_json::serializer']]]
 ];

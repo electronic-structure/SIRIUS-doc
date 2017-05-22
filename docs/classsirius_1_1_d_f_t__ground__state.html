@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -93,9 +93,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acaa39ea304fc6e3acb16fb7ebfbad85c"><td class="memItemLeft" align="right" valign="top"><a id="acaa39ea304fc6e3acb16fb7ebfbad85c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DFT_ground_state</b> (<a class="el" href="classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;ctx__, <a class="el" href="classsirius_1_1_potential.html">Potential</a> &amp;potential__, <a class="el" href="classsirius_1_1_density.html">Density</a> &amp;density__, <a class="el" href="classsirius_1_1_k__point__set.html">K_point_set</a> &amp;kset__, int use_symmetry__)</td></tr>
 <tr class="separator:acaa39ea304fc6e3acb16fb7ebfbad85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade9908a37ed8b354187ff3e20377cca8"><td class="memItemLeft" align="right" valign="top"><a id="ade9908a37ed8b354187ff3e20377cca8"></a>
+<tr class="memitem:ad865bbc6f2d97a72c39ba43a3dcd9f79"><td class="memItemLeft" align="right" valign="top"><a id="ad865bbc6f2d97a72c39ba43a3dcd9f79"></a>
 <a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forces</b> ()</td></tr>
-<tr class="separator:ade9908a37ed8b354187ff3e20377cca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ad865bbc6f2d97a72c39ba43a3dcd9f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53c9ac60de388745aedc0438ffe374ae"><td class="memItemLeft" align="right" valign="top"><a id="a53c9ac60de388745aedc0438ffe374ae"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>forces</b> (<a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt; &amp;inout_forces)</td></tr>
 <tr class="separator:a53c9ac60de388745aedc0438ffe374ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,9 +177,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac425fae262f0dbdebb83fdb820215d93"><td class="memItemLeft" align="right" valign="top"><a id="ac425fae262f0dbdebb83fdb820215d93"></a>
 <a class="el" href="classsirius_1_1_band.html">Band</a>&#160;</td><td class="memItemRight" valign="bottom"><b>band_</b></td></tr>
 <tr class="separator:ac425fae262f0dbdebb83fdb820215d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ddcf191dc2629f8513a3b54a29b033f"><td class="memItemLeft" align="right" valign="top"><a id="a0ddcf191dc2629f8513a3b54a29b033f"></a>
-std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">Forces_PS</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forces_</b></td></tr>
-<tr class="separator:a0ddcf191dc2629f8513a3b54a29b033f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05726eb27ceb2c9d4c36372182985ad0"><td class="memItemLeft" align="right" valign="top"><a id="a05726eb27ceb2c9d4c36372182985ad0"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>use_symmetry_</b></td></tr>
 <tr class="separator:a05726eb27ceb2c9d4c36372182985ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,7 +186,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00041">41</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00040">40</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af4ba0c4e7d2cae0611052e68e8f5bf93"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af4ba0c4e7d2cae0611052e68e8f5bf93">&#9670;&nbsp;</a></span>ewald_energy()</h2>
@@ -252,7 +249,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 \[ E^{ion-ion} = \frac{1}{2} \sideset{}{&#39;} \sum_{\alpha \beta {\bf T}} Z_{\alpha} Z_{\beta} \frac{{\rm erfc}(\sqrt{\lambda} |{\bf r}_{\alpha} - {\bf r}_{\beta} + {\bf T}|)}{|{\bf r}_{\alpha} - {\bf r}_{\beta} + {\bf T}|} + \frac{2 \pi}{\Omega} \sum_{{\bf G}\neq 0} \frac{e^{-\frac{G^2}{4 \lambda}}}{G^2} \Big| \sum_{\alpha} Z_{\alpha} e^{-i{\bf r}_{\alpha}{\bf G}} \Big|^2 - \sum_{\alpha} Z_{\alpha}^2 \sqrt{\frac{\lambda}{\pi}} - \frac{2\pi}{\Omega}\frac{N_{el}^2}{4 \lambda} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00422">422</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00430">430</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -282,7 +279,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 <p>Return nucleus energy in the electrostatic field. </p>
 <p>Compute energy of nucleus in the electrostatic potential generated by the total (electrons + nuclei) charge density. Diverging self-interaction term z*z/|r=0| is excluded. </p>
 
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00166">166</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00165">165</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -311,7 +308,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 
 <p>Return eigen-value sum of core states. </p>
 
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00181">181</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00180">180</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -340,7 +337,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 
 <p>Full eigen-value sum (core + valence) </p>
 
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00230">230</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00229">229</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -370,7 +367,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 <p>Kinetic energy. </p>
 <p>more doc here </p>
 
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00238">238</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00237">237</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -433,7 +430,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 \[ E_{tot} = \sum_{i} f_i \varepsilon_i - \frac{1}{2} \int V^{H}({\bf r})\rho({\bf r})d{\bf r} - \int V^{XC}({\bf r})\rho({\bf r}) d{\bf r} + E^{XC}[\rho + \rho_{core}] \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00312">312</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00311">311</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -443,7 +440,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

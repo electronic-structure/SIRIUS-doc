@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['make_5fperiodic_5ffunction',['make_periodic_function',['../classsirius_1_1_simulation__context__base.html#a96f5962c5a756b6228bd1e776b127dee',1,'sirius::Simulation_context_base']]],
+  ['make_5fperiodic_5ffunction',['make_periodic_function',['../classsirius_1_1_simulation__context__base.html#a5e8bf72bdacbb6ab99e21306998e9f91',1,'sirius::Simulation_context_base']]],
   ['matching_5fcoefficients',['Matching_coefficients',['../classsirius_1_1_matching__coefficients.html#a624fedd2d619135cb119b9a720365739',1,'sirius::Matching_coefficients']]],
   ['max_5fmt_5faw_5fbasis_5fsize',['max_mt_aw_basis_size',['../classsirius_1_1_unit__cell.html#a4dec101a15965d650fbd862f6c2217af',1,'sirius::Unit_cell']]],
   ['max_5fmt_5fbasis_5fsize',['max_mt_basis_size',['../classsirius_1_1_unit__cell.html#a4cd3a101993f53e002520661e69f00e5',1,'sirius::Unit_cell']]],

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -89,12 +89,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6bbe2c3e14c0a9f1d003f2dd862f36d8"><td class="memItemLeft" align="right" valign="top"><a id="a6bbe2c3e14c0a9f1d003f2dd862f36d8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> (const std::vector&lt; <a class="el" href="structlocal__orbital__descriptor.html">local_orbital_descriptor</a> &gt; &amp;lo_descriptors__)</td></tr>
-<tr class="separator:a6bbe2c3e14c0a9f1d003f2dd862f36d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0877ed27ff174b3b713a5a5ddaf6cb45"><td class="memItemLeft" align="right" valign="top"><a id="a0877ed27ff174b3b713a5a5ddaf6cb45"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> (const std::vector&lt; <a class="el" href="descriptors_8h.html#aec4b6e691d842d5c6b06552800a478b3">radial_solution_descriptor_set</a> &gt; &amp;aw_descriptors, const std::vector&lt; <a class="el" href="structlocal__orbital__descriptor.html">local_orbital_descriptor</a> &gt; &amp;lo_descriptors)</td></tr>
-<tr class="separator:a0877ed27ff174b3b713a5a5ddaf6cb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf5b9f36e42edf435e728dc2401da525"><td class="memItemLeft" align="right" valign="top"><a id="adf5b9f36e42edf435e728dc2401da525"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> (std::vector&lt; <a class="el" href="structlocal__orbital__descriptor.html">local_orbital_descriptor</a> &gt; const &amp;lo_descriptors__)</td></tr>
+<tr class="separator:adf5b9f36e42edf435e728dc2401da525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab405016f7d597892d92a3144921f9d97"><td class="memItemLeft" align="right" valign="top"><a id="ab405016f7d597892d92a3144921f9d97"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> (std::vector&lt; <a class="el" href="descriptors_8h.html#aec4b6e691d842d5c6b06552800a478b3">radial_solution_descriptor_set</a> &gt; const &amp;aw_descriptors, std::vector&lt; <a class="el" href="structlocal__orbital__descriptor.html">local_orbital_descriptor</a> &gt; const &amp;lo_descriptors)</td></tr>
+<tr class="separator:ab405016f7d597892d92a3144921f9d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a635ef845d3d177536a25fe82cf0c5f10"><td class="memItemLeft" align="right" valign="top"><a id="a635ef845d3d177536a25fe82cf0c5f10"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
 <tr class="separator:a635ef845d3d177536a25fe82cf0c5f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,7 +183,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax_</b></td></tr>
 
 <p>Number of radial functions for a given orbital quantum number. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00153">153</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00149">149</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -213,7 +213,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax_</b></td></tr>
 
 <p>Number of local orbitals for a given orbital quantum number. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00160">160</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00156">156</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -242,7 +242,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax_</b></td></tr>
 
 <p>Maximum possible number of radial functions for an orbital quantum number. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00167">167</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00163">163</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -305,7 +305,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax_</b></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

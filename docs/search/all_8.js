@@ -16,5 +16,6 @@ var searchData=
   ['hdf5_5fwrite',['hdf5_write',['../classsirius_1_1_periodic__function.html#a2193726e9413497c58533954e2bcdc0c',1,'sirius::Periodic_function']]],
   ['heinv',['heinv',['../classsddk_1_1linalg_3_01_c_p_u_01_4.html#a6cc60760ccf4fd0dcc5acb9612a22644',1,'sddk::linalg&lt; CPU &gt;']]],
   ['hemm',['hemm',['../classsddk_1_1linalg_3_01_c_p_u_01_4.html#aa4bcbd88a686d98680c54a8529670ed0',1,'sddk::linalg&lt; CPU &gt;']]],
-  ['hetrf',['hetrf',['../classsddk_1_1linalg_3_01_c_p_u_01_4.html#a8da0ecedc8aba051332e560893e6f127',1,'sddk::linalg&lt; CPU &gt;']]]
+  ['hetrf',['hetrf',['../classsddk_1_1linalg_3_01_c_p_u_01_4.html#a8da0ecedc8aba051332e560893e6f127',1,'sddk::linalg&lt; CPU &gt;']]],
+  ['hf_5fmixer_5f',['hf_mixer_',['../classsirius_1_1_density.html#a7cf287d937bfb93f6509177bb2ae6344',1,'sirius::Density']]]
 ];

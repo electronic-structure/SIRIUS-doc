@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -298,6 +298,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_free_atom_radial_
 <tr class="memitem:aae40678a580a96efd8dcfbe4e0066d8f"><td class="memItemLeft" align="right" valign="top"><a id="aae40678a580a96efd8dcfbe4e0066d8f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_free_atom_density</b> (int num_points__, double const *dens__)</td></tr>
 <tr class="separator:aae40678a580a96efd8dcfbe4e0066d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a927a504cc367beeaf85533bd5f781d47"><td class="memItemLeft" align="right" valign="top"><a id="a927a504cc367beeaf85533bd5f781d47"></a>
+<a class="el" href="classsirius_1_1_spline.html">Spline</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>beta_rf</b> (int idxrf__) const</td></tr>
+<tr class="separator:a927a504cc367beeaf85533bd5f781d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa22ae610ad06e71c15137e72f249fa8"><td class="memItemLeft" align="right" valign="top"><a id="aaa22ae610ad06e71c15137e72f249fa8"></a>
+<a class="el" href="classsirius_1_1_spline.html">Spline</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>q_rf</b> (int idx__, int l__) const</td></tr>
+<tr class="separator:aaa22ae610ad06e71c15137e72f249fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -429,13 +435,19 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>file_name_</b>
 <tr class="memitem:ab32a919f44ac47f97b3ff8419c248551"><td class="memItemLeft" align="right" valign="top"><a id="ab32a919f44ac47f97b3ff8419c248551"></a>
 <a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vrf_coef_</b></td></tr>
 <tr class="separator:ab32a919f44ac47f97b3ff8419c248551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac12f70c772c5f26db44c4a4b202779a3"><td class="memItemLeft" align="right" valign="top"><a id="ac12f70c772c5f26db44c4a4b202779a3"></a>
+<a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; <a class="el" href="classsirius_1_1_spline.html">Spline</a>&lt; double &gt;, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>beta_rf_</b></td></tr>
+<tr class="separator:ac12f70c772c5f26db44c4a4b202779a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56982946a4abb5125c70d5c9ab16654f"><td class="memItemLeft" align="right" valign="top"><a id="a56982946a4abb5125c70d5c9ab16654f"></a>
+<a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; <a class="el" href="classsirius_1_1_spline.html">Spline</a>&lt; double &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>q_rf_</b></td></tr>
+<tr class="separator:a56982946a4abb5125c70d5c9ab16654f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7d458a75f6763fd0e4f50022b3a5353"><td class="memItemLeft" align="right" valign="top"><a id="ab7d458a75f6763fd0e4f50022b3a5353"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {false}</td></tr>
 <tr class="separator:ab7d458a75f6763fd0e4f50022b3a5353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00279">279</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00275">275</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad7f60a5c9e0f71696d7560b741232bb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad7f60a5c9e0f71696d7560b741232bb4">&#9670;&nbsp;</a></span>read_pseudo_uspp()</h2>
@@ -464,7 +476,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 <li>read occupation of the function */ </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l01277">1277</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l01307">1307</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -522,7 +534,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Add augmented-wave descriptor. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00471">471</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00470">470</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -586,7 +598,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Add local orbital descriptor. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00499">499</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00498">498</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -616,7 +628,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Order of augmented wave radial functions for a given l. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00663">663</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00662">662</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -645,7 +657,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Return index of a free atom grid point close to the muffin-tin radius. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00731">731</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00730">730</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -674,7 +686,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Return number of atoms of a given type. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00793">793</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00792">792</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -701,7 +713,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Unique id of atom type in the range [0, \( N_{types} \)). </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00286">286</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00282">282</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -727,7 +739,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Unique string label for the atom type. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00289">289</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00285">285</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -753,7 +765,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Chemical element symbol. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00292">292</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00288">288</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -779,7 +791,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Chemical element name. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00295">295</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00291">291</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -805,7 +817,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Nucleus charge, treated as positive(!) integer. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00298">298</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00294">294</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -831,7 +843,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p><a class="el" href="classsirius_1_1_atom.html" title="Data and methods specific to the actual atom in the unit cell. ">Atom</a> mass. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00301">301</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00297">297</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -857,7 +869,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Muffin-tin radius. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00304">304</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00300">300</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -883,7 +895,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Number of muffin-tin points. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00307">307</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00303">303</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -909,7 +921,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Beginning of the radial grid. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00310">310</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00306">306</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -935,7 +947,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>List of atomic levels. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00313">313</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00309">309</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -961,7 +973,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Number of core electrons. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00316">316</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00312">312</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -987,7 +999,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Number of valence electrons. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00319">319</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00315">315</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1025,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Default augmented wave configuration. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00322">322</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00318">318</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1039,7 +1051,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>augmented wave configuration for specific l </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00325">325</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00321">321</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1065,7 +1077,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>list of radial descriptor sets used to construct augmented waves </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00328">328</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00324">324</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1091,7 +1103,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>list of radial descriptor sets used to construct local orbitals </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00331">331</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00327">327</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1117,7 +1129,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Maximum number of AW radial functions across angular momentums. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00334">334</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00330">330</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1144,7 +1156,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 <p>Inverse of (Q_{ 'j}^{-1} + beta_pw^{H}_{} * beta_pw_{xi'}) </p>
 <p>Used in Chebyshev iterative solver as a block-diagonal preconditioner </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00346">346</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00342">342</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1170,7 +1182,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Radial grid. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00405">405</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00404">404</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1196,7 +1208,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p><a class="el" href="classsirius_1_1_density.html" title="Generate charge density and magnetization from occupied spinor wave-functions. ">Density</a> of a free atom. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00408">408</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00407">407</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1222,7 +1234,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 
 <p>Radial grid of a free atom. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00413">413</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom__type_8h_source.html#l00412">412</a> of file <a class="el" href="atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -1232,7 +1244,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

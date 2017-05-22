@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -102,6 +102,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6370b1dd71c63be44228efabaf0d0293"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_unit__cell.html#a6370b1dd71c63be44228efabaf0d0293">add_atom</a> (const std::string label, <a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; position, <a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; vector_field)</td></tr>
 <tr class="memdesc:a6370b1dd71c63be44228efabaf0d0293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new atom to the list of atom types.  <a href="#a6370b1dd71c63be44228efabaf0d0293">More...</a><br /></td></tr>
 <tr class="separator:a6370b1dd71c63be44228efabaf0d0293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89843c24de69f8968140a9cfff4bdd0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_unit__cell.html#a89843c24de69f8968140a9cfff4bdd0f">add_atom</a> (const std::string label, <a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; position)</td></tr>
+<tr class="memdesc:a89843c24de69f8968140a9cfff4bdd0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new atom without vector field to the list of atom types.  <a href="#a89843c24de69f8968140a9cfff4bdd0f">More...</a><br /></td></tr>
+<tr class="separator:a89843c24de69f8968140a9cfff4bdd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c6cdebd28fa00730179967a74254c25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_unit__cell.html#a3c6cdebd28fa00730179967a74254c25">init_paw</a> ()</td></tr>
 <tr class="memdesc:a3c6cdebd28fa00730179967a74254c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add PAW atoms.  <a href="#a3c6cdebd28fa00730179967a74254c25">More...</a><br /></td></tr>
 <tr class="separator:a3c6cdebd28fa00730179967a74254c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,9 +120,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>spl_num_paw_atoms</b> 
 <tr class="memitem:ae6679967c24366dc988a53a153e72b1a"><td class="memItemLeft" align="right" valign="top"><a id="ae6679967c24366dc988a53a153e72b1a"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>paw_atom_index</b> (int ipaw__) const</td></tr>
 <tr class="separator:ae6679967c24366dc988a53a153e72b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89843c24de69f8968140a9cfff4bdd0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_unit__cell.html#a89843c24de69f8968140a9cfff4bdd0f">add_atom</a> (const std::string label, <a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; position)</td></tr>
-<tr class="memdesc:a89843c24de69f8968140a9cfff4bdd0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new atom without vector field to the list of atom types.  <a href="#a89843c24de69f8968140a9cfff4bdd0f">More...</a><br /></td></tr>
-<tr class="separator:a89843c24de69f8968140a9cfff4bdd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa8632b9f2d62183100a46e7dd0790ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_unit__cell.html#aaa8632b9f2d62183100a46e7dd0790ba">print_info</a> (int verbosity_)</td></tr>
 <tr class="memdesc:aaa8632b9f2d62183100a46e7dd0790ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print basic info.  <a href="#aaa8632b9f2d62183100a46e7dd0790ba">More...</a><br /></td></tr>
 <tr class="separator:aaa8632b9f2d62183100a46e7dd0790ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,8 +135,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>paw_atom_index</b> (in
 <tr class="memitem:af1e86a5c3ac96c6ad7733939dad2eb40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnlohmann_1_1basic__json.html">json</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_unit__cell.html#af1e86a5c3ac96c6ad7733939dad2eb40">serialize</a> ()</td></tr>
 <tr class="memdesc:af1e86a5c3ac96c6ad7733939dad2eb40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write structure to JSON file.  <a href="#af1e86a5c3ac96c6ad7733939dad2eb40">More...</a><br /></td></tr>
 <tr class="separator:af1e86a5c3ac96c6ad7733939dad2eb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd012acfb8e7777227e7d54e1d542e7e"><td class="memItemLeft" align="right" valign="top"><a id="acd012acfb8e7777227e7d54e1d542e7e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_lattice_vectors</b> (matrix3d&lt; double &gt; lattice_vectors__)</td></tr>
+<tr class="memitem:acd012acfb8e7777227e7d54e1d542e7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_unit__cell.html#acd012acfb8e7777227e7d54e1d542e7e">set_lattice_vectors</a> (matrix3d&lt; double &gt; lattice_vectors__)</td></tr>
+<tr class="memdesc:acd012acfb8e7777227e7d54e1d542e7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set matrix of lattice vectors.  <a href="#acd012acfb8e7777227e7d54e1d542e7e">More...</a><br /></td></tr>
 <tr class="separator:acd012acfb8e7777227e7d54e1d542e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73aed1e2042e5c0006e7182fed1ca375"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_unit__cell.html#a73aed1e2042e5c0006e7182fed1ca375">set_lattice_vectors</a> (<a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; a0__, <a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; a1__, <a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; a2__)</td></tr>
 <tr class="memdesc:a73aed1e2042e5c0006e7182fed1ca375"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set lattice vectors.  <a href="#a73aed1e2042e5c0006e7182fed1ca375">More...</a><br /></td></tr>
@@ -458,7 +458,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 <p>Automatically determine new muffin-tin radii as a half distance between neighbor atoms. </p>
 <p>In order to guarantee a unique solution muffin-tin radii are dermined as a half distance bethween nearest atoms. Initial values of the muffin-tin radii are ignored. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00824">824</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00819">819</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -498,7 +498,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Check if MT spheres overlap. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00918">918</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00913">913</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -536,7 +536,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 <li>Create split indices for atoms and atom classes </li>
 </ol>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00651">651</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00645">645</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -622,94 +622,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Add new atom to the list of atom types. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00230">230</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
-
-</div>
-</div>
-<a id="a3c6cdebd28fa00730179967a74254c25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c6cdebd28fa00730179967a74254c25">&#9670;&nbsp;</a></span>init_paw()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius::Unit_cell::init_paw </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add PAW atoms. </p>
-
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00253">253</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
-
-</div>
-</div>
-<a id="a2a6169f857efcaeb73e0a7b9755577b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a6169f857efcaeb73e0a7b9755577b7">&#9670;&nbsp;</a></span>num_paw_atoms()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int sirius::Unit_cell::num_paw_atoms </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return number of PAW atoms. </p>
-
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00265">265</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
-
-</div>
-</div>
-<a id="aa976eecc072c52cb4fc89c74d7717780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa976eecc072c52cb4fc89c74d7717780">&#9670;&nbsp;</a></span>spl_num_paw_atoms()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsddk_1_1splindex.html">splindex</a>&lt;block&gt; sirius::Unit_cell::spl_num_paw_atoms </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get split index of PAW atoms. </p>
-
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00271">271</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00228">228</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -749,7 +662,94 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Add new atom without vector field to the list of atom types. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00287">287</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00249">249</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+
+</div>
+</div>
+<a id="a3c6cdebd28fa00730179967a74254c25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c6cdebd28fa00730179967a74254c25">&#9670;&nbsp;</a></span>init_paw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sirius::Unit_cell::init_paw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add PAW atoms. </p>
+
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00255">255</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+
+</div>
+</div>
+<a id="a2a6169f857efcaeb73e0a7b9755577b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a6169f857efcaeb73e0a7b9755577b7">&#9670;&nbsp;</a></span>num_paw_atoms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sirius::Unit_cell::num_paw_atoms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return number of PAW atoms. </p>
+
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00267">267</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+
+</div>
+</div>
+<a id="aa976eecc072c52cb4fc89c74d7717780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa976eecc072c52cb4fc89c74d7717780">&#9670;&nbsp;</a></span>spl_num_paw_atoms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsddk_1_1splindex.html">splindex</a>&lt;block&gt; sirius::Unit_cell::spl_num_paw_atoms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get split index of PAW atoms. </p>
+
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00273">273</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -779,7 +779,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Print basic info. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00946">946</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00941">941</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -809,7 +809,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 <p>Get crystal symmetries and equivalent atoms. </p>
 <p>Makes a call to spglib providing the basic unit cell information: lattice vectors and atomic types and positions. Gets back symmetry operations and a table of equivalent atoms. The table of equivalent atoms is then used to make a list of atom symmetry classes and related data. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00757">757</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00752">752</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -838,7 +838,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Write structure to CIF file. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l01081">1081</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l01076">1076</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -867,12 +867,43 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Write structure to JSON file. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l01114">1114</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l01109">1109</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+
+</div>
+</div>
+<a id="acd012acfb8e7777227e7d54e1d542e7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd012acfb8e7777227e7d54e1d542e7e">&#9670;&nbsp;</a></span>set_lattice_vectors() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sirius::Unit_cell::set_lattice_vectors </td>
+          <td>(</td>
+          <td class="paramtype">matrix3d&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>lattice_vectors__</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set matrix of lattice vectors. </p>
+<p>Initializes lattice vectors, inverse lattice vector matrix, reciprocal lattice vectors and the unit cell volume. </p>
+
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00308">308</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
 <a id="a73aed1e2042e5c0006e7182fed1ca375"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73aed1e2042e5c0006e7182fed1ca375">&#9670;&nbsp;</a></span>set_lattice_vectors()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73aed1e2042e5c0006e7182fed1ca375">&#9670;&nbsp;</a></span>set_lattice_vectors() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -912,9 +943,8 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 </div><div class="memdoc">
 
 <p>Set lattice vectors. </p>
-<p>Initializes lattice vectors, inverse lattice vector matrix, reciprocal lattice vectors and the unit cell volume. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00321">321</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00317">317</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -944,7 +974,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Find the cluster of nearest neighbours around each atom. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l01141">1141</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l01136">1136</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -973,7 +1003,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Unit cell volume. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00368">368</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00364">364</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1002,7 +1032,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Number of atom types. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00374">374</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00370">370</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1032,7 +1062,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return atom type instance by id. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00381">381</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00377">377</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1062,7 +1092,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return const atom type instance by id. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00388">388</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00384">384</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1092,7 +1122,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return atom type instance by label. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00395">395</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00391">391</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1122,7 +1152,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return const atom type instance by label. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00402">402</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00398">398</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1151,7 +1181,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Number of atom symmetry classes. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00409">409</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00405">405</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1181,7 +1211,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return const symmetry class instance by class id. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00415">415</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00411">411</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1211,7 +1241,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return symmetry class instance by class id. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00421">421</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00417">417</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1240,7 +1270,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Number of atoms in the unit cell. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00427">427</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00423">423</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1270,7 +1300,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return const atom instance by id. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00433">433</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00429">429</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1330,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return atom instance by id. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00440">440</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00436">436</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1329,7 +1359,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Total number of electrons (core + valence). </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00452">452</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00448">448</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1358,7 +1388,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Number of valence electrons. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00458">458</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00454">454</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1387,7 +1417,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Number of core electrons. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00464">464</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00460">460</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1446,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Maximum number of muffin-tin points among all atom types. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00470">470</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00466">466</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1445,7 +1475,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Total number of the augmented wave basis functions over all atoms. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00476">476</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00472">472</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1474,7 +1504,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Total number of local orbital basis functions over all atoms. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00482">482</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00478">478</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1504,7 +1534,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 <p>Total number of the muffin-tin basis functions. </p>
 <p>Total number of MT basis functions equals to the sum of the total number of augmented wave basis functions and the total number of local orbital basis functions among all atoms. It controls the size of the muffin-tin part of the first-variational states and second-variational wave functions. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00491">491</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00487">487</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1533,7 +1563,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Maximum number of basis functions among all atom types. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00497">497</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00493">493</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1562,7 +1592,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Maximum number of radial functions among all atom types. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00503">503</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00499">499</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1591,7 +1621,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Minimum muffin-tin radius. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00509">509</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00505">505</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1620,7 +1650,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Maximum muffin-tin radius. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00515">515</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00511">511</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1649,7 +1679,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Maximum number of AW basis functions among all atom types. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00521">521</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00517">517</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -1679,7 +1709,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 
 <p>Return a single lattice vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00613">613</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="unit__cell_8h_source.html#l00609">609</a> of file <a class="el" href="unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -2562,7 +2592,7 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_symmetry.html">Symmetry<
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:44 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:04 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

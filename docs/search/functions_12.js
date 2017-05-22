@@ -21,7 +21,7 @@ var searchData=
   ['transform_5fz_5fserial',['transform_z_serial',['../classsddk_1_1_f_f_t3_d.html#a4494521f39d1119acecf75fec13f2e17',1,'sddk::FFT3D']]],
   ['transpose',['transpose',['../geometry3d_8hpp.html#aff82c8d57dd6cbdcbedf6fb2226c4704',1,'geometry3d']]],
   ['trtri',['trtri',['../classsddk_1_1linalg_3_01_c_p_u_01_4.html#a5e5dee97a80a8cca9a47c756a3ff2c4f',1,'sddk::linalg&lt; CPU &gt;::trtri()'],['../classsddk_1_1linalg_3_01_g_p_u_01_4.html#ac9d8a936c08a5873dba375ae856ed0d0',1,'sddk::linalg&lt; GPU &gt;::trtri()']]],
-  ['type',['type',['../classsirius_1_1_atom.html#ae0ec8c5d74a957f094e78e5b00645f28',1,'sirius::Atom::type()'],['../classnlohmann_1_1basic__json.html#a2b2d781d7f2a4ee41bc0016e931cadf7',1,'nlohmann::basic_json::type()']]],
+  ['type',['type',['../classnlohmann_1_1basic__json.html#a2b2d781d7f2a4ee41bc0016e931cadf7',1,'nlohmann::basic_json::type()'],['../classsirius_1_1_atom.html#ae0ec8c5d74a957f094e78e5b00645f28',1,'sirius::Atom::type()']]],
   ['type_5fid',['type_id',['../classsirius_1_1_atom.html#a016c3246850dc9aef2af33760a9ca21d',1,'sirius::Atom']]],
   ['type_5fname',['type_name',['../classnlohmann_1_1basic__json.html#a6b75862bdb4d26650616cf9821430755',1,'nlohmann::basic_json']]]
 ];

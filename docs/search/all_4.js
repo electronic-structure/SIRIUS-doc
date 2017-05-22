@@ -7,6 +7,8 @@ var searchData=
   ['density',['Density',['../classsirius_1_1_density.html',1,'sirius::Density'],['../classsirius_1_1_density.html#a7dca6937cc2b1e865f1d77edfc575906',1,'sirius::Density::Density()'],['../sirius__api_8cpp.html#a27c9852fd9c283b3432aaea8d778ab45',1,'density():&#160;sirius_api.cpp']]],
   ['density_2eh',['density.h',['../density_8h.html',1,'']]],
   ['density_5fmatrix_5f',['density_matrix_',['../classsirius_1_1_density.html#aae98b9da0334e70ab463a59ed0afe75d',1,'sirius::Density']]],
+  ['density_5fmatrix_5faux',['density_matrix_aux',['../classsirius_1_1_density.html#a43a6b436435801683d59cf31c8466b58',1,'sirius::Density']]],
+  ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]],
   ['depth',['depth',['../classnlohmann_1_1basic__json_1_1parser.html#af10c872a9549a4d5aa3775ffdbb09e4c',1,'nlohmann::basic_json::parser']]],
   ['deriv_5fq',['deriv_q',['../classsirius_1_1_spherical___bessel__functions.html#aa36401fd1a8bf553440aa916a0fd1216',1,'sirius::Spherical_Bessel_functions']]],
   ['descriptor_5f',['descriptor_',['../classsddk_1_1dmatrix.html#a8461e9f58455228fcda1403a3a945b85',1,'sddk::dmatrix']]],

@@ -16,7 +16,6 @@ var searchData=
   ['radial_5fintegrals_5fbase_3c_202_20_3e',['Radial_integrals_base&lt; 2 &gt;',['../classsirius_1_1_radial__integrals__base.html',1,'sirius']]],
   ['radial_5fintegrals_5fbase_3c_203_20_3e',['Radial_integrals_base&lt; 3 &gt;',['../classsirius_1_1_radial__integrals__base.html',1,'sirius']]],
   ['radial_5fintegrals_5fbeta',['Radial_integrals_beta',['../classsirius_1_1_radial__integrals__beta.html',1,'sirius']]],
-  ['radial_5fintegrals_5fbeta_5fdg',['Radial_integrals_beta_dg',['../classsirius_1_1_radial__integrals__beta__dg.html',1,'sirius']]],
   ['radial_5fintegrals_5fbeta_5fjl',['Radial_integrals_beta_jl',['../classsirius_1_1_radial__integrals__beta__jl.html',1,'sirius']]],
   ['radial_5fintegrals_5frho_5fcore_5fpseudo',['Radial_integrals_rho_core_pseudo',['../classsirius_1_1_radial__integrals__rho__core__pseudo.html',1,'sirius']]],
   ['radial_5fintegrals_5frho_5ffree_5fatom',['Radial_integrals_rho_free_atom',['../classsirius_1_1_radial__integrals__rho__free__atom.html',1,'sirius']]],

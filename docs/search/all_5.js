@@ -40,7 +40,7 @@ var searchData=
   ['ev_5fsolver_5ft',['ev_solver_t',['../eigenproblem_8h.html#a203f2c57422a6e64834e6e9ab85982bf',1,'eigenproblem.h']]],
   ['eval_5fsum',['eval_sum',['../classsirius_1_1_d_f_t__ground__state.html#af9e351c9f78fbd60077d038633dc1f99',1,'sirius::DFT_ground_state']]],
   ['ewald_5fenergy',['ewald_energy',['../classsirius_1_1_d_f_t__ground__state.html#af4ba0c4e7d2cae0611052e68e8f5bf93',1,'sirius::DFT_ground_state']]],
-  ['exception',['exception',['../classnlohmann_1_1detail_1_1exception.html',1,'nlohmann::detail::exception'],['../classnlohmann_1_1basic__json.html#a9a0aced019cb1d65bb49703406c84970',1,'nlohmann::basic_json::exception()'],['../classnlohmann_1_1detail_1_1exception.html#a4d4fc417d5db15482480e63f27bfcb05',1,'nlohmann::detail::exception::exception()']]],
+  ['exception',['exception',['../classnlohmann_1_1detail_1_1exception.html',1,'nlohmann::detail::exception'],['../classnlohmann_1_1basic__json.html#a9a0aced019cb1d65bb49703406c84970',1,'nlohmann::basic_json::exception()']]],
   ['expect',['expect',['../classnlohmann_1_1basic__json_1_1parser.html#aa0403d27b84db70cc5ea0ab8fd4509af',1,'nlohmann::basic_json::parser']]],
   ['external_5fconstructor',['external_constructor',['../structnlohmann_1_1detail_1_1external__constructor.html',1,'nlohmann::detail']]],
   ['external_5fconstructor_3c_20value_5ft_3a_3aarray_20_3e',['external_constructor&lt; value_t::array &gt;',['../structnlohmann_1_1detail_1_1external__constructor_3_01value__t_1_1array_01_4.html',1,'nlohmann::detail']]],

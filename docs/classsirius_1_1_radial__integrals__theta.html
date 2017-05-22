@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -78,6 +78,9 @@ $(function() {
 <div class="title">sirius::Radial_integrals_theta Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Radial integrals for the step function of the LAPW method.  
+ <a href="classsirius_1_1_radial__integrals__theta.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for sirius::Radial_integrals_theta:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -131,15 +134,19 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a9bd9f42f12a9dda07bd006edbb5ef3e0 inherit pro_attribs_classsirius_1_1_radial__integrals__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="radial__integrals_8h_source.html#l00426">426</a> of file <a class="el" href="radial__integrals_8h_source.html">radial_integrals.h</a>.</p>
+<div class="textblock"><p>Radial integrals for the step function of the LAPW method. </p>
+<p>Radial integrals have the following expression: </p><p class="formulaDsp">
+\[ \Theta(\alpha, G) = \int_{0}^{R_{\alpha}} \frac{\sin(Gr)}{Gr} r^2 dr = \left\{ \begin{array}{ll} \displaystyle R_{\alpha}^3 / 3 &amp; G=0 \\ \Big( \sin(GR_{\alpha}) - GR_{\alpha}\cos(GR_{\alpha}) \Big) / G^3 &amp; G \ne 0 \end{array} \right. \]
+</p>
+ 
+<p class="definition">Definition at line <a class="el" href="radial__integrals_8h_source.html#l00377">377</a> of file <a class="el" href="radial__integrals_8h_source.html">radial_integrals.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="radial__integrals_8h_source.html">radial_integrals.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

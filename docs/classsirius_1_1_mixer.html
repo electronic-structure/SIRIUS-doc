@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -90,21 +90,32 @@ $(function() {
 <div class="center"><iframe scrolling="no" frameborder="0" src="classsirius_1_1_mixer__inherit__graph.svg" width="528" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for sirius::Mixer&lt; T &gt;:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classsirius_1_1_mixer__coll__graph.svg" width="398" height="322"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a992798b9139b272dbc90fa02ee3554f7"><td class="memItemLeft" align="right" valign="top"><a id="a992798b9139b272dbc90fa02ee3554f7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Mixer</b> (size_t size__, int max_history__, double beta__, Communicator const &amp;comm__)</td></tr>
-<tr class="separator:a992798b9139b272dbc90fa02ee3554f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a702d01730968716c3ceb9662f34330"><td class="memItemLeft" align="right" valign="top"><a id="a4a702d01730968716c3ceb9662f34330"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>input</b> (size_t idx, T value)</td></tr>
-<tr class="separator:a4a702d01730968716c3ceb9662f34330"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc7a056293f409d01399527ef91d6784"><td class="memItemLeft" align="right" valign="top"><a id="abc7a056293f409d01399527ef91d6784"></a>
-T const  *&#160;</td><td class="memItemRight" valign="bottom"><b>output_buffer</b> () const</td></tr>
-<tr class="separator:abc7a056293f409d01399527ef91d6784"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fe77159ad2a531fdd3f6b29ad5e28d0"><td class="memItemLeft" align="right" valign="top"><a id="a8fe77159ad2a531fdd3f6b29ad5e28d0"></a>
-T&#160;</td><td class="memItemRight" valign="bottom"><b>output_buffer</b> (int idx) const</td></tr>
-<tr class="separator:a8fe77159ad2a531fdd3f6b29ad5e28d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa605817071bab461a349c7c2be127b23"><td class="memItemLeft" align="right" valign="top"><a id="aa605817071bab461a349c7c2be127b23"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Mixer</b> (int shared_vector_size__, int local_vector_size__, int max_history__, double beta__, Communicator const &amp;comm__)</td></tr>
+<tr class="separator:aa605817071bab461a349c7c2be127b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3018cb21063e709da1f6694568b15ea3"><td class="memItemLeft" align="right" valign="top"><a id="a3018cb21063e709da1f6694568b15ea3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>input_shared</b> (int idx__, T value__, double w__=1.0)</td></tr>
+<tr class="separator:a3018cb21063e709da1f6694568b15ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a576acabfe16a1175b79bd325902f0fe4"><td class="memItemLeft" align="right" valign="top"><a id="a576acabfe16a1175b79bd325902f0fe4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>input_local</b> (int idx__, T value__, double w__=1.0)</td></tr>
+<tr class="separator:a576acabfe16a1175b79bd325902f0fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa244c780ac94dbc7a2da9eb9a65a2543"><td class="memItemLeft" align="right" valign="top"><a id="aa244c780ac94dbc7a2da9eb9a65a2543"></a>
+T&#160;</td><td class="memItemRight" valign="bottom"><b>output_shared</b> (int idx) const</td></tr>
+<tr class="separator:aa244c780ac94dbc7a2da9eb9a65a2543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c17e33b61862708685259cfd44cb68"><td class="memItemLeft" align="right" valign="top"><a id="a32c17e33b61862708685259cfd44cb68"></a>
+T&#160;</td><td class="memItemRight" valign="bottom"><b>output_local</b> (int idx) const</td></tr>
+<tr class="separator:a32c17e33b61862708685259cfd44cb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a858975fc0a5b820b6c2abb3aab5abf64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#a858975fc0a5b820b6c2abb3aab5abf64">initialize</a> ()</td></tr>
 <tr class="memdesc:a858975fc0a5b820b6c2abb3aab5abf64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the mixer.  <a href="#a858975fc0a5b820b6c2abb3aab5abf64">More...</a><br /></td></tr>
 <tr class="separator:a858975fc0a5b820b6c2abb3aab5abf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,12 +143,24 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a7f77b0acd3bf803dc9c031f77faed796"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#a7f77b0acd3bf803dc9c031f77faed796">size_</a></td></tr>
-<tr class="memdesc:a7f77b0acd3bf803dc9c031f77faed796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the mixed vectors.  <a href="#a7f77b0acd3bf803dc9c031f77faed796">More...</a><br /></td></tr>
-<tr class="separator:a7f77b0acd3bf803dc9c031f77faed796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefc6f985f3f6d4469d714a7a06fdbb25"><td class="memItemLeft" align="right" valign="top">splindex&lt; block, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#aefc6f985f3f6d4469d714a7a06fdbb25">spl_size_</a></td></tr>
-<tr class="memdesc:aefc6f985f3f6d4469d714a7a06fdbb25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split size of the vectors beteen all MPI ranks.  <a href="#aefc6f985f3f6d4469d714a7a06fdbb25">More...</a><br /></td></tr>
-<tr class="separator:aefc6f985f3f6d4469d714a7a06fdbb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a1b7f9763ac66aa667364e7313f281"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#a43a1b7f9763ac66aa667364e7313f281">shared_vector_size_</a></td></tr>
+<tr class="memdesc:a43a1b7f9763ac66aa667364e7313f281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the vector which is global to (in other words, shared between) all MPI ranks.  <a href="#a43a1b7f9763ac66aa667364e7313f281">More...</a><br /></td></tr>
+<tr class="separator:a43a1b7f9763ac66aa667364e7313f281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19029728dcb082f4e778b2e4003862e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#a19029728dcb082f4e778b2e4003862e1">local_vector_size_</a></td></tr>
+<tr class="memdesc:a19029728dcb082f4e778b2e4003862e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the vector which is local to MPI rank.  <a href="#a19029728dcb082f4e778b2e4003862e1">More...</a><br /></td></tr>
+<tr class="separator:a19029728dcb082f4e778b2e4003862e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad37a051490a58fc5ed2759f4ce449d2c"><td class="memItemLeft" align="right" valign="top">splindex&lt; block, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#ad37a051490a58fc5ed2759f4ce449d2c">spl_shared_size_</a></td></tr>
+<tr class="memdesc:ad37a051490a58fc5ed2759f4ce449d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split shared vector size beteen all MPI ranks.  <a href="#ad37a051490a58fc5ed2759f4ce449d2c">More...</a><br /></td></tr>
+<tr class="separator:ad37a051490a58fc5ed2759f4ce449d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811d199d244cd56f8f2ac91fa1104e9b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#a811d199d244cd56f8f2ac91fa1104e9b">spl_shared_local_size_</a> {0}</td></tr>
+<tr class="memdesc:a811d199d244cd56f8f2ac91fa1104e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local size of shared vector.  <a href="#a811d199d244cd56f8f2ac91fa1104e9b">More...</a><br /></td></tr>
+<tr class="separator:a811d199d244cd56f8f2ac91fa1104e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473c9cdb6f68643e5445079d3a511649"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#a473c9cdb6f68643e5445079d3a511649">local_size_</a></td></tr>
+<tr class="memdesc:a473c9cdb6f68643e5445079d3a511649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local number of vector elements.  <a href="#a473c9cdb6f68643e5445079d3a511649">More...</a><br /></td></tr>
+<tr class="separator:a473c9cdb6f68643e5445079d3a511649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad01253f70a3e6a58eba3b1fb13c017c5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#ad01253f70a3e6a58eba3b1fb13c017c5">total_size_</a></td></tr>
+<tr class="memdesc:ad01253f70a3e6a58eba3b1fb13c017c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of vector elements.  <a href="#ad01253f70a3e6a58eba3b1fb13c017c5">More...</a><br /></td></tr>
+<tr class="separator:ad01253f70a3e6a58eba3b1fb13c017c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7530cd633c6b0153ee3e2a482d42aa7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#ab7530cd633c6b0153ee3e2a482d42aa7">max_history_</a></td></tr>
 <tr class="memdesc:ab7530cd633c6b0153ee3e2a482d42aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of stored vectors.  <a href="#ab7530cd633c6b0153ee3e2a482d42aa7">More...</a><br /></td></tr>
 <tr class="separator:ab7530cd633c6b0153ee3e2a482d42aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,14 +170,17 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:adced2a7404dfce163d13420a6a97fee9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#adced2a7404dfce163d13420a6a97fee9">count_</a> {0}</td></tr>
 <tr class="memdesc:adced2a7404dfce163d13420a6a97fee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of times mixer was called so far.  <a href="#adced2a7404dfce163d13420a6a97fee9">More...</a><br /></td></tr>
 <tr class="separator:adced2a7404dfce163d13420a6a97fee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae701536620198906358ad2f485421ccc"><td class="memItemLeft" align="right" valign="top">mdarray&lt; double, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#ae701536620198906358ad2f485421ccc">weights_</a></td></tr>
+<tr class="memdesc:ae701536620198906358ad2f485421ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weights of vector elements.  <a href="#ae701536620198906358ad2f485421ccc">More...</a><br /></td></tr>
+<tr class="separator:ae701536620198906358ad2f485421ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54eab77660d00c984d0a065a74e5ac0b"><td class="memItemLeft" align="right" valign="top">mdarray&lt; T, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#a54eab77660d00c984d0a065a74e5ac0b">input_buffer_</a></td></tr>
-<tr class="memdesc:a54eab77660d00c984d0a065a74e5ac0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary storage for the input data.  <a href="#a54eab77660d00c984d0a065a74e5ac0b">More...</a><br /></td></tr>
+<tr class="memdesc:a54eab77660d00c984d0a065a74e5ac0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for the input (unmixed) data.  <a href="#a54eab77660d00c984d0a065a74e5ac0b">More...</a><br /></td></tr>
 <tr class="separator:a54eab77660d00c984d0a065a74e5ac0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3a7332aa714b37c229008b68dab2d5a"><td class="memItemLeft" align="right" valign="top">mdarray&lt; T, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#ab3a7332aa714b37c229008b68dab2d5a">vectors_</a></td></tr>
 <tr class="memdesc:ab3a7332aa714b37c229008b68dab2d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">History of previous vectors.  <a href="#ab3a7332aa714b37c229008b68dab2d5a">More...</a><br /></td></tr>
 <tr class="separator:ab3a7332aa714b37c229008b68dab2d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf8fd4ade6cd0b1a5b368be25c6335d3"><td class="memItemLeft" align="right" valign="top">mdarray&lt; T, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#aaf8fd4ade6cd0b1a5b368be25c6335d3">output_buffer_</a></td></tr>
-<tr class="memdesc:aaf8fd4ade6cd0b1a5b368be25c6335d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output buffer for the whole vector.  <a href="#aaf8fd4ade6cd0b1a5b368be25c6335d3">More...</a><br /></td></tr>
+<tr class="memdesc:aaf8fd4ade6cd0b1a5b368be25c6335d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output buffer for the shared (global) part of the vector.  <a href="#aaf8fd4ade6cd0b1a5b368be25c6335d3">More...</a><br /></td></tr>
 <tr class="separator:aaf8fd4ade6cd0b1a5b368be25c6335d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a920558ecc11adbe9ea9a6aa968ba1f8c"><td class="memItemLeft" align="right" valign="top">Communicator const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_mixer.html#a920558ecc11adbe9ea9a6aa968ba1f8c">comm_</a></td></tr>
 <tr class="memdesc:a920558ecc11adbe9ea9a6aa968ba1f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base communicator.  <a href="#a920558ecc11adbe9ea9a6aa968ba1f8c">More...</a><br /></td></tr>
@@ -169,7 +195,7 @@ class sirius::Mixer&lt; T &gt;</h3>
 
 <p>Abstract mixer. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00034">34</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00033">33</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab04b8b9c5ec2ced7f636ad700c746571"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab04b8b9c5ec2ced7f636ad700c746571">&#9670;&nbsp;</a></span>idx_hist()</h2>
@@ -199,7 +225,7 @@ template&lt;typename T&gt; </div>
 
 <p>Return position in the list of mixed vectors for the given mixing step. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00069">69</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00086">86</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -230,7 +256,7 @@ template&lt;typename T&gt; </div>
 
 <p>Compute RMS deviation between current vector and input vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00076">76</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00093">93</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -262,7 +288,7 @@ template&lt;typename T&gt; </div>
 
 <p>Mix input buffer and previous vector and store result in the current vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00093">93</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00108">108</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -294,13 +320,13 @@ template&lt;typename T&gt; </div>
 <p>Initialize the mixer. </p>
 <p>Copy content of the input buffer into first vector of the mixing history. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00147">147</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00195">195</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7f77b0acd3bf803dc9c031f77faed796"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f77b0acd3bf803dc9c031f77faed796">&#9670;&nbsp;</a></span>size_</h2>
+<a id="a43a1b7f9763ac66aa667364e7313f281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a1b7f9763ac66aa667364e7313f281">&#9670;&nbsp;</a></span>shared_vector_size_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +337,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::size_</td>
+          <td class="memname">int <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::shared_vector_size_</td>
         </tr>
       </table>
   </td>
@@ -321,14 +347,14 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Size of the mixed vectors. </p>
+<p>Size of the vector which is global to (in other words, shared between) all MPI ranks. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00039">39</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00038">38</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
-<a id="aefc6f985f3f6d4469d714a7a06fdbb25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefc6f985f3f6d4469d714a7a06fdbb25">&#9670;&nbsp;</a></span>spl_size_</h2>
+<a id="a19029728dcb082f4e778b2e4003862e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19029728dcb082f4e778b2e4003862e1">&#9670;&nbsp;</a></span>local_vector_size_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +365,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">splindex&lt;block, size_t&gt; <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::spl_size_</td>
+          <td class="memname">int <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::local_vector_size_</td>
         </tr>
       </table>
   </td>
@@ -349,9 +375,123 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Split size of the vectors beteen all MPI ranks. </p>
+<p>Size of the vector which is local to MPI rank. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00042">42</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00041">41</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+
+</div>
+</div>
+<a id="ad37a051490a58fc5ed2759f4ce449d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37a051490a58fc5ed2759f4ce449d2c">&#9670;&nbsp;</a></span>spl_shared_size_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">splindex&lt;block, int&gt; <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::spl_shared_size_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Split shared vector size beteen all MPI ranks. </p>
+
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00044">44</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+
+</div>
+</div>
+<a id="a811d199d244cd56f8f2ac91fa1104e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a811d199d244cd56f8f2ac91fa1104e9b">&#9670;&nbsp;</a></span>spl_shared_local_size_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::spl_shared_local_size_ {0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Local size of shared vector. </p>
+
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00047">47</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+
+</div>
+</div>
+<a id="a473c9cdb6f68643e5445079d3a511649"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473c9cdb6f68643e5445079d3a511649">&#9670;&nbsp;</a></span>local_size_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::local_size_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Local number of vector elements. </p>
+<p>The local number of elements is a sum of local vector size and local size of shared vector. </p>
+
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00051">51</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+
+</div>
+</div>
+<a id="ad01253f70a3e6a58eba3b1fb13c017c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad01253f70a3e6a58eba3b1fb13c017c5">&#9670;&nbsp;</a></span>total_size_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::total_size_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Total number of vector elements. </p>
+<p>The total number of vector elements is the sum of shared vector size and all local vector sizes. </p>
+
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00055">55</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -379,7 +519,7 @@ template&lt;typename T&gt; </div>
 
 <p>Maximum number of stored vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00045">45</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00058">58</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -407,7 +547,7 @@ template&lt;typename T&gt; </div>
 
 <p>Linear mixing factor. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00048">48</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00061">61</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +575,36 @@ template&lt;typename T&gt; </div>
 
 <p>Number of times mixer was called so far. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00051">51</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00064">64</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+
+</div>
+</div>
+<a id="ae701536620198906358ad2f485421ccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae701536620198906358ad2f485421ccc">&#9670;&nbsp;</a></span>weights_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mdarray&lt;double, 1&gt; <a class="el" href="classsirius_1_1_mixer.html">sirius::Mixer</a>&lt; T &gt;::weights_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Weights of vector elements. </p>
+<p>Weights are used in Broyden-type mixers when the inner product of residuals is computed </p>
+
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00068">68</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -461,9 +630,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Temporary storage for the input data. </p>
+<p>Storage for the input (unmixed) data. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00054">54</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00071">71</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -491,7 +660,7 @@ template&lt;typename T&gt; </div>
 
 <p>History of previous vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00057">57</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00074">74</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -517,9 +686,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Output buffer for the whole vector. </p>
+<p>Output buffer for the shared (global) part of the vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00060">60</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00077">77</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -547,7 +716,7 @@ template&lt;typename T&gt; </div>
 
 <p>Base communicator. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00063">63</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00080">80</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -575,7 +744,7 @@ template&lt;typename T&gt; </div>
 
 <p>Residual sum of squares. </p>
 
-<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00066">66</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mixer_8h_source.html#l00083">83</a> of file <a class="el" href="mixer_8h_source.html">mixer.h</a>.</p>
 
 </div>
 </div>
@@ -585,7 +754,7 @@ template&lt;typename T&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -86,15 +86,15 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classsirius_1_1_gaunt__coefficients__coll__graph.svg" width="230" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classsirius_1_1_gaunt__coefficients__coll__graph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae2eee44a241029be94264e9c8b537fd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_gaunt__coefficients.html#ae2eee44a241029be94264e9c8b537fd4">Gaunt_coefficients</a> (int lmax1__, int lmax3__, int lmax2__, T(*get__)(int l1, int l2, int l3, int m1, int m2, int m3))</td></tr>
-<tr class="memdesc:ae2eee44a241029be94264e9c8b537fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor.  <a href="#ae2eee44a241029be94264e9c8b537fd4">More...</a><br /></td></tr>
-<tr class="separator:ae2eee44a241029be94264e9c8b537fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae68b64dc5b2b7c703953cfbf3c1258f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_gaunt__coefficients.html#ae68b64dc5b2b7c703953cfbf3c1258f9">Gaunt_coefficients</a> (int lmax1__, int lmax3__, int lmax2__, std::function&lt; T(int, int, int, int, int, int)&gt; get__)</td></tr>
+<tr class="memdesc:ae68b64dc5b2b7c703953cfbf3c1258f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor.  <a href="#ae68b64dc5b2b7c703953cfbf3c1258f9">More...</a><br /></td></tr>
+<tr class="separator:ae68b64dc5b2b7c703953cfbf3c1258f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bb97b31939de765e18fa3d52dfed7ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_gaunt__coefficients.html#a7bb97b31939de765e18fa3d52dfed7ad">num_gaunt</a> (int lm3) const</td></tr>
 <tr class="memdesc:a7bb97b31939de765e18fa3d52dfed7ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of non-zero Gaunt coefficients for a given lm3.  <a href="#a7bb97b31939de765e18fa3d52dfed7ad">More...</a><br /></td></tr>
 <tr class="separator:a7bb97b31939de765e18fa3d52dfed7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,15 +137,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a428fcaf6fa20fb79f487b7abfd648b04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_gaunt__coefficients.html#a428fcaf6fa20fb79f487b7abfd648b04">lmmax2_</a></td></tr>
 <tr class="memdesc:a428fcaf6fa20fb79f487b7abfd648b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">lmmax of |lm2&gt;  <a href="#a428fcaf6fa20fb79f487b7abfd648b04">More...</a><br /></td></tr>
 <tr class="separator:a428fcaf6fa20fb79f487b7abfd648b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8874c91c944a9f77963b0bc6c0d93e0f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="structsirius_1_1gaunt___l1___l2.html">gaunt_L1_L2</a>&lt; T &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_gaunt__coefficients.html#a8874c91c944a9f77963b0bc6c0d93e0f">gaunt_packed_L1_L2_</a></td></tr>
-<tr class="memdesc:a8874c91c944a9f77963b0bc6c0d93e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of non-zero Gaunt coefficients for each lm3  <a href="#a8874c91c944a9f77963b0bc6c0d93e0f">More...</a><br /></td></tr>
-<tr class="separator:a8874c91c944a9f77963b0bc6c0d93e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33b9ce10e38b36d59d47fceb31b7d89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; std::vector&lt; <a class="el" href="structsirius_1_1gaunt___l1___l2.html">gaunt_L1_L2</a>&lt; T &gt; &gt;, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_gaunt__coefficients.html#af33b9ce10e38b36d59d47fceb31b7d89">gaunt_packed_L1_L2_</a></td></tr>
+<tr class="memdesc:af33b9ce10e38b36d59d47fceb31b7d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of non-zero Gaunt coefficients for each lm3.  <a href="#af33b9ce10e38b36d59d47fceb31b7d89">More...</a><br /></td></tr>
+<tr class="separator:af33b9ce10e38b36d59d47fceb31b7d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae81678a8f6226e3f1d92037ad5f2e1ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; std::vector&lt; <a class="el" href="structsirius_1_1gaunt___l3.html">gaunt_L3</a>&lt; T &gt; &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_gaunt__coefficients.html#ae81678a8f6226e3f1d92037ad5f2e1ad">gaunt_packed_L3_</a></td></tr>
-<tr class="memdesc:ae81678a8f6226e3f1d92037ad5f2e1ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of non-zero Gaunt coefficients for each combination of lm1, lm2  <a href="#ae81678a8f6226e3f1d92037ad5f2e1ad">More...</a><br /></td></tr>
+<tr class="memdesc:ae81678a8f6226e3f1d92037ad5f2e1ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of non-zero Gaunt coefficients for each combination of lm1, lm2.  <a href="#ae81678a8f6226e3f1d92037ad5f2e1ad">More...</a><br /></td></tr>
 <tr class="separator:ae81678a8f6226e3f1d92037ad5f2e1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a961b21cb591368c29d088526bae2f535"><td class="memItemLeft" align="right" valign="top">T(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_gaunt__coefficients.html#a961b21cb591368c29d088526bae2f535">get_</a> )(int l1, int l2, int l3, int m1, int m2, int m3)</td></tr>
-<tr class="memdesc:a961b21cb591368c29d088526bae2f535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function to generate Gaunt coefficients.  <a href="#a961b21cb591368c29d088526bae2f535">More...</a><br /></td></tr>
-<tr class="separator:a961b21cb591368c29d088526bae2f535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -154,10 +151,10 @@ class sirius::Gaunt_coefficients&lt; T &gt;</h3>
 <p>Compact storage of non-zero Gaunt coefficients \( \langle \ell_1 m_1 | \ell_3 m_3 | \ell_2 m_2 \rangle \). </p>
 <p>Very important! The following notation is adopted and used everywhere: lm1 and lm2 represent 'bra' and 'ket' spherical harmonics of the Gaunt integral and lm3 represent the inner spherical harmonic. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00058">58</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00056">56</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae2eee44a241029be94264e9c8b537fd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2eee44a241029be94264e9c8b537fd4">&#9670;&nbsp;</a></span>Gaunt_coefficients()</h2>
+<a id="ae68b64dc5b2b7c703953cfbf3c1258f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68b64dc5b2b7c703953cfbf3c1258f9">&#9670;&nbsp;</a></span>Gaunt_coefficients()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +185,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T(*)(int l1, int l2, int l3, int m1, int m2, int m3)&#160;</td>
+          <td class="paramtype">std::function&lt; T(int, int, int, int, int, int)&gt;&#160;</td>
           <td class="paramname"><em>get__</em>&#160;</td>
         </tr>
         <tr>
@@ -206,7 +203,7 @@ template&lt;typename T&gt; </div>
 
 <p>Class constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00089">89</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00084">84</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -239,7 +236,7 @@ template&lt;typename T&gt; </div>
 
 <p>Return number of non-zero Gaunt coefficients for a given lm3. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00139">139</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00130">130</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -280,8 +277,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>Return a structure containing {lm1, lm2, coef} for a given lm3 and index. </p>
-<p>Example: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> lm3 = 0; lm3 &lt; lmmax3; lm3++)</div><div class="line">{</div><div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; gaunt_coefs.num_gaunt(); i++)</div><div class="line">    {</div><div class="line">        <span class="keywordtype">int</span> lm1 = gaunt_coefs.gaunt(lm3, i).lm1;</div><div class="line">        <span class="keywordtype">int</span> lm2 = gaunt_coefs.gaunt(lm3, i).lm2;</div><div class="line">        <span class="keywordtype">double</span> coef = gaunt_coefs.gaunt(lm3, i).coef;</div><div class="line">        </div><div class="line">        <span class="comment">// do something with lm1,lm2,lm3 and coef</span></div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00161">161</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p>Example: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> lm3 = 0; lm3 &lt; lmmax3; lm3++)</div><div class="line">{</div><div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; gaunt_coefs.num_gaunt(lm3); i++) {</div><div class="line">        <span class="keywordtype">int</span> lm1 = gaunt_coefs.gaunt(lm3, i).lm1;</div><div class="line">        <span class="keywordtype">int</span> lm2 = gaunt_coefs.gaunt(lm3, i).lm2;</div><div class="line">        <span class="keywordtype">double</span> coef = gaunt_coefs.gaunt(lm3, i).coef;</div><div class="line">        </div><div class="line">        <span class="comment">// do something with lm1,lm2,lm3 and coef</span></div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00151">151</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -323,7 +320,7 @@ template&lt;typename T&gt; </div>
 
 <p>Return number of non-zero Gaunt coefficients for a combination of lm1 and lm2. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00169">169</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00159">159</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -371,7 +368,7 @@ template&lt;typename T&gt; </div>
 
 <p>Return a structure containing {lm3, coef} for a given lm1, lm2 and index. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00175">175</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00165">165</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -423,7 +420,7 @@ template&lt;typename T&gt; </div>
 </p>
 <p> Result is assumed to be complex. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00187">187</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00177">177</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -475,7 +472,7 @@ template&lt;typename T&gt; </div>
 </p>
 <p> Result is assumed to be of the same type as Gaunt coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00203">203</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00193">193</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -517,7 +514,7 @@ template&lt;typename T&gt; </div>
 
 <p>Return vector of non-zero Gaunt coefficients for a given combination of lm1 and lm2. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00213">213</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00203">203</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -546,7 +543,7 @@ template&lt;typename T&gt; </div>
 
 <p>lmax of &lt;lm1| </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00063">63</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00061">61</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -574,7 +571,7 @@ template&lt;typename T&gt; </div>
 
 <p>lmmax of &lt;lm1| </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00065">65</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00063">63</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -602,7 +599,7 @@ template&lt;typename T&gt; </div>
 
 <p>lmax of inner real or complex spherical harmonic </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00068">68</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00066">66</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -630,7 +627,7 @@ template&lt;typename T&gt; </div>
 
 <p>lmmax of inner real or complex spherical harmonic </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00070">70</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00068">68</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -658,7 +655,7 @@ template&lt;typename T&gt; </div>
 
 <p>lmax of |lm2&gt; </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00073">73</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00071">71</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -686,12 +683,12 @@ template&lt;typename T&gt; </div>
 
 <p>lmmax of |lm2&gt; </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00075">75</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00073">73</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
-<a id="a8874c91c944a9f77963b0bc6c0d93e0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8874c91c944a9f77963b0bc6c0d93e0f">&#9670;&nbsp;</a></span>gaunt_packed_L1_L2_</h2>
+<a id="af33b9ce10e38b36d59d47fceb31b7d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33b9ce10e38b36d59d47fceb31b7d89">&#9670;&nbsp;</a></span>gaunt_packed_L1_L2_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -702,7 +699,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;<a class="el" href="structsirius_1_1gaunt___l1___l2.html">gaunt_L1_L2</a>&lt;T&gt; &gt; &gt; <a class="el" href="classsirius_1_1_gaunt__coefficients.html">sirius::Gaunt_coefficients</a>&lt; T &gt;::gaunt_packed_L1_L2_</td>
+          <td class="memname"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt;std::vector&lt;<a class="el" href="structsirius_1_1gaunt___l1___l2.html">gaunt_L1_L2</a>&lt;T&gt; &gt;, 1&gt; <a class="el" href="classsirius_1_1_gaunt__coefficients.html">sirius::Gaunt_coefficients</a>&lt; T &gt;::gaunt_packed_L1_L2_</td>
         </tr>
       </table>
   </td>
@@ -712,9 +709,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>list of non-zero Gaunt coefficients for each lm3 </p>
+<p>List of non-zero Gaunt coefficients for each lm3. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00078">78</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00076">76</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -740,37 +737,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>list of non-zero Gaunt coefficients for each combination of lm1, lm2 </p>
+<p>List of non-zero Gaunt coefficients for each combination of lm1, lm2. </p>
 
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00081">81</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
-
-</div>
-</div>
-<a id="a961b21cb591368c29d088526bae2f535"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a961b21cb591368c29d088526bae2f535">&#9670;&nbsp;</a></span>get_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T(* <a class="el" href="classsirius_1_1_gaunt__coefficients.html">sirius::Gaunt_coefficients</a>&lt; T &gt;::get_) (int l1, int l2, int l3, int m1, int m2, int m3)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Callback function to generate Gaunt coefficients. </p>
-
-<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00084">84</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gaunt_8h_source.html#l00079">79</a> of file <a class="el" href="gaunt_8h_source.html">gaunt.h</a>.</p>
 
 </div>
 </div>
@@ -780,7 +749,7 @@ template&lt;typename T&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

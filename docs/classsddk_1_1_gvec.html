@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -112,9 +112,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b2982b432a3084dfd6eb1ddfdf94fab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#a6b2982b432a3084dfd6eb1ddfdf94fab">gvec_count</a> (int rank__) const</td></tr>
 <tr class="memdesc:a6b2982b432a3084dfd6eb1ddfdf94fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of G-vectors for a fine-grained distribution.  <a href="#a6b2982b432a3084dfd6eb1ddfdf94fab">More...</a><br /></td></tr>
 <tr class="separator:a6b2982b432a3084dfd6eb1ddfdf94fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd1dd77e2b9cbb2df6036d5026f249e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#acd1dd77e2b9cbb2df6036d5026f249e6">count</a> () const</td></tr>
+<tr class="memdesc:acd1dd77e2b9cbb2df6036d5026f249e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of G-vectors for a fine-grained distribution for the current MPI rank.  <a href="#acd1dd77e2b9cbb2df6036d5026f249e6">More...</a><br /></td></tr>
+<tr class="separator:acd1dd77e2b9cbb2df6036d5026f249e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18d573e5b6845085b835545c8eb4c2a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#a18d573e5b6845085b835545c8eb4c2a2">gvec_offset</a> (int rank__) const</td></tr>
 <tr class="memdesc:a18d573e5b6845085b835545c8eb4c2a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset (in the global index) of G-vectors for a fine-grained distribution.  <a href="#a18d573e5b6845085b835545c8eb4c2a2">More...</a><br /></td></tr>
 <tr class="separator:a18d573e5b6845085b835545c8eb4c2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c1461b9ee2cda1a1e87cdc5d09fa92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#a87c1461b9ee2cda1a1e87cdc5d09fa92">offset</a> () const</td></tr>
+<tr class="memdesc:a87c1461b9ee2cda1a1e87cdc5d09fa92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset (in the global index) of G-vectors for a fine-grained distribution for a current MPI rank.  <a href="#a87c1461b9ee2cda1a1e87cdc5d09fa92">More...</a><br /></td></tr>
+<tr class="separator:a87c1461b9ee2cda1a1e87cdc5d09fa92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae57a56b7470b0dd294e104583d45a298"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#ae57a56b7470b0dd294e104583d45a298">num_shells</a> () const</td></tr>
 <tr class="memdesc:ae57a56b7470b0dd294e104583d45a298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of G-vector shells.  <a href="#ae57a56b7470b0dd294e104583d45a298">More...</a><br /></td></tr>
 <tr class="separator:ae57a56b7470b0dd294e104583d45a298"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,8 +196,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>find_z_columns</b> (d
 <tr class="memitem:a774a4e2d37d31b7eec8e36c05fb98093"><td class="memItemLeft" align="right" valign="top"><a id="a774a4e2d37d31b7eec8e36c05fb98093"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>distribute_z_columns</b> ()</td></tr>
 <tr class="separator:a774a4e2d37d31b7eec8e36c05fb98093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77c68e942ce1b8328171b022dccc74bf"><td class="memItemLeft" align="right" valign="top"><a id="a77c68e942ce1b8328171b022dccc74bf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>find_gvec_shells</b> ()</td></tr>
+<tr class="memitem:a77c68e942ce1b8328171b022dccc74bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#a77c68e942ce1b8328171b022dccc74bf">find_gvec_shells</a> ()</td></tr>
 <tr class="separator:a77c68e942ce1b8328171b022dccc74bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a142b9ff82ee6debb8f618dfebb022bfc"><td class="memItemLeft" align="right" valign="top"><a id="a142b9ff82ee6debb8f618dfebb022bfc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> ()</td></tr>
@@ -220,6 +225,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aba6399c3e2408cde1168fb5e72e82b15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#aba6399c3e2408cde1168fb5e72e82b15">reduce_gvec_</a></td></tr>
 <tr class="memdesc:aba6399c3e2408cde1168fb5e72e82b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that G-vectors are reduced by inversion symmetry.  <a href="#aba6399c3e2408cde1168fb5e72e82b15">More...</a><br /></td></tr>
 <tr class="separator:aba6399c3e2408cde1168fb5e72e82b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7631b5417df9ad30a21809a65831651"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#ac7631b5417df9ad30a21809a65831651">rank_</a></td></tr>
+<tr class="memdesc:ac7631b5417df9ad30a21809a65831651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rank of current process.  <a href="#ac7631b5417df9ad30a21809a65831651">More...</a><br /></td></tr>
+<tr class="separator:ac7631b5417df9ad30a21809a65831651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54ae64b74a7dcfe6f82f9516be4fbc64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1_gvec.html#a54ae64b74a7dcfe6f82f9516be4fbc64">num_ranks_</a></td></tr>
 <tr class="memdesc:a54ae64b74a7dcfe6f82f9516be4fbc64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of ranks for fine-grained distribution.  <a href="#a54ae64b74a7dcfe6f82f9516be4fbc64">More...</a><br /></td></tr>
 <tr class="separator:a54ae64b74a7dcfe6f82f9516be4fbc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,7 +298,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Default constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00405">405</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00434">434</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -365,7 +373,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00417">417</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00446">446</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -423,7 +431,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Constructor for G-vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00436">436</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00466">466</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -454,7 +462,37 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Return corresponding G-vector for an index in the range [0, num_gvec). </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00218">218</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00221">221</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a77c68e942ce1b8328171b022dccc74bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c68e942ce1b8328171b022dccc74bf">&#9670;&nbsp;</a></span>find_gvec_shells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sddk::Gvec::find_gvec_shells </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<ul>
+<li>find G-shells */ </li>
+</ul>
+
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00324">324</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -484,7 +522,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Move assigment operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00454">454</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00485">485</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -513,7 +551,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Return the total number of G-vectors within the cutoff. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00481">481</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00513">513</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -543,7 +581,37 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Number of G-vectors for a fine-grained distribution. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00487">487</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00519">519</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+
+</div>
+</div>
+<a id="acd1dd77e2b9cbb2df6036d5026f249e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd1dd77e2b9cbb2df6036d5026f249e6">&#9670;&nbsp;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sddk::Gvec::count </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of G-vectors for a fine-grained distribution for the current MPI rank. </p>
+<p>The <em>count</em> and <em>offset</em> are borrowed from the MPI terminology for data distribution. </p>
+
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00527">527</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -573,7 +641,37 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Offset (in the global index) of G-vectors for a fine-grained distribution. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00494">494</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00533">533</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a87c1461b9ee2cda1a1e87cdc5d09fa92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c1461b9ee2cda1a1e87cdc5d09fa92">&#9670;&nbsp;</a></span>offset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sddk::Gvec::offset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Offset (in the global index) of G-vectors for a fine-grained distribution for a current MPI rank. </p>
+<p>The <em>count</em> and <em>offset</em> are borrowed from the MPI terminology for data distribution. </p>
+
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00541">541</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -602,7 +700,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Return number of G-vector shells. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00501">501</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00547">547</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -632,7 +730,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Return G vector in fractional coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00507">507</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00553">553</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -662,7 +760,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Return G+k vector in fractional coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00513">513</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00559">559</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -692,7 +790,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Return G vector in Cartesian coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00520">520</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00566">566</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -722,7 +820,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Return G+k vector in Cartesian coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00527">527</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00573">573</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -909,6 +1007,32 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 </div>
 </div>
+<a id="ac7631b5417df9ad30a21809a65831651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7631b5417df9ad30a21809a65831651">&#9670;&nbsp;</a></span>rank_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sddk::Gvec::rank_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rank of current process. </p>
+
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00180">180</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a54ae64b74a7dcfe6f82f9516be4fbc64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54ae64b74a7dcfe6f82f9516be4fbc64">&#9670;&nbsp;</a></span>num_ranks_</h2>
 
@@ -931,7 +1055,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Number of ranks for fine-grained distribution. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00180">180</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00183">183</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -957,7 +1081,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Total number of G-vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00183">183</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00186">186</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -984,7 +1108,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 <p>Mapping between G-vector index [0:num_gvec_) and a full index. </p>
 <p>Full index is used to store x,y,z coordinates in a packed form in a single integer number. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00187">187</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00190">190</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1134,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Index of the shell to which the given G-vector belongs. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00190">190</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00193">193</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -1036,7 +1160,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Global list of non-zero z-columns. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00199">199</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00202">202</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -1062,7 +1186,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Fine-grained distribution of G-vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00202">202</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00205">205</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -1088,7 +1212,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Fine-grained distribution of z-columns. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00205">205</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00208">208</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -1114,7 +1238,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 
 <p>Default G-vector partitioning. </p>
 
-<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00208">208</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gvec_8hpp_source.html#l00211">211</a> of file <a class="el" href="gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -1124,7 +1248,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Gvec_partition</b></
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:42 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

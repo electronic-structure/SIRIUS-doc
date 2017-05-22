@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -98,7 +98,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a068f744622459832ce511bfd91e1a675"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_atom.html#a068f744622459832ce511bfd91e1a675">init</a> (int offset_aw__, int offset_lo__, int offset_mt_coeffs__)</td></tr>
 <tr class="memdesc:a068f744622459832ce511bfd91e1a675"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize atom.  <a href="#a068f744622459832ce511bfd91e1a675">More...</a><br /></td></tr>
 <tr class="separator:a068f744622459832ce511bfd91e1a675"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af038cd608c577fd98a6e80cd47fa7072"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_atom.html#af038cd608c577fd98a6e80cd47fa7072">generate_radial_integrals</a> (device_t pu__, Communicator const &amp;comm__)</td></tr>
+<tr class="memitem:af038cd608c577fd98a6e80cd47fa7072"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_atom.html#af038cd608c577fd98a6e80cd47fa7072">generate_radial_integrals</a> (<a class="el" href="mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__, <a class="el" href="classsddk_1_1_communicator.html">Communicator</a> const &amp;comm__)</td></tr>
 <tr class="memdesc:af038cd608c577fd98a6e80cd47fa7072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate radial Hamiltonian and effective magnetic field integrals.  <a href="#af038cd608c577fd98a6e80cd47fa7072">More...</a><br /></td></tr>
 <tr class="separator:af038cd608c577fd98a6e80cd47fa7072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0ec8c5d74a957f094e78e5b00645f28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsirius_1_1_atom__type.html">Atom_type</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_atom.html#ae0ec8c5d74a957f094e78e5b00645f28">type</a> () const</td></tr>
@@ -355,7 +355,7 @@ Private Attributes</h2></td></tr>
 
 <p>Initialize atom. </p>
 
-<p class="definition">Definition at line <a class="el" href="_atom_2init_8hpp_source.html#l00001">1</a> of file <a class="el" href="_atom_2init_8hpp_source.html">Atom/init.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00115">115</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -371,13 +371,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void sirius::Atom::generate_radial_integrals </td>
           <td>(</td>
-          <td class="paramtype">device_t&#160;</td>
+          <td class="paramtype"><a class="el" href="mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td>
           <td class="paramname"><em>pu__</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Communicator const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classsddk_1_1_communicator.html">Communicator</a> const &amp;&#160;</td>
           <td class="paramname"><em>comm__</em>&#160;</td>
         </tr>
         <tr>
@@ -401,7 +401,7 @@ Private Attributes</h2></td></tr>
 \[ \widetilde V_{\ell m}(r) = \left\{ \begin{array}{ll} \frac{H_{s}(r)}{R_{00}} &amp; \ell = 0 \\ V_{\ell m}(r) &amp; \ell &gt; 0 \end{array} \right. \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="generate__radial__integrals_8hpp_source.html#l00012">12</a> of file <a class="el" href="generate__radial__integrals_8hpp_source.html">generate_radial_integrals.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00173">173</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return pointer to corresponding atom type class. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00134">134</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00346">346</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -459,7 +459,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return corresponding atom symmetry class. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00140">140</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00352">352</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -488,7 +488,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return const referenced to atom symmetry class. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00146">146</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00358">358</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -517,7 +517,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return atom type id. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00152">152</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00364">364</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -546,7 +546,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return atom position in fractional coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00158">158</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00370">370</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -576,7 +576,7 @@ Private Attributes</h2></td></tr>
 
 <p>Set atom position in fractional coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00164">164</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00376">376</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -605,7 +605,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return vector field. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00170">170</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00382">382</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -634,7 +634,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return id of the symmetry class. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00176">176</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00388">388</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -664,7 +664,7 @@ Private Attributes</h2></td></tr>
 
 <p>Set symmetry class of the atom. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00185">185</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00397">397</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -704,7 +704,7 @@ Private Attributes</h2></td></tr>
 
 <p>Set muffin-tin potential and magnetic field. </p>
 
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00191">191</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00403">403</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -753,7 +753,7 @@ template&lt;spin_block_t sblock&gt; </div>
 \[ \sum_{L_3} \langle Y_{L_1} u_{\ell_1 \nu_1} | R_{L_3} h_{L_3} | Y_{L_2} u_{\ell_2 \nu_2} \rangle = \sum_{L_3} \langle u_{\ell_1 \nu_1} | h_{L_3} | u_{\ell_2 \nu_2} \rangle \langle Y_{L_1} | R_{L_3} | Y_{L_2} \rangle \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00253">253</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="atom_8h_source.html#l00465">465</a> of file <a class="el" href="atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -1203,15 +1203,13 @@ template&lt;spin_block_t sblock&gt; </div>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="atom_8h_source.html">atom.h</a></li>
-<li><a class="el" href="generate__radial__integrals_8hpp_source.html">generate_radial_integrals.hpp</a></li>
-<li><a class="el" href="_atom_2init_8hpp_source.html">Atom/init.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

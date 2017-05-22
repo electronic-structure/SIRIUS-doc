@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -176,15 +176,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_one_elec_energy
 <tr class="memitem:a70e4eb1dbbe61223cfa9ec8e21f90252"><td class="memItemLeft" align="right" valign="top"><a id="a70e4eb1dbbe61223cfa9ec8e21f90252"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>check_potential_continuity_at_mt</b> ()</td></tr>
 <tr class="separator:a70e4eb1dbbe61223cfa9ec8e21f90252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac44993cfb63ba04c3c9f4cc472652852"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_potential.html#ac44993cfb63ba04c3c9f4cc472652852">size</a> ()</td></tr>
-<tr class="memdesc:ac44993cfb63ba04c3c9f4cc472652852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total size (number of elements) of the potential and effective magnetic field.  <a href="#ac44993cfb63ba04c3c9f4cc472652852">More...</a><br /></td></tr>
-<tr class="separator:ac44993cfb63ba04c3c9f4cc472652852"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab22e33a6cda1b03e1e5edeaa822c100b"><td class="memItemLeft" align="right" valign="top"><a id="ab22e33a6cda1b03e1e5edeaa822c100b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>pack</b> (<a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt; double &gt; &amp;mixer)</td></tr>
-<tr class="separator:ab22e33a6cda1b03e1e5edeaa822c100b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcc8dc4110691d5f463615e4136cbcab"><td class="memItemLeft" align="right" valign="top"><a id="adcc8dc4110691d5f463615e4136cbcab"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>unpack</b> (double const *buffer)</td></tr>
-<tr class="separator:adcc8dc4110691d5f463615e4136cbcab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a443f5d205079f20dce528b54578366e0"><td class="memItemLeft" align="right" valign="top"><a id="a443f5d205079f20dce528b54578366e0"></a>
 <a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>effective_potential</b> ()</td></tr>
 <tr class="separator:a443f5d205079f20dce528b54578366e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +212,12 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>vh_el</b> (int ia)<
 <tr class="memitem:a578e355eab53f1d5ff56cffbd01a14b6"><td class="memItemLeft" align="right" valign="top"><a id="a578e355eab53f1d5ff56cffbd01a14b6"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>energy_vha</b> ()</td></tr>
 <tr class="separator:a578e355eab53f1d5ff56cffbd01a14b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9f1cd01fa6f59205ed6ed4f8db3663"><td class="memItemLeft" align="right" valign="top"><a id="abf9f1cd01fa6f59205ed6ed4f8db3663"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_input</b> ()</td></tr>
+<tr class="separator:abf9f1cd01fa6f59205ed6ed4f8db3663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadfd666acee7a1bd85a14fa16646d608"><td class="memItemLeft" align="right" valign="top"><a id="aadfd666acee7a1bd85a14fa16646d608"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_output</b> ()</td></tr>
+<tr class="separator:aadfd666acee7a1bd85a14fa16646d608"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a482cc560311a0348c2e9bfd8a82d19a1"><td class="memItemLeft" align="right" valign="top"><a id="a482cc560311a0348c2e9bfd8a82d19a1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_init</b> ()</td></tr>
 <tr class="separator:a482cc560311a0348c2e9bfd8a82d19a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -362,9 +359,9 @@ std::vector&lt; double_complex &gt;&#160;</td><td class="memItemRight" valign="b
 <tr class="memitem:ab01d0a3fd83573cf6b6b34e3d1ef6ce7"><td class="memItemLeft" align="right" valign="top"><a id="ab01d0a3fd83573cf6b6b34e3d1ef6ce7"></a>
 std::vector&lt; double_complex &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>zilm_</b></td></tr>
 <tr class="separator:ab01d0a3fd83573cf6b6b34e3d1ef6ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a1abca8860b91354ab61c141b76a4f"><td class="memItemLeft" align="right" valign="top"><a id="ae2a1abca8860b91354ab61c141b76a4f"></a>
-std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>l_by_lm_</b></td></tr>
-<tr class="separator:ae2a1abca8860b91354ab61c141b76a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3616fdf3c33afc1c3fef6e08239c492e"><td class="memItemLeft" align="right" valign="top"><a id="a3616fdf3c33afc1c3fef6e08239c492e"></a>
+<a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; int, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>l_by_lm_</b></td></tr>
+<tr class="separator:a3616fdf3c33afc1c3fef6e08239c492e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae474479d1266ed12f5196d887f9b88e1"><td class="memItemLeft" align="right" valign="top"><a id="ae474479d1266ed12f5196d887f9b88e1"></a>
 <a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>gvec_ylm_</b></td></tr>
 <tr class="separator:ae474479d1266ed12f5196d887f9b88e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -455,7 +452,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 
 <p>Constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00320">320</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00319">319</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -691,7 +688,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 
 <p>Zero effective potential and magnetic field. </p>
 
-<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00470">470</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00468">468</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -739,7 +736,7 @@ template&lt;bool free_atom, typename T &gt; </div>
 
 <p>Solve Poisson equation for a single atom. </p>
 
-<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00481">481</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00479">479</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -849,7 +846,7 @@ template&lt;bool free_atom, typename T &gt; </div>
 \[ \frac{\partial G_D}{\partial n&#39;} = -\frac{4 \pi}{R^2} \sum_{\ell m} \Big( \frac{r}{R} \Big)^{\ell} Y_{\ell m}^{*}({\bf \hat x&#39;}) Y_{\ell m}(\hat {\bf x}) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="poisson_8hpp_source.html#l00182">182</a> of file <a class="el" href="poisson_8hpp_source.html">poisson.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="poisson_8hpp_source.html#l00180">180</a> of file <a class="el" href="poisson_8hpp_source.html">poisson.hpp</a>.</p>
 
 </div>
 </div>
@@ -970,7 +967,7 @@ template&lt;bool free_atom, typename T &gt; </div>
 
 <p>Generate effective potential and magnetic field from charge density and magnetization. </p>
 
-<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00781">781</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00779">779</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -1048,35 +1045,6 @@ template&lt;bool free_atom, typename T &gt; </div>
 <p> This allows the use of a <b>dgemm</b> instead of a <b>zgemm</b> when \( D_{\xi \xi&#39;}^{\alpha} \) matrix is calculated for all atoms of the same type. </p>
 
 <p class="definition">Definition at line <a class="el" href="generate__d__operator__matrix_8hpp_source.html#l00035">35</a> of file <a class="el" href="generate__d__operator__matrix_8hpp_source.html">generate_d_operator_matrix.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ac44993cfb63ba04c3c9f4cc472652852"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac44993cfb63ba04c3c9f4cc472652852">&#9670;&nbsp;</a></span>size()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t sirius::Potential::size </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Total size (number of elements) of the potential and effective magnetic field. </p>
-
-<p class="definition">Definition at line <a class="el" href="potential_8h_source.html#l00978">978</a> of file <a class="el" href="potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -1216,7 +1184,7 @@ template&lt;bool free_atom, typename T &gt; </div>
 <li><a class="el" href="potential_8h_source.html">potential.h</a></li>
 <li><a class="el" href="generate__d__operator__matrix_8hpp_source.html">generate_d_operator_matrix.hpp</a></li>
 <li><a class="el" href="generate__pw__coefs_8hpp_source.html">generate_pw_coefs.hpp</a></li>
-<li><a class="el" href="_potential_2init_8hpp_source.html">Potential/init.hpp</a></li>
+<li><a class="el" href="init_8hpp_source.html">init.hpp</a></li>
 <li><a class="el" href="paw__potential_8hpp_source.html">paw_potential.hpp</a></li>
 <li><a class="el" href="poisson_8hpp_source.html">poisson.hpp</a></li>
 <li><a class="el" href="xc_8hpp_source.html">xc.hpp</a></li>
@@ -1224,7 +1192,7 @@ template&lt;bool free_atom, typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

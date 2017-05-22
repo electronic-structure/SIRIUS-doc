@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -163,15 +163,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>save_to_xsf</b> ()</t
 <tr class="memitem:af2b76bcacc2db613be601b1484d078bd"><td class="memItemLeft" align="right" valign="top"><a id="af2b76bcacc2db613be601b1484d078bd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>save_to_xdmf</b> ()</td></tr>
 <tr class="separator:af2b76bcacc2db613be601b1484d078bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9bd68366e88827316be5d813d06cd0c"><td class="memItemLeft" align="right" valign="top"><a id="ad9bd68366e88827316be5d813d06cd0c"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> ()</td></tr>
-<tr class="separator:ad9bd68366e88827316be5d813d06cd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56603ef790c6321f19147e7c7fc413fc"><td class="memItemLeft" align="right" valign="top"><a id="a56603ef790c6321f19147e7c7fc413fc"></a>
 <a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>rho</b> ()</td></tr>
 <tr class="separator:a56603ef790c6321f19147e7c7fc413fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add5393ad5f5fc30bab6744f3cfb9a1d0"><td class="memItemLeft" align="right" valign="top"><a id="add5393ad5f5fc30bab6744f3cfb9a1d0"></a>
-<a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>rho_pseudo_core</b> ()</td></tr>
-<tr class="separator:add5393ad5f5fc30bab6744f3cfb9a1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a962cb9b540b71065726e4fccd7b7b5b4"><td class="memItemLeft" align="right" valign="top"><a id="a962cb9b540b71065726e4fccd7b7b5b4"></a>
+<a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>rho_pseudo_core</b> ()</td></tr>
+<tr class="separator:a962cb9b540b71065726e4fccd7b7b5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81e1c48f8abda0a2225601a036b8b519"><td class="memItemLeft" align="right" valign="top"><a id="a81e1c48f8abda0a2225601a036b8b519"></a>
 <a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; **&#160;</td><td class="memItemRight" valign="bottom"><b>magnetization</b> ()</td></tr>
 <tr class="separator:a81e1c48f8abda0a2225601a036b8b519"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,6 +217,9 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>dr2</b> ()</td></tr
 <tr class="memitem:a7d390abb5be73da91637dde8d0f2e550"><td class="memItemLeft" align="right" valign="top"><a id="a7d390abb5be73da91637dde8d0f2e550"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>fft_transform</b> (int direction__)</td></tr>
 <tr class="separator:a7d390abb5be73da91637dde8d0f2e550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a6b436435801683d59cf31c8466b58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#a43a6b436435801683d59cf31c8466b58">density_matrix_aux</a> (int iat__)</td></tr>
+<tr class="memdesc:a43a6b436435801683d59cf31c8466b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return density matrix in auxiliary form.  <a href="#a43a6b436435801683d59cf31c8466b58">More...</a><br /></td></tr>
+<tr class="separator:a43a6b436435801683d59cf31c8466b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a196bae7e30dffa1e83db9976ef8e0109"><td class="memTemplParams" colspan="2"><a id="a196bae7e30dffa1e83db9976ef8e0109"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a196bae7e30dffa1e83db9976ef8e0109"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>add_k_point_contribution_dm</b> (<a class="el" href="classsirius_1_1_k__point.html">K_point</a> *kp__, mdarray&lt; double_complex, 4 &gt; &amp;density_matrix__)</td></tr>
@@ -249,7 +249,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_paw_atom_den
 <tr class="separator:afb79baac042b44ac8513cad372eb8dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a196bae7e30dffa1e83db9976ef8e0109"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a196bae7e30dffa1e83db9976ef8e0109"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#a196bae7e30dffa1e83db9976ef8e0109">add_k_point_contribution_dm</a> (<a class="el" href="classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 4 &gt; &amp;density_matrix__)</td></tr>
-<tr class="memdesc:a196bae7e30dffa1e83db9976ef8e0109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add k-point contribution to the auxiliary density matrix.  <a href="#a196bae7e30dffa1e83db9976ef8e0109">More...</a><br /></td></tr>
+<tr class="memdesc:a196bae7e30dffa1e83db9976ef8e0109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add k-point contribution to the density matrix in the canonical form.  <a href="#a196bae7e30dffa1e83db9976ef8e0109">More...</a><br /></td></tr>
 <tr class="separator:a196bae7e30dffa1e83db9976ef8e0109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7494a6071dc9a5ace4d812abb3eedfdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#a7494a6071dc9a5ace4d812abb3eedfdd">add_k_point_contribution_rg</a> (<a class="el" href="classsirius_1_1_k__point.html">K_point</a> *kp__)</td></tr>
 <tr class="memdesc:a7494a6071dc9a5ace4d812abb3eedfdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add k-point contribution to the density and magnetization defined on the regular FFT grid.  <a href="#a7494a6071dc9a5ace4d812abb3eedfdd">More...</a><br /></td></tr>
@@ -281,29 +281,29 @@ std::vector&lt; <a class="el" href="structsirius_1_1_density_1_1paw__density__da
 <tr class="memitem:abc158fb9460608eb1d4c07775e0726f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#abc158fb9460608eb1d4c07775e0726f0">rho_</a></td></tr>
 <tr class="memdesc:abc158fb9460608eb1d4c07775e0726f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to charge density.  <a href="#abc158fb9460608eb1d4c07775e0726f0">More...</a><br /></td></tr>
 <tr class="separator:abc158fb9460608eb1d4c07775e0726f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4aa8524e5c20a5dcac6f178daa368aa"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="classsirius_1_1experimental_1_1_smooth__periodic__function.html">experimental::Smooth_periodic_function</a>&lt; double &gt; &gt;, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#af4aa8524e5c20a5dcac6f178daa368aa">rho_mag_coarse_</a></td></tr>
-<tr class="memdesc:af4aa8524e5c20a5dcac6f178daa368aa"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classsirius_1_1_density.html" title="Generate charge density and magnetization from occupied spinor wave-functions. ">Density</a> and magnetization on the coarse FFT mesh.  <a href="#af4aa8524e5c20a5dcac6f178daa368aa">More...</a><br /></td></tr>
-<tr class="separator:af4aa8524e5c20a5dcac6f178daa368aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cf48773d794f87d2d49d9e0b04bd05d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#a4cf48773d794f87d2d49d9e0b04bd05d">rho_pseudo_core_</a> {nullptr}</td></tr>
-<tr class="memdesc:a4cf48773d794f87d2d49d9e0b04bd05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to pseudo core charge density.  <a href="#a4cf48773d794f87d2d49d9e0b04bd05d">More...</a><br /></td></tr>
-<tr class="separator:a4cf48773d794f87d2d49d9e0b04bd05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d2944c3a36c3f5c8dde800848bcf1e"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &gt;, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#ae9d2944c3a36c3f5c8dde800848bcf1e">rho_mag_coarse_</a></td></tr>
+<tr class="memdesc:ae9d2944c3a36c3f5c8dde800848bcf1e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classsirius_1_1_density.html" title="Generate charge density and magnetization from occupied spinor wave-functions. ">Density</a> and magnetization on the coarse FFT mesh.  <a href="#ae9d2944c3a36c3f5c8dde800848bcf1e">More...</a><br /></td></tr>
+<tr class="separator:ae9d2944c3a36c3f5c8dde800848bcf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f0f2b0586f0eb2f87efc7c0d27dfae"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#a57f0f2b0586f0eb2f87efc7c0d27dfae">rho_pseudo_core_</a> {nullptr}</td></tr>
+<tr class="memdesc:a57f0f2b0586f0eb2f87efc7c0d27dfae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to pseudo core charge density.  <a href="#a57f0f2b0586f0eb2f87efc7c0d27dfae">More...</a><br /></td></tr>
+<tr class="separator:a57f0f2b0586f0eb2f87efc7c0d27dfae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f112457e595438482ef91ad589017e1"><td class="memItemLeft" align="right" valign="top"><a id="a6f112457e595438482ef91ad589017e1"></a>
 <a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>magnetization_</b> [3]</td></tr>
 <tr class="separator:a6f112457e595438482ef91ad589017e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acee7a0147e974ac60cedc82d903f70d4"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classsirius_1_1_gaunt__coefficients.html">Gaunt_coefficients</a>&lt; double_complex &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#acee7a0147e974ac60cedc82d903f70d4">gaunt_coefs_</a> {nullptr}</td></tr>
 <tr class="memdesc:acee7a0147e974ac60cedc82d903f70d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-zero Gaunt coefficients.  <a href="#acee7a0147e974ac60cedc82d903f70d4">More...</a><br /></td></tr>
 <tr class="separator:acee7a0147e974ac60cedc82d903f70d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade06e0d3019316f0cf544a5bc2303776"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#ade06e0d3019316f0cf544a5bc2303776">l_by_lm_</a></td></tr>
-<tr class="memdesc:ade06e0d3019316f0cf544a5bc2303776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast mapping between composite lm index and corresponding orbital quantum number.  <a href="#ade06e0d3019316f0cf544a5bc2303776">More...</a><br /></td></tr>
-<tr class="separator:ade06e0d3019316f0cf544a5bc2303776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64370cd7cb88f19313105ed56cc04699"><td class="memItemLeft" align="right" valign="top"><a id="a64370cd7cb88f19313105ed56cc04699"></a>
-std::unique_ptr&lt; <a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt; double_complex &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>high_freq_mixer_</b> {nullptr}</td></tr>
-<tr class="separator:a64370cd7cb88f19313105ed56cc04699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3315f3e94017647c28070cec9ff3eab"><td class="memItemLeft" align="right" valign="top"><a id="ac3315f3e94017647c28070cec9ff3eab"></a>
-std::unique_ptr&lt; <a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt; double_complex &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>low_freq_mixer_</b> {nullptr}</td></tr>
-<tr class="separator:ac3315f3e94017647c28070cec9ff3eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3d892477f485ee54e50d10f176260a4"><td class="memItemLeft" align="right" valign="top"><a id="ad3d892477f485ee54e50d10f176260a4"></a>
-std::unique_ptr&lt; <a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_</b> {nullptr}</td></tr>
+<tr class="memitem:aa8733705bbd4cda32e687775a5558f6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; int, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#aa8733705bbd4cda32e687775a5558f6d">l_by_lm_</a></td></tr>
+<tr class="memdesc:aa8733705bbd4cda32e687775a5558f6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast mapping between composite lm index and corresponding orbital quantum number.  <a href="#aa8733705bbd4cda32e687775a5558f6d">More...</a><br /></td></tr>
+<tr class="separator:aa8733705bbd4cda32e687775a5558f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf287d937bfb93f6509177bb2ae6344"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt; double_complex &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#a7cf287d937bfb93f6509177bb2ae6344">hf_mixer_</a> {nullptr}</td></tr>
+<tr class="memdesc:a7cf287d937bfb93f6509177bb2ae6344"><td class="mdescLeft">&#160;</td><td class="mdescRight">High-frequency mixer for the pseudopotential density mixing.  <a href="#a7cf287d937bfb93f6509177bb2ae6344">More...</a><br /></td></tr>
+<tr class="separator:a7cf287d937bfb93f6509177bb2ae6344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aca217d3846a0f63f411af338d8bf74"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt; double_complex &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#a4aca217d3846a0f63f411af338d8bf74">lf_mixer_</a> {nullptr}</td></tr>
+<tr class="memdesc:a4aca217d3846a0f63f411af338d8bf74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Low-frequency mixer for the pseudopotential density mixing.  <a href="#a4aca217d3846a0f63f411af338d8bf74">More...</a><br /></td></tr>
+<tr class="separator:a4aca217d3846a0f63f411af338d8bf74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d892477f485ee54e50d10f176260a4"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_density.html#ad3d892477f485ee54e50d10f176260a4">mixer_</a> {nullptr}</td></tr>
+<tr class="memdesc:ad3d892477f485ee54e50d10f176260a4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classsirius_1_1_mixer.html" title="Abstract mixer. ">Mixer</a> for the full-potential density mixing.  <a href="#ad3d892477f485ee54e50d10f176260a4">More...</a><br /></td></tr>
 <tr class="separator:ad3d892477f485ee54e50d10f176260a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8ad5280a2c27d7ad5ce738bb887d96b"><td class="memItemLeft" align="right" valign="top"><a id="ad8ad5280a2c27d7ad5ce738bb887d96b"></a>
 std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lf_gvec_</b></td></tr>
@@ -311,6 +311,9 @@ std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>l
 <tr class="memitem:af08397a050d1912650aeedad758bc444"><td class="memItemLeft" align="right" valign="top"><a id="af08397a050d1912650aeedad758bc444"></a>
 std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>hf_gvec_</b></td></tr>
 <tr class="separator:af08397a050d1912650aeedad758bc444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c3792bf56200eb2768c91be106db20"><td class="memItemLeft" align="right" valign="top"><a id="a10c3792bf56200eb2768c91be106db20"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lf_gvec_weights_</b></td></tr>
+<tr class="separator:a10c3792bf56200eb2768c91be106db20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generate charge density and magnetization from occupied spinor wave-functions. </p>
@@ -377,7 +380,7 @@ std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>h
 
 <p>Constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00364">364</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00370">370</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -406,7 +409,7 @@ std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>h
 
 <p>Destructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00448">448</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00420">420</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -572,10 +575,10 @@ template&lt;int num_mag_dims, typename T &gt; </div>
 
 <p>Reduce complex density matrix over magnetic quantum numbers. </p>
 <p>The following operation is performed: </p><p class="formulaDsp">
-\[ d_{\ell \lambda, \ell&#39; \lambda&#39;, \ell_3 m_3}^{\alpha} = \sum_{mm&#39;} D_{\ell \lambda m, \ell&#39; \lambda&#39; m&#39;}^{\alpha} \langle Y_{\ell m} | R_{\ell_3 m_3} | Y_{\ell&#39; m&#39;} \rangle \]
+\[ n_{\ell \lambda, \ell&#39; \lambda&#39;, \ell_3 m_3}^{\alpha} = \sum_{mm&#39;} D_{\ell \lambda m, \ell&#39; \lambda&#39; m&#39;}^{\alpha} \langle Y_{\ell m} | R_{\ell_3 m_3} | Y_{\ell&#39; m&#39;} \rangle \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00256">256</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00262">262</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -615,7 +618,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Add k-point contribution to the auxiliary density matrix. </p>
+<p>Add k-point contribution to the density matrix in the canonical form. </p>
 <p>In case of full-potential LAPW complex density matrix has the following expression: </p><p class="formulaDsp">
 \[ d_{\xi \sigma, \xi&#39; \sigma&#39;}^{\alpha} = \sum_{j{\bf k}} n_{j{\bf k}} S_{\xi}^{\sigma j {\bf k},\alpha*} S_{\xi&#39;}^{\sigma&#39; j {\bf k},\alpha} \]
 </p>
@@ -717,7 +720,7 @@ template&lt;typename T &gt; </div>
 
 <p>Generate charge density of core states. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00332">332</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00338">338</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -757,7 +760,7 @@ template&lt;typename T &gt; </div>
 
 <p>Set pointers to muffin-tin and interstitial charge density arrays. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00460">460</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00429">429</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -797,7 +800,7 @@ template&lt;typename T &gt; </div>
 
 <p>Set pointers to muffin-tin and interstitial magnetization arrays. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00471">471</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00440">440</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -826,7 +829,7 @@ template&lt;typename T &gt; </div>
 
 <p>Zero density and magnetization. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00514">514</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00483">483</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -855,7 +858,7 @@ template&lt;typename T &gt; </div>
 
 <p>Find the total leakage of the core states out of the muffin-tins. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00523">523</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00492">492</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -885,7 +888,7 @@ template&lt;typename T &gt; </div>
 
 <p>Return core leakage for a specific atom symmetry class. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00533">533</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00502">502</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -943,7 +946,7 @@ template&lt;typename T &gt; </div>
 
 <p>Check total density for the correct number of electrons. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00546">546</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00515">515</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -974,7 +977,7 @@ template&lt;typename T &gt; </div>
 <p>Generate full charge density (valence + core) and magnetization from the wave functions. </p>
 <p>This function calls <a class="el" href="classsirius_1_1_density.html#aba34655a6e88da666ae30c6c464e5034" title="Generate valence charge density and magnetization from the wave functions. ">generate_valence()</a> and then in case of full-potential LAPW method adds a core density to get the full charge density of the system. </p>
 
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00577">577</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00546">546</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -1047,7 +1050,7 @@ template&lt;typename T &gt; </div>
 \[ d_{\xi \xi&#39;}^{A}({\bf G}) = \sum_{\alpha(A)} d_{\xi \xi&#39;}^{\alpha(A)} e^{-i{\bf G}\tau_{\alpha(A)}} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00630">630</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00599">599</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -1096,6 +1099,36 @@ template&lt;typename T &gt; </div>
 <p>generate n_1 and {n}_1 in lm components </p>
 
 <p class="definition">Definition at line <a class="el" href="paw__density_8hpp_source.html#l00204">204</a> of file <a class="el" href="paw__density_8hpp_source.html">paw_density.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a43a6b436435801683d59cf31c8466b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a6b436435801683d59cf31c8466b58">&#9670;&nbsp;</a></span>density_matrix_aux()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt;double, 3&gt; sirius::Density::density_matrix_aux </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iat__</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return density matrix in auxiliary form. </p>
+
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l01003">1003</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -1153,8 +1186,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="af4aa8524e5c20a5dcac6f178daa368aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4aa8524e5c20a5dcac6f178daa368aa">&#9670;&nbsp;</a></span>rho_mag_coarse_</h2>
+<a id="ae9d2944c3a36c3f5c8dde800848bcf1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9d2944c3a36c3f5c8dde800848bcf1e">&#9670;&nbsp;</a></span>rho_mag_coarse_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1163,7 +1196,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;std::unique_ptr&lt;<a class="el" href="classsirius_1_1experimental_1_1_smooth__periodic__function.html">experimental::Smooth_periodic_function</a>&lt;double&gt; &gt;, 4&gt; sirius::Density::rho_mag_coarse_</td>
+          <td class="memname">std::array&lt;std::unique_ptr&lt;<a class="el" href="classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt;double&gt; &gt;, 4&gt; sirius::Density::rho_mag_coarse_</td>
         </tr>
       </table>
   </td>
@@ -1180,8 +1213,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a4cf48773d794f87d2d49d9e0b04bd05d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cf48773d794f87d2d49d9e0b04bd05d">&#9670;&nbsp;</a></span>rho_pseudo_core_</h2>
+<a id="a57f0f2b0586f0eb2f87efc7c0d27dfae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f0f2b0586f0eb2f87efc7c0d27dfae">&#9670;&nbsp;</a></span>rho_pseudo_core_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1190,7 +1223,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt;double&gt;* sirius::Density::rho_pseudo_core_ {nullptr}</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classsirius_1_1_periodic__function.html">Periodic_function</a>&lt;double&gt; &gt; sirius::Density::rho_pseudo_core_ {nullptr}</td>
         </tr>
       </table>
   </td>
@@ -1233,8 +1266,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ade06e0d3019316f0cf544a5bc2303776"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade06e0d3019316f0cf544a5bc2303776">&#9670;&nbsp;</a></span>l_by_lm_</h2>
+<a id="aa8733705bbd4cda32e687775a5558f6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8733705bbd4cda32e687775a5558f6d">&#9670;&nbsp;</a></span>l_by_lm_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1243,7 +1276,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; sirius::Density::l_by_lm_</td>
+          <td class="memname"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt;int, 1&gt; sirius::Density::l_by_lm_</td>
         </tr>
       </table>
   </td>
@@ -1256,6 +1289,84 @@ template&lt;typename T &gt; </div>
 <p>Fast mapping between composite lm index and corresponding orbital quantum number. </p>
 
 <p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00186">186</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+
+</div>
+</div>
+<a id="a7cf287d937bfb93f6509177bb2ae6344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf287d937bfb93f6509177bb2ae6344">&#9670;&nbsp;</a></span>hf_mixer_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt;double_complex&gt; &gt; sirius::Density::hf_mixer_ {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>High-frequency mixer for the pseudopotential density mixing. </p>
+
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00189">189</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+
+</div>
+</div>
+<a id="a4aca217d3846a0f63f411af338d8bf74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aca217d3846a0f63f411af338d8bf74">&#9670;&nbsp;</a></span>lf_mixer_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt;double_complex&gt; &gt; sirius::Density::lf_mixer_ {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Low-frequency mixer for the pseudopotential density mixing. </p>
+
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00192">192</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3d892477f485ee54e50d10f176260a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d892477f485ee54e50d10f176260a4">&#9670;&nbsp;</a></span>mixer_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt;double&gt; &gt; sirius::Density::mixer_ {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classsirius_1_1_mixer.html" title="Abstract mixer. ">Mixer</a> for the full-potential density mixing. </p>
+
+<p class="definition">Definition at line <a class="el" href="density_8h_source.html#l00195">195</a> of file <a class="el" href="density_8h_source.html">density.h</a>.</p>
 
 </div>
 </div>
@@ -1273,7 +1384,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

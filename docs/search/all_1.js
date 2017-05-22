@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['active_5f',['active_',['../classsddk_1_1timer.html#ad18ec8c4ff4707eaaa575e94e744c70e',1,'sddk::timer']]],
   ['add',['add',['../classsirius_1_1_periodic__function.html#a39e334ef18345209c9b1f439aa8c2e86',1,'sirius::Periodic_function']]],
   ['add_5fatom',['add_atom',['../classsirius_1_1_unit__cell.html#a6370b1dd71c63be44228efabaf0d0293',1,'sirius::Unit_cell::add_atom(const std::string label, vector3d&lt; double &gt; position, vector3d&lt; double &gt; vector_field)'],['../classsirius_1_1_unit__cell.html#a89843c24de69f8968140a9cfff4bdd0f',1,'sirius::Unit_cell::add_atom(const std::string label, vector3d&lt; double &gt; position)']]],
   ['add_5fatom_5fid',['add_atom_id',['../classsirius_1_1_atom__symmetry__class.html#a5931a51adda0182cf5a4048f8650dc3b',1,'sirius::Atom_symmetry_class']]],
@@ -19,7 +18,6 @@ var searchData=
   ['allocate',['allocate',['../classsddk_1_1mdarray__base.html#a495ffd47ca2b4216a938882d17da89d3',1,'sddk::mdarray_base']]],
   ['allocate_5fmt',['allocate_mt',['../classsirius_1_1_periodic__function.html#a7d05cae35bbee9ab1c825ad28520b415',1,'sirius::Periodic_function']]],
   ['allocate_5fon_5fdevice',['allocate_on_device',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#aff411a242bc539feafcfe671ddeb48be',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]],
-  ['allocate_5fpw',['allocate_pw',['../classsirius_1_1_periodic__function.html#aae2151654d31f5985af2b9cee88e4cb2',1,'sirius::Periodic_function']]],
   ['allocator_5ftype',['allocator_type',['../classnlohmann_1_1basic__json.html#a86ce930490cf7773b26f5ef49c04a350',1,'nlohmann::basic_json']]],
   ['allreduce',['allreduce',['../classsddk_1_1_communicator.html#ac9dab9b16ceda0ec6abc9900775e128a',1,'sddk::Communicator::allreduce(T *buffer__, int count__) const'],['../classsddk_1_1_communicator.html#abd3e46ac2f96668266ce68caa5d30769',1,'sddk::Communicator::allreduce(std::vector&lt; T &gt; &amp;buffer__) const']]],
   ['alltoall_5fdescriptor',['alltoall_descriptor',['../structsddk_1_1alltoall__descriptor.html',1,'sddk']]],
@@ -49,7 +47,7 @@ var searchData=
   ['atom_5fid_5f',['atom_id_',['../classsirius_1_1_atom__symmetry__class.html#a1a554889233bd3be37d1ae94071e6fed',1,'sirius::Atom_symmetry_class']]],
   ['atom_5flo_5fcols_5f',['atom_lo_cols_',['../classsirius_1_1_k__point.html#a60c93116b6de3660cd0375f4e268e1ae',1,'sirius::K_point']]],
   ['atom_5flo_5frows_5f',['atom_lo_rows_',['../classsirius_1_1_k__point.html#adf2c9c65bb23f1ce9a7451d5d4553195',1,'sirius::K_point']]],
-  ['atom_5fsymmetry_5fclass',['Atom_symmetry_class',['../classsirius_1_1_atom__symmetry__class.html',1,'sirius::Atom_symmetry_class'],['../classsirius_1_1_atom__symmetry__class.html#a08eaf2331397fd9b3ef83d44ea77e57c',1,'sirius::Atom_symmetry_class::Atom_symmetry_class()'],['../classsirius_1_1_unit__cell.html#a947dac912e8cf3ebbf87f0776d93cdb1',1,'sirius::Unit_cell::atom_symmetry_class(int id__) const'],['../classsirius_1_1_unit__cell.html#aa01128897145c1c846e64b68aa81e60d',1,'sirius::Unit_cell::atom_symmetry_class(int id__)']]],
+  ['atom_5fsymmetry_5fclass',['Atom_symmetry_class',['../classsirius_1_1_atom__symmetry__class.html',1,'sirius::Atom_symmetry_class'],['../classsirius_1_1_unit__cell.html#a947dac912e8cf3ebbf87f0776d93cdb1',1,'sirius::Unit_cell::atom_symmetry_class(int id__) const'],['../classsirius_1_1_unit__cell.html#aa01128897145c1c846e64b68aa81e60d',1,'sirius::Unit_cell::atom_symmetry_class(int id__)'],['../classsirius_1_1_atom__symmetry__class.html#a08eaf2331397fd9b3ef83d44ea77e57c',1,'sirius::Atom_symmetry_class::Atom_symmetry_class()']]],
   ['atom_5fsymmetry_5fclass_2eh',['atom_symmetry_class.h',['../atom__symmetry__class_8h.html',1,'']]],
   ['atom_5fsymmetry_5fclasses_5f',['atom_symmetry_classes_',['../classsirius_1_1_unit__cell.html#a3e78840bc6c66018adaf378969a9dca5',1,'sirius::Unit_cell']]],
   ['atom_5ftype',['Atom_type',['../classsirius_1_1_atom__type.html',1,'sirius::Atom_type'],['../classsirius_1_1_unit__cell.html#a1ea078d2bead28d4b1ad5fb695b9c57f',1,'sirius::Unit_cell::atom_type(int id__)'],['../classsirius_1_1_unit__cell.html#acc1c635a8ee7c01c7759d7d62910777a',1,'sirius::Unit_cell::atom_type(int id__) const'],['../classsirius_1_1_unit__cell.html#a9cb64348513a41da01eab5eb93e3eb34',1,'sirius::Unit_cell::atom_type(std::string const label__)'],['../classsirius_1_1_unit__cell.html#a09255a8aba6651cd5398b1815d235863',1,'sirius::Unit_cell::atom_type(std::string const label__) const']]],
@@ -66,6 +64,7 @@ var searchData=
   ['augment',['augment',['../structpseudopotential__descriptor.html#a924706ceb283fbae59e46fb0ff947054',1,'pseudopotential_descriptor::augment()'],['../classsirius_1_1_density.html#ab24421e0c72f7eb03c9ccd4006673e9f',1,'sirius::Density::augment()']]],
   ['augmentation_5foperator',['Augmentation_operator',['../classsirius_1_1_augmentation__operator.html',1,'sirius']]],
   ['augmentation_5foperator_2eh',['augmentation_operator.h',['../augmentation__operator_8h.html',1,'']]],
+  ['augmentation_5foperator_5fgvec_5fderiv',['Augmentation_operator_gvec_deriv',['../classsirius_1_1_augmentation__operator__gvec__deriv.html',1,'sirius']]],
   ['auto_5fenu',['auto_enu',['../structradial__solution__descriptor.html#a4efb2665e4ab177682b288e992018526',1,'radial_solution_descriptor']]],
   ['auto_5frmt_5f',['auto_rmt_',['../structsirius_1_1_parameters__input.html#a3f38afc2d89925bd7a763ae7484c845c',1,'sirius::Parameters_input']]],
   ['aw_5fcutoff_5f',['aw_cutoff_',['../structsirius_1_1_parameters__input.html#a043183a23df0248f73e1814507164030',1,'sirius::Parameters_input']]],

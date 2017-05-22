@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -170,10 +170,6 @@ template&lt;bool B, typename T  = void&gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a53a082eedad9f4729fcd8fed552a21f7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>uncvref_t</b> = typename std::remove_cv&lt; typename std::remove_reference&lt; T &gt;::type &gt;::type</td></tr>
 <tr class="separator:a53a082eedad9f4729fcd8fed552a21f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0f6dad10410de436710870e8acc386b"><td class="memTemplParams" colspan="2"><a id="ab0f6dad10410de436710870e8acc386b"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ab0f6dad10410de436710870e8acc386b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>is_unscoped_enum</b> = std::integral_constant&lt; bool, std::is_convertible&lt; T, int &gt;::value and std::is_enum&lt; T &gt;::value &gt;</td></tr>
-<tr class="separator:ab0f6dad10410de436710870e8acc386b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -231,10 +227,10 @@ template&lt;typename BasicJsonType , typename CompatibleNumberUnsignedType , ena
 template&lt;typename BasicJsonType , typename CompatibleNumberIntegerType , enable_if_t&lt; is_compatible_integer_type&lt; typename BasicJsonType::number_integer_t, CompatibleNumberIntegerType &gt;::value, int &gt;  = 0&gt; </td></tr>
 <tr class="memitem:a91fe576be579c8c2fdd14610605c6dd2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_json</b> (BasicJsonType &amp;j, CompatibleNumberIntegerType val) noexcept</td></tr>
 <tr class="separator:a91fe576be579c8c2fdd14610605c6dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f83504de38ee6f440a77ae898b86a18"><td class="memTemplParams" colspan="2"><a id="a1f83504de38ee6f440a77ae898b86a18"></a>
-template&lt;typename BasicJsonType , typename UnscopedEnumType , enable_if_t&lt; is_unscoped_enum&lt; UnscopedEnumType &gt;::value, int &gt;  = 0&gt; </td></tr>
-<tr class="memitem:a1f83504de38ee6f440a77ae898b86a18"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_json</b> (BasicJsonType &amp;j, UnscopedEnumType e) noexcept</td></tr>
-<tr class="separator:a1f83504de38ee6f440a77ae898b86a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8b159dba71981d6c555d284cf6e2bf"><td class="memTemplParams" colspan="2"><a id="a0c8b159dba71981d6c555d284cf6e2bf"></a>
+template&lt;typename BasicJsonType , typename EnumType , enable_if_t&lt; std::is_enum&lt; EnumType &gt;::value, int &gt;  = 0&gt; </td></tr>
+<tr class="memitem:a0c8b159dba71981d6c555d284cf6e2bf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_json</b> (BasicJsonType &amp;j, EnumType e) noexcept</td></tr>
+<tr class="separator:a0c8b159dba71981d6c555d284cf6e2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeca6fb5fede5ed1e12a4420d98a5692b"><td class="memTemplParams" colspan="2"><a id="aeca6fb5fede5ed1e12a4420d98a5692b"></a>
 template&lt;typename BasicJsonType &gt; </td></tr>
 <tr class="memitem:aeca6fb5fede5ed1e12a4420d98a5692b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_json</b> (BasicJsonType &amp;j, const std::vector&lt; bool &gt; &amp;e)</td></tr>
@@ -275,10 +271,10 @@ template&lt;typename BasicJsonType &gt; </td></tr>
 template&lt;typename BasicJsonType &gt; </td></tr>
 <tr class="memitem:a047d881e611fcac709dc318f730a1732"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const BasicJsonType &amp;j, typename BasicJsonType::number_integer_t &amp;val)</td></tr>
 <tr class="separator:a047d881e611fcac709dc318f730a1732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf8dd944c2c7455880dee6f0b355aa01"><td class="memTemplParams" colspan="2"><a id="acf8dd944c2c7455880dee6f0b355aa01"></a>
-template&lt;typename BasicJsonType , typename UnscopedEnumType , enable_if_t&lt; is_unscoped_enum&lt; UnscopedEnumType &gt;::value, int &gt;  = 0&gt; </td></tr>
-<tr class="memitem:acf8dd944c2c7455880dee6f0b355aa01"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const BasicJsonType &amp;j, UnscopedEnumType &amp;e)</td></tr>
-<tr class="separator:acf8dd944c2c7455880dee6f0b355aa01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5440d650150d01e8015133521351b459"><td class="memTemplParams" colspan="2"><a id="a5440d650150d01e8015133521351b459"></a>
+template&lt;typename BasicJsonType , typename EnumType , enable_if_t&lt; std::is_enum&lt; EnumType &gt;::value, int &gt;  = 0&gt; </td></tr>
+<tr class="memitem:a5440d650150d01e8015133521351b459"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const BasicJsonType &amp;j, EnumType &amp;e)</td></tr>
+<tr class="separator:a5440d650150d01e8015133521351b459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc62958462b916726b89f25fa381a129"><td class="memTemplParams" colspan="2"><a id="abc62958462b916726b89f25fa381a129"></a>
 template&lt;typename BasicJsonType &gt; </td></tr>
 <tr class="memitem:abc62958462b916726b89f25fa381a129"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const BasicJsonType &amp;j, typename BasicJsonType::array_t &amp;arr)</td></tr>
@@ -359,7 +355,7 @@ template&lt;typename BasicJsonType , typename ArithmeticType , enable_if_t&lt; s
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00346">346</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00399">399</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -405,14 +401,14 @@ template&lt;typename BasicJsonType , typename ArithmeticType , enable_if_t&lt; s
 </ul>
 <dl class="section since"><dt>Since</dt><dd>version 1.0.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00368">368</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l00421">421</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:42 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:02 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

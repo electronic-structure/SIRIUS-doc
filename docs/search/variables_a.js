@@ -1,11 +1,12 @@
 var searchData=
 [
   ['l',['l',['../structatomic__level__descriptor.html#ad0bb3ad2f4eab20df397def844ff210f',1,'atomic_level_descriptor::l()'],['../structradial__solution__descriptor.html#a006a1f6f6efe200121f1ff1168581828',1,'radial_solution_descriptor::l()'],['../structlo__basis__descriptor.html#a8e71167cce641d248983f6632958295c',1,'lo_basis_descriptor::l()']]],
-  ['l_5fby_5flm_5f',['l_by_lm_',['../classsirius_1_1_density.html#ade06e0d3019316f0cf544a5bc2303776',1,'sirius::Density::l_by_lm_()'],['../classsirius_1_1_k__point.html#afcd70ca076b5714dfbc9ceb8503299b6',1,'sirius::K_point::l_by_lm_()']]],
-  ['label_5f',['label_',['../classsirius_1_1_atom__type.html#ad79bc28c0df0bc7819723e8013fba602',1,'sirius::Atom_type::label_()'],['../classsddk_1_1mdarray__base.html#ac901c98b22f5d42b0a1a57a097e43904',1,'sddk::mdarray_base::label_()'],['../classsddk_1_1timer.html#a78daa1e180d40695082fb541b209c1ac',1,'sddk::timer::label_()'],['../classsddk_1_1_profiler.html#a0002ab96e7c57f2681b24aaa699c1780',1,'sddk::Profiler::label_()']]],
+  ['l_5fby_5flm_5f',['l_by_lm_',['../classsirius_1_1_density.html#aa8733705bbd4cda32e687775a5558f6d',1,'sirius::Density::l_by_lm_()'],['../classsirius_1_1_k__point.html#a62fcd0cdf115a6925808f2c85713ae8f',1,'sirius::K_point::l_by_lm_()']]],
+  ['label_5f',['label_',['../classsddk_1_1mdarray__base.html#ac901c98b22f5d42b0a1a57a097e43904',1,'sddk::mdarray_base::label_()'],['../classsddk_1_1_profiler.html#a0002ab96e7c57f2681b24aaa699c1780',1,'sddk::Profiler::label_()'],['../classsirius_1_1_atom__type.html#ad79bc28c0df0bc7819723e8013fba602',1,'sirius::Atom_type::label_()']]],
   ['last_5ftoken',['last_token',['../classnlohmann_1_1basic__json_1_1parser.html#ace0babedd22742bbb5f31d35d1d5baa9',1,'nlohmann::basic_json::parser']]],
   ['last_5ftoken_5ftype',['last_token_type',['../classnlohmann_1_1basic__json_1_1lexer.html#a2ad8bad3a2224be7fdd4e4bb0f757a0e',1,'nlohmann::basic_json::lexer']]],
   ['lattice_5fvectors_5f',['lattice_vectors_',['../classsddk_1_1_gvec.html#ad07aec291ebc9cd3012add1cf5ebcd21',1,'sddk::Gvec::lattice_vectors_()'],['../classsirius_1_1_symmetry.html#a1c35a9b0ec45df680af1758a2a7a774f',1,'sirius::Symmetry::lattice_vectors_()'],['../classsirius_1_1_unit__cell.html#acb1fbcd9964cb8415d38c2e23c77c076',1,'sirius::Unit_cell::lattice_vectors_()']]],
+  ['lf_5fmixer_5f',['lf_mixer_',['../classsirius_1_1_density.html#a4aca217d3846a0f63f411af338d8bf74',1,'sirius::Density']]],
   ['line_5f',['line_',['../classsddk_1_1_profiler.html#a9a3f56b94bb94e03aa901d2d272e21fa',1,'sddk::Profiler']]],
   ['lm',['lm',['../structlo__basis__descriptor.html#ae2fb8ed488b4b69f0785c05d2c798c4e',1,'lo_basis_descriptor']]],
   ['lmax1_5f',['lmax1_',['../classsirius_1_1_gaunt__coefficients.html#a8ddbcceeffa0ce2992080d8a671c023d',1,'sirius::Gaunt_coefficients']]],
@@ -14,7 +15,7 @@ var searchData=
   ['lmax_5f',['lmax_',['../classsirius_1_1_unit__cell.html#a622aa1eeb5b646e665194cbc6d7dc08c',1,'sirius::Unit_cell']]],
   ['lmax_5fapw_5f',['lmax_apw_',['../structsirius_1_1_parameters__input.html#aa547d8edd71dbb01b9cf93461f2e3dd8',1,'sirius::Parameters_input']]],
   ['lmax_5fbeta_5f',['lmax_beta_',['../structpseudopotential__descriptor.html#ae4237a6921e6d375f23aedf4c8d523bd',1,'pseudopotential_descriptor']]],
-  ['lmax_5fpot_5f',['lmax_pot_',['../classsirius_1_1_atom.html#a98c17af482e25dac1a79a76360e875bf',1,'sirius::Atom::lmax_pot_()'],['../structsirius_1_1_parameters__input.html#ac307769a221dc2ac6f5bdb9819afedb7',1,'sirius::Parameters_input::lmax_pot_()']]],
+  ['lmax_5fpot_5f',['lmax_pot_',['../structsirius_1_1_parameters__input.html#ac307769a221dc2ac6f5bdb9819afedb7',1,'sirius::Parameters_input::lmax_pot_()'],['../classsirius_1_1_atom.html#a98c17af482e25dac1a79a76360e875bf',1,'sirius::Atom::lmax_pot_()']]],
   ['lmax_5frho_5f',['lmax_rho_',['../structsirius_1_1_parameters__input.html#aa336c32ca15ec34bff0ac2668601993e',1,'sirius::Parameters_input']]],
   ['lmmax1_5f',['lmmax1_',['../classsirius_1_1_gaunt__coefficients.html#a958c8c57277f3e424c56e2272952fe02',1,'sirius::Gaunt_coefficients']]],
   ['lmmax2_5f',['lmmax2_',['../classsirius_1_1_gaunt__coefficients.html#a428fcaf6fa20fb79f487b7abfd648b04',1,'sirius::Gaunt_coefficients']]],
@@ -24,5 +25,7 @@ var searchData=
   ['lo_5fdescriptors_5f',['lo_descriptors_',['../classsirius_1_1_atom__symmetry__class.html#a28d09903836c52e4b0fc322776b3aab8',1,'sirius::Atom_symmetry_class::lo_descriptors_()'],['../classsirius_1_1_atom__type.html#a246365cd7339aec55dd3667359d07497',1,'sirius::Atom_type::lo_descriptors_()']]],
   ['loc',['loc',['../classnlohmann_1_1basic__json_1_1serializer.html#aa11332d616d63c6223292d65895b84dd',1,'nlohmann::basic_json::serializer']]],
   ['local_5fpotential_5f',['local_potential_',['../classsirius_1_1_potential.html#a4071c9c5b14fd52005538e4de6e7943d',1,'sirius::Potential']]],
-  ['local_5fsize_5fz_5f',['local_size_z_',['../classsddk_1_1_f_f_t3_d.html#a999766ae41a3fbe1d8c2643eba850ba6',1,'sddk::FFT3D']]]
+  ['local_5fsize_5f',['local_size_',['../classsirius_1_1_mixer.html#a473c9cdb6f68643e5445079d3a511649',1,'sirius::Mixer']]],
+  ['local_5fsize_5fz_5f',['local_size_z_',['../classsddk_1_1_f_f_t3_d.html#a999766ae41a3fbe1d8c2643eba850ba6',1,'sddk::FFT3D']]],
+  ['local_5fvector_5fsize_5f',['local_vector_size_',['../classsirius_1_1_mixer.html#a19029728dcb082f4e778b2e4003862e1',1,'sirius::Mixer']]]
 ];

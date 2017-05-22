@@ -1,6 +1,7 @@
 var searchData=
 [
   ['object',['object',['../classnlohmann_1_1basic__json.html#a9f42ee7d10eee2d5a73fd94ca7f767ca',1,'nlohmann::basic_json']]],
+  ['offset',['offset',['../classsddk_1_1_gvec.html#a87c1461b9ee2cda1a1e87cdc5d09fa92',1,'sddk::Gvec']]],
   ['omega',['omega',['../classsirius_1_1_unit__cell.html#a08941ec2851216ef94d71ba7933cd38b',1,'sirius::Unit_cell']]],
   ['operator_20value_5ft',['operator value_t',['../classnlohmann_1_1basic__json.html#a26ef3058e249f82a04f8ec18f7419027',1,'nlohmann::basic_json']]],
   ['operator_20valuetype',['operator ValueType',['../classnlohmann_1_1basic__json.html#a1f1d4bc973c5b866db3d96e14d2c9f3f',1,'nlohmann::basic_json']]],

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -72,6 +72,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classsirius_1_1_smooth__periodic__function-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -79,7 +80,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Smooth periodic function on the regular real-space grid or in plane-wave domain.  
+<p>Representation of a smooth (Fourier-transformable) periodic function.  
  <a href="classsirius_1_1_smooth__periodic__function.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for sirius::Smooth_periodic_function&lt; T &gt;:</div>
@@ -94,18 +95,21 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classsirius_1_1_smooth__periodic__function__coll__graph.svg" width="372" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classsirius_1_1_smooth__periodic__function__coll__graph.svg" width="372" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a71442cf90200f79ef17bf18b0009fdb0"><td class="memItemLeft" align="right" valign="top"><a id="a71442cf90200f79ef17bf18b0009fdb0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Smooth_periodic_function</b> (FFT3D &amp;fft__)</td></tr>
-<tr class="separator:a71442cf90200f79ef17bf18b0009fdb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af83291fdeae4f3906815315c5fa8c4b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_smooth__periodic__function.html#af83291fdeae4f3906815315c5fa8c4b5">Smooth_periodic_function</a> ()</td></tr>
+<tr class="memdesc:af83291fdeae4f3906815315c5fa8c4b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#af83291fdeae4f3906815315c5fa8c4b5">More...</a><br /></td></tr>
+<tr class="separator:af83291fdeae4f3906815315c5fa8c4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e8eb3649395eff9424649112195bcfe"><td class="memItemLeft" align="right" valign="top"><a id="a8e8eb3649395eff9424649112195bcfe"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Smooth_periodic_function</b> (FFT3D &amp;fft__, Gvec const &amp;gvec__)</td></tr>
 <tr class="separator:a8e8eb3649395eff9424649112195bcfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6454e473757b357cb098a827a5350d8"><td class="memItemLeft" align="right" valign="top"><a id="ad6454e473757b357cb098a827a5350d8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>zero</b> ()</td></tr>
+<tr class="separator:ad6454e473757b357cb098a827a5350d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d7f66846cbf56aed86d37b8715a5592"><td class="memItemLeft" align="right" valign="top"><a id="a4d7f66846cbf56aed86d37b8715a5592"></a>
 T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f_rg</b> (int ir__)</td></tr>
 <tr class="separator:a4d7f66846cbf56aed86d37b8715a5592"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,9 +119,15 @@ T const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f_rg</b> (i
 <tr class="memitem:a2cad8092a1d4b51cef4d8a139fdb383f"><td class="memItemLeft" align="right" valign="top"><a id="a2cad8092a1d4b51cef4d8a139fdb383f"></a>
 double_complex &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f_pw_local</b> (int ig__)</td></tr>
 <tr class="separator:a2cad8092a1d4b51cef4d8a139fdb383f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4ed9ba2a43110265dfe81ccbfc4c4de"><td class="memItemLeft" align="right" valign="top"><a id="ad4ed9ba2a43110265dfe81ccbfc4c4de"></a>
-const double_complex &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f_pw_local</b> (int ig__) const</td></tr>
-<tr class="separator:ad4ed9ba2a43110265dfe81ccbfc4c4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a753218d04c5bcba253581ba68024558a"><td class="memItemLeft" align="right" valign="top"><a id="a753218d04c5bcba253581ba68024558a"></a>
+double_complex const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f_pw_local</b> (int ig__) const</td></tr>
+<tr class="separator:a753218d04c5bcba253581ba68024558a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fe50645c32c351d22c7c461aeb06be4"><td class="memItemLeft" align="right" valign="top"><a id="a1fe50645c32c351d22c7c461aeb06be4"></a>
+double_complex &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f_pw_fft</b> (int ig__)</td></tr>
+<tr class="separator:a1fe50645c32c351d22c7c461aeb06be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd9a8ee5bcbbcf31cb012c940aa14a0"><td class="memItemLeft" align="right" valign="top"><a id="a6bd9a8ee5bcbbcf31cb012c940aa14a0"></a>
+double_complex&#160;</td><td class="memItemRight" valign="bottom"><b>f_0</b> () const</td></tr>
+<tr class="separator:a6bd9a8ee5bcbbcf31cb012c940aa14a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af99389c48a9c84a3d1170ef87dca60e8"><td class="memItemLeft" align="right" valign="top"><a id="af99389c48a9c84a3d1170ef87dca60e8"></a>
 FFT3D &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>fft</b> ()</td></tr>
 <tr class="separator:af99389c48a9c84a3d1170ef87dca60e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,6 +140,18 @@ Gvec const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>gvec</b>
 <tr class="memitem:ac3bd4fd6e700886626e20563c8c82b9a"><td class="memItemLeft" align="right" valign="top"><a id="ac3bd4fd6e700886626e20563c8c82b9a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>fft_transform</b> (int direction__)</td></tr>
 <tr class="separator:ac3bd4fd6e700886626e20563c8c82b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a140bd042c02666f1733f826181de6492"><td class="memItemLeft" align="right" valign="top"><a id="a140bd042c02666f1733f826181de6492"></a>
+std::vector&lt; double_complex &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>gather_f_pw</b> ()</td></tr>
+<tr class="separator:a140bd042c02666f1733f826181de6492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace019c39507445675e96de873df8b5b2"><td class="memItemLeft" align="right" valign="top"><a id="ace019c39507445675e96de873df8b5b2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>scatter_f_pw</b> (std::vector&lt; double_complex &gt; const &amp;f_pw__)</td></tr>
+<tr class="separator:ace019c39507445675e96de873df8b5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a7281ad3e05341f9a116d2d828c549baf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_smooth__periodic__function.html#a7281ad3e05341f9a116d2d828c549baf">gather_f_pw_fft</a> ()</td></tr>
+<tr class="memdesc:a7281ad3e05341f9a116d2d828c549baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gather plane-wave coefficients for the subsequent FFT call.  <a href="#a7281ad3e05341f9a116d2d828c549baf">More...</a><br /></td></tr>
+<tr class="separator:a7281ad3e05341f9a116d2d828c549baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -145,16 +167,92 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:acf70e39f87e7a5e51a32a98e2e328c9b"><td class="memItemLeft" align="right" valign="top">mdarray&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_smooth__periodic__function.html#acf70e39f87e7a5e51a32a98e2e328c9b">f_pw_local_</a></td></tr>
 <tr class="memdesc:acf70e39f87e7a5e51a32a98e2e328c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local set of plane-wave expansion coefficients.  <a href="#acf70e39f87e7a5e51a32a98e2e328c9b">More...</a><br /></td></tr>
 <tr class="separator:acf70e39f87e7a5e51a32a98e2e328c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e0ba8606dd1c3993f8f8697ad9a422"><td class="memItemLeft" align="right" valign="top">mdarray&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_smooth__periodic__function.html#a26e0ba8606dd1c3993f8f8697ad9a422">f_pw_fft_</a></td></tr>
+<tr class="memdesc:a26e0ba8606dd1c3993f8f8697ad9a422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage of the PW coefficients for the FFT transformation.  <a href="#a26e0ba8606dd1c3993f8f8697ad9a422">More...</a><br /></td></tr>
+<tr class="separator:a26e0ba8606dd1c3993f8f8697ad9a422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f474a3162ca010960825e0124630e5"><td class="memItemLeft" align="right" valign="top">block_data_descriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_smooth__periodic__function.html#a24f474a3162ca010960825e0124630e5">gvec_fft_slab_</a></td></tr>
+<tr class="memdesc:a24f474a3162ca010960825e0124630e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distribution of G-vectors inside FFT slab.  <a href="#a24f474a3162ca010960825e0124630e5">More...</a><br /></td></tr>
+<tr class="separator:a24f474a3162ca010960825e0124630e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 class sirius::Smooth_periodic_function&lt; T &gt;</h3>
 
-<p>Smooth periodic function on the regular real-space grid or in plane-wave domain. </p>
-<p>Main purpose of this class is to provide a storage and representation of a smooth (Fourier-transformable) periodic function. </p>
+<p>Representation of a smooth (Fourier-transformable) periodic function. </p>
+<p>The class is designed to handle periodic functions such as density or potential, defined on a regular FFT grid. The following functionality is expected:</p><ul>
+<li>access to real-space values</li>
+<li>access to plane-wave coefficients</li>
+<li>distribution of plane-wave coefficients over entire communicator</li>
+<li>Fourier transformation using FFT communicator</li>
+<li>gather PW coefficients into global array In some cases the PW coefficients are not necessary and only the real-space values are stored. </li>
+</ul>
 
-<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00036">36</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00042">42</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af83291fdeae4f3906815315c5fa8c4b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af83291fdeae4f3906815315c5fa8c4b5">&#9670;&nbsp;</a></span>Smooth_periodic_function()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsirius_1_1_smooth__periodic__function.html">sirius::Smooth_periodic_function</a>&lt; T &gt;::<a class="el" href="classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00079">79</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7281ad3e05341f9a116d2d828c549baf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7281ad3e05341f9a116d2d828c549baf">&#9670;&nbsp;</a></span>gather_f_pw_fft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classsirius_1_1_smooth__periodic__function.html">sirius::Smooth_periodic_function</a>&lt; T &gt;::gather_f_pw_fft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gather plane-wave coefficients for the subsequent FFT call. </p>
+
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00065">65</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="af3ed2067e4e0a852a219d718e399f4d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3ed2067e4e0a852a219d718e399f4d1">&#9670;&nbsp;</a></span>fft_</h2>
 
@@ -179,7 +277,7 @@ template&lt;typename T&gt; </div>
 
 <p>FFT driver. </p>
 
-<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00041">41</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00047">47</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
 
 </div>
 </div>
@@ -207,7 +305,7 @@ template&lt;typename T&gt; </div>
 
 <p>Distribution of G-vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00044">44</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00050">50</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
 
 </div>
 </div>
@@ -235,7 +333,7 @@ template&lt;typename T&gt; </div>
 
 <p>Function on the regular real-space grid. </p>
 
-<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00047">47</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00053">53</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
 
 </div>
 </div>
@@ -263,7 +361,63 @@ template&lt;typename T&gt; </div>
 
 <p>Local set of plane-wave expansion coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00050">50</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00056">56</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+
+</div>
+</div>
+<a id="a26e0ba8606dd1c3993f8f8697ad9a422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e0ba8606dd1c3993f8f8697ad9a422">&#9670;&nbsp;</a></span>f_pw_fft_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">mdarray&lt;double_complex, 1&gt; <a class="el" href="classsirius_1_1_smooth__periodic__function.html">sirius::Smooth_periodic_function</a>&lt; T &gt;::f_pw_fft_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Storage of the PW coefficients for the FFT transformation. </p>
+
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00059">59</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
+
+</div>
+</div>
+<a id="a24f474a3162ca010960825e0124630e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f474a3162ca010960825e0124630e5">&#9670;&nbsp;</a></span>gvec_fft_slab_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">block_data_descriptor <a class="el" href="classsirius_1_1_smooth__periodic__function.html">sirius::Smooth_periodic_function</a>&lt; T &gt;::gvec_fft_slab_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Distribution of G-vectors inside FFT slab. </p>
+
+<p class="definition">Definition at line <a class="el" href="smooth__periodic__function_8h_source.html#l00062">62</a> of file <a class="el" href="smooth__periodic__function_8h_source.html">smooth_periodic_function.h</a>.</p>
 
 </div>
 </div>
@@ -273,7 +427,7 @@ template&lt;typename T&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:44 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:04 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

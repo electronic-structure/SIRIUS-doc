@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -88,7 +88,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6e6734ca9f7ce4ea6aab12971eaa4301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a6e6734ca9f7ce4ea6aab12971eaa4301">More...</a><br /></td></tr>
 <tr class="separator:a6e6734ca9f7ce4ea6aab12971eaa4301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abff3e3684cc4f9933eb93e1d101c1442"><td class="memItemLeft" align="right" valign="top">double_complex const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_step__function.html#abff3e3684cc4f9933eb93e1d101c1442">theta_pw</a> (int ig__) const</td></tr>
-<tr class="memdesc:abff3e3684cc4f9933eb93e1d101c1442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get \( \Theta(\alpha, G) \) form factors of the step function.  <a href="#abff3e3684cc4f9933eb93e1d101c1442">More...</a><br /></td></tr>
+<tr class="memdesc:abff3e3684cc4f9933eb93e1d101c1442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return plane-wave coefficient of the step function.  <a href="#abff3e3684cc4f9933eb93e1d101c1442">More...</a><br /></td></tr>
 <tr class="separator:abff3e3684cc4f9933eb93e1d101c1442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d2c308833f5ef3d5d109b1373336410"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_step__function.html#a3d2c308833f5ef3d5d109b1373336410">theta_r</a> (int ir__) const</td></tr>
 <tr class="memdesc:a3d2c308833f5ef3d5d109b1373336410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of the step function for the grid point ir.  <a href="#a3d2c308833f5ef3d5d109b1373336410">More...</a><br /></td></tr>
@@ -181,13 +181,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get \( \Theta(\alpha, G) \) form factors of the step function. </p>
-<p class="formulaDsp">
-\[ \Theta(\alpha, G) = \int_{0}^{R_{\alpha}} \frac{\sin(Gr)}{Gr} r^2 dr = \left\{ \begin{array}{ll} \displaystyle R_{\alpha}^3 / 3 &amp; G=0 \\ \Big( \sin(GR_{\alpha}) - GR_{\alpha}\cos(GR_{\alpha}) \Big) / G^3 &amp; G \ne 0 \end{array} \right. \]
-</p>
-<p> plane-wave coefficient of the step function. </p>
+<p>Return plane-wave coefficient of the step function. </p>
 
-<p class="definition">Definition at line <a class="el" href="step__function_8h_source.html#l00172">172</a> of file <a class="el" href="step__function_8h_source.html">step_function.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="step__function_8h_source.html#l00132">132</a> of file <a class="el" href="step__function_8h_source.html">step_function.h</a>.</p>
 
 </div>
 </div>
@@ -217,7 +213,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return the value of the step function for the grid point ir. </p>
 
-<p class="definition">Definition at line <a class="el" href="step__function_8h_source.html#l00179">179</a> of file <a class="el" href="step__function_8h_source.html">step_function.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="step__function_8h_source.html#l00139">139</a> of file <a class="el" href="step__function_8h_source.html">step_function.h</a>.</p>
 
 </div>
 </div>
@@ -280,7 +276,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:44 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:04 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

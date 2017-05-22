@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -394,11 +394,11 @@ std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>i
 <tr class="memdesc:adf2c9c65bb23f1ce9a7451d5d4553195"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of rows of the Hamiltonian and overlap matrix lo block (local index) for a given atom  <a href="#adf2c9c65bb23f1ce9a7451d5d4553195">More...</a><br /></td></tr>
 <tr class="separator:adf2c9c65bb23f1ce9a7451d5d4553195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63bb5c2fb436b8292cfc9215f488b44a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double_complex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_k__point.html#a63bb5c2fb436b8292cfc9215f488b44a">zil_</a></td></tr>
-<tr class="memdesc:a63bb5c2fb436b8292cfc9215f488b44a"><td class="mdescLeft">&#160;</td><td class="mdescRight">imaginary unit to the power of l  <a href="#a63bb5c2fb436b8292cfc9215f488b44a">More...</a><br /></td></tr>
+<tr class="memdesc:a63bb5c2fb436b8292cfc9215f488b44a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imaginary unit to the power of l.  <a href="#a63bb5c2fb436b8292cfc9215f488b44a">More...</a><br /></td></tr>
 <tr class="separator:a63bb5c2fb436b8292cfc9215f488b44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcd70ca076b5714dfbc9ceb8503299b6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_k__point.html#afcd70ca076b5714dfbc9ceb8503299b6">l_by_lm_</a></td></tr>
-<tr class="memdesc:afcd70ca076b5714dfbc9ceb8503299b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">mapping between lm and l  <a href="#afcd70ca076b5714dfbc9ceb8503299b6">More...</a><br /></td></tr>
-<tr class="separator:afcd70ca076b5714dfbc9ceb8503299b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62fcd0cdf115a6925808f2c85713ae8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; int, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_k__point.html#a62fcd0cdf115a6925808f2c85713ae8f">l_by_lm_</a></td></tr>
+<tr class="memdesc:a62fcd0cdf115a6925808f2c85713ae8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping between lm and l.  <a href="#a62fcd0cdf115a6925808f2c85713ae8f">More...</a><br /></td></tr>
+<tr class="separator:a62fcd0cdf115a6925808f2c85713ae8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa10c7539cc86b6a36c2b17b593fc6ad3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_k__point.html#aa10c7539cc86b6a36c2b17b593fc6ad3">rank_col_</a></td></tr>
 <tr class="memdesc:aa10c7539cc86b6a36c2b17b593fc6ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">column rank of the processors of ScaLAPACK/ELPA diagonalization grid  <a href="#aa10c7539cc86b6a36c2b17b593fc6ad3">More...</a><br /></td></tr>
 <tr class="separator:aa10c7539cc86b6a36c2b17b593fc6ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1765,14 +1765,14 @@ First-variational eigen vectors</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>imaginary unit to the power of l </p>
+<p>Imaginary unit to the power of l. </p>
 
 <p class="definition">Definition at line <a class="el" href="k__point_8h_source.html#l00126">126</a> of file <a class="el" href="k__point_8h_source.html">k_point.h</a>.</p>
 
 </div>
 </div>
-<a id="afcd70ca076b5714dfbc9ceb8503299b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcd70ca076b5714dfbc9ceb8503299b6">&#9670;&nbsp;</a></span>l_by_lm_</h2>
+<a id="a62fcd0cdf115a6925808f2c85713ae8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62fcd0cdf115a6925808f2c85713ae8f">&#9670;&nbsp;</a></span>l_by_lm_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1781,7 +1781,7 @@ First-variational eigen vectors</div></div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; sirius::K_point::l_by_lm_</td>
+          <td class="memname"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt;int, 1&gt; sirius::K_point::l_by_lm_</td>
         </tr>
       </table>
   </td>
@@ -1791,7 +1791,7 @@ First-variational eigen vectors</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>mapping between lm and l </p>
+<p>Mapping between lm and l. </p>
 
 <p class="definition">Definition at line <a class="el" href="k__point_8h_source.html#l00129">129</a> of file <a class="el" href="k__point_8h_source.html">k_point.h</a>.</p>
 
@@ -1939,7 +1939,7 @@ First-variational eigen vectors</div></div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -71,153 +71,71 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classsddk_1_1timer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">sddk::timer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Simple timer interface.  
- <a href="classsddk_1_1timer.html#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsddk_1_1timer_1_1timer__stats.html">timer_stats</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a85ca36ff06e7462c8328a1a2d7e8fc15"><td class="memItemLeft" align="right" valign="top"><a id="a85ca36ff06e7462c8328a1a2d7e8fc15"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>timer</b> (std::string const &amp;label__)</td></tr>
-<tr class="separator:a85ca36ff06e7462c8328a1a2d7e8fc15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab045b14923aea5ca83e4e56267ee201a"><td class="memItemLeft" align="right" valign="top"><a id="ab045b14923aea5ca83e4e56267ee201a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> ()</td></tr>
-<tr class="separator:ab045b14923aea5ca83e4e56267ee201a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff5e4a9f4a99e65ffbc6cf8e4ac81796"><td class="memItemLeft" align="right" valign="top"><a id="aff5e4a9f4a99e65ffbc6cf8e4ac81796"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>timer</b> (std::string label__)</td></tr>
+<tr class="separator:aff5e4a9f4a99e65ffbc6cf8e4ac81796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82102d82d2abf7f4d56fa04ecf0f6978"><td class="memItemLeft" align="right" valign="top"><a id="a82102d82d2abf7f4d56fa04ecf0f6978"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>stop</b> ()</td></tr>
 <tr class="separator:a82102d82d2abf7f4d56fa04ecf0f6978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad08967e98267bf5215197759a305dac9"><td class="memItemLeft" align="right" valign="top"><a id="ad08967e98267bf5215197759a305dac9"></a>
-static std::map&lt; std::string, std::vector&lt; double &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>timers</b> ()</td></tr>
-<tr class="separator:ad08967e98267bf5215197759a305dac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af467fe7da3b80aaf462b6750d5c869ae"><td class="memItemLeft" align="right" valign="top"><a id="af467fe7da3b80aaf462b6750d5c869ae"></a>
-static std::map&lt; std::string, <a class="el" href="structsddk_1_1timer_1_1timer__stats.html">timer_stats</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>collect_timer_stats</b> ()</td></tr>
-<tr class="separator:af467fe7da3b80aaf462b6750d5c869ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81c59ca698b3fb67afac7b75237b2ebc"><td class="memItemLeft" align="right" valign="top"><a id="a81c59ca698b3fb67afac7b75237b2ebc"></a>
-static double&#160;</td><td class="memItemRight" valign="bottom"><b>value</b> (std::string const &amp;label__)</td></tr>
-<tr class="separator:a81c59ca698b3fb67afac7b75237b2ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f3b8125adc14c0c0723f92809d266a8"><td class="memItemLeft" align="right" valign="top"><a id="a0f3b8125adc14c0c0723f92809d266a8"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>print</b> (double min_total__=0.1)</td></tr>
-<tr class="separator:a0f3b8125adc14c0c0723f92809d266a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9f7eb108acbc814963b219e8a2d865"><td class="memItemLeft" align="right" valign="top"><a id="a1c9f7eb108acbc814963b219e8a2d865"></a>
+static std::map&lt; std::string, <a class="el" href="structsddk_1_1timer__stats__t.html">timer_stats_t</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>timer_values</b> ()</td></tr>
+<tr class="separator:a1c9f7eb108acbc814963b219e8a2d865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad92ad82c8b9bb42bdffae5b95ed8f6c8"><td class="memItemLeft" align="right" valign="top"><a id="ad92ad82c8b9bb42bdffae5b95ed8f6c8"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>print</b> ()</td></tr>
+<tr class="separator:ad92ad82c8b9bb42bdffae5b95ed8f6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9698305deb2212dac2ac0c812891a41e"><td class="memItemLeft" align="right" valign="top"><a id="a9698305deb2212dac2ac0c812891a41e"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>print_tree</b> ()</td></tr>
+<tr class="separator:a9698305deb2212dac2ac0c812891a41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa184760659ed4a81e2e7113c75aef6fa"><td class="memItemLeft" align="right" valign="top"><a id="aa184760659ed4a81e2e7113c75aef6fa"></a>
+static std::map&lt; std::string, <a class="el" href="structsddk_1_1timer__stats__t.html">timer_stats_t</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>collect_timer_stats</b> ()</td></tr>
+<tr class="separator:aa184760659ed4a81e2e7113c75aef6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a78790798925db7759c10aba92837971b"><td class="memItemLeft" align="right" valign="top"><a id="a78790798925db7759c10aba92837971b"></a>
+static std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>stack</b> ()</td></tr>
+<tr class="separator:a78790798925db7759c10aba92837971b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a615f7b8c6fd32f7c13d96b0d7aab5612"><td class="memItemLeft" align="right" valign="top"><a id="a615f7b8c6fd32f7c13d96b0d7aab5612"></a>
+static std::map&lt; std::string, std::map&lt; std::string, double &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>timer_values_ex</b> ()</td></tr>
+<tr class="separator:a615f7b8c6fd32f7c13d96b0d7aab5612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a78daa1e180d40695082fb541b209c1ac"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1timer.html#a78daa1e180d40695082fb541b209c1ac">label_</a></td></tr>
-<tr class="memdesc:a78daa1e180d40695082fb541b209c1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">String label of the timer.  <a href="#a78daa1e180d40695082fb541b209c1ac">More...</a><br /></td></tr>
+<tr class="memitem:a78daa1e180d40695082fb541b209c1ac"><td class="memItemLeft" align="right" valign="top"><a id="a78daa1e180d40695082fb541b209c1ac"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>label_</b></td></tr>
 <tr class="separator:a78daa1e180d40695082fb541b209c1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f2db64ecb12bc8cee0038e45aecfb66"><td class="memItemLeft" align="right" valign="top">std::chrono::high_resolution_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1timer.html#a5f2db64ecb12bc8cee0038e45aecfb66">starting_time_</a></td></tr>
-<tr class="memdesc:a5f2db64ecb12bc8cee0038e45aecfb66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starting time.  <a href="#a5f2db64ecb12bc8cee0038e45aecfb66">More...</a><br /></td></tr>
-<tr class="separator:a5f2db64ecb12bc8cee0038e45aecfb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad18ec8c4ff4707eaaa575e94e744c70e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1timer.html#ad18ec8c4ff4707eaaa575e94e744c70e">active_</a> {false}</td></tr>
-<tr class="memdesc:ad18ec8c4ff4707eaaa575e94e744c70e"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if timer is running.  <a href="#ad18ec8c4ff4707eaaa575e94e744c70e">More...</a><br /></td></tr>
+<tr class="memitem:a4ebfad7edbfe681e3bc079f39300d682"><td class="memItemLeft" align="right" valign="top"><a id="a4ebfad7edbfe681e3bc079f39300d682"></a>
+time_point_t&#160;</td><td class="memItemRight" valign="bottom"><b>starting_time_</b></td></tr>
+<tr class="separator:a4ebfad7edbfe681e3bc079f39300d682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18ec8c4ff4707eaaa575e94e744c70e"><td class="memItemLeft" align="right" valign="top"><a id="ad18ec8c4ff4707eaaa575e94e744c70e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>active_</b> {false}</td></tr>
 <tr class="separator:ad18ec8c4ff4707eaaa575e94e744c70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Simple timer interface. </p>
-
-<p class="definition">Definition at line <a class="el" href="sddk__internal_8hpp_source.html#l00025">25</a> of file <a class="el" href="sddk__internal_8hpp_source.html">sddk_internal.hpp</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a78daa1e180d40695082fb541b209c1ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78daa1e180d40695082fb541b209c1ac">&#9670;&nbsp;</a></span>label_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string sddk::timer::label_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>String label of the timer. </p>
-
-<p class="definition">Definition at line <a class="el" href="sddk__internal_8hpp_source.html#l00029">29</a> of file <a class="el" href="sddk__internal_8hpp_source.html">sddk_internal.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5f2db64ecb12bc8cee0038e45aecfb66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f2db64ecb12bc8cee0038e45aecfb66">&#9670;&nbsp;</a></span>starting_time_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::chrono::high_resolution_clock::time_point sddk::timer::starting_time_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Starting time. </p>
-
-<p class="definition">Definition at line <a class="el" href="sddk__internal_8hpp_source.html#l00032">32</a> of file <a class="el" href="sddk__internal_8hpp_source.html">sddk_internal.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad18ec8c4ff4707eaaa575e94e744c70e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad18ec8c4ff4707eaaa575e94e744c70e">&#9670;&nbsp;</a></span>active_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool sddk::timer::active_ {false}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>True if timer is running. </p>
-
-<p class="definition">Definition at line <a class="el" href="sddk__internal_8hpp_source.html#l00035">35</a> of file <a class="el" href="sddk__internal_8hpp_source.html">sddk_internal.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="sddk__internal_8hpp_source.html#l00037">37</a> of file <a class="el" href="sddk__internal_8hpp_source.html">sddk_internal.hpp</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="sddk__internal_8hpp_source.html">sddk_internal.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

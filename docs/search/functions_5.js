@@ -6,6 +6,7 @@ var searchData=
   ['find',['find',['../classnlohmann_1_1basic__json.html#aeed33787bd362c7ead59a4ba945392db',1,'nlohmann::basic_json::find(typename object_t::key_type key)'],['../classnlohmann_1_1basic__json.html#a6d2f26a0a84787a43c989c88e2b7023b',1,'nlohmann::basic_json::find(typename object_t::key_type key) const']]],
   ['find_5fband_5foccupancies',['find_band_occupancies',['../classsirius_1_1_k__point__set.html#aab8d5e8b8a27bdcbbdf27ac6a31cb230',1,'sirius::K_point_set']]],
   ['find_5fgrid_5fsize',['find_grid_size',['../classsddk_1_1_f_f_t3_d__grid.html#ace2e6d322b46c111839602d52ab6d371',1,'sddk::FFT3D_grid']]],
+  ['find_5fgvec_5fshells',['find_gvec_shells',['../classsddk_1_1_gvec.html#a77c68e942ce1b8328171b022dccc74bf',1,'sddk::Gvec']]],
   ['find_5fkpoint',['find_kpoint',['../classsirius_1_1_k__point__set.html#ae1c57ca979c9b9f863446af50ee09cb2',1,'sirius::K_point_set']]],
   ['find_5fmt_5fradii',['find_mt_radii',['../classsirius_1_1_unit__cell.html#a3d9c47a289473ff6f62b7190f1d752fe',1,'sirius::Unit_cell']]],
   ['find_5fnearest_5fneighbours',['find_nearest_neighbours',['../classsirius_1_1_unit__cell.html#ad6a3cbb8556869f65df124ee7907e5ef',1,'sirius::Unit_cell']]],

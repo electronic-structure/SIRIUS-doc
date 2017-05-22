@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -72,6 +72,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classsirius_1_1_k__point__set-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -167,14 +168,20 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>band_gap</b> () con
 <a class="el" href="classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>comm</b> () const</td></tr>
 <tr class="separator:ae4b7832decd74a7d5c0f8d821acfddfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a9c94c210575a6d93740a52ffd6653102"><td class="memItemLeft" align="right" valign="top"><a id="a9c94c210575a6d93740a52ffd6653102"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>K_point_set</b> (<a class="el" href="classsirius_1_1_k__point__set.html">K_point_set</a> &amp;src)=delete</td></tr>
+<tr class="separator:a9c94c210575a6d93740a52ffd6653102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aa38d3463aa2ee307ec899e3ad5e716b1"><td class="memItemLeft" align="right" valign="top"><a id="aa38d3463aa2ee307ec899e3ad5e716b1"></a>
 <a class="el" href="classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>ctx_</b></td></tr>
 <tr class="separator:aa38d3463aa2ee307ec899e3ad5e716b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8ff279eeca613e6ecf175044e1b302"><td class="memItemLeft" align="right" valign="top"><a id="a0c8ff279eeca613e6ecf175044e1b302"></a>
-std::vector&lt; <a class="el" href="classsirius_1_1_k__point.html">K_point</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>kpoints_</b></td></tr>
-<tr class="separator:a0c8ff279eeca613e6ecf175044e1b302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ab3df095dfaca09265dfe5f8658abc"><td class="memItemLeft" align="right" valign="top"><a id="ad2ab3df095dfaca09265dfe5f8658abc"></a>
+std::vector&lt; std::unique_ptr&lt; <a class="el" href="classsirius_1_1_k__point.html">K_point</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>kpoints_</b></td></tr>
+<tr class="separator:ad2ab3df095dfaca09265dfe5f8658abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12a30147a9df930203250cbfe1ecabd0"><td class="memItemLeft" align="right" valign="top"><a id="a12a30147a9df930203250cbfe1ecabd0"></a>
 <a class="el" href="classsddk_1_1splindex.html">splindex</a>&lt; chunk &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>spl_num_kpoints_</b></td></tr>
 <tr class="separator:a12a30147a9df930203250cbfe1ecabd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,7 +229,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>band_gap_</b> {0}</
 
 <p>Initialize the k-point set. </p>
 
-<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00177">177</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00170">170</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
 
 </div>
 </div>
@@ -251,7 +258,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>band_gap_</b> {0}</
 
 <p>Find Fermi energy and band occupation numbers. </p>
 
-<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00354">354</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00345">345</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
 
 </div>
 </div>
@@ -280,7 +287,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>band_gap_</b> {0}</
 
 <p>Return sum of valence eigen-values. </p>
 
-<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00340">340</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00193">193</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
 
 </div>
 </div>
@@ -306,9 +313,9 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>band_gap_</b> {0}</
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>check parameters of saved data in a separate function </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>check parameters of saved data in a separate function </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00512">512</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00503">503</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
 
 </div>
 </div>
@@ -338,7 +345,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>band_gap_</b> {0}</
 
 <p>Find index of k-point. </p>
 
-<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00285">285</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="k__point__set_8h_source.html#l00290">290</a> of file <a class="el" href="k__point__set_8h_source.html">k_point_set.h</a>.</p>
 
 </div>
 </div>
@@ -348,7 +355,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>band_gap_</b> {0}</
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:43 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:03 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

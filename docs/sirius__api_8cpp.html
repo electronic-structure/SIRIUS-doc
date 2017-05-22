@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.3</span>
+   &#160;<span id="projectnumber">4.5</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -99,6 +99,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a181a1afd75e34e9db1854840c44f2c5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a181a1afd75e34e9db1854840c44f2c5f">sirius_clear</a> (void)</td></tr>
 <tr class="memdesc:a181a1afd75e34e9db1854840c44f2c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear global variables and destroy all objects.  <a href="#a181a1afd75e34e9db1854840c44f2c5f">More...</a><br /></td></tr>
 <tr class="separator:a181a1afd75e34e9db1854840c44f2c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b1044efd2d56eb43d386026af4e84d"><td class="memItemLeft" align="right" valign="top"><a id="a43b1044efd2d56eb43d386026af4e84d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_finalize</b> (ftn_int *call_mpi_fin__)</td></tr>
+<tr class="separator:a43b1044efd2d56eb43d386026af4e84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22d22199e738652eea909c6dfe5451b"><td class="memItemLeft" align="right" valign="top"><a id="ad22d22199e738652eea909c6dfe5451b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_create_simulation_context</b> (const char *config_file_name__)</td></tr>
 <tr class="separator:ad22d22199e738652eea909c6dfe5451b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -587,12 +590,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_set_atom_type_
 <tr class="memitem:a08a5fc686909aecd2f4016a080f481bc"><td class="memItemLeft" align="right" valign="top"><a id="a08a5fc686909aecd2f4016a080f481bc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_symmetrize_density</b> ()</td></tr>
 <tr class="separator:a08a5fc686909aecd2f4016a080f481bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5027da60fb8090982c39e015bd79713e"><td class="memItemLeft" align="right" valign="top"><a id="a5027da60fb8090982c39e015bd79713e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_rho_pw</b> (ftn_int *num_gvec__, ftn_int *gvec__, ftn_double_complex *rho_pw__)</td></tr>
-<tr class="separator:a5027da60fb8090982c39e015bd79713e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad46a79934dcdd5f050fb23fa447e83b9"><td class="memItemLeft" align="right" valign="top"><a id="ad46a79934dcdd5f050fb23fa447e83b9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_veff_pw</b> (ftn_int *num_gvec__, ftn_int *gvec__, ftn_double_complex *veff_pw__)</td></tr>
-<tr class="separator:ad46a79934dcdd5f050fb23fa447e83b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a500a71b9c3f557a0e15cf11d533a39da"><td class="memItemLeft" align="right" valign="top"><a id="a500a71b9c3f557a0e15cf11d533a39da"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_gvec_index</b> (int32_t *gvec__, int32_t *ig__)</td></tr>
 <tr class="separator:a500a71b9c3f557a0e15cf11d533a39da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -659,9 +656,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_beta_proje
 <tr class="memitem:a83c757ab4a0e18f4f3cf52abb3ad277e"><td class="memItemLeft" align="right" valign="top"><a id="a83c757ab4a0e18f4f3cf52abb3ad277e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_density_matrix</b> (ftn_int *ia__, ftn_double_complex *dm__, ftn_int *ld__)</td></tr>
 <tr class="separator:a83c757ab4a0e18f4f3cf52abb3ad277e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00d0ef1c27e79cbb94f57dd095e434c5"><td class="memItemLeft" align="right" valign="top"><a id="a00d0ef1c27e79cbb94f57dd095e434c5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_calc_forces</b> (double *forces__)</td></tr>
-<tr class="separator:a00d0ef1c27e79cbb94f57dd095e434c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8f8b6225f83f76935576eda27ee8e2"><td class="memItemLeft" align="right" valign="top"><a id="a6c8f8b6225f83f76935576eda27ee8e2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_calc_forces</b> (ftn_int *kset_id__)</td></tr>
+<tr class="separator:a6c8f8b6225f83f76935576eda27ee8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1001ec837b8aa6f61f341b8c1dbc886"><td class="memItemLeft" align="right" valign="top"><a id="ac1001ec837b8aa6f61f341b8c1dbc886"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_forces</b> (ftn_char label__, ftn_double *forces__)</td></tr>
+<tr class="separator:ac1001ec837b8aa6f61f341b8c1dbc886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa29d6c01e0e0451c73f59026aacace8e"><td class="memItemLeft" align="right" valign="top"><a id="aa29d6c01e0e0451c73f59026aacace8e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_set_verbosity</b> (ftn_int *level__)</td></tr>
 <tr class="separator:aa29d6c01e0e0451c73f59026aacace8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -671,12 +671,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_generate_d_ope
 <tr class="memitem:a77db413e668d93cb975311321058744a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a77db413e668d93cb975311321058744a">sirius_set_pw_coeffs</a> (ftn_char label__, double_complex *pw_coeffs__, ftn_int *ngv__, ftn_int *gvl__, ftn_int *comm__)</td></tr>
 <tr class="memdesc:a77db413e668d93cb975311321058744a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the plane-wave expansion coefficients of a particular function.  <a href="#a77db413e668d93cb975311321058744a">More...</a><br /></td></tr>
 <tr class="separator:a77db413e668d93cb975311321058744a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af77ed1c0b4888c4af03dd7a0490ba9fe"><td class="memItemLeft" align="right" valign="top"><a id="af77ed1c0b4888c4af03dd7a0490ba9fe"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_pw_coeffs</b> (ftn_char label__, double_complex *pw_coeffs__, ftn_int *ngv__, ftn_int *gvl__, ftn_int *comm__)</td></tr>
+<tr class="separator:af77ed1c0b4888c4af03dd7a0490ba9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a165bc7cd4172f3bab44da37044a70498"><td class="memItemLeft" align="right" valign="top"><a id="a165bc7cd4172f3bab44da37044a70498"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_pw_coeffs_real</b> (ftn_char atom_type__, ftn_char label__, ftn_double *pw_coeffs__, ftn_int *ngv__, ftn_int *gvl__, ftn_int *comm__)</td></tr>
+<tr class="separator:a165bc7cd4172f3bab44da37044a70498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae648e179eb4a1d344477f4fb4eb3aedc"><td class="memItemLeft" align="right" valign="top"><a id="ae648e179eb4a1d344477f4fb4eb3aedc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_calculate_stress_tensor</b> (ftn_int *kset_id__)</td></tr>
+<tr class="separator:ae648e179eb4a1d344477f4fb4eb3aedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f7f654097f87af81e3017b5bf80bf5"><td class="memItemLeft" align="right" valign="top"><a id="aa0f7f654097f87af81e3017b5bf80bf5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_stress_tensor</b> (ftn_char label__, ftn_double *stress_tensor__)</td></tr>
+<tr class="separator:aa0f7f654097f87af81e3017b5bf80bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8576937eef5b30c52bf23c97aaf615fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsirius_1_1_simulation__context.html">sirius::Simulation_context</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a8576937eef5b30c52bf23c97aaf615fd">sim_ctx</a> = nullptr</td></tr>
-<tr class="memdesc:a8576937eef5b30c52bf23c97aaf615fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulation context.  <a href="#a8576937eef5b30c52bf23c97aaf615fd">More...</a><br /></td></tr>
-<tr class="separator:a8576937eef5b30c52bf23c97aaf615fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7e3edef8830c66d81f3e158488868b8"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classsirius_1_1_simulation__context.html">sirius::Simulation_context</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af7e3edef8830c66d81f3e158488868b8">sim_ctx</a> {nullptr}</td></tr>
+<tr class="memdesc:af7e3edef8830c66d81f3e158488868b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulation context.  <a href="#af7e3edef8830c66d81f3e158488868b8">More...</a><br /></td></tr>
+<tr class="separator:af7e3edef8830c66d81f3e158488868b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27c9852fd9c283b3432aaea8d778ab45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsirius_1_1_density.html">sirius::Density</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a27c9852fd9c283b3432aaea8d778ab45">density</a> = nullptr</td></tr>
 <tr class="memdesc:a27c9852fd9c283b3432aaea8d778ab45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to Density class, implicitly used by Fortran side.  <a href="#a27c9852fd9c283b3432aaea8d778ab45">More...</a><br /></td></tr>
 <tr class="separator:a27c9852fd9c283b3432aaea8d778ab45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -692,6 +704,12 @@ Variables</h2></td></tr>
 <tr class="memitem:af5d1c49525684e8f93f8fa39b3d111a3"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classsddk_1_1timer.html">sddk::timer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af5d1c49525684e8f93f8fa39b3d111a3">ftimers</a></td></tr>
 <tr class="memdesc:af5d1c49525684e8f93f8fa39b3d111a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of timers created on the Fortran side.  <a href="#af5d1c49525684e8f93f8fa39b3d111a3">More...</a><br /></td></tr>
 <tr class="separator:af5d1c49525684e8f93f8fa39b3d111a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad743764f0ba8ad76ba000f52d3f715"><td class="memItemLeft" align="right" valign="top"><a id="a3ad743764f0ba8ad76ba000f52d3f715"></a>
+std::unique_ptr&lt; <a class="el" href="classsirius_1_1_stress.html">sirius::Stress</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_tensor</b> {nullptr}</td></tr>
+<tr class="separator:a3ad743764f0ba8ad76ba000f52d3f715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9db840ca330e80e6a338f4246adba7"><td class="memItemLeft" align="right" valign="top"><a id="a3a9db840ca330e80e6a338f4246adba7"></a>
+std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">sirius::Forces_PS</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forces</b> {nullptr}</td></tr>
+<tr class="separator:a3a9db840ca330e80e6a338f4246adba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Fortran API. </p>
@@ -722,7 +740,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">integer</span> ierr</div><div class="line"><span class="keyword">call </span>mpi_init(ierr)</div><div class="line"><span class="comment">! initialize low-level stuff and don&#39;t call MPI_Init() from SIRIUS</span></div><div class="line"><span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__initialize.html">sirius_initialize</a>(0)</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00058">58</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00061">61</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -744,7 +762,7 @@ Variables</h2></td></tr>
 
 <p>Clear global variables and destroy all objects. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00065">65</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00068">68</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -766,7 +784,7 @@ Variables</h2></td></tr>
 <p>Initialize the global variables. </p>
 <p>The function must be called after setting up the lattice vectors, plane wave-cutoff, autormt flag and loading atom types and atoms into the unit cell. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00107">107</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00113">113</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -819,7 +837,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00126">126</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00129">129</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -872,7 +890,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00150">150</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00153">153</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -928,7 +946,7 @@ Variables</h2></td></tr>
 
 <p>Create the k-point set from the list of k-points and return it's id. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00169">169</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00172">172</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -974,7 +992,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">real(8)</span> a1(3),a2(3),a3(3)</div><div class="line">a1(:) = (/5.d0, 0.d0, 0.d0/)</div><div class="line">a2(:) = (/0.d0, 5.d0, 0.d0/)</div><div class="line">a3(:) = (/0.d0, 0.d0, 5.d0/)</div><div class="line"><span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__set__lattice__vectors.html">sirius_set_lattice_vectors</a>(a1, a2, a3)</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00272">272</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00275">275</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1002,7 +1020,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">real(8)</span> gmaxvr</div><div class="line">gmaxvr = 20.0</div><div class="line"><span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__set__pw__cutoff.html">sirius_set_pw_cutoff</a>(gmaxvr)</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00291">291</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00294">294</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +1049,7 @@ Variables</h2></td></tr>
 </dl>
 <p>The auto_rmt flag tells the library how to proceed with the muffin-tin spheres in the case when library takes the full control over the muffin-tin geometry.</p>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">logical</span> autormt</div><div class="line">autormt = .true.</div><div class="line"><span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__set__auto__rmt.html">sirius_set_auto_rmt</a>(autormt)</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00314">314</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00317">317</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1071,7 +1089,7 @@ Variables</h2></td></tr>
 </dl>
 <p>Atom type (species in the terminology of Exciting/Elk) is a class which holds information common to the atoms of the same element: charge, number of core and valence electrons, muffin-tin radius, radial grid etc. See <a class="el" href="classsirius_1_1_atom__type.html">sirius::Atom_type</a> class for details.</p>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordflow">do</span> is = 1, nspecies</div><div class="line">  <span class="comment">!====================================================</span></div><div class="line">  <span class="comment">! add atom type with label equal to the file name and</span></div><div class="line">  <span class="comment">! read the .json file</span></div><div class="line">  <span class="comment">!====================================================</span></div><div class="line">  <span class="keyword">call </span><a class="code" href="sirius__api_8cpp.html#af74dfeb271c21835108154b26ad865a8">sirius_add_atom_type</a>(trim(spfname(is)), trim(spfname(is))</div><div class="line">enddo</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00338">338</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00341">341</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1140,7 +1158,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordflow">do</span> is=1,nspecies</div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__set__atom__type__properties.html">sirius_set_atom_type_properties</a>(trim(spfname(is)), trim(spsymb(is)),  &amp;</div><div class="line">                                      &amp;nint(-spzn(is)), spmass(is), rmt(is), &amp;</div><div class="line">                                      &amp;nrmt(is), sprmin(is), sprmax(is))</div><div class="line">enddo</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00364">364</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00367">367</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1186,7 +1204,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordflow">do</span> is=1,nspecies</div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__set__atom__type__radial__grid.html">sirius_set_atom_type_radial_grid</a>(trim(spfname(is)), spnr(is), spr(1, is))</div><div class="line">enddo</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00391">391</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00394">394</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1254,7 +1272,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example </p><div class="fragment"><div class="line"><span class="keywordflow">do</span> is=1,nspecies</div><div class="line">  <span class="keywordflow">do</span> ist=1,spnst(is)</div><div class="line">    <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__set__atom__type__configuration.html">sirius_set_atom_type_configuration</a>(trim(spfname(is)), spn(ist, is), spl(ist, is),&amp;</div><div class="line">                                           &amp;spk(ist, is), spocc(ist, is),&amp;</div><div class="line">                                           &amp;spcore(ist, is))</div><div class="line"><span class="keywordflow">  enddo</span></div><div class="line">enddo</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00429">429</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00432">432</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1318,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordflow">do</span> is = 1, nspecies</div><div class="line">  <span class="keywordflow">do</span> ia = 1, natoms(is)</div><div class="line">    <span class="keyword">call </span><a class="code" href="sirius__api_8cpp.html#a20dc3b201ac712e174d03a770e25945b">sirius_add_atom</a>(trim(spfname(is)), atposl(:, ia, is), bfcmt(:, ia, is))</div><div class="line"><span class="keywordflow">  enddo</span></div><div class="line">enddo</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00455">455</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00458">458</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1329,7 +1347,7 @@ Variables</h2></td></tr>
 </dl>
 <p>Equivalent atoms are symmetry related and belong to the same atom symmetry class. If equivalence table is not provided by user, <em>spglib</em> is called. In case of magnetic symmetry <em>spglib</em> is of no use and euivalence table must be provided. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00476">476</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00479">479</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1360,7 +1378,7 @@ Variables</h2></td></tr>
 \[ |\mathbf{G}+\mathbf{k}| R^{MT}_{min} \leq \textrm{AW cutoff} \]
 </p>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">real(8)</span> rgkmax</div><div class="line">rgkmax = 10.0</div><div class="line"><span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__set__aw__cutoff.html">sirius_set_aw_cutoff</a>(rgkmax)</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00497">497</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00500">500</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1388,7 +1406,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00531">531</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00534">534</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1427,7 +1445,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00540">540</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00543">543</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1449,7 +1467,7 @@ Variables</h2></td></tr>
 
 <p>Get number of G-vectors within the plane-wave cutoff. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00564">564</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00567">567</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1471,7 +1489,7 @@ Variables</h2></td></tr>
 
 <p>Get sizes of FFT grid. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00582">582</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00585">585</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1517,7 +1535,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordflow">do</span> i=1,3</div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__get__fft__grid__limits.html">sirius_get_fft_grid_limits</a>(i,intgv(i,1),intgv(i,2))</div><div class="line">enddo</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00601">601</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00604">604</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1539,7 +1557,7 @@ Variables</h2></td></tr>
 
 <p>Get mapping between G-vector index and FFT index. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00609">609</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00612">612</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1561,7 +1579,7 @@ Variables</h2></td></tr>
 
 <p>Get list of G-vectors in fractional corrdinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00618">618</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00621">621</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1583,7 +1601,7 @@ Variables</h2></td></tr>
 
 <p>Get list of G-vectors in Cartesian coordinates. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00630">630</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00633">633</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1605,7 +1623,7 @@ Variables</h2></td></tr>
 
 <p>Get lengh of G-vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00642">642</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00645">645</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1643,7 +1661,7 @@ Variables</h2></td></tr>
 
 <p>Get Ylm spherical harmonics of G-vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00665">665</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00668">668</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1665,7 +1683,7 @@ Variables</h2></td></tr>
 
 <p>Get the total number of electrons. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00699">699</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00702">702</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1687,7 +1705,7 @@ Variables</h2></td></tr>
 
 <p>Get the number of valence electrons. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00705">705</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00708">708</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1709,7 +1727,7 @@ Variables</h2></td></tr>
 
 <p>Get the number of core electrons. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00711">711</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00714">714</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1748,7 +1766,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="comment">! precompute the necessary data on the Fortran side</span></div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__update__atomic__potential.html">sirius_update_atomic_potential</a></div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__generate__radial__functions.html">sirius_generate_radial_functions</a></div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__generate__radial__integrals.html">sirius_generate_radial_integrals</a></div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__generate__potential__pw__coefs.html">sirius_generate_potential_pw_coefs</a></div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__find__eigen__states.html">sirius_find_eigen_states</a>(kset_id, 0)</div><div class="line">  .</div><div class="line">  .</div><div class="line"><span class="comment">! or</span></div><div class="line">  .</div><div class="line">  .</div><div class="line"><span class="comment">! ask the library to precompute the necessary data</span></div><div class="line">  <span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__find__eigen__states.html">sirius_find_eigen_states</a>(kset_id, 1)</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00770">770</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00773">773</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1769,7 +1787,7 @@ Variables</h2></td></tr>
 
 <p>Generate radial functions (both aw and lo) </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01162">1162</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01165">1165</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1790,7 +1808,7 @@ Variables</h2></td></tr>
 
 <p>Generate radial integrals. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01168">1168</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01171">1171</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1828,7 +1846,7 @@ Variables</h2></td></tr>
 
 <p>Get number of G+k vectors for a given k-point in the set. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01231">1231</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01234">1234</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1860,7 +1878,7 @@ Variables</h2></td></tr>
 
 <p>Get maximum number of G+k vectors across all k-points in the set. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01247">1247</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01250">1250</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1928,7 +1946,7 @@ Variables</h2></td></tr>
 
 <p>Get all G+k vector related arrays. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01254">1254</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01257">1257</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1965,7 +1983,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Get first-variational matrices of Hamiltonian and overlap ** Radial integrals and plane-wave coefficients of the interstitial potential must be calculated prior to </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01406">1406</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01409">1409</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2003,7 +2021,7 @@ Variables</h2></td></tr>
 
 <p>Get Cartesian coordinates of G+k vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01440">1440</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01443">1443</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2047,7 +2065,7 @@ Variables</h2></td></tr>
 
 <p>Generate XC potential and magnetic field. </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01497">1497</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01500">1500</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2098,7 +2116,7 @@ Variables</h2></td></tr>
 <p>Get first-variational eigen-vectors. </p>
 <p>Assume that the Fortran side holds the whole array </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01967">1967</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01970">1970</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2143,7 +2161,7 @@ Variables</h2></td></tr>
 <p>Get second-variational eigen-vectors. </p>
 <p>Assume that the Fortran side holds the whole array </p>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01976">1976</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01979">1979</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2203,19 +2221,19 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l03007">3007</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l02979">2979</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a8576937eef5b30c52bf23c97aaf615fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8576937eef5b30c52bf23c97aaf615fd">&#9670;&nbsp;</a></span>sim_ctx</h2>
+<a id="af7e3edef8830c66d81f3e158488868b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7e3edef8830c66d81f3e158488868b8">&#9670;&nbsp;</a></span>sim_ctx</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classsirius_1_1_simulation__context.html">sirius::Simulation_context</a>* sim_ctx = nullptr</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classsirius_1_1_simulation__context.html">sirius::Simulation_context</a>&gt; sim_ctx {nullptr}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2319,7 +2337,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 15 2017 21:44:41 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 22 2017 12:15:02 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

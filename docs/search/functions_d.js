@@ -5,10 +5,12 @@ var searchData=
   ['num_5fatom_5fsymmetry_5fclasses',['num_atom_symmetry_classes',['../classsirius_1_1_unit__cell.html#a2dbb6ea34fb14c359eacb99b705afaef',1,'sirius::Unit_cell']]],
   ['num_5fatom_5ftypes',['num_atom_types',['../classsirius_1_1_unit__cell.html#a3a6dc50a54aac7850d9937a0069a7960',1,'sirius::Unit_cell']]],
   ['num_5fatoms',['num_atoms',['../classsirius_1_1_atom__symmetry__class.html#ad847257b867484952172f3ad673b43a1',1,'sirius::Atom_symmetry_class::num_atoms()'],['../classsirius_1_1_atom__type.html#abd42e6ffe65f508e6d0220758c30ac06',1,'sirius::Atom_type::num_atoms()'],['../classsirius_1_1_unit__cell.html#a9f16809d0eb9e2d4c63554a1e4c83168',1,'sirius::Unit_cell::num_atoms()']]],
+  ['num_5fbands',['num_bands',['../classsirius_1_1_simulation__parameters.html#a922edee2f9a810b75ded60578f8f7c8f',1,'sirius::Simulation_parameters']]],
   ['num_5fcols_5flocal',['num_cols_local',['../classsddk_1_1dmatrix.html#adb55e5d6e336c3119d6b17e81ea5e02c',1,'sddk::dmatrix']]],
   ['num_5fcore_5felectrons',['num_core_electrons',['../classsirius_1_1_unit__cell.html#aa02add0d3c8b1c6aa221e061118460a2',1,'sirius::Unit_cell']]],
   ['num_5fdimensions',['num_dimensions',['../classsddk_1_1_m_p_i__grid.html#ad7810b777f3318df570a1a060338acce',1,'sddk::MPI_grid']]],
   ['num_5felectrons',['num_electrons',['../classsirius_1_1_unit__cell.html#adc983769e84404c76a2d916f8d873d9d',1,'sirius::Unit_cell']]],
+  ['num_5ffv_5fstates',['num_fv_states',['../classsirius_1_1_simulation__parameters.html#ab6bb42fce238f51dd45ffea85a107971',1,'sirius::Simulation_parameters']]],
   ['num_5fgaunt',['num_gaunt',['../classsirius_1_1_gaunt__coefficients.html#a7bb97b31939de765e18fa3d52dfed7ad',1,'sirius::Gaunt_coefficients::num_gaunt(int lm3) const'],['../classsirius_1_1_gaunt__coefficients.html#ac119a1cd9028379ac4953793b88afc85',1,'sirius::Gaunt_coefficients::num_gaunt(int lm1, int lm2) const']]],
   ['num_5fgkvec',['num_gkvec',['../classsirius_1_1_k__point.html#a001cdc42715f90c0351c91253f81886a',1,'sirius::K_point']]],
   ['num_5fgkvec_5fcol',['num_gkvec_col',['../classsirius_1_1_k__point.html#a9c1e0f24aed910bebb40950debf91929',1,'sirius::K_point']]],
@@ -19,6 +21,7 @@ var searchData=
   ['num_5flo_5fcol',['num_lo_col',['../classsirius_1_1_k__point.html#a1236e2f2e975301c735c1a700f27869c',1,'sirius::K_point']]],
   ['num_5flo_5frow',['num_lo_row',['../classsirius_1_1_k__point.html#a89cb7c03f43c14adad315d768e8f2648',1,'sirius::K_point']]],
   ['num_5fmag_5fcomp',['num_mag_comp',['../classsirius_1_1_simulation__parameters.html#a6bb39c33fecd07526a59631ffc52506f',1,'sirius::Simulation_parameters']]],
+  ['num_5fmag_5fdims',['num_mag_dims',['../classsirius_1_1_simulation__parameters.html#a9fa010e5deeeca076c49b046e36f3e0c',1,'sirius::Simulation_parameters']]],
   ['num_5foccupied_5fbands',['num_occupied_bands',['../classsirius_1_1_k__point.html#a96cb8a5ecb6def0d01b451dd426feee3',1,'sirius::K_point']]],
   ['num_5fpaw_5fatoms',['num_paw_atoms',['../classsirius_1_1_unit__cell.html#a2a6169f857efcaeb73e0a7b9755577b7',1,'sirius::Unit_cell']]],
   ['num_5fpoints',['num_points',['../classsirius_1_1_radial__grid.html#ab58d4bb800868ee7c56994c856887cf8',1,'sirius::Radial_grid::num_points()'],['../classsirius_1_1_spline.html#add9b07eb63c1db11c1bf6ceb1204665e',1,'sirius::Spline::num_points()']]],
@@ -26,5 +29,6 @@ var searchData=
   ['num_5frf',['num_rf',['../classsirius_1_1radial__functions__index.html#a92653f85e0eb623c90ab136eccdad259',1,'sirius::radial_functions_index']]],
   ['num_5frows_5floc',['num_rows_loc',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#aa04f47a211e6957246c0c0f0a3ff78b3',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]],
   ['num_5fshells',['num_shells',['../classsddk_1_1_gvec.html#ae57a56b7470b0dd294e104583d45a298',1,'sddk::Gvec']]],
+  ['num_5fspins',['num_spins',['../classsirius_1_1_simulation__parameters.html#a2b0986db2713b1eeb69b1efffb994faf',1,'sirius::Simulation_parameters']]],
   ['num_5fvalence_5felectrons',['num_valence_electrons',['../classsirius_1_1_unit__cell.html#aaa1280940327f400d600a4523563977a',1,'sirius::Unit_cell']]]
 ];

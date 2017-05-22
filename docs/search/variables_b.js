@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['m',['m',['../classnlohmann_1_1detail_1_1exception.html#ad54778dc4f125488cbce8ec276dfdde2',1,'nlohmann::detail::exception']]],
   ['m_5fcontent',['m_content',['../classnlohmann_1_1basic__json_1_1lexer.html#a3fdf69ff3f266c23ee351cde2ce44ad6',1,'nlohmann::basic_json::lexer']]],
   ['m_5fcursor',['m_cursor',['../classnlohmann_1_1basic__json_1_1lexer.html#a13872f4378b6a140e1125160bfa8e92e',1,'nlohmann::basic_json::lexer']]],
   ['m_5fit',['m_it',['../classnlohmann_1_1basic__json_1_1primitive__iterator__t.html#abe60fb63dd56044712ece9d9826a4af6',1,'nlohmann::basic_json::primitive_iterator_t::m_it()'],['../classnlohmann_1_1basic__json_1_1iter__impl.html#a15e9b7b591b09fe7945a2b41bf3de0c1',1,'nlohmann::basic_json::iter_impl::m_it()']]],
@@ -25,6 +26,7 @@ var searchData=
   ['max_5fmt_5fradius_5f',['max_mt_radius_',['../classsirius_1_1_unit__cell.html#a1f7acd5822d56a04d70fc56730e8959a',1,'sirius::Unit_cell']]],
   ['max_5fnum_5fmt_5fpoints_5f',['max_num_mt_points_',['../classsirius_1_1_unit__cell.html#af8042706572062065441da33fa8cc575',1,'sirius::Unit_cell']]],
   ['min_5fmt_5fradius_5f',['min_mt_radius_',['../classsirius_1_1_unit__cell.html#a811f4365eb0377e75c2846c472e122df',1,'sirius::Unit_cell']]],
+  ['mixer_5f',['mixer_',['../classsirius_1_1_density.html#ad3d892477f485ee54e50d10f176260a4',1,'sirius::Density']]],
   ['molecule_5f',['molecule_',['../structsirius_1_1_parameters__input.html#a51b4991b08cc198df76ed552b4f7f9fe',1,'sirius::Parameters_input']]],
   ['mpi_5fcomm_5f',['mpi_comm_',['../classsddk_1_1_communicator.html#a33aeacc7ce79d5910f6c31988d07735b',1,'sddk::Communicator']]],
   ['mpi_5fgrid_5f',['mpi_grid_',['../classsirius_1_1_simulation__context__base.html#a2b332bc33f080e1224ff036fb539a869',1,'sirius::Simulation_context_base']]],

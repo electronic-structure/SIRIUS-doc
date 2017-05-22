@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['active_5f',['active_',['../classsddk_1_1timer.html#ad18ec8c4ff4707eaaa575e94e744c70e',1,'sddk::timer']]],
   ['ae_5fdensity_5f',['ae_density_',['../structsirius_1_1_density_1_1paw__density__data__t.html#a647c03d527b97d38f5167f7180ed7438',1,'sirius::Density::paw_density_data_t']]],
   ['all_5felec_5fcore_5fcharge',['all_elec_core_charge',['../structpseudopotential__descriptor.html#a885a4c05a931acf8346f074f64914698',1,'pseudopotential_descriptor']]],
   ['all_5felec_5floc_5fpotential',['all_elec_loc_potential',['../structpseudopotential__descriptor.html#a7dc4249e8f3d2c4a6a4c518edc3ca7f5',1,'pseudopotential_descriptor']]],
