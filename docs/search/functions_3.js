@@ -1,9 +1,12 @@
 var searchData=
 [
+  ['deallocate',['deallocate',['../cuda_8hpp.html#aab88e15defb6997e7bebd1540c9d76eb',1,'acc']]],
+  ['deallocate_5fhost',['deallocate_host',['../cuda_8hpp.html#a6dcf15d774529409d189646f2a8bc6c4',1,'acc']]],
   ['deallocate_5fon_5fdevice',['deallocate_on_device',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#a58002f75caaf549cb71abb2781a24dd6',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]],
   ['density',['Density',['../classsirius_1_1_density.html#a7dca6937cc2b1e865f1d77edfc575906',1,'sirius::Density']]],
   ['density_5fmatrix_5faux',['density_matrix_aux',['../classsirius_1_1_density.html#a43a6b436435801683d59cf31c8466b58',1,'sirius::Density']]],
   ['deriv_5fq',['deriv_q',['../classsirius_1_1_spherical___bessel__functions.html#aa36401fd1a8bf553440aa916a0fd1216',1,'sirius::Spherical_Bessel_functions']]],
+  ['destroy_5fstreams',['destroy_streams',['../cuda_8hpp.html#af9748d54e056155ea8bbd503919d9ad4',1,'acc']]],
   ['diag_5ffv_5ffull_5fpotential',['diag_fv_full_potential',['../classsirius_1_1_band.html#a8f71349de5468310381d877a29707bbd',1,'sirius::Band']]],
   ['diag_5fpseudo_5fpotential',['diag_pseudo_potential',['../classsirius_1_1_band.html#abad99fc2877360172540b0a1a41df47e',1,'sirius::Band']]],
   ['diag_5fpseudo_5fpotential_5fdavidson',['diag_pseudo_potential_davidson',['../classsirius_1_1_band.html#aec21f8feb8fbccaf5870e7fe5b8eb27a',1,'sirius::Band']]],

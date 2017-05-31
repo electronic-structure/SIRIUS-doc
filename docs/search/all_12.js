@@ -55,6 +55,7 @@ var searchData=
   ['remap_5fforward',['remap_forward',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#ad130040b7ae7b5096b8a6b5f9d2ba1b3',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]],
   ['rend',['rend',['../classnlohmann_1_1basic__json.html#ac77aed0925d447744676725ab0b6d535',1,'nlohmann::basic_json::rend() noexcept'],['../classnlohmann_1_1basic__json.html#a4f73d4cee67ea328d785979c22af0ae1',1,'nlohmann::basic_json::rend() const noexcept']]],
   ['replace_5fsubstring',['replace_substring',['../classnlohmann_1_1basic__json_1_1json__pointer.html#afc5dd65e2855e09f46bad1882b2b7ce0',1,'nlohmann::basic_json::json_pointer']]],
+  ['reset',['reset',['../cuda_8hpp.html#aeaaf3c79c6e10a322dbfee4face9aea8',1,'acc']]],
   ['residuals',['residuals',['../classsirius_1_1_band.html#a35985faab82440579d321e24c37fca98',1,'sirius::Band']]],
   ['residuals_5faux',['residuals_aux',['../classsirius_1_1_band.html#abcce40d1b319e27c3ec06e35609ebb88',1,'sirius::Band']]],
   ['reverse_5fiterator',['reverse_iterator',['../classnlohmann_1_1basic__json.html#ac223d5560c2b05a208c88de67376c5f2',1,'nlohmann::basic_json']]],

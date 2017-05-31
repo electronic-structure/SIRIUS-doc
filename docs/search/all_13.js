@@ -281,6 +281,8 @@ var searchData=
   ['step_5ffunction_2eh',['step_function.h',['../step__function_8h.html',1,'']]],
   ['step_5ffunction_5f',['step_function_',['../classsirius_1_1_simulation__context.html#a0a1057d06e126cf048247071de680c4f',1,'sirius::Simulation_context::step_function_()'],['../classsirius_1_1_step__function.html#a811fd3e1fe15e4e66820cbee8dba05a8',1,'sirius::Step_function::step_function_()']]],
   ['step_5ffunction_5fpw_5f',['step_function_pw_',['../classsirius_1_1_step__function.html#a3a57b383d5fb66fefdd153ac94064c9d',1,'sirius::Step_function']]],
+  ['stream',['stream',['../cuda_8hpp.html#aec5c260c2145f937db8e552c7f327c2b',1,'acc']]],
+  ['streams',['streams',['../cuda_8hpp.html#adf61942d94ae923eb0036b7b15093102',1,'acc']]],
   ['stress',['Stress',['../classsirius_1_1_stress.html',1,'sirius']]],
   ['stress_2eh',['stress.h',['../stress_8h.html',1,'']]],
   ['string',['string',['../unionnlohmann_1_1basic__json_1_1json__value.html#a9856fb4271b50d738e14c5a9a2f05118',1,'nlohmann::basic_json::json_value::string()'],['../namespacenlohmann_1_1detail.html#a90aa5ef615aa8305e9ea20d8a947980fab45cffe084dd3d20d928bee85e7b0f21',1,'nlohmann::detail::string()']]],
@@ -301,5 +303,7 @@ var searchData=
   ['symmetry_5fclass',['symmetry_class',['../classsirius_1_1_atom.html#a35b6a5e198f42cd7f386b14305f2db71',1,'sirius::Atom::symmetry_class()'],['../classsirius_1_1_atom.html#aaabb7ef7db2f472a68d85b033cbd6928',1,'sirius::Atom::symmetry_class() const']]],
   ['symmetry_5fclass_5f',['symmetry_class_',['../classsirius_1_1_atom.html#af78d6835ad4d678ff385d503599e1810',1,'sirius::Atom']]],
   ['symmetry_5fclass_5fid',['symmetry_class_id',['../classsirius_1_1_atom.html#aee3476044ac355a73dd0a3269d8d7c54',1,'sirius::Atom']]],
-  ['sync_5fmt',['sync_mt',['../classsirius_1_1_periodic__function.html#a2f20ff1fcb7fb4177dd1bda999c3af91',1,'sirius::Periodic_function']]]
+  ['sync',['sync',['../cuda_8hpp.html#a9d6d53d402112c575c662a6d07dda7d5',1,'acc']]],
+  ['sync_5fmt',['sync_mt',['../classsirius_1_1_periodic__function.html#a2f20ff1fcb7fb4177dd1bda999c3af91',1,'sirius::Periodic_function']]],
+  ['sync_5fstream',['sync_stream',['../cuda_8hpp.html#a895d1798c67499581a09b46f30bd0fd9',1,'acc']]]
 ];

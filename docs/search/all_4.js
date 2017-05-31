@@ -2,6 +2,8 @@ var searchData=
 [
   ['d_5fmtrx_5f',['d_mtrx_',['../classsirius_1_1_atom.html#a735ddc6a81305dbc5b2ddf5d96b6baaa',1,'sirius::Atom']]],
   ['d_5foperator',['D_operator',['../classsirius_1_1_d__operator.html',1,'sirius']]],
+  ['deallocate',['deallocate',['../cuda_8hpp.html#aab88e15defb6997e7bebd1540c9d76eb',1,'acc']]],
+  ['deallocate_5fhost',['deallocate_host',['../cuda_8hpp.html#a6dcf15d774529409d189646f2a8bc6c4',1,'acc']]],
   ['deallocate_5fon_5fdevice',['deallocate_on_device',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#a58002f75caaf549cb71abb2781a24dd6',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]],
   ['decimal_5fpoint',['decimal_point',['../classnlohmann_1_1basic__json_1_1serializer.html#a8a27e96ec0866584c0aa15f79e56f687',1,'nlohmann::basic_json::serializer']]],
   ['density',['Density',['../classsirius_1_1_density.html',1,'sirius::Density'],['../classsirius_1_1_density.html#a7dca6937cc2b1e865f1d77edfc575906',1,'sirius::Density::Density()'],['../sirius__api_8cpp.html#a27c9852fd9c283b3432aaea8d778ab45',1,'density():&#160;sirius_api.cpp']]],
@@ -13,6 +15,7 @@ var searchData=
   ['deriv_5fq',['deriv_q',['../classsirius_1_1_spherical___bessel__functions.html#aa36401fd1a8bf553440aa916a0fd1216',1,'sirius::Spherical_Bessel_functions']]],
   ['descriptor_5f',['descriptor_',['../classsddk_1_1dmatrix.html#a8461e9f58455228fcda1403a3a945b85',1,'sddk::dmatrix']]],
   ['descriptors_2eh',['descriptors.h',['../descriptors_8h.html',1,'']]],
+  ['destroy_5fstreams',['destroy_streams',['../cuda_8hpp.html#af9748d54e056155ea8bbd503919d9ad4',1,'acc']]],
   ['device_5ft',['device_t',['../mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6',1,'sddk']]],
   ['dft_5fground_5fstate',['DFT_ground_state',['../classsirius_1_1_d_f_t__ground__state.html',1,'sirius::DFT_ground_state'],['../sirius__api_8cpp.html#a2241fb592bd4f724096c446cc4bfb5de',1,'dft_ground_state():&#160;sirius_api.cpp']]],
   ['dft_5fground_5fstate_2eh',['dft_ground_state.h',['../dft__ground__state_8h.html',1,'']]],

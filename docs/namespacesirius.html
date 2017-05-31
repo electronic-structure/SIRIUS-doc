@@ -111,6 +111,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for beta-projectors, gradient of beta-projectors and strain derivatives of beta-projectors.  <a href="classsirius_1_1_beta__projectors__base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_beta__projectors__gradient.html">Beta_projectors_gradient</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute gradient of beta-projectors over atomic positions \( d \langle {\bf G+k} | \beta \rangle / d \tau_{\alpha} \).  <a href="classsirius_1_1_beta__projectors__gradient.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_beta__projectors__strain__deriv.html">Beta_projectors_strain_deriv</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,6 +179,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract mixer.  <a href="classsirius_1_1_mixer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsirius_1_1_mixer__input.html">Mixer_input</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_non__local__functor.html">Non_local_functor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_non__local__operator.html">Non_local_operator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -623,15 +626,15 @@ template&lt;&gt; </td></tr>
 template&lt;&gt; </td></tr>
 <tr class="memitem:a6a0cb50316b1aa2e58e5f314724894b8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Band::set_fv_h_o&lt; GPU, electronic_structure_method_t::full_potential_lapwlo &gt;</b> (<a class="el" href="classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="classsirius_1_1_potential.html">Potential</a> const &amp;potential__, <a class="el" href="classsddk_1_1dmatrix.html">dmatrix</a>&lt; double_complex &gt; &amp;h__, <a class="el" href="classsddk_1_1dmatrix.html">dmatrix</a>&lt; double_complex &gt; &amp;o__) const</td></tr>
 <tr class="separator:a6a0cb50316b1aa2e58e5f314724894b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4bf5abc2403d4247352c2c74cc3c32b"><td class="memItemLeft" align="right" valign="top"><a id="ab4bf5abc2403d4247352c2c74cc3c32b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>residuals_aux_gpu</b> (int num_gvec_loc__, int num_res_local__, int *res_idx__, double *eval__, cuDoubleComplex const *hpsi__, cuDoubleComplex const *opsi__, double const *h_diag__, double const *o_diag__, cuDoubleComplex *res__, double *res_norm__, double *p_norm__, int gkvec_reduced__, int mpi_rank__)</td></tr>
-<tr class="separator:ab4bf5abc2403d4247352c2c74cc3c32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8f41d0709e5abc1c206ef63b3a16e15"><td class="memItemLeft" align="right" valign="top"><a id="af8f41d0709e5abc1c206ef63b3a16e15"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>compute_residuals_gpu</b> (cuDoubleComplex *hpsi__, cuDoubleComplex *opsi__, cuDoubleComplex *res__, int num_gvec_loc__, int num_bands__, double *eval__)</td></tr>
-<tr class="separator:af8f41d0709e5abc1c206ef63b3a16e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab007a8fdf09de8b16f1886426f5b9c98"><td class="memItemLeft" align="right" valign="top"><a id="ab007a8fdf09de8b16f1886426f5b9c98"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>apply_preconditioner_gpu</b> (cuDoubleComplex *res__, int num_rows_loc__, int num_bands__, double *eval__, double *h_diag__, double *o_diag__)</td></tr>
-<tr class="separator:ab007a8fdf09de8b16f1886426f5b9c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c51f7e08b30e3f5f02d08f9e18f6f0"><td class="memItemLeft" align="right" valign="top"><a id="a31c51f7e08b30e3f5f02d08f9e18f6f0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>residuals_aux_gpu</b> (int num_gvec_loc__, int num_res_local__, int *res_idx__, double *eval__, double_complex const *hpsi__, double_complex const *opsi__, double const *h_diag__, double const *o_diag__, double_complex *res__, double *res_norm__, double *p_norm__, int gkvec_reduced__, int mpi_rank__)</td></tr>
+<tr class="separator:a31c51f7e08b30e3f5f02d08f9e18f6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10028ec3436913d64c5975cdf466bbf6"><td class="memItemLeft" align="right" valign="top"><a id="a10028ec3436913d64c5975cdf466bbf6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>compute_residuals_gpu</b> (double_complex *hpsi__, double_complex *opsi__, double_complex *res__, int num_gvec_loc__, int num_bands__, double *eval__)</td></tr>
+<tr class="separator:a10028ec3436913d64c5975cdf466bbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7fbd5b74d96d15b50771b9f78517983"><td class="memItemLeft" align="right" valign="top"><a id="aa7fbd5b74d96d15b50771b9f78517983"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>apply_preconditioner_gpu</b> (double_complex *res__, int num_rows_loc__, int num_bands__, double *eval__, double *h_diag__, double *o_diag__)</td></tr>
+<tr class="separator:aa7fbd5b74d96d15b50771b9f78517983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07e7f559c696b3f8f4ddc7715501978c"><td class="memItemLeft" align="right" valign="top"><a id="a07e7f559c696b3f8f4ddc7715501978c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>compute_chebyshev_polynomial_gpu</b> (int num_gkvec, int n, double c, double r, cuDoubleComplex *phi0, cuDoubleComplex *phi1, cuDoubleComplex *phi2)</td></tr>
 <tr class="separator:a07e7f559c696b3f8f4ddc7715501978c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -647,9 +650,9 @@ template&lt;&gt; </td></tr>
 template&lt;&gt; </td></tr>
 <tr class="memitem:ab6667e0c3e706d9cec91b1505e0c7dd7"><td class="memTemplItemLeft" align="right" valign="top">double_complex&#160;</td><td class="memTemplItemRight" valign="bottom"><b>inner_local&lt; double_complex &gt;</b> (<a class="el" href="classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="classsddk_1_1wave__functions.html">wave_functions</a> &amp;a, int ia, <a class="el" href="classsddk_1_1wave__functions.html">wave_functions</a> &amp;b, int ib)</td></tr>
 <tr class="separator:ab6667e0c3e706d9cec91b1505e0c7dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca85442b2b687640225d3fe8e3e260dd"><td class="memItemLeft" align="right" valign="top"><a id="aca85442b2b687640225d3fe8e3e260dd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>create_beta_gk_gpu</b> (int num_atoms, int num_gkvec, int const *beta_desc, cuDoubleComplex const *beta_gk_t, double const *gkvec, double const *atom_pos, cuDoubleComplex *beta_gk)</td></tr>
-<tr class="separator:aca85442b2b687640225d3fe8e3e260dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6027c8c85fcbb72750f1865ecc1e1691"><td class="memItemLeft" align="right" valign="top"><a id="a6027c8c85fcbb72750f1865ecc1e1691"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>create_beta_gk_gpu</b> (int num_atoms, int num_gkvec, int const *beta_desc, double_complex const *beta_gk_t, double const *gkvec, double const *atom_pos, double_complex *beta_gk)</td></tr>
+<tr class="separator:a6027c8c85fcbb72750f1865ecc1e1691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add930b008e6775182524562f4ae4d151"><td class="memTemplParams" colspan="2"><a id="add930b008e6775182524562f4ae4d151"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:add930b008e6775182524562f4ae4d151"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classsirius_1_1_mixer.html">Mixer</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Mixer_factory</b> (std::string const &amp;type__, int shared_size__, int local_size__, <a class="el" href="structsirius_1_1_mixer__input.html">Mixer_input</a> mix_cfg__, Communicator const &amp;comm__)</td></tr>
@@ -1321,7 +1324,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 22 2017 13:01:29 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 31 2017 16:12:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

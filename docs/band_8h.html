@@ -86,14 +86,16 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="band_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="band_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="band_8h__dep__incl.svg" width="318" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="band_8h__dep__incl.svg" width="318" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="band_8h_source.html">Go to the source code of this file.</a></p>
@@ -120,15 +122,15 @@ template&lt;&gt; </td></tr>
 template&lt;&gt; </td></tr>
 <tr class="memitem:a6a0cb50316b1aa2e58e5f314724894b8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sirius::Band::set_fv_h_o&lt; GPU, electronic_structure_method_t::full_potential_lapwlo &gt;</b> (K_point *kp__, Potential const &amp;potential__, <a class="el" href="classsddk_1_1dmatrix.html">dmatrix</a>&lt; double_complex &gt; &amp;h__, <a class="el" href="classsddk_1_1dmatrix.html">dmatrix</a>&lt; double_complex &gt; &amp;o__) const</td></tr>
 <tr class="separator:a6a0cb50316b1aa2e58e5f314724894b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4bf5abc2403d4247352c2c74cc3c32b"><td class="memItemLeft" align="right" valign="top"><a id="ab4bf5abc2403d4247352c2c74cc3c32b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius::residuals_aux_gpu</b> (int num_gvec_loc__, int num_res_local__, int *res_idx__, double *eval__, cuDoubleComplex const *hpsi__, cuDoubleComplex const *opsi__, double const *h_diag__, double const *o_diag__, cuDoubleComplex *res__, double *res_norm__, double *p_norm__, int gkvec_reduced__, int mpi_rank__)</td></tr>
-<tr class="separator:ab4bf5abc2403d4247352c2c74cc3c32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8f41d0709e5abc1c206ef63b3a16e15"><td class="memItemLeft" align="right" valign="top"><a id="af8f41d0709e5abc1c206ef63b3a16e15"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius::compute_residuals_gpu</b> (cuDoubleComplex *hpsi__, cuDoubleComplex *opsi__, cuDoubleComplex *res__, int num_gvec_loc__, int num_bands__, double *eval__)</td></tr>
-<tr class="separator:af8f41d0709e5abc1c206ef63b3a16e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab007a8fdf09de8b16f1886426f5b9c98"><td class="memItemLeft" align="right" valign="top"><a id="ab007a8fdf09de8b16f1886426f5b9c98"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius::apply_preconditioner_gpu</b> (cuDoubleComplex *res__, int num_rows_loc__, int num_bands__, double *eval__, double *h_diag__, double *o_diag__)</td></tr>
-<tr class="separator:ab007a8fdf09de8b16f1886426f5b9c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c51f7e08b30e3f5f02d08f9e18f6f0"><td class="memItemLeft" align="right" valign="top"><a id="a31c51f7e08b30e3f5f02d08f9e18f6f0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius::residuals_aux_gpu</b> (int num_gvec_loc__, int num_res_local__, int *res_idx__, double *eval__, double_complex const *hpsi__, double_complex const *opsi__, double const *h_diag__, double const *o_diag__, double_complex *res__, double *res_norm__, double *p_norm__, int gkvec_reduced__, int mpi_rank__)</td></tr>
+<tr class="separator:a31c51f7e08b30e3f5f02d08f9e18f6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10028ec3436913d64c5975cdf466bbf6"><td class="memItemLeft" align="right" valign="top"><a id="a10028ec3436913d64c5975cdf466bbf6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius::compute_residuals_gpu</b> (double_complex *hpsi__, double_complex *opsi__, double_complex *res__, int num_gvec_loc__, int num_bands__, double *eval__)</td></tr>
+<tr class="separator:a10028ec3436913d64c5975cdf466bbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7fbd5b74d96d15b50771b9f78517983"><td class="memItemLeft" align="right" valign="top"><a id="aa7fbd5b74d96d15b50771b9f78517983"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius::apply_preconditioner_gpu</b> (double_complex *res__, int num_rows_loc__, int num_bands__, double *eval__, double *h_diag__, double *o_diag__)</td></tr>
+<tr class="separator:aa7fbd5b74d96d15b50771b9f78517983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07e7f559c696b3f8f4ddc7715501978c"><td class="memItemLeft" align="right" valign="top"><a id="a07e7f559c696b3f8f4ddc7715501978c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius::compute_chebyshev_polynomial_gpu</b> (int num_gkvec, int n, double c, double r, cuDoubleComplex *phi0, cuDoubleComplex *phi1, cuDoubleComplex *phi2)</td></tr>
 <tr class="separator:a07e7f559c696b3f8f4ddc7715501978c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,7 +154,7 @@ template&lt;&gt; </td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 22 2017 13:01:28 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 31 2017 16:12:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

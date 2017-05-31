@@ -84,20 +84,15 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classsirius_1_1_d_f_t__ground__state__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classsirius_1_1_d_f_t__ground__state__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acaa39ea304fc6e3acb16fb7ebfbad85c"><td class="memItemLeft" align="right" valign="top"><a id="acaa39ea304fc6e3acb16fb7ebfbad85c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DFT_ground_state</b> (<a class="el" href="classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;ctx__, <a class="el" href="classsirius_1_1_potential.html">Potential</a> &amp;potential__, <a class="el" href="classsirius_1_1_density.html">Density</a> &amp;density__, <a class="el" href="classsirius_1_1_k__point__set.html">K_point_set</a> &amp;kset__, int use_symmetry__)</td></tr>
-<tr class="separator:acaa39ea304fc6e3acb16fb7ebfbad85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad865bbc6f2d97a72c39ba43a3dcd9f79"><td class="memItemLeft" align="right" valign="top"><a id="ad865bbc6f2d97a72c39ba43a3dcd9f79"></a>
-<a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>forces</b> ()</td></tr>
-<tr class="separator:ad865bbc6f2d97a72c39ba43a3dcd9f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53c9ac60de388745aedc0438ffe374ae"><td class="memItemLeft" align="right" valign="top"><a id="a53c9ac60de388745aedc0438ffe374ae"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>forces</b> (<a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt; &amp;inout_forces)</td></tr>
-<tr class="separator:a53c9ac60de388745aedc0438ffe374ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a554634c3b9ee21cacda9e28c48778a77"><td class="memItemLeft" align="right" valign="top"><a id="a554634c3b9ee21cacda9e28c48778a77"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DFT_ground_state</b> (<a class="el" href="classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;ctx__, <a class="el" href="classsirius_1_1_potential.html">Potential</a> &amp;potential__, <a class="el" href="classsirius_1_1_density.html">Density</a> &amp;density__, <a class="el" href="classsirius_1_1_k__point__set.html">K_point_set</a> &amp;kset__)</td></tr>
+<tr class="separator:a554634c3b9ee21cacda9e28c48778a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0e78c1359a003dec43505c6055fb03a"><td class="memItemLeft" align="right" valign="top"><a id="af0e78c1359a003dec43505c6055fb03a"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>find</b> (double potential_tol, double energy_tol, int num_dft_iter, bool write_state)</td></tr>
 <tr class="separator:af0e78c1359a003dec43505c6055fb03a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,9 +171,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac425fae262f0dbdebb83fdb820215d93"><td class="memItemLeft" align="right" valign="top"><a id="ac425fae262f0dbdebb83fdb820215d93"></a>
 <a class="el" href="classsirius_1_1_band.html">Band</a>&#160;</td><td class="memItemRight" valign="bottom"><b>band_</b></td></tr>
 <tr class="separator:ac425fae262f0dbdebb83fdb820215d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05726eb27ceb2c9d4c36372182985ad0"><td class="memItemLeft" align="right" valign="top"><a id="a05726eb27ceb2c9d4c36372182985ad0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>use_symmetry_</b></td></tr>
-<tr class="separator:a05726eb27ceb2c9d4c36372182985ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a793a203d657999b24f32b649f60de518"><td class="memItemLeft" align="right" valign="top"><a id="a793a203d657999b24f32b649f60de518"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {0}</td></tr>
 <tr class="separator:a793a203d657999b24f32b649f60de518"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,7 +240,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 \[ E^{ion-ion} = \frac{1}{2} \sideset{}{&#39;} \sum_{\alpha \beta {\bf T}} Z_{\alpha} Z_{\beta} \frac{{\rm erfc}(\sqrt{\lambda} |{\bf r}_{\alpha} - {\bf r}_{\beta} + {\bf T}|)}{|{\bf r}_{\alpha} - {\bf r}_{\beta} + {\bf T}|} + \frac{2 \pi}{\Omega} \sum_{{\bf G}\neq 0} \frac{e^{-\frac{G^2}{4 \lambda}}}{G^2} \Big| \sum_{\alpha} Z_{\alpha} e^{-i{\bf r}_{\alpha}{\bf G}} \Big|^2 - \sum_{\alpha} Z_{\alpha}^2 \sqrt{\frac{\lambda}{\pi}} - \frac{2\pi}{\Omega}\frac{N_{el}^2}{4 \lambda} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00430">430</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00418">418</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -278,7 +270,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 <p>Return nucleus energy in the electrostatic field. </p>
 <p>Compute energy of nucleus in the electrostatic potential generated by the total (electrons + nuclei) charge density. Diverging self-interaction term z*z/|r=0| is excluded. </p>
 
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00165">165</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00153">153</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -307,7 +299,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 
 <p>Return eigen-value sum of core states. </p>
 
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00180">180</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00168">168</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -336,7 +328,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 
 <p>Full eigen-value sum (core + valence) </p>
 
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00229">229</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00217">217</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -366,7 +358,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 <p>Kinetic energy. </p>
 <p>more doc here </p>
 
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00237">237</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00225">225</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -429,7 +421,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 \[ E_{tot} = \sum_{i} f_i \varepsilon_i - \frac{1}{2} \int V^{H}({\bf r})\rho({\bf r})d{\bf r} - \int V^{XC}({\bf r})\rho({\bf r}) d{\bf r} + E^{XC}[\rho + \rho_{core}] \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00311">311</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dft__ground__state_8h_source.html#l00299">299</a> of file <a class="el" href="dft__ground__state_8h_source.html">dft_ground_state.h</a>.</p>
 
 </div>
 </div>
@@ -439,7 +431,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>ewald_energy_</b> {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 22 2017 13:01:29 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 31 2017 16:12:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

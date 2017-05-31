@@ -80,6 +80,8 @@ var searchData=
   ['split',['split',['../classnlohmann_1_1basic__json_1_1json__pointer.html#a9ad9f3ed25e1e3cf82b05973d3ecafac',1,'nlohmann::basic_json::json_pointer']]],
   ['split_5fin_5fchunks',['split_in_chunks',['../classsirius_1_1_beta__projector__chunks.html#a289a41009766ae183ccca4bbc68fe7e5',1,'sirius::Beta_projector_chunks']]],
   ['step_5ffunction',['Step_function',['../classsirius_1_1_step__function.html#a6e6734ca9f7ce4ea6aab12971eaa4301',1,'sirius::Step_function']]],
+  ['stream',['stream',['../cuda_8hpp.html#aec5c260c2145f937db8e552c7f327c2b',1,'acc']]],
+  ['streams',['streams',['../cuda_8hpp.html#adf61942d94ae923eb0036b7b15093102',1,'acc']]],
   ['sum_5fl3_5fgaunt',['sum_L3_gaunt',['../classsirius_1_1_gaunt__coefficients.html#a30d7070d0f2215b46b0c008e03cee913',1,'sirius::Gaunt_coefficients::sum_L3_gaunt(int lm1, int lm2, double_complex const *v) const'],['../classsirius_1_1_gaunt__coefficients.html#adb27177443aaf6685526aa91dd19f5a6',1,'sirius::Gaunt_coefficients::sum_L3_gaunt(int lm1, int lm2, double const *v) const']]],
   ['swap',['swap',['../classnlohmann_1_1basic__json.html#a8c9d932353e1ab98a7dc2fc27e002031',1,'nlohmann::basic_json::swap(reference other) noexcept(std::is_nothrow_move_constructible&lt; value_t &gt;::value and std::is_nothrow_move_assignable&lt; value_t &gt;::value and std::is_nothrow_move_constructible&lt; json_value &gt;::value and std::is_nothrow_move_assignable&lt; json_value &gt;::value)'],['../classnlohmann_1_1basic__json.html#a65b0a24e1361a030ad0a661de22f6c8e',1,'nlohmann::basic_json::swap(array_t &amp;other)'],['../classnlohmann_1_1basic__json.html#ac31f12587d2f1a3be5ffc394aa9d72a4',1,'nlohmann::basic_json::swap(object_t &amp;other)'],['../classnlohmann_1_1basic__json.html#adaa1ed0a889d86c8e0216a3d66980f76',1,'nlohmann::basic_json::swap(string_t &amp;other)']]],
   ['sym_5fweight',['sym_weight',['../classsirius_1_1_augmentation__operator.html#abcde17fc75b94c2b2f5f36a286eda6dd',1,'sirius::Augmentation_operator::sym_weight()'],['../classsirius_1_1_augmentation__operator__gvec__deriv.html#ae8d9922db81423e038326f93d09380ad',1,'sirius::Augmentation_operator_gvec_deriv::sym_weight()']]],
@@ -87,5 +89,7 @@ var searchData=
   ['symmetrize_5ffunction',['symmetrize_function',['../classsirius_1_1_symmetry.html#a818ada1afb5ac3d3ec02f88fc1e05157',1,'sirius::Symmetry']]],
   ['symmetry_5fclass',['symmetry_class',['../classsirius_1_1_atom.html#a35b6a5e198f42cd7f386b14305f2db71',1,'sirius::Atom::symmetry_class()'],['../classsirius_1_1_atom.html#aaabb7ef7db2f472a68d85b033cbd6928',1,'sirius::Atom::symmetry_class() const']]],
   ['symmetry_5fclass_5fid',['symmetry_class_id',['../classsirius_1_1_atom.html#aee3476044ac355a73dd0a3269d8d7c54',1,'sirius::Atom']]],
-  ['sync_5fmt',['sync_mt',['../classsirius_1_1_periodic__function.html#a2f20ff1fcb7fb4177dd1bda999c3af91',1,'sirius::Periodic_function']]]
+  ['sync',['sync',['../cuda_8hpp.html#a9d6d53d402112c575c662a6d07dda7d5',1,'acc']]],
+  ['sync_5fmt',['sync_mt',['../classsirius_1_1_periodic__function.html#a2f20ff1fcb7fb4177dd1bda999c3af91',1,'sirius::Periodic_function']]],
+  ['sync_5fstream',['sync_stream',['../cuda_8hpp.html#a895d1798c67499581a09b46f30bd0fd9',1,'acc']]]
 ];

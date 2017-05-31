@@ -1,6 +1,7 @@
 var searchData=
 [
   ['n',['n',['../structatomic__level__descriptor.html#ab90b943aaee4e6747cd9dd8647212b1c',1,'atomic_level_descriptor::n()'],['../structradial__solution__descriptor.html#ab0246e8a65be162caf9028b42741c8fd',1,'radial_solution_descriptor::n()']]],
+  ['n_5f',['N_',['../classsirius_1_1_non__local__functor.html#afc62333f8f7a34601bad81f036f9b1c0',1,'sirius::Non_local_functor']]],
   ['name_5f',['name_',['../classsirius_1_1_radial__grid.html#a69ef061e3d74880674caeeebfb8c15fa',1,'sirius::Radial_grid::name_()'],['../classsirius_1_1_atom__type.html#aaed973114158f85972d3aee81d4a5682',1,'sirius::Atom_type::name_()']]],
   ['nearest_5fneighbours_5f',['nearest_neighbours_',['../classsirius_1_1_unit__cell.html#a4362a0696328acee16058705d538c4f4',1,'sirius::Unit_cell']]],
   ['need_5fto_5ffree_5f',['need_to_free_',['../classsddk_1_1_communicator.html#a7dfce793f7d5571fb69dcfac81814403',1,'sddk::Communicator']]],

@@ -8,6 +8,7 @@ var searchData=
   ['num_5fbands',['num_bands',['../classsirius_1_1_simulation__parameters.html#a922edee2f9a810b75ded60578f8f7c8f',1,'sirius::Simulation_parameters']]],
   ['num_5fcols_5flocal',['num_cols_local',['../classsddk_1_1dmatrix.html#adb55e5d6e336c3119d6b17e81ea5e02c',1,'sddk::dmatrix']]],
   ['num_5fcore_5felectrons',['num_core_electrons',['../classsirius_1_1_unit__cell.html#aa02add0d3c8b1c6aa221e061118460a2',1,'sirius::Unit_cell']]],
+  ['num_5fdevices',['num_devices',['../cuda_8hpp.html#ad25315ea68be0f636ba62235a4c89068',1,'acc']]],
   ['num_5fdimensions',['num_dimensions',['../classsddk_1_1_m_p_i__grid.html#ad7810b777f3318df570a1a060338acce',1,'sddk::MPI_grid']]],
   ['num_5felectrons',['num_electrons',['../classsirius_1_1_unit__cell.html#adc983769e84404c76a2d916f8d873d9d',1,'sirius::Unit_cell']]],
   ['num_5ffv_5fstates',['num_fv_states',['../classsirius_1_1_simulation__parameters.html#ab6bb42fce238f51dd45ffea85a107971',1,'sirius::Simulation_parameters']]],
@@ -30,5 +31,6 @@ var searchData=
   ['num_5frows_5floc',['num_rows_loc',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#aa04f47a211e6957246c0c0f0a3ff78b3',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]],
   ['num_5fshells',['num_shells',['../classsddk_1_1_gvec.html#ae57a56b7470b0dd294e104583d45a298',1,'sddk::Gvec']]],
   ['num_5fspins',['num_spins',['../classsirius_1_1_simulation__parameters.html#a2b0986db2713b1eeb69b1efffb994faf',1,'sirius::Simulation_parameters']]],
+  ['num_5fstreams',['num_streams',['../cuda_8hpp.html#a3c41c46737377044be158ee6bf8a1aad',1,'acc']]],
   ['num_5fvalence_5felectrons',['num_valence_electrons',['../classsirius_1_1_unit__cell.html#aaa1280940327f400d600a4523563977a',1,'sirius::Unit_cell']]]
 ];
