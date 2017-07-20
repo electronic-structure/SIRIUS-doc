@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sirius',['sirius',['../namespacesirius.html',1,'']]]
+  ['sirius',['sirius',['../d5/def/namespacesirius.html',1,'']]]
 ];
