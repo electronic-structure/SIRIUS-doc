@@ -19,6 +19,7 @@ var searchData=
   ['num_5fmag_5fdims_5f',['num_mag_dims_',['../structsirius_1_1_parameters__input.html#a4207fa0a9dd1562ae553bd2f5bd63b9c',1,'sirius::Parameters_input']]],
   ['num_5fmt_5fcoeffs_5f',['num_mt_coeffs_',['../classsddk_1_1wave__functions.html#a03d0c959aba40ede728a48265e5f5614',1,'sddk::wave_functions']]],
   ['num_5fmt_5fpoints_5f',['num_mt_points_',['../classsirius_1_1_atom__type.html#a75389b693e7d82d6a64ccefa9060e9a8',1,'sirius::Atom_type']]],
+  ['num_5fpoints_5f',['num_points_',['../classsirius_1_1_s_h_t.html#aba431b6e45480bff0aada56bbb4326b1',1,'sirius::SHT']]],
   ['num_5franks_5f',['num_ranks_',['../classsddk_1_1_gvec.html#a54ae64b74a7dcfe6f82f9516be4fbc64',1,'sddk::Gvec::num_ranks_()'],['../classsddk_1_1splindex__base.html#a51bad9a1920fcca16c5fa6d4b27a315d',1,'sddk::splindex_base::num_ranks_()']]],
   ['num_5franks_5fcol_5f',['num_ranks_col_',['../classsirius_1_1_k__point.html#ab03535344a72df246d0832000093ad2e',1,'sirius::K_point']]],
   ['num_5frf_5f',['num_rf_',['../classsirius_1_1radial__functions__index.html#a0859adef221bb10651fe2140690cc979',1,'sirius::radial_functions_index']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['token_5ftype',['token_type',['../classnlohmann_1_1basic__json_1_1lexer.html#a96887d6cd131e3d3a85a9d71fbdbcdf7',1,'nlohmann::basic_json::lexer']]]
+  ['radial_5fgrid_5ft',['radial_grid_t',['../namespacesirius.html#a9c2875496b6736959baaf053c21dafb0',1,'sirius']]]
 ];

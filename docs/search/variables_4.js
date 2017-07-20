@@ -7,6 +7,7 @@ var searchData=
   ['esm_5f',['esm_',['../structsirius_1_1_parameters__input.html#abd61a774d3d73fbd1be6ca1d3096281b',1,'sirius::Parameters_input']]],
   ['esm_5ftype_5f',['esm_type_',['../classsirius_1_1_simulation__parameters.html#a5f94855bdb699dad9f51ec2b5549d127',1,'sirius::Simulation_parameters']]],
   ['euler_5fangles',['euler_angles',['../structsirius_1_1space__group__symmetry__descriptor.html#ae0d7ea0066dbadbbf0c92a689eaf69dd',1,'sirius::space_group_symmetry_descriptor']]],
+  ['exist_5f',['exist_',['../structsirius_1_1_unit__cell__input.html#a338136cc3173158f42c67fd1688609cc',1,'sirius::Unit_cell_input::exist_()'],['../structsirius_1_1_mixer__input.html#a51f84b7acbc413b8f10eac5cc399b902',1,'sirius::Mixer_input::exist_()']]],
   ['extra_5f',['extra_',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#abf951b4fd1c7be54bbb5e01876db40b5',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]],
   ['extra_5fbuf_5f',['extra_buf_',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#afe3cc19ad8eb86b00642e4a72d355176',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]]
 ];

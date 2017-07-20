@@ -1,7 +1,14 @@
 var searchData=
 [
-  ['y00',['y00',['../constants_8h.html#ad7629a2465f8e41574ac1984444c3b89',1,'constants.h']]],
-  ['ylm_5fbackward_5f',['ylm_backward_',['../classsirius_1_1_s_h_t.html#a9a22762aaf95b2e344b4b4ae104606e8',1,'sirius::SHT']]],
-  ['ylm_5fdot_5frlm',['ylm_dot_rlm',['../classsirius_1_1_s_h_t.html#aa38aca8ae726b9666cea92805b615e9c',1,'sirius::SHT']]],
-  ['ylm_5fforward_5f',['ylm_forward_',['../classsirius_1_1_s_h_t.html#a2a7d448857ccb43d7a7a4cf5c1b1de40',1,'sirius::SHT']]]
+  ['z',['z',['../structsddk_1_1z__column__descriptor.html#aa60ceb8eb444412ef771710bbae208fd',1,'sddk::z_column_descriptor']]],
+  ['z_5fcol_5fpos_5f',['z_col_pos_',['../classsddk_1_1_f_f_t3_d.html#aa62fe8604ebdf4b5759f945673076b39',1,'sddk::FFT3D']]],
+  ['z_5fcolumn_5fdescriptor',['z_column_descriptor',['../structsddk_1_1z__column__descriptor.html',1,'sddk']]],
+  ['z_5fcolumns_5f',['z_columns_',['../classsddk_1_1_gvec.html#afb61de598ed208a265d52656af86ab7d',1,'sddk::Gvec']]],
+  ['zcol_5fcount_5ffft',['zcol_count_fft',['../classsddk_1_1_gvec__partition.html#aa33b229a85031fe2b990b0c9cae52a1a',1,'sddk::Gvec_partition']]],
+  ['zcol_5fdistr_5f',['zcol_distr_',['../classsddk_1_1_gvec.html#a6f815b24a297f72ef7b974b046b2ec24',1,'sddk::Gvec']]],
+  ['zcol_5fdistr_5ffft_5f',['zcol_distr_fft_',['../classsddk_1_1_gvec__partition.html#af5116728e1f4b99087fc58aaaeb7624b',1,'sddk::Gvec_partition']]],
+  ['zcol_5foffs_5f',['zcol_offs_',['../classsddk_1_1_gvec__partition.html#a596e5213a3df246471067aec057a355e',1,'sddk::Gvec_partition']]],
+  ['zero',['zero',['../classsirius_1_1_density.html#a2ffbfda23993b179d5994ef963db8602',1,'sirius::Density::zero()'],['../classsirius_1_1_periodic__function.html#a96f5eb8ba8a0fc5f2166ab3554185221',1,'sirius::Periodic_function::zero()'],['../classsirius_1_1_potential.html#a45701c46c8961f2ea5c089286802cf47',1,'sirius::Potential::zero()'],['../classsddk_1_1mdarray__base.html#a3722b90ee023b4c0eac29ce28ac8aa7d',1,'sddk::mdarray_base::zero()'],['../cuda_8hpp.html#ae7491c0345c430f8b0a92c711e633ef6',1,'acc::zero(T *ptr__, size_t n__)'],['../cuda_8hpp.html#a4ade204ae91625a90728abe1306c6720',1,'acc::zero(T *ptr__, int ld__, int nrow__, int ncol__)']]],
+  ['zil_5f',['zil_',['../classsirius_1_1_k__point.html#a63bb5c2fb436b8292cfc9215f488b44a',1,'sirius::K_point']]],
+  ['zn_5f',['zn_',['../classsirius_1_1_radial__solver.html#a7f03ef84b603fa56fa0ee2d263f48eed',1,'sirius::Radial_solver::zn_()'],['../classsirius_1_1_atom__type.html#a8f913917b54707ed690586c8fa53c539',1,'sirius::Atom_type::zn_()']]]
 ];

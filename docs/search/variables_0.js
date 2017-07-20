@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['a0_5f',['a0_',['../structsirius_1_1_unit__cell__input.html#a1659f4399defa0b6c64bbf6407ddc532',1,'sirius::Unit_cell_input']]],
+  ['a1_5f',['a1_',['../structsirius_1_1_unit__cell__input.html#a4f9a18178f20d84155ec6d38ef8b48d4',1,'sirius::Unit_cell_input']]],
+  ['a2_5f',['a2_',['../structsirius_1_1_unit__cell__input.html#a4d9402d46c9567f52363d80737379312',1,'sirius::Unit_cell_input']]],
   ['ae_5fdensity_5f',['ae_density_',['../structsirius_1_1_density_1_1paw__density__data__t.html#a647c03d527b97d38f5167f7180ed7438',1,'sirius::Density::paw_density_data_t']]],
   ['all_5felec_5fcore_5fcharge',['all_elec_core_charge',['../structpseudopotential__descriptor.html#a885a4c05a931acf8346f074f64914698',1,'pseudopotential_descriptor']]],
   ['all_5felec_5floc_5fpotential',['all_elec_loc_potential',['../structpseudopotential__descriptor.html#a7dc4249e8f3d2c4a6a4c518edc3ca7f5',1,'pseudopotential_descriptor']]],
@@ -11,6 +14,7 @@ var searchData=
   ['array',['array',['../unionnlohmann_1_1basic__json_1_1json__value.html#a7947687f3ae1911d6e9847e2b3226157',1,'nlohmann::basic_json::json_value']]],
   ['array_5findex',['array_index',['../classnlohmann_1_1basic__json_1_1iteration__proxy_1_1iteration__proxy__internal.html#a80587417690d6b2cabc8edee491cf1ba',1,'nlohmann::basic_json::iteration_proxy::iteration_proxy_internal']]],
   ['array_5fiterator',['array_iterator',['../structnlohmann_1_1basic__json_1_1internal__iterator.html#ac2ffb13621ff7e261362624c4b790049',1,'nlohmann::basic_json::internal_iterator']]],
+  ['atom_5ffiles_5f',['atom_files_',['../structsirius_1_1_unit__cell__input.html#a5fad0cbec09f8ab433cb9c4449fce644',1,'sirius::Unit_cell_input']]],
   ['atom_5fid',['atom_id',['../structnearest__neighbour__descriptor.html#a297e5e0ad16ad6dd1393b4ca4967a1b4',1,'nearest_neighbour_descriptor']]],
   ['atom_5fid_5f',['atom_id_',['../classsirius_1_1_atom__symmetry__class.html#a1a554889233bd3be37d1ae94071e6fed',1,'sirius::Atom_symmetry_class']]],
   ['atom_5flo_5fcols_5f',['atom_lo_cols_',['../classsirius_1_1_k__point.html#a60c93116b6de3660cd0375f4e268e1ae',1,'sirius::K_point']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['normalize_5fres',['normalize_res',['../namespacesirius.html#a33268b42f450586686c6a54528a129af',1,'sirius']]],
   ['num_5fatom_5flo_5fcols',['num_atom_lo_cols',['../classsirius_1_1_k__point.html#a3f723bedb1c2c41d126ec511dd386857',1,'sirius::K_point']]],
   ['num_5fatom_5flo_5frows',['num_atom_lo_rows',['../classsirius_1_1_k__point.html#a83e03282b20670c34845d52f46540e02',1,'sirius::K_point']]],
   ['num_5fatom_5fsymmetry_5fclasses',['num_atom_symmetry_classes',['../classsirius_1_1_unit__cell.html#a2dbb6ea34fb14c359eacb99b705afaef',1,'sirius::Unit_cell']]],

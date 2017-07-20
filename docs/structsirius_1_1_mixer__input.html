@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -78,44 +78,74 @@ $(function() {
 <div class="title">sirius::Mixer_input Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Parse mixer input section.  
+ <a href="structsirius_1_1_mixer__input.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adeb15b04737ca6fc048354c35f59fca3"><td class="memItemLeft" align="right" valign="top"><a id="adeb15b04737ca6fc048354c35f59fca3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (<a class="el" href="classnlohmann_1_1basic__json.html">json</a> const &amp;parser)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsirius_1_1_mixer__input.html#adeb15b04737ca6fc048354c35f59fca3">read</a> (<a class="el" href="classnlohmann_1_1basic__json.html">json</a> const &amp;parser)</td></tr>
+<tr class="memdesc:adeb15b04737ca6fc048354c35f59fca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the <b>mixer</b> input section. <br /></td></tr>
 <tr class="separator:adeb15b04737ca6fc048354c35f59fca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aafab258eb068d9ee772fdadfc1b6a3af"><td class="memItemLeft" align="right" valign="top"><a id="aafab258eb068d9ee772fdadfc1b6a3af"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>beta_</b> {0.7}</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsirius_1_1_mixer__input.html#aafab258eb068d9ee772fdadfc1b6a3af">beta_</a> {0.7}</td></tr>
+<tr class="memdesc:aafab258eb068d9ee772fdadfc1b6a3af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mixing paramter. <br /></td></tr>
 <tr class="separator:aafab258eb068d9ee772fdadfc1b6a3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a157f5f639986048851e7b9101225d88e"><td class="memItemLeft" align="right" valign="top"><a id="a157f5f639986048851e7b9101225d88e"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>beta0_</b> {0.15}</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsirius_1_1_mixer__input.html#a157f5f639986048851e7b9101225d88e">beta0_</a> {0.15}</td></tr>
+<tr class="memdesc:a157f5f639986048851e7b9101225d88e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mixin ratio in case of initial linear mixing. <br /></td></tr>
 <tr class="separator:a157f5f639986048851e7b9101225d88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a4ca06fddfbfc162fb2599594930e11"><td class="memItemLeft" align="right" valign="top"><a id="a7a4ca06fddfbfc162fb2599594930e11"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>linear_mix_rms_tol_</b> {1e6}</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsirius_1_1_mixer__input.html#a7a4ca06fddfbfc162fb2599594930e11">linear_mix_rms_tol_</a> {1e6}</td></tr>
+<tr class="memdesc:a7a4ca06fddfbfc162fb2599594930e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">RMS tolerance above which the linear mixing is triggered. <br /></td></tr>
 <tr class="separator:a7a4ca06fddfbfc162fb2599594930e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad455c7ed97e32e73f16f8000b75ca337"><td class="memItemLeft" align="right" valign="top"><a id="ad455c7ed97e32e73f16f8000b75ca337"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>type_</b> {&quot;broyden1&quot;}</td></tr>
+<tr class="memitem:ad455c7ed97e32e73f16f8000b75ca337"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsirius_1_1_mixer__input.html#ad455c7ed97e32e73f16f8000b75ca337">type_</a> {&quot;broyden1&quot;}</td></tr>
+<tr class="memdesc:ad455c7ed97e32e73f16f8000b75ca337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the mixer.  <a href="#ad455c7ed97e32e73f16f8000b75ca337">More...</a><br /></td></tr>
 <tr class="separator:ad455c7ed97e32e73f16f8000b75ca337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed1bc82dc63dc3b63dbce628d976b9f2"><td class="memItemLeft" align="right" valign="top"><a id="aed1bc82dc63dc3b63dbce628d976b9f2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>max_history_</b> {8}</td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsirius_1_1_mixer__input.html#aed1bc82dc63dc3b63dbce628d976b9f2">max_history_</a> {8}</td></tr>
+<tr class="memdesc:aed1bc82dc63dc3b63dbce628d976b9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of history steps for Broyden-type mixers. <br /></td></tr>
 <tr class="separator:aed1bc82dc63dc3b63dbce628d976b9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51f84b7acbc413b8f10eac5cc399b902"><td class="memItemLeft" align="right" valign="top"><a id="a51f84b7acbc413b8f10eac5cc399b902"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>exist_</b> {false}</td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsirius_1_1_mixer__input.html#a51f84b7acbc413b8f10eac5cc399b902">exist_</a> {false}</td></tr>
+<tr class="memdesc:a51f84b7acbc413b8f10eac5cc399b902"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this section exists in the input file. <br /></td></tr>
 <tr class="separator:a51f84b7acbc413b8f10eac5cc399b902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="input_8h_source.html#l00163">163</a> of file <a class="el" href="input_8h_source.html">input.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<div class="textblock"><p>Parse mixer input section. </p>
+
+<p class="definition">Definition at line <a class="el" href="input_8h_source.html#l00177">177</a> of file <a class="el" href="input_8h_source.html">input.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad455c7ed97e32e73f16f8000b75ca337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad455c7ed97e32e73f16f8000b75ca337">&#9670;&nbsp;</a></span>type_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string sirius::Mixer_input::type_ {&quot;broyden1&quot;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of the mixer. </p>
+<p>Available types are: "broyden1", "broyden2", "linear" </p>
+
+<p class="definition">Definition at line <a class="el" href="input_8h_source.html#l00187">187</a> of file <a class="el" href="input_8h_source.html">input.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="input_8h_source.html">input.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -6,7 +6,7 @@ var searchData=
   ['gaunt_5fpacked_5fl3_5f',['gaunt_packed_L3_',['../classsirius_1_1_gaunt__coefficients.html#ae81678a8f6226e3f1d92037ad5f2e1ad',1,'sirius::Gaunt_coefficients']]],
   ['gen_5fevp_5fsolver_5f',['gen_evp_solver_',['../classsirius_1_1_band.html#a65ee266c73c0f8da01fc25db867ad119',1,'sirius::Band']]],
   ['gk_5fcutoff_5f',['gk_cutoff_',['../structsirius_1_1_parameters__input.html#abd54abf86e5b0c852ed4809944a43880',1,'sirius::Parameters_input']]],
-  ['gkvec_5f',['gkvec_',['../classsirius_1_1_k__point.html#aa35c8c7b4c50603dcdd68267a0f5214f',1,'sirius::K_point::gkvec_()'],['../classsddk_1_1wave__functions.html#afe88ae4a135d1476e3a1a8e7f1b1f4bd',1,'sddk::wave_functions::gkvec_()']]],
+  ['gkvec_5f',['gkvec_',['../classsirius_1_1_k__point.html#aa35c8c7b4c50603dcdd68267a0f5214f',1,'sirius::K_point::gkvec_()'],['../classsddk_1_1wave__functions.html#afe88ae4a135d1476e3a1a8e7f1b1f4bd',1,'sddk::wave_functions::gkvec_()'],['../classsddk_1_1_wave__functions.html#a4338d8c23bc04b8d39ba6f6ca733cc2a',1,'sddk::Wave_functions::gkvec_()']]],
   ['gkvec_5foffset_5f',['gkvec_offset_',['../classsirius_1_1_k__point.html#abe122856c7ada3a58fa51034e417671a',1,'sirius::K_point']]],
   ['global_5findex_5fsize_5f',['global_index_size_',['../classsddk_1_1splindex__base.html#a39cf25f14bf77e1bbde2d3eedb729868',1,'sddk::splindex_base']]],
   ['gmax_5f',['Gmax_',['../classsddk_1_1_gvec.html#ac13f6091f0f60497c438add42b5e52e0',1,'sddk::Gvec']]],

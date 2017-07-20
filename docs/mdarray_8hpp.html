@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -110,7 +110,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsddk_1_1mdarray__mem__count.html">sddk::mdarray_mem_count</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsddk_1_1mdarray__mem__mgr.html">sddk::mdarray_mem_mgr&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple mameory manager handler which keeps track of allocated and deallocated memory.  <a href="structsddk_1_1mdarray__mem__mgr.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple memory manager handler which keeps track of allocated and deallocated memory.  <a href="structsddk_1_1mdarray__mem__mgr.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsddk_1_1mdarray__base.html">sddk::mdarray_base&lt; T, N &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class of multidimensional array.  <a href="classsddk_1_1mdarray__base.html#details">More...</a><br /></td></tr>
@@ -138,11 +138,12 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:a8ec5c207c724e5271f35f5ccb8f4abb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the main processing unit.  <a href="mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a8ec5c207c724e5271f35f5ccb8f4abb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad724f3c5b07010419730c654a1767283"><td class="memItemLeft" align="right" valign="top"><a id="ad724f3c5b07010419730c654a1767283"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>memory_t</b> : unsigned int { <b>none</b> = 0, 
-<b>host</b> = (1 &lt;&lt; 0), 
-<b>host_pinned</b> = (1 &lt;&lt; 1), 
-<b>device</b> = (1 &lt;&lt; 2)
- }</td></tr>
+<tr class="memitem:ad724f3c5b07010419730c654a1767283"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">sddk::memory_t</a> : unsigned int { <b>sddk::memory_t::none</b> = 0b000, 
+<b>sddk::memory_t::host</b> = 0b001, 
+<b>sddk::memory_t::host_pinned</b> = 0b011, 
+<b>sddk::memory_t::device</b> = 0b100
+ }<tr class="memdesc:ad724f3c5b07010419730c654a1767283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of memory.  <a href="mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:ad724f3c5b07010419730c654a1767283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -153,9 +154,13 @@ constexpr memory_t&#160;</td><td class="memItemRight" valign="bottom"><b>sddk::o
 <tr class="memitem:abbb71720da89774bc72560549df10a30"><td class="memItemLeft" align="right" valign="top"><a id="abbb71720da89774bc72560549df10a30"></a>
 constexpr memory_t&#160;</td><td class="memItemRight" valign="bottom"><b>sddk::operator|</b> (memory_t a__, memory_t b__)</td></tr>
 <tr class="separator:abbb71720da89774bc72560549df10a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd89652276a4ef4bbe65d25a8f54b85"><td class="memTemplParams" colspan="2">template&lt;typename T , int N&gt; </td></tr>
+<tr class="memitem:a7bc24287e3ddc7a4681b5aa0f01329ca"><td class="memItemLeft" align="right" valign="top"><a id="a7bc24287e3ddc7a4681b5aa0f01329ca"></a>
+constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><b>sddk::on_device</b> (memory_t mem_type__)</td></tr>
+<tr class="separator:a7bc24287e3ddc7a4681b5aa0f01329ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd89652276a4ef4bbe65d25a8f54b85"><td class="memTemplParams" colspan="2"><a id="affd89652276a4ef4bbe65d25a8f54b85"></a>
+template&lt;typename T , int N&gt; </td></tr>
 <tr class="memitem:affd89652276a4ef4bbe65d25a8f54b85"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="mdarray_8hpp.html#affd89652276a4ef4bbe65d25a8f54b85">sddk::operator&lt;&lt;</a> (std::ostream &amp;out, mdarray&lt; T, N &gt; &amp;v)</td></tr>
-<tr class="memdesc:affd89652276a4ef4bbe65d25a8f54b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize to std::ostream.  <a href="mdarray_8hpp.html#affd89652276a4ef4bbe65d25a8f54b85">More...</a><br /></td></tr>
+<tr class="memdesc:affd89652276a4ef4bbe65d25a8f54b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize to std::ostream. <br /></td></tr>
 <tr class="separator:affd89652276a4ef4bbe65d25a8f54b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -198,9 +203,9 @@ constexpr memory_t&#160;</td><td class="memItemRight" valign="bottom"><b>sddk::o
 
 <p>Type of the main processing unit. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8ec5c207c724e5271f35f5ccb8f4abb6ad1a32d06b9974f40816b4b1008db3e61"></a>CPU&#160;</td><td class="fielddoc"><p>use CPU </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8ec5c207c724e5271f35f5ccb8f4abb6ad1a32d06b9974f40816b4b1008db3e61"></a>CPU&#160;</td><td class="fielddoc"><p>CPU device. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8ec5c207c724e5271f35f5ccb8f4abb6abe43434f62232a01e31173d6ace8fd20"></a>GPU&#160;</td><td class="fielddoc"><p>use GPU (with CUDA programming model) </p>
+<tr><td class="fieldname"><a id="a8ec5c207c724e5271f35f5ccb8f4abb6abe43434f62232a01e31173d6ace8fd20"></a>GPU&#160;</td><td class="fielddoc"><p>GPU device (with CUDA programming model). </p>
 </td></tr>
 </table>
 
@@ -208,45 +213,36 @@ constexpr memory_t&#160;</td><td class="memItemRight" valign="bottom"><b>sddk::o
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="file_affd89652276a4ef4bbe65d25a8f54b85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#file_affd89652276a4ef4bbe65d25a8f54b85">&#9670;&nbsp;</a></span>operator<<()</h2>
+<a id="file_ad724f3c5b07010419730c654a1767283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_ad724f3c5b07010419730c654a1767283">&#9670;&nbsp;</a></span>memory_t</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream&amp; sddk::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>out</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; T, N &gt; &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">enum <a class="el" href="mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">sddk::memory_t</a> : unsigned int</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Serialize to std::ostream. </p>
-
-<p class="definition">Definition at line <a class="el" href="mdarray_8hpp_source.html#l00939">939</a> of file <a class="el" href="mdarray_8hpp_source.html">mdarray.hpp</a>.</p>
+<p>Type of memory. </p>
+<p>Various combinations of flags can be used. To check for any host memory (pinned or non-pinned): </p><div class="fragment"><div class="line">mem_type &amp; memory_t::host == memory_t::host</div></div><!-- fragment --><p> To check for pinned memory: </p><div class="fragment"><div class="line">mem_type &amp; memory_t::host_pinned == memory_t::host_pinned</div></div><!-- fragment --><p> To check for device memory: </p><div class="fragment"><div class="line">mem_type &amp; memory_t::device == memory_t::device</div></div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="mdarray_8hpp_source.html#l00092">92</a> of file <a class="el" href="mdarray_8hpp_source.html">mdarray.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:54 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

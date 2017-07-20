@@ -1,14 +1,11 @@
 var searchData=
 [
-  ['z',['z',['../structsddk_1_1z__column__descriptor.html#aa60ceb8eb444412ef771710bbae208fd',1,'sddk::z_column_descriptor']]],
-  ['z_5fcol_5fpos_5f',['z_col_pos_',['../classsddk_1_1_f_f_t3_d.html#aa62fe8604ebdf4b5759f945673076b39',1,'sddk::FFT3D']]],
-  ['z_5fcolumn_5fdescriptor',['z_column_descriptor',['../structsddk_1_1z__column__descriptor.html',1,'sddk']]],
-  ['z_5fcolumns_5f',['z_columns_',['../classsddk_1_1_gvec.html#afb61de598ed208a265d52656af86ab7d',1,'sddk::Gvec']]],
-  ['zcol_5fcount_5ffft',['zcol_count_fft',['../classsddk_1_1_gvec__partition.html#aa33b229a85031fe2b990b0c9cae52a1a',1,'sddk::Gvec_partition']]],
-  ['zcol_5fdistr_5f',['zcol_distr_',['../classsddk_1_1_gvec.html#a6f815b24a297f72ef7b974b046b2ec24',1,'sddk::Gvec']]],
-  ['zcol_5fdistr_5ffft_5f',['zcol_distr_fft_',['../classsddk_1_1_gvec__partition.html#af5116728e1f4b99087fc58aaaeb7624b',1,'sddk::Gvec_partition']]],
-  ['zcol_5foffs_5f',['zcol_offs_',['../classsddk_1_1_gvec__partition.html#a596e5213a3df246471067aec057a355e',1,'sddk::Gvec_partition']]],
-  ['zero',['zero',['../classsirius_1_1_density.html#a2ffbfda23993b179d5994ef963db8602',1,'sirius::Density::zero()'],['../classsirius_1_1_periodic__function.html#a96f5eb8ba8a0fc5f2166ab3554185221',1,'sirius::Periodic_function::zero()'],['../classsirius_1_1_potential.html#a45701c46c8961f2ea5c089286802cf47',1,'sirius::Potential::zero()'],['../classsddk_1_1mdarray__base.html#a3722b90ee023b4c0eac29ce28ac8aa7d',1,'sddk::mdarray_base::zero()'],['../cuda_8hpp.html#ae7491c0345c430f8b0a92c711e633ef6',1,'acc::zero(T *ptr__, size_t n__)'],['../cuda_8hpp.html#a4ade204ae91625a90728abe1306c6720',1,'acc::zero(T *ptr__, int ld__, int nrow__, int ncol__)']]],
-  ['zil_5f',['zil_',['../classsirius_1_1_k__point.html#a63bb5c2fb436b8292cfc9215f488b44a',1,'sirius::K_point']]],
-  ['zn_5f',['zn_',['../classsirius_1_1_radial__solver.html#a7f03ef84b603fa56fa0ee2d263f48eed',1,'sirius::Radial_solver::zn_()'],['../classsirius_1_1_atom__type.html#a8f913917b54707ed690586c8fa53c539',1,'sirius::Atom_type::zn_()']]]
+  ['_7ebasic_5fjson',['~basic_json',['../classnlohmann_1_1basic__json.html#a42347bbce75ba5571e292a3540af30e0',1,'nlohmann::basic_json']]],
+  ['_7ecommunicator',['~Communicator',['../classsddk_1_1_communicator.html#a0db11d624a1e15a3311fc135cbf2a5b4',1,'sddk::Communicator']]],
+  ['_7efft3d',['~FFT3D',['../classsddk_1_1_f_f_t3_d.html#a99148c7bef387d11955222c369a14d11',1,'sddk::FFT3D']]],
+  ['_7ehdf5_5fdataset',['~HDF5_dataset',['../classsirius_1_1_h_d_f5__tree_1_1_h_d_f5__dataset.html#a3cb7d4e16f99d4b2c9792702da0a356b',1,'sirius::HDF5_tree::HDF5_dataset']]],
+  ['_7ehdf5_5fdataspace',['~HDF5_dataspace',['../classsirius_1_1_h_d_f5__tree_1_1_h_d_f5__dataspace.html#ac0b37d5fd090636b5a3d998b235469bb',1,'sirius::HDF5_tree::HDF5_dataspace']]],
+  ['_7ehdf5_5fgroup',['~HDF5_group',['../classsirius_1_1_h_d_f5__tree_1_1_h_d_f5__group.html#a0a5a195565bbeff557c09c89e9dc0e2b',1,'sirius::HDF5_tree::HDF5_group']]],
+  ['_7ehdf5_5ftree',['~HDF5_tree',['../classsirius_1_1_h_d_f5__tree.html#ab4fc0fde041c16da1ba01d70a75ded36',1,'sirius::HDF5_tree']]],
+  ['_7emdarray_5fbase',['~mdarray_base',['../classsddk_1_1mdarray__base.html#aceb56a51d14decb7061393b87b51ab42',1,'sddk::mdarray_base']]]
 ];

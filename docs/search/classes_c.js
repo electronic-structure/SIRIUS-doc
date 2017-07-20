@@ -43,6 +43,7 @@ var searchData=
   ['mdarray_5findex_5fdescriptor',['mdarray_index_descriptor',['../classsddk_1_1mdarray__index__descriptor.html',1,'sddk']]],
   ['mdarray_5fmem_5fcount',['mdarray_mem_count',['../structsddk_1_1mdarray__mem__count.html',1,'sddk']]],
   ['mdarray_5fmem_5fmgr',['mdarray_mem_mgr',['../structsddk_1_1mdarray__mem__mgr.html',1,'sddk']]],
+  ['memory_5fpool',['memory_pool',['../classmemory__pool.html',1,'']]],
   ['mixer',['Mixer',['../classsirius_1_1_mixer.html',1,'sirius']]],
   ['mixer_5finput',['Mixer_input',['../structsirius_1_1_mixer__input.html',1,'sirius']]],
   ['mpi_5fgrid',['MPI_grid',['../classsddk_1_1_m_p_i__grid.html',1,'sddk']]],

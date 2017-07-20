@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['x_5f',['x_',['../classsirius_1_1_radial__grid.html#aea1cf5bdf41c7089f4e02964683a1c87',1,'sirius::Radial_grid']]],
-  ['x_5finv',['x_inv',['../classsirius_1_1_radial__grid.html#aaca03871e96d68e6247bbbaa6121ad9a',1,'sirius::Radial_grid']]],
-  ['x_5finv_5f',['x_inv_',['../classsirius_1_1_radial__grid.html#acaf4d8799db03c90247864fb506d8648',1,'sirius::Radial_grid']]],
-  ['xc',['xc',['../classsirius_1_1_potential.html#a1abe0a0486f01331b8baf7a359523ae6',1,'sirius::Potential']]],
-  ['xc_5ffunctional',['XC_functional',['../classsirius_1_1_x_c__functional.html',1,'sirius']]],
-  ['xc_5ffunctional_2eh',['xc_functional.h',['../xc__functional_8h.html',1,'']]]
+  ['y00',['y00',['../constants_8h.html#ad7629a2465f8e41574ac1984444c3b89',1,'constants.h']]],
+  ['ylm_5fbackward_5f',['ylm_backward_',['../classsirius_1_1_s_h_t.html#a9a22762aaf95b2e344b4b4ae104606e8',1,'sirius::SHT']]],
+  ['ylm_5fdot_5frlm',['ylm_dot_rlm',['../classsirius_1_1_s_h_t.html#aa38aca8ae726b9666cea92805b615e9c',1,'sirius::SHT']]],
+  ['ylm_5fforward_5f',['ylm_forward_',['../classsirius_1_1_s_h_t.html#a2a7d448857ccb43d7a7a4cf5c1b1de40',1,'sirius::SHT']]]
 ];

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -106,6 +106,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a627eb57e19ae0e12e0db744fdfbd42b6"><td class="memItemLeft" align="right" valign="top"><a id="a627eb57e19ae0e12e0db744fdfbd42b6"></a>
+cublasStatus_t&#160;</td><td class="memItemRight" valign="bottom"><b>cublasGetError</b> ()</td></tr>
+<tr class="separator:a627eb57e19ae0e12e0db744fdfbd42b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27d79a72783bf241de567f12020c70aa"><td class="memItemLeft" align="right" valign="top"><a id="a27d79a72783bf241de567f12020c70aa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>cublas::error_message</b> (cublasStatus_t status)</td></tr>
 <tr class="separator:a27d79a72783bf241de567f12020c70aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,14 +183,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>cublas::zaxpy</b> (in
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{                                                                                   \</div><div class="line">    cublasStatus_t status;                                                          \</div><div class="line">    func__ args__;                                                                  \</div><div class="line">    cudaDeviceSynchronize();                                                        \</div><div class="line">    status = cublasGetError();                                                      \</div><div class="line">    if (status != CUBLAS_STATUS_SUCCESS) {                                          \</div><div class="line">        error_message(status);                                                      \</div><div class="line">        char nm[1024];                                                              \</div><div class="line">        gethostname(nm, 1024);                                                      \</div><div class="line">        printf(<span class="stringliteral">&quot;hostname: %s\n&quot;</span>, nm);                                               \</div><div class="line">        printf(<span class="stringliteral">&quot;Error in %s at line %i of file %s\n&quot;</span>, #func__, __LINE__, __FILE__); \</div><div class="line">        stack_backtrace();                                                          \</div><div class="line">    }                                                                               \</div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="cublas_8hpp_source.html#l00075">75</a> of file <a class="el" href="cublas_8hpp_source.html">cublas.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cublas_8hpp_source.html#l00077">77</a> of file <a class="el" href="cublas_8hpp_source.html">cublas.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:54 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -2,6 +2,7 @@ var searchData=
 [
   ['make_5fperiodic_5ffunction',['make_periodic_function',['../classsirius_1_1_simulation__context__base.html#a5e8bf72bdacbb6ab99e21306998e9f91',1,'sirius::Simulation_context_base']]],
   ['matching_5fcoefficients',['Matching_coefficients',['../classsirius_1_1_matching__coefficients.html#a624fedd2d619135cb119b9a720365739',1,'sirius::Matching_coefficients']]],
+  ['matrix_5fstorage',['matrix_storage',['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#a2284a5a9eb0232b6a173a24281ca9dcc',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;::matrix_storage(int num_rows_loc__, int num_cols__, Communicator const &amp;comm_col__)'],['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#af73b0eaeca2421c8543f691bb855a413',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;::matrix_storage(T *ptr__, int num_rows_loc__, int num_cols__, Communicator const &amp;comm_col__)']]],
   ['max_5fmt_5faw_5fbasis_5fsize',['max_mt_aw_basis_size',['../classsirius_1_1_unit__cell.html#a4dec101a15965d650fbd862f6c2217af',1,'sirius::Unit_cell']]],
   ['max_5fmt_5fbasis_5fsize',['max_mt_basis_size',['../classsirius_1_1_unit__cell.html#a4cd3a101993f53e002520661e69f00e5',1,'sirius::Unit_cell']]],
   ['max_5fmt_5fradial_5fbasis_5fsize',['max_mt_radial_basis_size',['../classsirius_1_1_unit__cell.html#a6210f5d7a1608be88e4c17cf2314e450',1,'sirius::Unit_cell']]],

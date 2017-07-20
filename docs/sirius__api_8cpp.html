@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -96,8 +96,9 @@ Functions</h2></td></tr>
 <tr class="memitem:abe2849b0122a55c5428f42dfb04d666c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#abe2849b0122a55c5428f42dfb04d666c">sirius_initialize</a> (ftn_int *call_mpi_init__)</td></tr>
 <tr class="memdesc:abe2849b0122a55c5428f42dfb04d666c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the library.  <a href="#abe2849b0122a55c5428f42dfb04d666c">More...</a><br /></td></tr>
 <tr class="separator:abe2849b0122a55c5428f42dfb04d666c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a181a1afd75e34e9db1854840c44f2c5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a181a1afd75e34e9db1854840c44f2c5f">sirius_clear</a> (void)</td></tr>
-<tr class="memdesc:a181a1afd75e34e9db1854840c44f2c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear global variables and destroy all objects.  <a href="#a181a1afd75e34e9db1854840c44f2c5f">More...</a><br /></td></tr>
+<tr class="memitem:a181a1afd75e34e9db1854840c44f2c5f"><td class="memItemLeft" align="right" valign="top"><a id="a181a1afd75e34e9db1854840c44f2c5f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a181a1afd75e34e9db1854840c44f2c5f">sirius_clear</a> (void)</td></tr>
+<tr class="memdesc:a181a1afd75e34e9db1854840c44f2c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear global variables and destroy all objects. <br /></td></tr>
 <tr class="separator:a181a1afd75e34e9db1854840c44f2c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43b1044efd2d56eb43d386026af4e84d"><td class="memItemLeft" align="right" valign="top"><a id="a43b1044efd2d56eb43d386026af4e84d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_finalize</b> (ftn_int *call_mpi_fin__)</td></tr>
@@ -123,8 +124,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_delete_potenti
 <tr class="memitem:a91d703598c39974af3857d5967ce8468"><td class="memItemLeft" align="right" valign="top"><a id="a91d703598c39974af3857d5967ce8468"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_delete_density</b> ()</td></tr>
 <tr class="separator:a91d703598c39974af3857d5967ce8468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b25454c8f56e16d91ae53d03343cb59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a7b25454c8f56e16d91ae53d03343cb59">sirius_create_kset</a> (ftn_int *num_kpoints__, ftn_double *kpoints__, ftn_double *kpoint_weights__, ftn_int *init_kset__, ftn_int *kset_id__, ftn_int *nk_loc__)</td></tr>
-<tr class="memdesc:a7b25454c8f56e16d91ae53d03343cb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the k-point set from the list of k-points and return it's id.  <a href="#a7b25454c8f56e16d91ae53d03343cb59">More...</a><br /></td></tr>
+<tr class="memitem:a7b25454c8f56e16d91ae53d03343cb59"><td class="memItemLeft" align="right" valign="top"><a id="a7b25454c8f56e16d91ae53d03343cb59"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a7b25454c8f56e16d91ae53d03343cb59">sirius_create_kset</a> (ftn_int *num_kpoints__, ftn_double *kpoints__, ftn_double *kpoint_weights__, ftn_int *init_kset__, ftn_int *kset_id__, ftn_int *nk_loc__)</td></tr>
+<tr class="memdesc:a7b25454c8f56e16d91ae53d03343cb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the k-point set from the list of k-points and return it's id. <br /></td></tr>
 <tr class="separator:a7b25454c8f56e16d91ae53d03343cb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15ac371f02c6de9814998fc0b3020998"><td class="memItemLeft" align="right" valign="top"><a id="a15ac371f02c6de9814998fc0b3020998"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_create_irreducible_kset_</b> (int32_t *mesh__, int32_t *is_shift__, int32_t *use_sym__, int32_t *kset_id__)</td></tr>
@@ -216,35 +218,42 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_num_fft_gr
 <tr class="memitem:af70bd1477656c6d1917c472fc432f5b7"><td class="memItemLeft" align="right" valign="top"><a id="af70bd1477656c6d1917c472fc432f5b7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_num_bands</b> (int32_t *num_bands)</td></tr>
 <tr class="separator:af70bd1477656c6d1917c472fc432f5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af781db27a02bbbacebb5c450699fc8f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af781db27a02bbbacebb5c450699fc8f4">sirius_get_num_gvec</a> (int32_t *num_gvec__)</td></tr>
-<tr class="memdesc:af781db27a02bbbacebb5c450699fc8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of G-vectors within the plane-wave cutoff.  <a href="#af781db27a02bbbacebb5c450699fc8f4">More...</a><br /></td></tr>
+<tr class="memitem:af781db27a02bbbacebb5c450699fc8f4"><td class="memItemLeft" align="right" valign="top"><a id="af781db27a02bbbacebb5c450699fc8f4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af781db27a02bbbacebb5c450699fc8f4">sirius_get_num_gvec</a> (int32_t *num_gvec__)</td></tr>
+<tr class="memdesc:af781db27a02bbbacebb5c450699fc8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of G-vectors within the plane-wave cutoff. <br /></td></tr>
 <tr class="separator:af781db27a02bbbacebb5c450699fc8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8eddf4b81ad592b61c2021a844c0aa4"><td class="memItemLeft" align="right" valign="top"><a id="aa8eddf4b81ad592b61c2021a844c0aa4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_find_fft_grid_size</b> (ftn_double *cutoff__, ftn_double *lat_vec__, ftn_int *grid_size__)</td></tr>
 <tr class="separator:aa8eddf4b81ad592b61c2021a844c0aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4507d0c1b65cec455defcf0b9413870c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a4507d0c1b65cec455defcf0b9413870c">sirius_get_fft_grid_size</a> (ftn_int *grid_size__)</td></tr>
-<tr class="memdesc:a4507d0c1b65cec455defcf0b9413870c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sizes of FFT grid.  <a href="#a4507d0c1b65cec455defcf0b9413870c">More...</a><br /></td></tr>
+<tr class="memitem:a4507d0c1b65cec455defcf0b9413870c"><td class="memItemLeft" align="right" valign="top"><a id="a4507d0c1b65cec455defcf0b9413870c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a4507d0c1b65cec455defcf0b9413870c">sirius_get_fft_grid_size</a> (ftn_int *grid_size__)</td></tr>
+<tr class="memdesc:a4507d0c1b65cec455defcf0b9413870c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sizes of FFT grid. <br /></td></tr>
 <tr class="separator:a4507d0c1b65cec455defcf0b9413870c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4f06a4ad69164b31391853bc173a423"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#ac4f06a4ad69164b31391853bc173a423">sirius_get_fft_grid_limits</a> (int32_t const *d, int32_t *lower, int32_t *upper)</td></tr>
 <tr class="memdesc:ac4f06a4ad69164b31391853bc173a423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get lower and upper limits of the FFT grid dimension.  <a href="#ac4f06a4ad69164b31391853bc173a423">More...</a><br /></td></tr>
 <tr class="separator:ac4f06a4ad69164b31391853bc173a423"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c9c927ed757ff93eec532a869f8d32a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a1c9c927ed757ff93eec532a869f8d32a">sirius_get_fft_index</a> (int32_t *fft_index__)</td></tr>
-<tr class="memdesc:a1c9c927ed757ff93eec532a869f8d32a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mapping between G-vector index and FFT index.  <a href="#a1c9c927ed757ff93eec532a869f8d32a">More...</a><br /></td></tr>
+<tr class="memitem:a1c9c927ed757ff93eec532a869f8d32a"><td class="memItemLeft" align="right" valign="top"><a id="a1c9c927ed757ff93eec532a869f8d32a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a1c9c927ed757ff93eec532a869f8d32a">sirius_get_fft_index</a> (int32_t *fft_index__)</td></tr>
+<tr class="memdesc:a1c9c927ed757ff93eec532a869f8d32a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mapping between G-vector index and FFT index. <br /></td></tr>
 <tr class="separator:a1c9c927ed757ff93eec532a869f8d32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7bd022f3ec46d2bff3a8c65c5d4b659"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#ad7bd022f3ec46d2bff3a8c65c5d4b659">sirius_get_gvec</a> (int32_t *gvec__)</td></tr>
-<tr class="memdesc:ad7bd022f3ec46d2bff3a8c65c5d4b659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of G-vectors in fractional corrdinates.  <a href="#ad7bd022f3ec46d2bff3a8c65c5d4b659">More...</a><br /></td></tr>
+<tr class="memitem:ad7bd022f3ec46d2bff3a8c65c5d4b659"><td class="memItemLeft" align="right" valign="top"><a id="ad7bd022f3ec46d2bff3a8c65c5d4b659"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#ad7bd022f3ec46d2bff3a8c65c5d4b659">sirius_get_gvec</a> (int32_t *gvec__)</td></tr>
+<tr class="memdesc:ad7bd022f3ec46d2bff3a8c65c5d4b659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of G-vectors in fractional corrdinates. <br /></td></tr>
 <tr class="separator:ad7bd022f3ec46d2bff3a8c65c5d4b659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64fa2574194bf24cd2175aa4b010d9f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a64fa2574194bf24cd2175aa4b010d9f4">sirius_get_gvec_cart</a> (double *gvec_cart__)</td></tr>
-<tr class="memdesc:a64fa2574194bf24cd2175aa4b010d9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of G-vectors in Cartesian coordinates.  <a href="#a64fa2574194bf24cd2175aa4b010d9f4">More...</a><br /></td></tr>
+<tr class="memitem:a64fa2574194bf24cd2175aa4b010d9f4"><td class="memItemLeft" align="right" valign="top"><a id="a64fa2574194bf24cd2175aa4b010d9f4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a64fa2574194bf24cd2175aa4b010d9f4">sirius_get_gvec_cart</a> (double *gvec_cart__)</td></tr>
+<tr class="memdesc:a64fa2574194bf24cd2175aa4b010d9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of G-vectors in Cartesian coordinates. <br /></td></tr>
 <tr class="separator:a64fa2574194bf24cd2175aa4b010d9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0527b986e980c5ec702f0e6fd643f8e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a0527b986e980c5ec702f0e6fd643f8e0">sirius_get_gvec_len</a> (double *gvec_len__)</td></tr>
-<tr class="memdesc:a0527b986e980c5ec702f0e6fd643f8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get lengh of G-vectors.  <a href="#a0527b986e980c5ec702f0e6fd643f8e0">More...</a><br /></td></tr>
+<tr class="memitem:a0527b986e980c5ec702f0e6fd643f8e0"><td class="memItemLeft" align="right" valign="top"><a id="a0527b986e980c5ec702f0e6fd643f8e0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a0527b986e980c5ec702f0e6fd643f8e0">sirius_get_gvec_len</a> (double *gvec_len__)</td></tr>
+<tr class="memdesc:a0527b986e980c5ec702f0e6fd643f8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get lengh of G-vectors. <br /></td></tr>
 <tr class="separator:a0527b986e980c5ec702f0e6fd643f8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fb664bc0a544f3dfde5938dddb20f22"><td class="memItemLeft" align="right" valign="top"><a id="a1fb664bc0a544f3dfde5938dddb20f22"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_index_by_gvec</b> (int32_t *index_by_gvec__)</td></tr>
 <tr class="separator:a1fb664bc0a544f3dfde5938dddb20f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf763121c21f26284f1ac2489a3398f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a8bf763121c21f26284f1ac2489a3398f">sirius_get_gvec_ylm</a> (double_complex *gvec_ylm__, int *ld__, int *lmax__)</td></tr>
-<tr class="memdesc:a8bf763121c21f26284f1ac2489a3398f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Ylm spherical harmonics of G-vectors.  <a href="#a8bf763121c21f26284f1ac2489a3398f">More...</a><br /></td></tr>
+<tr class="memitem:a8bf763121c21f26284f1ac2489a3398f"><td class="memItemLeft" align="right" valign="top"><a id="a8bf763121c21f26284f1ac2489a3398f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a8bf763121c21f26284f1ac2489a3398f">sirius_get_gvec_ylm</a> (double_complex *gvec_ylm__, int *ld__, int *lmax__)</td></tr>
+<tr class="memdesc:a8bf763121c21f26284f1ac2489a3398f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Ylm spherical harmonics of G-vectors. <br /></td></tr>
 <tr class="separator:a8bf763121c21f26284f1ac2489a3398f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a432592d31bec3838b061e7f0235a0616"><td class="memItemLeft" align="right" valign="top"><a id="a432592d31bec3838b061e7f0235a0616"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_gvec_phase_factors</b> (double_complex *sfacg__)</td></tr>
@@ -252,14 +261,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_gvec_phase
 <tr class="memitem:adaddf26b80f9565e33f8cf6910771599"><td class="memItemLeft" align="right" valign="top"><a id="adaddf26b80f9565e33f8cf6910771599"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_step_function</b> (double_complex *cfunig__, double *cfunir__)</td></tr>
 <tr class="separator:adaddf26b80f9565e33f8cf6910771599"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f4d5976a47821ec391f99d5aa38a1d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a6f4d5976a47821ec391f99d5aa38a1d3">sirius_get_num_electrons</a> (double *num_electrons__)</td></tr>
-<tr class="memdesc:a6f4d5976a47821ec391f99d5aa38a1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of electrons.  <a href="#a6f4d5976a47821ec391f99d5aa38a1d3">More...</a><br /></td></tr>
+<tr class="memitem:a6f4d5976a47821ec391f99d5aa38a1d3"><td class="memItemLeft" align="right" valign="top"><a id="a6f4d5976a47821ec391f99d5aa38a1d3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a6f4d5976a47821ec391f99d5aa38a1d3">sirius_get_num_electrons</a> (double *num_electrons__)</td></tr>
+<tr class="memdesc:a6f4d5976a47821ec391f99d5aa38a1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of electrons. <br /></td></tr>
 <tr class="separator:a6f4d5976a47821ec391f99d5aa38a1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27ae9060ed87b99ad47c28145f43bc2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a27ae9060ed87b99ad47c28145f43bc2f">sirius_get_num_valence_electrons</a> (double *num_valence_electrons__)</td></tr>
-<tr class="memdesc:a27ae9060ed87b99ad47c28145f43bc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of valence electrons.  <a href="#a27ae9060ed87b99ad47c28145f43bc2f">More...</a><br /></td></tr>
+<tr class="memitem:a27ae9060ed87b99ad47c28145f43bc2f"><td class="memItemLeft" align="right" valign="top"><a id="a27ae9060ed87b99ad47c28145f43bc2f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a27ae9060ed87b99ad47c28145f43bc2f">sirius_get_num_valence_electrons</a> (double *num_valence_electrons__)</td></tr>
+<tr class="memdesc:a27ae9060ed87b99ad47c28145f43bc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of valence electrons. <br /></td></tr>
 <tr class="separator:a27ae9060ed87b99ad47c28145f43bc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad425cb62ec8eb705cf558fffde1da7b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#ad425cb62ec8eb705cf558fffde1da7b0">sirius_get_num_core_electrons</a> (double *num_core_electrons__)</td></tr>
-<tr class="memdesc:ad425cb62ec8eb705cf558fffde1da7b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of core electrons.  <a href="#ad425cb62ec8eb705cf558fffde1da7b0">More...</a><br /></td></tr>
+<tr class="memitem:ad425cb62ec8eb705cf558fffde1da7b0"><td class="memItemLeft" align="right" valign="top"><a id="ad425cb62ec8eb705cf558fffde1da7b0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#ad425cb62ec8eb705cf558fffde1da7b0">sirius_get_num_core_electrons</a> (double *num_core_electrons__)</td></tr>
+<tr class="memdesc:ad425cb62ec8eb705cf558fffde1da7b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of core electrons. <br /></td></tr>
 <tr class="separator:ad425cb62ec8eb705cf558fffde1da7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18a1bdacb059951905b5d3961e6d4ee8"><td class="memItemLeft" align="right" valign="top"><a id="a18a1bdacb059951905b5d3961e6d4ee8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_generate_initial_density</b> ()</td></tr>
@@ -372,11 +384,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_local_kpoi
 <tr class="memitem:aac141eb0a0544f09b696a6740da855ed"><td class="memItemLeft" align="right" valign="top"><a id="aac141eb0a0544f09b696a6740da855ed"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_global_kpoint_index</b> (int32_t *kset_id, int32_t *ikloc, int32_t *ik)</td></tr>
 <tr class="separator:aac141eb0a0544f09b696a6740da855ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb79d6ddac46b42c5bbf3a238014ac82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#afb79d6ddac46b42c5bbf3a238014ac82">sirius_generate_radial_functions</a> ()</td></tr>
-<tr class="memdesc:afb79d6ddac46b42c5bbf3a238014ac82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate radial functions (both aw and lo)  <a href="#afb79d6ddac46b42c5bbf3a238014ac82">More...</a><br /></td></tr>
+<tr class="memitem:afb79d6ddac46b42c5bbf3a238014ac82"><td class="memItemLeft" align="right" valign="top"><a id="afb79d6ddac46b42c5bbf3a238014ac82"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#afb79d6ddac46b42c5bbf3a238014ac82">sirius_generate_radial_functions</a> ()</td></tr>
+<tr class="memdesc:afb79d6ddac46b42c5bbf3a238014ac82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate radial functions (both aw and lo) <br /></td></tr>
 <tr class="separator:afb79d6ddac46b42c5bbf3a238014ac82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd64e4745e7101401fc79ee91ddc2937"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#acd64e4745e7101401fc79ee91ddc2937">sirius_generate_radial_integrals</a> ()</td></tr>
-<tr class="memdesc:acd64e4745e7101401fc79ee91ddc2937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate radial integrals.  <a href="#acd64e4745e7101401fc79ee91ddc2937">More...</a><br /></td></tr>
+<tr class="memitem:acd64e4745e7101401fc79ee91ddc2937"><td class="memItemLeft" align="right" valign="top"><a id="acd64e4745e7101401fc79ee91ddc2937"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#acd64e4745e7101401fc79ee91ddc2937">sirius_generate_radial_integrals</a> ()</td></tr>
+<tr class="memdesc:acd64e4745e7101401fc79ee91ddc2937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate radial integrals. <br /></td></tr>
 <tr class="separator:acd64e4745e7101401fc79ee91ddc2937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4da2b5a326d2d1aac3b0471725a974e"><td class="memItemLeft" align="right" valign="top"><a id="aa4da2b5a326d2d1aac3b0471725a974e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_symmetry_classes</b> (int32_t *ncls, int32_t *icls_by_ia)</td></tr>
@@ -393,22 +407,26 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_max_mt_bas
 <tr class="memitem:af9ba827adbb92d4466fdbb6130d14906"><td class="memItemLeft" align="right" valign="top"><a id="af9ba827adbb92d4466fdbb6130d14906"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_basis_functions_index</b> (int32_t *mt_basis_size, int32_t *offset_wf, int32_t *indexb__)</td></tr>
 <tr class="separator:af9ba827adbb92d4466fdbb6130d14906"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60269b3939fe7e732147ac515a78eb9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a60269b3939fe7e732147ac515a78eb9a">sirius_get_num_gkvec</a> (ftn_int *kset_id__, ftn_int *ik__, ftn_int *num_gkvec__)</td></tr>
-<tr class="memdesc:a60269b3939fe7e732147ac515a78eb9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of G+k vectors for a given k-point in the set.  <a href="#a60269b3939fe7e732147ac515a78eb9a">More...</a><br /></td></tr>
+<tr class="memitem:a60269b3939fe7e732147ac515a78eb9a"><td class="memItemLeft" align="right" valign="top"><a id="a60269b3939fe7e732147ac515a78eb9a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a60269b3939fe7e732147ac515a78eb9a">sirius_get_num_gkvec</a> (ftn_int *kset_id__, ftn_int *ik__, ftn_int *num_gkvec__)</td></tr>
+<tr class="memdesc:a60269b3939fe7e732147ac515a78eb9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of G+k vectors for a given k-point in the set. <br /></td></tr>
 <tr class="separator:a60269b3939fe7e732147ac515a78eb9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30b58a3f6eb4009901a9d2229faea08a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a30b58a3f6eb4009901a9d2229faea08a">sirius_get_max_num_gkvec</a> (ftn_int *kset_id__, ftn_int *max_num_gkvec__)</td></tr>
-<tr class="memdesc:a30b58a3f6eb4009901a9d2229faea08a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum number of G+k vectors across all k-points in the set.  <a href="#a30b58a3f6eb4009901a9d2229faea08a">More...</a><br /></td></tr>
+<tr class="memitem:a30b58a3f6eb4009901a9d2229faea08a"><td class="memItemLeft" align="right" valign="top"><a id="a30b58a3f6eb4009901a9d2229faea08a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a30b58a3f6eb4009901a9d2229faea08a">sirius_get_max_num_gkvec</a> (ftn_int *kset_id__, ftn_int *max_num_gkvec__)</td></tr>
+<tr class="memdesc:a30b58a3f6eb4009901a9d2229faea08a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum number of G+k vectors across all k-points in the set. <br /></td></tr>
 <tr class="separator:a30b58a3f6eb4009901a9d2229faea08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a450eb5ce164277d16ae162bf40b8f0d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a450eb5ce164277d16ae162bf40b8f0d6">sirius_get_gkvec_arrays</a> (ftn_int *kset_id__, ftn_int *ik__, ftn_int *num_gkvec__, ftn_int *gvec_index__, ftn_double *gkvec__, ftn_double *gkvec_cart__, ftn_double *gkvec_len, ftn_double *gkvec_tp__)</td></tr>
-<tr class="memdesc:a450eb5ce164277d16ae162bf40b8f0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all G+k vector related arrays.  <a href="#a450eb5ce164277d16ae162bf40b8f0d6">More...</a><br /></td></tr>
+<tr class="memitem:a450eb5ce164277d16ae162bf40b8f0d6"><td class="memItemLeft" align="right" valign="top"><a id="a450eb5ce164277d16ae162bf40b8f0d6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a450eb5ce164277d16ae162bf40b8f0d6">sirius_get_gkvec_arrays</a> (ftn_int *kset_id__, ftn_int *ik__, ftn_int *num_gkvec__, ftn_int *gvec_index__, ftn_double *gkvec__, ftn_double *gkvec_cart__, ftn_double *gkvec_len, ftn_double *gkvec_tp__)</td></tr>
+<tr class="memdesc:a450eb5ce164277d16ae162bf40b8f0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all G+k vector related arrays. <br /></td></tr>
 <tr class="separator:a450eb5ce164277d16ae162bf40b8f0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a951bc9e416697295f508d10f1fb45b38"><td class="memItemLeft" align="right" valign="top"><a id="a951bc9e416697295f508d10f1fb45b38"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_matching_coefficients</b> (int32_t const *kset_id__, int32_t const *ik__, double_complex *apwalm__, int32_t const *ngkmax__, int32_t const *apwordmax__)</td></tr>
 <tr class="separator:a951bc9e416697295f508d10f1fb45b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a610f71b595ec0b00ae3d8380096479"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a3a610f71b595ec0b00ae3d8380096479">sirius_get_spinor_wave_functions</a> (int32_t *kset_id, int32_t *ik, double_complex *spinor_wave_functions__)</td></tr>
 <tr class="separator:a3a610f71b595ec0b00ae3d8380096479"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25ad4f01903dd98e98d17495161a8e1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a25ad4f01903dd98e98d17495161a8e1a">sirius_get_gkvec_cart</a> (int32_t *kset_id, int32_t *ik, double *gkvec_cart__)</td></tr>
-<tr class="memdesc:a25ad4f01903dd98e98d17495161a8e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Cartesian coordinates of G+k vectors.  <a href="#a25ad4f01903dd98e98d17495161a8e1a">More...</a><br /></td></tr>
+<tr class="memitem:a25ad4f01903dd98e98d17495161a8e1a"><td class="memItemLeft" align="right" valign="top"><a id="a25ad4f01903dd98e98d17495161a8e1a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a25ad4f01903dd98e98d17495161a8e1a">sirius_get_gkvec_cart</a> (int32_t *kset_id, int32_t *ik, double *gkvec_cart__)</td></tr>
+<tr class="memdesc:a25ad4f01903dd98e98d17495161a8e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Cartesian coordinates of G+k vectors. <br /></td></tr>
 <tr class="separator:a25ad4f01903dd98e98d17495161a8e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a9761dac73343c3972c34d25acd129f"><td class="memItemLeft" align="right" valign="top"><a id="a3a9761dac73343c3972c34d25acd129f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_evalsum</b> (double *evalsum)</td></tr>
@@ -437,8 +455,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_energy_enu
 <tr class="memitem:ad820974bc20d438d316c811a8e09880c"><td class="memItemLeft" align="right" valign="top"><a id="ad820974bc20d438d316c811a8e09880c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_energy_kin</b> (double *energy_kin)</td></tr>
 <tr class="separator:ad820974bc20d438d316c811a8e09880c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8410b67b23cb8273001ea64b9dbc438"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af8410b67b23cb8273001ea64b9dbc438">sirius_generate_xc_potential</a> (ftn_double *vxcmt__, ftn_double *vxcit__, ftn_double *bxcmt__, ftn_double *bxcit__)</td></tr>
-<tr class="memdesc:af8410b67b23cb8273001ea64b9dbc438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate XC potential and magnetic field.  <a href="#af8410b67b23cb8273001ea64b9dbc438">More...</a><br /></td></tr>
+<tr class="memitem:af8410b67b23cb8273001ea64b9dbc438"><td class="memItemLeft" align="right" valign="top"><a id="af8410b67b23cb8273001ea64b9dbc438"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af8410b67b23cb8273001ea64b9dbc438">sirius_generate_xc_potential</a> (ftn_double *vxcmt__, ftn_double *vxcit__, ftn_double *bxcmt__, ftn_double *bxcit__)</td></tr>
+<tr class="memdesc:af8410b67b23cb8273001ea64b9dbc438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate XC potential and magnetic field. <br /></td></tr>
 <tr class="separator:af8410b67b23cb8273001ea64b9dbc438"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96813a7f4c637d0541feff2c428db122"><td class="memItemLeft" align="right" valign="top"><a id="a96813a7f4c637d0541feff2c428db122"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_generate_rho_multipole_moments</b> (ftn_int *lmmax__, ftn_double_complex *qmt__)</td></tr>
@@ -611,12 +630,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_ylmr2_</b> (in
 <tr class="memitem:af840e281db2223de1bfe8d4b7fb0b451"><td class="memItemLeft" align="right" valign="top"><a id="af840e281db2223de1bfe8d4b7fb0b451"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_q_operator_matrix</b> (ftn_int *iat__, ftn_double *q_mtrx__, ftn_int *ld__)</td></tr>
 <tr class="separator:af840e281db2223de1bfe8d4b7fb0b451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a809c78ac5861ccb2eb945bd532ef4cf6"><td class="memItemLeft" align="right" valign="top"><a id="a809c78ac5861ccb2eb945bd532ef4cf6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_d_operator_matrix</b> (ftn_int *ia__, ftn_double *d_mtrx__, ftn_int *ld__)</td></tr>
-<tr class="separator:a809c78ac5861ccb2eb945bd532ef4cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82555562d05e7ed595bea45e947d7504"><td class="memItemLeft" align="right" valign="top"><a id="a82555562d05e7ed595bea45e947d7504"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_set_d_operator_matrix</b> (ftn_int *ia__, ftn_double *d_mtrx__, ftn_int *ld__)</td></tr>
-<tr class="separator:a82555562d05e7ed595bea45e947d7504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6dfebe7c83ae00bbdcfc6bbec569b5b"><td class="memItemLeft" align="right" valign="top"><a id="aa6dfebe7c83ae00bbdcfc6bbec569b5b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_d_operator_matrix</b> (ftn_int *ia__, ftn_int *ispn__, ftn_double *d_mtrx__, ftn_int *ld__)</td></tr>
+<tr class="separator:aa6dfebe7c83ae00bbdcfc6bbec569b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84bed988dffb1c81c7c7121523d1ef7d"><td class="memItemLeft" align="right" valign="top"><a id="a84bed988dffb1c81c7c7121523d1ef7d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_set_d_operator_matrix</b> (ftn_int *ia__, ftn_int *ispn__, ftn_double *d_mtrx__, ftn_int *ld__)</td></tr>
+<tr class="separator:a84bed988dffb1c81c7c7121523d1ef7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b3ab0c21215be17c8c81fb90b3d3b5a"><td class="memItemLeft" align="right" valign="top"><a id="a9b3ab0c21215be17c8c81fb90b3d3b5a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_q_pw_</b> (int32_t *iat__, int32_t *num_gvec__, double_complex *q_pw__)</td></tr>
 <tr class="separator:a9b3ab0c21215be17c8c81fb90b3d3b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -656,12 +675,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_beta_proje
 <tr class="memitem:a83c757ab4a0e18f4f3cf52abb3ad277e"><td class="memItemLeft" align="right" valign="top"><a id="a83c757ab4a0e18f4f3cf52abb3ad277e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_density_matrix</b> (ftn_int *ia__, ftn_double_complex *dm__, ftn_int *ld__)</td></tr>
 <tr class="separator:a83c757ab4a0e18f4f3cf52abb3ad277e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c8f8b6225f83f76935576eda27ee8e2"><td class="memItemLeft" align="right" valign="top"><a id="a6c8f8b6225f83f76935576eda27ee8e2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_calc_forces</b> (ftn_int *kset_id__)</td></tr>
-<tr class="separator:a6c8f8b6225f83f76935576eda27ee8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1001ec837b8aa6f61f341b8c1dbc886"><td class="memItemLeft" align="right" valign="top"><a id="ac1001ec837b8aa6f61f341b8c1dbc886"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_forces</b> (ftn_char label__, ftn_double *forces__)</td></tr>
-<tr class="separator:ac1001ec837b8aa6f61f341b8c1dbc886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa29d6c01e0e0451c73f59026aacace8e"><td class="memItemLeft" align="right" valign="top"><a id="aa29d6c01e0e0451c73f59026aacace8e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_set_verbosity</b> (ftn_int *level__)</td></tr>
 <tr class="separator:aa29d6c01e0e0451c73f59026aacace8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -677,32 +690,47 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_pw_coeffs<
 <tr class="memitem:a165bc7cd4172f3bab44da37044a70498"><td class="memItemLeft" align="right" valign="top"><a id="a165bc7cd4172f3bab44da37044a70498"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_pw_coeffs_real</b> (ftn_char atom_type__, ftn_char label__, ftn_double *pw_coeffs__, ftn_int *ngv__, ftn_int *gvl__, ftn_int *comm__)</td></tr>
 <tr class="separator:a165bc7cd4172f3bab44da37044a70498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbd4850fbcc6d525ad273e9a1d5a24fb"><td class="memItemLeft" align="right" valign="top"><a id="afbd4850fbcc6d525ad273e9a1d5a24fb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_calculate_forces</b> (ftn_int *kset_id__)</td></tr>
+<tr class="separator:afbd4850fbcc6d525ad273e9a1d5a24fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1001ec837b8aa6f61f341b8c1dbc886"><td class="memItemLeft" align="right" valign="top"><a id="ac1001ec837b8aa6f61f341b8c1dbc886"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_forces</b> (ftn_char label__, ftn_double *forces__)</td></tr>
+<tr class="separator:ac1001ec837b8aa6f61f341b8c1dbc886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae648e179eb4a1d344477f4fb4eb3aedc"><td class="memItemLeft" align="right" valign="top"><a id="ae648e179eb4a1d344477f4fb4eb3aedc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_calculate_stress_tensor</b> (ftn_int *kset_id__)</td></tr>
 <tr class="separator:ae648e179eb4a1d344477f4fb4eb3aedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0f7f654097f87af81e3017b5bf80bf5"><td class="memItemLeft" align="right" valign="top"><a id="aa0f7f654097f87af81e3017b5bf80bf5"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_get_stress_tensor</b> (ftn_char label__, ftn_double *stress_tensor__)</td></tr>
 <tr class="separator:aa0f7f654097f87af81e3017b5bf80bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e524b00fdd32310bdb83927c6895d69"><td class="memItemLeft" align="right" valign="top"><a id="a7e524b00fdd32310bdb83927c6895d69"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_set_processing_unit</b> (ftn_char pu__)</td></tr>
+<tr class="separator:a7e524b00fdd32310bdb83927c6895d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:af7e3edef8830c66d81f3e158488868b8"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classsirius_1_1_simulation__context.html">sirius::Simulation_context</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af7e3edef8830c66d81f3e158488868b8">sim_ctx</a> {nullptr}</td></tr>
-<tr class="memdesc:af7e3edef8830c66d81f3e158488868b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulation context.  <a href="#af7e3edef8830c66d81f3e158488868b8">More...</a><br /></td></tr>
+<tr class="memitem:af7e3edef8830c66d81f3e158488868b8"><td class="memItemLeft" align="right" valign="top"><a id="af7e3edef8830c66d81f3e158488868b8"></a>
+std::unique_ptr&lt; <a class="el" href="classsirius_1_1_simulation__context.html">sirius::Simulation_context</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af7e3edef8830c66d81f3e158488868b8">sim_ctx</a> {nullptr}</td></tr>
+<tr class="memdesc:af7e3edef8830c66d81f3e158488868b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulation context. <br /></td></tr>
 <tr class="separator:af7e3edef8830c66d81f3e158488868b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27c9852fd9c283b3432aaea8d778ab45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsirius_1_1_density.html">sirius::Density</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a27c9852fd9c283b3432aaea8d778ab45">density</a> = nullptr</td></tr>
-<tr class="memdesc:a27c9852fd9c283b3432aaea8d778ab45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to Density class, implicitly used by Fortran side.  <a href="#a27c9852fd9c283b3432aaea8d778ab45">More...</a><br /></td></tr>
+<tr class="memitem:a27c9852fd9c283b3432aaea8d778ab45"><td class="memItemLeft" align="right" valign="top"><a id="a27c9852fd9c283b3432aaea8d778ab45"></a>
+<a class="el" href="classsirius_1_1_density.html">sirius::Density</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a27c9852fd9c283b3432aaea8d778ab45">density</a> = nullptr</td></tr>
+<tr class="memdesc:a27c9852fd9c283b3432aaea8d778ab45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to Density class, implicitly used by Fortran side. <br /></td></tr>
 <tr class="separator:a27c9852fd9c283b3432aaea8d778ab45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65d08a5ad51414bcc2f4a0660014442f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsirius_1_1_potential.html">sirius::Potential</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a65d08a5ad51414bcc2f4a0660014442f">potential</a> = nullptr</td></tr>
-<tr class="memdesc:a65d08a5ad51414bcc2f4a0660014442f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to Potential class, implicitly used by Fortran side.  <a href="#a65d08a5ad51414bcc2f4a0660014442f">More...</a><br /></td></tr>
+<tr class="memitem:a65d08a5ad51414bcc2f4a0660014442f"><td class="memItemLeft" align="right" valign="top"><a id="a65d08a5ad51414bcc2f4a0660014442f"></a>
+<a class="el" href="classsirius_1_1_potential.html">sirius::Potential</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a65d08a5ad51414bcc2f4a0660014442f">potential</a> = nullptr</td></tr>
+<tr class="memdesc:a65d08a5ad51414bcc2f4a0660014442f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to Potential class, implicitly used by Fortran side. <br /></td></tr>
 <tr class="separator:a65d08a5ad51414bcc2f4a0660014442f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804cdf407c18370916fe2603b6727b5a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classsirius_1_1_k__point__set.html">sirius::K_point_set</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a804cdf407c18370916fe2603b6727b5a">kset_list</a></td></tr>
-<tr class="memdesc:a804cdf407c18370916fe2603b6727b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of pointers to the sets of k-points.  <a href="#a804cdf407c18370916fe2603b6727b5a">More...</a><br /></td></tr>
+<tr class="memitem:a804cdf407c18370916fe2603b6727b5a"><td class="memItemLeft" align="right" valign="top"><a id="a804cdf407c18370916fe2603b6727b5a"></a>
+std::vector&lt; <a class="el" href="classsirius_1_1_k__point__set.html">sirius::K_point_set</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a804cdf407c18370916fe2603b6727b5a">kset_list</a></td></tr>
+<tr class="memdesc:a804cdf407c18370916fe2603b6727b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of pointers to the sets of k-points. <br /></td></tr>
 <tr class="separator:a804cdf407c18370916fe2603b6727b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2241fb592bd4f724096c446cc4bfb5de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsirius_1_1_d_f_t__ground__state.html">sirius::DFT_ground_state</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a2241fb592bd4f724096c446cc4bfb5de">dft_ground_state</a> = nullptr</td></tr>
-<tr class="memdesc:a2241fb592bd4f724096c446cc4bfb5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">DFT ground state wrapper.  <a href="#a2241fb592bd4f724096c446cc4bfb5de">More...</a><br /></td></tr>
+<tr class="memitem:a2241fb592bd4f724096c446cc4bfb5de"><td class="memItemLeft" align="right" valign="top"><a id="a2241fb592bd4f724096c446cc4bfb5de"></a>
+<a class="el" href="classsirius_1_1_d_f_t__ground__state.html">sirius::DFT_ground_state</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#a2241fb592bd4f724096c446cc4bfb5de">dft_ground_state</a> = nullptr</td></tr>
+<tr class="memdesc:a2241fb592bd4f724096c446cc4bfb5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">DFT ground state wrapper. <br /></td></tr>
 <tr class="separator:a2241fb592bd4f724096c446cc4bfb5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5d1c49525684e8f93f8fa39b3d111a3"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classsddk_1_1timer.html">sddk::timer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af5d1c49525684e8f93f8fa39b3d111a3">ftimers</a></td></tr>
-<tr class="memdesc:af5d1c49525684e8f93f8fa39b3d111a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of timers created on the Fortran side.  <a href="#af5d1c49525684e8f93f8fa39b3d111a3">More...</a><br /></td></tr>
+<tr class="memitem:af5d1c49525684e8f93f8fa39b3d111a3"><td class="memItemLeft" align="right" valign="top"><a id="af5d1c49525684e8f93f8fa39b3d111a3"></a>
+std::map&lt; std::string, <a class="el" href="classsddk_1_1timer.html">sddk::timer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sirius__api_8cpp.html#af5d1c49525684e8f93f8fa39b3d111a3">ftimers</a></td></tr>
+<tr class="memdesc:af5d1c49525684e8f93f8fa39b3d111a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of timers created on the Fortran side. <br /></td></tr>
 <tr class="separator:af5d1c49525684e8f93f8fa39b3d111a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ad743764f0ba8ad76ba000f52d3f715"><td class="memItemLeft" align="right" valign="top"><a id="a3ad743764f0ba8ad76ba000f52d3f715"></a>
 std::unique_ptr&lt; <a class="el" href="classsirius_1_1_stress.html">sirius::Stress</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_tensor</b> {nullptr}</td></tr>
@@ -741,28 +769,6 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">siriu
 </dl>
 <p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">integer</span> ierr</div><div class="line"><span class="keyword">call </span>mpi_init(ierr)</div><div class="line"><span class="comment">! initialize low-level stuff and don&#39;t call MPI_Init() from SIRIUS</span></div><div class="line"><span class="keyword">call </span><a class="code" href="interfacesirius_1_1sirius__initialize.html">sirius_initialize</a>(0)</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00061">61</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a181a1afd75e34e9db1854840c44f2c5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a181a1afd75e34e9db1854840c44f2c5f">&#9670;&nbsp;</a></span>sirius_clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_clear </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Clear global variables and destroy all objects. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00068">68</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -891,62 +897,6 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">siriu
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00153">153</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a7b25454c8f56e16d91ae53d03343cb59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b25454c8f56e16d91ae53d03343cb59">&#9670;&nbsp;</a></span>sirius_create_kset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_create_kset </td>
-          <td>(</td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>num_kpoints__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>kpoints__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>kpoint_weights__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>init_kset__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>kset_id__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>nk_loc__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create the k-point set from the list of k-points and return it's id. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00172">172</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -1449,50 +1399,6 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">siriu
 
 </div>
 </div>
-<a id="af781db27a02bbbacebb5c450699fc8f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af781db27a02bbbacebb5c450699fc8f4">&#9670;&nbsp;</a></span>sirius_get_num_gvec()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_num_gvec </td>
-          <td>(</td>
-          <td class="paramtype">int32_t *&#160;</td>
-          <td class="paramname"><em>num_gvec__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get number of G-vectors within the plane-wave cutoff. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00567">567</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a4507d0c1b65cec455defcf0b9413870c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4507d0c1b65cec455defcf0b9413870c">&#9670;&nbsp;</a></span>sirius_get_fft_grid_size()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_fft_grid_size </td>
-          <td>(</td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>grid_size__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get sizes of FFT grid. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00585">585</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
 <a id="ac4f06a4ad69164b31391853bc173a423"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4f06a4ad69164b31391853bc173a423">&#9670;&nbsp;</a></span>sirius_get_fft_grid_limits()</h2>
 
@@ -1539,198 +1445,6 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">siriu
 
 </div>
 </div>
-<a id="a1c9c927ed757ff93eec532a869f8d32a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c9c927ed757ff93eec532a869f8d32a">&#9670;&nbsp;</a></span>sirius_get_fft_index()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_fft_index </td>
-          <td>(</td>
-          <td class="paramtype">int32_t *&#160;</td>
-          <td class="paramname"><em>fft_index__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get mapping between G-vector index and FFT index. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00612">612</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ad7bd022f3ec46d2bff3a8c65c5d4b659"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7bd022f3ec46d2bff3a8c65c5d4b659">&#9670;&nbsp;</a></span>sirius_get_gvec()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_gvec </td>
-          <td>(</td>
-          <td class="paramtype">int32_t *&#160;</td>
-          <td class="paramname"><em>gvec__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get list of G-vectors in fractional corrdinates. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00621">621</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a64fa2574194bf24cd2175aa4b010d9f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64fa2574194bf24cd2175aa4b010d9f4">&#9670;&nbsp;</a></span>sirius_get_gvec_cart()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_gvec_cart </td>
-          <td>(</td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>gvec_cart__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get list of G-vectors in Cartesian coordinates. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00633">633</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a0527b986e980c5ec702f0e6fd643f8e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0527b986e980c5ec702f0e6fd643f8e0">&#9670;&nbsp;</a></span>sirius_get_gvec_len()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_gvec_len </td>
-          <td>(</td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>gvec_len__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get lengh of G-vectors. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00645">645</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a8bf763121c21f26284f1ac2489a3398f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf763121c21f26284f1ac2489a3398f">&#9670;&nbsp;</a></span>sirius_get_gvec_ylm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_gvec_ylm </td>
-          <td>(</td>
-          <td class="paramtype">double_complex *&#160;</td>
-          <td class="paramname"><em>gvec_ylm__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>ld__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>lmax__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get Ylm spherical harmonics of G-vectors. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00668">668</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a6f4d5976a47821ec391f99d5aa38a1d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f4d5976a47821ec391f99d5aa38a1d3">&#9670;&nbsp;</a></span>sirius_get_num_electrons()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_num_electrons </td>
-          <td>(</td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>num_electrons__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the total number of electrons. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00702">702</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a27ae9060ed87b99ad47c28145f43bc2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27ae9060ed87b99ad47c28145f43bc2f">&#9670;&nbsp;</a></span>sirius_get_num_valence_electrons()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_num_valence_electrons </td>
-          <td>(</td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>num_valence_electrons__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the number of valence electrons. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00708">708</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ad425cb62ec8eb705cf558fffde1da7b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad425cb62ec8eb705cf558fffde1da7b0">&#9670;&nbsp;</a></span>sirius_get_num_core_electrons()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_num_core_electrons </td>
-          <td>(</td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>num_core_electrons__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the number of core electrons. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00714">714</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
 <a id="a908f15a32075292e1d731f04bd7dc1de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a908f15a32075292e1d731f04bd7dc1de">&#9670;&nbsp;</a></span>sirius_find_eigen_states()</h2>
 
@@ -1770,186 +1484,6 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">siriu
 
 </div>
 </div>
-<a id="afb79d6ddac46b42c5bbf3a238014ac82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb79d6ddac46b42c5bbf3a238014ac82">&#9670;&nbsp;</a></span>sirius_generate_radial_functions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_generate_radial_functions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Generate radial functions (both aw and lo) </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01165">1165</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="acd64e4745e7101401fc79ee91ddc2937"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd64e4745e7101401fc79ee91ddc2937">&#9670;&nbsp;</a></span>sirius_generate_radial_integrals()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_generate_radial_integrals </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Generate radial integrals. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01171">1171</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a60269b3939fe7e732147ac515a78eb9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60269b3939fe7e732147ac515a78eb9a">&#9670;&nbsp;</a></span>sirius_get_num_gkvec()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_num_gkvec </td>
-          <td>(</td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>kset_id__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>ik__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>num_gkvec__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get number of G+k vectors for a given k-point in the set. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01234">1234</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a30b58a3f6eb4009901a9d2229faea08a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30b58a3f6eb4009901a9d2229faea08a">&#9670;&nbsp;</a></span>sirius_get_max_num_gkvec()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_max_num_gkvec </td>
-          <td>(</td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>kset_id__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>max_num_gkvec__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get maximum number of G+k vectors across all k-points in the set. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01250">1250</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a450eb5ce164277d16ae162bf40b8f0d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a450eb5ce164277d16ae162bf40b8f0d6">&#9670;&nbsp;</a></span>sirius_get_gkvec_arrays()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_gkvec_arrays </td>
-          <td>(</td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>kset_id__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>ik__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>num_gkvec__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_int *&#160;</td>
-          <td class="paramname"><em>gvec_index__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>gkvec__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>gkvec_cart__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>gkvec_len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>gkvec_tp__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get all G+k vector related arrays. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01257">1257</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
 <a id="a3a610f71b595ec0b00ae3d8380096479"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a610f71b595ec0b00ae3d8380096479">&#9670;&nbsp;</a></span>sirius_get_spinor_wave_functions()</h2>
 
@@ -1984,88 +1518,6 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">siriu
 <p>Get first-variational matrices of Hamiltonian and overlap ** Radial integrals and plane-wave coefficients of the interstitial potential must be calculated prior to </p>
 
 <p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01409">1409</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a25ad4f01903dd98e98d17495161a8e1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25ad4f01903dd98e98d17495161a8e1a">&#9670;&nbsp;</a></span>sirius_get_gkvec_cart()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_get_gkvec_cart </td>
-          <td>(</td>
-          <td class="paramtype">int32_t *&#160;</td>
-          <td class="paramname"><em>kset_id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int32_t *&#160;</td>
-          <td class="paramname"><em>ik</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>gkvec_cart__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get Cartesian coordinates of G+k vectors. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01443">1443</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="af8410b67b23cb8273001ea64b9dbc438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8410b67b23cb8273001ea64b9dbc438">&#9670;&nbsp;</a></span>sirius_generate_xc_potential()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius_generate_xc_potential </td>
-          <td>(</td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>vxcmt__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>vxcit__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>bxcmt__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ftn_double *&#160;</td>
-          <td class="paramname"><em>bxcit__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Generate XC potential and magnetic field. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l01500">1500</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
@@ -2221,123 +1673,14 @@ std::unique_ptr&lt; <a class="el" href="classsirius_1_1_forces___p_s.html">siriu
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l02979">2979</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="af7e3edef8830c66d81f3e158488868b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7e3edef8830c66d81f3e158488868b8">&#9670;&nbsp;</a></span>sim_ctx</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classsirius_1_1_simulation__context.html">sirius::Simulation_context</a>&gt; sim_ctx {nullptr}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Simulation context. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00028">28</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a27c9852fd9c283b3432aaea8d778ab45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27c9852fd9c283b3432aaea8d778ab45">&#9670;&nbsp;</a></span>density</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsirius_1_1_density.html">sirius::Density</a>* density = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pointer to Density class, implicitly used by Fortran side. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00031">31</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a65d08a5ad51414bcc2f4a0660014442f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65d08a5ad51414bcc2f4a0660014442f">&#9670;&nbsp;</a></span>potential</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsirius_1_1_potential.html">sirius::Potential</a>* potential = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pointer to Potential class, implicitly used by Fortran side. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00034">34</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a804cdf407c18370916fe2603b6727b5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a804cdf407c18370916fe2603b6727b5a">&#9670;&nbsp;</a></span>kset_list</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classsirius_1_1_k__point__set.html">sirius::K_point_set</a>*&gt; kset_list</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>List of pointers to the sets of k-points. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00037">37</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a2241fb592bd4f724096c446cc4bfb5de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2241fb592bd4f724096c446cc4bfb5de">&#9670;&nbsp;</a></span>dft_ground_state</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsirius_1_1_d_f_t__ground__state.html">sirius::DFT_ground_state</a>* dft_ground_state = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>DFT ground state wrapper. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00040">40</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
-
-</div>
-</div>
-<a id="af5d1c49525684e8f93f8fa39b3d111a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5d1c49525684e8f93f8fa39b3d111a3">&#9670;&nbsp;</a></span>ftimers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, <a class="el" href="classsddk_1_1timer.html">sddk::timer</a>*&gt; ftimers</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>List of timers created on the Fortran side. </p>
-
-<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l00043">43</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sirius__api_8cpp_source.html#l02945">2945</a> of file <a class="el" href="sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:55 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -115,11 +115,17 @@ $(function() {
 <li>magnetic_group_symmetry_
 : <a class="el" href="classsirius_1_1_symmetry.html#ac02e88ca5eed9dec94bc5de5437711b1">sirius::Symmetry</a>
 </li>
+<li>magnetization_
+: <a class="el" href="classsirius_1_1_density.html#a24d1cad46e314f385d93c2ec846db237">sirius::Density</a>
+</li>
 <li>make_periodic_function()
 : <a class="el" href="classsirius_1_1_simulation__context__base.html#a5e8bf72bdacbb6ab99e21306998e9f91">sirius::Simulation_context_base</a>
 </li>
-<li>map_zcol_to_fft_buffer_
-: <a class="el" href="classsddk_1_1_f_f_t3_d.html#aa9363e6990496fc3cae2c15c3d930172">sddk::FFT3D</a>
+<li>map_gvec_to_fft_buffer_
+: <a class="el" href="classsddk_1_1_f_f_t3_d.html#a3bfd6b0f02d7e33b9e770ead53073a17">sddk::FFT3D</a>
+</li>
+<li>map_gvec_to_fft_buffer_x0y0_
+: <a class="el" href="classsddk_1_1_f_f_t3_d.html#a281da81e427c185605cbd367c52dbad5">sddk::FFT3D</a>
 </li>
 <li>mass_
 : <a class="el" href="classsirius_1_1_atom__type.html#af09ff617fe4a88ec3083036b7aff9918">sirius::Atom_type</a>
@@ -127,11 +133,15 @@ $(function() {
 <li>Matching_coefficients()
 : <a class="el" href="classsirius_1_1_matching__coefficients.html#a624fedd2d619135cb119b9a720365739">sirius::Matching_coefficients</a>
 </li>
+<li>matrix_storage()
+: <a class="el" href="classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#a2284a5a9eb0232b6a173a24281ca9dcc">sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;</a>
+</li>
 <li>max_aw_order_
 : <a class="el" href="classsirius_1_1_atom__type.html#adc566d46112ed3e773d0124abaaa6882">sirius::Atom_type</a>
 </li>
 <li>max_history_
 : <a class="el" href="classsirius_1_1_mixer.html#ab7530cd633c6b0153ee3e2a482d42aa7">sirius::Mixer&lt; T &gt;</a>
+, <a class="el" href="structsirius_1_1_mixer__input.html#aed1bc82dc63dc3b63dbce628d976b9f2">sirius::Mixer_input</a>
 </li>
 <li>max_mt_aw_basis_size()
 : <a class="el" href="classsirius_1_1_unit__cell.html#a4dec101a15965d650fbd862f6c2217af">sirius::Unit_cell</a>
@@ -176,10 +186,13 @@ $(function() {
 : <a class="el" href="classsddk_1_1mdarray__base.html#ad727c336e83f280c1ef1a642b301a924">sddk::mdarray_base&lt; T, N &gt;</a>
 </li>
 <li>mdarray_index_descriptor()
-: <a class="el" href="classsddk_1_1mdarray__index__descriptor.html#a0306668093722ee0161f0277ac2f0680">sddk::mdarray_index_descriptor</a>
+: <a class="el" href="classsddk_1_1mdarray__index__descriptor.html#a179bd090e69d9d0b8ac70f2adf12b123">sddk::mdarray_index_descriptor</a>
 </li>
 <li>memory_buffer()
 : <a class="el" href="classsirius_1_1_simulation__context__base.html#a12a16036a268f196165733122f3d21f5">sirius::Simulation_context_base</a>
+</li>
+<li>mesh_type_
+: <a class="el" href="classsirius_1_1_s_h_t.html#a3bc29a4384bbe43d449dadada7a48d11">sirius::SHT</a>
 </li>
 <li>meta()
 : <a class="el" href="classnlohmann_1_1basic__json.html#aef6d0eeccee7c5c7e1317c2ea1607fab">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
@@ -195,6 +208,9 @@ $(function() {
 </li>
 <li>mixer_
 : <a class="el" href="classsirius_1_1_density.html#ad3d892477f485ee54e50d10f176260a4">sirius::Density</a>
+</li>
+<li>mode_
+: <a class="el" href="structsddk_1_1mdarray__mem__mgr.html#a8d10504b2a8186e577f3614288ebbe30">sddk::mdarray_mem_mgr&lt; T &gt;</a>
 </li>
 <li>molecule_
 : <a class="el" href="structsirius_1_1_parameters__input.html#a51b4991b08cc198df76ed552b4f7f9fe">sirius::Parameters_input</a>
@@ -242,7 +258,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:58 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -79,95 +79,44 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Simple mameory manager handler which keeps track of allocated and deallocated memory.  
+<p>Simple memory manager handler which keeps track of allocated and deallocated memory.  
  <a href="structsddk_1_1mdarray__mem__mgr.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b20dccea129e71aef384b2eb142a7c4"><td class="memItemLeft" align="right" valign="top"><a id="a9b20dccea129e71aef384b2eb142a7c4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>mdarray_mem_mgr</b> (size_t const size__, memory_t mode__)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>mdarray_mem_mgr</b> (size_t const size__, <a class="el" href="mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mode__)</td></tr>
 <tr class="separator:a9b20dccea129e71aef384b2eb142a7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2c61589a3a118745df9d7a454f288fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsddk_1_1mdarray__mem__mgr.html#ac2c61589a3a118745df9d7a454f288fe">operator()</a> (T *p__) const</td></tr>
-<tr class="memdesc:ac2c61589a3a118745df9d7a454f288fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by std::unique_ptr when the object is destroyed.  <a href="#ac2c61589a3a118745df9d7a454f288fe">More...</a><br /></td></tr>
+<tr class="memitem:ac2c61589a3a118745df9d7a454f288fe"><td class="memItemLeft" align="right" valign="top"><a id="ac2c61589a3a118745df9d7a454f288fe"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsddk_1_1mdarray__mem__mgr.html#ac2c61589a3a118745df9d7a454f288fe">operator()</a> (T *p__) const</td></tr>
+<tr class="memdesc:ac2c61589a3a118745df9d7a454f288fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by std::unique_ptr when the object is destroyed. <br /></td></tr>
 <tr class="separator:ac2c61589a3a118745df9d7a454f288fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af4fdc0b787515b21c2aa3460b6512c8e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsddk_1_1mdarray__mem__mgr.html#af4fdc0b787515b21c2aa3460b6512c8e">size_</a> {0}</td></tr>
-<tr class="memdesc:af4fdc0b787515b21c2aa3460b6512c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of elements of the current allocation.  <a href="#af4fdc0b787515b21c2aa3460b6512c8e">More...</a><br /></td></tr>
+<tr class="memitem:af4fdc0b787515b21c2aa3460b6512c8e"><td class="memItemLeft" align="right" valign="top"><a id="af4fdc0b787515b21c2aa3460b6512c8e"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsddk_1_1mdarray__mem__mgr.html#af4fdc0b787515b21c2aa3460b6512c8e">size_</a> {0}</td></tr>
+<tr class="memdesc:af4fdc0b787515b21c2aa3460b6512c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of elements of the current allocation. <br /></td></tr>
 <tr class="separator:af4fdc0b787515b21c2aa3460b6512c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d10504b2a8186e577f3614288ebbe30"><td class="memItemLeft" align="right" valign="top"><a id="a8d10504b2a8186e577f3614288ebbe30"></a>
-memory_t&#160;</td><td class="memItemRight" valign="bottom"><b>mode_</b> {memory_t::none}</td></tr>
+<a class="el" href="mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsddk_1_1mdarray__mem__mgr.html#a8d10504b2a8186e577f3614288ebbe30">mode_</a> {memory_t::none}</td></tr>
+<tr class="memdesc:a8d10504b2a8186e577f3614288ebbe30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of allocated memory. <br /></td></tr>
 <tr class="separator:a8d10504b2a8186e577f3614288ebbe30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 struct sddk::mdarray_mem_mgr&lt; T &gt;</h3>
 
-<p>Simple mameory manager handler which keeps track of allocated and deallocated memory. </p>
-
-<p class="definition">Definition at line <a class="el" href="mdarray_8hpp_source.html#l00177">177</a> of file <a class="el" href="mdarray_8hpp_source.html">mdarray.hpp</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac2c61589a3a118745df9d7a454f288fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2c61589a3a118745df9d7a454f288fe">&#9670;&nbsp;</a></span>operator()()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structsddk_1_1mdarray__mem__mgr.html">sddk::mdarray_mem_mgr</a>&lt; T &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>p__</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Called by std::unique_ptr when the object is destroyed. </p>
+<p>Simple memory manager handler which keeps track of allocated and deallocated memory. </p>
 
 <p class="definition">Definition at line <a class="el" href="mdarray_8hpp_source.html#l00200">200</a> of file <a class="el" href="mdarray_8hpp_source.html">mdarray.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="af4fdc0b787515b21c2aa3460b6512c8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4fdc0b787515b21c2aa3460b6512c8e">&#9670;&nbsp;</a></span>size_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="structsddk_1_1mdarray__mem__mgr.html">sddk::mdarray_mem_mgr</a>&lt; T &gt;::size_ {0}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of elements of the current allocation. </p>
-
-<p class="definition">Definition at line <a class="el" href="mdarray_8hpp_source.html#l00180">180</a> of file <a class="el" href="mdarray_8hpp_source.html">mdarray.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="mdarray_8hpp_source.html">mdarray.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:55 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

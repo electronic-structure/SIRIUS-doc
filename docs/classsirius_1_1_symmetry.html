@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -73,6 +73,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classsirius_1_1_symmetry-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -159,12 +160,23 @@ matrix3d&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign=
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a2bf653e46b9285ccb73a03edec633472"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#a2bf653e46b9285ccb73a03edec633472">euler_angles</a> (matrix3d&lt; double &gt; const &amp;rot__) const</td></tr>
-<tr class="memdesc:a2bf653e46b9285ccb73a03edec633472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute Euler angles corresponding to the proper rotation part of the given symmetry.  <a href="#a2bf653e46b9285ccb73a03edec633472">More...</a><br /></td></tr>
+<tr class="memitem:a2bf653e46b9285ccb73a03edec633472"><td class="memItemLeft" align="right" valign="top"><a id="a2bf653e46b9285ccb73a03edec633472"></a>
+<a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#a2bf653e46b9285ccb73a03edec633472">euler_angles</a> (matrix3d&lt; double &gt; const &amp;rot__) const</td></tr>
+<tr class="memdesc:a2bf653e46b9285ccb73a03edec633472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute Euler angles corresponding to the proper rotation part of the given symmetry. <br /></td></tr>
 <tr class="separator:a2bf653e46b9285ccb73a03edec633472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b0fbf65fc1190e9a3e91094d17b8b4c"><td class="memItemLeft" align="right" valign="top">matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#a0b0fbf65fc1190e9a3e91094d17b8b4c">rot_mtrx_cart</a> (<a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; euler_angles__) const</td></tr>
 <tr class="memdesc:a0b0fbf65fc1190e9a3e91094d17b8b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate rotation matrix from three Euler angles.  <a href="#a0b0fbf65fc1190e9a3e91094d17b8b4c">More...</a><br /></td></tr>
 <tr class="separator:a0b0fbf65fc1190e9a3e91094d17b8b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a66d7ec085bec8f7f5fc023eed27ff11c"><td class="memItemLeft" align="right" valign="top"><a id="a66d7ec085bec8f7f5fc023eed27ff11c"></a>
+static std::pair&lt; <a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt;, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#a66d7ec085bec8f7f5fc023eed27ff11c">axis_angle</a> (matrix3d&lt; double &gt; R__)</td></tr>
+<tr class="memdesc:a66d7ec085bec8f7f5fc023eed27ff11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get axis and angle from rotation matrix. <br /></td></tr>
+<tr class="separator:a66d7ec085bec8f7f5fc023eed27ff11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1fd7a0ba03c14be3bedc836d867b39"><td class="memItemLeft" align="right" valign="top"><a id="acb1fd7a0ba03c14be3bedc836d867b39"></a>
+static <a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>spinor_rotation_matrix</b> (<a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; u__, double theta__)</td></tr>
+<tr class="separator:acb1fd7a0ba03c14be3bedc836d867b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -186,53 +198,26 @@ std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>t
 <tr class="memitem:ad6822e1db11f56c7e488853f2a539bb5"><td class="memItemLeft" align="right" valign="top"><a id="ad6822e1db11f56c7e488853f2a539bb5"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>tolerance_</b></td></tr>
 <tr class="separator:ad6822e1db11f56c7e488853f2a539bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd01ed209aa1e2a1e3af374c63979e1f"><td class="memItemLeft" align="right" valign="top">SpglibDataset *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#abd01ed209aa1e2a1e3af374c63979e1f">spg_dataset_</a></td></tr>
-<tr class="memdesc:abd01ed209aa1e2a1e3af374c63979e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crystal structure descriptor returned by spglib.  <a href="#abd01ed209aa1e2a1e3af374c63979e1f">More...</a><br /></td></tr>
+<tr class="memitem:abd01ed209aa1e2a1e3af374c63979e1f"><td class="memItemLeft" align="right" valign="top"><a id="abd01ed209aa1e2a1e3af374c63979e1f"></a>
+SpglibDataset *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#abd01ed209aa1e2a1e3af374c63979e1f">spg_dataset_</a></td></tr>
+<tr class="memdesc:abd01ed209aa1e2a1e3af374c63979e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crystal structure descriptor returned by spglib. <br /></td></tr>
 <tr class="separator:abd01ed209aa1e2a1e3af374c63979e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d0703b85bf7c675f5129a6a9ef76084"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsddk_1_1mdarray.html">mdarray</a>&lt; int, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#a3d0703b85bf7c675f5129a6a9ef76084">sym_table_</a></td></tr>
 <tr class="memdesc:a3d0703b85bf7c675f5129a6a9ef76084"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classsirius_1_1_symmetry.html">Symmetry</a> table for atoms.  <a href="#a3d0703b85bf7c675f5129a6a9ef76084">More...</a><br /></td></tr>
 <tr class="separator:a3d0703b85bf7c675f5129a6a9ef76084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f48efd864d483dc9715546e6596887"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structsirius_1_1space__group__symmetry__descriptor.html">space_group_symmetry_descriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#a91f48efd864d483dc9715546e6596887">space_group_symmetry_</a></td></tr>
-<tr class="memdesc:a91f48efd864d483dc9715546e6596887"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all space group symmetry operations.  <a href="#a91f48efd864d483dc9715546e6596887">More...</a><br /></td></tr>
+<tr class="memitem:a91f48efd864d483dc9715546e6596887"><td class="memItemLeft" align="right" valign="top"><a id="a91f48efd864d483dc9715546e6596887"></a>
+std::vector&lt; <a class="el" href="structsirius_1_1space__group__symmetry__descriptor.html">space_group_symmetry_descriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#a91f48efd864d483dc9715546e6596887">space_group_symmetry_</a></td></tr>
+<tr class="memdesc:a91f48efd864d483dc9715546e6596887"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all space group symmetry operations. <br /></td></tr>
 <tr class="separator:a91f48efd864d483dc9715546e6596887"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02e88ca5eed9dec94bc5de5437711b1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structsirius_1_1magnetic__group__symmetry__descriptor.html">magnetic_group_symmetry_descriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#ac02e88ca5eed9dec94bc5de5437711b1">magnetic_group_symmetry_</a></td></tr>
-<tr class="memdesc:ac02e88ca5eed9dec94bc5de5437711b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all magnetic group symmetry operations.  <a href="#ac02e88ca5eed9dec94bc5de5437711b1">More...</a><br /></td></tr>
+<tr class="memitem:ac02e88ca5eed9dec94bc5de5437711b1"><td class="memItemLeft" align="right" valign="top"><a id="ac02e88ca5eed9dec94bc5de5437711b1"></a>
+std::vector&lt; <a class="el" href="structsirius_1_1magnetic__group__symmetry__descriptor.html">magnetic_group_symmetry_descriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_symmetry.html#ac02e88ca5eed9dec94bc5de5437711b1">magnetic_group_symmetry_</a></td></tr>
+<tr class="memdesc:ac02e88ca5eed9dec94bc5de5437711b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all magnetic group symmetry operations. <br /></td></tr>
 <tr class="separator:ac02e88ca5eed9dec94bc5de5437711b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00073">73</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2bf653e46b9285ccb73a03edec633472"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bf653e46b9285ccb73a03edec633472">&#9670;&nbsp;</a></span>euler_angles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; sirius::Symmetry::euler_angles </td>
-          <td>(</td>
-          <td class="paramtype">matrix3d&lt; double &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>rot__</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Compute Euler angles corresponding to the proper rotation part of the given symmetry. </p>
-
-<p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00418">418</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
-
-</div>
-</div>
 <a id="a0b0fbf65fc1190e9a3e91094d17b8b4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b0fbf65fc1190e9a3e91094d17b8b4c">&#9670;&nbsp;</a></span>rot_mtrx_cart()</h2>
 
@@ -267,7 +252,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>tolerance_</b></td>
 \[ R(\alpha, \beta, \gamma) = \left( \begin{array}{ccc} \cos(\alpha) &amp; -\sin(\alpha) &amp; 0 \\ \sin(\alpha) &amp; \cos(\alpha) &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{array} \right) \left( \begin{array}{ccc} \cos(\beta) &amp; 0 &amp; \sin(\beta) \\ 0 &amp; 1 &amp; 0 \\ -\sin(\beta) &amp; 0 &amp; \cos(\beta) \end{array} \right) \left( \begin{array}{ccc} \cos(\gamma) &amp; -\sin(\gamma) &amp; 0 \\ \sin(\gamma) &amp; \cos(\gamma) &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{array} \right) = \left( \begin{array}{ccc} \cos(\alpha) \cos(\beta) \cos(\gamma) - \sin(\alpha) \sin(\gamma) &amp; -\sin(\alpha) \cos(\gamma) - \cos(\alpha) \cos(\beta) \sin(\gamma) &amp; \cos(\alpha) \sin(\beta) \\ \sin(\alpha) \cos(\beta) \cos(\gamma) + \cos(\alpha) \sin(\gamma) &amp; \cos(\alpha) \cos(\gamma) - \sin(\alpha) \cos(\beta) \sin(\gamma) &amp; \sin(\alpha) \sin(\beta) \\ -\sin(\beta) \cos(\gamma) &amp; \sin(\beta) \sin(\gamma) &amp; \cos(\beta) \end{array} \right) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00398">398</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00459">459</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
 
 </div>
 </div>
@@ -322,7 +307,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>tolerance_</b></td>
 \[ f(\tilde{\bf G}) = e^{i{\bf G t}} f({\bf G}) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00584">584</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00645">645</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
 
 </div>
 </div>
@@ -354,32 +339,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>tolerance_</b></td>
 
 </div>
 </div>
-<a id="abd01ed209aa1e2a1e3af374c63979e1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd01ed209aa1e2a1e3af374c63979e1f">&#9670;&nbsp;</a></span>spg_dataset_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">SpglibDataset* sirius::Symmetry::spg_dataset_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Crystal structure descriptor returned by spglib. </p>
-
-<p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00092">92</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
-
-</div>
-</div>
 <a id="a3d0703b85bf7c675f5129a6a9ef76084"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d0703b85bf7c675f5129a6a9ef76084">&#9670;&nbsp;</a></span>sym_table_</h2>
 
@@ -407,65 +366,13 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>tolerance_</b></td>
 
 </div>
 </div>
-<a id="a91f48efd864d483dc9715546e6596887"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91f48efd864d483dc9715546e6596887">&#9670;&nbsp;</a></span>space_group_symmetry_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structsirius_1_1space__group__symmetry__descriptor.html">space_group_symmetry_descriptor</a>&gt; sirius::Symmetry::space_group_symmetry_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of all space group symmetry operations. </p>
-
-<p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00100">100</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
-
-</div>
-</div>
-<a id="ac02e88ca5eed9dec94bc5de5437711b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac02e88ca5eed9dec94bc5de5437711b1">&#9670;&nbsp;</a></span>magnetic_group_symmetry_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structsirius_1_1magnetic__group__symmetry__descriptor.html">magnetic_group_symmetry_descriptor</a>&gt; sirius::Symmetry::magnetic_group_symmetry_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of all magnetic group symmetry operations. </p>
-
-<p class="definition">Definition at line <a class="el" href="symmetry_8h_source.html#l00103">103</a> of file <a class="el" href="symmetry_8h_source.html">symmetry.h</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="symmetry_8h_source.html">symmetry.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

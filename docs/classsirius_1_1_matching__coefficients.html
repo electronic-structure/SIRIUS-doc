@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -90,8 +90,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a624fedd2d619135cb119b9a720365739"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_matching__coefficients.html#a624fedd2d619135cb119b9a720365739">Matching_coefficients</a> (<a class="el" href="classsirius_1_1_unit__cell.html">Unit_cell</a> const &amp;unit_cell__, int lmax_apw__, int num_gkvec__, std::vector&lt; int &gt; &amp;igk__, Gvec const &amp;gkvec__)</td></tr>
-<tr class="memdesc:a624fedd2d619135cb119b9a720365739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a624fedd2d619135cb119b9a720365739">More...</a><br /></td></tr>
+<tr class="memitem:a624fedd2d619135cb119b9a720365739"><td class="memItemLeft" align="right" valign="top"><a id="a624fedd2d619135cb119b9a720365739"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_matching__coefficients.html#a624fedd2d619135cb119b9a720365739">Matching_coefficients</a> (<a class="el" href="classsirius_1_1_unit__cell.html">Unit_cell</a> const &amp;unit_cell__, int lmax_apw__, int num_gkvec__, std::vector&lt; int &gt; &amp;igk__, Gvec const &amp;gkvec__)</td></tr>
+<tr class="memdesc:a624fedd2d619135cb119b9a720365739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:a624fedd2d619135cb119b9a720365739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56c213305ddb41f6e3503c409e7c9f7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_matching__coefficients.html#a56c213305ddb41f6e3503c409e7c9f7f">generate</a> (int ia, mdarray&lt; double_complex, 2 &gt; &amp;alm) const</td></tr>
 <tr class="memdesc:a56c213305ddb41f6e3503c409e7c9f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate plane-wave matching coefficents for the radial solutions of a given atom.  <a href="#a56c213305ddb41f6e3503c409e7c9f7f">More...</a><br /></td></tr>
@@ -124,8 +125,9 @@ mdarray&lt; double_complex, 2 &gt;&#160;</td><td class="memItemRight" valign="bo
 <tr class="memitem:a02bebe3cad838762323d7b7e9222fcf0"><td class="memItemLeft" align="right" valign="top"><a id="a02bebe3cad838762323d7b7e9222fcf0"></a>
 std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>gkvec_len_</b></td></tr>
 <tr class="separator:a02bebe3cad838762323d7b7e9222fcf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cf6962661c56f014c2d6280fde9c99a"><td class="memItemLeft" align="right" valign="top">mdarray&lt; double_complex, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_matching__coefficients.html#a2cf6962661c56f014c2d6280fde9c99a">alm_b_</a></td></tr>
-<tr class="memdesc:a2cf6962661c56f014c2d6280fde9c99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precomputed values for the linear equations for matching coefficients.  <a href="#a2cf6962661c56f014c2d6280fde9c99a">More...</a><br /></td></tr>
+<tr class="memitem:a2cf6962661c56f014c2d6280fde9c99a"><td class="memItemLeft" align="right" valign="top"><a id="a2cf6962661c56f014c2d6280fde9c99a"></a>
+mdarray&lt; double_complex, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_matching__coefficients.html#a2cf6962661c56f014c2d6280fde9c99a">alm_b_</a></td></tr>
+<tr class="memdesc:a2cf6962661c56f014c2d6280fde9c99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precomputed values for the linear equations for matching coefficients. <br /></td></tr>
 <tr class="separator:a2cf6962661c56f014c2d6280fde9c99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -140,66 +142,7 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </p>
  
 <p class="definition">Definition at line <a class="el" href="matching__coefficients_8h_source.html#l00049">49</a> of file <a class="el" href="matching__coefficients_8h_source.html">matching_coefficients.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a624fedd2d619135cb119b9a720365739"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a624fedd2d619135cb119b9a720365739">&#9670;&nbsp;</a></span>Matching_coefficients()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">sirius::Matching_coefficients::Matching_coefficients </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classsirius_1_1_unit__cell.html">Unit_cell</a> const &amp;&#160;</td>
-          <td class="paramname"><em>unit_cell__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>lmax_apw__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num_gkvec__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>igk__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Gvec const &amp;&#160;</td>
-          <td class="paramname"><em>gkvec__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructor. </p>
-
-<p class="definition">Definition at line <a class="el" href="matching__coefficients_8h_source.html#l00156">156</a> of file <a class="el" href="matching__coefficients_8h_source.html">matching_coefficients.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aaf279c7ecd1f56667f681e6333eaa7a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf279c7ecd1f56667f681e6333eaa7a3">&#9670;&nbsp;</a></span>generate() <span class="overload">[1/2]</span></h2>
 
@@ -338,40 +281,13 @@ template&lt;int N&gt; </div>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2cf6962661c56f014c2d6280fde9c99a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cf6962661c56f014c2d6280fde9c99a">&#9670;&nbsp;</a></span>alm_b_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mdarray&lt;double_complex, 4&gt; sirius::Matching_coefficients::alm_b_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Precomputed values for the linear equations for matching coefficients. </p>
-
-<p class="definition">Definition at line <a class="el" href="matching__coefficients_8h_source.html#l00067">67</a> of file <a class="el" href="matching__coefficients_8h_source.html">matching_coefficients.h</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="matching__coefficients_8h_source.html">matching_coefficients.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

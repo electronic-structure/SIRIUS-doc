@@ -15,7 +15,7 @@ var searchData=
   ['processing_5funit_5f',['processing_unit_',['../classsirius_1_1_simulation__parameters.html#a792a45ca1ec748a434b36754277a64b9',1,'sirius::Simulation_parameters']]],
   ['proper',['proper',['../structsirius_1_1space__group__symmetry__descriptor.html#a50795c4d0bc499797b69b9386bc39724',1,'sirius::space_group_symmetry_descriptor']]],
   ['pseudo_5fwfc',['pseudo_wfc',['../structpseudopotential__descriptor.html#a6a1450bee7e75c41ce208b83942e490e',1,'pseudopotential_descriptor']]],
-  ['pu_5f',['pu_',['../classsddk_1_1_f_f_t3_d.html#abfb4de99fbcab38632fb4870200f1a66',1,'sddk::FFT3D::pu_()'],['../classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#a9e03c4fc4eb8e8d4a49983dddba39014',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;::pu_()']]],
+  ['pu_5f',['pu_',['../classsddk_1_1_f_f_t3_d.html#abfb4de99fbcab38632fb4870200f1a66',1,'sddk::FFT3D']]],
   ['pw_5fcoeffs_5f',['pw_coeffs_',['../classsddk_1_1wave__functions.html#ab9f23505c1321afdc8adf023b9631b55',1,'sddk::wave_functions']]],
   ['pw_5fcoeffs_5fa_5f',['pw_coeffs_a_',['../classsirius_1_1_beta__projectors__base.html#a45ec50926391c46fc7db6288fbb13acd',1,'sirius::Beta_projectors_base']]],
   ['pw_5fcoeffs_5ft_5f',['pw_coeffs_t_',['../classsirius_1_1_beta__projectors__base.html#a80520a7982fb1874961de560dd945ee6',1,'sirius::Beta_projectors_base']]],

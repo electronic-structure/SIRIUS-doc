@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.5</span>
+   &#160;<span id="projectnumber">4.7</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -119,8 +119,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_num_fv_states</b>
 <tr class="memitem:a5d7ea47ce2316c17936717ba9c3a441f"><td class="memItemLeft" align="right" valign="top"><a id="a5d7ea47ce2316c17936717ba9c3a441f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_aw_cutoff</b> (double aw_cutoff__)</td></tr>
 <tr class="separator:a5d7ea47ce2316c17936717ba9c3a441f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bcde6b2844e19bd6537792737d76bd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a8bcde6b2844e19bd6537792737d76bd3">set_pw_cutoff</a> (double pw_cutoff__)</td></tr>
-<tr class="memdesc:a8bcde6b2844e19bd6537792737d76bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set plane-wave cutoff.  <a href="#a8bcde6b2844e19bd6537792737d76bd3">More...</a><br /></td></tr>
+<tr class="memitem:a8bcde6b2844e19bd6537792737d76bd3"><td class="memItemLeft" align="right" valign="top"><a id="a8bcde6b2844e19bd6537792737d76bd3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a8bcde6b2844e19bd6537792737d76bd3">set_pw_cutoff</a> (double pw_cutoff__)</td></tr>
+<tr class="memdesc:a8bcde6b2844e19bd6537792737d76bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set plane-wave cutoff. <br /></td></tr>
 <tr class="separator:a8bcde6b2844e19bd6537792737d76bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4249e8a37ba37fc0dd6f847fb3053785"><td class="memItemLeft" align="right" valign="top"><a id="a4249e8a37ba37fc0dd6f847fb3053785"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_gk_cutoff</b> (double gk_cutoff__)</td></tr>
@@ -152,6 +153,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_valence_relativit
 <tr class="memitem:a300b62c9e51fec3d180f5c1b3204fdb3"><td class="memItemLeft" align="right" valign="top"><a id="a300b62c9e51fec3d180f5c1b3204fdb3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_processing_unit</b> (std::string name__)</td></tr>
 <tr class="separator:a300b62c9e51fec3d180f5c1b3204fdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a520bb69cf30999c1dca9ad9f8dca149d"><td class="memItemLeft" align="right" valign="top"><a id="a520bb69cf30999c1dca9ad9f8dca149d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_processing_unit</b> (<a class="el" href="mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__)</td></tr>
+<tr class="separator:a520bb69cf30999c1dca9ad9f8dca149d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e66af468eb2c3c735cf659c8eb5faa7"><td class="memItemLeft" align="right" valign="top"><a id="a8e66af468eb2c3c735cf659c8eb5faa7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_molecule</b> (bool molecule__)</td></tr>
 <tr class="separator:a8e66af468eb2c3c735cf659c8eb5faa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,26 +183,32 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>lmmax_pot</b> () const
 <tr class="memitem:a7a0d6077f27b043095958068e53766aa"><td class="memItemLeft" align="right" valign="top"><a id="a7a0d6077f27b043095958068e53766aa"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>aw_cutoff</b> () const</td></tr>
 <tr class="separator:a7a0d6077f27b043095958068e53766aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8a8b9c822557a3eccd821fc10a4811a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#aa8a8b9c822557a3eccd821fc10a4811a">pw_cutoff</a> () const</td></tr>
-<tr class="memdesc:aa8a8b9c822557a3eccd821fc10a4811a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plane-wave cutoff for G-vectors (in 1/[a.u.]).  <a href="#aa8a8b9c822557a3eccd821fc10a4811a">More...</a><br /></td></tr>
+<tr class="memitem:aa8a8b9c822557a3eccd821fc10a4811a"><td class="memItemLeft" align="right" valign="top"><a id="aa8a8b9c822557a3eccd821fc10a4811a"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#aa8a8b9c822557a3eccd821fc10a4811a">pw_cutoff</a> () const</td></tr>
+<tr class="memdesc:aa8a8b9c822557a3eccd821fc10a4811a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plane-wave cutoff for G-vectors (in 1/[a.u.]). <br /></td></tr>
 <tr class="separator:aa8a8b9c822557a3eccd821fc10a4811a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0fa153b38404fd3af1652fcd3795d93"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#ab0fa153b38404fd3af1652fcd3795d93">gk_cutoff</a> () const</td></tr>
-<tr class="memdesc:ab0fa153b38404fd3af1652fcd3795d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cutoff for G+k vectors (in 1/[a.u.]).  <a href="#ab0fa153b38404fd3af1652fcd3795d93">More...</a><br /></td></tr>
+<tr class="memitem:ab0fa153b38404fd3af1652fcd3795d93"><td class="memItemLeft" align="right" valign="top"><a id="ab0fa153b38404fd3af1652fcd3795d93"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#ab0fa153b38404fd3af1652fcd3795d93">gk_cutoff</a> () const</td></tr>
+<tr class="memdesc:ab0fa153b38404fd3af1652fcd3795d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cutoff for G+k vectors (in 1/[a.u.]). <br /></td></tr>
 <tr class="separator:ab0fa153b38404fd3af1652fcd3795d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fa010e5deeeca076c49b046e36f3e0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a9fa010e5deeeca076c49b046e36f3e0c">num_mag_dims</a> () const</td></tr>
-<tr class="memdesc:a9fa010e5deeeca076c49b046e36f3e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of dimensions in the magnetization vector.  <a href="#a9fa010e5deeeca076c49b046e36f3e0c">More...</a><br /></td></tr>
+<tr class="memitem:a9fa010e5deeeca076c49b046e36f3e0c"><td class="memItemLeft" align="right" valign="top"><a id="a9fa010e5deeeca076c49b046e36f3e0c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a9fa010e5deeeca076c49b046e36f3e0c">num_mag_dims</a> () const</td></tr>
+<tr class="memdesc:a9fa010e5deeeca076c49b046e36f3e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of dimensions in the magnetization vector. <br /></td></tr>
 <tr class="separator:a9fa010e5deeeca076c49b046e36f3e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b0986db2713b1eeb69b1efffb994faf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a2b0986db2713b1eeb69b1efffb994faf">num_spins</a> () const</td></tr>
-<tr class="memdesc:a2b0986db2713b1eeb69b1efffb994faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of spin components.  <a href="#a2b0986db2713b1eeb69b1efffb994faf">More...</a><br /></td></tr>
+<tr class="memitem:a2b0986db2713b1eeb69b1efffb994faf"><td class="memItemLeft" align="right" valign="top"><a id="a2b0986db2713b1eeb69b1efffb994faf"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a2b0986db2713b1eeb69b1efffb994faf">num_spins</a> () const</td></tr>
+<tr class="memdesc:a2b0986db2713b1eeb69b1efffb994faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of spin components. <br /></td></tr>
 <tr class="separator:a2b0986db2713b1eeb69b1efffb994faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bb39c33fecd07526a59631ffc52506f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a6bb39c33fecd07526a59631ffc52506f">num_mag_comp</a> () const</td></tr>
 <tr class="memdesc:a6bb39c33fecd07526a59631ffc52506f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of components in the complex density matrix.  <a href="#a6bb39c33fecd07526a59631ffc52506f">More...</a><br /></td></tr>
 <tr class="separator:a6bb39c33fecd07526a59631ffc52506f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6bb42fce238f51dd45ffea85a107971"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#ab6bb42fce238f51dd45ffea85a107971">num_fv_states</a> () const</td></tr>
-<tr class="memdesc:ab6bb42fce238f51dd45ffea85a107971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of first-variational states.  <a href="#ab6bb42fce238f51dd45ffea85a107971">More...</a><br /></td></tr>
+<tr class="memitem:ab6bb42fce238f51dd45ffea85a107971"><td class="memItemLeft" align="right" valign="top"><a id="ab6bb42fce238f51dd45ffea85a107971"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#ab6bb42fce238f51dd45ffea85a107971">num_fv_states</a> () const</td></tr>
+<tr class="memdesc:ab6bb42fce238f51dd45ffea85a107971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of first-variational states. <br /></td></tr>
 <tr class="separator:ab6bb42fce238f51dd45ffea85a107971"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a922edee2f9a810b75ded60578f8f7c8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a922edee2f9a810b75ded60578f8f7c8f">num_bands</a> () const</td></tr>
-<tr class="memdesc:a922edee2f9a810b75ded60578f8f7c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of bands.  <a href="#a922edee2f9a810b75ded60578f8f7c8f">More...</a><br /></td></tr>
+<tr class="memitem:a922edee2f9a810b75ded60578f8f7c8f"><td class="memItemLeft" align="right" valign="top"><a id="a922edee2f9a810b75ded60578f8f7c8f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a922edee2f9a810b75ded60578f8f7c8f">num_bands</a> () const</td></tr>
+<tr class="memdesc:a922edee2f9a810b75ded60578f8f7c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of bands. <br /></td></tr>
 <tr class="separator:a922edee2f9a810b75ded60578f8f7c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7143e259d6b5f763a2d51273201c2b5c"><td class="memItemLeft" align="right" valign="top"><a id="a7143e259d6b5f763a2d51273201c2b5c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>max_occupancy</b> () const</td></tr>
@@ -273,10 +283,10 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>spglib_tolerance</b
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>molecule</b> () const</td></tr>
 <tr class="separator:afe144b540f678878acfd4b21aeed437d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f422694e3b8ce4972d2c6447c3b53e2"><td class="memItemLeft" align="right" valign="top"><a id="a1f422694e3b8ce4972d2c6447c3b53e2"></a>
-memory_t&#160;</td><td class="memItemRight" valign="bottom"><b>main_memory_t</b> () const</td></tr>
+<a class="el" href="mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>main_memory_t</b> () const</td></tr>
 <tr class="separator:a1f422694e3b8ce4972d2c6447c3b53e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146be2e9a14ab419c9c99289a6e28fcb"><td class="memItemLeft" align="right" valign="top"><a id="a146be2e9a14ab419c9c99289a6e28fcb"></a>
-memory_t&#160;</td><td class="memItemRight" valign="bottom"><b>dual_memory_t</b> () const</td></tr>
+<a class="el" href="mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dual_memory_t</b> () const</td></tr>
 <tr class="separator:a146be2e9a14ab419c9c99289a6e28fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadd092cbd5df8bbddca51266cb59a73d"><td class="memItemLeft" align="right" valign="top"><a id="aadd092cbd5df8bbddca51266cb59a73d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>use_symmetry</b> () const</td></tr>
@@ -305,23 +315,28 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_iterative_solver_
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af3e24a47d7bf3bfbb14ae113ec10d95a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#af3e24a47d7bf3bfbb14ae113ec10d95a">import</a> (std::string const &amp;fname__)</td></tr>
-<tr class="memdesc:af3e24a47d7bf3bfbb14ae113ec10d95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import data from initial input parameters.  <a href="#af3e24a47d7bf3bfbb14ae113ec10d95a">More...</a><br /></td></tr>
+<tr class="memitem:af3e24a47d7bf3bfbb14ae113ec10d95a"><td class="memItemLeft" align="right" valign="top"><a id="af3e24a47d7bf3bfbb14ae113ec10d95a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#af3e24a47d7bf3bfbb14ae113ec10d95a">import</a> (std::string const &amp;fname__)</td></tr>
+<tr class="memdesc:af3e24a47d7bf3bfbb14ae113ec10d95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import data from initial input parameters. <br /></td></tr>
 <tr class="separator:af3e24a47d7bf3bfbb14ae113ec10d95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a792a45ca1ec748a434b36754277a64b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a792a45ca1ec748a434b36754277a64b9">processing_unit_</a> {CPU}</td></tr>
-<tr class="memdesc:a792a45ca1ec748a434b36754277a64b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the processing unit.  <a href="#a792a45ca1ec748a434b36754277a64b9">More...</a><br /></td></tr>
+<tr class="memitem:a792a45ca1ec748a434b36754277a64b9"><td class="memItemLeft" align="right" valign="top"><a id="a792a45ca1ec748a434b36754277a64b9"></a>
+<a class="el" href="mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a792a45ca1ec748a434b36754277a64b9">processing_unit_</a> {CPU}</td></tr>
+<tr class="memdesc:a792a45ca1ec748a434b36754277a64b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the processing unit. <br /></td></tr>
 <tr class="separator:a792a45ca1ec748a434b36754277a64b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cd6b301b7ab72a9c9ca7193eb018fc9"><td class="memItemLeft" align="right" valign="top">relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a7cd6b301b7ab72a9c9ca7193eb018fc9">valence_relativity_</a> {relativity_t::zora}</td></tr>
-<tr class="memdesc:a7cd6b301b7ab72a9c9ca7193eb018fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of relativity for valence states.  <a href="#a7cd6b301b7ab72a9c9ca7193eb018fc9">More...</a><br /></td></tr>
+<tr class="memitem:a7cd6b301b7ab72a9c9ca7193eb018fc9"><td class="memItemLeft" align="right" valign="top"><a id="a7cd6b301b7ab72a9c9ca7193eb018fc9"></a>
+relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a7cd6b301b7ab72a9c9ca7193eb018fc9">valence_relativity_</a> {relativity_t::zora}</td></tr>
+<tr class="memdesc:a7cd6b301b7ab72a9c9ca7193eb018fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of relativity for valence states. <br /></td></tr>
 <tr class="separator:a7cd6b301b7ab72a9c9ca7193eb018fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab54050138f051531ef2be6db38b41d66"><td class="memItemLeft" align="right" valign="top">relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#ab54050138f051531ef2be6db38b41d66">core_relativity_</a> {relativity_t::dirac}</td></tr>
-<tr class="memdesc:ab54050138f051531ef2be6db38b41d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of relativity for core states.  <a href="#ab54050138f051531ef2be6db38b41d66">More...</a><br /></td></tr>
+<tr class="memitem:ab54050138f051531ef2be6db38b41d66"><td class="memItemLeft" align="right" valign="top"><a id="ab54050138f051531ef2be6db38b41d66"></a>
+relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#ab54050138f051531ef2be6db38b41d66">core_relativity_</a> {relativity_t::dirac}</td></tr>
+<tr class="memdesc:ab54050138f051531ef2be6db38b41d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of relativity for core states. <br /></td></tr>
 <tr class="separator:ab54050138f051531ef2be6db38b41d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f94855bdb699dad9f51ec2b5549d127"><td class="memItemLeft" align="right" valign="top"><a class="el" href="typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128a">electronic_structure_method_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a5f94855bdb699dad9f51ec2b5549d127">esm_type_</a> {<a class="el" href="typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128aa5631a967093ee076a9e178b503774887">electronic_structure_method_t::full_potential_lapwlo</a>}</td></tr>
-<tr class="memdesc:a5f94855bdb699dad9f51ec2b5549d127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of electronic structure method.  <a href="#a5f94855bdb699dad9f51ec2b5549d127">More...</a><br /></td></tr>
+<tr class="memitem:a5f94855bdb699dad9f51ec2b5549d127"><td class="memItemLeft" align="right" valign="top"><a id="a5f94855bdb699dad9f51ec2b5549d127"></a>
+<a class="el" href="typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128a">electronic_structure_method_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsirius_1_1_simulation__parameters.html#a5f94855bdb699dad9f51ec2b5549d127">esm_type_</a> {<a class="el" href="typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128aa5631a967093ee076a9e178b503774887">electronic_structure_method_t::full_potential_lapwlo</a>}</td></tr>
+<tr class="memdesc:a5f94855bdb699dad9f51ec2b5549d127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of electronic structure method. <br /></td></tr>
 <tr class="separator:a5f94855bdb699dad9f51ec2b5549d127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12bdcf87b198d49f920d083a36781db1"><td class="memItemLeft" align="right" valign="top"><a id="a12bdcf87b198d49f920d083a36781db1"></a>
 <a class="el" href="structsirius_1_1_iterative__solver__input.html">Iterative_solver_input</a>&#160;</td><td class="memItemRight" valign="bottom"><b>iterative_solver_input_</b></td></tr>
@@ -344,182 +359,6 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00036">36</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af3e24a47d7bf3bfbb14ae113ec10d95a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3e24a47d7bf3bfbb14ae113ec10d95a">&#9670;&nbsp;</a></span>import()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius::Simulation_parameters::import </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>fname__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Import data from initial input parameters. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00063">63</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="a8bcde6b2844e19bd6537792737d76bd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bcde6b2844e19bd6537792737d76bd3">&#9670;&nbsp;</a></span>set_pw_cutoff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sirius::Simulation_parameters::set_pw_cutoff </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>pw_cutoff__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set plane-wave cutoff. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00117">117</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="aa8a8b9c822557a3eccd821fc10a4811a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8a8b9c822557a3eccd821fc10a4811a">&#9670;&nbsp;</a></span>pw_cutoff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double sirius::Simulation_parameters::pw_cutoff </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Plane-wave cutoff for G-vectors (in 1/[a.u.]). </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00264">264</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="ab0fa153b38404fd3af1652fcd3795d93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0fa153b38404fd3af1652fcd3795d93">&#9670;&nbsp;</a></span>gk_cutoff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double sirius::Simulation_parameters::gk_cutoff </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Cutoff for G+k vectors (in 1/[a.u.]). </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00270">270</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="a9fa010e5deeeca076c49b046e36f3e0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fa010e5deeeca076c49b046e36f3e0c">&#9670;&nbsp;</a></span>num_mag_dims()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int sirius::Simulation_parameters::num_mag_dims </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Number of dimensions in the magnetization vector. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00276">276</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="a2b0986db2713b1eeb69b1efffb994faf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b0986db2713b1eeb69b1efffb994faf">&#9670;&nbsp;</a></span>num_spins()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int sirius::Simulation_parameters::num_spins </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Number of spin components. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00286">286</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
 <a id="a6bb39c33fecd07526a59631ffc52506f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6bb39c33fecd07526a59631ffc52506f">&#9670;&nbsp;</a></span>num_mag_comp()</h2>
 
@@ -546,170 +385,7 @@ Protected Attributes</h2></td></tr>
 <p>Number of components in the complex density matrix. </p>
 <p>In case of non-collinear magnetism only one out of two non-diagonal components is stored. </p>
 
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00293">293</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="ab6bb42fce238f51dd45ffea85a107971"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6bb42fce238f51dd45ffea85a107971">&#9670;&nbsp;</a></span>num_fv_states()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int sirius::Simulation_parameters::num_fv_states </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Number of first-variational states. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00299">299</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="a922edee2f9a810b75ded60578f8f7c8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a922edee2f9a810b75ded60578f8f7c8f">&#9670;&nbsp;</a></span>num_bands()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int sirius::Simulation_parameters::num_bands </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Total number of bands. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00305">305</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a792a45ca1ec748a434b36754277a64b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a792a45ca1ec748a434b36754277a64b9">&#9670;&nbsp;</a></span>processing_unit_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> sirius::Simulation_parameters::processing_unit_ {CPU}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Type of the processing unit. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00041">41</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="a7cd6b301b7ab72a9c9ca7193eb018fc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cd6b301b7ab72a9c9ca7193eb018fc9">&#9670;&nbsp;</a></span>valence_relativity_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">relativity_t sirius::Simulation_parameters::valence_relativity_ {relativity_t::zora}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Type of relativity for valence states. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00044">44</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="ab54050138f051531ef2be6db38b41d66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab54050138f051531ef2be6db38b41d66">&#9670;&nbsp;</a></span>core_relativity_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">relativity_t sirius::Simulation_parameters::core_relativity_ {relativity_t::dirac}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Type of relativity for core states. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00047">47</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
-
-</div>
-</div>
-<a id="a5f94855bdb699dad9f51ec2b5549d127"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f94855bdb699dad9f51ec2b5549d127">&#9670;&nbsp;</a></span>esm_type_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128a">electronic_structure_method_t</a> sirius::Simulation_parameters::esm_type_ {<a class="el" href="typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128aa5631a967093ee076a9e178b503774887">electronic_structure_method_t::full_potential_lapwlo</a>}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Type of electronic structure method. </p>
-
-<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00050">50</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simulation__parameters_8h_source.html#l00298">298</a> of file <a class="el" href="simulation__parameters_8h_source.html">simulation_parameters.h</a>.</p>
 
 </div>
 </div>
@@ -719,7 +395,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 31 2017 16:12:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jul 20 2017 10:18:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
