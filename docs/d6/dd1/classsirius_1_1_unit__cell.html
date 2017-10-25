@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -79,6 +79,9 @@ $(function() {
 <div class="title">sirius::Unit_cell Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Representation of a unit cell.  
+ <a href="../../d6/dd1/classsirius_1_1_unit__cell.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sirius::Unit_cell:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -131,7 +134,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memdesc:aaa8632b9f2d62183100a46e7dd0790ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print basic info. <br /></td></tr>
 <tr class="separator:aaa8632b9f2d62183100a46e7dd0790ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ea2da7e903ad8b8e8fb4fe7be33ac57"><td class="memItemLeft" align="right" valign="top"><a id="a0ea2da7e903ad8b8e8fb4fe7be33ac57"></a>
-<a class="el" href="../../da/d31/structunit__cell__parameters__descriptor.html">unit_cell_parameters_descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>unit_cell_parameters</b> ()</td></tr>
+unit_cell_parameters_descriptor&#160;</td><td class="memItemRight" valign="bottom"><b>unit_cell_parameters</b> ()</td></tr>
 <tr class="separator:a0ea2da7e903ad8b8e8fb4fe7be33ac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac25877583212c7e6aac3c4f97d62fa9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html#ac25877583212c7e6aac3c4f97d62fa9d">get_symmetry</a> ()</td></tr>
 <tr class="memdesc:ac25877583212c7e6aac3c4f97d62fa9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get crystal symmetries and equivalent atoms.  <a href="#ac25877583212c7e6aac3c4f97d62fa9d">More...</a><br /></td></tr>
@@ -308,15 +311,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>num_nearest_neighbours
 <tr class="memitem:a399339c6de50d9a09afbab41663ee44e"><td class="memItemLeft" align="right" valign="top"><a id="a399339c6de50d9a09afbab41663ee44e"></a>
 <a class="el" href="../../d9/dd6/structnearest__neighbour__descriptor.html">nearest_neighbour_descriptor</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>nearest_neighbour</b> (int i, int ia) const</td></tr>
 <tr class="separator:a399339c6de50d9a09afbab41663ee44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2af1d9264a27e1e6cb2323221dc09bd"><td class="memItemLeft" align="right" valign="top"><a id="ae2af1d9264a27e1e6cb2323221dc09bd"></a>
-<a class="el" href="../../d3/d8a/structmt__basis__descriptor.html">mt_basis_descriptor</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>mt_aw_basis_descriptor</b> (int idx) const</td></tr>
-<tr class="separator:ae2af1d9264a27e1e6cb2323221dc09bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3d65066205a02a3b3c22b4397a7bab4"><td class="memItemLeft" align="right" valign="top"><a id="ab3d65066205a02a3b3c22b4397a7bab4"></a>
-<a class="el" href="../../d3/d8a/structmt__basis__descriptor.html">mt_basis_descriptor</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>mt_lo_basis_descriptor</b> (int idx) const</td></tr>
-<tr class="separator:ab3d65066205a02a3b3c22b4397a7bab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58da94ce76d5681ab362824a4ebe504e"><td class="memItemLeft" align="right" valign="top"><a id="a58da94ce76d5681ab362824a4ebe504e"></a>
-<a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.html">Symmetry</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>symmetry</b> () const</td></tr>
-<tr class="separator:a58da94ce76d5681ab362824a4ebe504e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad904131f97de294ee195a68ab408c9ad"><td class="memItemLeft" align="right" valign="top"><a id="ad904131f97de294ee195a68ab408c9ad"></a>
+<a class="el" href="../../d0/d56/classsirius_1_1_unit__cell__symmetry.html">Unit_cell_symmetry</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>symmetry</b> () const</td></tr>
+<tr class="separator:ad904131f97de294ee195a68ab408c9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6ac10b2ddf884f239e551fef7fcb2d9"><td class="memItemLeft" align="right" valign="top"><a id="aa6ac10b2ddf884f239e551fef7fcb2d9"></a>
 matrix3d&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>lattice_vectors</b> () const</td></tr>
 <tr class="separator:aa6ac10b2ddf884f239e551fef7fcb2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -451,12 +448,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <tr class="memitem:a5b4e200542b2d648832108478296d9f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html#a5b4e200542b2d648832108478296d9f3">mt_aw_basis_size_</a> {0}</td></tr>
 <tr class="memdesc:a5b4e200542b2d648832108478296d9f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of augmented wave basis functions in the muffin-tins.  <a href="#a5b4e200542b2d648832108478296d9f3">More...</a><br /></td></tr>
 <tr class="separator:a5b4e200542b2d648832108478296d9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2ca4393c20299bf86b38d7a23c1fcab"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d3/d8a/structmt__basis__descriptor.html">mt_basis_descriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html#af2ca4393c20299bf86b38d7a23c1fcab">mt_aw_basis_descriptors_</a></td></tr>
-<tr class="memdesc:af2ca4393c20299bf86b38d7a23c1fcab"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of augmented wave basis descriptors.  <a href="#af2ca4393c20299bf86b38d7a23c1fcab">More...</a><br /></td></tr>
-<tr class="separator:af2ca4393c20299bf86b38d7a23c1fcab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a412e3813abb2216b0c061c23f3d42488"><td class="memItemLeft" align="right" valign="top"><a id="a412e3813abb2216b0c061c23f3d42488"></a>
-std::vector&lt; <a class="el" href="../../d3/d8a/structmt__basis__descriptor.html">mt_basis_descriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mt_lo_basis_descriptors_</b></td></tr>
-<tr class="separator:a412e3813abb2216b0c061c23f3d42488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64b9370ff27b0fdf91a035e61f025456"><td class="memItemLeft" align="right" valign="top"><a id="a64b9370ff27b0fdf91a035e61f025456"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html#a64b9370ff27b0fdf91a035e61f025456">mt_lo_basis_size_</a> {0}</td></tr>
 <tr class="memdesc:a64b9370ff27b0fdf91a035e61f025456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of local orbital basis functions. <br /></td></tr>
@@ -488,16 +479,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <tr class="memitem:ae4414aa1fe26e48f75990baaf3403f32"><td class="memItemLeft" align="right" valign="top"><a id="ae4414aa1fe26e48f75990baaf3403f32"></a>
 <a class="el" href="../../d7/d14/classsddk_1_1_communicator__bundle.html">Communicator_bundle</a>&#160;</td><td class="memItemRight" valign="bottom"><b>comm_bundle_atoms_</b></td></tr>
 <tr class="separator:ae4414aa1fe26e48f75990baaf3403f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7542f464983d1b2ef92a65655d32f7aa"><td class="memItemLeft" align="right" valign="top"><a id="a7542f464983d1b2ef92a65655d32f7aa"></a>
-std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.html">Symmetry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>symmetry_</b></td></tr>
-<tr class="separator:a7542f464983d1b2ef92a65655d32f7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a9a8d661aa7dbc99a1eac7646fea6e"><td class="memItemLeft" align="right" valign="top"><a id="a88a9a8d661aa7dbc99a1eac7646fea6e"></a>
+std::unique_ptr&lt; <a class="el" href="../../d0/d56/classsirius_1_1_unit__cell__symmetry.html">Unit_cell_symmetry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>symmetry_</b></td></tr>
+<tr class="separator:a88a9a8d661aa7dbc99a1eac7646fea6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a987364e7ff44d3a0844a96ed773f3a20"><td class="memItemLeft" align="right" valign="top"><a id="a987364e7ff44d3a0844a96ed773f3a20"></a>
 <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>comm_</b></td></tr>
 <tr class="separator:a987364e7ff44d3a0844a96ed773f3a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00042">42</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<div class="textblock"><p>Representation of a unit cell. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00043">43</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3d9c47a289473ff6f62b7190f1d752fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d9c47a289473ff6f62b7190f1d752fe">&#9670;&nbsp;</a></span>find_mt_radii()</h2>
@@ -525,7 +517,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 <p>Automatically determine new muffin-tin radii as a half distance between neighbor atoms. </p>
 <p>In order to guarantee a unique solution muffin-tin radii are dermined as a half distance bethween nearest atoms. Initial values of the muffin-tin radii are ignored. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00824">824</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00802">802</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -563,7 +555,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 <li>Create split indices for atoms and atom classes </li>
 </ol>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00650">650</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00634">634</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -593,7 +585,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 <p>Get crystal symmetries and equivalent atoms. </p>
 <p>Makes a call to spglib providing the basic unit cell information: lattice vectors and atomic types and positions. Gets back symmetry operations and a table of equivalent atoms. The table of equivalent atoms is then used to make a list of atom symmetry classes and related data. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00757">757</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00734">734</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -624,7 +616,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 <p>Set matrix of lattice vectors. </p>
 <p>Initializes lattice vectors, inverse lattice vector matrix, reciprocal lattice vectors and the unit cell volume. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00308">308</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00302">302</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -654,7 +646,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 <p>Total number of the muffin-tin basis functions. </p>
 <p>Total number of MT basis functions equals to the sum of the total number of augmented wave basis functions and the total number of local orbital basis functions among all atoms. It controls the size of the muffin-tin part of the first-variational states and second-variational wave functions. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00487">487</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00481">481</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -684,7 +676,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 \[ \vec v_{C} = {\bf L} \vec v_{f} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00079">79</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00080">80</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -713,7 +705,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 \[ \vec v_{f} = {\bf L}^{-1} \vec v_{C} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00087">87</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00088">88</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -745,7 +737,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 \[ {\bf A} {\bf B}^{T} = 2 \pi {\bf I} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00099">99</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00100">100</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -772,34 +764,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 <p>Total number of augmented wave basis functions in the muffin-tins. </p>
 <p>This is equal to the total number of matching coefficients for each plane-wave. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00139">139</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
-
-</div>
-</div>
-<a id="af2ca4393c20299bf86b38d7a23c1fcab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2ca4393c20299bf86b38d7a23c1fcab">&#9670;&nbsp;</a></span>mt_aw_basis_descriptors_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d3/d8a/structmt__basis__descriptor.html">mt_basis_descriptor</a>&gt; sirius::Unit_cell::mt_aw_basis_descriptors_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of augmented wave basis descriptors. </p>
-<p>Establishes mapping between global index in the range [0, mt_aw_basis_size_) and corresponding atom and local index \( \xi \) </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00144">144</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00140">140</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -809,7 +774,7 @@ std::unique_ptr&lt; <a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.ht
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:40 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

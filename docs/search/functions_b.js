@@ -1,15 +1,15 @@
 var searchData=
 [
   ['l1norm',['l1norm',['../d2/d6b/classgeometry3d_1_1vector3d.html#a87859bbfbaa0c86cfe1c27ec1a5c9e9c',1,'geometry3d::vector3d']]],
-  ['l2norm',['l2norm',['../d5/d4a/classsddk_1_1wave__functions.html#a80c191836c966820e1d0a458f35772e6',1,'sddk::wave_functions']]],
+  ['l2norm',['l2norm',['../d5/d4a/classsddk_1_1wave__functions.html#ae2212a4f595b9ac6b93e78f669f8f36c',1,'sddk::wave_functions::l2norm(device_t pu__, int n__) const'],['../d5/d4a/classsddk_1_1wave__functions.html#a80c191836c966820e1d0a458f35772e6',1,'sddk::wave_functions::l2norm(int n__) const']]],
   ['laplacian',['laplacian',['../d5/def/namespacesirius.html#a75083934e73f314246096173230a0da1',1,'sirius::laplacian(Smooth_periodic_function&lt; double &gt; &amp;f__)'],['../d5/def/namespacesirius.html#a84accb2dc31d7144fe5b97e0b2965001',1,'sirius::laplacian(Spheric_function&lt; spectral, T &gt; const &amp;f__)']]],
   ['last',['last',['../d9/dbf/classsirius_1_1_radial__grid.html#a0b10418c66364f62f75be03f5e77569d',1,'sirius::Radial_grid']]],
   ['lattice_5fvector',['lattice_vector',['../d6/dd1/classsirius_1_1_unit__cell.html#a0b599473ab0fdbb16db7fba42c079f8e',1,'sirius::Unit_cell']]],
   ['ld',['ld',['../d0/d58/classsddk_1_1mdarray__base.html#acafa9478a30d589b77223d1971d75cdc',1,'sddk::mdarray_base']]],
   ['length',['length',['../d2/d6b/classgeometry3d_1_1vector3d.html#adb884c07e23f848e977735a74a1e0a69',1,'geometry3d::vector3d']]],
-  ['lexer',['lexer',['../d7/dae/classnlohmann_1_1basic__json_1_1lexer.html#a6f8eac8d6d2b95ce3f10b04104ecda8d',1,'nlohmann::basic_json::lexer::lexer(const lexer_char_t *buff, const size_t len) noexcept'],['../d7/dae/classnlohmann_1_1basic__json_1_1lexer.html#aa85fafea3a014e6226be866d33112c49',1,'nlohmann::basic_json::lexer::lexer(std::istream &amp;s)']]],
   ['limits',['limits',['../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#aa8ebd4984127dde4c20409f37977450f',1,'sddk::FFT3D_grid']]],
   ['linear_5fmixer',['Linear_mixer',['../de/d92/classsirius_1_1_linear__mixer.html#a7b258e4a4292417d98c988f53ec334eb',1,'sirius::Linear_mixer']]],
+  ['little_5fendianess',['little_endianess',['../d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a1d8f70f95d241354f86a0b9ae711c1c3',1,'nlohmann::detail::binary_reader']]],
   ['lmmax',['lmmax',['../d5/df1/class_utils.html#a4c251a2107c4705d5cbd34204b0c8f43',1,'Utils']]],
   ['lo_5fcol',['lo_col',['../d1/daf/classsirius_1_1_k__point.html#aea2b7f8952c6d838687c7f4e34b352f6',1,'sirius::K_point']]],
   ['lo_5frow',['lo_row',['../d1/daf/classsirius_1_1_k__point.html#a16406ae263cdddbedb8ba15c58481d73',1,'sirius::K_point']]],

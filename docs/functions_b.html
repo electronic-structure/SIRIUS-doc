@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -91,15 +91,14 @@ $(function() {
 : <a class="el" href="d0/d85/classsddk_1_1_m_p_i__grid.html#a49d041be4378f955240145bfe9869f19">sddk::MPI_grid</a>
 </li>
 <li>base_iterator
-: <a class="el" href="d1/d8e/classnlohmann_1_1basic__json_1_1json__reverse__iterator.html#a5b7f3c5d86fe89a65d9552c1cac37261">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::json_reverse_iterator&lt; Base &gt;</a>
+: <a class="el" href="de/d74/classnlohmann_1_1detail_1_1json__reverse__iterator.html#a6b2ef1d632fe49bfcc22fbd1abd62395">nlohmann::detail::json_reverse_iterator&lt; Base &gt;</a>
 </li>
 <li>basic_json()
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#ab6816ae5100409254ed0a8bc21c387bb">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
-, <a class="el" href="de/d32/classnlohmann_1_1basic__json_1_1iter__impl.html#ada3100cdb8700566051828f1355fa745">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::iter_impl&lt; U &gt;</a>
-, <a class="el" href="d4/d60/classnlohmann_1_1basic__json_1_1json__pointer.html#ada3100cdb8700566051828f1355fa745">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::json_pointer</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#abe197e9f3184487805cfb5bba6fd5938">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+, <a class="el" href="da/de8/classnlohmann_1_1json__pointer.html#ada3100cdb8700566051828f1355fa745">nlohmann::json_pointer</a>
 </li>
 <li>basic_json_t
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#afc4033f5af721feb287b0676723a145f">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#afff7860310ae69f29f8158a77ec0ef13">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 </li>
 <li>bcast()
 : <a class="el" href="da/d70/classsddk_1_1_communicator.html#a97c7242d77bec7ed7c57e3caff52fdb7">sddk::Communicator</a>
@@ -109,7 +108,7 @@ $(function() {
 </li>
 <li>begin()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a0ff28dac23f2bdecee9564d07f51dcdc">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
-, <a class="el" href="dc/ddf/classnlohmann_1_1basic__json_1_1iteration__proxy.html#a98cb29b336b99768602f73883a9e4dff">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::iteration_proxy&lt; IteratorType &gt;</a>
+, <a class="el" href="db/dda/classnlohmann_1_1detail_1_1iteration__proxy.html#a43612db469c82118fc648c3729e40cee">nlohmann::detail::iteration_proxy&lt; IteratorType &gt;</a>
 , <a class="el" href="df/d46/classsddk_1_1mdarray__index__descriptor.html#ac8f3929753adb12bd634f75ea62973a7">sddk::mdarray_index_descriptor</a>
 </li>
 <li>begin_
@@ -122,17 +121,27 @@ $(function() {
 : <a class="el" href="d1/d76/classsirius_1_1_mixer.html#a41a4d228e3a0bbf5e1ec7b91356fe4b0">sirius::Mixer&lt; T &gt;</a>
 , <a class="el" href="d4/db0/structsirius_1_1_mixer__input.html#aafab258eb068d9ee772fdadfc1b6a3af">sirius::Mixer_input</a>
 </li>
+<li>beta_j
+: <a class="el" href="db/d3d/structpseudopotential__descriptor.html#ae94a270c24db6dc71d4457995c1f9dba">pseudopotential_descriptor</a>
+</li>
 <li>beta_l
 : <a class="el" href="db/d3d/structpseudopotential__descriptor.html#ae86b630c65e7b9633d0162d3e1448190">pseudopotential_descriptor</a>
 </li>
-<li>beta_phi_
-: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#aebb02179100b26e75ad32ab06de9e498">sirius::Beta_projectors_base&lt; N &gt;</a>
+<li>beta_phi_shared()
+: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#ad3f627505f6ad90012e56ae80ad54a88">sirius::Beta_projectors_base&lt; N &gt;</a>
 </li>
 <li>beta_radial_functions
 : <a class="el" href="db/d3d/structpseudopotential__descriptor.html#adc359985f0583a7ac7a118cea93a9b30">pseudopotential_descriptor</a>
 </li>
+<li>binary_reader()
+: <a class="el" href="d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a7e643baadaf4c31718cd74833bdd542f">nlohmann::detail::binary_reader&lt; BasicJsonType &gt;</a>
+</li>
+<li>binary_writer()
+: <a class="el" href="df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#a373289af95a946c19bb4a58a5df71a78">nlohmann::detail::binary_writer&lt; BasicJsonType, CharType &gt;</a>
+</li>
 <li>blacs_grid_
-: <a class="el" href="d5/d1f/classsirius_1_1_band.html#a621c3610318f8b26c0f4167c3a0dca76">sirius::Band</a>
+: <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#a90356b2f4ae42e31c9d081c53f1f37e1">sddk::dmatrix&lt; T &gt;</a>
+, <a class="el" href="d5/d1f/classsirius_1_1_band.html#a621c3610318f8b26c0f4167c3a0dca76">sirius::Band</a>
 , <a class="el" href="db/d7d/classsirius_1_1_simulation__context__base.html#afde013acb9c794bebf7dd7acf1b251bc">sirius::Simulation_context_base</a>
 </li>
 <li>block_size_
@@ -144,17 +153,33 @@ $(function() {
 <li>boolean_t
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a4c919102a9b4fe0d588af64801436082">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 </li>
-<li>buffer()
-: <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#a45c53658d65dd6bce3b2b82e4b2edb03">sddk::FFT3D</a>
+<li>bs_col_
+: <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#aa46167a494f383ca8511e3b5ae4643c9">sddk::dmatrix&lt; T &gt;</a>
+</li>
+<li>bs_row_
+: <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#ad20a8c65fc2588b20506e00f98fba4d7">sddk::dmatrix&lt; T &gt;</a>
+</li>
+<li>buf_rg_
+: <a class="el" href="d6/dfb/classsirius_1_1_local__operator.html#a4e448374aaeda9332be52b4a9ddbfbd9">sirius::Local_operator</a>
+</li>
+<li>buffer
+: <a class="el" href="db/dad/classnlohmann_1_1detail_1_1cached__input__stream__adapter.html#aff4ba9ce7b0b9805af68cb01e08aff31">nlohmann::detail::cached_input_stream_adapter&lt; BufferSize &gt;</a>
+, <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#a45c53658d65dd6bce3b2b82e4b2edb03">sddk::FFT3D</a>
+</li>
+<li>buffer_pos
+: <a class="el" href="db/dad/classnlohmann_1_1detail_1_1cached__input__stream__adapter.html#a8cfa131fa024b4e046c576414f924b14">nlohmann::detail::cached_input_stream_adapter&lt; BufferSize &gt;</a>
 </li>
 <li>byte
-: <a class="el" href="d5/d1a/classnlohmann_1_1detail_1_1parse__error.html#aa03a5254e185a08cc01502344f8b92fe">nlohmann::detail::parse_error</a>
+: <a class="el" href="d5/d1a/classnlohmann_1_1detail_1_1parse__error.html#a9505aaa1ca943be927eec7cc579592ff">nlohmann::detail::parse_error</a>
+</li>
+<li>bytes_following()
+: <a class="el" href="d4/d0a/classnlohmann_1_1detail_1_1serializer.html#a5e9be8c73505b3ba8d42811ecacf5e41">nlohmann::detail::serializer&lt; BasicJsonType &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:40 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

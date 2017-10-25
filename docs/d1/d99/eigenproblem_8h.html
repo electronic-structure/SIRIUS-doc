@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -102,6 +102,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d0a/classexperimental_1_1_eigenproblem__base.html">experimental::Eigenproblem_base</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8d/classexperimental_1_1_eigenproblem__elpa1.html">experimental::Eigenproblem_elpa1</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/class_eigenproblem.html">Eigenproblem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for eigen-value problems.  <a href="../../d3/d52/class_eigenproblem.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,6 +134,17 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a699670457e22ef458936be59b965eeba"><td class="memItemLeft" align="right" valign="top"><a id="a699670457e22ef458936be59b965eeba"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ev_solver_t</b> { <br />
+&#160;&#160;<b>experimental::ev_solver_t::ev_lapack</b>, 
+<b>experimental::ev_solver_t::ev_scalapack</b>, 
+<b>experimental::ev_solver_t::ev_elpa1</b>, 
+<b>experimental::ev_solver_t::ev_elpa2</b>, 
+<br />
+&#160;&#160;<b>experimental::ev_solver_t::ev_magma</b>, 
+<b>experimental::ev_solver_t::ev_plasma</b>
+<br />
+ }</td></tr>
+<tr class="separator:a699670457e22ef458936be59b965eeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a203f2c57422a6e64834e6e9ab85982bf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d99/eigenproblem_8h.html#a203f2c57422a6e64834e6e9ab85982bf">ev_solver_t</a> { <br />
 &#160;&#160;<a class="el" href="../../d1/d99/eigenproblem_8h.html#a203f2c57422a6e64834e6e9ab85982bfa91bc01f4f5388e756efb07f0b12dd070">ev_lapack</a>, 
 <a class="el" href="../../d1/d99/eigenproblem_8h.html#a203f2c57422a6e64834e6e9ab85982bfaf071b98d350afbc11e9744cda18bbdbd">ev_scalapack</a>, 
@@ -159,18 +174,18 @@ void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_invert
 <tr class="memitem:ab65461ec11a40945b18f585e6e42c024"><td class="memItemLeft" align="right" valign="top"><a id="ab65461ec11a40945b18f585e6e42c024"></a>
 void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_invert_trm_real_wrapper</b> (ftn_int const *na, ftn_double *a, ftn_int const *lda, ftn_int const *nblk, ftn_int const *matrixCols, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols)</td></tr>
 <tr class="separator:ab65461ec11a40945b18f585e6e42c024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8376af006951218c5db316566e5e8d4d"><td class="memItemLeft" align="right" valign="top"><a id="a8376af006951218c5db316566e5e8d4d"></a>
-void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_mult_ah_b_complex_wrapper</b> (ftn_char uplo_a, ftn_char uplo_c, ftn_int const *na, ftn_int const *ncb, ftn_double_complex *a, ftn_int const *lda, ftn_double_complex *b, ftn_int const *ldb, ftn_int const *nblk, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols, ftn_double_complex *c, ftn_int const *ldc, ftn_len uplo_a_len, ftn_len uplo_c_len)</td></tr>
-<tr class="separator:a8376af006951218c5db316566e5e8d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a4a9361b9158d97d31c5f0a5260d283"><td class="memItemLeft" align="right" valign="top"><a id="a0a4a9361b9158d97d31c5f0a5260d283"></a>
-void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_mult_at_b_real_wrapper</b> (ftn_char uplo_a, ftn_char uplo_c, ftn_int const *na, ftn_int const *ncb, ftn_double *a, ftn_int const *lda, ftn_double *b, ftn_int const *ldb, ftn_int const *nblk, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols, ftn_double *c, ftn_int const *ldc, ftn_len uplo_a_len, ftn_len uplo_c_len)</td></tr>
-<tr class="separator:a0a4a9361b9158d97d31c5f0a5260d283"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56c785b6d722fcec1c066a36748e79ca"><td class="memItemLeft" align="right" valign="top"><a id="a56c785b6d722fcec1c066a36748e79ca"></a>
-void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_solve_evp_complex</b> (ftn_int const *na, ftn_int const *nev, ftn_double_complex *a, ftn_int const *lda, ftn_double *ev, ftn_double_complex *q, ftn_int const *ldq, ftn_int const *nblk, ftn_int const *matrixCols, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols)</td></tr>
-<tr class="separator:a56c785b6d722fcec1c066a36748e79ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a1e1433213025c3758f98d08d714a2f"><td class="memItemLeft" align="right" valign="top"><a id="a4a1e1433213025c3758f98d08d714a2f"></a>
-void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_solve_evp_real</b> (ftn_int const *na, ftn_int const *nev, ftn_double *a, ftn_int const *lda, ftn_double *ev, ftn_double *q, ftn_int const *ldq, ftn_int const *nblk, ftn_int const *matrixCols, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols)</td></tr>
-<tr class="separator:a4a1e1433213025c3758f98d08d714a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7149411d54198d134dc26914ff5d4eda"><td class="memItemLeft" align="right" valign="top"><a id="a7149411d54198d134dc26914ff5d4eda"></a>
+void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_mult_ah_b_complex_wrapper</b> (ftn_char uplo_a, ftn_char uplo_c, ftn_int const *na, ftn_int const *ncb, ftn_double_complex *a, ftn_int const *lda, ftn_int const *ldaCols, ftn_double_complex *b, ftn_int const *ldb, ftn_int const *ldbCols, ftn_int const *nblk, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols, ftn_double_complex *c, ftn_int const *ldc, ftn_int const *ldcCols, ftn_len uplo_a_len, ftn_len uplo_c_len)</td></tr>
+<tr class="separator:a7149411d54198d134dc26914ff5d4eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a623464d201c88a88c516754e4a84e4f4"><td class="memItemLeft" align="right" valign="top"><a id="a623464d201c88a88c516754e4a84e4f4"></a>
+void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_mult_at_b_real_wrapper</b> (ftn_char uplo_a, ftn_char uplo_c, ftn_int const *na, ftn_int const *ncb, ftn_double *a, ftn_int const *lda, ftn_int const *ldaCols, ftn_double *b, ftn_int const *ldb, ftn_int const *ldbCols, ftn_int const *nblk, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols, ftn_double *c, ftn_int const *ldc, ftn_int const *ldcCols, ftn_len uplo_a_len, ftn_len uplo_c_len)</td></tr>
+<tr class="separator:a623464d201c88a88c516754e4a84e4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9acec4c1b7fe930269b0daf55495641"><td class="memItemLeft" align="right" valign="top"><a id="aa9acec4c1b7fe930269b0daf55495641"></a>
+void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_solve_evp_complex</b> (ftn_int const *na, ftn_int const *nev, ftn_double_complex *a, ftn_int const *lda, ftn_double *ev, ftn_double_complex *q, ftn_int const *ldq, ftn_int const *nblk, ftn_int const *matrixCols, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols, ftn_int const *mpi_comm_all)</td></tr>
+<tr class="separator:aa9acec4c1b7fe930269b0daf55495641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a488b2a7406feda2a6b284f3d436eb930"><td class="memItemLeft" align="right" valign="top"><a id="a488b2a7406feda2a6b284f3d436eb930"></a>
+void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_solve_evp_real</b> (ftn_int const *na, ftn_int const *nev, ftn_double *a, ftn_int const *lda, ftn_double *ev, ftn_double *q, ftn_int const *ldq, ftn_int const *nblk, ftn_int const *matrixCols, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols, ftn_int const *mpi_comm_all)</td></tr>
+<tr class="separator:a488b2a7406feda2a6b284f3d436eb930"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6610579d06709ac8b616bc0be7be02a1"><td class="memItemLeft" align="right" valign="top"><a id="a6610579d06709ac8b616bc0be7be02a1"></a>
 void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_solve_evp_complex_2stage</b> (ftn_int const *na, ftn_int const *nev, ftn_double_complex *a, ftn_int const *lda, ftn_double *ev, ftn_double_complex *q, ftn_int const *ldq, ftn_int const *nblk, ftn_int const *matrixCols, ftn_int const *mpi_comm_rows, ftn_int const *mpi_comm_cols, ftn_int const *mpi_comm_all)</td></tr>
 <tr class="separator:a6610579d06709ac8b616bc0be7be02a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,14 +226,14 @@ void FORTRAN()&#160;</td><td class="memItemRight" valign="bottom"><b>elpa_solve_
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d99/eigenproblem_8h_source.html#l00032">32</a> of file <a class="el" href="../../d1/d99/eigenproblem_8h_source.html">eigenproblem.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d99/eigenproblem_8h_source.html#l00246">246</a> of file <a class="el" href="../../d1/d99/eigenproblem_8h_source.html">eigenproblem.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:38 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:15 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

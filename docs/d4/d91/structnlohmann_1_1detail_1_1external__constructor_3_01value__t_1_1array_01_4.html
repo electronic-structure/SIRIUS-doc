@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -84,6 +84,10 @@ Static Public Member Functions</h2></td></tr>
 template&lt;typename BasicJsonType &gt; </td></tr>
 <tr class="memitem:abfb2a6eec0bc21e8a7438546aebc55d8"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>construct</b> (BasicJsonType &amp;j, const typename BasicJsonType::array_t &amp;arr)</td></tr>
 <tr class="separator:abfb2a6eec0bc21e8a7438546aebc55d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50474d6624957a630a1d398cac1e7bfa"><td class="memTemplParams" colspan="2"><a id="a50474d6624957a630a1d398cac1e7bfa"></a>
+template&lt;typename BasicJsonType &gt; </td></tr>
+<tr class="memitem:a50474d6624957a630a1d398cac1e7bfa"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>construct</b> (BasicJsonType &amp;j, typename BasicJsonType::array_t &amp;&amp;arr)</td></tr>
+<tr class="separator:a50474d6624957a630a1d398cac1e7bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a110f50fd5378da876d9a6d6a8d945e37"><td class="memTemplParams" colspan="2"><a id="a110f50fd5378da876d9a6d6a8d945e37"></a>
 template&lt;typename BasicJsonType , typename CompatibleArrayType , enable_if_t&lt; not std::is_same&lt; CompatibleArrayType, typename BasicJsonType::array_t &gt;::value, int &gt;  = 0&gt; </td></tr>
 <tr class="memitem:a110f50fd5378da876d9a6d6a8d945e37"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>construct</b> (BasicJsonType &amp;j, const CompatibleArrayType &amp;arr)</td></tr>
@@ -92,20 +96,24 @@ template&lt;typename BasicJsonType , typename CompatibleArrayType , enable_if_t&
 template&lt;typename BasicJsonType &gt; </td></tr>
 <tr class="memitem:a4ebb19b1cb84b4cb224a4c5322e16f14"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>construct</b> (BasicJsonType &amp;j, const std::vector&lt; bool &gt; &amp;arr)</td></tr>
 <tr class="separator:a4ebb19b1cb84b4cb224a4c5322e16f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9226304e6492141080b4ebf228ddac"><td class="memTemplParams" colspan="2"><a id="a1b9226304e6492141080b4ebf228ddac"></a>
+template&lt;typename BasicJsonType , typename T , enable_if_t&lt; std::is_convertible&lt; T, BasicJsonType &gt;::value, int &gt;  = 0&gt; </td></tr>
+<tr class="memitem:a1b9226304e6492141080b4ebf228ddac"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>construct</b> (BasicJsonType &amp;j, const std::valarray&lt; T &gt; &amp;arr)</td></tr>
+<tr class="separator:a1b9226304e6492141080b4ebf228ddac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;&gt;<br />
 struct nlohmann::detail::external_constructor&lt; value_t::array &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../d5/db8/json_8hpp_source.html#l00549">549</a> of file <a class="el" href="../../d5/db8/json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/db8/json_8hpp_source.html#l00622">622</a> of file <a class="el" href="../../d5/db8/json_8hpp_source.html">json.hpp</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="../../d5/db8/json_8hpp_source.html">json.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:16 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

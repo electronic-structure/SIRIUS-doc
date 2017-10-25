@@ -16,6 +16,5 @@ var searchData=
   ['splindex_2ehpp',['splindex.hpp',['../d0/d86/splindex_8hpp.html',1,'']]],
   ['spline_2eh',['spline.h',['../dd/d09/spline_8h.html',1,'']]],
   ['step_5ffunction_2eh',['step_function.h',['../d3/d0e/step__function_8h.html',1,'']]],
-  ['stress_2eh',['stress.h',['../d2/d50/stress_8h.html',1,'']]],
-  ['symmetry_2eh',['symmetry.h',['../de/d0e/symmetry_8h.html',1,'']]]
+  ['stress_2eh',['stress.h',['../d2/d50/stress_8h.html',1,'']]]
 ];

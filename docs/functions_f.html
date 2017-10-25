@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -69,6 +69,9 @@ $(function() {
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a id="index_f"></a>- f -</h3><ul>
+<li>f_coefficients_
+: <a class="el" href="d3/d37/classsirius_1_1_atom__type.html#a6bad6f5b0c20e2e239f6f69536fc1c8e">sirius::Atom_type</a>
+</li>
 <li>f_mt_
 : <a class="el" href="d0/d6d/classsirius_1_1_periodic__function.html#ad94fec4be54aabdb4d803d2864c71da3">sirius::Periodic_function&lt; T &gt;</a>
 </li>
@@ -126,8 +129,8 @@ $(function() {
 <li>file_name_
 : <a class="el" href="d0/de8/classsirius_1_1_h_d_f5__tree.html#a3af27c600c44298f08392471a57e7040">sirius::HDF5_tree</a>
 </li>
-<li>fill_line_buffer()
-: <a class="el" href="d7/dae/classnlohmann_1_1basic__json_1_1lexer.html#a0b137b9457f558c4b2352259b12ed5ff">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::lexer</a>
+<li>fill_size
+: <a class="el" href="db/dad/classnlohmann_1_1detail_1_1cached__input__stream__adapter.html#a025acc7ec783c2ddc26343c45bd40c0f">nlohmann::detail::cached_input_stream_adapter&lt; BufferSize &gt;</a>
 </li>
 <li>finalize()
 : <a class="el" href="da/d70/classsddk_1_1_communicator.html#a6af0cc5c1713f6bebe0d1426fc1cf503">sddk::Communicator</a>
@@ -158,7 +161,7 @@ $(function() {
 </li>
 <li>flatten()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#ab838f000d76662917ffd6ec529569e03">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
-, <a class="el" href="d4/d60/classnlohmann_1_1basic__json_1_1json__pointer.html#adc3a9cbcb4ce12bf4661caf48cd2b30c">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::json_pointer</a>
+, <a class="el" href="da/de8/classnlohmann_1_1json__pointer.html#ad830d0aac06e68bb0e432dfc3df052df">nlohmann::json_pointer</a>
 </li>
 <li>forward_transform()
 : <a class="el" href="d1/d08/classsirius_1_1_s_h_t.html#a7cd824190c66d3ea87e13970602c9591">sirius::SHT</a>
@@ -176,19 +179,13 @@ $(function() {
 : <a class="el" href="db/d14/classsddk_1_1linalg__base.html#aee91be9b979482febad882ea797c7db8">sddk::linalg_base</a>
 </li>
 <li>from_cbor()
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#ab5e3e1758c1a52ffe89b1d379ef7fbe1">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
-</li>
-<li>from_cbor_internal()
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a782368d422aa7bb3dca75361665bfcff">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#abc2393a8ce91f2cd25bc1c2ca96daf24">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 </li>
 <li>from_json()
 : <a class="el" href="dc/dc7/structnlohmann_1_1adl__serializer.html#ab39cad07c1a2bf4414d6cae5215b4e7a">nlohmann::adl_serializer&lt; typename, typename &gt;</a>
 </li>
 <li>from_msgpack()
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a3eafe0b1fb2f2c443f1b3fea55c8a470">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
-</li>
-<li>from_msgpack_internal()
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a2c758bc0a9b61177e4ec0d0c216bfe2b">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#ad435a9e5851197bb8e3d727faf10abc5">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 </li>
 <li>front()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a3acba9c6ceb7214e565fe08c3ba5b352">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
@@ -212,7 +209,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:40 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

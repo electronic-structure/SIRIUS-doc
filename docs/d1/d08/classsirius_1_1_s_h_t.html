@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -87,7 +87,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d61/classsirius_1_1_s_h_t__coll__graph.svg" width="378" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d61/classsirius_1_1_s_h_t__coll__graph.svg" width="304" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -212,6 +212,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d08/classsirius_1_1_s_h_t.html#a9ff5f893473b98d1a5dbb5ab51dda895">dRlm_dphi_sin_theta</a> (int lmax, double theta, double phi, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 1 &gt; &amp;data)</td></tr>
 <tr class="memdesc:a9ff5f893473b98d1a5dbb5ab51dda895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute derivative of real-spherical harmonic with respect to phi angle and divide by sin(theta). <br /></td></tr>
 <tr class="separator:a9ff5f893473b98d1a5dbb5ab51dda895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7735cdb1028f52dc1b48902a22754095"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d08/classsirius_1_1_s_h_t.html#a7735cdb1028f52dc1b48902a22754095">rotation_matrix_su2</a> (const matrix3d&lt; double &gt; &amp;m)</td></tr>
+<tr class="separator:a7735cdb1028f52dc1b48902a22754095"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ec0d7dc515b55cd9fbae31d37a22308"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d08/classsirius_1_1_s_h_t.html#a5ec0d7dc515b55cd9fbae31d37a22308">dRlm_dr</a> (int lmax__, <a class="el" href="../../d2/d6b/classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; &amp;r__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt; &amp;data__)</td></tr>
 <tr class="memdesc:a5ec0d7dc515b55cd9fbae31d37a22308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the derivatives of real spherical harmonics over the components of cartesian vector.  <a href="#a5ec0d7dc515b55cd9fbae31d37a22308">More...</a><br /></td></tr>
 <tr class="separator:a5ec0d7dc515b55cd9fbae31d37a22308"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -275,7 +277,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <div class="textblock"><p>Spherical harmonics transformations and related oprtations. </p>
 <p>This class is responsible for the generation of complex and real spherical harmonics, generation of transformation matrices, transformation between spectral and real-space representations, generation of Gaunt and Clebsch-Gordan coefficients and calculation of spherical harmonic derivatives </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00045">45</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00047">47</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a13e22fe05ff2a84fc28089fa89a7a623"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a13e22fe05ff2a84fc28089fa89a7a623">&#9670;&nbsp;</a></span>backward_transform()</h2>
@@ -455,7 +457,7 @@ template&lt;typename T &gt; </div>
 *   If[m &lt; 0, std::sqrt[2]*ComplexExpand[Im[SphericalHarmonicY[l, m, th, ph]]], 
 *   If[m == 0, ComplexExpand[Re[SphericalHarmonicY[l, 0, th, ph]]]]]]
 *  </pre> 
-<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00377">377</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00379">379</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
 
 </div>
 </div>
@@ -507,23 +509,23 @@ template&lt;typename T &gt; </div>
 <p> where </p><p class="formulaDsp">
 \[ a^{\ell}_{m&#39; m} = \langle Y_{\ell m&#39;} | R_{\ell m} \rangle \]
 </p>
- <pre class="fragment">Transformation from real to complex spherical harmonics is conjugate transpose:
-</pre><p class="formulaDsp">
+<p> which gives the name to this function.</p>
+<p>Transformation from real to complex spherical harmonics is conjugate transpose:</p>
+<p class="formulaDsp">
 \[ Y_{\ell m}(\theta, \phi) = \sum_{m&#39;} a^{\ell*}_{m m&#39;}R_{\ell m&#39;}(\theta, \phi) \]
 </p>
- <pre class="fragment">Mathematica code:
-</pre> <pre class="fragment">*    b[m1_, m2_] := 
-*     If[m1 == 0, 1, 
-*     If[m1 &lt; 0 &amp;&amp; m2 &lt; 0, -I/std::sqrt[2], 
-*     If[m1 &gt; 0 &amp;&amp; m2 &lt; 0, (-1)^m1*I/std::sqrt[2], 
-*     If[m1 &lt; 0 &amp;&amp; m2 &gt; 0, (-1)^m2/std::sqrt[2], 
-*     If[m1 &gt; 0 &amp;&amp; m2 &gt; 0, 1/std::sqrt[2]]]]]]
-*    
-*    a[m1_, m2_] := If[Abs[m1] == Abs[m2], b[m1, m2], 0]
-*    
-*    R[l_, m_, t_, p_] := Sum[a[m1, m]*SphericalHarmonicY[l, m1, t, p], {m1, -l, l}]
-*    </pre> 
-<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00431">431</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+<p>Mathematica code: </p><pre class="fragment">b[m1_, m2_] := 
+ If[m1 == 0, 1, 
+ If[m1 &lt; 0 &amp;&amp; m2 &lt; 0, -I/Sqrt[2], 
+ If[m1 &gt; 0 &amp;&amp; m2 &lt; 0, (-1)^m1*I/Sqrt[2], 
+ If[m1 &lt; 0 &amp;&amp; m2 &gt; 0, (-1)^m2/Sqrt[2], 
+ If[m1 &gt; 0 &amp;&amp; m2 &gt; 0, 1/Sqrt[2]]]]]]
+
+a[m1_, m2_] := If[Abs[m1] == Abs[m2], b[m1, m2], 0]
+
+Rlm[l_, m_, t_, p_] := Sum[a[m1, m]*SphericalHarmonicY[l, m1, t, p], {m1, -l, l}]
+</pre> 
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00434">434</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
 
 </div>
 </div>
@@ -590,7 +592,7 @@ template&lt;typename T &gt; </div>
 \[ \langle Y_{\ell_1 m_1} | Y_{\ell_2 m_2} | Y_{\ell_3 m_3} \rangle \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00471">471</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00474">474</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
 
 </div>
 </div>
@@ -657,7 +659,7 @@ template&lt;typename T &gt; </div>
 \[ \langle R_{\ell_1 m_1} | R_{\ell_2 m_2} | R_{\ell_3 m_3} \rangle \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00491">491</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00494">494</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
 
 </div>
 </div>
@@ -724,7 +726,7 @@ template&lt;typename T &gt; </div>
 \[ \langle Y_{\ell_1 m_1} | R_{\ell_2 m_2} | Y_{\ell_3 m_3} \rangle \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00519">519</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00522">522</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
 
 </div>
 </div>
@@ -789,7 +791,36 @@ template&lt;typename T &gt; </div>
 <p>Return Clebsch-Gordan coefficient. </p>
 <p>Clebsch-Gordan coefficients arise when two angular momenta are combined into a total angular momentum. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00556">556</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l00559">559</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+
+</div>
+</div>
+<a id="a7735cdb1028f52dc1b48902a22754095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7735cdb1028f52dc1b48902a22754095">&#9670;&nbsp;</a></span>rotation_matrix_su2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt;double_complex, 2&gt; sirius::SHT::rotation_matrix_su2 </td>
+          <td>(</td>
+          <td class="paramtype">const matrix3d&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>convert 3x3 transformation matrix to SU2 2x2 matrix Create quaternion components from the 3x3 matrix. The components are just a w = Cos(/2) and {x,y,z} = unit rotation vector multiplied by Sin[/2] see <a href="https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation">https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation</a> and <a href="https://en.wikipedia.org/wiki/Rotation_group_SO(3)#Quaternions_of_unit_norm">https://en.wikipedia.org/wiki/Rotation_group_SO(3)#Quaternions_of_unit_norm</a> </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l01089">1089</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
 
 </div>
 </div>
@@ -855,7 +886,7 @@ template&lt;typename T &gt; </div>
 Do[Print[FullSimplify[D[Rlm[l, m, theta, phi], theta]]], {l, 0, 4}, {m, -l, l}]
 Do[Print[FullSimplify[TrigExpand[D[Rlm[l, m, theta, phi], phi]/Sin[theta]]]], {l, 0, 4}, {m, -l, l}]
 </pre> 
-<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l01119">1119</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d8b/sht_8h_source.html#l01153">1153</a> of file <a class="el" href="../../d4/d8b/sht_8h_source.html">sht.h</a>.</p>
 
 </div>
 </div>
@@ -865,7 +896,7 @@ Do[Print[FullSimplify[TrigExpand[D[Rlm[l, m, theta, phi], phi]/Sin[theta]]]], {l
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['r',['R',['../d6/d5b/structsirius_1_1space__group__symmetry__descriptor.html#afc69dbb8d30ba338514ad1185aa44edc',1,'sirius::space_group_symmetry_descriptor']]],
+  ['radial_5ffunction_5findex_5fdescriptors_5f',['radial_function_index_descriptors_',['../d1/df3/classsirius_1_1radial__functions__index.html#a3ff7d197be914bb11cf9b9b4f6f69b6b',1,'sirius::radial_functions_index']]],
   ['radial_5ffunctions_5f',['radial_functions_',['../d5/d15/classsirius_1_1_atom__symmetry__class.html#a386343d0b45a21cdccecd10e71c7c3f4',1,'sirius::Atom_symmetry_class']]],
   ['radial_5fgrid_5f',['radial_grid_',['../d0/d78/classsirius_1_1_radial__solver.html#a6712fda9e01d331946fd1460714a6d4c',1,'sirius::Radial_solver::radial_grid_()'],['../d9/ddf/classsirius_1_1_spheric__function.html#a369d3bb19d817828f2c2ca0486fa5c36',1,'sirius::Spheric_function::radial_grid_()'],['../d5/d6b/classsirius_1_1_spline.html#a75f35cec4e42c7a4317f9110434e1d8b',1,'sirius::Spline::radial_grid_()'],['../d3/d37/classsirius_1_1_atom__type.html#a09c2e86e6fad3a1d51c73aea0c5138db',1,'sirius::Atom_type::radial_grid_()']]],
   ['radial_5fgrid_5forigin_5f',['radial_grid_origin_',['../d3/d37/classsirius_1_1_atom__type.html#aea51b36d134b6b1253f52baf4b85f613',1,'sirius::Atom_type']]],
@@ -10,10 +11,11 @@ var searchData=
   ['raw_5fptr_5fdevice_5f',['raw_ptr_device_',['../d0/d58/classsddk_1_1mdarray__base.html#a550cb86fe97cca94a263040970cdd8f4',1,'sddk::mdarray_base']]],
   ['reciprocal_5flattice_5fvectors_5f',['reciprocal_lattice_vectors_',['../d6/dd1/classsirius_1_1_unit__cell.html#af85417314eb39d09ad90de1414fc5bea',1,'sirius::Unit_cell']]],
   ['reduce_5fgvec_5f',['reduce_gvec_',['../dc/d9b/classsddk_1_1_gvec.html#aba6399c3e2408cde1168fb5e72e82b15',1,'sddk::Gvec']]],
-  ['reference_5ftokens',['reference_tokens',['../d4/d60/classnlohmann_1_1basic__json_1_1json__pointer.html#a04832c52ff9b4237ec15d437390f7637',1,'nlohmann::basic_json::json_pointer']]],
+  ['reference_5ftokens',['reference_tokens',['../da/de8/classnlohmann_1_1json__pointer.html#afe4b0d7a3a9c3a91c6e7247842ab2e58',1,'nlohmann::json_pointer']]],
+  ['residual_5ftolerance_5f',['residual_tolerance_',['../d2/d11/structsirius_1_1_iterative__solver__input.html#a715ab59c15f8e626a1fd593a06cd8073',1,'sirius::Iterative_solver_input']]],
   ['rho_5f',['rho_',['../d7/d05/classsirius_1_1_density.html#ab9af191197a999e8e7c66258656b983c',1,'sirius::Density']]],
   ['rho_5fmag_5fcoarse_5f',['rho_mag_coarse_',['../d7/d05/classsirius_1_1_density.html#ae9d2944c3a36c3f5c8dde800848bcf1e',1,'sirius::Density']]],
-  ['rho_5fpseudo_5fcore_5f',['rho_pseudo_core_',['../d7/d05/classsirius_1_1_density.html#a57f0f2b0586f0eb2f87efc7c0d27dfae',1,'sirius::Density']]],
+  ['rho_5fpseudo_5fcore_5f',['rho_pseudo_core_',['../d7/d05/classsirius_1_1_density.html#ad12b8d4968f7b6076280141f1cabb4b5',1,'sirius::Density']]],
   ['rho_5fvec_5f',['rho_vec_',['../d7/d05/classsirius_1_1_density.html#a830b1868b9818fb6f0151b81e95212ff',1,'sirius::Density']]],
   ['rlm_5fbackward_5f',['rlm_backward_',['../d1/d08/classsirius_1_1_s_h_t.html#a63ed79c5a767d8c0f950f46a736e6281',1,'sirius::SHT']]],
   ['rlm_5fforward_5f',['rlm_forward_',['../d1/d08/classsirius_1_1_s_h_t.html#a9bf2864722425da105299d52cb93dba8',1,'sirius::SHT']]],
@@ -21,5 +23,6 @@ var searchData=
   ['rm_5finv_5fpw_5f',['rm_inv_pw_',['../d2/d0b/classsirius_1_1_potential.html#a681931c08f11ddea4b3709280d7b309d',1,'sirius::Potential']]],
   ['root_5fnode_5f',['root_node_',['../d0/de8/classsirius_1_1_h_d_f5__tree.html#a5d07fadfbcafa38b174c32fb0700aeef',1,'sirius::HDF5_tree']]],
   ['rotation',['rotation',['../d6/d5b/structsirius_1_1space__group__symmetry__descriptor.html#a6a3d9fcab0e0cceb5d8a8cba6c0cbbdc',1,'sirius::space_group_symmetry_descriptor']]],
+  ['rsd_5fset',['rsd_set',['../dd/dee/structlocal__orbital__descriptor.html#ad5ff5231467b4a6eec11fd155fd2b8a6',1,'local_orbital_descriptor']]],
   ['rss_5f',['rss_',['../d1/d76/classsirius_1_1_mixer.html#aac22bb1bd9611d5783d32b9802c893f4',1,'sirius::Mixer']]]
 ];

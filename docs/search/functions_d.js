@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['next_5fbyte_5fin_5frange',['next_byte_in_range',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#a2faa544ab5475523ead81f9cdef41a0a',1,'nlohmann::detail::lexer']]],
   ['normalize_5fres',['normalize_res',['../d5/def/namespacesirius.html#a33268b42f450586686c6a54528a129af',1,'sirius']]],
   ['num_5fatom_5flo_5fcols',['num_atom_lo_cols',['../d1/daf/classsirius_1_1_k__point.html#a3f723bedb1c2c41d126ec511dd386857',1,'sirius::K_point']]],
   ['num_5fatom_5flo_5frows',['num_atom_lo_rows',['../d1/daf/classsirius_1_1_k__point.html#a83e03282b20670c34845d52f46540e02',1,'sirius::K_point']]],

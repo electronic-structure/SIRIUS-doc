@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['uninitialized',['uninitialized',['../d7/dae/classnlohmann_1_1basic__json_1_1lexer.html#a96887d6cd131e3d3a85a9d71fbdbcdf7a42dd1a73d072bb6bf3f494f22b15db8e',1,'nlohmann::basic_json::lexer']]]
+  ['string',['string',['../dc/df0/namespacenlohmann_1_1detail.html#a90aa5ef615aa8305e9ea20d8a947980fab45cffe084dd3d20d928bee85e7b0f21',1,'nlohmann::detail']]]
 ];

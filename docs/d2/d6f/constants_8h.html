@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -96,7 +96,7 @@ Variables</h2></td></tr>
 const int&#160;</td><td class="memItemRight" valign="bottom"><b>major_version</b> = 4</td></tr>
 <tr class="separator:a8e1960462b116cb731544919a7b18dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad25778c67a03214b7b399831d7fec11a"><td class="memItemLeft" align="right" valign="top"><a id="ad25778c67a03214b7b399831d7fec11a"></a>
-const int&#160;</td><td class="memItemRight" valign="bottom"><b>minor_version</b> = 7</td></tr>
+const int&#160;</td><td class="memItemRight" valign="bottom"><b>minor_version</b> = 10</td></tr>
 <tr class="separator:ad25778c67a03214b7b399831d7fec11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc47dd8d6e4595779abb961b3ec011eb"><td class="memItemLeft" align="right" valign="top"><a id="afc47dd8d6e4595779abb961b3ec011eb"></a>
 const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/constants_8h.html#afc47dd8d6e4595779abb961b3ec011eb">speed_of_light</a> = 137.035999139</td></tr>
@@ -129,15 +129,37 @@ const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:a13b33957558a9a311d1d082fe6271379"><td class="memItemLeft" align="right" valign="top"><a id="a13b33957558a9a311d1d082fe6271379"></a>
 const char *const&#160;</td><td class="memItemRight" valign="bottom"><b>storage_file_name</b> = &quot;sirius.h5&quot;</td></tr>
 <tr class="separator:a13b33957558a9a311d1d082fe6271379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a822f67f2dac4737c82d9bd27a67700ba"><td class="memItemLeft" align="right" valign="top">const std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/constants_8h.html#a822f67f2dac4737c82d9bd27a67700ba">pauli_matrix</a> [4][2][2]</td></tr>
+<tr class="memdesc:a822f67f2dac4737c82d9bd27a67700ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pauli matrices in {I, Z, X, Y} order.  <a href="#a822f67f2dac4737c82d9bd27a67700ba">More...</a><br /></td></tr>
+<tr class="separator:a822f67f2dac4737c82d9bd27a67700ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Various constants. </p>
 
 <p class="definition">Definition in file <a class="el" href="../../d2/d6f/constants_8h_source.html">constants.h</a>.</p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Variable Documentation</h2>
+<a id="a822f67f2dac4737c82d9bd27a67700ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a822f67f2dac4737c82d9bd27a67700ba">&#9670;&nbsp;</a></span>pauli_matrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::complex&lt;double&gt; pauli_matrix[4][2][2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    {</div><div class="line">        {1.0, 0.0},</div><div class="line">        {0.0, 1.0}</div><div class="line">    },</div><div class="line">    {</div><div class="line">        {1.0, 0.0},</div><div class="line">        {0.0, -1.0}</div><div class="line">    },</div><div class="line">    {</div><div class="line">        {0.0, 1.0},</div><div class="line">        {1.0, 0.0}</div><div class="line">    },</div><div class="line">    {</div><div class="line">        {0.0, std::complex&lt;double&gt;(0, -1)},</div><div class="line">        {std::complex&lt;double&gt;(0, 1), 0.0}</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment -->
+<p>Pauli matrices in {I, Z, X, Y} order. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d6f/constants_8h_source.html#l00058">58</a> of file <a class="el" href="../../d2/d6f/constants_8h_source.html">constants.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:38 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:15 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

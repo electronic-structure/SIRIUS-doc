@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -78,12 +78,15 @@ $(function() {
 <div class="title">sirius::radial_functions_index Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A helper class to establish various index mappings for the atomic radial functions.  
+ <a href="../../d1/df3/classsirius_1_1radial__functions__index.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sirius::radial_functions_index:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dc7/classsirius_1_1radial__functions__index__coll__graph.svg" width="352" height="232"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dc7/classsirius_1_1radial__functions__index__coll__graph.svg" width="283" height="232"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -99,7 +102,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> (std::vector
 int&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
 <tr class="separator:a635ef845d3d177536a25fe82cf0c5f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ef5f273bedcdf5946d9b3f31b6305a1"><td class="memItemLeft" align="right" valign="top"><a id="a6ef5f273bedcdf5946d9b3f31b6305a1"></a>
-<a class="el" href="../../d0/d49/structradial__function__index__descriptor.html">radial_function_index_descriptor</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (int i) const</td></tr>
+radial_function_index_descriptor const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (int i) const</td></tr>
 <tr class="separator:a6ef5f273bedcdf5946d9b3f31b6305a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ea100dde5c54077549ff877011762ef"><td class="memItemLeft" align="right" valign="top"><a id="a5ea100dde5c54077549ff877011762ef"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>index_by_l_order</b> (int l, int order) const</td></tr>
@@ -128,8 +131,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax_lo</b> () const</
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a3ff7d197be914bb11cf9b9b4f6f69b6b"><td class="memItemLeft" align="right" valign="top"><a id="a3ff7d197be914bb11cf9b9b4f6f69b6b"></a>
-std::vector&lt; <a class="el" href="../../d0/d49/structradial__function__index__descriptor.html">radial_function_index_descriptor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>radial_function_index_descriptors_</b></td></tr>
+<tr class="memitem:a3ff7d197be914bb11cf9b9b4f6f69b6b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; radial_function_index_descriptor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df3/classsirius_1_1radial__functions__index.html#a3ff7d197be914bb11cf9b9b4f6f69b6b">radial_function_index_descriptors_</a></td></tr>
+<tr class="memdesc:a3ff7d197be914bb11cf9b9b4f6f69b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of radial function index descriptors.  <a href="#a3ff7d197be914bb11cf9b9b4f6f69b6b">More...</a><br /></td></tr>
 <tr class="separator:a3ff7d197be914bb11cf9b9b4f6f69b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa773367e5299769ff52878a5771f1559"><td class="memItemLeft" align="right" valign="top"><a id="aa773367e5299769ff52878a5771f1559"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; int, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>index_by_l_order_</b></td></tr>
@@ -139,11 +142,11 @@ std::vector&lt; <a class="el" href="../../d0/d49/structradial__function__index__
 <tr class="separator:a6fbd77a2600bdba026e86dd7933dc562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0859adef221bb10651fe2140690cc979"><td class="memItemLeft" align="right" valign="top"><a id="a0859adef221bb10651fe2140690cc979"></a>
 std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df3/classsirius_1_1radial__functions__index.html#a0859adef221bb10651fe2140690cc979">num_rf_</a></td></tr>
-<tr class="memdesc:a0859adef221bb10651fe2140690cc979"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of radial functions for each angular momentum quantum number <br /></td></tr>
+<tr class="memdesc:a0859adef221bb10651fe2140690cc979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of radial functions for each angular momentum quantum number. <br /></td></tr>
 <tr class="separator:a0859adef221bb10651fe2140690cc979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e8aeb4eb19625b352bd6b05a0a5e93d"><td class="memItemLeft" align="right" valign="top"><a id="a4e8aeb4eb19625b352bd6b05a0a5e93d"></a>
 std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df3/classsirius_1_1radial__functions__index.html#a4e8aeb4eb19625b352bd6b05a0a5e93d">num_lo_</a></td></tr>
-<tr class="memdesc:a4e8aeb4eb19625b352bd6b05a0a5e93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of local orbitals for each angular momentum quantum number <br /></td></tr>
+<tr class="memdesc:a4e8aeb4eb19625b352bd6b05a0a5e93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of local orbitals for each angular momentum quantum number. <br /></td></tr>
 <tr class="separator:a4e8aeb4eb19625b352bd6b05a0a5e93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0b64199225001b2398ae8962d0c7b13"><td class="memItemLeft" align="right" valign="top"><a id="ab0b64199225001b2398ae8962d0c7b13"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>max_num_rf_</b></td></tr>
@@ -159,15 +162,44 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax_</b></td></tr>
 <tr class="separator:aca55cd2906054e8cded701af678bd1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00040">40</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>A helper class to establish various index mappings for the atomic radial functions. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00041">41</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3ff7d197be914bb11cf9b9b4f6f69b6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ff7d197be914bb11cf9b9b4f6f69b6b">&#9670;&nbsp;</a></span>radial_function_index_descriptors_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;radial_function_index_descriptor&gt; sirius::radial_functions_index::radial_function_index_descriptors_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A list of radial function index descriptors. </p>
+<p>This list establishes a mapping \( f_{\mu}(r) \leftrightarrow f_{\ell \nu}(r) \) between a composite index \( \mu \) of radial functions and corresponding \( \ell \nu \) indices, where \( \ell \) is the orbital quantum number and \( \nu \) is the order of radial function for a given \( \ell \). </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00049">49</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

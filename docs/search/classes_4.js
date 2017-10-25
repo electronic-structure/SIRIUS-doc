@@ -1,8 +1,9 @@
 var searchData=
 [
   ['eigenproblem',['Eigenproblem',['../d3/d52/class_eigenproblem.html',1,'']]],
+  ['eigenproblem_5fbase',['Eigenproblem_base',['../d6/d0a/classexperimental_1_1_eigenproblem__base.html',1,'experimental']]],
   ['eigenproblem_5felpa',['Eigenproblem_elpa',['../d1/d6f/class_eigenproblem__elpa.html',1,'']]],
-  ['eigenproblem_5felpa1',['Eigenproblem_elpa1',['../d6/dc1/class_eigenproblem__elpa1.html',1,'']]],
+  ['eigenproblem_5felpa1',['Eigenproblem_elpa1',['../dd/d8d/classexperimental_1_1_eigenproblem__elpa1.html',1,'experimental::Eigenproblem_elpa1'],['../d6/dc1/class_eigenproblem__elpa1.html',1,'Eigenproblem_elpa1']]],
   ['eigenproblem_5felpa2',['Eigenproblem_elpa2',['../db/d08/class_eigenproblem__elpa2.html',1,'']]],
   ['eigenproblem_5flapack',['Eigenproblem_lapack',['../d3/d9c/class_eigenproblem__lapack.html',1,'']]],
   ['eigenproblem_5fmagma',['Eigenproblem_magma',['../d1/d15/class_eigenproblem__magma.html',1,'']]],

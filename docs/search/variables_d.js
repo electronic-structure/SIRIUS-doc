@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['o',['o',['../dd/df2/classnlohmann_1_1basic__json_1_1serializer.html#a11f18c03ad64b5ec6d29b7fb6992f5b4',1,'nlohmann::basic_json::serializer']]],
+  ['o',['o',['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html#acf3c88660d3cbc65fc71c4d84f2a9f59',1,'nlohmann::detail::serializer']]],
   ['o1_5fradial_5fintegrals_5f',['o1_radial_integrals_',['../d5/d15/classsirius_1_1_atom__symmetry__class.html#a5b103e070ac0676a0ce627a8ce654b75',1,'sirius::Atom_symmetry_class']]],
   ['o_5fradial_5fintegrals_5f',['o_radial_integrals_',['../d5/d15/classsirius_1_1_atom__symmetry__class.html#aee287b3e0ec23fb68ecb742490ca1fdb',1,'sirius::Atom_symmetry_class']]],
+  ['oa',['oa',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#a6f15b782a7900f50ef37d123008e601b',1,'nlohmann::detail::binary_writer']]],
   ['object',['object',['../d1/de3/unionnlohmann_1_1basic__json_1_1json__value.html#a4a2209bb26e7088cd36bf24824ab5521',1,'nlohmann::basic_json::json_value']]],
-  ['object_5fiterator',['object_iterator',['../d1/d46/structnlohmann_1_1basic__json_1_1internal__iterator.html#a737aaeccb3a9de3301b5e363c7cbd52f',1,'nlohmann::basic_json::internal_iterator']]],
+  ['object_5fiterator',['object_iterator',['../d7/d10/structnlohmann_1_1detail_1_1internal__iterator.html#a8cb0af3498061426c1d0a65ad6220408',1,'nlohmann::detail::internal_iterator']]],
   ['occupancy',['occupancy',['../d8/ddb/structatomic__level__descriptor.html#ac4be6454ae689054fdd700814f1c9030',1,'atomic_level_descriptor']]],
   ['occupation_5fmatrix_5f',['occupation_matrix_',['../d3/d50/classsirius_1_1_atom.html#a8c4ee868930d86572a234d1c10dd8afc',1,'sirius::Atom']]],
   ['occupations',['occupations',['../db/d3d/structpseudopotential__descriptor.html#aaed84abbeec2fd1b036b4eeadf05559c',1,'pseudopotential_descriptor']]],
@@ -15,7 +16,6 @@ var searchData=
   ['offsets_5f',['offsets_',['../d0/d58/classsddk_1_1mdarray__base.html#a7ad3a05f61945373d526ce2c33438b32',1,'sddk::mdarray_base']]],
   ['omega_5f',['omega_',['../d6/dd1/classsirius_1_1_unit__cell.html#ac587c752016025de36db5ac4312112b4',1,'sirius::Unit_cell']]],
   ['op_5f',['op_',['../da/d46/classsirius_1_1_non__local__operator.html#ac9e033a0db6c48d61946dc68bfe7285d',1,'sirius::Non_local_operator']]],
-  ['order',['order',['../d8/d59/structlo__basis__descriptor.html#a9f026acaa1e897a60c2c8d3956aae6ca',1,'lo_basis_descriptor']]],
   ['orthogonalize_5f',['orthogonalize_',['../d2/d11/structsirius_1_1_iterative__solver__input.html#a553c622840b75ef4cae3666acc450560',1,'sirius::Iterative_solver_input']]],
   ['output_5fbuffer_5f',['output_buffer_',['../d1/d76/classsirius_1_1_mixer.html#aaf8fd4ade6cd0b1a5b368be25c6335d3',1,'sirius::Mixer']]]
 ];

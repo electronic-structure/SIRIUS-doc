@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['radial_5ffunction_5findex_5fdescriptor',['radial_function_index_descriptor',['../d0/d49/structradial__function__index__descriptor.html',1,'']]],
   ['radial_5ffunctions_5findex',['radial_functions_index',['../d1/df3/classsirius_1_1radial__functions__index.html',1,'sirius']]],
   ['radial_5fgrid',['Radial_grid',['../d9/dbf/classsirius_1_1_radial__grid.html',1,'sirius']]],
   ['radial_5fgrid_3c_20double_20_3e',['Radial_grid&lt; double &gt;',['../d9/dbf/classsirius_1_1_radial__grid.html',1,'sirius']]],
@@ -22,8 +21,8 @@ var searchData=
   ['radial_5fintegrals_5frho_5fpseudo',['Radial_integrals_rho_pseudo',['../db/d50/classsirius_1_1_radial__integrals__rho__pseudo.html',1,'sirius']]],
   ['radial_5fintegrals_5ftheta',['Radial_integrals_theta',['../db/d6e/classsirius_1_1_radial__integrals__theta.html',1,'sirius']]],
   ['radial_5fintegrals_5fvloc',['Radial_integrals_vloc',['../d3/db4/classsirius_1_1_radial__integrals__vloc.html',1,'sirius']]],
-  ['radial_5fintegrals_5fvloc_5fdg',['Radial_integrals_vloc_dg',['../de/d85/classsirius_1_1_radial__integrals__vloc__dg.html',1,'sirius']]],
   ['radial_5fsolution_5fdescriptor',['radial_solution_descriptor',['../df/d32/structradial__solution__descriptor.html',1,'']]],
   ['radial_5fsolver',['Radial_solver',['../d0/d78/classsirius_1_1_radial__solver.html',1,'sirius']]],
-  ['real_5fspace_5fprj',['Real_space_prj',['../d7/d72/classsirius_1_1_real__space__prj.html',1,'sirius']]]
+  ['real_5fspace_5fprj',['Real_space_prj',['../d7/d72/classsirius_1_1_real__space__prj.html',1,'sirius']]],
+  ['remap_5fgvec_5fto_5fshells',['remap_gvec_to_shells',['../d7/dcc/structsddk_1_1remap__gvec__to__shells.html',1,'sddk']]]
 ];

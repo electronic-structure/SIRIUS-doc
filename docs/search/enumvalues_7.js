@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['key',['key',['../d9/dcc/classnlohmann_1_1basic__json.html#aea1c863b719b4ca5b77188c171bbfafea3c6e0b8a9c15224a8228b9a98ca1531d',1,'nlohmann::basic_json']]]
+  ['host',['host',['../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283a67b3dba8bc6778101892eb77249db32e',1,'sddk']]],
+  ['host_5fpinned',['host_pinned',['../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283a63af3f8641ac86db5400f95e55567997',1,'sddk']]]
 ];

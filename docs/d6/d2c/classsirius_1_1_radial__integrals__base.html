@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -96,9 +96,13 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a8e87c17172bef03883f295273d9abc8c">Radial_integrals_base</a> (<a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html">Unit_cell</a> const &amp;unit_cell__, double qmax__, int np__)</td></tr>
 <tr class="memdesc:a8e87c17172bef03883f295273d9abc8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:a8e87c17172bef03883f295273d9abc8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa10344495f36cfb828146bfa409707"><td class="memItemLeft" align="right" valign="top"><a id="a7aa10344495f36cfb828146bfa409707"></a>
-std::pair&lt; int, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>iqdq</b> (double q__) const</td></tr>
+<tr class="memitem:a7aa10344495f36cfb828146bfa409707"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a7aa10344495f36cfb828146bfa409707">iqdq</a> (double q__) const</td></tr>
+<tr class="memdesc:a7aa10344495f36cfb828146bfa409707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get starting index iq and delta dq for the q-point on the linear grid.  <a href="#a7aa10344495f36cfb828146bfa409707">More...</a><br /></td></tr>
 <tr class="separator:a7aa10344495f36cfb828146bfa409707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc29bc3647174b8f7e4fbddee2abadc"><td class="memTemplParams" colspan="2"><a id="a1cc29bc3647174b8f7e4fbddee2abadc"></a>
+template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a1cc29bc3647174b8f7e4fbddee2abadc"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>value</b> (Args... args, double q__) const</td></tr>
+<tr class="separator:a1cc29bc3647174b8f7e4fbddee2abadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -110,6 +114,10 @@ Protected Attributes</h2></td></tr>
 <a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#afdb5a82d6373e6668c533efb1adf9b09">grid_q_</a></td></tr>
 <tr class="memdesc:afdb5a82d6373e6668c533efb1adf9b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear grid of q-points on which the interpolation of radial integrals is done. <br /></td></tr>
 <tr class="separator:afdb5a82d6373e6668c533efb1adf9b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be2c3ec601538e8c633ef9944bdb383"><td class="memItemLeft" align="right" valign="top"><a id="a8be2c3ec601538e8c633ef9944bdb383"></a>
+<a class="el" href="../../d2/dc9/classsddk_1_1splindex.html">splindex</a>&lt; block &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a8be2c3ec601538e8c633ef9944bdb383">spl_q_</a></td></tr>
+<tr class="memdesc:a8be2c3ec601538e8c633ef9944bdb383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split index of q-points. <br /></td></tr>
+<tr class="separator:a8be2c3ec601538e8c633ef9944bdb383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bd9f42f12a9dda07bd006edbb5ef3e0"><td class="memItemLeft" align="right" valign="top"><a id="a9bd9f42f12a9dda07bd006edbb5ef3e0"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt;, N &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a9bd9f42f12a9dda07bd006edbb5ef3e0">values_</a></td></tr>
 <tr class="memdesc:a9bd9f42f12a9dda07bd006edbb5ef3e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with integrals. <br /></td></tr>
@@ -122,13 +130,47 @@ class sirius::Radial_integrals_base&lt; N &gt;</h3>
 <p>Base class for all kinds of radial integrals. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d58/radial__integrals_8h_source.html#l00035">35</a> of file <a class="el" href="../../de/d58/radial__integrals_8h_source.html">radial_integrals.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7aa10344495f36cfb828146bfa409707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa10344495f36cfb828146bfa409707">&#9670;&nbsp;</a></span>iqdq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt;int, double&gt; <a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html">sirius::Radial_integrals_base</a>&lt; N &gt;::iqdq </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>q__</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get starting index iq and delta dq for the q-point on the linear grid. </p>
+<p>The following condition is satisfied: q = grid_q[iq] + dq </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d58/radial__integrals_8h_source.html#l00062">62</a> of file <a class="el" href="../../de/d58/radial__integrals_8h_source.html">radial_integrals.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="../../de/d58/radial__integrals_8h_source.html">radial_integrals.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

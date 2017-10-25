@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -73,12 +73,15 @@ $(function() {
 <div class="title">nearest_neighbour_descriptor Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Descriptor of an atom in a list of nearest neigbours for each atom.  
+ <a href="../../d9/dd6/structnearest__neighbour__descriptor.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for nearest_neighbour_descriptor:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/dc3/structnearest__neighbour__descriptor__coll__graph.svg" width="210" height="218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/dc3/structnearest__neighbour__descriptor__coll__graph.svg" width="166" height="218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -86,27 +89,29 @@ $(function() {
 Public Attributes</h2></td></tr>
 <tr class="memitem:a297e5e0ad16ad6dd1393b4ca4967a1b4"><td class="memItemLeft" align="right" valign="top"><a id="a297e5e0ad16ad6dd1393b4ca4967a1b4"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/structnearest__neighbour__descriptor.html#a297e5e0ad16ad6dd1393b4ca4967a1b4">atom_id</a></td></tr>
-<tr class="memdesc:a297e5e0ad16ad6dd1393b4ca4967a1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">id of neighbour atom <br /></td></tr>
+<tr class="memdesc:a297e5e0ad16ad6dd1393b4ca4967a1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the neighbouring atom. <br /></td></tr>
 <tr class="separator:a297e5e0ad16ad6dd1393b4ca4967a1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac72858701e17806cc6c1c61a5c669cf0"><td class="memItemLeft" align="right" valign="top"><a id="ac72858701e17806cc6c1c61a5c669cf0"></a>
 <a class="el" href="../../d2/d6b/classgeometry3d_1_1vector3d.html">geometry3d::vector3d</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/structnearest__neighbour__descriptor.html#ac72858701e17806cc6c1c61a5c669cf0">translation</a></td></tr>
-<tr class="memdesc:ac72858701e17806cc6c1c61a5c669cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">translation along each lattice vector <br /></td></tr>
+<tr class="memdesc:ac72858701e17806cc6c1c61a5c669cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translation in fractional coordinates. <br /></td></tr>
 <tr class="separator:ac72858701e17806cc6c1c61a5c669cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43fa51aa108a05b87b18c08e5a1101cf"><td class="memItemLeft" align="right" valign="top"><a id="a43fa51aa108a05b87b18c08e5a1101cf"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd6/structnearest__neighbour__descriptor.html#a43fa51aa108a05b87b18c08e5a1101cf">distance</a></td></tr>
-<tr class="memdesc:a43fa51aa108a05b87b18c08e5a1101cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance from the central atom <br /></td></tr>
+<tr class="memdesc:a43fa51aa108a05b87b18c08e5a1101cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance from the central atom. <br /></td></tr>
 <tr class="separator:a43fa51aa108a05b87b18c08e5a1101cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d2/dd4/descriptors_8h_source.html#l00144">144</a> of file <a class="el" href="../../d2/dd4/descriptors_8h_source.html">descriptors.h</a>.</p>
+<div class="textblock"><p>Descriptor of an atom in a list of nearest neigbours for each atom. </p>
+<p>See <a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html#ad6a3cbb8556869f65df124ee7907e5ef" title="Find the cluster of nearest neighbours around each atom. ">sirius::Unit_cell::find_nearest_neighbours()</a> for the details of usage. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dd4/descriptors_8h_source.html#l00160">160</a> of file <a class="el" href="../../d2/dd4/descriptors_8h_source.html">descriptors.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="../../d2/dd4/descriptors_8h_source.html">descriptors.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:38 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:16 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

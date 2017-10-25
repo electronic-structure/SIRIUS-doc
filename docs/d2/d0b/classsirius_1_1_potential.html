@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -118,16 +118,17 @@ template&lt;bool free_atom, typename T &gt; </td></tr>
 <tr class="memitem:aa634d5aa4ae136bad08b704f5c1a5cc6"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#aa634d5aa4ae136bad08b704f5c1a5cc6">poisson_vmt</a> (<a class="el" href="../../d3/d50/classsirius_1_1_atom.html">Atom</a> const &amp;atom__, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; function_domain_t::spectral, T &gt; const &amp;rho_mt__, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; function_domain_t::spectral, T &gt; &amp;vha_mt__) const</td></tr>
 <tr class="memdesc:aa634d5aa4ae136bad08b704f5c1a5cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve Poisson equation for a single atom. <br /></td></tr>
 <tr class="separator:aa634d5aa4ae136bad08b704f5c1a5cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada6c62c577c4e91e06490423345e833a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#ada6c62c577c4e91e06490423345e833a">poisson</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *rho, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *vh)</td></tr>
-<tr class="memdesc:ada6c62c577c4e91e06490423345e833a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poisson solver.  <a href="#ada6c62c577c4e91e06490423345e833a">More...</a><br /></td></tr>
-<tr class="separator:ada6c62c577c4e91e06490423345e833a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c140fdb2a2672e4a20dfb8c8b46ac29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a4c140fdb2a2672e4a20dfb8c8b46ac29">xc</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *rho__, std::array&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *, 3 &gt; magnetization__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *vxc__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *bxc__[3], <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *exc__)</td></tr>
-<tr class="memdesc:a4c140fdb2a2672e4a20dfb8c8b46ac29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate XC potential and energy density.  <a href="#a4c140fdb2a2672e4a20dfb8c8b46ac29">More...</a><br /></td></tr>
-<tr class="separator:a4c140fdb2a2672e4a20dfb8c8b46ac29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abddbb842b28ba0f62653393aca53b4e7"><td class="memItemLeft" align="right" valign="top"><a id="abddbb842b28ba0f62653393aca53b4e7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#abddbb842b28ba0f62653393aca53b4e7">generate</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> &amp;density__)</td></tr>
-<tr class="memdesc:abddbb842b28ba0f62653393aca53b4e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate effective potential and magnetic field from charge density and magnetization. <br /></td></tr>
-<tr class="separator:abddbb842b28ba0f62653393aca53b4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e30e263faee37bffa8da7c001e88a9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a5e30e263faee37bffa8da7c001e88a9d">poisson</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const &amp;rho)</td></tr>
+<tr class="memdesc:a5e30e263faee37bffa8da7c001e88a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poisson solver.  <a href="#a5e30e263faee37bffa8da7c001e88a9d">More...</a><br /></td></tr>
+<tr class="separator:a5e30e263faee37bffa8da7c001e88a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac950378cf59826c19aac7f33c2ecd8ae"><td class="memTemplParams" colspan="2">template&lt;bool add_pseudo_core__ = false&gt; </td></tr>
+<tr class="memitem:ac950378cf59826c19aac7f33c2ecd8ae"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#ac950378cf59826c19aac7f33c2ecd8ae">xc</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;rho__)</td></tr>
+<tr class="memdesc:ac950378cf59826c19aac7f33c2ecd8ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate XC potential and energy density.  <a href="#ac950378cf59826c19aac7f33c2ecd8ae">More...</a><br /></td></tr>
+<tr class="separator:ac950378cf59826c19aac7f33c2ecd8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dea1a31c220e7c4ad47453ed0f2fe1a"><td class="memItemLeft" align="right" valign="top"><a id="a7dea1a31c220e7c4ad47453ed0f2fe1a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a7dea1a31c220e7c4ad47453ed0f2fe1a">generate</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
+<tr class="memdesc:a7dea1a31c220e7c4ad47453ed0f2fe1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate effective potential and magnetic field from charge density and magnetization. <br /></td></tr>
+<tr class="separator:a7dea1a31c220e7c4ad47453ed0f2fe1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a476007fa356fb79d01cf829a69b26430"><td class="memItemLeft" align="right" valign="top"><a id="a476007fa356fb79d01cf829a69b26430"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>save</b> ()</td></tr>
 <tr class="separator:a476007fa356fb79d01cf829a69b26430"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,9 +149,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:ac53f9c549fb2e2a5e02992a823e792e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#ac53f9c549fb2e2a5e02992a823e792e7">generate_D_operator_matrix</a> ()</td></tr>
 <tr class="memdesc:ac53f9c549fb2e2a5e02992a823e792e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate D operator from potential and augmentation charge.  <a href="#ac53f9c549fb2e2a5e02992a823e792e7">More...</a><br /></td></tr>
 <tr class="separator:ac53f9c549fb2e2a5e02992a823e792e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bdec7be7e6c4e71866dda172c4545b5"><td class="memItemLeft" align="right" valign="top"><a id="a7bdec7be7e6c4e71866dda172c4545b5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_PAW_effective_potential</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#a27c9852fd9c283b3432aaea8d778ab45">density</a>)</td></tr>
-<tr class="separator:a7bdec7be7e6c4e71866dda172c4545b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a410fb8a7217f5881fc9dbb13bb2da684"><td class="memItemLeft" align="right" valign="top"><a id="a410fb8a7217f5881fc9dbb13bb2da684"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_PAW_effective_potential</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#ae24a39326434eec4b66ce063d87560f9">density</a>)</td></tr>
+<tr class="separator:a410fb8a7217f5881fc9dbb13bb2da684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab98d9241bb17aa204bd2e86ccd0d7dec"><td class="memItemLeft" align="right" valign="top"><a id="ab98d9241bb17aa204bd2e86ccd0d7dec"></a>
 std::vector&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_hartree_energies</b> () const</td></tr>
 <tr class="separator:ab98d9241bb17aa204bd2e86ccd0d7dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,21 +185,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>check_potential_conti
 <tr class="memitem:a443f5d205079f20dce528b54578366e0"><td class="memItemLeft" align="right" valign="top"><a id="a443f5d205079f20dce528b54578366e0"></a>
 <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>effective_potential</b> ()</td></tr>
 <tr class="separator:a443f5d205079f20dce528b54578366e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a168c22ea67abc3e469df4edbcd014329"><td class="memItemLeft" align="right" valign="top"><a id="a168c22ea67abc3e469df4edbcd014329"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>local_potential</b> ()</td></tr>
-<tr class="separator:a168c22ea67abc3e469df4edbcd014329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ff5ed8a4645fd13da241c6dbeda88c1"><td class="memItemLeft" align="right" valign="top"><a id="a8ff5ed8a4645fd13da241c6dbeda88c1"></a>
+<a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>local_potential</b> ()</td></tr>
+<tr class="separator:a8ff5ed8a4645fd13da241c6dbeda88c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b145ccc293668342b94b2735fad8b1f"><td class="memItemLeft" align="right" valign="top"><a id="a1b145ccc293668342b94b2735fad8b1f"></a>
+<a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>dveff</b> ()</td></tr>
+<tr class="separator:a1b145ccc293668342b94b2735fad8b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac58951cb2712189bbcdca89987486bf7"><td class="memItemLeft" align="right" valign="top"><a id="ac58951cb2712189bbcdca89987486bf7"></a>
 <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>effective_potential_mt</b> (int ialoc) const</td></tr>
 <tr class="separator:ac58951cb2712189bbcdca89987486bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af844022ac55fcc4d585a18eba63f2392"><td class="memItemLeft" align="right" valign="top"><a id="af844022ac55fcc4d585a18eba63f2392"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; **&#160;</td><td class="memItemRight" valign="bottom"><b>effective_magnetic_field</b> ()</td></tr>
-<tr class="separator:af844022ac55fcc4d585a18eba63f2392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45f621d622fd4504da2034cc1095ee21"><td class="memItemLeft" align="right" valign="top"><a id="a45f621d622fd4504da2034cc1095ee21"></a>
 <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>effective_magnetic_field</b> (int i)</td></tr>
 <tr class="separator:a45f621d622fd4504da2034cc1095ee21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a2076417d10b35cf5c60d58c3c34c7"><td class="memItemLeft" align="right" valign="top"><a id="ab1a2076417d10b35cf5c60d58c3c34c7"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>hartree_potential</b> ()</td></tr>
-<tr class="separator:ab1a2076417d10b35cf5c60d58c3c34c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ea5be8a6be9e62f13f1fa73ada63d5"><td class="memItemLeft" align="right" valign="top"><a id="a44ea5be8a6be9e62f13f1fa73ada63d5"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>hartree_potential</b> ()</td></tr>
+<tr class="separator:a44ea5be8a6be9e62f13f1fa73ada63d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81dc1987b69c542dad70da11a8e23e58"><td class="memItemLeft" align="right" valign="top"><a id="a81dc1987b69c542dad70da11a8e23e58"></a>
 <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>hartree_potential_mt</b> (int ialoc) const</td></tr>
 <tr class="separator:a81dc1987b69c542dad70da11a8e23e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,43 +251,72 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_rm2_inv_pw</b> (d
 <tr class="memitem:af3d19f763090fa0ee612e35d3e1dabe2"><td class="memItemLeft" align="right" valign="top"><a id="af3d19f763090fa0ee612e35d3e1dabe2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>fft_transform</b> (int direction__)</td></tr>
 <tr class="separator:af3d19f763090fa0ee612e35d3e1dabe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9e7014f6436813814db068038b1d7c"><td class="memItemLeft" align="right" valign="top"><a id="a8b9e7014f6436813814db068038b1d7c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a8b9e7014f6436813814db068038b1d7c">energy_vxc</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> &amp;density__)</td></tr>
+<tr class="memdesc:a8b9e7014f6436813814db068038b1d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integral of \( \rho({\bf r}) V^{XC}({\bf r}) \). <br /></td></tr>
+<tr class="separator:a8b9e7014f6436813814db068038b1d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3f52f9f80a5dd0fdd0b62e73bb38ca"><td class="memItemLeft" align="right" valign="top"><a id="a3a3f52f9f80a5dd0fdd0b62e73bb38ca"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a3a3f52f9f80a5dd0fdd0b62e73bb38ca">energy_exc</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> &amp;density__)</td></tr>
+<tr class="memdesc:a3a3f52f9f80a5dd0fdd0b62e73bb38ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integral of \( \rho({\bf r}) \epsilon^{XC}({\bf r}) \). <br /></td></tr>
+<tr class="separator:a3a3f52f9f80a5dd0fdd0b62e73bb38ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03cfd00150486abf344373823705a19e"><td class="memItemLeft" align="right" valign="top"><a id="a03cfd00150486abf344373823705a19e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_gradient_correction</b> () const</td></tr>
+<tr class="separator:a03cfd00150486abf344373823705a19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265acbf2c6781023674f5cb79110f557"><td class="memItemLeft" align="right" valign="top"><a id="a265acbf2c6781023674f5cb79110f557"></a>
+<a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>vsigma</b> (int ispn__)</td></tr>
+<tr class="separator:a265acbf2c6781023674f5cb79110f557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a639de6162c6512444ced65e9e1b8f73b"><td class="memItemLeft" align="right" valign="top"><a id="a639de6162c6512444ced65e9e1b8f73b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>vha_el</b> (int ia__) const</td></tr>
+<tr class="separator:a639de6162c6512444ced65e9e1b8f73b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acfc738e2364ac04a030363ecf9b61d"><td class="memTemplParams" colspan="2"><a id="a0acfc738e2364ac04a030363ecf9b61d"></a>
+template&lt;bool add_pseudo_core__&gt; </td></tr>
+<tr class="memitem:a0acfc738e2364ac04a030363ecf9b61d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>xc_rg_nonmagnetic</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
+<tr class="separator:a0acfc738e2364ac04a030363ecf9b61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3318501c18911acb189872742a0db896"><td class="memTemplParams" colspan="2"><a id="a3318501c18911acb189872742a0db896"></a>
+template&lt;bool add_pseudo_core__&gt; </td></tr>
+<tr class="memitem:a3318501c18911acb189872742a0db896"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>xc_rg_magnetic</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
+<tr class="separator:a3318501c18911acb189872742a0db896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c33ee8f9a2316da509e9f2d6e6df04"><td class="memTemplParams" colspan="2"><a id="a28c33ee8f9a2316da509e9f2d6e6df04"></a>
+template&lt;bool add_pseudo_core__&gt; </td></tr>
+<tr class="memitem:a28c33ee8f9a2316da509e9f2d6e6df04"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>xc</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
+<tr class="separator:a28c33ee8f9a2316da509e9f2d6e6df04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a3c711c33b95fff9172c892d7dcc680fc"><td class="memItemLeft" align="right" valign="top"><a id="a3c711c33b95fff9172c892d7dcc680fc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>init_PAW</b> ()</td></tr>
 <tr class="separator:a3c711c33b95fff9172c892d7dcc680fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5957494d3ddd6a005fc5dfdf521f581b"><td class="memItemLeft" align="right" valign="top"><a id="a5957494d3ddd6a005fc5dfdf521f581b"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_nonmagnetic</b> (<a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt; const &amp;rgrid, mdarray&lt; double, 3 &gt; &amp;out_atom_pot, mdarray&lt; double, 2 &gt; const &amp;full_rho_lm, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
-<tr class="separator:a5957494d3ddd6a005fc5dfdf521f581b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8108e633f9c7c155ee5c622d6d5cedf"><td class="memItemLeft" align="right" valign="top"><a id="ac8108e633f9c7c155ee5c622d6d5cedf"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_collinear</b> (<a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt; const &amp;rgrid, mdarray&lt; double, 3 &gt; &amp;out_atom_pot, mdarray&lt; double, 2 &gt; const &amp;full_rho_lm, mdarray&lt; double, 3 &gt; const &amp;magnetization_lm, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
-<tr class="separator:ac8108e633f9c7c155ee5c622d6d5cedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3620732074493dcebffd964f0584a355"><td class="memItemLeft" align="right" valign="top"><a id="a3620732074493dcebffd964f0584a355"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_noncollinear</b> ()</td></tr>
-<tr class="separator:a3620732074493dcebffd964f0584a355"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab874e1a6d0498f8919647ddddb844596"><td class="memItemLeft" align="right" valign="top"><a id="ab874e1a6d0498f8919647ddddb844596"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_local_potential</b> (<a class="el" href="../../d1/def/structsirius_1_1_potential_1_1paw__potential__data__t.html">paw_potential_data_t</a> &amp;pdd, mdarray&lt; double, 2 &gt; const &amp;ae_full_density, mdarray&lt; double, 2 &gt; const &amp;ps_full_density, mdarray&lt; double, 3 &gt; const &amp;ae_local_magnetization, mdarray&lt; double, 3 &gt; const &amp;ps_local_magnetization)</td></tr>
-<tr class="separator:ab874e1a6d0498f8919647ddddb844596"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae73d329c542ec894dd371ad3d4130aaf"><td class="memItemLeft" align="right" valign="top"><a id="ae73d329c542ec894dd371ad3d4130aaf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_local_Dij</b> (<a class="el" href="../../d1/def/structsirius_1_1_potential_1_1paw__potential__data__t.html">paw_potential_data_t</a> &amp;pdd, mdarray&lt; double_complex, 4 &gt; &amp;paw_dij)</td></tr>
-<tr class="separator:ae73d329c542ec894dd371ad3d4130aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8002b8158192bfc893ed642676f3974"><td class="memItemLeft" align="right" valign="top"><a id="aa8002b8158192bfc893ed642676f3974"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_hartree_potential</b> (<a class="el" href="../../d3/d50/classsirius_1_1_atom.html">Atom</a> &amp;atom, const <a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt; &amp;grid, mdarray&lt; double, 2 &gt; const &amp;full_density, mdarray&lt; double, 3 &gt; &amp;out_atom_pot)</td></tr>
-<tr class="separator:aa8002b8158192bfc893ed642676f3974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04c326ca240c84f7728375646da16e94"><td class="memItemLeft" align="right" valign="top"><a id="a04c326ca240c84f7728375646da16e94"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_one_elec_energy</b> (<a class="el" href="../../d1/def/structsirius_1_1_potential_1_1paw__potential__data__t.html">paw_potential_data_t</a> &amp;pdd, const mdarray&lt; double_complex, 4 &gt; &amp;density_matrix, const mdarray&lt; double_complex, 4 &gt; &amp;paw_dij)</td></tr>
-<tr class="separator:a04c326ca240c84f7728375646da16e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae568de4d63f7cafef75f127dd69c8628"><td class="memItemLeft" align="right" valign="top"><a id="ae568de4d63f7cafef75f127dd69c8628"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_nonmagnetic</b> (<a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; &amp;full_potential, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const &amp;full_density, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
+<tr class="separator:ae568de4d63f7cafef75f127dd69c8628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744dff7fd89f9925c43dee586206e7cd"><td class="memItemLeft" align="right" valign="top"><a id="a744dff7fd89f9925c43dee586206e7cd"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_collinear</b> (std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#a65d08a5ad51414bcc2f4a0660014442f">potential</a>, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#ae24a39326434eec4b66ce063d87560f9">density</a>, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
+<tr class="separator:a744dff7fd89f9925c43dee586206e7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae389ab11110d24fb9b732a8191fad298"><td class="memItemLeft" align="right" valign="top"><a id="ae389ab11110d24fb9b732a8191fad298"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_noncollinear</b> (std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#a65d08a5ad51414bcc2f4a0660014442f">potential</a>, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#ae24a39326434eec4b66ce063d87560f9">density</a>, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
+<tr class="separator:ae389ab11110d24fb9b732a8191fad298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9242c10f74f1eb1267c50261d68cada"><td class="memItemLeft" align="right" valign="top"><a id="ae9242c10f74f1eb1267c50261d68cada"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_local_potential</b> (<a class="el" href="../../d1/def/structsirius_1_1_potential_1_1paw__potential__data__t.html">paw_potential_data_t</a> &amp;pdd, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;ae_density, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;ps_density)</td></tr>
+<tr class="separator:ae9242c10f74f1eb1267c50261d68cada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64db1a46f1e1df544e799a1add3cbcb9"><td class="memItemLeft" align="right" valign="top"><a id="a64db1a46f1e1df544e799a1add3cbcb9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_local_Dij</b> (<a class="el" href="../../d1/def/structsirius_1_1_potential_1_1paw__potential__data__t.html">paw_potential_data_t</a> &amp;pdd, mdarray&lt; double, 4 &gt; &amp;paw_dij)</td></tr>
+<tr class="separator:a64db1a46f1e1df544e799a1add3cbcb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3256ac5af38c7876bf9eaeb7d4b58919"><td class="memItemLeft" align="right" valign="top"><a id="a3256ac5af38c7876bf9eaeb7d4b58919"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_hartree_potential</b> (<a class="el" href="../../d3/d50/classsirius_1_1_atom.html">Atom</a> &amp;atom, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const &amp;full_density, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; &amp;full_potential)</td></tr>
+<tr class="separator:a3256ac5af38c7876bf9eaeb7d4b58919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23521be809d6ca206ead7502f27b82dd"><td class="memItemLeft" align="right" valign="top"><a id="a23521be809d6ca206ead7502f27b82dd"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_one_elec_energy</b> (<a class="el" href="../../d1/def/structsirius_1_1_potential_1_1paw__potential__data__t.html">paw_potential_data_t</a> &amp;pdd, const mdarray&lt; double_complex, 4 &gt; &amp;density_matrix, const mdarray&lt; double, 4 &gt; &amp;paw_dij)</td></tr>
+<tr class="separator:a23521be809d6ca206ead7502f27b82dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3bc1de5a8c117611d0dc0e7dba408a9"><td class="memItemLeft" align="right" valign="top"><a id="af3bc1de5a8c117611d0dc0e7dba408a9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>add_paw_Dij_to_atom_Dmtrx</b> ()</td></tr>
 <tr class="separator:af3bc1de5a8c117611d0dc0e7dba408a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8a0fb353b7544f6f114417a8627586"><td class="memItemLeft" align="right" valign="top"><a id="a1c8a0fb353b7544f6f114417a8627586"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a1c8a0fb353b7544f6f114417a8627586">poisson_vmt</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *rho__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *vh__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt; &amp;qmt__)</td></tr>
-<tr class="memdesc:a1c8a0fb353b7544f6f114417a8627586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute MT part of the potential and MT multipole moments. <br /></td></tr>
-<tr class="separator:a1c8a0fb353b7544f6f114417a8627586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50dd31a86f55c9fee5b7264397bcb586"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a50dd31a86f55c9fee5b7264397bcb586">poisson_sum_G</a> (int lmmax__, double_complex *fpw__, mdarray&lt; double, 3 &gt; &amp;fl__, mdarray&lt; double_complex, 2 &gt; &amp;flm__)</td></tr>
-<tr class="memdesc:a50dd31a86f55c9fee5b7264397bcb586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a G-vector summation of plane-wave coefficiens multiplied by radial integrals.  <a href="#a50dd31a86f55c9fee5b7264397bcb586">More...</a><br /></td></tr>
-<tr class="separator:a50dd31a86f55c9fee5b7264397bcb586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250e453096ce667899410b3bdb323484"><td class="memItemLeft" align="right" valign="top"><a id="a250e453096ce667899410b3bdb323484"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a250e453096ce667899410b3bdb323484">poisson_vmt</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const &amp;rho__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt; &amp;qmt__)</td></tr>
+<tr class="memdesc:a250e453096ce667899410b3bdb323484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute MT part of the potential and MT multipole moments. <br /></td></tr>
+<tr class="separator:a250e453096ce667899410b3bdb323484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9eed5dfd743f6172a1f94a75640c47d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#af9eed5dfd743f6172a1f94a75640c47d">poisson_sum_G</a> (int lmmax__, double_complex const *fpw__, mdarray&lt; double, 3 &gt; &amp;fl__, mdarray&lt; double_complex, 2 &gt; &amp;flm__)</td></tr>
+<tr class="memdesc:af9eed5dfd743f6172a1f94a75640c47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a G-vector summation of plane-wave coefficiens multiplied by radial integrals.  <a href="#af9eed5dfd743f6172a1f94a75640c47d">More...</a><br /></td></tr>
+<tr class="separator:af9eed5dfd743f6172a1f94a75640c47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1e5381fc52a6d366849c48daf4fdc32"><td class="memItemLeft" align="right" valign="top"><a id="ac1e5381fc52a6d366849c48daf4fdc32"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#ac1e5381fc52a6d366849c48daf4fdc32">poisson_add_pseudo_pw</a> (mdarray&lt; double_complex, 2 &gt; &amp;qmt, mdarray&lt; double_complex, 2 &gt; &amp;qit, double_complex *rho_pw)</td></tr>
 <tr class="memdesc:ac1e5381fc52a6d366849c48daf4fdc32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add contribution from the pseudocharge to the plane-wave expansion. <br /></td></tr>
@@ -295,20 +325,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memdesc:ab4383d38a605d0b6367da339035e0130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate local part of pseudo potential.  <a href="#ab4383d38a605d0b6367da339035e0130">More...</a><br /></td></tr>
 <tr class="separator:ab4383d38a605d0b6367da339035e0130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5322d4155146d372a2009ab7eda1d880"><td class="memItemLeft" align="right" valign="top"><a id="a5322d4155146d372a2009ab7eda1d880"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_nonmagnetic</b> (<a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt; const &amp;rgrid, std::vector&lt; <a class="el" href="../../d8/de5/classsirius_1_1_x_c__functional.html">XC_functional</a> &gt; &amp;xc_func, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const &amp;rho_lm, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;rho_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;vxc_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;exc_tp)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a5322d4155146d372a2009ab7eda1d880">xc_mt_nonmagnetic</a> (<a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt; const &amp;rgrid, std::vector&lt; <a class="el" href="../../d8/de5/classsirius_1_1_x_c__functional.html">XC_functional</a> &gt; &amp;xc_func, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const &amp;rho_lm, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;rho_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;vxc_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;exc_tp)</td></tr>
+<tr class="memdesc:a5322d4155146d372a2009ab7eda1d880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate non-spin polarized XC potential in the muffin-tins. <br /></td></tr>
 <tr class="separator:a5322d4155146d372a2009ab7eda1d880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac46df47d599f185795aacba22322fdcc"><td class="memItemLeft" align="right" valign="top"><a id="ac46df47d599f185795aacba22322fdcc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_magnetic</b> (<a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt; const &amp;rgrid, std::vector&lt; <a class="el" href="../../d8/de5/classsirius_1_1_x_c__functional.html">XC_functional</a> &gt; &amp;xc_func, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; &amp;rho_up_lm, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;rho_up_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; &amp;rho_dn_lm, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;rho_dn_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;vxc_up_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;vxc_dn_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;exc_tp)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#ac46df47d599f185795aacba22322fdcc">xc_mt_magnetic</a> (<a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt; const &amp;rgrid, std::vector&lt; <a class="el" href="../../d8/de5/classsirius_1_1_x_c__functional.html">XC_functional</a> &gt; &amp;xc_func, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; &amp;rho_up_lm, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;rho_up_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; &amp;rho_dn_lm, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;rho_dn_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;vxc_up_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;vxc_dn_tp, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spatial, double &gt; &amp;exc_tp)</td></tr>
+<tr class="memdesc:ac46df47d599f185795aacba22322fdcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate spin-polarized XC potential in the muffin-tins. <br /></td></tr>
 <tr class="separator:ac46df47d599f185795aacba22322fdcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a6fb792fab2c6754e15a28f12315315"><td class="memItemLeft" align="right" valign="top"><a id="a6a6fb792fab2c6754e15a28f12315315"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt</b> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *rho, std::array&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *, 3 &gt; magnetization, std::vector&lt; <a class="el" href="../../d8/de5/classsirius_1_1_x_c__functional.html">XC_functional</a> &gt; &amp;xc_func, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *vxc, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *bxc[3], <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *exc)</td></tr>
-<tr class="separator:a6a6fb792fab2c6754e15a28f12315315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a599c0a7539faf2afab6df28fe71d3e13"><td class="memItemLeft" align="right" valign="top"><a id="a599c0a7539faf2afab6df28fe71d3e13"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>xc_it_nonmagnetic</b> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *rho, std::vector&lt; <a class="el" href="../../d8/de5/classsirius_1_1_x_c__functional.html">XC_functional</a> &gt; &amp;xc_func, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *vxc, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *exc)</td></tr>
-<tr class="separator:a599c0a7539faf2afab6df28fe71d3e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f638f6b6d38908d2352c5dfda283a93"><td class="memItemLeft" align="right" valign="top"><a id="a7f638f6b6d38908d2352c5dfda283a93"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>xc_it_magnetic</b> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *rho, std::array&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *, 3 &gt; magnetization, std::vector&lt; <a class="el" href="../../d8/de5/classsirius_1_1_x_c__functional.html">XC_functional</a> &gt; &amp;xc_func, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *vxc, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *bxc[3], <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *exc)</td></tr>
-<tr class="separator:a7f638f6b6d38908d2352c5dfda283a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b566572b8f15cd252e2d86ca0be185e"><td class="memItemLeft" align="right" valign="top"><a id="a8b566572b8f15cd252e2d86ca0be185e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a8b566572b8f15cd252e2d86ca0be185e">xc_mt</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
+<tr class="memdesc:a8b566572b8f15cd252e2d86ca0be185e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate XC potential in the muffin-tins. <br /></td></tr>
+<tr class="separator:a8b566572b8f15cd252e2d86ca0be185e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acfc738e2364ac04a030363ecf9b61d"><td class="memTemplParams" colspan="2"><a id="a0acfc738e2364ac04a030363ecf9b61d"></a>
+template&lt;bool add_pseudo_core__&gt; </td></tr>
+<tr class="memitem:a0acfc738e2364ac04a030363ecf9b61d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a0acfc738e2364ac04a030363ecf9b61d">xc_rg_nonmagnetic</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
+<tr class="memdesc:a0acfc738e2364ac04a030363ecf9b61d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate non-magnetic XC potential on the regular real-space grid. <br /></td></tr>
+<tr class="separator:a0acfc738e2364ac04a030363ecf9b61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3318501c18911acb189872742a0db896"><td class="memTemplParams" colspan="2"><a id="a3318501c18911acb189872742a0db896"></a>
+template&lt;bool add_pseudo_core__&gt; </td></tr>
+<tr class="memitem:a3318501c18911acb189872742a0db896"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a3318501c18911acb189872742a0db896">xc_rg_magnetic</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
+<tr class="memdesc:a3318501c18911acb189872742a0db896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate magnetic XC potential on the regular real-space grid. <br /></td></tr>
+<tr class="separator:a3318501c18911acb189872742a0db896"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b987c41157fb2d5da2d435548aad410"><td class="memItemLeft" align="right" valign="top"><a id="a8b987c41157fb2d5da2d435548aad410"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> ()</td></tr>
 <tr class="separator:a8b987c41157fb2d5da2d435548aad410"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,24 +362,35 @@ Private Attributes</h2></td></tr>
 <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>comm_</b></td></tr>
 <tr class="separator:a1aa716bb6ae5c3b5ca6ae44b262fac94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a425f6b348a9f68d5c1d0111db8cba503"><td class="memItemLeft" align="right" valign="top"><a id="a425f6b348a9f68d5c1d0111db8cba503"></a>
-std::unique_ptr&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>effective_potential_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a425f6b348a9f68d5c1d0111db8cba503">effective_potential_</a></td></tr>
+<tr class="memdesc:a425f6b348a9f68d5c1d0111db8cba503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total effective potential. <br /></td></tr>
 <tr class="separator:a425f6b348a9f68d5c1d0111db8cba503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e7f3670059c6058606df29b3de45bd6"><td class="memItemLeft" align="right" valign="top"><a id="a1e7f3670059c6058606df29b3de45bd6"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>effective_magnetic_field_</b> [3]</td></tr>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a1e7f3670059c6058606df29b3de45bd6">effective_magnetic_field_</a> [3]</td></tr>
+<tr class="memdesc:a1e7f3670059c6058606df29b3de45bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total effective magnetic field. <br /></td></tr>
 <tr class="separator:a1e7f3670059c6058606df29b3de45bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a284e8ab6cc17f161da074086e1f081e1"><td class="memItemLeft" align="right" valign="top"><a id="a284e8ab6cc17f161da074086e1f081e1"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>hartree_potential_</b></td></tr>
-<tr class="separator:a284e8ab6cc17f161da074086e1f081e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c9d72f0486c5fe5fd802146cdcbb8a"><td class="memItemLeft" align="right" valign="top"><a id="a67c9d72f0486c5fe5fd802146cdcbb8a"></a>
+std::unique_ptr&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a67c9d72f0486c5fe5fd802146cdcbb8a">hartree_potential_</a></td></tr>
+<tr class="memdesc:a67c9d72f0486c5fe5fd802146cdcbb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hartree potential. <br /></td></tr>
+<tr class="separator:a67c9d72f0486c5fe5fd802146cdcbb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20dca9a8eaedcc61f700cdeb3ffb44bd"><td class="memItemLeft" align="right" valign="top"><a id="a20dca9a8eaedcc61f700cdeb3ffb44bd"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>xc_potential_</b></td></tr>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a20dca9a8eaedcc61f700cdeb3ffb44bd">xc_potential_</a></td></tr>
+<tr class="memdesc:a20dca9a8eaedcc61f700cdeb3ffb44bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">XC potential. <br /></td></tr>
 <tr class="separator:a20dca9a8eaedcc61f700cdeb3ffb44bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1f6f7b2c1c85b230c34ba39e9fd9318"><td class="memItemLeft" align="right" valign="top"><a id="ad1f6f7b2c1c85b230c34ba39e9fd9318"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>xc_energy_density_</b></td></tr>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#ad1f6f7b2c1c85b230c34ba39e9fd9318">xc_energy_density_</a></td></tr>
+<tr class="memdesc:ad1f6f7b2c1c85b230c34ba39e9fd9318"><td class="mdescLeft">&#160;</td><td class="mdescRight">XC energy per unit particle. <br /></td></tr>
 <tr class="separator:ad1f6f7b2c1c85b230c34ba39e9fd9318"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4071c9c5b14fd52005538e4de6e7943d"><td class="memItemLeft" align="right" valign="top"><a id="a4071c9c5b14fd52005538e4de6e7943d"></a>
-std::unique_ptr&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a4071c9c5b14fd52005538e4de6e7943d">local_potential_</a></td></tr>
-<tr class="memdesc:a4071c9c5b14fd52005538e4de6e7943d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local part of pseudopotential. <br /></td></tr>
-<tr class="separator:a4071c9c5b14fd52005538e4de6e7943d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01b360ea311c193d58888e4a1db7aaa8"><td class="memItemLeft" align="right" valign="top"><a id="a01b360ea311c193d58888e4a1db7aaa8"></a>
+std::unique_ptr&lt; <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a01b360ea311c193d58888e4a1db7aaa8">local_potential_</a></td></tr>
+<tr class="memdesc:a01b360ea311c193d58888e4a1db7aaa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local part of pseudopotential. <br /></td></tr>
+<tr class="separator:a01b360ea311c193d58888e4a1db7aaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bfbcae94d3935db0be03f732f98001b"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::unique_ptr&lt; <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a8bfbcae94d3935db0be03f732f98001b">vsigma_</a></td></tr>
+<tr class="memdesc:a8bfbcae94d3935db0be03f732f98001b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative \( \partial \epsilon^{XC} / \partial \sigma_{\alpha} \).  <a href="#a8bfbcae94d3935db0be03f732f98001b">More...</a><br /></td></tr>
+<tr class="separator:a8bfbcae94d3935db0be03f732f98001b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012796229f9d5c055dbd1fe7112dca27"><td class="memItemLeft" align="right" valign="top"><a id="a012796229f9d5c055dbd1fe7112dca27"></a>
+std::unique_ptr&lt; <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dveff_</b></td></tr>
+<tr class="separator:a012796229f9d5c055dbd1fe7112dca27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1dc9c74958d3e7d11bbfbb1aa0bbb4b"><td class="memItemLeft" align="right" valign="top"><a id="ae1dc9c74958d3e7d11bbfbb1aa0bbb4b"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sbessel_mom_</b></td></tr>
 <tr class="separator:ae1dc9c74958d3e7d11bbfbb1aa0bbb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -424,9 +472,9 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>paw_one_elec_energy
 <tr class="memitem:a190a0617e74f0cce2aed286680c74a17"><td class="memItemLeft" align="right" valign="top"><a id="a190a0617e74f0cce2aed286680c74a17"></a>
 std::vector&lt; <a class="el" href="../../d1/def/structsirius_1_1_potential_1_1paw__potential__data__t.html">paw_potential_data_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paw_potential_data_</b></td></tr>
 <tr class="separator:a190a0617e74f0cce2aed286680c74a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39bd1b7cb3db41258aa286c2ee0af3a3"><td class="memItemLeft" align="right" valign="top"><a id="a39bd1b7cb3db41258aa286c2ee0af3a3"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paw_dij_</b></td></tr>
-<tr class="separator:a39bd1b7cb3db41258aa286c2ee0af3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be1519ea9df817fccd83552594509c4"><td class="memItemLeft" align="right" valign="top"><a id="a1be1519ea9df817fccd83552594509c4"></a>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>paw_dij_</b></td></tr>
+<tr class="separator:a1be1519ea9df817fccd83552594509c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a556afd6462fb98e93aa0293651273a"><td class="memItemLeft" align="right" valign="top"><a id="a4a556afd6462fb98e93aa0293651273a"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b> {0}</td></tr>
 <tr class="separator:a4a556afd6462fb98e93aa0293651273a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -437,8 +485,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 
 <p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00039">39</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a50dd31a86f55c9fee5b7264397bcb586"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50dd31a86f55c9fee5b7264397bcb586">&#9670;&nbsp;</a></span>poisson_sum_G()</h2>
+<a id="af9eed5dfd743f6172a1f94a75640c47d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9eed5dfd743f6172a1f94a75640c47d">&#9670;&nbsp;</a></span>poisson_sum_G()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -455,7 +503,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double_complex *&#160;</td>
+          <td class="paramtype">double_complex const *&#160;</td>
           <td class="paramname"><em>fpw__</em>, </td>
         </tr>
         <tr>
@@ -547,12 +595,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 \[ 4\pi \int \Big(V_{\alpha}(r) r + Z_{\alpha}^p {\rm erf}(r) \Big) \frac{\sin(Gr)}{G} dr - Z_{\alpha}^p \frac{e^{-\frac{G^2}{4}}}{G^2} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00256">256</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00268">268</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
-<a id="ada6c62c577c4e91e06490423345e833a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada6c62c577c4e91e06490423345e833a">&#9670;&nbsp;</a></span>poisson()</h2>
+<a id="a5e30e263faee37bffa8da7c001e88a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e30e263faee37bffa8da7c001e88a9d">&#9670;&nbsp;</a></span>poisson()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -563,19 +611,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
         <tr>
           <td class="memname">void sirius::Potential::poisson </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td>
-          <td class="paramname"><em>rho</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rho</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td>
-          <td class="paramname"><em>vh</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -661,11 +699,13 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 
 </div>
 </div>
-<a id="a4c140fdb2a2672e4a20dfb8c8b46ac29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c140fdb2a2672e4a20dfb8c8b46ac29">&#9670;&nbsp;</a></span>xc()</h2>
+<a id="ac950378cf59826c19aac7f33c2ecd8ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac950378cf59826c19aac7f33c2ecd8ae">&#9670;&nbsp;</a></span>xc()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool add_pseudo_core__&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -673,37 +713,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
         <tr>
           <td class="memname">void sirius::Potential::xc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td>
-          <td class="paramname"><em>rho__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;&#160;</td>
+          <td class="paramname"><em>rho__</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::array&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *, 3 &gt;&#160;</td>
-          <td class="paramname"><em>magnetization__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td>
-          <td class="paramname"><em>vxc__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td>
-          <td class="paramname"><em>bxc__</em>[3], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td>
-          <td class="paramname"><em>exc__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -748,7 +760,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 \begin{eqnarray*} V^{\uparrow}({\bf r}) &amp;=&amp; V_{xc}({\bf r}) + {\rm B}_{xc}({\bf r}) \\ V^{\downarrow}({\bf r}) &amp;=&amp; V_{xc}({\bf r}) - {\rm B}_{xc}({\bf r}) \end{eqnarray*}
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d3/d59/xc_8hpp_source.html#l00855">855</a> of file <a class="el" href="../../d3/d59/xc_8hpp_source.html">xc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00830">830</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -801,6 +813,33 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8bfbcae94d3935db0be03f732f98001b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bfbcae94d3935db0be03f732f98001b">&#9670;&nbsp;</a></span>vsigma_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;std::unique_ptr&lt;<a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt;double&gt; &gt;, 2&gt; sirius::Potential::vsigma_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Derivative \( \partial \epsilon^{XC} / \partial \sigma_{\alpha} \). </p>
+<p>\( \epsilon^{XC} \) is the exchange-correlation energy per unit volume and \( \sigma \) is one of \( \nabla \rho_{\uparrow} \nabla \rho_{\uparrow} \), \( \nabla \rho_{\uparrow} \nabla \rho_{\downarrow} \) or \( \nabla \rho_{\downarrow} \nabla \rho_{\downarrow} \). This quantity is required to compute the GGA contribution to the XC stress tensor. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00073">73</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
+
+</div>
+</div>
 <a id="a0126d2afa48714b359eede273905a64c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0126d2afa48714b359eede273905a64c">&#9670;&nbsp;</a></span>vh_el_</h2>
 
@@ -824,7 +863,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 <p>Electronic part of Hartree potential. </p>
 <p>Used to compute electron-nuclear contribution to the total energy </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00084">84</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00101">101</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -840,7 +879,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

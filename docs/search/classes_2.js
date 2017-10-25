@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['cached_5finput_5fstream_5fadapter',['cached_input_stream_adapter',['../db/dad/classnlohmann_1_1detail_1_1cached__input__stream__adapter.html',1,'nlohmann::detail']]],
   ['cmd_5fargs',['cmd_args',['../d8/d8a/classcmd__args.html',1,'']]],
   ['communicator',['Communicator',['../da/d70/classsddk_1_1_communicator.html',1,'sddk']]],
   ['communicator_5fbundle',['Communicator_bundle',['../d7/d14/classsddk_1_1_communicator__bundle.html',1,'sddk']]],

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -123,6 +123,9 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>spglib_tolerance_</
 <tr class="memitem:af59ade202ac720ef1e2857c4389aadc7"><td class="memItemLeft" align="right" valign="top"><a id="af59ade202ac720ef1e2857c4389aadc7"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>verification_</b> {0}</td></tr>
 <tr class="separator:af59ade202ac720ef1e2857c4389aadc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff6ed57dbcf79c01e3b3230a4805868"><td class="memItemLeft" align="right" valign="top"><a id="a9ff6ed57dbcf79c01e3b3230a4805868"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>num_bands_to_print_</b> {10}</td></tr>
+<tr class="separator:a9ff6ed57dbcf79c01e3b3230a4805868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8d6bb1fe96f0345f342f265e6dce146"><td class="memItemLeft" align="right" valign="top"><a id="af8d6bb1fe96f0345f342f265e6dce146"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_performance_</b> {false}</td></tr>
 <tr class="separator:af8d6bb1fe96f0345f342f265e6dce146"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,20 +135,23 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_memory_usage_</
 <tr class="memitem:a3d21fe7e1aa3b015f6c7230916e54221"><td class="memItemLeft" align="right" valign="top"><a id="a3d21fe7e1aa3b015f6c7230916e54221"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_checksum_</b> {false}</td></tr>
 <tr class="separator:a3d21fe7e1aa3b015f6c7230916e54221"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ff6ed57dbcf79c01e3b3230a4805868"><td class="memItemLeft" align="right" valign="top"><a id="a9ff6ed57dbcf79c01e3b3230a4805868"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>num_bands_to_print_</b> {10}</td></tr>
-<tr class="separator:a9ff6ed57dbcf79c01e3b3230a4805868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52d292a1f6911bd38d7c737fa244f7aa"><td class="memItemLeft" align="right" valign="top"><a id="a52d292a1f6911bd38d7c737fa244f7aa"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_hash_</b> {false}</td></tr>
+<tr class="separator:a52d292a1f6911bd38d7c737fa244f7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb5d570c3a9629b145b80114d7387a2f"><td class="memItemLeft" align="right" valign="top"><a id="aeb5d570c3a9629b145b80114d7387a2f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_stress_</b> {false}</td></tr>
 <tr class="separator:aeb5d570c3a9629b145b80114d7387a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a5b0acc7a1358bb5fa4ebcbebca849b"><td class="memItemLeft" align="right" valign="top"><a id="a2a5b0acc7a1358bb5fa4ebcbebca849b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_forces_</b> {false}</td></tr>
 <tr class="separator:a2a5b0acc7a1358bb5fa4ebcbebca849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e1c61a0d6300228c57a9069687155e"><td class="memItemLeft" align="right" valign="top"><a id="aa2e1c61a0d6300228c57a9069687155e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_timers_</b> {true}</td></tr>
+<tr class="separator:aa2e1c61a0d6300228c57a9069687155e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parse control input section. </p>
 <p>The following part of the input file is parsed: </p><div class="fragment"><div class="line">&quot;control&quot; : {</div><div class="line">  &quot;mpi_grid_dims&quot; : (1- 2- or 3-dimensional vector&lt;int&gt;) MPI grid layout</div><div class="line">  &quot;cyclic_block_size&quot; : (int) PBLAS / ScaLAPACK block size</div><div class="line">  &quot;reduce_gvec&quot; : (bool) use reduced G-vector set (reduce_gvec = true) or full set (reduce_gvec = false)</div><div class="line">  &quot;std_evp_solver_type&quot; : (string) type of eigen-solver for the standard eigen-problem</div><div class="line">  &quot;gen_evp_solver_type&quot; : (string) type of eigen-solver for the generalized eigen-problem</div><div class="line">  &quot;electronic_structure_method&quot; : (string) electronic structure method</div><div class="line">  &quot;processing_unit&quot; : (string) primary processing unit</div><div class="line">  &quot;fft_mode&quot; : (string) serial or parallel FFT</div><div class="line">}</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00274">274</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00304">304</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a6ead7bab9ad06798e02455ea82b633b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6ead7bab9ad06798e02455ea82b633b2">&#9670;&nbsp;</a></span>verbosity_</h2>
@@ -170,7 +176,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_forces_</b> {fa
 <li>3: extensive output (hi level of output) </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00291">291</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00321">321</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 
 </div>
 </div>
@@ -180,7 +186,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_forces_</b> {fa
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

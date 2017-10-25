@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -72,6 +72,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d7/d03/classsirius_1_1_beta__projectors__base-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -105,7 +106,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>num_gkvec_loc</b> () c
 matrix&lt; double_complex &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>pw_coeffs_t</b> (int i__)</td></tr>
 <tr class="separator:a6b839b35af7fd6e0fbfafd3373c8b56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a852e718f9e37213825d69d1da95863f6"><td class="memItemLeft" align="right" valign="top"><a id="a852e718f9e37213825d69d1da95863f6"></a>
-matrix&lt; double_complex &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>pw_coeffs_a</b> ()</td></tr>
+matrix&lt; double_complex &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html#a852e718f9e37213825d69d1da95863f6">pw_coeffs_a</a> ()</td></tr>
+<tr class="memdesc:a852e718f9e37213825d69d1da95863f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plane wave coefficients of |beta&gt; projectors for a chunk of atoms. <br /></td></tr>
 <tr class="separator:a852e718f9e37213825d69d1da95863f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af55fdde848135ce4a1cd9678b1440094"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:af55fdde848135ce4a1cd9678b1440094"><td class="memTemplItemLeft" align="right" valign="top">matrix&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html#af55fdde848135ce4a1cd9678b1440094">inner</a> (int chunk__, wave_functions &amp;phi__, int idx0__, int n__)</td></tr>
@@ -121,6 +123,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>prepare</b> ()</td></
 <tr class="memitem:ad736070151b4959e71c8d55b6fefa3fa"><td class="memItemLeft" align="right" valign="top"><a id="ad736070151b4959e71c8d55b6fefa3fa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dismiss</b> ()</td></tr>
 <tr class="separator:ad736070151b4959e71c8d55b6fefa3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:adc530c1abe156d7d44ccf447c8bc7d34"><td class="memItemLeft" align="right" valign="top"><a id="adc530c1abe156d7d44ccf447c8bc7d34"></a>
+static mdarray&lt; double_complex, 1 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html#adc530c1abe156d7d44ccf447c8bc7d34">pw_coeffs_a_shared</a> (size_t size__, memory_t mem_type__)</td></tr>
+<tr class="memdesc:adc530c1abe156d7d44ccf447c8bc7d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">A buffer for plane-wave coefficients of beta projectors, shared between instances of <a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html" title="Base class for beta-projectors, gradient of beta-projectors and strain derivatives of beta-projectors...">Beta_projectors_base</a> class. <br /></td></tr>
+<tr class="separator:adc530c1abe156d7d44ccf447c8bc7d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f627505f6ad90012e56ae80ad54a88"><td class="memItemLeft" align="right" valign="top">static mdarray&lt; double, 1 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html#ad3f627505f6ad90012e56ae80ad54a88">beta_phi_shared</a> (size_t size__, memory_t mem_type__)</td></tr>
+<tr class="memdesc:ad3f627505f6ad90012e56ae80ad54a88"><td class="mdescLeft">&#160;</td><td class="mdescRight">A buffer for &lt;beta|phi&gt; product, shared between instances of <a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html" title="Base class for beta-projectors, gradient of beta-projectors and strain derivatives of beta-projectors...">Beta_projectors_base</a> class.  <a href="#ad3f627505f6ad90012e56ae80ad54a88">More...</a><br /></td></tr>
+<tr class="separator:ad3f627505f6ad90012e56ae80ad54a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -139,17 +151,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>num_gkvec_loc_</b></td
 <tr class="memitem:a8733317705d91ef2462db15997881242"><td class="memItemLeft" align="right" valign="top"><a id="a8733317705d91ef2462db15997881242"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax_beta_</b></td></tr>
 <tr class="separator:a8733317705d91ef2462db15997881242"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebb02179100b26e75ad32ab06de9e498"><td class="memItemLeft" align="right" valign="top">mdarray&lt; double, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html#aebb02179100b26e75ad32ab06de9e498">beta_phi_</a></td></tr>
-<tr class="memdesc:aebb02179100b26e75ad32ab06de9e498"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inner product between beta-projectors and wave-functions.  <a href="#aebb02179100b26e75ad32ab06de9e498">More...</a><br /></td></tr>
-<tr class="separator:aebb02179100b26e75ad32ab06de9e498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80520a7982fb1874961de560dd945ee6"><td class="memItemLeft" align="right" valign="top"><a id="a80520a7982fb1874961de560dd945ee6"></a>
 std::array&lt; matrix&lt; double_complex &gt;, N &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html#a80520a7982fb1874961de560dd945ee6">pw_coeffs_t_</a></td></tr>
 <tr class="memdesc:a80520a7982fb1874961de560dd945ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase-factor independent coefficients of |beta&gt; functions for atom types. <br /></td></tr>
 <tr class="separator:a80520a7982fb1874961de560dd945ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45ec50926391c46fc7db6288fbb13acd"><td class="memItemLeft" align="right" valign="top"><a id="a45ec50926391c46fc7db6288fbb13acd"></a>
-matrix&lt; double_complex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html#a45ec50926391c46fc7db6288fbb13acd">pw_coeffs_a_</a></td></tr>
-<tr class="memdesc:a45ec50926391c46fc7db6288fbb13acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase-factor independent coefficients of |beta&gt; functions for a chunk of atoms. <br /></td></tr>
-<tr class="separator:a45ec50926391c46fc7db6288fbb13acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;int N&gt;<br />
@@ -159,6 +164,49 @@ class sirius::Beta_projectors_base&lt; N &gt;</h3>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html#l00042">42</a> of file <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html">beta_projectors_base.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad3f627505f6ad90012e56ae80ad54a88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f627505f6ad90012e56ae80ad54a88">&#9670;&nbsp;</a></span>beta_phi_shared()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static mdarray&lt;double, 1&gt;&amp; <a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html">sirius::Beta_projectors_base</a>&lt; N &gt;::beta_phi_shared </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">memory_t&#160;</td>
+          <td class="paramname"><em>mem_type__</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A buffer for &lt;beta|phi&gt; product, shared between instances of <a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html" title="Base class for beta-projectors, gradient of beta-projectors and strain derivatives of beta-projectors...">Beta_projectors_base</a> class. </p>
+<p>Stored as double to handle both gamma- and general k-point cases </p>
+
+<p class="definition">Definition at line <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html#l00071">71</a> of file <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html">beta_projectors_base.h</a>.</p>
+
+</div>
+</div>
 <a id="af55fdde848135ce4a1cd9678b1440094"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af55fdde848135ce4a1cd9678b1440094">&#9670;&nbsp;</a></span>inner()</h2>
 
@@ -212,37 +260,7 @@ template&lt;typename T &gt; </div>
 <p>Calculate inner product between beta-projectors and wave-functions. </p>
 <p>The following is computed: &lt;beta|phi&gt; </p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html#l00125">125</a> of file <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html">beta_projectors_base.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aebb02179100b26e75ad32ab06de9e498"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebb02179100b26e75ad32ab06de9e498">&#9670;&nbsp;</a></span>beta_phi_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mdarray&lt;double, 1&gt; <a class="el" href="../../d1/d5a/classsirius_1_1_beta__projectors__base.html">sirius::Beta_projectors_base</a>&lt; N &gt;::beta_phi_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Inner product between beta-projectors and wave-functions. </p>
-<p>Stored as double to handle both gamma- and general k-point cases </p>
-
-<p class="definition">Definition at line <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html#l00058">58</a> of file <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html">beta_projectors_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html#l00161">161</a> of file <a class="el" href="../../db/d01/beta__projectors__base_8h_source.html">beta_projectors_base.h</a>.</p>
 
 </div>
 </div>
@@ -252,7 +270,7 @@ template&lt;int N&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

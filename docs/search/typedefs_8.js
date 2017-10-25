@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['number_5ffloat_5ft',['number_float_t',['../d9/dcc/classnlohmann_1_1basic__json.html#a88d6103cb3620410b35200ee8e313d97',1,'nlohmann::basic_json']]],
-  ['number_5finteger_5ft',['number_integer_t',['../d9/dcc/classnlohmann_1_1basic__json.html#a98e611d67b7bd75307de99c9358ab2dc',1,'nlohmann::basic_json']]],
-  ['number_5funsigned_5ft',['number_unsigned_t',['../d9/dcc/classnlohmann_1_1basic__json.html#ab906e29b5d83ac162e823ada2156b989',1,'nlohmann::basic_json']]]
+  ['object_5ft',['object_t',['../d9/dcc/classnlohmann_1_1basic__json.html#aa1eb13d5aa86f80cbee6c58e90fbaf49',1,'nlohmann::basic_json']]],
+  ['other_5ferror',['other_error',['../d9/dcc/classnlohmann_1_1basic__json.html#a3333a5a8714912adda33a35b369f7b3d',1,'nlohmann::basic_json']]],
+  ['out_5fof_5frange',['out_of_range',['../d9/dcc/classnlohmann_1_1basic__json.html#a28f7c2f087274a0012eb7a2333ee1580',1,'nlohmann::basic_json']]],
+  ['output_5fadapter_5ft',['output_adapter_t',['../dc/df0/namespacenlohmann_1_1detail.html#a9b680ddfb58f27eb53a67229447fc556',1,'nlohmann::detail']]]
 ];

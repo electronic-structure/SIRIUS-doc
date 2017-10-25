@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -123,14 +123,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:acfc4c38b15792c4deda885bdfef3c1a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#acfc4c38b15792c4deda885bdfef3c1a8">apply_fv_h_o</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int nlo, int N, int n, wave_functions &amp;phi__, wave_functions &amp;hphi__, wave_functions &amp;ophi__) const</td></tr>
 <tr class="memdesc:acfc4c38b15792c4deda885bdfef3c1a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply LAPW Hamiltonain and overlap to the trial wave-functions.  <a href="#acfc4c38b15792c4deda885bdfef3c1a8">More...</a><br /></td></tr>
 <tr class="separator:acfc4c38b15792c4deda885bdfef3c1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefbb4cda43252e6eee02b42776925cae"><td class="memItemLeft" align="right" valign="top"><a id="aefbb4cda43252e6eee02b42776925cae"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#aefbb4cda43252e6eee02b42776925cae">solve_sv</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_magnetic_field[3]) const</td></tr>
-<tr class="memdesc:aefbb4cda43252e6eee02b42776925cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve second-variational problem. <br /></td></tr>
-<tr class="separator:aefbb4cda43252e6eee02b42776925cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaef6e7d6c97b8b4a8b90cdd31c02b6e"><td class="memItemLeft" align="right" valign="top"><a id="acaef6e7d6c97b8b4a8b90cdd31c02b6e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#acaef6e7d6c97b8b4a8b90cdd31c02b6e">solve_fd</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_potential, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_magnetic_field[3]) const</td></tr>
-<tr class="memdesc:acaef6e7d6c97b8b4a8b90cdd31c02b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diagonalization of the full Hamiltonian (without second variation). <br /></td></tr>
-<tr class="separator:acaef6e7d6c97b8b4a8b90cdd31c02b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a200282a1fe717d3c121db3d6768a66"><td class="memItemLeft" align="right" valign="top"><a id="a9a200282a1fe717d3c121db3d6768a66"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a9a200282a1fe717d3c121db3d6768a66">diag_sv</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;potential__) const</td></tr>
+<tr class="memdesc:a9a200282a1fe717d3c121db3d6768a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve second-variational problem. <br /></td></tr>
+<tr class="separator:a9a200282a1fe717d3c121db3d6768a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54d593967cdd08d9ad2bd96a468b1956"><td class="memItemLeft" align="right" valign="top"><a id="a54d593967cdd08d9ad2bd96a468b1956"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a54d593967cdd08d9ad2bd96a468b1956">solve_for_kset</a> (<a class="el" href="../../d9/dbd/classsirius_1_1_k__point__set.html">K_point_set</a> &amp;kset__, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;potential__, bool precompute__) const</td></tr>
 <tr class="memdesc:a54d593967cdd08d9ad2bd96a468b1956"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve \( \hat H \psi = E \psi \) and find eigen-states of the Hamiltonian. <br /></td></tr>
@@ -159,13 +155,14 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a469c1cc60a2374717586fcfa054d973a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a469c1cc60a2374717586fcfa054d973a">get_o_diag</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
 <tr class="memdesc:a469c1cc60a2374717586fcfa054d973a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get diagonal elements of pseudopotential overlap matrix. <br /></td></tr>
 <tr class="separator:a469c1cc60a2374717586fcfa054d973a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec8d635568d9c04451ba84061563bef7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#aec8d635568d9c04451ba84061563bef7">initialize_subspace</a> (<a class="el" href="../../d9/dbd/classsirius_1_1_k__point__set.html">K_point_set</a> &amp;kset__, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;potential__) const</td></tr>
+<tr class="memitem:aec8d635568d9c04451ba84061563bef7"><td class="memItemLeft" align="right" valign="top"><a id="aec8d635568d9c04451ba84061563bef7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#aec8d635568d9c04451ba84061563bef7">initialize_subspace</a> (<a class="el" href="../../d9/dbd/classsirius_1_1_k__point__set.html">K_point_set</a> &amp;kset__, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;potential__) const</td></tr>
+<tr class="memdesc:aec8d635568d9c04451ba84061563bef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the subspace for the entire k-point set. <br /></td></tr>
 <tr class="separator:aec8d635568d9c04451ba84061563bef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b0263bc94b098d675a9e73f34e2bd2d"><td class="memTemplParams" colspan="2"><a id="a0b0263bc94b098d675a9e73f34e2bd2d"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0b0263bc94b098d675a9e73f34e2bd2d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a0b0263bc94b098d675a9e73f34e2bd2d">initialize_subspace</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_potential__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_magnetic_field[3], int num_ao__, std::vector&lt; std::vector&lt; <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt;&gt;&gt; const &amp;rad_int__) const</td></tr>
-<tr class="memdesc:a0b0263bc94b098d675a9e73f34e2bd2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the wave-functions subspace. <br /></td></tr>
-<tr class="separator:a0b0263bc94b098d675a9e73f34e2bd2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4962804258db9e90e119f854c5e64cb5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4962804258db9e90e119f854c5e64cb5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a4962804258db9e90e119f854c5e64cb5">initialize_subspace</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int num_ao__, <a class="el" href="../../dd/d9d/classsirius_1_1_radial__grid__lin.html">Radial_grid_lin</a>&lt; double &gt; &amp;qgrid__, std::vector&lt; std::vector&lt; <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt;&gt;&gt; const &amp;rad_int__) const</td></tr>
+<tr class="memdesc:a4962804258db9e90e119f854c5e64cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the wave-functions subspace.  <a href="#a4962804258db9e90e119f854c5e64cb5">More...</a><br /></td></tr>
+<tr class="separator:a4962804258db9e90e119f854c5e64cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebbca67883cfe842333e292c7c9d6b9c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aebbca67883cfe842333e292c7c9d6b9c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#aebbca67883cfe842333e292c7c9d6b9c">apply_h</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, int N__, int n__, wave_functions &amp;phi__, wave_functions &amp;hphi__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op) const</td></tr>
 <tr class="separator:aebbca67883cfe842333e292c7c9d6b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,10 +173,10 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4bf366dd0eb00b4ab948de92f31593cc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>diag_pseudo_potential_exact</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
 <tr class="separator:a4bf366dd0eb00b4ab948de92f31593cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ad80289bce3e09d4effb0c8d6192077"><td class="memTemplParams" colspan="2"><a id="a8ad80289bce3e09d4effb0c8d6192077"></a>
+<tr class="memitem:aa6e61434e01adb930efcabaf457a53ac"><td class="memTemplParams" colspan="2"><a id="aa6e61434e01adb930efcabaf457a53ac"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a8ad80289bce3e09d4effb0c8d6192077"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>diag_pseudo_potential_davidson</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
-<tr class="separator:a8ad80289bce3e09d4effb0c8d6192077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6e61434e01adb930efcabaf457a53ac"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>diag_pseudo_potential_davidson</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
+<tr class="separator:aa6e61434e01adb930efcabaf457a53ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d921c94b6945049f82be3554e5cdf87"><td class="memTemplParams" colspan="2"><a id="a5d921c94b6945049f82be3554e5cdf87"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a5d921c94b6945049f82be3554e5cdf87"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>diag_pseudo_potential_chebyshev</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__, <a class="el" href="../../d1/dde/classsirius_1_1_p__operator.html">P_operator</a>&lt; T &gt; &amp;p_op__) const</td></tr>
@@ -196,14 +193,13 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad0f87ecebc20f486e3b6c832ef86864a"><td class="memTemplItemLeft" align="right" valign="top">mdarray&lt; double, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>get_o_diag</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
 <tr class="separator:ad0f87ecebc20f486e3b6c832ef86864a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f8f8c575895ac48d11cd1f726e404c8"><td class="memTemplParams" colspan="2"><a id="a8f8f8c575895ac48d11cd1f726e404c8"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a8f8f8c575895ac48d11cd1f726e404c8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>initialize_subspace</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_potential__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_magnetic_field__[3], int num_ao__, std::vector&lt; std::vector&lt; <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt;&gt;&gt; const &amp;rad_int__) const</td></tr>
-<tr class="separator:a8f8f8c575895ac48d11cd1f726e404c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58fbf9e8c794c6256c6accc8eca784fa"><td class="memTemplParams" colspan="2"><a id="a58fbf9e8c794c6256c6accc8eca784fa"></a>
-template&lt;typename T , typename wave_functions_t &gt; </td></tr>
-<tr class="memitem:a58fbf9e8c794c6256c6accc8eca784fa"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>residuals_common</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, int N__, int num_bands__, std::vector&lt; double &gt; &amp;eval__, std::vector&lt; double &gt; &amp;eval_old__, dmatrix&lt; T &gt; &amp;evec__, wave_functions_t &amp;hphi__, wave_functions_t &amp;ophi__, wave_functions_t &amp;hpsi__, wave_functions_t &amp;opsi__, wave_functions_t &amp;res__, mdarray&lt; double, 2 &gt; &amp;h_diag__, mdarray&lt; double, 1 &gt; &amp;o_diag__) const</td></tr>
-<tr class="separator:a58fbf9e8c794c6256c6accc8eca784fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4962804258db9e90e119f854c5e64cb5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4962804258db9e90e119f854c5e64cb5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a4962804258db9e90e119f854c5e64cb5">initialize_subspace</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int num_ao__, <a class="el" href="../../dd/d9d/classsirius_1_1_radial__grid__lin.html">Radial_grid_lin</a>&lt; double &gt; &amp;qgrid__, std::vector&lt; std::vector&lt; <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt;&gt;&gt; const &amp;rad_int__) const</td></tr>
+<tr class="separator:a4962804258db9e90e119f854c5e64cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b3db37608eb7383a337d97e89d476e7"><td class="memTemplParams" colspan="2"><a id="a2b3db37608eb7383a337d97e89d476e7"></a>
+template&lt;typename T , typename W &gt; </td></tr>
+<tr class="memitem:a2b3db37608eb7383a337d97e89d476e7"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>residuals_common</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, int N__, int num_bands__, std::vector&lt; double &gt; &amp;eval__, std::vector&lt; double &gt; &amp;eval_old__, dmatrix&lt; T &gt; &amp;evec__, W &amp;hphi__, W &amp;ophi__, W &amp;hpsi__, W &amp;opsi__, W &amp;res__, mdarray&lt; double, 2 &gt; &amp;h_diag__, mdarray&lt; double, 1 &gt; &amp;o_diag__) const</td></tr>
+<tr class="separator:a2b3db37608eb7383a337d97e89d476e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5c2901ae3fd5786859b2e094e35fc6f"><td class="memTemplParams" colspan="2"><a id="ae5c2901ae3fd5786859b2e094e35fc6f"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae5c2901ae3fd5786859b2e094e35fc6f"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>residuals</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, int N__, int num_bands__, std::vector&lt; double &gt; &amp;eval__, std::vector&lt; double &gt; &amp;eval_old__, dmatrix&lt; T &gt; &amp;evec__, wave_functions &amp;hphi__, wave_functions &amp;ophi__, wave_functions &amp;hpsi__, wave_functions &amp;opsi__, wave_functions &amp;res__, mdarray&lt; double, 2 &gt; &amp;h_diag__, mdarray&lt; double, 1 &gt; &amp;o_diag__) const</td></tr>
@@ -224,12 +220,30 @@ template&lt;spin_block_t sblock&gt; </td></tr>
 template&lt;spin_block_t sblock&gt; </td></tr>
 <tr class="memitem:a8e27b8a706639c0d48fba16f1ad33351"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>set_h_it</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_potential, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_magnetic_field[3], <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt; &amp;h) const</td></tr>
 <tr class="separator:a8e27b8a706639c0d48fba16f1ad33351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b3db37608eb7383a337d97e89d476e7"><td class="memTemplParams" colspan="2"><a id="a2b3db37608eb7383a337d97e89d476e7"></a>
+template&lt;typename T , typename W &gt; </td></tr>
+<tr class="memitem:a2b3db37608eb7383a337d97e89d476e7"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>residuals_common</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, int N__, int num_bands__, std::vector&lt; double &gt; &amp;eval__, std::vector&lt; double &gt; &amp;eval_old__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;evec__, W &amp;hphi__, W &amp;ophi__, W &amp;hpsi__, W &amp;opsi__, W &amp;res__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt; &amp;h_diag__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 1 &gt; &amp;o_diag__) const</td></tr>
+<tr class="separator:a2b3db37608eb7383a337d97e89d476e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ab1931765c5aa78f13b49e1b2a4f5611f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#ab1931765c5aa78f13b49e1b2a4f5611f">apply_magnetic_field</a> (wave_functions &amp;fv_states__, Gvec const &amp;gkvec__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_magnetic_field__[3], std::vector&lt; wave_functions &gt; &amp;hpsi__) const</td></tr>
-<tr class="memdesc:ab1931765c5aa78f13b49e1b2a4f5611f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply effective magentic field to the first-variational state.  <a href="#ab1931765c5aa78f13b49e1b2a4f5611f">More...</a><br /></td></tr>
-<tr class="separator:ab1931765c5aa78f13b49e1b2a4f5611f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae409f71edceabf431284d2edbf9c495b"><td class="memItemLeft" align="right" valign="top"><a id="ae409f71edceabf431284d2edbf9c495b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#ae409f71edceabf431284d2edbf9c495b">solve_with_single_variation</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> &amp;kp__, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;potential__) const</td></tr>
+<tr class="memdesc:ae409f71edceabf431284d2edbf9c495b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the band diagonalziation problem with single (full) variation. <br /></td></tr>
+<tr class="separator:ae409f71edceabf431284d2edbf9c495b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21221be96ecf5e3a08e5ac7e6fb89f3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a21221be96ecf5e3a08e5ac7e6fb89f3c">solve_with_second_variation</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> &amp;kp__, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;potential__) const</td></tr>
+<tr class="memdesc:a21221be96ecf5e3a08e5ac7e6fb89f3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the band diagonalziation problem with second variation approach.  <a href="#a21221be96ecf5e3a08e5ac7e6fb89f3c">More...</a><br /></td></tr>
+<tr class="separator:a21221be96ecf5e3a08e5ac7e6fb89f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bd69dfca78788388fb4cdc85877950"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a42bd69dfca78788388fb4cdc85877950">diag_fv_exact</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;potential__) const</td></tr>
+<tr class="memdesc:a42bd69dfca78788388fb4cdc85877950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the first-variational (non-magnetic) problem with exact diagonalization.  <a href="#a42bd69dfca78788388fb4cdc85877950">More...</a><br /></td></tr>
+<tr class="separator:a42bd69dfca78788388fb4cdc85877950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabd7481e50d547d7a7ee5d168a283ef2"><td class="memItemLeft" align="right" valign="top"><a id="aabd7481e50d547d7a7ee5d168a283ef2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#aabd7481e50d547d7a7ee5d168a283ef2">diag_fv_davidson</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__) const</td></tr>
+<tr class="memdesc:aabd7481e50d547d7a7ee5d168a283ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the first-variational (non-magnetic) problem with iterative Davidson diagonalization. <br /></td></tr>
+<tr class="separator:aabd7481e50d547d7a7ee5d168a283ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac10c84e35e4ed71e3124ba072b0b53e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#ac10c84e35e4ed71e3124ba072b0b53e7">apply_magnetic_field</a> (wave_functions &amp;fv_states__, Gvec const &amp;gkvec__, std::vector&lt; wave_functions &gt; &amp;hpsi__) const</td></tr>
+<tr class="memdesc:ac10c84e35e4ed71e3124ba072b0b53e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply effective magentic field to the first-variational state.  <a href="#ac10c84e35e4ed71e3124ba072b0b53e7">More...</a><br /></td></tr>
+<tr class="separator:ac10c84e35e4ed71e3124ba072b0b53e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8465650f5a337f7473c499a11092efb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a8465650f5a337f7473c499a11092efb7">apply_so_correction</a> (<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt; &amp;fv_states, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt; &amp;hpsi)</td></tr>
 <tr class="memdesc:a8465650f5a337f7473c499a11092efb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply SO correction to the first-variational states.  <a href="#a8465650f5a337f7473c499a11092efb7">More...</a><br /></td></tr>
 <tr class="separator:a8465650f5a337f7473c499a11092efb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,28 +281,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_o</b> (<a class="
 template&lt;spin_block_t sblock&gt; </td></tr>
 <tr class="memitem:afdab745312743d79fbd65536cc0464c3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>set_h</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_potential, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_magnetic_field[3], <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt; &amp;h)</td></tr>
 <tr class="separator:afdab745312743d79fbd65536cc0464c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20284ec5451a45cf54c81595ab8e2213"><td class="memItemLeft" align="right" valign="top"><a id="a20284ec5451a45cf54c81595ab8e2213"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>diag_fv_full_potential_exact</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> const &amp;potential__) const</td></tr>
-<tr class="separator:a20284ec5451a45cf54c81595ab8e2213"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a399e7ef2f58ddcc76785e21e600af10d"><td class="memItemLeft" align="right" valign="top"><a id="a399e7ef2f58ddcc76785e21e600af10d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>diag_fv_full_potential_davidson</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__) const</td></tr>
-<tr class="separator:a399e7ef2f58ddcc76785e21e600af10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11c67de34bbf4f23f3f8f211b11cb073"><td class="memItemLeft" align="right" valign="top"><a id="a11c67de34bbf4f23f3f8f211b11cb073"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>apply_fv_o</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, bool apw_only__, bool add_o1__, int N__, int n__, wave_functions &amp;phi__, wave_functions &amp;ophi__) const</td></tr>
 <tr class="separator:a11c67de34bbf4f23f3f8f211b11cb073"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a805e477ea0ce89fb423ae9813e92d2b6"><td class="memItemLeft" align="right" valign="top"><a id="a805e477ea0ce89fb423ae9813e92d2b6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>get_singular_components</b> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__) const</td></tr>
+<tr class="memitem:a805e477ea0ce89fb423ae9813e92d2b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a805e477ea0ce89fb423ae9813e92d2b6">get_singular_components</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__) const</td></tr>
+<tr class="memdesc:a805e477ea0ce89fb423ae9813e92d2b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get singular components of the LAPW overlap matrix.  <a href="#a805e477ea0ce89fb423ae9813e92d2b6">More...</a><br /></td></tr>
 <tr class="separator:a805e477ea0ce89fb423ae9813e92d2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bf366dd0eb00b4ab948de92f31593cc"><td class="memTemplParams" colspan="2"><a id="a4bf366dd0eb00b4ab948de92f31593cc"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4bf366dd0eb00b4ab948de92f31593cc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a4bf366dd0eb00b4ab948de92f31593cc">diag_pseudo_potential_exact</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
 <tr class="memdesc:a4bf366dd0eb00b4ab948de92f31593cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exact (not iterative) diagonalization of the Hamiltonian. <br /></td></tr>
 <tr class="separator:a4bf366dd0eb00b4ab948de92f31593cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ad80289bce3e09d4effb0c8d6192077"><td class="memTemplParams" colspan="2"><a id="a8ad80289bce3e09d4effb0c8d6192077"></a>
+<tr class="memitem:aa6e61434e01adb930efcabaf457a53ac"><td class="memTemplParams" colspan="2"><a id="aa6e61434e01adb930efcabaf457a53ac"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a8ad80289bce3e09d4effb0c8d6192077"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a8ad80289bce3e09d4effb0c8d6192077">diag_pseudo_potential_davidson</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
-<tr class="memdesc:a8ad80289bce3e09d4effb0c8d6192077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterative Davidson diagonalization. <br /></td></tr>
-<tr class="separator:a8ad80289bce3e09d4effb0c8d6192077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6e61434e01adb930efcabaf457a53ac"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#aa6e61434e01adb930efcabaf457a53ac">diag_pseudo_potential_davidson</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
+<tr class="memdesc:aa6e61434e01adb930efcabaf457a53ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterative Davidson diagonalization. <br /></td></tr>
+<tr class="separator:aa6e61434e01adb930efcabaf457a53ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c6e93a25166301db992bd29a38dbd68"><td class="memTemplParams" colspan="2"><a id="a5c6e93a25166301db992bd29a38dbd68"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a5c6e93a25166301db992bd29a38dbd68"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a5c6e93a25166301db992bd29a38dbd68">diag_pseudo_potential_rmm_diis</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, <a class="el" href="../../d4/dcb/classsirius_1_1_d__operator.html">D_operator</a>&lt; T &gt; &amp;d_op__, <a class="el" href="../../d4/d66/classsirius_1_1_q__operator.html">Q_operator</a>&lt; T &gt; &amp;q_op__) const</td></tr>
@@ -326,23 +334,14 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1fcfa9e22eac0a2781d03792c5166fcb"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a1fcfa9e22eac0a2781d03792c5166fcb">residuals</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, int ispn__, int N__, int num_bands__, std::vector&lt; double &gt; &amp;eval__, std::vector&lt; double &gt; &amp;eval_old__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;evec__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;hphi__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;ophi__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;hpsi__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;opsi__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;res__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt; &amp;h_diag__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 1 &gt; &amp;o_diag__) const</td></tr>
 <tr class="memdesc:a1fcfa9e22eac0a2781d03792c5166fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute residuals. <br /></td></tr>
 <tr class="separator:a1fcfa9e22eac0a2781d03792c5166fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed727a5d7460cfca47ac45f6af6213b6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aed727a5d7460cfca47ac45f6af6213b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#aed727a5d7460cfca47ac45f6af6213b6">set_subspace_mtrx</a> (int N__, int n__, <a class="el" href="../../d5/d4a/classsddk_1_1wave__functions.html">wave_functions</a> &amp;phi__, <a class="el" href="../../d5/d4a/classsddk_1_1wave__functions.html">wave_functions</a> &amp;op_phi__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx_old__) const</td></tr>
-<tr class="memdesc:aed727a5d7460cfca47ac45f6af6213b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the Hermitian subspace matrix.  <a href="#aed727a5d7460cfca47ac45f6af6213b6">More...</a><br /></td></tr>
-<tr class="separator:aed727a5d7460cfca47ac45f6af6213b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6eb2dc6d0284e81ae18b1c35f766904"><td class="memTemplParams" colspan="2"><a id="aa6eb2dc6d0284e81ae18b1c35f766904"></a>
+<tr class="memitem:a93e5739eeaa815b88a486ce5969875ba"><td class="memTemplParams" colspan="2">template&lt;typename T , typename W &gt; </td></tr>
+<tr class="memitem:a93e5739eeaa815b88a486ce5969875ba"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a93e5739eeaa815b88a486ce5969875ba">set_subspace_mtrx</a> (int N__, int n__, W &amp;phi__, W &amp;op_phi__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx_old__) const</td></tr>
+<tr class="separator:a93e5739eeaa815b88a486ce5969875ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a98f588aeb55217f6fb29edea8d614"><td class="memTemplParams" colspan="2"><a id="a70a98f588aeb55217f6fb29edea8d614"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa6eb2dc6d0284e81ae18b1c35f766904"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>set_subspace_mtrx</b> (int num_sc__, int N__, int n__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;phi__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;op_phi__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx_old__) const</td></tr>
-<tr class="separator:aa6eb2dc6d0284e81ae18b1c35f766904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f71349de5468310381d877a29707bbd"><td class="memItemLeft" align="right" valign="top"><a id="a8f71349de5468310381d877a29707bbd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a8f71349de5468310381d877a29707bbd">diag_fv_full_potential</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> const &amp;potential__) const</td></tr>
-<tr class="memdesc:a8f71349de5468310381d877a29707bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diagonalize a full-potential Hamiltonian. <br /></td></tr>
-<tr class="separator:a8f71349de5468310381d877a29707bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abad99fc2877360172540b0a1a41df47e"><td class="memTemplParams" colspan="2"><a id="abad99fc2877360172540b0a1a41df47e"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:abad99fc2877360172540b0a1a41df47e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#abad99fc2877360172540b0a1a41df47e">diag_pseudo_potential</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_potential__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *effective_magnetic_field__[3]) const</td></tr>
-<tr class="memdesc:abad99fc2877360172540b0a1a41df47e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diagonalize a pseudo-potential Hamiltonian. <br /></td></tr>
-<tr class="separator:abad99fc2877360172540b0a1a41df47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a98f588aeb55217f6fb29edea8d614"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#a70a98f588aeb55217f6fb29edea8d614">diag_pseudo_potential</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *kp__) const</td></tr>
+<tr class="memdesc:a70a98f588aeb55217f6fb29edea8d614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diagonalize a pseudo-potential Hamiltonian. <br /></td></tr>
+<tr class="separator:a70a98f588aeb55217f6fb29edea8d614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -371,7 +370,8 @@ std::unique_ptr&lt; <a class="el" href="../../d3/d52/class_eigenproblem.html">Ei
 <tr class="memdesc:a65ee266c73c0f8da01fc25db867ad119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface to a generalized eigen-value solver. <br /></td></tr>
 <tr class="separator:a65ee266c73c0f8da01fc25db867ad119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac40372d294214f83f0c149ff0968d19c"><td class="memItemLeft" align="right" valign="top"><a id="ac40372d294214f83f0c149ff0968d19c"></a>
-std::unique_ptr&lt; <a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html">Local_operator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>local_op_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html">Local_operator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html#ac40372d294214f83f0c149ff0968d19c">local_op_</a></td></tr>
+<tr class="memdesc:ac40372d294214f83f0c149ff0968d19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local part of the Hamiltonian operator. <br /></td></tr>
 <tr class="separator:ac40372d294214f83f0c149ff0968d19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -379,8 +379,90 @@ std::unique_ptr&lt; <a class="el" href="../../d6/dfb/classsirius_1_1_local__oper
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dc2/band_8h_source.html#l00042">42</a> of file <a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab1931765c5aa78f13b49e1b2a4f5611f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1931765c5aa78f13b49e1b2a4f5611f">&#9670;&nbsp;</a></span>apply_magnetic_field()</h2>
+<a id="a21221be96ecf5e3a08e5ac7e6fb89f3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21221be96ecf5e3a08e5ac7e6fb89f3c">&#9670;&nbsp;</a></span>solve_with_second_variation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sirius::Band::solve_with_second_variation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> &amp;&#160;</td>
+          <td class="paramname"><em>kp__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;&#160;</td>
+          <td class="paramname"><em>potential__</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Solve the band diagonalziation problem with second variation approach. </p>
+<p>This is only used by the FP-LAPW method. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/da3/solve_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../d0/da3/solve_8hpp_source.html">solve.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a42bd69dfca78788388fb4cdc85877950"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bd69dfca78788388fb4cdc85877950">&#9670;&nbsp;</a></span>diag_fv_exact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sirius::Band::diag_fv_exact </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *&#160;</td>
+          <td class="paramname"><em>kp__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;&#160;</td>
+          <td class="paramname"><em>potential__</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Solve the first-variational (non-magnetic) problem with exact diagonalization. </p>
+<p>This is only used by the LAPW method. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/de1/diag__full__potential_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d8/de1/diag__full__potential_8hpp_source.html">diag_full_potential.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac10c84e35e4ed71e3124ba072b0b53e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac10c84e35e4ed71e3124ba072b0b53e7">&#9670;&nbsp;</a></span>apply_magnetic_field()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,12 +481,6 @@ std::unique_ptr&lt; <a class="el" href="../../d6/dfb/classsirius_1_1_local__oper
           <td></td>
           <td class="paramtype">Gvec const &amp;&#160;</td>
           <td class="paramname"><em>gkvec__</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td>
-          <td class="paramname"><em>effective_magnetic_field__</em>[3], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -428,7 +504,7 @@ std::unique_ptr&lt; <a class="el" href="../../d6/dfb/classsirius_1_1_local__oper
 <p>Apply effective magentic field to the first-variational state. </p>
 <p>Must be called first because hpsi is overwritten with B|fv_j&gt;. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d4c/apply_8hpp_source.html#l00714">714</a> of file <a class="el" href="../../d7/d4c/apply_8hpp_source.html">apply.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d4c/apply_8hpp_source.html#l00672">672</a> of file <a class="el" href="../../d7/d4c/apply_8hpp_source.html">apply.hpp</a>.</p>
 
 </div>
 </div>
@@ -471,6 +547,37 @@ std::unique_ptr&lt; <a class="el" href="../../d6/dfb/classsirius_1_1_local__oper
 \[ L_{\pm} Y_{\ell m}= (L_x \pm i L_y) Y_{\ell m} = \sqrt{\ell(\ell+1) - m(m \pm 1)} Y_{\ell m \pm 1} \]
 </p>
  
+</div>
+</div>
+<a id="a805e477ea0ce89fb423ae9813e92d2b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a805e477ea0ce89fb423ae9813e92d2b6">&#9670;&nbsp;</a></span>get_singular_components()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sirius::Band::get_singular_components </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *&#160;</td>
+          <td class="paramname"><em>kp__</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get singular components of the LAPW overlap matrix. </p>
+<p>Singular components are the eigen-vectors with a very small eigen-value. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/de1/diag__full__potential_8hpp_source.html#l00181">181</a> of file <a class="el" href="../../d8/de1/diag__full__potential_8hpp_source.html">diag_full_potential.hpp</a>.</p>
+
 </div>
 </div>
 <a id="aebbca67883cfe842333e292c7c9d6b9c"></a>
@@ -636,17 +743,17 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc2/band_8h_source.html#l00078">78</a> of file <a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dc2/band_8h_source.html#l00079">79</a> of file <a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a>.</p>
 
 </div>
 </div>
-<a id="aed727a5d7460cfca47ac45f6af6213b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed727a5d7460cfca47ac45f6af6213b6">&#9670;&nbsp;</a></span>set_subspace_mtrx()</h2>
+<a id="a93e5739eeaa815b88a486ce5969875ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e5739eeaa815b88a486ce5969875ba">&#9670;&nbsp;</a></span>set_subspace_mtrx()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T , typename W &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -666,13 +773,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d4a/classsddk_1_1wave__functions.html">wave_functions</a> &amp;&#160;</td>
+          <td class="paramtype">W &amp;&#160;</td>
           <td class="paramname"><em>phi__</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d4a/classsddk_1_1wave__functions.html">wave_functions</a> &amp;&#160;</td>
+          <td class="paramtype">W &amp;&#160;</td>
           <td class="paramname"><em>op_phi__</em>, </td>
         </tr>
         <tr>
@@ -699,11 +806,9 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Setup the Hermitian subspace matrix. </p>
 <p>Compute \( O_{ii&#39;} = \langle \phi_i | \hat O | \phi_{i&#39;} \rangle \) operator matrix for the subspace spanned by the wave-functions \( \phi_i \). The matrix is always returned in the CPU pointer because most of the standard math libraries start from the CPU. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc2/band_8h_source.html#l00253">253</a> of file <a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dc2/band_8h_source.html#l00264">264</a> of file <a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a>.</p>
 
 </div>
 </div>
@@ -760,7 +865,7 @@ template&lt;spin_block_t sblock&gt; </div>
 \[ b_{L_2 \nu_2}^{\alpha}({\bf G&#39;}) = \sum_{L_1 \nu_1} \sum_{L_3} a_{L_1\nu_1}^{\alpha}({\bf G&#39;}) \langle u_{\ell_1\nu_1}^{\alpha} | h_{L3}^{\alpha} | u_{\ell_2\nu_2}^{\alpha} \rangle \langle Y_{L_1} | R_{L_3} | Y_{L_2} \rangle \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d9/dc2/band_8h_source.html#l00577">577</a> of file <a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dc2/band_8h_source.html#l00508">508</a> of file <a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a>.</p>
 
 </div>
 </div>
@@ -977,15 +1082,17 @@ template&lt;device_t pu, electronic_structure_method_t basis&gt; </div>
 \[ o_{j&#39; i}(\psi) = \sum_{j} \langle \phi_{j&#39;} | \phi_{j} \rangle C_{j i} = \sum_{j} C_{j i} o_{\zeta_{j&#39;} \zeta_{j} \ell_j}^{\alpha_j} \delta_{\alpha_j \alpha_{j&#39;}} \delta_{\ell_j \ell_{j&#39;}} \delta_{m_j m_{j&#39;}} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d7/d4c/apply_8hpp_source.html#l00368">368</a> of file <a class="el" href="../../d7/d4c/apply_8hpp_source.html">apply.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d4c/apply_8hpp_source.html#l00362">362</a> of file <a class="el" href="../../d7/d4c/apply_8hpp_source.html">apply.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aec8d635568d9c04451ba84061563bef7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec8d635568d9c04451ba84061563bef7">&#9670;&nbsp;</a></span>initialize_subspace()</h2>
+<a id="a4962804258db9e90e119f854c5e64cb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4962804258db9e90e119f854c5e64cb5">&#9670;&nbsp;</a></span>initialize_subspace() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -993,14 +1100,26 @@ template&lt;device_t pu, electronic_structure_method_t basis&gt; </div>
         <tr>
           <td class="memname">void sirius::Band::initialize_subspace </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/dbd/classsirius_1_1_k__point__set.html">K_point_set</a> &amp;&#160;</td>
-          <td class="paramname"><em>kset__</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *&#160;</td>
+          <td class="paramname"><em>kp__</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;&#160;</td>
-          <td class="paramname"><em>potential__</em>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_ao__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d9d/classsirius_1_1_radial__grid__lin.html">Radial_grid_lin</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>qgrid__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt;&gt;&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rad_int__</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1014,14 +1133,13 @@ template&lt;device_t pu, electronic_structure_method_t basis&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Initialize the wave-functions subspace. </p>
 <ul>
-<li>create jl(qx) */</li>
-<li>interpolate atomic_pseudo_wfs(r) */</li>
-<li>create jl(qx) */</li>
-<li>interpolate atomic_pseudo_wfs(r) */ </li>
+<li>solve generalized eigen-value problem with the size N */ </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d80/initialize__subspace_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d2/d80/initialize__subspace_8hpp_source.html">initialize_subspace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dc2/band_8h_source.html#l00091">91</a> of file <a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a>.</p>
 
 </div>
 </div>
@@ -1172,14 +1290,70 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d4c/apply_8hpp_source.html#l00077">77</a> of file <a class="el" href="../../d7/d4c/apply_8hpp_source.html">apply.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d4c/apply_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../d7/d4c/apply_8hpp_source.html">apply.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4962804258db9e90e119f854c5e64cb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4962804258db9e90e119f854c5e64cb5">&#9670;&nbsp;</a></span>initialize_subspace() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sirius::Band::initialize_subspace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> *&#160;</td>
+          <td class="paramname"><em>kp__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_ao__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d9d/classsirius_1_1_radial__grid__lin.html">Radial_grid_lin</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>qgrid__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt;&gt;&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rad_int__</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<ul>
+<li>solve generalized eigen-value problem with the size N */ </li>
+</ul>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d80/initialize__subspace_8hpp_source.html#l00090">90</a> of file <a class="el" href="../../d2/d80/initialize__subspace_8hpp_source.html">initialize_subspace.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="../../d9/dc2/band_8h_source.html">band.h</a></li>
 <li><a class="el" href="../../d7/d4c/apply_8hpp_source.html">apply.hpp</a></li>
-<li><a class="el" href="../../d1/daf/diagonalize_8hpp_source.html">diagonalize.hpp</a></li>
+<li><a class="el" href="../../d8/de1/diag__full__potential_8hpp_source.html">diag_full_potential.hpp</a></li>
+<li><a class="el" href="../../d6/d3c/diag__pseudo__potential_8hpp_source.html">diag_pseudo_potential.hpp</a></li>
 <li><a class="el" href="../../d5/d93/get__h__o__diag_8hpp_source.html">get_h_o_diag.hpp</a></li>
 <li><a class="el" href="../../d2/d80/initialize__subspace_8hpp_source.html">initialize_subspace.hpp</a></li>
 <li><a class="el" href="../../dc/d95/residuals_8hpp_source.html">residuals.hpp</a></li>
@@ -1189,7 +1363,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

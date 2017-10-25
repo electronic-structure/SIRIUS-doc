@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['callback',['callback',['../db/d50/classnlohmann_1_1basic__json_1_1parser.html#a8ea1870aa64698f46b777e2863fde801',1,'nlohmann::basic_json::parser']]],
+  ['callback',['callback',['../df/d6b/classnlohmann_1_1detail_1_1parser.html#a7600d272ec605e3ffdc8512b3585f476',1,'nlohmann::detail::parser']]],
+  ['chars_5fread',['chars_read',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#aab991bcbf230c372b276742f1790ba5b',1,'nlohmann::detail::lexer::chars_read()'],['../d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a2dbde0b7390100efe0bfc54e21c3a34b',1,'nlohmann::detail::binary_reader::chars_read()']]],
+  ['check_5fpseudo_5fcharge',['check_pseudo_charge',['../db/d16/config_8h.html#ad2b82c6d2b4e051563be9db2a809d2ee',1,'config.h']]],
   ['comm_5f',['comm_',['../d1/d76/classsirius_1_1_mixer.html#a920558ecc11adbe9ea9a6aa968ba1f8c',1,'sirius::Mixer::comm_()'],['../dc/dd3/classsddk_1_1_f_f_t3_d.html#a1002c79cdd90213b476d9b768fb7a94a',1,'sddk::FFT3D::comm_()'],['../dc/d9b/classsddk_1_1_gvec.html#af8b6dd15077c6c925d16d57fbd5a54a1',1,'sddk::Gvec::comm_()'],['../d7/d14/classsddk_1_1_communicator__bundle.html#a52c81fdbb0adad9374a979613362c85a',1,'sddk::Communicator_bundle::comm_()'],['../d5/d4a/classsddk_1_1wave__functions.html#a6da39d163a57536020b4efc9c37e6c67',1,'sddk::wave_functions::comm_()'],['../db/d7d/classsirius_1_1_simulation__context__base.html#a0e471d39b33c103bd16a90bac11ac020',1,'sirius::Simulation_context_base::comm_()']]],
   ['comm_5fcol_5f',['comm_col_',['../d1/daf/classsirius_1_1_k__point.html#a1b3082dec0fd4c73b6d4518e4bdcc2b6',1,'sirius::K_point::comm_col_()'],['../d9/db3/classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#a2f05129f92a39e45d4068e6fe5442b90',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;::comm_col_()']]],
   ['comm_5ffft_5f',['comm_fft_',['../dc/d9b/classsddk_1_1_gvec.html#a14f019949de6fd1fa0f1b6c688984787',1,'sddk::Gvec']]],
@@ -10,7 +12,8 @@ var searchData=
   ['communicator_5fsize_5f',['communicator_size_',['../d0/d85/classsddk_1_1_m_p_i__grid.html#af72671f0ea2a1d9e3f4e8d936623da7f',1,'sddk::MPI_grid']]],
   ['communicators_5f',['communicators_',['../d0/d85/classsddk_1_1_m_p_i__grid.html#a9afcd6e7fd32182f481e812593fdd430',1,'sddk::MPI_grid']]],
   ['components_5f',['components_',['../d9/d04/classsddk_1_1_wave__functions.html#a2da837702ac775326f2dfe738489f395',1,'sddk::Wave_functions']]],
-  ['container',['container',['../dc/ddf/classnlohmann_1_1basic__json_1_1iteration__proxy.html#acedcb3422746ac0672d359407a1be56c',1,'nlohmann::basic_json::iteration_proxy']]],
+  ['container',['container',['../db/dda/classnlohmann_1_1detail_1_1iteration__proxy.html#a88c0532ba4a5de1d527b18053b24fd19',1,'nlohmann::detail::iteration_proxy']]],
+  ['converge_5fby_5fenergy_5f',['converge_by_energy_',['../d2/d11/structsirius_1_1_iterative__solver__input.html#a14a5ca89db37ee0eafb24ef25205fa3f',1,'sirius::Iterative_solver_input']]],
   ['coord_5f',['coord_',['../d1/d08/classsirius_1_1_s_h_t.html#a2d25f24d0ebb54b7e8764206a2c2c5c7',1,'sirius::SHT']]],
   ['coordinates_5f',['coordinates_',['../d7/d51/structsirius_1_1_unit__cell__input.html#a74846aa4b156f989eff1dae9976d413e',1,'sirius::Unit_cell_input::coordinates_()'],['../d0/d85/classsddk_1_1_m_p_i__grid.html#a1380d50484c89e5d92d8ff48b83f2f96',1,'sddk::MPI_grid::coordinates_()']]],
   ['core',['core',['../d8/ddb/structatomic__level__descriptor.html#a6b236231375cd46a86d69c189e96a08d',1,'atomic_level_descriptor']]],
@@ -20,8 +23,10 @@ var searchData=
   ['core_5fleakage_5f',['core_leakage_',['../d5/d15/classsirius_1_1_atom__symmetry__class.html#a511011ad2a11f0ff95ba77c7801bcdac',1,'sirius::Atom_symmetry_class']]],
   ['core_5frelativity_5f',['core_relativity_',['../d0/d04/classsirius_1_1_simulation__parameters.html#ab54050138f051531ef2be6db38b41d66',1,'sirius::Simulation_parameters']]],
   ['count_5f',['count_',['../d1/d76/classsirius_1_1_mixer.html#adced2a7404dfce163d13420a6a97fee9',1,'sirius::Mixer']]],
-  ['ctx_5f',['ctx_',['../d5/d1f/classsirius_1_1_band.html#a355ecbcf2139f3a5ae0ff33aa2409d58',1,'sirius::Band::ctx_()'],['../d1/daf/classsirius_1_1_k__point.html#a27a93d5256b4cc87a63431d3ed765573',1,'sirius::K_point::ctx_()']]],
+  ['ctx_5f',['ctx_',['../d5/d1f/classsirius_1_1_band.html#a355ecbcf2139f3a5ae0ff33aa2409d58',1,'sirius::Band::ctx_()'],['../d7/d05/classsirius_1_1_density.html#a212af02a98fc061951f927bdf4a7d5f4',1,'sirius::Density::ctx_()'],['../d1/daf/classsirius_1_1_k__point.html#a27a93d5256b4cc87a63431d3ed765573',1,'sirius::K_point::ctx_()']]],
   ['cufft_5fplan_5fxy_5f',['cufft_plan_xy_',['../dc/dd3/classsddk_1_1_f_f_t3_d.html#a7819df1c1ea576622c94a078bf34bdbf',1,'sddk::FFT3D']]],
   ['cufft_5fplan_5fz_5f',['cufft_plan_z_',['../dc/dd3/classsddk_1_1_f_f_t3_d.html#a62151c9726c5dc0ea56f3da721506ac5',1,'sddk::FFT3D']]],
-  ['cufft_5fwork_5fbuf_5f',['cufft_work_buf_',['../dc/dd3/classsddk_1_1_f_f_t3_d.html#ab808ebb702ad2ccb83c1c90afa7e9a1e',1,'sddk::FFT3D']]]
+  ['cufft_5fwork_5fbuf_5f',['cufft_work_buf_',['../dc/dd3/classsddk_1_1_f_f_t3_d.html#ab808ebb702ad2ccb83c1c90afa7e9a1e',1,'sddk::FFT3D']]],
+  ['current',['current',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#ae6ec9eb17b3c086ebb1d0ef9edbcf313',1,'nlohmann::detail::lexer::current()'],['../d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a7e994e201b215cd6d6ae28a1853f43e0',1,'nlohmann::detail::binary_reader::current()']]],
+  ['cursor',['cursor',['../d8/dba/classnlohmann_1_1detail_1_1input__buffer__adapter.html#a49e6c8b6555af489a45ef51737eafa1c',1,'nlohmann::detail::input_buffer_adapter']]]
 ];

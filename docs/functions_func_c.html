@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -90,20 +90,23 @@ $(function() {
 <li>calc_stress_vloc()
 : <a class="el" href="df/db7/classsirius_1_1_stress.html#a64f519808a8ea0d495496623164ba7e4">sirius::Stress</a>
 </li>
+<li>calc_stress_xc()
+: <a class="el" href="df/db7/classsirius_1_1_stress.html#ab4cfd6e82c4515a85bbcb8b66ac5422f">sirius::Stress</a>
+</li>
 <li>cart_rank()
 : <a class="el" href="da/d70/classsddk_1_1_communicator.html#a5b51e018dad47b4b5cb194d767d339a4">sddk::Communicator</a>
 </li>
 <li>cbegin()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#ad865d6c291b237ae508d5cb2146b5877">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 </li>
-<li>cbor_expect_string()
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#acdbbbc4c78c2575daf5420e62ca9db33">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
-</li>
 <li>cend()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a8dba7b7d2f38e6b0c614030aa43983f6">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 </li>
 <li>check_density_continuity_at_mt()
 : <a class="el" href="d7/d05/classsirius_1_1_density.html#aba49bccd299f66e8673c5930c46f2972">sirius::Density</a>
+</li>
+<li>check_eof()
+: <a class="el" href="d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a75607986bf6527e5daed9e27b1d2b4ef">nlohmann::detail::binary_reader&lt; BasicJsonType &gt;</a>
 </li>
 <li>check_lo_linear_independence()
 : <a class="el" href="d5/d15/classsirius_1_1_atom__symmetry__class.html#aff6a257253ffda866c1dc0b43aa5f711">sirius::Atom_symmetry_class</a>
@@ -143,14 +146,20 @@ $(function() {
 <li>Communicator()
 : <a class="el" href="da/d70/classsddk_1_1_communicator.html#a1a6949d5b0ab726398e2e72f01a4eeed">sddk::Communicator</a>
 </li>
+<li>compare_index_beta_functions()
+: <a class="el" href="d3/d37/classsirius_1_1_atom__type.html#a790ca22876f897c2046cb4a3c7d47151">sirius::Atom_type</a>
+</li>
 <li>component()
 : <a class="el" href="d9/d04/classsddk_1_1_wave__functions.html#ac8c336d3b653ac47a7102b0fafbe73a7">sddk::Wave_functions</a>
+</li>
+<li>compute_atomic_mag_mom()
+: <a class="el" href="d7/d05/classsirius_1_1_density.html#a47ed357c44454904f5c42de0d4c3058c">sirius::Density</a>
 </li>
 <li>compute_dmat()
 : <a class="el" href="d5/d79/classsirius_1_1_force.html#a1c2dd9afd7532ca65d6b2faabea96ec9">sirius::Force</a>
 </li>
 <li>convert()
-: <a class="el" href="d1/d08/classsirius_1_1_s_h_t.html#aa57dfb45d2523eee44358090b35d3e8e">sirius::SHT</a>
+: <a class="el" href="d1/d08/classsirius_1_1_s_h_t.html#ac3b85958c6887d1080a4711787737345">sirius::SHT</a>
 </li>
 <li>coordinate()
 : <a class="el" href="d0/d85/classsddk_1_1_m_p_i__grid.html#acbefb416f95f1094fad4a35b15f8edb8">sddk::MPI_grid</a>
@@ -171,7 +180,7 @@ $(function() {
 : <a class="el" href="d6/d4c/classsirius_1_1_d_f_t__ground__state.html#abb29f56a3450d64031d144c61a2f7a6d">sirius::DFT_ground_state</a>
 </li>
 <li>core_leakage()
-: <a class="el" href="d7/d05/classsirius_1_1_density.html#a83815f2fca3c06cfad1fc1f3e1a3db73">sirius::Density</a>
+: <a class="el" href="d7/d05/classsirius_1_1_density.html#a34e844177d1e5a116dc27e5886ca1f58">sirius::Density</a>
 </li>
 <li>cosxn()
 : <a class="el" href="d1/d08/classsirius_1_1_s_h_t.html#a8246252ec4c32a7c394e2b736adb0c96">sirius::SHT</a>
@@ -185,13 +194,13 @@ $(function() {
 </li>
 <li>create()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a81100399cf3e2be457937be7db3f5729">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
-, <a class="el" href="d5/d1a/classnlohmann_1_1detail_1_1parse__error.html#a53dd6b47379f42dbf3fe12500614adcb">nlohmann::detail::parse_error</a>
+, <a class="el" href="d5/d1a/classnlohmann_1_1detail_1_1parse__error.html#afa1309963015ca57c2b0404b1c027657">nlohmann::detail::parse_error</a>
 </li>
 <li>create_blacs_handler()
 : <a class="el" href="db/d14/classsddk_1_1linalg__base.html#a8166494efb19ac4d5f8fd0ac7660dc30">sddk::linalg_base</a>
 </li>
 <li>create_node()
-: <a class="el" href="d0/de8/classsirius_1_1_h_d_f5__tree.html#a5791cd665a746fe6e43d86dd3cfcec94">sirius::HDF5_tree</a>
+: <a class="el" href="d0/de8/classsirius_1_1_h_d_f5__tree.html#a8bc9601880e0c4cfa67684341d9383b3">sirius::HDF5_tree</a>
 </li>
 <li>crend()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a5795b029dbf28e0cb2c7a439ec5d0a88">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
@@ -200,7 +209,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:40 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

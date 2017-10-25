@@ -5,6 +5,8 @@ var searchData=
   ['name_5f',['name_',['../d9/dbf/classsirius_1_1_radial__grid.html#a69ef061e3d74880674caeeebfb8c15fa',1,'sirius::Radial_grid::name_()'],['../d3/d37/classsirius_1_1_atom__type.html#aaed973114158f85972d3aee81d4a5682',1,'sirius::Atom_type::name_()']]],
   ['nearest_5fneighbours_5f',['nearest_neighbours_',['../d6/dd1/classsirius_1_1_unit__cell.html#a4362a0696328acee16058705d538c4f4',1,'sirius::Unit_cell']]],
   ['need_5fto_5ffree_5f',['need_to_free_',['../da/d70/classsddk_1_1_communicator.html#a7dfce793f7d5571fb69dcfac81814403',1,'sddk::Communicator']]],
+  ['next_5funget',['next_unget',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#ae8bedb97b907ba6347c5b2f2666ca01f',1,'nlohmann::detail::lexer']]],
+  ['nprii_5fvloc_5f',['nprii_vloc_',['../d6/de3/structsirius_1_1_settings__input.html#a489809342e52fc85edd6e5e40d60dadb',1,'sirius::Settings_input']]],
   ['num_5fbeta_5fradial_5ffunctions',['num_beta_radial_functions',['../db/d3d/structpseudopotential__descriptor.html#a742d7a1e24c47a67de4c39872fdc42da',1,'pseudopotential_descriptor']]],
   ['num_5fbeta_5fradial_5fpoints',['num_beta_radial_points',['../db/d3d/structpseudopotential__descriptor.html#abb989ec455c493c88f4d115afba25afd',1,'pseudopotential_descriptor']]],
   ['num_5fbeta_5ft_5f',['num_beta_t_',['../dc/df9/classsirius_1_1_beta__projector__chunks.html#aa92cc3d1df408c0f37b5b01b4182622c',1,'sirius::Beta_projector_chunks']]],
@@ -29,7 +31,7 @@ var searchData=
   ['num_5fsteps_5f',['num_steps_',['../d2/d11/structsirius_1_1_iterative__solver__input.html#a73fe941b455d95f6e08742a8deb434d9',1,'sirius::Iterative_solver_input']]],
   ['num_5fvalence_5felectrons_5f',['num_valence_electrons_',['../d3/d37/classsirius_1_1_atom__type.html#afa5cc846e55d43ea12344f8130da0e0e',1,'sirius::Atom_type::num_valence_electrons_()'],['../d6/dd1/classsirius_1_1_unit__cell.html#abd38f81cdedf2bad43dd2746bb866e0e',1,'sirius::Unit_cell::num_valence_electrons_()']]],
   ['num_5fwf_5f',['num_wf_',['../d5/d4a/classsddk_1_1wave__functions.html#aaf6c5919b9e7f96cf471af81bcf5e5cf',1,'sddk::wave_functions']]],
-  ['number_5fbuffer',['number_buffer',['../dd/df2/classnlohmann_1_1basic__json_1_1serializer.html#a6f98a228177d7898cf5bd9f9bd1a335c',1,'nlohmann::basic_json::serializer']]],
+  ['number_5fbuffer',['number_buffer',['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html#a1a9d8b344a6cb47728a3519693ec03d1',1,'nlohmann::detail::serializer']]],
   ['number_5ffloat',['number_float',['../d1/de3/unionnlohmann_1_1basic__json_1_1json__value.html#ad003495e39e78b8096e0b6fc690d146f',1,'nlohmann::basic_json::json_value']]],
   ['number_5finteger',['number_integer',['../d1/de3/unionnlohmann_1_1basic__json_1_1json__value.html#afa3c414445aeffb56a7c6926f9420941',1,'nlohmann::basic_json::json_value']]],
   ['number_5funsigned',['number_unsigned',['../d1/de3/unionnlohmann_1_1basic__json_1_1json__value.html#a0299a6aa3bc4d45d54130e52970f73d3',1,'nlohmann::basic_json::json_value']]]

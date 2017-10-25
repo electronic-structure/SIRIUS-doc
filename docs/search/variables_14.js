@@ -14,5 +14,8 @@ var searchData=
   ['vk_5f',['vk_',['../d1/daf/classsirius_1_1_k__point.html#a7d2852ebbede1528de4b8464f9ab1a7a',1,'sirius::K_point::vk_()'],['../dc/d9b/classsddk_1_1_gvec.html#a551efdd55a49e52f00682180671a8560',1,'sddk::Gvec::vk_()']]],
   ['vloc',['vloc',['../db/d3d/structpseudopotential__descriptor.html#a32f0a72237d6c04f33b63b5811352892',1,'pseudopotential_descriptor']]],
   ['volume_5fit_5f',['volume_it_',['../d6/dd1/classsirius_1_1_unit__cell.html#ad9356b5d033e2cf0d02cc31d78db3561',1,'sirius::Unit_cell']]],
-  ['volume_5fmt_5f',['volume_mt_',['../d6/dd1/classsirius_1_1_unit__cell.html#abc60aef6ddce77ee141f793d241a7954',1,'sirius::Unit_cell']]]
+  ['volume_5fmt_5f',['volume_mt_',['../d6/dd1/classsirius_1_1_unit__cell.html#abc60aef6ddce77ee141f793d241a7954',1,'sirius::Unit_cell']]],
+  ['vphi1_5f',['vphi1_',['../d6/dfb/classsirius_1_1_local__operator.html#a5abe267f9ac871cdee5b8a9c4da9540f',1,'sirius::Local_operator']]],
+  ['vphi2_5f',['vphi2_',['../d6/dfb/classsirius_1_1_local__operator.html#a02c46e60c2e63850bc20c054d9463030',1,'sirius::Local_operator']]],
+  ['vsigma_5f',['vsigma_',['../d2/d0b/classsirius_1_1_potential.html#a8bfbcae94d3935db0be03f732f98001b',1,'sirius::Potential']]]
 ];

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -86,7 +86,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d50/classsirius_1_1_radial__integrals__aug__inherit__graph.svg" width="167" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d50/classsirius_1_1_radial__integrals__aug__inherit__graph.svg" width="134" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -103,9 +103,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ee822ddda401151c1f215f457983fd5"><td class="memItemLeft" align="right" valign="top"><a id="a8ee822ddda401151c1f215f457983fd5"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Radial_integrals_aug</b> (<a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html">Unit_cell</a> const &amp;unit_cell__, double qmax__, int np__)</td></tr>
 <tr class="separator:a8ee822ddda401151c1f215f457983fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93548d2c435bf6ba763a0daccfb7b2d9"><td class="memItemLeft" align="right" valign="top"><a id="a93548d2c435bf6ba763a0daccfb7b2d9"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>value</b> (int idx__, int l__, int iat__, double q__) const</td></tr>
-<tr class="separator:a93548d2c435bf6ba763a0daccfb7b2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f70df25aa0ebd7658423756e0e411a4"><td class="memItemLeft" align="right" valign="top"><a id="a4f70df25aa0ebd7658423756e0e411a4"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>values</b> (int iat__, double q__) const</td></tr>
 <tr class="separator:a4f70df25aa0ebd7658423756e0e411a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,9 +111,12 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>value</b> (int idx_
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a8e87c17172bef03883f295273d9abc8c">Radial_integrals_base</a> (<a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html">Unit_cell</a> const &amp;unit_cell__, double qmax__, int np__)</td></tr>
 <tr class="memdesc:a8e87c17172bef03883f295273d9abc8c inherit pub_methods_classsirius_1_1_radial__integrals__base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:a8e87c17172bef03883f295273d9abc8c inherit pub_methods_classsirius_1_1_radial__integrals__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa10344495f36cfb828146bfa409707 inherit pub_methods_classsirius_1_1_radial__integrals__base"><td class="memItemLeft" align="right" valign="top"><a id="a7aa10344495f36cfb828146bfa409707"></a>
-std::pair&lt; int, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>iqdq</b> (double q__) const</td></tr>
+<tr class="memitem:a7aa10344495f36cfb828146bfa409707 inherit pub_methods_classsirius_1_1_radial__integrals__base"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a7aa10344495f36cfb828146bfa409707">iqdq</a> (double q__) const</td></tr>
+<tr class="memdesc:a7aa10344495f36cfb828146bfa409707 inherit pub_methods_classsirius_1_1_radial__integrals__base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get starting index iq and delta dq for the q-point on the linear grid.  <a href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a7aa10344495f36cfb828146bfa409707">More...</a><br /></td></tr>
 <tr class="separator:a7aa10344495f36cfb828146bfa409707 inherit pub_methods_classsirius_1_1_radial__integrals__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc29bc3647174b8f7e4fbddee2abadc inherit pub_methods_classsirius_1_1_radial__integrals__base"><td class="memItemLeft" align="right" valign="top"><a id="a1cc29bc3647174b8f7e4fbddee2abadc"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>value</b> (Args... args, double q__) const</td></tr>
+<tr class="separator:a1cc29bc3647174b8f7e4fbddee2abadc inherit pub_methods_classsirius_1_1_radial__integrals__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -135,6 +135,10 @@ Additional Inherited Members</h2></td></tr>
 <a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#afdb5a82d6373e6668c533efb1adf9b09">grid_q_</a></td></tr>
 <tr class="memdesc:afdb5a82d6373e6668c533efb1adf9b09 inherit pro_attribs_classsirius_1_1_radial__integrals__base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear grid of q-points on which the interpolation of radial integrals is done. <br /></td></tr>
 <tr class="separator:afdb5a82d6373e6668c533efb1adf9b09 inherit pro_attribs_classsirius_1_1_radial__integrals__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be2c3ec601538e8c633ef9944bdb383 inherit pro_attribs_classsirius_1_1_radial__integrals__base"><td class="memItemLeft" align="right" valign="top"><a id="a8be2c3ec601538e8c633ef9944bdb383"></a>
+<a class="el" href="../../d2/dc9/classsddk_1_1splindex.html">splindex</a>&lt; block &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a8be2c3ec601538e8c633ef9944bdb383">spl_q_</a></td></tr>
+<tr class="memdesc:a8be2c3ec601538e8c633ef9944bdb383 inherit pro_attribs_classsirius_1_1_radial__integrals__base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split index of q-points. <br /></td></tr>
+<tr class="separator:a8be2c3ec601538e8c633ef9944bdb383 inherit pro_attribs_classsirius_1_1_radial__integrals__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bd9f42f12a9dda07bd006edbb5ef3e0 inherit pro_attribs_classsirius_1_1_radial__integrals__base"><td class="memItemLeft" align="right" valign="top"><a id="a9bd9f42f12a9dda07bd006edbb5ef3e0"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt;, N &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/classsirius_1_1_radial__integrals__base.html#a9bd9f42f12a9dda07bd006edbb5ef3e0">values_</a></td></tr>
 <tr class="memdesc:a9bd9f42f12a9dda07bd006edbb5ef3e0 inherit pro_attribs_classsirius_1_1_radial__integrals__base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array with integrals. <br /></td></tr>
@@ -146,14 +150,14 @@ class sirius::Radial_integrals_aug&lt; jl_deriv &gt;</h3>
 
 <p>Radial integrals of the augmentation operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d58/radial__integrals_8h_source.html#l00068">68</a> of file <a class="el" href="../../de/d58/radial__integrals_8h_source.html">radial_integrals.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d58/radial__integrals_8h_source.html#l00082">82</a> of file <a class="el" href="../../de/d58/radial__integrals_8h_source.html">radial_integrals.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="../../de/d58/radial__integrals_8h_source.html">radial_integrals.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

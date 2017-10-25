@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -70,7 +70,11 @@ $(function() {
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>callback
-: <a class="el" href="db/d50/classnlohmann_1_1basic__json_1_1parser.html#a8ea1870aa64698f46b777e2863fde801">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::parser</a>
+: <a class="el" href="df/d6b/classnlohmann_1_1detail_1_1parser.html#a7600d272ec605e3ffdc8512b3585f476">nlohmann::detail::parser&lt; BasicJsonType &gt;</a>
+</li>
+<li>chars_read
+: <a class="el" href="d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a2dbde0b7390100efe0bfc54e21c3a34b">nlohmann::detail::binary_reader&lt; BasicJsonType &gt;</a>
+, <a class="el" href="d8/d22/classnlohmann_1_1detail_1_1lexer.html#aab991bcbf230c372b276742f1790ba5b">nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
 </li>
 <li>comm_
 : <a class="el" href="d7/d14/classsddk_1_1_communicator__bundle.html#a52c81fdbb0adad9374a979613362c85a">sddk::Communicator_bundle</a>
@@ -106,7 +110,10 @@ $(function() {
 : <a class="el" href="d9/d04/classsddk_1_1_wave__functions.html#a2da837702ac775326f2dfe738489f395">sddk::Wave_functions</a>
 </li>
 <li>container
-: <a class="el" href="dc/ddf/classnlohmann_1_1basic__json_1_1iteration__proxy.html#acedcb3422746ac0672d359407a1be56c">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::iteration_proxy&lt; IteratorType &gt;</a>
+: <a class="el" href="db/dda/classnlohmann_1_1detail_1_1iteration__proxy.html#a88c0532ba4a5de1d527b18053b24fd19">nlohmann::detail::iteration_proxy&lt; IteratorType &gt;</a>
+</li>
+<li>converge_by_energy_
+: <a class="el" href="d2/d11/structsirius_1_1_iterative__solver__input.html#a14a5ca89db37ee0eafb24ef25205fa3f">sirius::Iterative_solver_input</a>
 </li>
 <li>coord_
 : <a class="el" href="d1/d08/classsirius_1_1_s_h_t.html#a2d25f24d0ebb54b7e8764206a2c2c5c7">sirius::SHT</a>
@@ -138,6 +145,7 @@ $(function() {
 </li>
 <li>ctx_
 : <a class="el" href="d5/d1f/classsirius_1_1_band.html#a355ecbcf2139f3a5ae0ff33aa2409d58">sirius::Band</a>
+, <a class="el" href="d7/d05/classsirius_1_1_density.html#a212af02a98fc061951f927bdf4a7d5f4">sirius::Density</a>
 , <a class="el" href="d1/daf/classsirius_1_1_k__point.html#a27a93d5256b4cc87a63431d3ed765573">sirius::K_point</a>
 </li>
 <li>cufft_plan_xy_
@@ -149,11 +157,18 @@ $(function() {
 <li>cufft_work_buf_
 : <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#ab808ebb702ad2ccb83c1c90afa7e9a1e">sddk::FFT3D</a>
 </li>
+<li>current
+: <a class="el" href="d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a7e994e201b215cd6d6ae28a1853f43e0">nlohmann::detail::binary_reader&lt; BasicJsonType &gt;</a>
+, <a class="el" href="d8/d22/classnlohmann_1_1detail_1_1lexer.html#ae6ec9eb17b3c086ebb1d0ef9edbcf313">nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
+</li>
+<li>cursor
+: <a class="el" href="d8/dba/classnlohmann_1_1detail_1_1input__buffer__adapter.html#a49e6c8b6555af489a45ef51737eafa1c">nlohmann::detail::input_buffer_adapter</a>
+</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:40 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

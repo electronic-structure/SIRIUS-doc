@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -86,7 +86,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dce/structsirius_1_1_unit__cell__input__coll__graph.svg" width="162" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dce/structsirius_1_1_unit__cell__input__coll__graph.svg" width="130" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -129,7 +129,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parse unit cell input section. </p>
-<p>The following part of the input file is parsed: </p><div class="fragment"><div class="line">&quot;unit_cell&quot; : {</div><div class="line">    &quot;lattice_vectors&quot; : [</div><div class="line">        [a1_x, a1_y, a1_z],</div><div class="line">        [a2_x, a2_y, a2_z],</div><div class="line">        [a3_x, a3_y, a3_z]</div><div class="line">    ],</div><div class="line"></div><div class="line">    &quot;lattice_vectors_scale&quot; : scale,</div><div class="line"></div><div class="line">    &quot;atom_types&quot; : [label_A, label_B, ...],</div><div class="line"></div><div class="line">    &quot;atom_files&quot; : {</div><div class="line">        label_A : file_A, </div><div class="line">        label_B : file_B,</div><div class="line">        ...</div><div class="line">    },</div><div class="line"></div><div class="line">    &quot;atom_coordinate_units&quot; : units,</div><div class="line"></div><div class="line">    &quot;atoms&quot; : {</div><div class="line">        label_A: [</div><div class="line">            coordinates_A_1, </div><div class="line">            coordinates_A_2,</div><div class="line">            ...</div><div class="line">        ],</div><div class="line">        label_B : [</div><div class="line">            coordinates_B_1,</div><div class="line">            coordinates_B_2,</div><div class="line">            ...</div><div class="line">        ]</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --><p>The "atom_coordinate_units" string is optional. By default it is set to "lattice" which means that the atomic coordinates are provided in lattice (fractional) units. It can also be specified in "A" or "au" which means that the input atomic coordinates are Cartesian and provided in Angstroms or atomic units of length. This is useful in setting up the molecule calculation. </p>
+<p>The following part of the input file is parsed: </p><div class="fragment"><div class="line">&quot;unit_cell&quot; : {</div><div class="line">    &quot;lattice_vectors&quot; : [</div><div class="line">        [a1_x, a1_y, a1_z],</div><div class="line">        [a2_x, a2_y, a2_z],</div><div class="line">        [a3_x, a3_y, a3_z]</div><div class="line">    ],</div><div class="line"></div><div class="line">    &quot;lattice_vectors_scale&quot; : scale,</div><div class="line"></div><div class="line">    &quot;atom_types&quot; : [label_A, label_B, ...],</div><div class="line"></div><div class="line">    &quot;atom_files&quot; : {</div><div class="line">        label_A : file_A,</div><div class="line">        label_B : file_B,</div><div class="line">        ...</div><div class="line">    },</div><div class="line"></div><div class="line">    &quot;atom_coordinate_units&quot; : units,</div><div class="line"></div><div class="line">    &quot;atoms&quot; : {</div><div class="line">        label_A: [</div><div class="line">            coordinates_A_1,</div><div class="line">            coordinates_A_2,</div><div class="line">            ...</div><div class="line">        ],</div><div class="line">        label_B : [</div><div class="line">            coordinates_B_1,</div><div class="line">            coordinates_B_2,</div><div class="line">            ...</div><div class="line">        ]</div><div class="line">    }</div><div class="line">}</div></div><!-- fragment --><p>The "atom_coordinate_units" string is optional. By default it is set to "lattice" which means that the atomic coordinates are provided in lattice (fractional) units. It can also be specified in "A" or "au" which means that the input atomic coordinates are Cartesian and provided in Angstroms or atomic units of length. This is useful in setting up the molecule calculation. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00077">77</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
@@ -148,7 +148,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <p>Atomic coordinates. </p>
 <p>Outer vector size is equal to the number of atom types. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00091">91</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00096">96</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 
 </div>
 </div>
@@ -158,7 +158,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:40 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

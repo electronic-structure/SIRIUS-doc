@@ -3,15 +3,18 @@ var searchData=
   ['emplace',['emplace',['../d9/dcc/classnlohmann_1_1basic__json.html#a5338e282d1d02bed389d852dd670d98d',1,'nlohmann::basic_json']]],
   ['emplace_5fback',['emplace_back',['../d9/dcc/classnlohmann_1_1basic__json.html#aacf5eed15a8b66fb1e88910707a5e229',1,'nlohmann::basic_json']]],
   ['empty',['empty',['../d9/dcc/classnlohmann_1_1basic__json.html#a1a86d444bfeaa9518d2421aedd74444a',1,'nlohmann::basic_json']]],
-  ['end',['end',['../d9/dcc/classnlohmann_1_1basic__json.html#a13e032a02a7fd8a93fdddc2fcbc4763c',1,'nlohmann::basic_json::end() noexcept'],['../d9/dcc/classnlohmann_1_1basic__json.html#a1c15707055088cd5436ae91db72cbe67',1,'nlohmann::basic_json::end() const noexcept'],['../dc/ddf/classnlohmann_1_1basic__json_1_1iteration__proxy.html#a96373fd95d730d50c78974cf7fa8c3a8',1,'nlohmann::basic_json::iteration_proxy::end()'],['../df/d46/classsddk_1_1mdarray__index__descriptor.html#a1ed4137b4e9af38c55a71b7fd5c21c03',1,'sddk::mdarray_index_descriptor::end()']]],
+  ['end',['end',['../db/dda/classnlohmann_1_1detail_1_1iteration__proxy.html#a41303419d073f32fcf1956978410d816',1,'nlohmann::detail::iteration_proxy::end()'],['../d9/dcc/classnlohmann_1_1basic__json.html#a13e032a02a7fd8a93fdddc2fcbc4763c',1,'nlohmann::basic_json::end() noexcept'],['../d9/dcc/classnlohmann_1_1basic__json.html#a1c15707055088cd5436ae91db72cbe67',1,'nlohmann::basic_json::end() const noexcept'],['../df/d46/classsddk_1_1mdarray__index__descriptor.html#a1ed4137b4e9af38c55a71b7fd5c21c03',1,'sddk::mdarray_index_descriptor::end()']]],
   ['energy_5fenuc',['energy_enuc',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#aab464627163fb55bdeaf24e51b247b62',1,'sirius::DFT_ground_state']]],
+  ['energy_5fexc',['energy_exc',['../d2/d0b/classsirius_1_1_potential.html#a3a3f52f9f80a5dd0fdd0b62e73bb38ca',1,'sirius::Potential']]],
   ['energy_5fkin',['energy_kin',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#ac3379420b4fd37ca015046cecc3c0cb4',1,'sirius::DFT_ground_state']]],
+  ['energy_5fvxc',['energy_vxc',['../d2/d0b/classsirius_1_1_potential.html#a8b9e7014f6436813814db068038b1d7c',1,'sirius::Potential']]],
   ['enu_5ffinder',['Enu_finder',['../d6/d7f/classsirius_1_1_enu__finder.html#ad408a4e71b7c896473f7a364a8f31ad7',1,'sirius::Enu_finder']]],
   ['erase',['erase',['../d9/dcc/classnlohmann_1_1basic__json.html#a068a16e76be178e83da6a192916923ed',1,'nlohmann::basic_json::erase(IteratorType pos)'],['../d9/dcc/classnlohmann_1_1basic__json.html#a4b3f7eb2d4625d95a51fbbdceb7c5f39',1,'nlohmann::basic_json::erase(IteratorType first, IteratorType last)'],['../d9/dcc/classnlohmann_1_1basic__json.html#a2f8484d69c55d8f2a9697a7bec29362a',1,'nlohmann::basic_json::erase(const typename object_t::key_type &amp;key)'],['../d9/dcc/classnlohmann_1_1basic__json.html#a88cbcefe9a3f4d294bed0653550a5cb9',1,'nlohmann::basic_json::erase(const size_type idx)']]],
-  ['escape',['escape',['../d4/d60/classnlohmann_1_1basic__json_1_1json__pointer.html#a7d41132aab61ed2fe8a6b05d53016a70',1,'nlohmann::basic_json::json_pointer']]],
-  ['euler_5fangles',['euler_angles',['../dc/d1c/classsirius_1_1_symmetry.html#a2bf653e46b9285ccb73a03edec633472',1,'sirius::Symmetry']]],
+  ['escape',['escape',['../da/de8/classnlohmann_1_1json__pointer.html#aae90b2a0cc8f3921b77596a5b43e6831',1,'nlohmann::json_pointer']]],
+  ['euler_5fangles',['euler_angles',['../d0/d56/classsirius_1_1_unit__cell__symmetry.html#a3783ef7a25c3e5b4f0092945bbb0a718',1,'sirius::Unit_cell_symmetry']]],
   ['eval_5fsum',['eval_sum',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#af9e351c9f78fbd60077d038633dc1f99',1,'sirius::DFT_ground_state']]],
   ['ewald_5fenergy',['ewald_energy',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#af4ba0c4e7d2cae0611052e68e8f5bf93',1,'sirius::DFT_ground_state']]],
-  ['expect',['expect',['../db/d50/classnlohmann_1_1basic__json_1_1parser.html#aa0403d27b84db70cc5ea0ab8fd4509af',1,'nlohmann::basic_json::parser']]],
-  ['extra_5fspace',['extra_space',['../dd/df2/classnlohmann_1_1basic__json_1_1serializer.html#a41e4517b4182bf20d264c7b285a93172',1,'nlohmann::basic_json::serializer']]]
+  ['ewald_5flambda',['ewald_lambda',['../db/d7d/classsirius_1_1_simulation__context__base.html#ab5effb90a4f997a0c6a468f2bbed2bd5',1,'sirius::Simulation_context_base']]],
+  ['expect',['expect',['../df/d6b/classnlohmann_1_1detail_1_1parser.html#a9abcc7b005c70ee67ce669c398273516',1,'nlohmann::detail::parser']]],
+  ['extra_5fspace',['extra_space',['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html#ab58de23ed061fc9a3af7cba489da1543',1,'nlohmann::detail::serializer']]]
 ];

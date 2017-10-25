@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -84,6 +84,10 @@ Static Public Member Functions</h2></td></tr>
 template&lt;typename BasicJsonType &gt; </td></tr>
 <tr class="memitem:a3a369c5d49596dd4411e368425f9ac7a"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>construct</b> (BasicJsonType &amp;j, const typename BasicJsonType::object_t &amp;obj)</td></tr>
 <tr class="separator:a3a369c5d49596dd4411e368425f9ac7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e044961affbd6417386d6e9f1d545e9"><td class="memTemplParams" colspan="2"><a id="a1e044961affbd6417386d6e9f1d545e9"></a>
+template&lt;typename BasicJsonType &gt; </td></tr>
+<tr class="memitem:a1e044961affbd6417386d6e9f1d545e9"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>construct</b> (BasicJsonType &amp;j, typename BasicJsonType::object_t &amp;&amp;obj)</td></tr>
+<tr class="separator:a1e044961affbd6417386d6e9f1d545e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91f89abe0ec4dec59099b691682ff927"><td class="memTemplParams" colspan="2"><a id="a91f89abe0ec4dec59099b691682ff927"></a>
 template&lt;typename BasicJsonType , typename CompatibleObjectType , enable_if_t&lt; not std::is_same&lt; CompatibleObjectType, typename BasicJsonType::object_t &gt;::value, int &gt;  = 0&gt; </td></tr>
 <tr class="memitem:a91f89abe0ec4dec59099b691682ff927"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>construct</b> (BasicJsonType &amp;j, const CompatibleObjectType &amp;obj)</td></tr>
@@ -94,14 +98,14 @@ template&lt;typename BasicJsonType , typename CompatibleObjectType , enable_if_t
 struct nlohmann::detail::external_constructor&lt; value_t::object &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../d5/db8/json_8hpp_source.html#l00587">587</a> of file <a class="el" href="../../d5/db8/json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/db8/json_8hpp_source.html#l00680">680</a> of file <a class="el" href="../../d5/db8/json_8hpp_source.html">json.hpp</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="../../d5/db8/json_8hpp_source.html">json.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:16 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

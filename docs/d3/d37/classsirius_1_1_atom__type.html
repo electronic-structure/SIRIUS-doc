@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -197,7 +197,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <a class="el" href="../../d1/df3/classsirius_1_1radial__functions__index.html">radial_functions_index</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>indexr</b> () const</td></tr>
 <tr class="separator:a4e3135358013350c8acf8968f79231f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3f3e2cacb2241e35041bd42a8b8e883"><td class="memItemLeft" align="right" valign="top"><a id="ac3f3e2cacb2241e35041bd42a8b8e883"></a>
-<a class="el" href="../../d0/d49/structradial__function__index__descriptor.html">radial_function_index_descriptor</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>indexr</b> (int i) const</td></tr>
+radial_function_index_descriptor const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>indexr</b> (int i) const</td></tr>
 <tr class="separator:ac3f3e2cacb2241e35041bd42a8b8e883"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89c275b237f708f35024f5738dd1c141"><td class="memItemLeft" align="right" valign="top"><a id="a89c275b237f708f35024f5738dd1c141"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>indexr_by_l_order</b> (int l, int order) const</td></tr>
@@ -209,7 +209,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>indexr_by_idxlo</b> (i
 <a class="el" href="../../d3/dfd/classsirius_1_1basis__functions__index.html">basis_functions_index</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>indexb</b> () const</td></tr>
 <tr class="separator:a452a2a33ec085df082d9b402499018f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdec39b205a55d5e315892c35cd454fa"><td class="memItemLeft" align="right" valign="top"><a id="abdec39b205a55d5e315892c35cd454fa"></a>
-<a class="el" href="../../df/da6/structbasis__function__index__descriptor.html">basis_function_index_descriptor</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>indexb</b> (int i) const</td></tr>
+basis_function_index_descriptor const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>indexb</b> (int i) const</td></tr>
 <tr class="separator:abdec39b205a55d5e315892c35cd454fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484f7189d0591c2f0358a293e8b774e9"><td class="memItemLeft" align="right" valign="top"><a id="a484f7189d0591c2f0358a293e8b774e9"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>indexb_by_l_m_order</b> (int l, int m, int order) const</td></tr>
@@ -303,12 +303,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_free_atom_radial_
 <tr class="memitem:aae40678a580a96efd8dcfbe4e0066d8f"><td class="memItemLeft" align="right" valign="top"><a id="aae40678a580a96efd8dcfbe4e0066d8f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_free_atom_density</b> (int num_points__, double const *dens__)</td></tr>
 <tr class="separator:aae40678a580a96efd8dcfbe4e0066d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3c397c79ca6ee5a9c6b97511f8f3ad5"><td class="memItemLeft" align="right" valign="top"><a id="ae3c397c79ca6ee5a9c6b97511f8f3ad5"></a>
+double_complex&#160;</td><td class="memItemRight" valign="bottom"><b>f_coefficients</b> (int xi1, int xi2, int s1, int s2) const</td></tr>
+<tr class="separator:ae3c397c79ca6ee5a9c6b97511f8f3ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a927a504cc367beeaf85533bd5f781d47"><td class="memItemLeft" align="right" valign="top"><a id="a927a504cc367beeaf85533bd5f781d47"></a>
 <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>beta_rf</b> (int idxrf__) const</td></tr>
 <tr class="separator:a927a504cc367beeaf85533bd5f781d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa22ae610ad06e71c15137e72f249fa8"><td class="memItemLeft" align="right" valign="top"><a id="aaa22ae610ad06e71c15137e72f249fa8"></a>
 <a class="el" href="../../d5/d6b/classsirius_1_1_spline.html">Spline</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>q_rf</b> (int idx__, int l__) const</td></tr>
 <tr class="separator:aaa22ae610ad06e71c15137e72f249fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790ca22876f897c2046cb4a3c7d47151"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d37/classsirius_1_1_atom__type.html#a790ca22876f897c2046cb4a3c7d47151">compare_index_beta_functions</a> (const int xi, const int xj) const</td></tr>
+<tr class="separator:a790ca22876f897c2046cb4a3c7d47151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -356,6 +361,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>init_aw_descriptors</
 <tr class="memitem:ab0ee644f575466ae9792bc23f13c7e3d"><td class="memItemLeft" align="right" valign="top"><a id="ab0ee644f575466ae9792bc23f13c7e3d"></a>
 <a class="el" href="../../d3/d37/classsirius_1_1_atom__type.html">Atom_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="../../d3/d37/classsirius_1_1_atom__type.html">Atom_type</a> &amp;src)=delete</td></tr>
 <tr class="separator:ab0ee644f575466ae9792bc23f13c7e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60fe2056fb43255540042917fc34d8d5"><td class="memItemLeft" align="right" valign="top"><a id="a60fe2056fb43255540042917fc34d8d5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_f_coefficients</b> (void)</td></tr>
+<tr class="separator:a60fe2056fb43255540042917fc34d8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a078c179cda6a58db978c1809331cabe8"><td class="memItemLeft" align="right" valign="top"><a id="a078c179cda6a58db978c1809331cabe8"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>ClebschGordan</b> (const int l, const double j, const double m, const int spin)</td></tr>
+<tr class="separator:a078c179cda6a58db978c1809331cabe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62675f678c54470a68dd3e12086b08d5"><td class="memItemLeft" align="right" valign="top"><a id="a62675f678c54470a68dd3e12086b08d5"></a>
+double_complex&#160;</td><td class="memItemRight" valign="bottom"><b>calculate_U_sigma_m</b> (const int l, const double j, const int mj, const int m, const int sigma)</td></tr>
+<tr class="separator:a62675f678c54470a68dd3e12086b08d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -445,6 +459,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>offset_lo_</b> {-1}</t
 <tr class="memitem:ab6a5196906a65c23cc6ef5890f262502"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">matrix</a>&lt; double_complex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d37/classsirius_1_1_atom__type.html#ab6a5196906a65c23cc6ef5890f262502">p_mtrx_</a></td></tr>
 <tr class="memdesc:ab6a5196906a65c23cc6ef5890f262502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse of (Q_{ 'j}^{-1} + beta_pw^{H}_{} * beta_pw_{xi'})  <a href="#ab6a5196906a65c23cc6ef5890f262502">More...</a><br /></td></tr>
 <tr class="separator:ab6a5196906a65c23cc6ef5890f262502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bad6f5b0c20e2e239f6f69536fc1c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d37/classsirius_1_1_atom__type.html#a6bad6f5b0c20e2e239f6f69536fc1c8e">f_coefficients_</a></td></tr>
+<tr class="separator:a6bad6f5b0c20e2e239f6f69536fc1c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4705d21a598ef8cbf693f3e4f8c4adb"><td class="memItemLeft" align="right" valign="top"><a id="aa4705d21a598ef8cbf693f3e4f8c4adb"></a>
 std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atom_id_</b></td></tr>
 <tr class="separator:aa4705d21a598ef8cbf693f3e4f8c4adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -472,7 +488,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00275">275</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00280">280</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad7f60a5c9e0f71696d7560b741232bb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad7f60a5c9e0f71696d7560b741232bb4">&#9670;&nbsp;</a></span>read_pseudo_uspp()</h2>
@@ -501,7 +517,46 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 <li>read occupation of the function */ </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l01307">1307</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l01326">1326</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
+
+</div>
+</div>
+<a id="a790ca22876f897c2046cb4a3c7d47151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a790ca22876f897c2046cb4a3c7d47151">&#9670;&nbsp;</a></span>compare_index_beta_functions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool sirius::Atom_type::compare_index_beta_functions </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>xi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>xj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>compare the angular, total angular momentum and radial part of the beta projectors, leaving the m index free. Only useful when spin orbit coupling is included. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00889">889</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -529,7 +584,32 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 <p>Inverse of (Q_{ 'j}^{-1} + beta_pw^{H}_{} * beta_pw_{xi'}) </p>
 <p>Used in Chebyshev iterative solver as a block-diagonal preconditioner </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00342">342</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00346">346</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
+
+</div>
+</div>
+<a id="a6bad6f5b0c20e2e239f6f69536fc1c8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bad6f5b0c20e2e239f6f69536fc1c8e">&#9670;&nbsp;</a></span>f_coefficients_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt;double_complex, 4&gt; sirius::Atom_type::f_coefficients_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>f_coefficients defined in Ref. PRB 71 115106 Eq.9 only valid when SO interactions are on </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d22/atom__type_8h_source.html#l00350">350</a> of file <a class="el" href="../../d9/d22/atom__type_8h_source.html">atom_type.h</a>.</p>
 
 </div>
 </div>
@@ -539,7 +619,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

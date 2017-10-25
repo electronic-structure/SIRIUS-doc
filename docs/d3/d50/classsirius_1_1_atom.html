@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -100,7 +100,7 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#a068f744622459832ce511bfd91e1a675">init</a> (int offset_aw__, int offset_lo__, int offset_mt_coeffs__)</td></tr>
 <tr class="memdesc:a068f744622459832ce511bfd91e1a675"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize atom. <br /></td></tr>
 <tr class="separator:a068f744622459832ce511bfd91e1a675"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af038cd608c577fd98a6e80cd47fa7072"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#af038cd608c577fd98a6e80cd47fa7072">generate_radial_integrals</a> (<a class="el" href="../../d6/d71/mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__, <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const &amp;comm__)</td></tr>
+<tr class="memitem:af038cd608c577fd98a6e80cd47fa7072"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#af038cd608c577fd98a6e80cd47fa7072">generate_radial_integrals</a> (<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__, <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const &amp;comm__)</td></tr>
 <tr class="memdesc:af038cd608c577fd98a6e80cd47fa7072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate radial Hamiltonian and effective magnetic field integrals.  <a href="#af038cd608c577fd98a6e80cd47fa7072">More...</a><br /></td></tr>
 <tr class="separator:af038cd608c577fd98a6e80cd47fa7072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0ec8c5d74a957f094e78e5b00645f28"><td class="memItemLeft" align="right" valign="top"><a id="ae0ec8c5d74a957f094e78e5b00645f28"></a>
@@ -167,9 +167,9 @@ double *&#160;</td><td class="memItemRight" valign="bottom"><b>h_radial_integral
 <tr class="memitem:a9871eef0a8d0515980ddb455baeadd80"><td class="memItemLeft" align="right" valign="top"><a id="a9871eef0a8d0515980ddb455baeadd80"></a>
 double const  *&#160;</td><td class="memItemRight" valign="bottom"><b>b_radial_integrals</b> (int idxrf1, int idxrf2, int x) const</td></tr>
 <tr class="separator:a9871eef0a8d0515980ddb455baeadd80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e8a140f7489c712a063155efb2beb0d"><td class="memTemplParams" colspan="2">template&lt;spin_block_t sblock&gt; </td></tr>
-<tr class="memitem:a7e8a140f7489c712a063155efb2beb0d"><td class="memTemplItemLeft" align="right" valign="top">double_complex&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#a7e8a140f7489c712a063155efb2beb0d">radial_integrals_sum_L3</a> (int idxrf1__, int idxrf2__, std::vector&lt; <a class="el" href="../../d3/db4/structsirius_1_1gaunt___l3.html">gaunt_L3</a>&lt; double_complex &gt; &gt; const &amp;gnt__) const</td></tr>
-<tr class="separator:a7e8a140f7489c712a063155efb2beb0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae34428e3222a04a7658b6fe0c4f0c7aa"><td class="memTemplParams" colspan="2">template&lt;spin_block_t sblock&gt; </td></tr>
+<tr class="memitem:ae34428e3222a04a7658b6fe0c4f0c7aa"><td class="memTemplItemLeft" align="right" valign="top">double_complex&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#ae34428e3222a04a7658b6fe0c4f0c7aa">radial_integrals_sum_L3</a> (int idxrf1__, int idxrf2__, std::vector&lt; <a class="el" href="../../d3/db4/structsirius_1_1gaunt___l3.html">gaunt_L3</a>&lt; double_complex &gt;&gt; const &amp;gnt__) const</td></tr>
+<tr class="separator:ae34428e3222a04a7658b6fe0c4f0c7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ac31c6c7736703b68b2612fe3a49936"><td class="memItemLeft" align="right" valign="top"><a id="a6ac31c6c7736703b68b2612fe3a49936"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>num_mt_points</b> () const</td></tr>
 <tr class="separator:a6ac31c6c7736703b68b2612fe3a49936"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,6 +218,15 @@ double &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>d_mtrx</b> (i
 <tr class="memitem:a71ccaa2ac26fbd8dd8de074f1203548d"><td class="memItemLeft" align="right" valign="top"><a id="a71ccaa2ac26fbd8dd8de074f1203548d"></a>
 double const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>d_mtrx</b> (int xi1, int xi2, int iv) const</td></tr>
 <tr class="separator:a71ccaa2ac26fbd8dd8de074f1203548d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4b825cb9cbe881f1bf0f922c9aa95e"><td class="memItemLeft" align="right" valign="top"><a id="aec4b825cb9cbe881f1bf0f922c9aa95e"></a>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>d_mtrx</b> () const</td></tr>
+<tr class="separator:aec4b825cb9cbe881f1bf0f922c9aa95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e0644a1df509fd29b91c8383aa6b0e"><td class="memItemLeft" align="right" valign="top"><a id="ac2e0644a1df509fd29b91c8383aa6b0e"></a>
+double_complex &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>d_mtrx_so</b> (int xi1, int xi2, int iv)</td></tr>
+<tr class="separator:ac2e0644a1df509fd29b91c8383aa6b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e17090eb2ad7d7fe050afc28517faf9"><td class="memItemLeft" align="right" valign="top"><a id="a8e17090eb2ad7d7fe050afc28517faf9"></a>
+double_complex const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>d_mtrx_so</b> (int xi1, int xi2, int iv) const</td></tr>
+<tr class="separator:a8e17090eb2ad7d7fe050afc28517faf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -227,7 +236,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2f08654850f49540da9e35db272aab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af78d6835ad4d678ff385d503599e1810"><td class="memItemLeft" align="right" valign="top"><a id="af78d6835ad4d678ff385d503599e1810"></a>
 <a class="el" href="../../d5/d15/classsirius_1_1_atom__symmetry__class.html">Atom_symmetry_class</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#af78d6835ad4d678ff385d503599e1810">symmetry_class_</a> {nullptr}</td></tr>
-<tr class="memdesc:af78d6835ad4d678ff385d503599e1810"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/d1c/classsirius_1_1_symmetry.html">Symmetry</a> class of the given atom. <br /></td></tr>
+<tr class="memdesc:af78d6835ad4d678ff385d503599e1810"><td class="mdescLeft">&#160;</td><td class="mdescRight">Symmetry class of the given atom. <br /></td></tr>
 <tr class="separator:af78d6835ad4d678ff385d503599e1810"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af74add3169482e72aba3f9b23130542b"><td class="memItemLeft" align="right" valign="top"><a id="af74add3169482e72aba3f9b23130542b"></a>
 <a class="el" href="../../d2/d6b/classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#af74add3169482e72aba3f9b23130542b">position_</a></td></tr>
@@ -288,6 +297,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <tr class="memitem:a735ddc6a81305dbc5b2ddf5d96b6baaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#a735ddc6a81305dbc5b2ddf5d96b6baaa">d_mtrx_</a></td></tr>
 <tr class="memdesc:a735ddc6a81305dbc5b2ddf5d96b6baaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Auxiliary form of the D_{ij} operator matrix of the pseudo-potential method.  <a href="#a735ddc6a81305dbc5b2ddf5d96b6baaa">More...</a><br /></td></tr>
 <tr class="separator:a735ddc6a81305dbc5b2ddf5d96b6baaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a951f08f1f1086761dd6a236029819d68"><td class="memItemLeft" align="right" valign="top"><a id="a951f08f1f1086761dd6a236029819d68"></a>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d50/classsirius_1_1_atom.html#a951f08f1f1086761dd6a236029819d68">d_mtrx_so_</a></td></tr>
+<tr class="memdesc:a951f08f1f1086761dd6a236029819d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">d matrix for spin orbit coupling. see Ref. PRB 71 115106 eq.19 <br /></td></tr>
+<tr class="separator:a951f08f1f1086761dd6a236029819d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data and methods specific to the actual atom in the unit cell. </p>
@@ -306,7 +319,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
         <tr>
           <td class="memname">void sirius::Atom::generate_radial_integrals </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d71/mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td>
           <td class="paramname"><em>pu__</em>, </td>
         </tr>
         <tr>
@@ -336,12 +349,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 \[ \widetilde V_{\ell m}(r) = \left\{ \begin{array}{ll} \frac{H_{s}(r)}{R_{00}} &amp; \ell = 0 \\ V_{\ell m}(r) &amp; \ell &gt; 0 \end{array} \right. \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d9/d49/atom_8h_source.html#l00173">173</a> of file <a class="el" href="../../d9/d49/atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/atom_8h_source.html#l00200">200</a> of file <a class="el" href="../../d9/d49/atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
-<a id="a7e8a140f7489c712a063155efb2beb0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e8a140f7489c712a063155efb2beb0d">&#9670;&nbsp;</a></span>radial_integrals_sum_L3()</h2>
+<a id="ae34428e3222a04a7658b6fe0c4f0c7aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae34428e3222a04a7658b6fe0c4f0c7aa">&#9670;&nbsp;</a></span>radial_integrals_sum_L3()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,7 +379,7 @@ template&lt;spin_block_t sblock&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d3/db4/structsirius_1_1gaunt___l3.html">gaunt_L3</a>&lt; double_complex &gt; &gt; const &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d3/db4/structsirius_1_1gaunt___l3.html">gaunt_L3</a>&lt; double_complex &gt;&gt; const &amp;&#160;</td>
           <td class="paramname"><em>gnt__</em>&#160;</td>
         </tr>
         <tr>
@@ -385,7 +398,7 @@ template&lt;spin_block_t sblock&gt; </div>
 \[ \sum_{L_3} \langle Y_{L_1} u_{\ell_1 \nu_1} | R_{L_3} h_{L_3} | Y_{L_2} u_{\ell_2 \nu_2} \rangle = \sum_{L_3} \langle u_{\ell_1 \nu_1} | h_{L_3} | u_{\ell_2 \nu_2} \rangle \langle Y_{L_1} | R_{L_3} | Y_{L_2} \rangle \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d9/d49/atom_8h_source.html#l00465">465</a> of file <a class="el" href="../../d9/d49/atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/atom_8h_source.html#l00497">497</a> of file <a class="el" href="../../d9/d49/atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -415,7 +428,7 @@ template&lt;spin_block_t sblock&gt; </div>
 \[ D_{\xi \xi&#39;}^{\alpha} = \int V({\bf r}) Q_{\xi \xi&#39;}^{\alpha}({\bf r}) d{\bf r} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d9/d49/atom_8h_source.html#l00095">95</a> of file <a class="el" href="../../d9/d49/atom_8h_source.html">atom.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/atom_8h_source.html#l00094">94</a> of file <a class="el" href="../../d9/d49/atom_8h_source.html">atom.h</a>.</p>
 
 </div>
 </div>
@@ -425,7 +438,7 @@ template&lt;spin_block_t sblock&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:39 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

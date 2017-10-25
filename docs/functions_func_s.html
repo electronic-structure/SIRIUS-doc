@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -69,25 +69,31 @@ $(function() {
 &#160;
 
 <h3><a id="index_s"></a>- s -</h3><ul>
-<li>scan()
-: <a class="el" href="d7/dae/classnlohmann_1_1basic__json_1_1lexer.html#aa2bf285bc6ee37e2af87dfd627224b41">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::lexer</a>
+<li>scan_literal()
+: <a class="el" href="d8/d22/classnlohmann_1_1detail_1_1lexer.html#a6f717deb553337736f27cdacccaee536">nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
+</li>
+<li>scan_number()
+: <a class="el" href="d8/d22/classnlohmann_1_1detail_1_1lexer.html#a6bd7e6cdb0380a9df663f1c7f115f34f">nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
+</li>
+<li>scan_string()
+: <a class="el" href="d8/d22/classnlohmann_1_1detail_1_1lexer.html#ad271045d1c91df9d6a119482b4aeae7f">nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
 </li>
 <li>serialize()
 : <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#af1e86a5c3ac96c6ad7733939dad2eb40">sirius::Unit_cell</a>
 </li>
 <li>serializer()
-: <a class="el" href="dd/df2/classnlohmann_1_1basic__json_1_1serializer.html#a62bc58cab64948b1099bcf319a8cc7eb">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::serializer</a>
+: <a class="el" href="d4/d0a/classnlohmann_1_1detail_1_1serializer.html#a3076c4514179654cc81d17048439c24a">nlohmann::detail::serializer&lt; BasicJsonType &gt;</a>
 </li>
 <li>set_begin()
-: <a class="el" href="de/d32/classnlohmann_1_1basic__json_1_1iter__impl.html#a7f88e3d6564b7d7497b39460b51d2743">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::iter_impl&lt; U &gt;</a>
-, <a class="el" href="dd/d42/classnlohmann_1_1basic__json_1_1primitive__iterator__t.html#ad1022740034c5cce15436ecb4620259d">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::primitive_iterator_t</a>
+: <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a5d5f92c7f6848814bc82cf7e4e541820">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
+, <a class="el" href="d2/d2c/classnlohmann_1_1detail_1_1primitive__iterator__t.html#a9d9b005906106e12aed738f97d7fee42">nlohmann::detail::primitive_iterator_t</a>
 </li>
 <li>set_charge_density_ptr()
 : <a class="el" href="d7/d05/classsirius_1_1_density.html#acd0d1956e9bf3bfb28f62ae042a656fa">sirius::Density</a>
 </li>
 <li>set_end()
-: <a class="el" href="de/d32/classnlohmann_1_1basic__json_1_1iter__impl.html#a18eb0144dc65b6387a9d8a0be7e9e05c">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::iter_impl&lt; U &gt;</a>
-, <a class="el" href="dd/d42/classnlohmann_1_1basic__json_1_1primitive__iterator__t.html#a2f42b499859a1d76d206bcdf0ed8a194">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::primitive_iterator_t</a>
+: <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a23e50ad4c13aa62d9ac7f60a123823ee">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
+, <a class="el" href="d2/d2c/classnlohmann_1_1detail_1_1primitive__iterator__t.html#ad26a823483846a12d890c3feed3097eb">nlohmann::detail::primitive_iterator_t</a>
 </li>
 <li>set_fv_h_o()
 : <a class="el" href="d5/d1f/classsirius_1_1_band.html#a32faa3a3cc7d7c6247434a16aa9cd2ba">sirius::Band</a>
@@ -102,7 +108,7 @@ $(function() {
 : <a class="el" href="d5/d1f/classsirius_1_1_band.html#a816496376730548b3aa158e30c391c1a">sirius::Band</a>
 </li>
 <li>set_lattice_vectors()
-: <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#acd012acfb8e7777227e7d54e1d542e7e">sirius::Unit_cell</a>
+: <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#a73aed1e2042e5c0006e7182fed1ca375">sirius::Unit_cell</a>
 </li>
 <li>set_local_mt_ptr()
 : <a class="el" href="d0/d6d/classsirius_1_1_periodic__function.html#ab81901dff93665a114a6d936fe1f5941">sirius::Periodic_function&lt; T &gt;</a>
@@ -135,7 +141,7 @@ $(function() {
 : <a class="el" href="d5/d15/classsirius_1_1_atom__symmetry__class.html#a12117e8c6bca5886de9277fb2f94bfd2">sirius::Atom_symmetry_class</a>
 </li>
 <li>set_subspace_mtrx()
-: <a class="el" href="d5/d1f/classsirius_1_1_band.html#aed727a5d7460cfca47ac45f6af6213b6">sirius::Band</a>
+: <a class="el" href="d5/d1f/classsirius_1_1_band.html#a93e5739eeaa815b88a486ce5969875ba">sirius::Band</a>
 </li>
 <li>set_symmetry_class()
 : <a class="el" href="d3/d50/classsirius_1_1_atom.html#a671001eb2220c523d0b52eab409ef368">sirius::Atom</a>
@@ -149,8 +155,9 @@ $(function() {
 <li>size()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a25e27ad0c6d53c01871c5485e1f75b96">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 , <a class="el" href="d7/d14/classsddk_1_1_communicator__bundle.html#a8b25ea9818c1dae192986e806cf72bf5">sddk::Communicator_bundle</a>
+, <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#af3b1af2b900f04f6f1a10e89bf79870a">sddk::dmatrix&lt; T &gt;</a>
 , <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#a121721a43524173d4f8aade71c5a2243">sddk::FFT3D</a>
-, <a class="el" href="dd/d26/classsddk_1_1_f_f_t3_d__grid.html#aa215b08948d0050db2ef768261194e25">sddk::FFT3D_grid</a>
+, <a class="el" href="dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a0307ee01de78961417389b8ddbd1893d">sddk::FFT3D_grid</a>
 , <a class="el" href="d0/d58/classsddk_1_1mdarray__base.html#a5e1033f17bf198c28c49010f02a37b59">sddk::mdarray_base&lt; T, N &gt;</a>
 , <a class="el" href="df/d46/classsddk_1_1mdarray__index__descriptor.html#a66f084e8361c4f3581620f9507412738">sddk::mdarray_index_descriptor</a>
 , <a class="el" href="d0/d85/classsddk_1_1_m_p_i__grid.html#a37d0844009999f0e9584dd95310f3c08">sddk::MPI_grid</a>
@@ -162,43 +169,43 @@ $(function() {
 <li>solve()
 : <a class="el" href="d3/d52/class_eigenproblem.html#a51023ea9bf692db11b5b14ea24739c53">Eigenproblem</a>
 , <a class="el" href="d6/dc1/class_eigenproblem__elpa1.html#a67d9c83b6c565848c5036f0ac30f8661">Eigenproblem_elpa1</a>
-, <a class="el" href="db/d08/class_eigenproblem__elpa2.html#a68cfed8abc557961eecdff4d28f657f3">Eigenproblem_elpa2</a>
+, <a class="el" href="db/d08/class_eigenproblem__elpa2.html#a99f9ebf705d8faba9d2f41f67721531e">Eigenproblem_elpa2</a>
 , <a class="el" href="d3/d9c/class_eigenproblem__lapack.html#ae3a1f7d34b495b6125d8297e4b3c06e4">Eigenproblem_lapack</a>
-, <a class="el" href="d8/de0/class_eigenproblem__scalapack.html#a6e369db18729d98ef56f6c245f06231b">Eigenproblem_scalapack</a>
+, <a class="el" href="d8/de0/class_eigenproblem__scalapack.html#a03eedf72620bb1290c654ac8ab1b6938">Eigenproblem_scalapack</a>
 , <a class="el" href="d0/d78/classsirius_1_1_radial__solver.html#a80e5770255c86388a2f4bbc2ed756e7d">sirius::Radial_solver</a>
 , <a class="el" href="d5/d6b/classsirius_1_1_spline.html#a8e68aaf010b5410b0568bba95d841ed1">sirius::Spline&lt; T, U &gt;</a>
-</li>
-<li>solve_fd()
-: <a class="el" href="d5/d1f/classsirius_1_1_band.html#acaef6e7d6c97b8b4a8b90cdd31c02b6e">sirius::Band</a>
 </li>
 <li>solve_for_kset()
 : <a class="el" href="d5/d1f/classsirius_1_1_band.html#a54d593967cdd08d9ad2bd96a468b1956">sirius::Band</a>
 </li>
-<li>solve_sv()
-: <a class="el" href="d5/d1f/classsirius_1_1_band.html#aefbb4cda43252e6eee02b42776925cae">sirius::Band</a>
+<li>solve_with_second_variation()
+: <a class="el" href="d5/d1f/classsirius_1_1_band.html#a21221be96ecf5e3a08e5ac7e6fb89f3c">sirius::Band</a>
+</li>
+<li>solve_with_single_variation()
+: <a class="el" href="d5/d1f/classsirius_1_1_band.html#ae409f71edceabf431284d2edbf9c495b">sirius::Band</a>
 </li>
 <li>spherical_coordinates()
 : <a class="el" href="d1/d08/classsirius_1_1_s_h_t.html#a3ed1edba2132a4d0507c53fc6da3b063">sirius::SHT</a>
 </li>
 <li>spherical_harmonics()
-: <a class="el" href="d1/d08/classsirius_1_1_s_h_t.html#a163380f3e9380dcd472b6fce83705eaf">sirius::SHT</a>
+: <a class="el" href="d1/d08/classsirius_1_1_s_h_t.html#a60ada726e3d5c98631cda062d70e5bad">sirius::SHT</a>
 </li>
 <li>spl_num_paw_atoms()
 : <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#aa976eecc072c52cb4fc89c74d7717780">sirius::Unit_cell</a>
 </li>
 <li>splindex()
-: <a class="el" href="d9/d84/classsddk_1_1splindex_3_01block_00_01_t_01_4.html#a12a4616482a165b143f574b823f2246b">sddk::splindex&lt; block, T &gt;</a>
-, <a class="el" href="dd/d99/classsddk_1_1splindex_3_01block__cyclic_00_01_t_01_4.html#a876bbbb3a8f500922a94b3e287704ae0">sddk::splindex&lt; block_cyclic, T &gt;</a>
-, <a class="el" href="d9/dc3/classsddk_1_1splindex_3_01chunk_00_01_t_01_4.html#a89062e8d9e1659f2a33e1ea54b435ebc">sddk::splindex&lt; chunk, T &gt;</a>
+: <a class="el" href="d9/d84/classsddk_1_1splindex_3_01block_00_01_t_01_4.html#a6860e56ea0f7def61f916208f2a8f70c">sddk::splindex&lt; block, T &gt;</a>
+, <a class="el" href="dd/d99/classsddk_1_1splindex_3_01block__cyclic_00_01_t_01_4.html#a859976665bf4329207eba8005671cc7e">sddk::splindex&lt; block_cyclic, T &gt;</a>
+, <a class="el" href="d9/dc3/classsddk_1_1splindex_3_01chunk_00_01_t_01_4.html#a0199e0d128437a900c9fb86b6fab400c">sddk::splindex&lt; chunk, T &gt;</a>
 </li>
 <li>splindex_base()
 : <a class="el" href="d6/dec/classsddk_1_1splindex__base.html#a3391f02acb0022c9e55f6f4bd41321e0">sddk::splindex_base&lt; T &gt;</a>
 </li>
 <li>Spline()
-: <a class="el" href="d5/d6b/classsirius_1_1_spline.html#a16fdaf51e813936f4f40271bbd832e5a">sirius::Spline&lt; T, U &gt;</a>
+: <a class="el" href="d5/d6b/classsirius_1_1_spline.html#a76915c3eb038aed5c64fe780f8bd355b">sirius::Spline&lt; T, U &gt;</a>
 </li>
 <li>split()
-: <a class="el" href="d4/d60/classnlohmann_1_1basic__json_1_1json__pointer.html#a9ad9f3ed25e1e3cf82b05973d3ecafac">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;::json_pointer</a>
+: <a class="el" href="da/de8/classnlohmann_1_1json__pointer.html#a6b25f61df350b64e35ac4ff6e7743e60">nlohmann::json_pointer</a>
 </li>
 <li>split_in_chunks()
 : <a class="el" href="dc/df9/classsirius_1_1_beta__projector__chunks.html#a289a41009766ae183ccca4bbc68fe7e5">sirius::Beta_projector_chunks</a>
@@ -220,7 +227,7 @@ $(function() {
 : <a class="el" href="d7/d05/classsirius_1_1_density.html#a5aa2c64b50733841e1508208a242ee87">sirius::Density</a>
 </li>
 <li>symmetrize_function()
-: <a class="el" href="dc/d1c/classsirius_1_1_symmetry.html#a818ada1afb5ac3d3ec02f88fc1e05157">sirius::Symmetry</a>
+: <a class="el" href="d0/d56/classsirius_1_1_unit__cell__symmetry.html#a46e7d83ee31899f4b9f2f3f25f1440d8">sirius::Unit_cell_symmetry</a>
 </li>
 <li>symmetry_class()
 : <a class="el" href="d3/d50/classsirius_1_1_atom.html#a35b6a5e198f42cd7f386b14305f2db71">sirius::Atom</a>
@@ -235,7 +242,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:40 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">4.7</span>
+   &#160;<span id="projectnumber">4.10</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -108,9 +108,18 @@ matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s
 <tr class="memitem:aa671bf8f43c171cf1e7127161aba0069"><td class="memItemLeft" align="right" valign="top"><a id="aa671bf8f43c171cf1e7127161aba0069"></a>
 matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_kin</b> () const</td></tr>
 <tr class="separator:aa671bf8f43c171cf1e7127161aba0069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4527d340c74d7738387146f63aedc8db"><td class="memItemLeft" align="right" valign="top"><a id="a4527d340c74d7738387146f63aedc8db"></a>
-matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_nl</b> () const</td></tr>
-<tr class="separator:a4527d340c74d7738387146f63aedc8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe26773148f3eaed6a9b95ff15082b0a"><td class="memItemLeft" align="right" valign="top"><a id="abe26773148f3eaed6a9b95ff15082b0a"></a>
+matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_nonloc</b> () const</td></tr>
+<tr class="separator:abe26773148f3eaed6a9b95ff15082b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fd3aa9a2d9638a0a6335dfff93cf5ee"><td class="memItemLeft" align="right" valign="top"><a id="a4fd3aa9a2d9638a0a6335dfff93cf5ee"></a>
+matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_us</b> () const</td></tr>
+<tr class="separator:a4fd3aa9a2d9638a0a6335dfff93cf5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d881204bcbedadb1703bfc5ec8631a"><td class="memItemLeft" align="right" valign="top"><a id="a91d881204bcbedadb1703bfc5ec8631a"></a>
+matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_xc</b> () const</td></tr>
+<tr class="separator:a91d881204bcbedadb1703bfc5ec8631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad686d1394be9ad91af65491b4d9ecd3f"><td class="memItemLeft" align="right" valign="top"><a id="ad686d1394be9ad91af65491b4d9ecd3f"></a>
+matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_core</b> () const</td></tr>
+<tr class="separator:ad686d1394be9ad91af65491b4d9ecd3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d9dab9ff2b9b36fea5e1024f41df7de"><td class="memItemLeft" align="right" valign="top"><a id="a3d9dab9ff2b9b36fea5e1024f41df7de"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>print_info</b> () const</td></tr>
 <tr class="separator:a3d9dab9ff2b9b36fea5e1024f41df7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,6 +145,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a4ed3465c020967fea8c46e65f642f9d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/classsirius_1_1_stress.html#a4ed3465c020967fea8c46e65f642f9d7">calc_stress_us</a> ()</td></tr>
 <tr class="memdesc:a4ed3465c020967fea8c46e65f642f9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contribution to the stress tensor from the augmentation operator.  <a href="#a4ed3465c020967fea8c46e65f642f9d7">More...</a><br /></td></tr>
 <tr class="separator:a4ed3465c020967fea8c46e65f642f9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4cfd6e82c4515a85bbcb8b66ac5422f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/classsirius_1_1_stress.html#ab4cfd6e82c4515a85bbcb8b66ac5422f">calc_stress_xc</a> ()</td></tr>
+<tr class="memdesc:ab4cfd6e82c4515a85bbcb8b66ac5422f"><td class="mdescLeft">&#160;</td><td class="mdescRight">XC contribution to stress.  <a href="#ab4cfd6e82c4515a85bbcb8b66ac5422f">More...</a><br /></td></tr>
+<tr class="separator:ab4cfd6e82c4515a85bbcb8b66ac5422f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6709c4d303b4dada8c182b8a87f05a"><td class="memItemLeft" align="right" valign="top"><a id="aad6709c4d303b4dada8c182b8a87f05a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>calc_stress_core</b> ()</td></tr>
+<tr class="separator:aad6709c4d303b4dada8c182b8a87f05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ae5a6825e73ea6ef21b090f224bb0b9"><td class="memItemLeft" align="right" valign="top"><a id="a5ae5a6825e73ea6ef21b090f224bb0b9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>symmetrize</b> (matrix3d&lt; double &gt; &amp;mtrx__) const</td></tr>
 <tr class="separator:a5ae5a6825e73ea6ef21b090f224bb0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,9 +187,22 @@ matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s
 <tr class="memitem:a5a1779a1bbcb521999a415d7e438e5b3"><td class="memItemLeft" align="right" valign="top"><a id="a5a1779a1bbcb521999a415d7e438e5b3"></a>
 matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_us_</b></td></tr>
 <tr class="separator:a5a1779a1bbcb521999a415d7e438e5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e47e275fd60c97ad707dcda308f4473"><td class="memItemLeft" align="right" valign="top"><a id="a6e47e275fd60c97ad707dcda308f4473"></a>
+matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_xc_</b></td></tr>
+<tr class="separator:a6e47e275fd60c97ad707dcda308f4473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a343cdee121a8cb151e6fa743df5f2df6"><td class="memItemLeft" align="right" valign="top"><a id="a343cdee121a8cb151e6fa743df5f2df6"></a>
+matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>stress_core_</b></td></tr>
+<tr class="separator:a343cdee121a8cb151e6fa743df5f2df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../df/db7/classsirius_1_1_stress.html" title="Stress tensor. ">Stress</a> tensor. </p>
+<p>The following referenceces were particularly useful in the derivation of the stress tensor components:</p><ul>
+<li>Hutter, D. M. A. J. (2012). Ab Initio Molecular Dynamics (pp. 1–580).</li>
+<li>Marx, D., &amp; Hutter, J. (2000). Ab initio molecular dynamics: Theory and implementation. Modern Methods and Algorithms of Quantum Chemistry.</li>
+<li>Knuth, F., Carbogno, C., Atalla, V., &amp; Blum, V. (2015). All-electron formalism for total energy strain derivatives and stress tensor components for numeric atom-centered orbitals. Computer Physics Communications.</li>
+<li>Willand, A., Kvashnin, Y. O., Genovese, L., Vázquez-Mayagoitia, Á., Deb, A. K., Sadeghi, A., et al. (2013). Norm-conserving pseudopotentials with chemical accuracy compared to all-electron calculations. The Journal of Chemical Physics, 138(10), 104109. <a href="http://doi.org/10.1103/PhysRevB.50.4327">http://doi.org/10.1103/PhysRevB.50.4327</a></li>
+<li>Corso, A. D., &amp; Resta, R. (1994). Density-functional theory of macroscopic stress: Gradient-corrected calculations for crystalline Se. Physical Review B.</li>
+</ul>
 <p><a class="el" href="../../df/db7/classsirius_1_1_stress.html" title="Stress tensor. ">Stress</a> tensor describes a reaction of crystall to a strain: </p><p class="formulaDsp">
 \[ \sigma_{\mu \nu} = \frac{1}{\Omega} \frac{\partial E}{\partial \varepsilon_{\mu \nu}} \]
 </p>
@@ -217,7 +245,7 @@ matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s
  </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00082">82</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00094">94</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0e0161fca3e97c7be541a2c73e9a228e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e0161fca3e97c7be541a2c73e9a228e">&#9670;&nbsp;</a></span>calc_stress_kin()</h2>
@@ -250,7 +278,7 @@ matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s
 \[ \sigma_{\mu \nu}^{kin} = \frac{1}{\Omega} \frac{\partial E^{kin}}{\partial \varepsilon_{\mu \nu}} = \frac{1}{\Omega} \sum_{{\bf k}} w_{\bf k} \sum_j f_j \frac{1}{2} 2 |{\bf G+k}| \Big( -\frac{1}{|{\bf G+k}|} (G+k)_{\mu} (G+k)_{\nu} \Big) |\psi_j({\bf G + k})|^2 =\\ -\frac{1}{\Omega} \sum_{{\bf k}} w_{\bf k} (G+k)_{\mu} (G+k)_{\nu} \sum_j f_j |\psi_j({\bf G + k})|^2 \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00116">116</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00132">132</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
 
 </div>
 </div>
@@ -291,7 +319,7 @@ matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s
 \[ \sigma_{\mu \nu}^{H} = \frac{1}{\Omega} \frac{\partial E^{H}}{\partial \varepsilon_{\mu \nu}} = \frac{1}{\Omega} 2\pi \Big( \big( \frac{\partial}{\partial \varepsilon_{\mu \nu}} \frac{1}{\Omega} \big) \sum_{{\bf G}} \frac{|\tilde \rho({\bf G})|^2}{G^2} + \frac{1}{\Omega} \sum_{{\bf G}} |\tilde \rho({\bf G})|^2 \frac{\partial}{\partial \varepsilon_{\mu \nu}} \frac{1}{G^2} \Big) = \\ \frac{1}{\Omega} 2\pi \Big( -\frac{1}{\Omega} \delta_{\mu \nu} \sum_{{\bf G}} \frac{|\tilde \rho({\bf G})|^2}{G^2} + \frac{1}{\Omega} \sum_{\bf G} |\tilde \rho({\bf G})|^2 \sum_{\tau} \frac{-2 G_{\tau}}{G^4} \frac{\partial G_{\tau}}{\partial \varepsilon_{\mu \nu}} \Big) = \\ 2\pi \sum_{\bf G} \frac{|\rho({\bf G})|^2}{G^2} \Big( -\delta_{\mu \nu} + \frac{2}{G^2} G_{\nu} G_{\mu} \Big) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00186">186</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00206">206</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
 
 </div>
 </div>
@@ -337,7 +365,7 @@ matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s
 \[ -\frac{1}{\Omega}\frac{\partial}{\partial \varepsilon_{\mu \nu}} \frac{2\pi}{\Omega}\frac{N_{el}^2}{4 \lambda} = \frac{2\pi}{\Omega^2}\frac{N_{el}^2}{4 \lambda} \delta_{\mu \nu} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00258">258</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00276">276</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
 
 </div>
 </div>
@@ -385,7 +413,7 @@ matrix3d&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>s
 \[ \int \Big(V_{\alpha}(r) r + Z_{\alpha}^p {\rm erf}(r) \Big) \Big( \frac{\sin (G r)}{G^3} - \frac{r \cos (G r)}{G^2}\Big) dr - Z_{\alpha}^p \Big( \frac{e^{-\frac{G^2}{4}}}{2 G^2} + \frac{2 e^{-\frac{G^2}{4}}}{G^4} \Big) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00388">388</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00387">387</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
 
 </div>
 </div>
@@ -450,7 +478,7 @@ template&lt;typename T &gt; </div>
 \[ \bar R_{1 x}(\theta, \phi) = -2 \sqrt{\frac{\pi}{3}} R_{11}(\theta, \phi) = \sin(\theta) \cos(\phi) \\ \bar R_{1 y}(\theta, \phi) = -2 \sqrt{\frac{\pi}{3}} R_{1-1}(\theta,\phi) = \sin(\theta) \sin(\phi) \\ \bar R_{1 z}(\theta, \phi) = 2 \sqrt{\frac{\pi}{3}} R_{10}(\theta, \phi) = \cos(\theta) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00523">523</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00520">520</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
 
 </div>
 </div>
@@ -494,7 +522,39 @@ template&lt;typename T &gt; </div>
 \[ \frac{\partial}{\partial \varepsilon_{\mu \nu}} \tilde Q_{\xi \xi&#39;}^{\alpha}({\bf G}) = -\frac{G_{\mu}}{G} 4\pi \sum_{\ell m} (-i)^{\ell} \langle R_{\ell_{\xi} m_{\xi}} | R_{\ell m} | R_{\ell_{\xi&#39;} m_{\xi&#39;}} \rangle \Big( \big(\nabla_{G} R_{\ell m}(\hat{\bf G})\big)_{\nu} \int Q_{\ell_{\xi} \ell_{\xi&#39;}}^{\ell}(r) j_{\ell}(Gr) r^2 dr + R_{\ell m}(\hat{\bf G}) \int Q_{\ell_{\xi} \ell_{\xi&#39;}}^{\ell}(r) \frac{\partial j_{\ell}(Gr)}{\partial G} G_{\nu} r^2 dr \Big) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00605">605</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00617">617</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
+
+</div>
+</div>
+<a id="ab4cfd6e82c4515a85bbcb8b66ac5422f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4cfd6e82c4515a85bbcb8b66ac5422f">&#9670;&nbsp;</a></span>calc_stress_xc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sirius::Stress::calc_stress_xc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>XC contribution to stress. </p>
+<p>XC contribution has the following expression: </p><p class="formulaDsp">
+\[ \frac{\partial E_{xc}}{\partial \varepsilon_{\mu \nu}} = \delta_{\mu \nu} \int \Big( \epsilon_{xc}({\bf r}) - v_{xc}({\bf r}) \Big) \rho({\bf r})d{\bf r} - \int \frac{\partial \epsilon_{xc} \big( \rho({\bf r}), \nabla \rho({\bf r})\big) }{\nabla_{\beta} \rho({\bf r})} \nabla_{\alpha}\rho({\bf r}) d{\bf r} \]
+</p>
+ 
+<p class="definition">Definition at line <a class="el" href="../../d2/d50/stress_8h_source.html#l00760">760</a> of file <a class="el" href="../../d2/d50/stress_8h_source.html">stress.h</a>.</p>
 
 </div>
 </div>
@@ -504,7 +564,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 20 2017 10:29:40 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 25 2017 10:27:17 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
