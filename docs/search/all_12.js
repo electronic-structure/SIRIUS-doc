@@ -1,7 +1,7 @@
 var searchData=
 [
   ['detail',['detail',['../db/d6f/namespacesddk_1_1nlohmann_1_1detail.html',1,'sddk::nlohmann']]],
-  ['spin_2dpolarized_20dft',['Spin-polarized DFT',['../d3/de1/_d_f_t.html',1,'']]],
+  ['spin_2dpolarized_20dft',['Spin-polarized DFT',['../de/d8d/dft.html',1,'']]],
   ['dtoa_5fimpl',['dtoa_impl',['../d8/d95/namespacesddk_1_1nlohmann_1_1detail_1_1dtoa__impl.html',1,'sddk::nlohmann::detail']]],
   ['nlohmann',['nlohmann',['../d9/d22/namespacesddk_1_1nlohmann.html',1,'sddk']]],
   ['s0',['s0',['../d9/d04/classsddk_1_1_wave__functions.html#ab2e9d0d650342d50e3763009ddeee459',1,'sddk::Wave_functions']]],
