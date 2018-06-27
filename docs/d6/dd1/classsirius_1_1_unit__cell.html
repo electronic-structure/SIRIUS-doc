@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -87,8 +87,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d68/classsirius_1_1_unit__cell__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d68/classsirius_1_1_unit__cell__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -111,6 +110,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html#a89843c24de69f8968140a9cfff4bdd0f">add_atom</a> (const std::string label, <a class="el" href="../../d2/d6b/classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; position)</td></tr>
 <tr class="memdesc:a89843c24de69f8968140a9cfff4bdd0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new atom without vector field to the list of atom types. <br /></td></tr>
 <tr class="separator:a89843c24de69f8968140a9cfff4bdd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e989e78cf1d9d940ba133d5384e9746"><td class="memItemLeft" align="right" valign="top"><a id="a1e989e78cf1d9d940ba133d5384e9746"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html#a1e989e78cf1d9d940ba133d5384e9746">add_atom</a> (const std::string label, std::vector&lt; double &gt; position)</td></tr>
+<tr class="memdesc:a1e989e78cf1d9d940ba133d5384e9746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new atom without vector field to the list of atom types. <br /></td></tr>
+<tr class="separator:a1e989e78cf1d9d940ba133d5384e9746"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c6cdebd28fa00730179967a74254c25"><td class="memItemLeft" align="right" valign="top"><a id="a3c6cdebd28fa00730179967a74254c25"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html#a3c6cdebd28fa00730179967a74254c25">init_paw</a> ()</td></tr>
 <tr class="memdesc:a3c6cdebd28fa00730179967a74254c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add PAW atoms. <br /></td></tr>
@@ -514,7 +517,7 @@ std::unique_ptr&lt; <a class="el" href="../../d0/d56/classsirius_1_1_unit__cell_
 <p>Automatically determine new muffin-tin radii as a half distance between neighbor atoms. </p>
 <p>In order to guarantee a unique solution muffin-tin radii are dermined as a half distance bethween nearest atoms. Initial values of the muffin-tin radii are ignored. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00806">806</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00812">812</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -552,7 +555,7 @@ std::unique_ptr&lt; <a class="el" href="../../d0/d56/classsirius_1_1_unit__cell_
 <li>Create split indices for atoms and atom classes </li>
 </ol>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00635">635</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00641">641</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -582,7 +585,7 @@ std::unique_ptr&lt; <a class="el" href="../../d0/d56/classsirius_1_1_unit__cell_
 <p>Get crystal symmetries and equivalent atoms. </p>
 <p>Makes a call to spglib providing the basic unit cell information: lattice vectors and atomic types and positions. Gets back symmetry operations and a table of equivalent atoms. The table of equivalent atoms is then used to make a list of atom symmetry classes and related data. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00738">738</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00744">744</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -613,7 +616,7 @@ std::unique_ptr&lt; <a class="el" href="../../d0/d56/classsirius_1_1_unit__cell_
 <p>Set matrix of lattice vectors. </p>
 <p>Initializes lattice vectors, inverse lattice vector matrix, reciprocal lattice vectors and the unit cell volume. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00295">295</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00301">301</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -643,7 +646,7 @@ std::unique_ptr&lt; <a class="el" href="../../d0/d56/classsirius_1_1_unit__cell_
 <p>Total number of the muffin-tin basis functions. </p>
 <p>Total number of MT basis functions equals to the sum of the total number of augmented wave basis functions and the total number of local orbital basis functions among all atoms. It controls the size of the muffin-tin part of the first-variational states and second-variational wave functions. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00482">482</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d51/unit__cell_8h_source.html#l00488">488</a> of file <a class="el" href="../../d0/d51/unit__cell_8h_source.html">unit_cell.h</a>.</p>
 
 </div>
 </div>
@@ -771,7 +774,7 @@ std::unique_ptr&lt; <a class="el" href="../../d0/d56/classsirius_1_1_unit__cell_
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:35 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:49 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

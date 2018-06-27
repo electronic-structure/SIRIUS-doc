@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -87,16 +87,15 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d04/classsirius_1_1_k__point__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d04/classsirius_1_1_k__point__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0374ed7edcb5177b7e8a03f2722c6090"><td class="memItemLeft" align="right" valign="top"><a id="a0374ed7edcb5177b7e8a03f2722c6090"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html#a0374ed7edcb5177b7e8a03f2722c6090">K_point</a> (<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;ctx__, double *vk__, double weight__)</td></tr>
-<tr class="memdesc:a0374ed7edcb5177b7e8a03f2722c6090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:a0374ed7edcb5177b7e8a03f2722c6090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257e78e79cc2db5d49b506585c86e9f8"><td class="memItemLeft" align="right" valign="top"><a id="a257e78e79cc2db5d49b506585c86e9f8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html#a257e78e79cc2db5d49b506585c86e9f8">K_point</a> (<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;ctx__, double const *vk__, double weight__)</td></tr>
+<tr class="memdesc:a257e78e79cc2db5d49b506585c86e9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="separator:a257e78e79cc2db5d49b506585c86e9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b0c4ae54e8c7f8da88701e5015ab16c"><td class="memItemLeft" align="right" valign="top"><a id="a3b0c4ae54e8c7f8da88701e5015ab16c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html#a3b0c4ae54e8c7f8da88701e5015ab16c">generate_gkvec</a> (double gk_cutoff__)</td></tr>
 <tr class="memdesc:a3b0c4ae54e8c7f8da88701e5015ab16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find G+k vectors within the cutoff. <br /></td></tr>
@@ -118,6 +117,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a756991a6252279406ae14e409c51f887"><td class="memItemLeft" align="right" valign="top"><a id="a756991a6252279406ae14e409c51f887"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_atomic_centered_wavefunctions</b> (const int num_ao__, Wave_functions &amp;phi)</td></tr>
 <tr class="separator:a756991a6252279406ae14e409c51f887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af22bec6bd9329ba858db5e424aaa9976"><td class="memItemLeft" align="right" valign="top"><a id="af22bec6bd9329ba858db5e424aaa9976"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_atomic_centered_wavefunctions_</b> (const int num_ao__, Wave_functions &amp;phi, std::vector&lt; int &gt; &amp;offset, bool hubbard)</td></tr>
+<tr class="separator:af22bec6bd9329ba858db5e424aaa9976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0545f1ccbfd9575cd46dd352b6878270"><td class="memItemLeft" align="right" valign="top"><a id="a0545f1ccbfd9575cd46dd352b6878270"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>compute_gradient_wavefunctions</b> (Wave_functions &amp;phi, const int starting_position_i, const int num_wf, Wave_functions &amp;dphi, const int starting_position_j, const int direction)</td></tr>
+<tr class="separator:a0545f1ccbfd9575cd46dd352b6878270"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace212955b62fd77b8907ac1b95042de2"><td class="memItemLeft" align="right" valign="top"><a id="ace212955b62fd77b8907ac1b95042de2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>save</b> (int id)</td></tr>
 <tr class="separator:ace212955b62fd77b8907ac1b95042de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -462,11 +467,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <tr class="separator:a6483b599581ba095c971ee04c2d61b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60c93116b6de3660cd0375f4e268e1ae"><td class="memItemLeft" align="right" valign="top"><a id="a60c93116b6de3660cd0375f4e268e1ae"></a>
 std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html#a60c93116b6de3660cd0375f4e268e1ae">atom_lo_cols_</a></td></tr>
-<tr class="memdesc:a60c93116b6de3660cd0375f4e268e1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of columns of the <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html">Hamiltonian</a> and overlap matrix lo block (local index) for a given atom. <br /></td></tr>
+<tr class="memdesc:a60c93116b6de3660cd0375f4e268e1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of columns of the <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html" title="Representation of Kohn-Sham Hamiltonian. ">Hamiltonian</a> and overlap matrix lo block (local index) for a given atom. <br /></td></tr>
 <tr class="separator:a60c93116b6de3660cd0375f4e268e1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf2c9c65bb23f1ce9a7451d5d4553195"><td class="memItemLeft" align="right" valign="top"><a id="adf2c9c65bb23f1ce9a7451d5d4553195"></a>
 std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html#adf2c9c65bb23f1ce9a7451d5d4553195">atom_lo_rows_</a></td></tr>
-<tr class="memdesc:adf2c9c65bb23f1ce9a7451d5d4553195"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of rows of the <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html">Hamiltonian</a> and overlap matrix lo block (local index) for a given atom <br /></td></tr>
+<tr class="memdesc:adf2c9c65bb23f1ce9a7451d5d4553195"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of rows of the <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html" title="Representation of Kohn-Sham Hamiltonian. ">Hamiltonian</a> and overlap matrix lo block (local index) for a given atom <br /></td></tr>
 <tr class="separator:adf2c9c65bb23f1ce9a7451d5d4553195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63bb5c2fb436b8292cfc9215f488b44a"><td class="memItemLeft" align="right" valign="top"><a id="a63bb5c2fb436b8292cfc9215f488b44a"></a>
 std::vector&lt; double_complex &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/daf/classsirius_1_1_k__point.html#a63bb5c2fb436b8292cfc9215f488b44a">zil_</a></td></tr>
@@ -608,7 +613,7 @@ First-variational eigen vectors</div></div>
 </p>
 <p>Thus, the total number of coefficients representing a wave-funstion is equal to the number of muffin-tin basis functions of the form \( f_{\ell \lambda}^{\alpha}(r) Y_{\ell m}(\hat {\bf r}) \) plust the number of G+k plane waves. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d02/k__point_8h_source.html#l00364">364</a> of file <a class="el" href="../../d9/d02/k__point_8h_source.html">k_point.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d02/k__point_8h_source.html#l00370">370</a> of file <a class="el" href="../../d9/d02/k__point_8h_source.html">k_point.h</a>.</p>
 
 </div>
 </div>
@@ -661,7 +666,7 @@ First-variational eigen vectors</div></div>
 </div><div class="memdoc">
 
 <p>LAPW matching coefficients for the row G+k vectors. </p>
-<p>Used to setup the distributed LAPW <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html">Hamiltonian</a> and overlap matrices. </p>
+<p>Used to setup the distributed LAPW <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html" title="Representation of Kohn-Sham Hamiltonian. ">Hamiltonian</a> and overlap matrices. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d02/k__point_8h_source.html#l00099">99</a> of file <a class="el" href="../../d9/d02/k__point_8h_source.html">k_point.h</a>.</p>
 
@@ -688,7 +693,7 @@ First-variational eigen vectors</div></div>
 </div><div class="memdoc">
 
 <p>LAPW matching coefficients for the column G+k vectors. </p>
-<p>Used to setup the distributed LAPW <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html">Hamiltonian</a> and overlap matrices. </p>
+<p>Used to setup the distributed LAPW <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html" title="Representation of Kohn-Sham Hamiltonian. ">Hamiltonian</a> and overlap matrices. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d02/k__point_8h_source.html#l00103">103</a> of file <a class="el" href="../../d9/d02/k__point_8h_source.html">k_point.h</a>.</p>
 
@@ -850,7 +855,7 @@ First-variational eigen vectors</div></div>
 </div><div class="memdoc">
 
 <p>Beta projectors for row G+k vectors. </p>
-<p>Used to setup the full <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html">Hamiltonian</a> in PP-PW case (for verification purpose only) </p>
+<p>Used to setup the full <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html" title="Representation of Kohn-Sham Hamiltonian. ">Hamiltonian</a> in PP-PW case (for verification purpose only) </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d02/k__point_8h_source.html#l00166">166</a> of file <a class="el" href="../../d9/d02/k__point_8h_source.html">k_point.h</a>.</p>
 
@@ -877,7 +882,7 @@ First-variational eigen vectors</div></div>
 </div><div class="memdoc">
 
 <p>Beta projectors for column G+k vectors. </p>
-<p>Used to setup the full <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html">Hamiltonian</a> in PP-PW case (for verification purpose only) </p>
+<p>Used to setup the full <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html" title="Representation of Kohn-Sham Hamiltonian. ">Hamiltonian</a> in PP-PW case (for verification purpose only) </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d02/k__point_8h_source.html#l00170">170</a> of file <a class="el" href="../../d9/d02/k__point_8h_source.html">k_point.h</a>.</p>
 
@@ -923,7 +928,7 @@ First-variational eigen vectors</div></div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:34 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:48 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

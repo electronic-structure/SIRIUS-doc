@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -86,23 +86,21 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d53/classsirius_1_1_broyden2__inherit__graph.svg" width="128" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d53/classsirius_1_1_broyden2__inherit__graph.svg" width="128" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sirius::Broyden2&lt; T &gt;:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d33/classsirius_1_1_broyden2__coll__graph.svg" width="316" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d33/classsirius_1_1_broyden2__coll__graph.svg" width="316" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0814fbdfa676883fe506a2b3b89a315c"><td class="memItemLeft" align="right" valign="top"><a id="a0814fbdfa676883fe506a2b3b89a315c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Broyden2</b> (int shared_vector_size__, int local_vector_size__, int max_history__, double beta__, double beta0__, double linear_mix_rms_tol__, Communicator const &amp;comm__)</td></tr>
-<tr class="separator:a0814fbdfa676883fe506a2b3b89a315c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf215324c22b0d8c6455cb932efec070"><td class="memItemLeft" align="right" valign="top"><a id="acf215324c22b0d8c6455cb932efec070"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Broyden2</b> (int shared_vector_size__, int local_vector_size__, int max_history__, double beta__, double beta0__, double linear_mix_rms_tol__, double beta_scaling_factor__, Communicator const &amp;comm__)</td></tr>
+<tr class="separator:acf215324c22b0d8c6455cb932efec070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30e36c6144b6267db46e101cd59cd7ed"><td class="memItemLeft" align="right" valign="top"><a id="a30e36c6144b6267db46e101cd59cd7ed"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>mix</b> (double rss_min__)</td></tr>
 <tr class="separator:a30e36c6144b6267db46e101cd59cd7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,6 +135,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae6456ebe346e83aefdd09b0e8ae48b3d"><td class="memItemLeft" align="right" valign="top"><a id="ae6456ebe346e83aefdd09b0e8ae48b3d"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>beta0_</b></td></tr>
 <tr class="separator:ae6456ebe346e83aefdd09b0e8ae48b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7900e150fbae8738669f0b422c236ae8"><td class="memItemLeft" align="right" valign="top"><a id="a7900e150fbae8738669f0b422c236ae8"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>beta_scaling_factor_</b></td></tr>
+<tr class="separator:a7900e150fbae8738669f0b422c236ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c1a4fe0b16b92a619f5af6f3a58e726"><td class="memItemLeft" align="right" valign="top"><a id="a0c1a4fe0b16b92a619f5af6f3a58e726"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>linear_mix_rms_tol_</b></td></tr>
 <tr class="separator:a0c1a4fe0b16b92a619f5af6f3a58e726"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,6 +218,9 @@ Communicator const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a 
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d76/classsirius_1_1_mixer.html#aac22bb1bd9611d5783d32b9802c893f4">rss_</a> {0}</td></tr>
 <tr class="memdesc:aac22bb1bd9611d5783d32b9802c893f4 inherit pro_attribs_classsirius_1_1_mixer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Residual sum of squares. <br /></td></tr>
 <tr class="separator:aac22bb1bd9611d5783d32b9802c893f4 inherit pro_attribs_classsirius_1_1_mixer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2128ef7931c2872c023b726de801906e inherit pro_attribs_classsirius_1_1_mixer"><td class="memItemLeft" align="right" valign="top"><a id="a2128ef7931c2872c023b726de801906e"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>rms_history_</b></td></tr>
+<tr class="separator:a2128ef7931c2872c023b726de801906e inherit pro_attribs_classsirius_1_1_mixer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -226,14 +230,14 @@ class sirius::Broyden2&lt; T &gt;</h3>
 <p>Second version of the Broyden mixer, which doesn't requre inversion of the Jacobian matrix. Reference paper: "Robust acceleration of self consistent field calculations for 
 density functional theory", Baarman K, Eirola T, Havu V., J Chem Phys. 134, 134109 (2011) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d69/mixer_8h_source.html#l00403">403</a> of file <a class="el" href="../../d2/d69/mixer_8h_source.html">mixer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d69/mixer_8h_source.html#l00442">442</a> of file <a class="el" href="../../d2/d69/mixer_8h_source.html">mixer.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="../../d2/d69/mixer_8h_source.html">mixer.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:34 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:48 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

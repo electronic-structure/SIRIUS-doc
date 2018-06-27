@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -87,8 +87,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/dbf/radial__grid_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/dbf/radial__grid_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../dc/da1/radial__grid_8h_source.html">Go to the source code of this file.</a></p>
@@ -118,25 +117,23 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a9c2875496b6736959baaf053c21dafb0"><td class="memItemLeft" align="right" valign="top"><a id="a9c2875496b6736959baaf053c21dafb0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/def/namespacesirius.html#a9c2875496b6736959baaf053c21dafb0">sirius::radial_grid_t</a> { <br />
-&#160;&#160;<b>linear_grid</b> = 0, 
-<b>exponential_grid</b> = 1, 
-<b>pow2_grid</b> = 2, 
-<b>pow3_grid</b> = 3, 
-<br />
-&#160;&#160;<b>scaled_pow_grid</b> = 4, 
-<b>lin_exp_grid</b> = 5
-<br />
- }<tr class="memdesc:a9c2875496b6736959baaf053c21dafb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of radial grid. <br /></td></tr>
+<tr class="memitem:a23ef5d0299ef777aad5e5b374abf0a79"><td class="memItemLeft" align="right" valign="top"><a id="a23ef5d0299ef777aad5e5b374abf0a79"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/def/namespacesirius.html#a23ef5d0299ef777aad5e5b374abf0a79">sirius::radial_grid_t</a> : int { <b>linear</b> = 0, 
+<b>exponential</b> = 1, 
+<b>power</b> = 2, 
+<b>lin_exp</b> = 3
+ }<tr class="memdesc:a23ef5d0299ef777aad5e5b374abf0a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of radial grid. <br /></td></tr>
 </td></tr>
-<tr class="separator:a9c2875496b6736959baaf053c21dafb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a23ef5d0299ef777aad5e5b374abf0a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2e1dd4179015645b3ace080a3494aeda"><td class="memTemplParams" colspan="2"><a id="a2e1dd4179015645b3ace080a3494aeda"></a>
+<tr class="memitem:a476e317429eb9e4fb0b0a5b5c99610b1"><td class="memTemplParams" colspan="2"><a id="a476e317429eb9e4fb0b0a5b5c99610b1"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2e1dd4179015645b3ace080a3494aeda"><td class="memTemplItemLeft" align="right" valign="top">Radial_grid&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sirius::Radial_grid_factory</b> (radial_grid_t grid_type__, int num_points__, T rmin__, T rmax__, double p__=1.0)</td></tr>
-<tr class="separator:a2e1dd4179015645b3ace080a3494aeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476e317429eb9e4fb0b0a5b5c99610b1"><td class="memTemplItemLeft" align="right" valign="top">Radial_grid&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sirius::Radial_grid_factory</b> (radial_grid_t grid_type__, int num_points__, T rmin__, T rmax__, double p__)</td></tr>
+<tr class="separator:a476e317429eb9e4fb0b0a5b5c99610b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c74227043b828f834c655827a67a75b"><td class="memItemLeft" align="right" valign="top"><a id="a2c74227043b828f834c655827a67a75b"></a>
+std::pair&lt; radial_grid_t, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sirius::get_radial_grid_t</b> (std::string str__)</td></tr>
+<tr class="separator:a2c74227043b828f834c655827a67a75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains declaraion and partial implementation of <a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html" title="Base class for radial grids. ">sirius::Radial_grid</a> class. </p>
@@ -145,7 +142,7 @@ template&lt;typename T &gt; </td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:31 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:46 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

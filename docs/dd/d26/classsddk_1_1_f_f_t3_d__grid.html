@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -66,7 +66,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../d6/d4d/namespacesddk.html">sddk</a></li><li class="navelem"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html">FFT3D_grid</a></li>  </ul>
+<li class="navelem"><b>sddk</b></li><li class="navelem"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html">FFT3D_grid</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -82,11 +82,19 @@ $(function() {
 
 <p>Handling of FFT grids.  
  <a href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#details">More...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for sddk::FFT3D_grid:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dbc/classsddk_1_1_f_f_t3_d__grid__inherit__graph.svg" width="114" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3514e62914f358e77416ee3026db224d"><td class="memItemLeft" align="right" valign="top"><a id="a3514e62914f358e77416ee3026db224d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>FFT3D_grid</b> (std::array&lt; int, 3 &gt; initial_dims__)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a3514e62914f358e77416ee3026db224d">FFT3D_grid</a> (std::array&lt; int, 3 &gt; initial_dims__)</td></tr>
+<tr class="memdesc:a3514e62914f358e77416ee3026db224d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create FFT grid with initial dimensions. <br /></td></tr>
 <tr class="separator:a3514e62914f358e77416ee3026db224d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8ebd4984127dde4c20409f37977450f"><td class="memItemLeft" align="right" valign="top"><a id="aa8ebd4984127dde4c20409f37977450f"></a>
 const std::pair&lt; int, int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#aa8ebd4984127dde4c20409f37977450f">limits</a> (int idim__) const</td></tr>
@@ -100,26 +108,32 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#aa215b08948d0050db2ef768261194e25">size</a> () const</td></tr>
 <tr class="memdesc:aa215b08948d0050db2ef768261194e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total size of the FFT grid. <br /></td></tr>
 <tr class="separator:aa215b08948d0050db2ef768261194e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67b4c7a9d763fcb521a7a69c8bc1aec0"><td class="memItemLeft" align="right" valign="top"><a id="a67b4c7a9d763fcb521a7a69c8bc1aec0"></a>
-std::array&lt; int, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>coord_by_gvec</b> (int i0__, int i1__, int i2__) const</td></tr>
-<tr class="separator:a67b4c7a9d763fcb521a7a69c8bc1aec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8e4b4dad44000e3f69c70009cfa701f"><td class="memItemLeft" align="right" valign="top"><a id="ab8e4b4dad44000e3f69c70009cfa701f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>coord_by_gvec</b> (int i__, int idim__) const</td></tr>
-<tr class="separator:ab8e4b4dad44000e3f69c70009cfa701f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e9a2500c77b9aa2460be05a8a7c36de"><td class="memItemLeft" align="right" valign="top"><a id="a1e9a2500c77b9aa2460be05a8a7c36de"></a>
-std::array&lt; int, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>gvec_by_coord</b> (int x__, int y__, int z__) const</td></tr>
-<tr class="separator:a1e9a2500c77b9aa2460be05a8a7c36de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49aaf75f9f477c02f10197684e3906a1"><td class="memItemLeft" align="right" valign="top"><a id="a49aaf75f9f477c02f10197684e3906a1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>gvec_by_coord</b> (int x__, int idim__) const</td></tr>
-<tr class="separator:a49aaf75f9f477c02f10197684e3906a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d35c9b4eb612e28b9feb1e9fc1e54ea"><td class="memTemplParams" colspan="2"><a id="a1d35c9b4eb612e28b9feb1e9fc1e54ea"></a>
+template&lt;int d&gt; </td></tr>
+<tr class="memitem:a1d35c9b4eb612e28b9feb1e9fc1e54ea"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a1d35c9b4eb612e28b9feb1e9fc1e54ea">coord_by_freq</a> (int i__) const</td></tr>
+<tr class="memdesc:a1d35c9b4eb612e28b9feb1e9fc1e54ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get coordinate in range [0, N_d) by the frequency index. <br /></td></tr>
+<tr class="separator:a1d35c9b4eb612e28b9feb1e9fc1e54ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a3c2c321c2c0844710029e4dfb0307"><td class="memItemLeft" align="right" valign="top"><a id="af0a3c2c321c2c0844710029e4dfb0307"></a>
+std::array&lt; int, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#af0a3c2c321c2c0844710029e4dfb0307">coord_by_freq</a> (int i0__, int i1__, int i2__) const</td></tr>
+<tr class="memdesc:af0a3c2c321c2c0844710029e4dfb0307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return {x, y, z} coordinates by frequency indices. <br /></td></tr>
+<tr class="separator:af0a3c2c321c2c0844710029e4dfb0307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed292805599d42c598dfb8206e96ffa9"><td class="memTemplParams" colspan="2"><a id="aed292805599d42c598dfb8206e96ffa9"></a>
+template&lt;int d&gt; </td></tr>
+<tr class="memitem:aed292805599d42c598dfb8206e96ffa9"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#aed292805599d42c598dfb8206e96ffa9">freq_by_coord</a> (int x__) const</td></tr>
+<tr class="memdesc:aed292805599d42c598dfb8206e96ffa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get frequency by coordinate. <br /></td></tr>
+<tr class="separator:aed292805599d42c598dfb8206e96ffa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0789d5e156348496017abcb6d2d3330f"><td class="memItemLeft" align="right" valign="top"><a id="a0789d5e156348496017abcb6d2d3330f"></a>
+std::array&lt; int, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a0789d5e156348496017abcb6d2d3330f">freq_by_coord</a> (int x__, int y__, int z__) const</td></tr>
+<tr class="memdesc:a0789d5e156348496017abcb6d2d3330f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 3d vector of frequencies corresponding to {x, y, z} position in the FFT buffer. <br /></td></tr>
+<tr class="separator:a0789d5e156348496017abcb6d2d3330f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aade00e75070cdd67a715f5da59150200"><td class="memItemLeft" align="right" valign="top"><a id="aade00e75070cdd67a715f5da59150200"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#aade00e75070cdd67a715f5da59150200">index_by_coord</a> (int x__, int y__, int z__) const</td></tr>
 <tr class="memdesc:aade00e75070cdd67a715f5da59150200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear index inside FFT buffer by grid coordinates. <br /></td></tr>
 <tr class="separator:aade00e75070cdd67a715f5da59150200"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c06273babbd24f081d74a8c7da01d6b"><td class="memItemLeft" align="right" valign="top"><a id="a0c06273babbd24f081d74a8c7da01d6b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a0c06273babbd24f081d74a8c7da01d6b">index_by_gvec</a> (int i0__, int i1__, int i2__) const</td></tr>
-<tr class="memdesc:a0c06273babbd24f081d74a8c7da01d6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return linear index of a plane-wave harmonic with fractional coordinates (i0, i1, i2) inside FFT buffer. <br /></td></tr>
-<tr class="separator:a0c06273babbd24f081d74a8c7da01d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6347bea4394e36772067dd42215f258b"><td class="memItemLeft" align="right" valign="top"><a id="a6347bea4394e36772067dd42215f258b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a6347bea4394e36772067dd42215f258b">index_by_freq</a> (int i0__, int i1__, int i2__) const</td></tr>
+<tr class="memdesc:a6347bea4394e36772067dd42215f258b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return linear index of a plane-wave harmonic with fractional coordinates (i0, i1, i2) inside FFT buffer. <br /></td></tr>
+<tr class="separator:a6347bea4394e36772067dd42215f258b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -128,19 +142,20 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <tr class="memdesc:ace2e6d322b46c111839602d52ab6d371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find smallest optimal grid size starting from n. <br /></td></tr>
 <tr class="separator:ace2e6d322b46c111839602d52ab6d371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0591d5c0a6cf98c8515fa545555f72db"><td class="memItemLeft" align="right" valign="top"><a id="a0591d5c0a6cf98c8515fa545555f72db"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>find_grid_size</b> (std::array&lt; int, 3 &gt; initial_dims__)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a0591d5c0a6cf98c8515fa545555f72db">find_grid_size</a> (std::array&lt; int, 3 &gt; initial_dims__)</td></tr>
+<tr class="memdesc:a0591d5c0a6cf98c8515fa545555f72db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find grid sizes and limits for all three dimensions. <br /></td></tr>
 <tr class="separator:a0591d5c0a6cf98c8515fa545555f72db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad6cd37e6540f58635a561d81a1bcf8a7"><td class="memItemLeft" align="right" valign="top"><a id="ad6cd37e6540f58635a561d81a1bcf8a7"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#ad6cd37e6540f58635a561d81a1bcf8a7">grid_size_</a> [3]</td></tr>
-<tr class="memdesc:ad6cd37e6540f58635a561d81a1bcf8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of each dimension. <br /></td></tr>
-<tr class="separator:ad6cd37e6540f58635a561d81a1bcf8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41c9d4dfef43df42e0aa18597f5d83a2"><td class="memItemLeft" align="right" valign="top"><a id="a41c9d4dfef43df42e0aa18597f5d83a2"></a>
-std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a41c9d4dfef43df42e0aa18597f5d83a2">grid_limits_</a> [3]</td></tr>
-<tr class="memdesc:a41c9d4dfef43df42e0aa18597f5d83a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reciprocal space range. <br /></td></tr>
-<tr class="separator:a41c9d4dfef43df42e0aa18597f5d83a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10cc7cf40e1ef4d309cbddc7f257fae2"><td class="memItemLeft" align="right" valign="top"><a id="a10cc7cf40e1ef4d309cbddc7f257fae2"></a>
+std::array&lt; int, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a10cc7cf40e1ef4d309cbddc7f257fae2">grid_size_</a></td></tr>
+<tr class="memdesc:a10cc7cf40e1ef4d309cbddc7f257fae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of each dimension. <br /></td></tr>
+<tr class="separator:a10cc7cf40e1ef4d309cbddc7f257fae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb3d2a36758387a394023e328377977f"><td class="memItemLeft" align="right" valign="top"><a id="acb3d2a36758387a394023e328377977f"></a>
+std::array&lt; std::pair&lt; int, int &gt;, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#acb3d2a36758387a394023e328377977f">grid_limits_</a></td></tr>
+<tr class="memdesc:acb3d2a36758387a394023e328377977f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reciprocal space range. <br /></td></tr>
+<tr class="separator:acb3d2a36758387a394023e328377977f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Handling of FFT grids. </p>
@@ -152,7 +167,7 @@ std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:33 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:47 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -72,7 +72,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dd/d49/classsirius_1_1_periodic__function-members.html">List of all members</a>  </div>
@@ -88,16 +87,14 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4a/classsirius_1_1_periodic__function__inherit__graph.svg" width="162" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4a/classsirius_1_1_periodic__function__inherit__graph.svg" width="162" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sirius::Periodic_function&lt; T &gt;:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dd4/classsirius_1_1_periodic__function__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dd4/classsirius_1_1_periodic__function__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -121,10 +118,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:abd0d982eba40c6b6f2e4c01242879894"><td class="memItemLeft" align="right" valign="top"><a id="abd0d982eba40c6b6f2e4c01242879894"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>copy_to_global_ptr</b> (T *f_mt__, T *f_it__) const</td></tr>
 <tr class="separator:abd0d982eba40c6b6f2e4c01242879894"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39e334ef18345209c9b1f439aa8c2e86"><td class="memItemLeft" align="right" valign="top"><a id="a39e334ef18345209c9b1f439aa8c2e86"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html#a39e334ef18345209c9b1f439aa8c2e86">add</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; T &gt; *g)</td></tr>
-<tr class="memdesc:a39e334ef18345209c9b1f439aa8c2e86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the function. <br /></td></tr>
-<tr class="separator:a39e334ef18345209c9b1f439aa8c2e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8760463a9c742901f66f27e39ab8f6a"><td class="memItemLeft" align="right" valign="top"><a id="af8760463a9c742901f66f27e39ab8f6a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html#af8760463a9c742901f66f27e39ab8f6a">add</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; T &gt; const &amp;g__)</td></tr>
+<tr class="memdesc:af8760463a9c742901f66f27e39ab8f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the function. <br /></td></tr>
+<tr class="separator:af8760463a9c742901f66f27e39ab8f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a986bbcd26bf61bbc9259727bd291466d"><td class="memItemLeft" align="right" valign="top"><a id="a986bbcd26bf61bbc9259727bd291466d"></a>
 T&#160;</td><td class="memItemRight" valign="bottom"><b>integrate</b> (std::vector&lt; T &gt; &amp;mt_val, T &amp;it_val)</td></tr>
 <tr class="separator:a986bbcd26bf61bbc9259727bd291466d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,16 +149,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a8104108a5e6c38369699fbe0f543881a"><td class="memItemLeft" align="right" valign="top"><a id="a8104108a5e6c38369699fbe0f543881a"></a>
 <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, T &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f_mt</b> (int ialoc__) const</td></tr>
 <tr class="separator:a8104108a5e6c38369699fbe0f543881a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a58ec3b548c32a369f8208b880d4b2c"><td class="memItemLeft" align="right" valign="top"><a id="a3a58ec3b548c32a369f8208b880d4b2c"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>value</b> (<a class="el" href="../../d2/d6b/classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; &amp;vc)</td></tr>
-<tr class="separator:a3a58ec3b548c32a369f8208b880d4b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaec2ad5f27167b7a972e93889ff576b"><td class="memItemLeft" align="right" valign="top"><a id="aaaec2ad5f27167b7a972e93889ff576b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>value_rg</b> (<a class="el" href="../../d2/d6b/classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; const &amp;vc)</td></tr>
+<tr class="separator:aaaec2ad5f27167b7a972e93889ff576b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7927c44d1d7c54f372232e2aa860140"><td class="memItemLeft" align="right" valign="top"><a id="ac7927c44d1d7c54f372232e2aa860140"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>value</b> (<a class="el" href="../../d2/d6b/classgeometry3d_1_1vector3d.html">vector3d</a>&lt; double &gt; const &amp;vc)</td></tr>
+<tr class="separator:ac7927c44d1d7c54f372232e2aa860140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af21c7b81d2cd0194b8db57b3ab9f0c76"><td class="memItemLeft" align="right" valign="top"><a id="af21c7b81d2cd0194b8db57b3ab9f0c76"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; T, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f_mt</b> ()</td></tr>
 <tr class="separator:af21c7b81d2cd0194b8db57b3ab9f0c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af364f7a3337ca21e4e5d97b628fec070"><td class="memItemLeft" align="right" valign="top"><a id="af364f7a3337ca21e4e5d97b628fec070"></a>
-T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html#af364f7a3337ca21e4e5d97b628fec070">inner</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; T &gt; const *g__) const</td></tr>
-<tr class="memdesc:af364f7a3337ca21e4e5d97b628fec070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute inner product &lt;f|g&gt; <br /></td></tr>
-<tr class="separator:af364f7a3337ca21e4e5d97b628fec070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70eb76d27ff809566f68e64ecb158676"><td class="memItemLeft" align="right" valign="top"><a id="a70eb76d27ff809566f68e64ecb158676"></a>
+T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html#a70eb76d27ff809566f68e64ecb158676">inner</a> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; T &gt; const &amp;g__) const</td></tr>
+<tr class="memdesc:a70eb76d27ff809566f68e64ecb158676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute inner product &lt;f|g&gt; <br /></td></tr>
+<tr class="separator:a70eb76d27ff809566f68e64ecb158676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classsirius_1_1_smooth__periodic__function"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classsirius_1_1_smooth__periodic__function')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">sirius::Smooth_periodic_function&lt; T &gt;</a></td></tr>
 <tr class="memitem:af83291fdeae4f3906815315c5fa8c4b5 inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memItemLeft" align="right" valign="top"><a id="af83291fdeae4f3906815315c5fa8c4b5"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html#af83291fdeae4f3906815315c5fa8c4b5">Smooth_periodic_function</a> ()</td></tr>
@@ -225,23 +225,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> (<a class="el
 <tr class="memitem:afe104524f13f0c64eadb0d822f75ab2f inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memItemLeft" align="right" valign="top"><a id="afe104524f13f0c64eadb0d822f75ab2f"></a>
 T&#160;</td><td class="memItemRight" valign="bottom"><b>checksum_rg</b> () const</td></tr>
 <tr class="separator:afe104524f13f0c64eadb0d822f75ab2f inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61e2b516a91d8c0261d658d627905585 inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memItemLeft" align="right" valign="top"><a id="a61e2b516a91d8c0261d658d627905585"></a>
-T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html#a61e2b516a91d8c0261d658d627905585">inner</a> (<a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; T &gt; const &amp;g__) const</td></tr>
-<tr class="memdesc:a61e2b516a91d8c0261d658d627905585 inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute inner product &lt;f|g&gt; <br /></td></tr>
-<tr class="separator:a61e2b516a91d8c0261d658d627905585 inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e4ac404689f95786e8ff211ed65d3fa inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memItemLeft" align="right" valign="top"><a id="a2e4ac404689f95786e8ff211ed65d3fa"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>hash_f_pw</b> () const</td></tr>
 <tr class="separator:a2e4ac404689f95786e8ff211ed65d3fa inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9021d56590d44e17d85e7385adefd5a6 inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memItemLeft" align="right" valign="top"><a id="a9021d56590d44e17d85e7385adefd5a6"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>hash_f_rg</b> () const</td></tr>
 <tr class="separator:a9021d56590d44e17d85e7385adefd5a6 inherit pub_methods_classsirius_1_1_smooth__periodic__function"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
-Private Types</h2></td></tr>
-<tr class="memitem:ab8dd7265e22b9321a85d3d63c3874918"><td class="memItemLeft" align="right" valign="top"><a id="ab8dd7265e22b9321a85d3d63c3874918"></a>
-typedef <a class="el" href="../../d4/d10/classtype__wrapper.html">type_wrapper</a>&lt; T &gt;::<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html#ab8dd7265e22b9321a85d3d63c3874918">complex_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html#ab8dd7265e22b9321a85d3d63c3874918">complex_t</a></td></tr>
-<tr class="memdesc:ab8dd7265e22b9321a85d3d63c3874918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Complex counterpart for a given type T. <br /></td></tr>
-<tr class="separator:ab8dd7265e22b9321a85d3d63c3874918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -259,7 +248,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a31f57c930350646be89aee008605471f"><td class="memItemLeft" align="right" valign="top"><a id="a31f57c930350646be89aee008605471f"></a>
-<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>ctx_</b></td></tr>
+<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html#a31f57c930350646be89aee008605471f">ctx_</a></td></tr>
+<tr class="memdesc:a31f57c930350646be89aee008605471f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Complex counterpart for a given type T. <br /></td></tr>
 <tr class="separator:a31f57c930350646be89aee008605471f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa79dbabf05d0763c2402d4901f132f32"><td class="memItemLeft" align="right" valign="top"><a id="aa79dbabf05d0763c2402d4901f132f32"></a>
 <a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html">Unit_cell</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>unit_cell_</b></td></tr>
@@ -369,7 +359,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000003">Todo:</a></b></dt><dd>write and read distributed functions </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d65/periodic__function_8h_source.html#l00254">254</a> of file <a class="el" href="../../d8/d65/periodic__function_8h_source.html">periodic_function.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d65/periodic__function_8h_source.html#l00245">245</a> of file <a class="el" href="../../d8/d65/periodic__function_8h_source.html">periodic_function.h</a>.</p>
 
 </div>
 </div>
@@ -379,7 +369,7 @@ template&lt;typename T&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:34 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:48 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

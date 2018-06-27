@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['o',['o',['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html#acf3c88660d3cbc65fc71c4d84f2a9f59',1,'nlohmann::detail::serializer::o()'],['../d2/d03/classsddk_1_1nlohmann_1_1detail_1_1serializer.html#a931e00662f75fec28a282f19a33c2e37',1,'sddk::nlohmann::detail::serializer::o()']]],
+  ['o',['o',['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html#acf3c88660d3cbc65fc71c4d84f2a9f59',1,'nlohmann::detail::serializer']]],
   ['o1_5fradial_5fintegrals_5f',['o1_radial_integrals_',['../d5/d15/classsirius_1_1_atom__symmetry__class.html#a5b103e070ac0676a0ce627a8ce654b75',1,'sirius::Atom_symmetry_class']]],
   ['o_5fradial_5fintegrals_5f',['o_radial_integrals_',['../d5/d15/classsirius_1_1_atom__symmetry__class.html#aee287b3e0ec23fb68ecb742490ca1fdb',1,'sirius::Atom_symmetry_class']]],
-  ['oa',['oa',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#a6f15b782a7900f50ef37d123008e601b',1,'nlohmann::detail::binary_writer::oa()'],['../d4/d1d/classsddk_1_1nlohmann_1_1detail_1_1binary__writer.html#a71d7e601200816242d127e73752ab8f0',1,'sddk::nlohmann::detail::binary_writer::oa()']]],
-  ['object',['object',['../d1/de3/unionnlohmann_1_1basic__json_1_1json__value.html#a4a2209bb26e7088cd36bf24824ab5521',1,'nlohmann::basic_json::json_value::object()'],['../d0/d0f/unionsddk_1_1nlohmann_1_1basic__json_1_1json__value.html#a9074f3da1e0caa91f341fef69aac80d7',1,'sddk::nlohmann::basic_json::json_value::object()']]],
-  ['object_5fiterator',['object_iterator',['../d7/d10/structnlohmann_1_1detail_1_1internal__iterator.html#a8cb0af3498061426c1d0a65ad6220408',1,'nlohmann::detail::internal_iterator::object_iterator()'],['../de/d3b/structsddk_1_1nlohmann_1_1detail_1_1internal__iterator.html#a447ad4b9f5092320f8eacd59d5fc2c3c',1,'sddk::nlohmann::detail::internal_iterator::object_iterator()']]],
+  ['oa',['oa',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#a6f15b782a7900f50ef37d123008e601b',1,'nlohmann::detail::binary_writer']]],
+  ['object',['object',['../d1/de3/unionnlohmann_1_1basic__json_1_1json__value.html#a4a2209bb26e7088cd36bf24824ab5521',1,'nlohmann::basic_json::json_value']]],
+  ['object_5fiterator',['object_iterator',['../d7/d10/structnlohmann_1_1detail_1_1internal__iterator.html#a8cb0af3498061426c1d0a65ad6220408',1,'nlohmann::detail::internal_iterator']]],
   ['occupancy',['occupancy',['../d8/ddb/structatomic__level__descriptor.html#ac4be6454ae689054fdd700814f1c9030',1,'atomic_level_descriptor']]],
   ['occupation_5fmatrix_5f',['occupation_matrix_',['../d3/d50/classsirius_1_1_atom.html#a8c4ee868930d86572a234d1c10dd8afc',1,'sirius::Atom']]],
   ['offset',['offset',['../d7/dfa/classsirius_1_1_hubbard__potential.html#ac82aa7187d8e27255603dc4af19b92dc',1,'sirius::Hubbard_potential']]],

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -142,7 +142,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>init_eval_old_</b> {t
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000001">Todo:</a></b></dt><dd>real-space projectors are not part of iterative solver </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00221">221</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00225">225</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa1bf3d236f2d2c04d01a0f1d4acee242"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1bf3d236f2d2c04d01a0f1d4acee242">&#9670;&nbsp;</a></span>energy_tolerance_</h2>
@@ -159,7 +159,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>init_eval_old_</b> {t
 <p>Tolerance for the eigen-energy difference \( |\epsilon_i^{old} - \epsilon_i^{new} | \). </p>
 <p>This parameter is reduced during the SCF cycle to reach the high accuracy of the wave-functions. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00234">234</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00238">238</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 
 </div>
 </div>
@@ -178,7 +178,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>init_eval_old_</b> {t
 <p>Additional tolerance for empty states. </p>
 <p>Setting this variable to 0 will treat empty states with the same tolerance as occupied states. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00241">241</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00245">245</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>init_eval_old_</b> {t
 <p>Defines the flavour of the iterative solver. </p>
 <p>If converge_by_energy is set to 0, then the residuals are estimated by their norm. If converge_by_energy is set to 1 then the residuals are estimated by the eigen-energy difference. This allows to estimate the unconverged residuals and only then compute only the unconverged. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00247">247</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00251">251</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 
 </div>
 </div>
@@ -216,7 +216,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>init_eval_old_</b> {t
 <p>Control the subspace expansion. </p>
 <p>If true, keep basis orthogonal and solve standard eigen-value problem. If false, add preconditioned residuals as they are and solve generalized eigen-value problem. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00262">262</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00266">266</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 
 </div>
 </div>
@@ -235,7 +235,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>init_eval_old_</b> {t
 <p>Tell how to initialize the subspace. </p>
 <p>It can be either "lcao", i.e. start from the linear combination of atomic orbitals or "random" –- start from the randomized wave functions. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00269">269</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00273">273</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
 
 </div>
 </div>
@@ -245,7 +245,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>init_eval_old_</b> {t
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:34 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:48 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

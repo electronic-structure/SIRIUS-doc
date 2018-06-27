@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -84,12 +84,18 @@ $(function() {
 <p>Generate effective potential from charge density and magnetization.  
  <a href="../../d2/d0b/classsirius_1_1_potential.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sirius::Potential:</div>
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for sirius::Potential:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/daa/classsirius_1_1_potential__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d4b/classsirius_1_1_potential__inherit__graph.svg" width="100" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sirius::Potential:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/daa/classsirius_1_1_potential__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -103,16 +109,6 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a8d779e124012d2eb74e622b91774c2ea">Potential</a> (<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;ctx__)</td></tr>
 <tr class="memdesc:a8d779e124012d2eb74e622b91774c2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:a8d779e124012d2eb74e622b91774c2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb014b9a7c5ecc5f79ba84bb99e9abc1"><td class="memItemLeft" align="right" valign="top"><a id="aeb014b9a7c5ecc5f79ba84bb99e9abc1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_effective_potential_ptr</b> (double *veffmt, double *veffit)</td></tr>
-<tr class="separator:aeb014b9a7c5ecc5f79ba84bb99e9abc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae936ac0b1e58bc928671b147aea2cf8a"><td class="memItemLeft" align="right" valign="top"><a id="ae936ac0b1e58bc928671b147aea2cf8a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_effective_magnetic_field_ptr</b> (double *beffmt, double *beffit)</td></tr>
-<tr class="separator:ae936ac0b1e58bc928671b147aea2cf8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45701c46c8961f2ea5c089286802cf47"><td class="memItemLeft" align="right" valign="top"><a id="a45701c46c8961f2ea5c089286802cf47"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a45701c46c8961f2ea5c089286802cf47">zero</a> ()</td></tr>
-<tr class="memdesc:a45701c46c8961f2ea5c089286802cf47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zero effective potential and magnetic field. <br /></td></tr>
-<tr class="separator:a45701c46c8961f2ea5c089286802cf47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa634d5aa4ae136bad08b704f5c1a5cc6"><td class="memTemplParams" colspan="2"><a id="aa634d5aa4ae136bad08b704f5c1a5cc6"></a>
 template&lt;bool free_atom, typename T &gt; </td></tr>
 <tr class="memitem:aa634d5aa4ae136bad08b704f5c1a5cc6"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#aa634d5aa4ae136bad08b704f5c1a5cc6">poisson_vmt</a> (<a class="el" href="../../d3/d50/classsirius_1_1_atom.html">Atom</a> const &amp;atom__, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; function_domain_t::spectral, T &gt; const &amp;rho_mt__, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; function_domain_t::spectral, T &gt; &amp;vha_mt__) const</td></tr>
@@ -150,7 +146,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memdesc:ac53f9c549fb2e2a5e02992a823e792e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate D operator from potential and augmentation charge.  <a href="#ac53f9c549fb2e2a5e02992a823e792e7">More...</a><br /></td></tr>
 <tr class="separator:ac53f9c549fb2e2a5e02992a823e792e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a410fb8a7217f5881fc9dbb13bb2da684"><td class="memItemLeft" align="right" valign="top"><a id="a410fb8a7217f5881fc9dbb13bb2da684"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_PAW_effective_potential</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#ae24a39326434eec4b66ce063d87560f9">density</a>)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_PAW_effective_potential</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density)</td></tr>
 <tr class="separator:a410fb8a7217f5881fc9dbb13bb2da684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab98d9241bb17aa204bd2e86ccd0d7dec"><td class="memItemLeft" align="right" valign="top"><a id="ab98d9241bb17aa204bd2e86ccd0d7dec"></a>
 std::vector&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_hartree_energies</b> () const</td></tr>
@@ -161,9 +157,9 @@ std::vector&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" vali
 <tr class="memitem:aab6d6c3480cd8a47df8402b3b037a145"><td class="memItemLeft" align="right" valign="top"><a id="aab6d6c3480cd8a47df8402b3b037a145"></a>
 std::vector&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_core_energies</b> () const</td></tr>
 <tr class="separator:aab6d6c3480cd8a47df8402b3b037a145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1af2a4f2ca781f0c842fe22c8bcc0ec9"><td class="memItemLeft" align="right" valign="top"><a id="a1af2a4f2ca781f0c842fe22c8bcc0ec9"></a>
-std::vector&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_one_elec_energies</b> ()</td></tr>
-<tr class="separator:a1af2a4f2ca781f0c842fe22c8bcc0ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeddf5e54da5ad9edc49ccba74ff00be1"><td class="memItemLeft" align="right" valign="top"><a id="aeddf5e54da5ad9edc49ccba74ff00be1"></a>
+std::vector&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_one_elec_energies</b> () const</td></tr>
+<tr class="separator:aeddf5e54da5ad9edc49ccba74ff00be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2b490deca7e327436686dce2425cb14"><td class="memItemLeft" align="right" valign="top"><a id="ae2b490deca7e327436686dce2425cb14"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_hartree_total_energy</b> () const</td></tr>
 <tr class="separator:ae2b490deca7e327436686dce2425cb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,92 +169,89 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_xc_total_energy
 <tr class="memitem:ac1213f6b0509a9c03487d8669018a2a8"><td class="memItemLeft" align="right" valign="top"><a id="ac1213f6b0509a9c03487d8669018a2a8"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_total_core_energy</b> () const</td></tr>
 <tr class="separator:ac1213f6b0509a9c03487d8669018a2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59352b8aeb4d6f99ea3989a8ac0b8a80"><td class="memItemLeft" align="right" valign="top"><a id="a59352b8aeb4d6f99ea3989a8ac0b8a80"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_total_energy</b> ()</td></tr>
-<tr class="separator:a59352b8aeb4d6f99ea3989a8ac0b8a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d2b0a795b5cf57f24180ca17f705237"><td class="memItemLeft" align="right" valign="top"><a id="a8d2b0a795b5cf57f24180ca17f705237"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_one_elec_energy</b> ()</td></tr>
-<tr class="separator:a8d2b0a795b5cf57f24180ca17f705237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9236ee1bb41df5ee9bfef9d115f2849"><td class="memItemLeft" align="right" valign="top"><a id="aa9236ee1bb41df5ee9bfef9d115f2849"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_total_energy</b> () const</td></tr>
+<tr class="separator:aa9236ee1bb41df5ee9bfef9d115f2849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a409e1a0e3d82df120f1e8d38d2dc2bb2"><td class="memItemLeft" align="right" valign="top"><a id="a409e1a0e3d82df120f1e8d38d2dc2bb2"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>PAW_one_elec_energy</b> () const</td></tr>
+<tr class="separator:a409e1a0e3d82df120f1e8d38d2dc2bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70e4eb1dbbe61223cfa9ec8e21f90252"><td class="memItemLeft" align="right" valign="top"><a id="a70e4eb1dbbe61223cfa9ec8e21f90252"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>check_potential_continuity_at_mt</b> ()</td></tr>
 <tr class="separator:a70e4eb1dbbe61223cfa9ec8e21f90252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a443f5d205079f20dce528b54578366e0"><td class="memItemLeft" align="right" valign="top"><a id="a443f5d205079f20dce528b54578366e0"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>effective_potential</b> ()</td></tr>
-<tr class="separator:a443f5d205079f20dce528b54578366e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7cfdd0284254268957131c8285f939"><td class="memItemLeft" align="right" valign="top"><a id="a9d7cfdd0284254268957131c8285f939"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>effective_potential</b> ()</td></tr>
+<tr class="separator:a9d7cfdd0284254268957131c8285f939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2729ffb641b2ca78dab5c0b0e325f23"><td class="memItemLeft" align="right" valign="top"><a id="ac2729ffb641b2ca78dab5c0b0e325f23"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>effective_potential</b> () const</td></tr>
+<tr class="separator:ac2729ffb641b2ca78dab5c0b0e325f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ff5ed8a4645fd13da241c6dbeda88c1"><td class="memItemLeft" align="right" valign="top"><a id="a8ff5ed8a4645fd13da241c6dbeda88c1"></a>
 <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>local_potential</b> ()</td></tr>
 <tr class="separator:a8ff5ed8a4645fd13da241c6dbeda88c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f7820bfac1e4fe7610d50a79671ac30"><td class="memItemLeft" align="right" valign="top"><a id="a5f7820bfac1e4fe7610d50a79671ac30"></a>
+<a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>local_potential</b> () const</td></tr>
+<tr class="separator:a5f7820bfac1e4fe7610d50a79671ac30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b145ccc293668342b94b2735fad8b1f"><td class="memItemLeft" align="right" valign="top"><a id="a1b145ccc293668342b94b2735fad8b1f"></a>
 <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>dveff</b> ()</td></tr>
 <tr class="separator:a1b145ccc293668342b94b2735fad8b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac58951cb2712189bbcdca89987486bf7"><td class="memItemLeft" align="right" valign="top"><a id="ac58951cb2712189bbcdca89987486bf7"></a>
 <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>effective_potential_mt</b> (int ialoc) const</td></tr>
 <tr class="separator:ac58951cb2712189bbcdca89987486bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45f621d622fd4504da2034cc1095ee21"><td class="memItemLeft" align="right" valign="top"><a id="a45f621d622fd4504da2034cc1095ee21"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>effective_magnetic_field</b> (int i)</td></tr>
-<tr class="separator:a45f621d622fd4504da2034cc1095ee21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbeeef8aa1c38e461f3b1788f90e8752"><td class="memItemLeft" align="right" valign="top"><a id="abbeeef8aa1c38e461f3b1788f90e8752"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>effective_magnetic_field</b> (int i)</td></tr>
+<tr class="separator:abbeeef8aa1c38e461f3b1788f90e8752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba285cb2fd7baaddef7b08793f194b3b"><td class="memItemLeft" align="right" valign="top"><a id="aba285cb2fd7baaddef7b08793f194b3b"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>effective_magnetic_field</b> (int i) const</td></tr>
+<tr class="separator:aba285cb2fd7baaddef7b08793f194b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44ea5be8a6be9e62f13f1fa73ada63d5"><td class="memItemLeft" align="right" valign="top"><a id="a44ea5be8a6be9e62f13f1fa73ada63d5"></a>
 <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>hartree_potential</b> ()</td></tr>
 <tr class="separator:a44ea5be8a6be9e62f13f1fa73ada63d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81dc1987b69c542dad70da11a8e23e58"><td class="memItemLeft" align="right" valign="top"><a id="a81dc1987b69c542dad70da11a8e23e58"></a>
 <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>hartree_potential_mt</b> (int ialoc) const</td></tr>
 <tr class="separator:a81dc1987b69c542dad70da11a8e23e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74e9cc35a382cbc46e3a6785510116c7"><td class="memItemLeft" align="right" valign="top"><a id="a74e9cc35a382cbc46e3a6785510116c7"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>xc_potential</b> ()</td></tr>
-<tr class="separator:a74e9cc35a382cbc46e3a6785510116c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac536b306a32fe14ebdbb90bfe62684dc"><td class="memItemLeft" align="right" valign="top"><a id="ac536b306a32fe14ebdbb90bfe62684dc"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>xc_energy_density</b> ()</td></tr>
-<tr class="separator:ac536b306a32fe14ebdbb90bfe62684dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a777819dae8634b13a2fb428d9591a72a"><td class="memItemLeft" align="right" valign="top"><a id="a777819dae8634b13a2fb428d9591a72a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>allocate</b> ()</td></tr>
-<tr class="separator:a777819dae8634b13a2fb428d9591a72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab873eb099e9c93512827085e851f5108"><td class="memItemLeft" align="right" valign="top"><a id="ab873eb099e9c93512827085e851f5108"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>vh_el</b> (int ia)</td></tr>
-<tr class="separator:ab873eb099e9c93512827085e851f5108"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a578e355eab53f1d5ff56cffbd01a14b6"><td class="memItemLeft" align="right" valign="top"><a id="a578e355eab53f1d5ff56cffbd01a14b6"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>energy_vha</b> ()</td></tr>
-<tr class="separator:a578e355eab53f1d5ff56cffbd01a14b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf9f1cd01fa6f59205ed6ed4f8db3663"><td class="memItemLeft" align="right" valign="top"><a id="abf9f1cd01fa6f59205ed6ed4f8db3663"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_input</b> ()</td></tr>
-<tr class="separator:abf9f1cd01fa6f59205ed6ed4f8db3663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadfd666acee7a1bd85a14fa16646d608"><td class="memItemLeft" align="right" valign="top"><a id="aadfd666acee7a1bd85a14fa16646d608"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_output</b> ()</td></tr>
-<tr class="separator:aadfd666acee7a1bd85a14fa16646d608"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a482cc560311a0348c2e9bfd8a82d19a1"><td class="memItemLeft" align="right" valign="top"><a id="a482cc560311a0348c2e9bfd8a82d19a1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_init</b> ()</td></tr>
-<tr class="separator:a482cc560311a0348c2e9bfd8a82d19a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f1e857853010be663c403737ff9fbb1"><td class="memItemLeft" align="right" valign="top"><a id="a0f1e857853010be663c403737ff9fbb1"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>mix</b> ()</td></tr>
-<tr class="separator:a0f1e857853010be663c403737ff9fbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478141b526a02558c14976bc53303232"><td class="memItemLeft" align="right" valign="top"><a id="a478141b526a02558c14976bc53303232"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>xc_potential</b> ()</td></tr>
+<tr class="separator:a478141b526a02558c14976bc53303232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce4df60aa099399a7a2c6aef5a76644"><td class="memItemLeft" align="right" valign="top"><a id="a4ce4df60aa099399a7a2c6aef5a76644"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>xc_potential</b> () const</td></tr>
+<tr class="separator:a4ce4df60aa099399a7a2c6aef5a76644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba965bda8371178cd7ef1471a0305ba"><td class="memItemLeft" align="right" valign="top"><a id="a0ba965bda8371178cd7ef1471a0305ba"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>xc_energy_density</b> ()</td></tr>
+<tr class="separator:a0ba965bda8371178cd7ef1471a0305ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c404cebefd00710ed23b07339730b35"><td class="memItemLeft" align="right" valign="top"><a id="a2c404cebefd00710ed23b07339730b35"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>xc_energy_density</b> () const</td></tr>
+<tr class="separator:a2c404cebefd00710ed23b07339730b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd614cb39e86468fb7d6597f3150d863"><td class="memItemLeft" align="right" valign="top"><a id="acd614cb39e86468fb7d6597f3150d863"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>vh_el</b> (int ia) const</td></tr>
+<tr class="separator:acd614cb39e86468fb7d6597f3150d863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e58e362a8bcf04a40283ef179a23d24"><td class="memItemLeft" align="right" valign="top"><a id="a6e58e362a8bcf04a40283ef179a23d24"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>energy_vha</b> () const</td></tr>
+<tr class="separator:a6e58e362a8bcf04a40283ef179a23d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed48eca89917a12857f4da176292bdb5"><td class="memItemLeft" align="right" valign="top"><a id="aed48eca89917a12857f4da176292bdb5"></a>
 double_complex const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>veff_pw</b> (int ig__) const</td></tr>
 <tr class="separator:aed48eca89917a12857f4da176292bdb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a2a2223620919200acdcd849d0dce3b"><td class="memItemLeft" align="right" valign="top"><a id="a6a2a2223620919200acdcd849d0dce3b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_veff_pw</b> (double_complex *veff_pw__)</td></tr>
-<tr class="separator:a6a2a2223620919200acdcd849d0dce3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a49d0837134f3cee24493ad0a023abd"><td class="memItemLeft" align="right" valign="top"><a id="a4a49d0837134f3cee24493ad0a023abd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_veff_pw</b> (double_complex const *veff_pw__)</td></tr>
+<tr class="separator:a4a49d0837134f3cee24493ad0a023abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6dbfa7b487ff1455b60fc465af0abc0"><td class="memItemLeft" align="right" valign="top"><a id="ae6dbfa7b487ff1455b60fc465af0abc0"></a>
 double_complex const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>rm_inv_pw</b> (int ig__) const</td></tr>
 <tr class="separator:ae6dbfa7b487ff1455b60fc465af0abc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1757190f305d595265737af57fd66f5"><td class="memItemLeft" align="right" valign="top"><a id="aa1757190f305d595265737af57fd66f5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_rm_inv_pw</b> (double_complex *rm_inv_pw__)</td></tr>
-<tr class="separator:aa1757190f305d595265737af57fd66f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f78d819006ea46b180d03f6171afa13"><td class="memItemLeft" align="right" valign="top"><a id="a7f78d819006ea46b180d03f6171afa13"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_rm_inv_pw</b> (double_complex const *rm_inv_pw__)</td></tr>
+<tr class="separator:a7f78d819006ea46b180d03f6171afa13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18f596f187cc528ab0c63200ea915269"><td class="memItemLeft" align="right" valign="top"><a id="a18f596f187cc528ab0c63200ea915269"></a>
 double_complex const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>rm2_inv_pw</b> (int ig__) const</td></tr>
 <tr class="separator:a18f596f187cc528ab0c63200ea915269"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05a695c7951b7b6fdb04e9af5bcb5b31"><td class="memItemLeft" align="right" valign="top"><a id="a05a695c7951b7b6fdb04e9af5bcb5b31"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_rm2_inv_pw</b> (double_complex *rm2_inv_pw__)</td></tr>
-<tr class="separator:a05a695c7951b7b6fdb04e9af5bcb5b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3d19f763090fa0ee612e35d3e1dabe2"><td class="memItemLeft" align="right" valign="top"><a id="af3d19f763090fa0ee612e35d3e1dabe2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>fft_transform</b> (int direction__)</td></tr>
-<tr class="separator:af3d19f763090fa0ee612e35d3e1dabe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b9e7014f6436813814db068038b1d7c"><td class="memItemLeft" align="right" valign="top"><a id="a8b9e7014f6436813814db068038b1d7c"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a8b9e7014f6436813814db068038b1d7c">energy_vxc</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> &amp;density__)</td></tr>
-<tr class="memdesc:a8b9e7014f6436813814db068038b1d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integral of \( \rho({\bf r}) V^{XC}({\bf r}) \). <br /></td></tr>
-<tr class="separator:a8b9e7014f6436813814db068038b1d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a3f52f9f80a5dd0fdd0b62e73bb38ca"><td class="memItemLeft" align="right" valign="top"><a id="a3a3f52f9f80a5dd0fdd0b62e73bb38ca"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a3a3f52f9f80a5dd0fdd0b62e73bb38ca">energy_exc</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> &amp;density__)</td></tr>
-<tr class="memdesc:a3a3f52f9f80a5dd0fdd0b62e73bb38ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integral of \( \rho({\bf r}) \epsilon^{XC}({\bf r}) \). <br /></td></tr>
-<tr class="separator:a3a3f52f9f80a5dd0fdd0b62e73bb38ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe7f961fb005b5c33d0b9805c6ba2d63"><td class="memItemLeft" align="right" valign="top"><a id="afe7f961fb005b5c33d0b9805c6ba2d63"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_rm2_inv_pw</b> (double_complex const *rm2_inv_pw__)</td></tr>
+<tr class="separator:afe7f961fb005b5c33d0b9805c6ba2d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb75c60a84d09397209de7e21c36fb4"><td class="memItemLeft" align="right" valign="top"><a id="a2fb75c60a84d09397209de7e21c36fb4"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a2fb75c60a84d09397209de7e21c36fb4">energy_vxc</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__) const</td></tr>
+<tr class="memdesc:a2fb75c60a84d09397209de7e21c36fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integral of \( \rho({\bf r}) V^{XC}({\bf r}) \). <br /></td></tr>
+<tr class="separator:a2fb75c60a84d09397209de7e21c36fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31db28b6e96dc77dcccb6b34dc922e53"><td class="memItemLeft" align="right" valign="top"><a id="a31db28b6e96dc77dcccb6b34dc922e53"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a31db28b6e96dc77dcccb6b34dc922e53">energy_exc</a> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__) const</td></tr>
+<tr class="memdesc:a31db28b6e96dc77dcccb6b34dc922e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integral of \( \rho({\bf r}) \epsilon^{XC}({\bf r}) \). <br /></td></tr>
+<tr class="separator:a31db28b6e96dc77dcccb6b34dc922e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03cfd00150486abf344373823705a19e"><td class="memItemLeft" align="right" valign="top"><a id="a03cfd00150486abf344373823705a19e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_gradient_correction</b> () const</td></tr>
 <tr class="separator:a03cfd00150486abf344373823705a19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,6 +261,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_gradient_correctio
 <tr class="memitem:a639de6162c6512444ced65e9e1b8f73b"><td class="memItemLeft" align="right" valign="top"><a id="a639de6162c6512444ced65e9e1b8f73b"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>vha_el</b> (int ia__) const</td></tr>
 <tr class="separator:a639de6162c6512444ced65e9e1b8f73b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27bb3fdd0d63629bb0b15a5d4c1a283f"><td class="memItemLeft" align="right" valign="top"><a id="a27bb3fdd0d63629bb0b15a5d4c1a283f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>symmetrize</b> ()</td></tr>
+<tr class="separator:a27bb3fdd0d63629bb0b15a5d4c1a283f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0acfc738e2364ac04a030363ecf9b61d"><td class="memTemplParams" colspan="2"><a id="a0acfc738e2364ac04a030363ecf9b61d"></a>
 template&lt;bool add_pseudo_core__&gt; </td></tr>
 <tr class="memitem:a0acfc738e2364ac04a030363ecf9b61d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>xc_rg_nonmagnetic</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
@@ -280,6 +276,52 @@ template&lt;bool add_pseudo_core__&gt; </td></tr>
 template&lt;bool add_pseudo_core__&gt; </td></tr>
 <tr class="memitem:a28c33ee8f9a2316da509e9f2d6e6df04"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>xc</b> (<a class="el" href="../../d7/d05/classsirius_1_1_density.html">Density</a> const &amp;density__)</td></tr>
 <tr class="separator:a28c33ee8f9a2316da509e9f2d6e6df04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classsirius_1_1_field4_d"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classsirius_1_1_field4_d')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/d1f/classsirius_1_1_field4_d.html">sirius::Field4D</a></td></tr>
+<tr class="memitem:a28b1083500ae2cbc7926bd95ce68418f inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a28b1083500ae2cbc7926bd95ce68418f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Field4D</b> (<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;ctx__, int lmmax__)</td></tr>
+<tr class="separator:a28b1083500ae2cbc7926bd95ce68418f inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da3df0006e3efc18dee95eef0bd0f26 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a2da3df0006e3efc18dee95eef0bd0f26"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>scalar</b> ()</td></tr>
+<tr class="separator:a2da3df0006e3efc18dee95eef0bd0f26 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaef09ea62a3334f8a95ebb51afd0ff7c inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="aaef09ea62a3334f8a95ebb51afd0ff7c"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>scalar</b> () const</td></tr>
+<tr class="separator:aaef09ea62a3334f8a95ebb51afd0ff7c inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e134300db71bb73274bc5f7bfd42073 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a8e134300db71bb73274bc5f7bfd42073"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>vector</b> (int i)</td></tr>
+<tr class="separator:a8e134300db71bb73274bc5f7bfd42073 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a48620b0a8bb1218135b328880bf4c inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a83a48620b0a8bb1218135b328880bf4c"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>vector</b> (int i) const</td></tr>
+<tr class="separator:a83a48620b0a8bb1218135b328880bf4c inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6760e58b189285aa6d45864a6c638cb1 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a6760e58b189285aa6d45864a6c638cb1"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>component</b> (int i)</td></tr>
+<tr class="separator:a6760e58b189285aa6d45864a6c638cb1 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a066e5cb9cbd58539c2ccf5747b02eeed inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a066e5cb9cbd58539c2ccf5747b02eeed"></a>
+<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>component</b> (int i) const</td></tr>
+<tr class="separator:a066e5cb9cbd58539c2ccf5747b02eeed inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf95b126e3e692c2e93a01eba7b0d943 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="adf95b126e3e692c2e93a01eba7b0d943"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>zero</b> ()</td></tr>
+<tr class="separator:adf95b126e3e692c2e93a01eba7b0d943 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac61e648cc1be0bcd2774ca7bbe0a4f87 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="ac61e648cc1be0bcd2774ca7bbe0a4f87"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>allocate</b> ()</td></tr>
+<tr class="separator:ac61e648cc1be0bcd2774ca7bbe0a4f87 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34675a4cefd019dfe6567024da36b17 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="aa34675a4cefd019dfe6567024da36b17"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>fft_transform</b> (int direction__)</td></tr>
+<tr class="separator:aa34675a4cefd019dfe6567024da36b17 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf935423af950dc46a97852c1d787903 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="aaf935423af950dc46a97852c1d787903"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_input</b> ()</td></tr>
+<tr class="separator:aaf935423af950dc46a97852c1d787903 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00bbdc6c15c965463e8254509aec5170 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a00bbdc6c15c965463e8254509aec5170"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_output</b> ()</td></tr>
+<tr class="separator:a00bbdc6c15c965463e8254509aec5170 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43079007c73c1d9427fb02aae6e0585 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="af43079007c73c1d9427fb02aae6e0585"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_init</b> (<a class="el" href="../../d4/db0/structsirius_1_1_mixer__input.html">Mixer_input</a> mixer_cfg__)</td></tr>
+<tr class="separator:af43079007c73c1d9427fb02aae6e0585 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3b5f8fb15546cb04ff186e1a76cd496 inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="aa3b5f8fb15546cb04ff186e1a76cd496"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>mix</b> (double rss_min__)</td></tr>
+<tr class="separator:aa3b5f8fb15546cb04ff186e1a76cd496 inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9379b2bbebedbf151d26ffdb78d112f inherit pub_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="ac9379b2bbebedbf151d26ffdb78d112f"></a>
+<a class="el" href="../../d1/d76/classsirius_1_1_mixer.html">Mixer</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>mixer</b> ()</td></tr>
+<tr class="separator:ac9379b2bbebedbf151d26ffdb78d112f inherit pub_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -290,10 +332,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>init_PAW</b> ()</td><
 double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_nonmagnetic</b> (<a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; &amp;full_potential, <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt; const &amp;full_density, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
 <tr class="separator:ae568de4d63f7cafef75f127dd69c8628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a744dff7fd89f9925c43dee586206e7cd"><td class="memItemLeft" align="right" valign="top"><a id="a744dff7fd89f9925c43dee586206e7cd"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_collinear</b> (std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#a1e9913daf991b708e76be946cf6ba462">potential</a>, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#ae24a39326434eec4b66ce063d87560f9">density</a>, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_collinear</b> (std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; &amp;potential, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;density, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
 <tr class="separator:a744dff7fd89f9925c43dee586206e7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae389ab11110d24fb9b732a8191fad298"><td class="memItemLeft" align="right" valign="top"><a id="ae389ab11110d24fb9b732a8191fad298"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_noncollinear</b> (std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#a1e9913daf991b708e76be946cf6ba462">potential</a>, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;<a class="el" href="../../d4/d53/sirius__api_8cpp.html#ae24a39326434eec4b66ce063d87560f9">density</a>, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>xc_mt_PAW_noncollinear</b> (std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; &amp;potential, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;density, std::vector&lt; double &gt; const &amp;rho_core)</td></tr>
 <tr class="separator:ae389ab11110d24fb9b732a8191fad298"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9242c10f74f1eb1267c50261d68cada"><td class="memItemLeft" align="right" valign="top"><a id="ae9242c10f74f1eb1267c50261d68cada"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>calc_PAW_local_potential</b> (<a class="el" href="../../d1/def/structsirius_1_1_potential_1_1paw__potential__data__t.html">paw_potential_data_t</a> &amp;pdd, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;ae_density, std::vector&lt; <a class="el" href="../../d9/ddf/classsirius_1_1_spheric__function.html">Spheric_function</a>&lt; spectral, double &gt;&gt; const &amp;ps_density)</td></tr>
@@ -352,35 +394,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a107236a8e284b239b9a888587aa5bd53"><td class="memItemLeft" align="right" valign="top"><a id="a107236a8e284b239b9a888587aa5bd53"></a>
-<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>ctx_</b></td></tr>
-<tr class="separator:a107236a8e284b239b9a888587aa5bd53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa94f0458ddf8c127759e0b73de16acc6"><td class="memItemLeft" align="right" valign="top"><a id="aa94f0458ddf8c127759e0b73de16acc6"></a>
 <a class="el" href="../../d6/dd1/classsirius_1_1_unit__cell.html">Unit_cell</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>unit_cell_</b></td></tr>
 <tr class="separator:aa94f0458ddf8c127759e0b73de16acc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aa716bb6ae5c3b5ca6ae44b262fac94"><td class="memItemLeft" align="right" valign="top"><a id="a1aa716bb6ae5c3b5ca6ae44b262fac94"></a>
 <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>comm_</b></td></tr>
 <tr class="separator:a1aa716bb6ae5c3b5ca6ae44b262fac94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a425f6b348a9f68d5c1d0111db8cba503"><td class="memItemLeft" align="right" valign="top"><a id="a425f6b348a9f68d5c1d0111db8cba503"></a>
-std::unique_ptr&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a425f6b348a9f68d5c1d0111db8cba503">effective_potential_</a></td></tr>
-<tr class="memdesc:a425f6b348a9f68d5c1d0111db8cba503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total effective potential. <br /></td></tr>
-<tr class="separator:a425f6b348a9f68d5c1d0111db8cba503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e7f3670059c6058606df29b3de45bd6"><td class="memItemLeft" align="right" valign="top"><a id="a1e7f3670059c6058606df29b3de45bd6"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a1e7f3670059c6058606df29b3de45bd6">effective_magnetic_field_</a> [3]</td></tr>
-<tr class="memdesc:a1e7f3670059c6058606df29b3de45bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total effective magnetic field. <br /></td></tr>
-<tr class="separator:a1e7f3670059c6058606df29b3de45bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67c9d72f0486c5fe5fd802146cdcbb8a"><td class="memItemLeft" align="right" valign="top"><a id="a67c9d72f0486c5fe5fd802146cdcbb8a"></a>
 std::unique_ptr&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a67c9d72f0486c5fe5fd802146cdcbb8a">hartree_potential_</a></td></tr>
 <tr class="memdesc:a67c9d72f0486c5fe5fd802146cdcbb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hartree potential. <br /></td></tr>
 <tr class="separator:a67c9d72f0486c5fe5fd802146cdcbb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20dca9a8eaedcc61f700cdeb3ffb44bd"><td class="memItemLeft" align="right" valign="top"><a id="a20dca9a8eaedcc61f700cdeb3ffb44bd"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a20dca9a8eaedcc61f700cdeb3ffb44bd">xc_potential_</a></td></tr>
-<tr class="memdesc:a20dca9a8eaedcc61f700cdeb3ffb44bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">XC potential. <br /></td></tr>
-<tr class="separator:a20dca9a8eaedcc61f700cdeb3ffb44bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f6f7b2c1c85b230c34ba39e9fd9318"><td class="memItemLeft" align="right" valign="top"><a id="ad1f6f7b2c1c85b230c34ba39e9fd9318"></a>
-<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#ad1f6f7b2c1c85b230c34ba39e9fd9318">xc_energy_density_</a></td></tr>
-<tr class="memdesc:ad1f6f7b2c1c85b230c34ba39e9fd9318"><td class="mdescLeft">&#160;</td><td class="mdescRight">XC energy per unit particle. <br /></td></tr>
-<tr class="separator:ad1f6f7b2c1c85b230c34ba39e9fd9318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa048fa432a3d56bd07e3fac7efc31cf0"><td class="memItemLeft" align="right" valign="top"><a id="aa048fa432a3d56bd07e3fac7efc31cf0"></a>
+std::unique_ptr&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#aa048fa432a3d56bd07e3fac7efc31cf0">xc_potential_</a></td></tr>
+<tr class="memdesc:aa048fa432a3d56bd07e3fac7efc31cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">XC potential. <br /></td></tr>
+<tr class="separator:aa048fa432a3d56bd07e3fac7efc31cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df64003cb5a6a88239e52c68bf0717f"><td class="memItemLeft" align="right" valign="top"><a id="a5df64003cb5a6a88239e52c68bf0717f"></a>
+std::unique_ptr&lt; <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a5df64003cb5a6a88239e52c68bf0717f">xc_energy_density_</a></td></tr>
+<tr class="memdesc:a5df64003cb5a6a88239e52c68bf0717f"><td class="mdescLeft">&#160;</td><td class="mdescRight">XC energy per unit particle. <br /></td></tr>
+<tr class="separator:a5df64003cb5a6a88239e52c68bf0717f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01b360ea311c193d58888e4a1db7aaa8"><td class="memItemLeft" align="right" valign="top"><a id="a01b360ea311c193d58888e4a1db7aaa8"></a>
 std::unique_ptr&lt; <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a01b360ea311c193d58888e4a1db7aaa8">local_potential_</a></td></tr>
 <tr class="memdesc:a01b360ea311c193d58888e4a1db7aaa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local part of pseudopotential. <br /></td></tr>
@@ -427,9 +458,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>energy_vha_</b></td
 <tr class="memitem:a0126d2afa48714b359eede273905a64c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d0b/classsirius_1_1_potential.html#a0126d2afa48714b359eede273905a64c">vh_el_</a></td></tr>
 <tr class="memdesc:a0126d2afa48714b359eede273905a64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Electronic part of Hartree potential.  <a href="#a0126d2afa48714b359eede273905a64c">More...</a><br /></td></tr>
 <tr class="separator:a0126d2afa48714b359eede273905a64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd62ab6e7ac9e9995722e8caebbf0478"><td class="memItemLeft" align="right" valign="top"><a id="abd62ab6e7ac9e9995722e8caebbf0478"></a>
-std::unique_ptr&lt; <a class="el" href="../../d1/d76/classsirius_1_1_mixer.html">Mixer</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mixer_</b> {nullptr}</td></tr>
-<tr class="separator:abd62ab6e7ac9e9995722e8caebbf0478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab013e57ad7b7e10dcb6526379b768eb"><td class="memItemLeft" align="right" valign="top"><a id="aab013e57ad7b7e10dcb6526379b768eb"></a>
 std::vector&lt; <a class="el" href="../../d8/de5/classsirius_1_1_x_c__functional.html">XC_functional</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>xc_func_</b></td></tr>
 <tr class="separator:aab013e57ad7b7e10dcb6526379b768eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -478,6 +506,20 @@ std::vector&lt; <a class="el" href="../../d1/def/structsirius_1_1_potential_1_1p
 <tr class="memitem:a4a556afd6462fb98e93aa0293651273a"><td class="memItemLeft" align="right" valign="top"><a id="a4a556afd6462fb98e93aa0293651273a"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b> {0}</td></tr>
 <tr class="separator:a4a556afd6462fb98e93aa0293651273a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb103eec275ae68e5030bbabbe43539"><td class="memItemLeft" align="right" valign="top"><a id="afcb103eec275ae68e5030bbabbe43539"></a>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>aux_bf_</b></td></tr>
+<tr class="separator:afcb103eec275ae68e5030bbabbe43539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classsirius_1_1_field4_d"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classsirius_1_1_field4_d')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d3/d1f/classsirius_1_1_field4_d.html">sirius::Field4D</a></td></tr>
+<tr class="memitem:a7f248a9f9365c8311c0cb266ec4429ba inherit pro_methods_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a7f248a9f9365c8311c0cb266ec4429ba"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>symmetrize</b> (<a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *f__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *gz__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *gx__, <a class="el" href="../../d0/d6d/classsirius_1_1_periodic__function.html">Periodic_function</a>&lt; double &gt; *gy__)</td></tr>
+<tr class="separator:a7f248a9f9365c8311c0cb266ec4429ba inherit pro_methods_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classsirius_1_1_field4_d"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classsirius_1_1_field4_d')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d3/d1f/classsirius_1_1_field4_d.html">sirius::Field4D</a></td></tr>
+<tr class="memitem:a7feb66284564598af275959d77e2c10b inherit pro_attribs_classsirius_1_1_field4_d"><td class="memItemLeft" align="right" valign="top"><a id="a7feb66284564598af275959d77e2c10b"></a>
+<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>ctx_</b></td></tr>
+<tr class="separator:a7feb66284564598af275959d77e2c10b inherit pro_attribs_classsirius_1_1_field4_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generate effective potential from charge density and magnetization. </p>
@@ -595,7 +637,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 \[ 4\pi \int \Big(V_{\alpha}(r) r + Z_{\alpha}^p {\rm erf}(r) \Big) \frac{\sin(Gr)}{G} dr - Z_{\alpha}^p \frac{e^{-\frac{G^2}{4}}}{G^2} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00270">270</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00259">259</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -695,7 +737,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_paw_basis_size_</b
 \[ \frac{\partial G_D}{\partial n&#39;} = -\frac{4 \pi}{R^2} \sum_{\ell m} \Big( \frac{r}{R} \Big)^{\ell} Y_{\ell m}^{*}({\bf \hat x&#39;}) Y_{\ell m}(\hat {\bf x}) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/poisson_8hpp_source.html#l00180">180</a> of file <a class="el" href="../../df/d0f/poisson_8hpp_source.html">poisson.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d0f/poisson_8hpp_source.html#l00216">216</a> of file <a class="el" href="../../df/d0f/poisson_8hpp_source.html">poisson.hpp</a>.</p>
 
 </div>
 </div>
@@ -760,7 +802,7 @@ template&lt;bool add_pseudo_core__&gt; </div>
 \begin{eqnarray*} V^{\uparrow}({\bf r}) &amp;=&amp; V_{xc}({\bf r}) + {\rm B}_{xc}({\bf r}) \\ V^{\downarrow}({\bf r}) &amp;=&amp; V_{xc}({\bf r}) - {\rm B}_{xc}({\bf r}) \end{eqnarray*}
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00869">869</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00878">878</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -836,7 +878,7 @@ template&lt;bool add_pseudo_core__&gt; </div>
 <p>Derivative \( \partial \epsilon^{XC} / \partial \sigma_{\alpha} \). </p>
 <p>\( \epsilon^{XC} \) is the exchange-correlation energy per unit volume and \( \sigma \) is one of \( \nabla \rho_{\uparrow} \nabla \rho_{\uparrow} \), \( \nabla \rho_{\uparrow} \nabla \rho_{\downarrow} \) or \( \nabla \rho_{\downarrow} \nabla \rho_{\downarrow} \). This quantity is required to compute the GGA contribution to the XC stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00073">73</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00064">64</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -863,7 +905,7 @@ template&lt;bool add_pseudo_core__&gt; </div>
 <p>Used to compute SCF correction to forces. </p>
 <p>This function is set by PW code and is not computed here. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00077">77</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00068">68</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -890,7 +932,7 @@ template&lt;bool add_pseudo_core__&gt; </div>
 <p>Electronic part of Hartree potential. </p>
 <p>Used to compute electron-nuclear contribution to the total energy </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00103">103</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d86/potential_8h_source.html#l00094">94</a> of file <a class="el" href="../../df/d86/potential_8h_source.html">potential.h</a>.</p>
 
 </div>
 </div>
@@ -906,7 +948,7 @@ template&lt;bool add_pseudo_core__&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:34 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:48 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

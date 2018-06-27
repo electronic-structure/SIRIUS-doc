@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -66,7 +66,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../d6/d4d/namespacesddk.html">sddk</a></li><li class="navelem"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">memory_pool</a></li>  </ul>
+<li class="navelem"><b>sddk</b></li><li class="navelem"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">memory_pool</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -78,37 +78,30 @@ $(function() {
 <div class="title">sddk::memory_pool Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sddk::memory_pool:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dfa/classsddk_1_1memory__pool__coll__graph.svg" width="123" height="232"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9191aa3e0efddf90d10ecaebf8490e76"><td class="memTemplParams" colspan="2"><a id="a9191aa3e0efddf90d10ecaebf8490e76"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9191aa3e0efddf90d10ecaebf8490e76"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a9191aa3e0efddf90d10ecaebf8490e76">allocate</a> (size_t n__)</td></tr>
-<tr class="memdesc:a9191aa3e0efddf90d10ecaebf8490e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate n elements of type T. <br /></td></tr>
-<tr class="separator:a9191aa3e0efddf90d10ecaebf8490e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d5b88a1f6151aebf2d2a02ab4a3b802"><td class="memItemLeft" align="right" valign="top"><a id="a6d5b88a1f6151aebf2d2a02ab4a3b802"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
-<tr class="separator:a6d5b88a1f6151aebf2d2a02ab4a3b802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac896d2b7b8a4f479394e27d416db0b"><td class="memTemplParams" colspan="2"><a id="aeac896d2b7b8a4f479394e27d416db0b"></a>
+template&lt;typename T , memory_t mem_type&gt; </td></tr>
+<tr class="memitem:aeac896d2b7b8a4f479394e27d416db0b"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#aeac896d2b7b8a4f479394e27d416db0b">allocate</a> (size_t n__)</td></tr>
+<tr class="memdesc:aeac896d2b7b8a4f479394e27d416db0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate n elements of type T in a specified memory. <br /></td></tr>
+<tr class="separator:aeac896d2b7b8a4f479394e27d416db0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63ceabe9f4ab67b56776a453d0a1dc46"><td class="memTemplParams" colspan="2"><a id="a63ceabe9f4ab67b56776a453d0a1dc46"></a>
+template&lt;memory_t mem_type&gt; </td></tr>
+<tr class="memitem:a63ceabe9f4ab67b56776a453d0a1dc46"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reset</b> ()</td></tr>
+<tr class="separator:a63ceabe9f4ab67b56776a453d0a1dc46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ade23f5bfd33c7a4bbc0a82f05e5d335c"><td class="memItemLeft" align="right" valign="top"><a id="ade23f5bfd33c7a4bbc0a82f05e5d335c"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>pos_</b></td></tr>
-<tr class="separator:ade23f5bfd33c7a4bbc0a82f05e5d335c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a061131c76341680d1b3bef705e74e7db"><td class="memItemLeft" align="right" valign="top"><a id="a061131c76341680d1b3bef705e74e7db"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">sddk::mdarray</a>&lt; int8_t, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pool_</b></td></tr>
-<tr class="separator:a061131c76341680d1b3bef705e74e7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec2f0e9bb50b2c028fca681cfad8842"><td class="memItemLeft" align="right" valign="top"><a id="a1ec2f0e9bb50b2c028fca681cfad8842"></a>
-std::list&lt; std::unique_ptr&lt; <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">sddk::mdarray</a>&lt; int8_t, 1 &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tmp_pool_</b></td></tr>
-<tr class="separator:a1ec2f0e9bb50b2c028fca681cfad8842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc92e7308a58accd6f119334ed0e30db"><td class="memItemLeft" align="right" valign="top"><a id="adc92e7308a58accd6f119334ed0e30db"></a>
+std::map&lt; <a class="el" href="../../d6/d71/mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a>, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; int8_t, 1 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pool_</b></td></tr>
+<tr class="separator:adc92e7308a58accd6f119334ed0e30db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f841b53c9cac7af37491b4f073bcad"><td class="memItemLeft" align="right" valign="top"><a id="a27f841b53c9cac7af37491b4f073bcad"></a>
+std::map&lt; <a class="el" href="../../d6/d71/mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a>, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pool_pos_</b></td></tr>
+<tr class="separator:a27f841b53c9cac7af37491b4f073bcad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a815e31d90d8b01c07178b8c5f9ba97fb"><td class="memItemLeft" align="right" valign="top"><a id="a815e31d90d8b01c07178b8c5f9ba97fb"></a>
+std::map&lt; <a class="el" href="../../d6/d71/mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a>, std::vector&lt; <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; int8_t, 1 &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tmp_pool_</b></td></tr>
+<tr class="separator:a815e31d90d8b01c07178b8c5f9ba97fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -119,7 +112,7 @@ std::list&lt; std::unique_ptr&lt; <a class="el" href="../../d7/dab/classsddk_1_1
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:33 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:47 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -71,13 +71,10 @@ $(function() {
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>callback
 : <a class="el" href="df/d6b/classnlohmann_1_1detail_1_1parser.html#a7600d272ec605e3ffdc8512b3585f476">nlohmann::detail::parser&lt; BasicJsonType &gt;</a>
-, <a class="el" href="d9/d0a/classsddk_1_1nlohmann_1_1detail_1_1parser.html#a268225d4bb0991f2d95424bf1ff5c725">sddk::nlohmann::detail::parser&lt; BasicJsonType &gt;</a>
 </li>
 <li>chars_read
 : <a class="el" href="d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a2dbde0b7390100efe0bfc54e21c3a34b">nlohmann::detail::binary_reader&lt; BasicJsonType &gt;</a>
 , <a class="el" href="d8/d22/classnlohmann_1_1detail_1_1lexer.html#aab991bcbf230c372b276742f1790ba5b">nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
-, <a class="el" href="dc/d08/classsddk_1_1nlohmann_1_1detail_1_1binary__reader.html#ab0dca80eff4ba65678963d64008a7454">sddk::nlohmann::detail::binary_reader&lt; BasicJsonType &gt;</a>
-, <a class="el" href="d8/dc4/classsddk_1_1nlohmann_1_1detail_1_1lexer.html#af04797fd564c59e7cd3d2599bf9d9e97">sddk::nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
 </li>
 <li>coeffs_
 : <a class="el" href="d5/d6b/classsirius_1_1_spline.html#a85d6492a468820b78cd9468bc1e45ff0">sirius::Spline&lt; T, U &gt;</a>
@@ -105,9 +102,11 @@ $(function() {
 <li>communicators_
 : <a class="el" href="d0/d85/classsddk_1_1_m_p_i__grid.html#a9afcd6e7fd32182f481e812593fdd430">sddk::MPI_grid</a>
 </li>
+<li>components_
+: <a class="el" href="d3/d1f/classsirius_1_1_field4_d.html#a376468ad5bdd27f3606d97f422a17f2d">sirius::Field4D</a>
+</li>
 <li>container
 : <a class="el" href="db/dda/classnlohmann_1_1detail_1_1iteration__proxy.html#a88c0532ba4a5de1d527b18053b24fd19">nlohmann::detail::iteration_proxy&lt; IteratorType &gt;</a>
-, <a class="el" href="da/db2/classsddk_1_1nlohmann_1_1detail_1_1iteration__proxy.html#a67d557fa8aeda93d7eb8a0a11731051a">sddk::nlohmann::detail::iteration_proxy&lt; IteratorType &gt;</a>
 </li>
 <li>converge_by_energy_
 : <a class="el" href="d2/d11/structsirius_1_1_iterative__solver__input.html#a14a5ca89db37ee0eafb24ef25205fa3f">sirius::Iterative_solver_input</a>
@@ -135,9 +134,10 @@ $(function() {
 </li>
 <li>ctx_
 : <a class="el" href="d5/d1f/classsirius_1_1_band.html#a355ecbcf2139f3a5ae0ff33aa2409d58">sirius::Band</a>
-, <a class="el" href="d7/d05/classsirius_1_1_density.html#a212af02a98fc061951f927bdf4a7d5f4">sirius::Density</a>
+, <a class="el" href="d6/d4c/classsirius_1_1_d_f_t__ground__state.html#a44876b51bc01d0992b92925d945cabe7">sirius::DFT_ground_state</a>
 , <a class="el" href="d1/db3/classsirius_1_1_hamiltonian.html#ad2475401dfd919f29043c4db4fed00bb">sirius::Hamiltonian</a>
 , <a class="el" href="d1/daf/classsirius_1_1_k__point.html#a27a93d5256b4cc87a63431d3ed765573">sirius::K_point</a>
+, <a class="el" href="d0/d6d/classsirius_1_1_periodic__function.html#a31f57c930350646be89aee008605471f">sirius::Periodic_function&lt; T &gt;</a>
 </li>
 <li>cufft_plan_xy_
 : <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#a7819df1c1ea576622c94a078bf34bdbf">sddk::FFT3D</a>
@@ -154,18 +154,15 @@ $(function() {
 <li>current
 : <a class="el" href="d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a7e994e201b215cd6d6ae28a1853f43e0">nlohmann::detail::binary_reader&lt; BasicJsonType &gt;</a>
 , <a class="el" href="d8/d22/classnlohmann_1_1detail_1_1lexer.html#a47169f9aaf0da4c9885e61d3109859aa">nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
-, <a class="el" href="dc/d08/classsddk_1_1nlohmann_1_1detail_1_1binary__reader.html#a83a6cc3b52f86b75e709bdcda7e9aef0">sddk::nlohmann::detail::binary_reader&lt; BasicJsonType &gt;</a>
-, <a class="el" href="d8/dc4/classsddk_1_1nlohmann_1_1detail_1_1lexer.html#a5bc14b3c6e0d259d050a2f2eb436a509">sddk::nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
 </li>
 <li>cursor
 : <a class="el" href="d8/dba/classnlohmann_1_1detail_1_1input__buffer__adapter.html#a49e6c8b6555af489a45ef51737eafa1c">nlohmann::detail::input_buffer_adapter</a>
-, <a class="el" href="d9/d0b/classsddk_1_1nlohmann_1_1detail_1_1input__buffer__adapter.html#aba1ea99a49b75c279de97c0f5c3d234e">sddk::nlohmann::detail::input_buffer_adapter</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:35 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:49 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -85,8 +85,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d31/classsirius_1_1_unit__cell__symmetry__coll__graph.svg" width="304" height="218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d31/classsirius_1_1_unit__cell__symmetry__coll__graph.svg" width="304" height="218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -136,8 +135,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>check_gvec_symmetry</
 <tr class="memitem:ab11bd01c0984dd850b3b55f84ddb7302"><td class="memItemLeft" align="right" valign="top"><a id="ab11bd01c0984dd850b3b55f84ddb7302"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>symmetrize_vector_function</b> (double_complex *fz_pw__, <a class="el" href="../../d7/dcc/structsddk_1_1remap__gvec__to__shells.html">remap_gvec_to_shells</a> const &amp;remap_gvec__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt; const &amp;sym_phase_factors__) const</td></tr>
 <tr class="separator:ab11bd01c0984dd850b3b55f84ddb7302"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1797e4f23dd5cd1295df79c4a8bb7107"><td class="memItemLeft" align="right" valign="top"><a id="a1797e4f23dd5cd1295df79c4a8bb7107"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>symmetrize_vector_function</b> (double_complex *fx_pw__, double_complex *fy_pw__, double_complex *fz_pw__, <a class="el" href="../../d7/dcc/structsddk_1_1remap__gvec__to__shells.html">remap_gvec_to_shells</a> const &amp;remap_gvec__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt; const &amp;sym_phase_factors__) const</td></tr>
+<tr class="memitem:a1797e4f23dd5cd1295df79c4a8bb7107"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d56/classsirius_1_1_unit__cell__symmetry.html#a1797e4f23dd5cd1295df79c4a8bb7107">symmetrize_vector_function</a> (double_complex *fx_pw__, double_complex *fy_pw__, double_complex *fz_pw__, <a class="el" href="../../d7/dcc/structsddk_1_1remap__gvec__to__shells.html">remap_gvec_to_shells</a> const &amp;remap_gvec__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt; const &amp;sym_phase_factors__) const</td></tr>
 <tr class="separator:a1797e4f23dd5cd1295df79c4a8bb7107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab498b20bb70f48102790eeefcab8fe3e"><td class="memItemLeft" align="right" valign="top"><a id="ab498b20bb70f48102790eeefcab8fe3e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>symmetrize_function</b> (<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt; &amp;frlm__, <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const &amp;comm__) const</td></tr>
@@ -216,7 +214,7 @@ std::vector&lt; <a class="el" href="../../d9/d78/structsirius_1_1magnetic__group
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00075">75</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00084">84</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a28437ea331870436ff2574a99eaa5274"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28437ea331870436ff2574a99eaa5274">&#9670;&nbsp;</a></span>rot_mtrx_cart()</h2>
@@ -252,7 +250,7 @@ std::vector&lt; <a class="el" href="../../d9/d78/structsirius_1_1magnetic__group
 \[ R(\alpha, \beta, \gamma) = \left( \begin{array}{ccc} \cos(\alpha) &amp; -\sin(\alpha) &amp; 0 \\ \sin(\alpha) &amp; \cos(\alpha) &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{array} \right) \left( \begin{array}{ccc} \cos(\beta) &amp; 0 &amp; \sin(\beta) \\ 0 &amp; 1 &amp; 0 \\ -\sin(\beta) &amp; 0 &amp; \cos(\beta) \end{array} \right) \left( \begin{array}{ccc} \cos(\gamma) &amp; -\sin(\gamma) &amp; 0 \\ \sin(\gamma) &amp; \cos(\gamma) &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{array} \right) = \left( \begin{array}{ccc} \cos(\alpha) \cos(\beta) \cos(\gamma) - \sin(\alpha) \sin(\gamma) &amp; -\sin(\alpha) \cos(\gamma) - \cos(\alpha) \cos(\beta) \sin(\gamma) &amp; \cos(\alpha) \sin(\beta) \\ \sin(\alpha) \cos(\beta) \cos(\gamma) + \cos(\alpha) \sin(\gamma) &amp; \cos(\alpha) \cos(\gamma) - \sin(\alpha) \cos(\beta) \sin(\gamma) &amp; \sin(\alpha) \sin(\beta) \\ -\sin(\beta) \cos(\gamma) &amp; \sin(\beta) \sin(\gamma) &amp; \cos(\beta) \end{array} \right) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00503">503</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00537">537</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
 
 </div>
 </div>
@@ -297,17 +295,91 @@ std::vector&lt; <a class="el" href="../../d9/d78/structsirius_1_1magnetic__group
 </div><div class="memdoc">
 
 <p>Symmetrize scalar function. </p>
-<p>The following operation is performed: </p><p class="formulaDsp">
-\[ f({\bf x}) = \frac{1}{N_{sym}} \sum_{{\bf \hat P}} f({\bf \hat P x}) \]
+<p>Symmetrize scalar function. The following operation is performed: </p><p class="formulaDsp">
+\[ f_{\mathrm{sym}}({\bf x}) = \frac{1}{N_{\mathrm{sym}}} \sum_{{\bf \hat P}} f({\bf \hat P x}) \]
 </p>
 <p> For the function expanded in plane-waves we have: </p><p class="formulaDsp">
-\[ f({\bf x}) = \frac{1}{N_{sym}} \sum_{{\bf \hat P}} \sum_{\bf G} e^{i{\bf G \hat P x}} f({\bf G}) = \frac{1}{N_{sym}} \sum_{{\bf \hat P}} \sum_{\bf G} e^{i{\bf G (Rx + t)}} f({\bf G}) = \frac{1}{N_{sym}} \sum_{{\bf \hat P}} \sum_{\bf G} e^{i{\bf G t}} e^{i{\bf G Rx}} f({\bf G}) \]
+\[ f_{\mathrm{sym}}({\bf x}) = \frac{1}{N_{\mathrm{sym}}} \sum_{{\bf \hat P}} \sum_{\bf G} e^{i{\bf G \hat P x}} \hat f({\bf G}) = \frac{1}{N_{\mathrm{sym}}} \sum_{{\bf \hat P}} \sum_{\bf G} e^{i{\bf G (Rx + t)}} \hat f({\bf G}) = \frac{1}{N_{\mathrm{sym}}} \sum_{{\bf \hat P}} \sum_{\bf G} e^{i{\bf G t}} e^{i{\bf R^T G x}} \hat f({\bf G}) \]
 </p>
-<p> Now we do a mapping \( {\bf GR} \rightarrow \tilde {\bf G} \) and find expansion coefficients of the symmetry transformed function: </p><p class="formulaDsp">
-\[ f(\tilde{\bf G}) = e^{i{\bf G t}} f({\bf G}) \]
+<p> Substitute \(\bf \tilde G = \bf R^T \bf G\) </p><p class="formulaDsp">
+\[ f_{\mathrm{sym}}({\bf x}) = \frac{1}{N_{\mathrm{sym}}} \sum_{{\bf \tilde G}} e^{i {\bf \tilde G} }\sum_{{\bf \hat P}} e^{i {\bf R}^{-T} {\bf t}} \hat f ({\bf R}^{-T} {\bf \tilde G}) \,, \]
+</p>
+<p> to find the Fourier coefficients \( \hat f_{\mathrm{sym}} \) of \(f_{\mathrm{sym}}\) in terms of \( \hat f \): </p><p class="formulaDsp">
+\[ \hat f_{\mathrm{sym}}({\bf G}) = \frac{1}{N_{\mathrm{sym}}} \sum_{{\bf \hat P}} e^{i {\bf R}^{-T} {\bf t}} \hat f ({\bf R}^{-T} {\bf G})\,. \]
+</p>
+<p> Once \(\hat f_{\mathrm{sym}} \) has been calculated by the above formula for a single \(\bf G \), its values at points \({\bf R}^{-T} {\bf G}\), \(\forall \, {\bf R}\) are given by the update formula </p><p class="formulaDsp">
+\[ \hat f_{\mathrm{sym}} ({\bf R}^{-T} {\bf G}) = e^{-i {\bf R}^{-T} {\bf G} {\bf t}} \hat{f}_{\mathrm{sym}} ({\bf G})\,, \]
+</p>
+<p>which follows by using that \(f_{\mathrm{sym}}({\bf \hat P} {\bf x}) = f_{\mathrm{sym}}({\bf x})\): </p><p class="formulaDsp">
+\begin{eqnarray*} f_{\mathrm{sym}}(\hat{P}{\bf x}) &amp;=&amp; \sum_G e^{i G ({\bf R}{\bf x} + {\bf t} )} \hat{f}_{\mathrm{sym}}({\bf G}) \ \ &amp;=&amp; \sum_G e^{i {\bf G} {\bf x}} e^{i {\bf R}^{-T} {\bf G} {\bf t}} \hat{f}_{\mathrm{sym}}({\bf R}^{-T} {\bf G}) \,. \end{eqnarray*}
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00686">686</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00715">715</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
+
+</div>
+</div>
+<a id="a1797e4f23dd5cd1295df79c4a8bb7107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1797e4f23dd5cd1295df79c4a8bb7107">&#9670;&nbsp;</a></span>symmetrize_vector_function()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sirius::Unit_cell_symmetry::symmetrize_vector_function </td>
+          <td>(</td>
+          <td class="paramtype">double_complex *&#160;</td>
+          <td class="paramname"><em>fx_pw__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double_complex *&#160;</td>
+          <td class="paramname"><em>fy_pw__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double_complex *&#160;</td>
+          <td class="paramname"><em>fz_pw__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dcc/structsddk_1_1remap__gvec__to__shells.html">remap_gvec_to_shells</a> const &amp;&#160;</td>
+          <td class="paramname"><em>remap_gvec__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>sym_phase_factors__</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Symmetrize vector valued function.</p>
+<p>The following operations are performed.</p>
+<p>Fourier coefficient of symmetrized function: </p><p class="formulaDsp">
+\[ \hat f_{\mathrm{sym}}({\bf G}) = \frac{1}{N_{\mathrm{sym}}} \sum_{{\bf \hat P}} e^{i {\bf R}^{-T} {\bf t}} {\bf S} \hat f ({\bf R}^{-T} {\bf G})\,. \]
+</p>
+<p>Update formula when \(\hat f({\bf G})\) is known: </p><p class="formulaDsp">
+\[ \hat f_{\mathrm{sym}} ({\bf R}^{-T} {\bf G}) = e^{-i {\bf R}^{-T} {\bf G} {\bf t}} {\bf S}^{-1} \hat{f}_{\mathrm{sym}} ({\bf G})\,, \]
+</p>
+<p>The derivation works analogically to the one for <a class="el" href="../../d0/d56/classsirius_1_1_unit__cell__symmetry.html#a46e7d83ee31899f4b9f2f3f25f1440d8" title="Symmetrize scalar function. ">Unit_cell_symmetry::symmetrize_function</a> . </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00870">870</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
 
 </div>
 </div>
@@ -335,7 +407,7 @@ std::vector&lt; <a class="el" href="../../d9/d78/structsirius_1_1magnetic__group
 <p>Matrix of lattice vectors. </p>
 <p>Spglib requires this matrix to have a positively defined determinant. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00081">81</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00090">90</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
 
 </div>
 </div>
@@ -362,7 +434,7 @@ std::vector&lt; <a class="el" href="../../d9/d78/structsirius_1_1magnetic__group
 <p>Symmetry table for atoms. </p>
 <p>For each atom ia and symmetry isym sym_table_(ia, isym) stores index of atom ja to which original atom transforms under symmetry operation. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00099">99</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html#l00108">108</a> of file <a class="el" href="../../de/dca/unit__cell__symmetry_8h_source.html">unit_cell_symmetry.h</a>.</p>
 
 </div>
 </div>
@@ -372,7 +444,7 @@ std::vector&lt; <a class="el" href="../../d9/d78/structsirius_1_1magnetic__group
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:35 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:49 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

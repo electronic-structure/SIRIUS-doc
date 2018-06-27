@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['object',['object',['../dc/df0/namespacenlohmann_1_1detail.html#a1ed8fc6239da25abcaf681d30ace4985aa8cfde6331bd59eb2ac96f8911c4b666',1,'nlohmann::detail::object()'],['../db/d6f/namespacesddk_1_1nlohmann_1_1detail.html#a75ab17a2c6742258367dd05222beda21aa8cfde6331bd59eb2ac96f8911c4b666',1,'sddk::nlohmann::detail::object()']]],
-  ['object_5fend',['object_end',['../df/d6b/classnlohmann_1_1detail_1_1parser.html#a37ac88c864dda495f72cb62776b0bebeaf63e2a2468a37aa4f394fcc3bcb8249c',1,'nlohmann::detail::parser::object_end()'],['../d9/d0a/classsddk_1_1nlohmann_1_1detail_1_1parser.html#ac5914c14b8ad806117d03a801907caa5af63e2a2468a37aa4f394fcc3bcb8249c',1,'sddk::nlohmann::detail::parser::object_end()']]],
-  ['object_5fstart',['object_start',['../df/d6b/classnlohmann_1_1detail_1_1parser.html#a37ac88c864dda495f72cb62776b0bebeae73f17027cb0acbb537f29d0a6944b26',1,'nlohmann::detail::parser::object_start()'],['../d9/d0a/classsddk_1_1nlohmann_1_1detail_1_1parser.html#ac5914c14b8ad806117d03a801907caa5ae73f17027cb0acbb537f29d0a6944b26',1,'sddk::nlohmann::detail::parser::object_start()']]]
+  ['parse_5ferror',['parse_error',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#a3f313cdbe187cababfc5e06f0b69b098a456e19aeafa334241c7ff3f589547f9d',1,'nlohmann::detail::lexer']]],
+  ['plasma',['plasma',['../d1/d99/eigenproblem_8h.html#a203f2c57422a6e64834e6e9ab85982bfa73cb08d143f893e645292dd04967f526',1,'eigenproblem.h']]],
+  ['pseudopotential',['pseudopotential',['../d7/d69/typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128aa8c8c19675c00947a31f372238c1d977c',1,'typedefs.h']]]
 ];

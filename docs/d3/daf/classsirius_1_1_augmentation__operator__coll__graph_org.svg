@@ -5,716 +5,700 @@
  -->
 <!-- Title: sirius::Augmentation_operator Pages: 1 -->
 <svg width="1180pt" height="874pt"
- viewBox="0.00 0.00 1180.00 874.45" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 870.4502)">
+ viewBox="0.00 0.00 1180.00 873.79" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 869.7937)">
 <title>sirius::Augmentation_operator</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-870.4502 1176,-870.4502 1176,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-869.7937 1176,-869.7937 1176,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="1088,-570.4502 1088,-600.4502 1172,-600.4502 1172,-570.4502 1088,-570.4502"/>
-<text text-anchor="start" x="1096" y="-588.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Augmentation</text>
-<text text-anchor="middle" x="1130" y="-577.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_operator</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="1088,-569.7937 1088,-599.7937 1172,-599.7937 1172,-569.7937 1088,-569.7937"/>
+<text text-anchor="start" x="1096" y="-587.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Augmentation</text>
+<text text-anchor="middle" x="1130" y="-576.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_operator</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double, 1 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="810,-836.9502 810,-855.9502 918,-855.9502 918,-836.9502 810,-836.9502"/>
-<text text-anchor="middle" x="864" y="-843.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 1 &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="810,-836.2937 810,-855.2937 918,-855.2937 918,-836.2937 810,-836.2937"/>
+<text text-anchor="middle" x="864" y="-843.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 1 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M928.2422,-855.7135C973.658,-858.4331 1032.8415,-853.6319 1070,-818.4502 1102.2282,-787.9365 1122.2943,-647.5364 1128.1831,-600.7033"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="928.4184,-852.2172 918.1895,-854.9774 927.9071,-859.1985 928.4184,-852.2172"/>
-<text text-anchor="middle" x="973" y="-858.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> sym_weight_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M928.2422,-855.0571C973.658,-857.7766 1032.8415,-852.9754 1070,-817.7937 1102.2282,-787.2801 1122.2943,-646.8799 1128.1831,-600.0469"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="928.4184,-851.5608 918.1895,-854.3209 927.9071,-858.5421 928.4184,-851.5608"/>
+<text text-anchor="middle" x="973" y="-857.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> sym_weight_</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d0/d58/classsddk_1_1mdarray__base.html" target="_top" xlink:title="sddk::mdarray_base\l\&lt; double, N \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="467,-755.4502 467,-785.4502 551,-785.4502 551,-755.4502 467,-755.4502"/>
-<text text-anchor="start" x="475" y="-773.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
-<text text-anchor="middle" x="509" y="-762.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; double, N &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="467,-754.7937 467,-784.7937 551,-784.7937 551,-754.7937 467,-754.7937"/>
+<text text-anchor="start" x="475" y="-772.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
+<text text-anchor="middle" x="509" y="-761.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; double, N &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M560.5433,-788.6365C565.0702,-790.0082 569.6015,-791.3025 574,-792.4502 655.1441,-813.6222 751.1343,-829.803 809.778,-838.7153"/>
-<polygon fill="#191970" stroke="#191970" points="561.2832,-785.2002 550.6938,-785.5368 559.1819,-791.8774 561.2832,-785.2002"/>
+<path fill="none" stroke="#191970" d="M557.8505,-788.0134C563.2618,-789.7518 568.7227,-791.3874 574,-792.7937 655.1066,-814.4072 751.3115,-830.0797 809.9838,-838.5528"/>
+<polygon fill="#191970" stroke="#191970" points="558.8075,-784.6431 548.2139,-784.8003 556.5934,-791.2837 558.8075,-784.6431"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
 <g id="a_node15"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double, 2 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="684,-777.9502 684,-796.9502 792,-796.9502 792,-777.9502 684,-777.9502"/>
-<text text-anchor="middle" x="738" y="-784.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 2 &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="684,-777.2937 684,-796.2937 792,-796.2937 792,-777.2937 684,-777.2937"/>
+<text text-anchor="middle" x="738" y="-784.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 2 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node15 -->
 <g id="edge18" class="edge">
 <title>Node3&#45;&gt;Node15</title>
-<path fill="none" stroke="#191970" d="M560.9893,-774.3096C597.6273,-777.0295 646.5785,-780.6634 683.7166,-783.4204"/>
-<polygon fill="#191970" stroke="#191970" points="561.2338,-770.8182 551.0021,-773.5682 560.7155,-777.799 561.2338,-770.8182"/>
+<path fill="none" stroke="#191970" d="M560.9893,-773.6532C597.6273,-776.3731 646.5785,-780.007 683.7166,-782.764"/>
+<polygon fill="#191970" stroke="#191970" points="561.2338,-770.1618 551.0021,-772.9118 560.7155,-777.1426 561.2338,-770.1618"/>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
 <g id="a_node26"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double, 3 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="684,-701.9502 684,-720.9502 792,-720.9502 792,-701.9502 684,-701.9502"/>
-<text text-anchor="middle" x="738" y="-708.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 3 &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="684,-701.2937 684,-720.2937 792,-720.2937 792,-701.2937 684,-701.2937"/>
+<text text-anchor="middle" x="738" y="-708.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 3 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node26 -->
 <g id="edge30" class="edge">
 <title>Node3&#45;&gt;Node26</title>
-<path fill="none" stroke="#191970" d="M560.9169,-755.9477C565.3386,-754.7507 569.745,-753.571 574,-752.4502 616.4287,-741.2737 665.2322,-729.1685 698.4951,-721.0308"/>
-<polygon fill="#191970" stroke="#191970" points="559.9923,-752.5719 551.2656,-758.5798 561.8341,-759.3253 559.9923,-752.5719"/>
+<path fill="none" stroke="#191970" d="M560.9169,-755.2913C565.3386,-754.0942 569.745,-752.9146 574,-751.7937 616.4287,-740.6173 665.2322,-728.5121 698.4951,-720.3744"/>
+<polygon fill="#191970" stroke="#191970" points="559.9923,-751.9155 551.2656,-757.9234 561.8341,-758.6689 559.9923,-751.9155"/>
 </g>
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
 <g id="a_node27"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double, 4 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="684,-739.9502 684,-758.9502 792,-758.9502 792,-739.9502 684,-739.9502"/>
-<text text-anchor="middle" x="738" y="-746.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 4 &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="684,-739.2937 684,-758.2937 792,-758.2937 792,-739.2937 684,-739.2937"/>
+<text text-anchor="middle" x="738" y="-746.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 4 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node27 -->
 <g id="edge32" class="edge">
 <title>Node3&#45;&gt;Node27</title>
-<path fill="none" stroke="#191970" d="M560.9893,-765.6826C597.6273,-762.3228 646.5785,-757.8338 683.7166,-754.4281"/>
-<polygon fill="#191970" stroke="#191970" points="560.6407,-762.1998 551.0021,-766.5984 561.28,-769.1705 560.6407,-762.1998"/>
+<path fill="none" stroke="#191970" d="M560.9893,-765.0262C597.6273,-761.6664 646.5785,-757.1774 683.7166,-753.7717"/>
+<polygon fill="#191970" stroke="#191970" points="560.6407,-761.5434 551.0021,-765.942 561.28,-768.5141 560.6407,-761.5434"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="../../da/d70/classsddk_1_1_communicator.html" target="_top" xlink:title="MPI communicator wrapper. ">
-<polygon fill="#ffffff" stroke="#000000" points="466.5,-34.9502 466.5,-53.9502 551.5,-53.9502 551.5,-34.9502 466.5,-34.9502"/>
-<text text-anchor="middle" x="509" y="-41.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::Communicator</text>
+<polygon fill="#ffffff" stroke="#000000" points="466.5,-36.2937 466.5,-55.2937 551.5,-55.2937 551.5,-36.2937 466.5,-36.2937"/>
+<text text-anchor="middle" x="509" y="-43.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::Communicator</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M546.7236,-31.892C623.718,-8.7576 801.5047,31.6333 918,-44.4502 1046.4755,-128.3579 1021.2596,-208.9481 1070,-354.4502 1096.7828,-434.4036 1118.8992,-533.2126 1126.844,-570.3772"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="545.5052,-28.6049 536.9771,-34.8916 547.5642,-35.2952 545.5052,-28.6049"/>
-<text text-anchor="middle" x="864" y="-47.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> comm_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M545.8463,-33.2081C622.6837,-9.4438 802.4601,32.9459 918,-45.7937 1012.9342,-110.4907 1107.2955,-489.1125 1126.473,-569.7104"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="544.6111,-29.9279 536.1345,-36.2837 546.7245,-36.6013 544.6111,-29.9279"/>
+<text text-anchor="middle" x="864" y="-48.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> comm_</text>
 </g>
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
 <g id="a_node30"><a xlink:href="../../db/d7d/classsirius_1_1_simulation__context__base.html" target="_top" xlink:title="Base class for Simulation_context. ">
-<polygon fill="#ffffff" stroke="#000000" points="936.5,-219.4502 936.5,-249.4502 1009.5,-249.4502 1009.5,-219.4502 936.5,-219.4502"/>
-<text text-anchor="start" x="944.5" y="-237.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Simulation</text>
-<text text-anchor="middle" x="973" y="-226.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_context_base</text>
+<polygon fill="#ffffff" stroke="#000000" points="936.5,-240.7937 936.5,-270.7937 1009.5,-270.7937 1009.5,-240.7937 936.5,-240.7937"/>
+<text text-anchor="start" x="944.5" y="-258.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Simulation</text>
+<text text-anchor="middle" x="973" y="-247.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_context_base</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node30 -->
-<g id="edge46" class="edge">
+<g id="edge45" class="edge">
 <title>Node4&#45;&gt;Node30</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M561.7728,-38.3072C619.578,-33.3599 714.396,-30.5226 792,-53.4502 854.7183,-71.9799 873.17,-81.835 918,-129.4502 943.3916,-156.4193 960.2674,-197.3735 968.0496,-219.3131"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="561.4148,-34.8252 551.7727,-39.216 562.0485,-41.7965 561.4148,-34.8252"/>
-<text text-anchor="middle" x="738" y="-111.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> comm_ortho_fft_</text>
-<text text-anchor="start" x="698.5" y="-100.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">comm_ortho_fft_coarse</text>
-<text text-anchor="middle" x="738" y="-89.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_</text>
-<text text-anchor="start" x="698.5" y="-78.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">comm_band_ortho</text>
-<text text-anchor="middle" x="738" y="-67.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_fft_coarse_</text>
-<text text-anchor="middle" x="738" y="-56.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">comm_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M561.6966,-39.9128C619.4358,-35.1929 714.1968,-32.5516 792,-54.7937 854.2269,-72.583 875.0452,-79.3838 918,-127.7937 948.1795,-161.806 963.6947,-214.894 969.8078,-240.6972"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="561.368,-36.4281 551.7085,-40.7805 561.9739,-43.4018 561.368,-36.4281"/>
+<text text-anchor="middle" x="738" y="-112.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> comm_ortho_fft_</text>
+<text text-anchor="start" x="698.5" y="-101.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">comm_ortho_fft_coarse</text>
+<text text-anchor="middle" x="738" y="-90.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_</text>
+<text text-anchor="start" x="698.5" y="-79.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">comm_band_ortho</text>
+<text text-anchor="middle" x="738" y="-68.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_fft_coarse_</text>
+<text text-anchor="middle" x="738" y="-57.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">comm_</text>
 </g>
-<!-- Node35 -->
-<g id="node35" class="node">
-<title>Node35</title>
-<g id="a_node35"><a xlink:href="../../d6/dd1/classsirius_1_1_unit__cell.html" target="_top" xlink:title="Representation of a unit cell. ">
-<polygon fill="#ffffff" stroke="#000000" points="704.5,-166.9502 704.5,-185.9502 771.5,-185.9502 771.5,-166.9502 704.5,-166.9502"/>
-<text text-anchor="middle" x="738" y="-173.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Unit_cell</text>
+<!-- Node34 -->
+<g id="node34" class="node">
+<title>Node34</title>
+<g id="a_node34"><a xlink:href="../../d6/dd1/classsirius_1_1_unit__cell.html" target="_top" xlink:title="Representation of a unit cell. ">
+<polygon fill="#ffffff" stroke="#000000" points="704.5,-168.2937 704.5,-187.2937 771.5,-187.2937 771.5,-168.2937 704.5,-168.2937"/>
+<text text-anchor="middle" x="738" y="-175.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Unit_cell</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node35 -->
-<g id="edge50" class="edge">
-<title>Node4&#45;&gt;Node35</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M561.2625,-55.6332C595.0534,-65.2891 637.8288,-82.4103 666,-111.4502 681.2863,-127.2078 668.2095,-142.1978 684,-157.4502 689.6471,-162.9048 696.9513,-166.8023 704.3521,-169.5843"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="562.1092,-52.2364 551.5411,-52.9876 560.2711,-58.9907 562.1092,-52.2364"/>
-<text text-anchor="middle" x="620" y="-114.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> comm_</text>
+<!-- Node4&#45;&gt;Node34 -->
+<g id="edge49" class="edge">
+<title>Node4&#45;&gt;Node34</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M561.7071,-57.1233C604.3252,-66.7357 658.4539,-80.1481 666,-87.7937 688.8677,-110.9631 662.0402,-134.7621 684,-158.7937 689.4303,-164.7364 696.8304,-168.8206 704.4101,-171.6275"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="562.2316,-53.6543 551.7091,-54.8897 560.7053,-60.4859 562.2316,-53.6543"/>
+<text text-anchor="middle" x="620" y="-90.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> comm_</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d3/d37/classsirius_1_1_atom__type.html" target="_top" xlink:title="Defines the properties of atom type. ">
-<polygon fill="#ffffff" stroke="#000000" points="936,-575.9502 936,-594.9502 1010,-594.9502 1010,-575.9502 936,-575.9502"/>
-<text text-anchor="middle" x="973" y="-582.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Atom_type</text>
+<polygon fill="#ffffff" stroke="#000000" points="936,-575.2937 936,-594.2937 1010,-594.2937 1010,-575.2937 936,-575.2937"/>
+<text text-anchor="middle" x="973" y="-582.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Atom_type</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1020.4057,-585.4502C1041.8576,-585.4502 1067.0049,-585.4502 1087.7962,-585.4502"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1020.2068,-581.9503 1010.2068,-585.4502 1020.2068,-588.9503 1020.2068,-581.9503"/>
-<text text-anchor="middle" x="1049" y="-588.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> atom_type_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1020.4057,-584.7937C1041.8576,-584.7937 1067.0049,-584.7937 1087.7962,-584.7937"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1020.2068,-581.2938 1010.2068,-584.7937 1020.2068,-588.2938 1020.2068,-581.2938"/>
+<text text-anchor="middle" x="1049" y="-587.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> atom_type_</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; int, 2 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="691.5,-487.9502 691.5,-506.9502 784.5,-506.9502 784.5,-487.9502 691.5,-487.9502"/>
-<text text-anchor="middle" x="738" y="-494.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; int, 2 &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="691.5,-291.2937 691.5,-310.2937 784.5,-310.2937 784.5,-291.2937 691.5,-291.2937"/>
+<text text-anchor="middle" x="738" y="-298.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; int, 2 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.6166,-498.6987C831.5873,-501.5759 879.8888,-509.3578 918,-529.4502 939.2158,-540.6352 957.256,-562.9096 966.4592,-575.7388"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="794.7218,-495.1978 784.5073,-498.011 794.2467,-502.1817 794.7218,-495.1978"/>
-<text text-anchor="middle" x="864" y="-532.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> idx_radial_integrals_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M782.8132,-314.424C786.0237,-316.0399 789.1245,-317.8255 792,-319.7937 802.1439,-326.7372 799.3758,-334.6101 810,-340.7937 852.2617,-365.3917 882.5737,-328.0879 918,-361.7937 949.9223,-392.1657 967.7177,-536.2903 971.987,-575.1317"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="784.1301,-311.1791 773.5712,-310.3081 781.2824,-317.5737 784.1301,-311.1791"/>
+<text text-anchor="middle" x="864" y="-364.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> idx_radial_integrals_</text>
 </g>
 <!-- Node6&#45;&gt;Node30 -->
 <g id="edge39" class="edge">
 <title>Node6&#45;&gt;Node30</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M786.864,-482.3016C788.7173,-480.8315 790.4442,-479.2189 792,-477.4502 815.4981,-450.7365 790.2322,-429.0308 810,-399.4502 842.7542,-350.4367 877.6014,-365.3817 918,-322.4502 939.1125,-300.0139 956.5601,-268.2871 965.8188,-249.6919"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="784.6394,-479.5678 778.0676,-487.8782 788.3874,-485.4799 784.6394,-479.5678"/>
-<text text-anchor="middle" x="864" y="-402.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> gvec_coord_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.6945,-289.9374C838.7242,-281.5061 898.4778,-270.064 936.3936,-262.8035"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="793.8727,-286.531 784.7094,-291.8494 795.1892,-293.4061 793.8727,-286.531"/>
+<text text-anchor="middle" x="864" y="-289.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> gvec_coord_</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="../../d0/d58/classsddk_1_1mdarray__base.html" target="_top" xlink:title="sddk::mdarray_base\l\&lt; int, N \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="259,-501.4502 259,-531.4502 343,-531.4502 343,-501.4502 259,-501.4502"/>
-<text text-anchor="start" x="267" y="-519.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
-<text text-anchor="middle" x="301" y="-508.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; int, N &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="259,-373.7937 259,-403.7937 343,-403.7937 343,-373.7937 259,-373.7937"/>
+<text text-anchor="start" x="267" y="-391.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
+<text text-anchor="middle" x="301" y="-380.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; int, N &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M353.3637,-514.1735C439.4028,-510.4327 609.3111,-503.0453 691.4166,-499.4755"/>
-<polygon fill="#191970" stroke="#191970" points="353.137,-510.6799 343.2985,-514.6111 353.4411,-517.6733 353.137,-510.6799"/>
+<path fill="none" stroke="#191970" d="M353.1017,-378.3019C439.0574,-360.9927 609.2277,-326.725 691.4166,-310.1744"/>
+<polygon fill="#191970" stroke="#191970" points="352.4107,-374.8707 343.2985,-380.276 353.7926,-381.7329 352.4107,-374.8707"/>
 </g>
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
 <g id="a_node29"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; int, 1 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="462.5,-525.9502 462.5,-544.9502 555.5,-544.9502 555.5,-525.9502 462.5,-525.9502"/>
-<text text-anchor="middle" x="509" y="-532.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; int, 1 &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="462.5,-503.2937 462.5,-522.2937 555.5,-522.2937 555.5,-503.2937 462.5,-503.2937"/>
+<text text-anchor="middle" x="509" y="-510.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; int, 1 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node29 -->
 <g id="edge35" class="edge">
 <title>Node7&#45;&gt;Node29</title>
-<path fill="none" stroke="#191970" d="M353.1625,-521.215C386.6838,-524.277 429.8585,-528.2209 462.26,-531.1806"/>
-<polygon fill="#191970" stroke="#191970" points="353.3689,-517.7194 343.0919,-520.2951 352.732,-524.6904 353.3689,-517.7194"/>
+<path fill="none" stroke="#191970" d="M335.1286,-409.1396C380.5701,-436.2298 459.1237,-483.0598 492.8517,-503.1669"/>
+<polygon fill="#191970" stroke="#191970" points="336.8866,-406.113 326.5049,-403.9986 333.3021,-412.1256 336.8866,-406.113"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="../../d5/d6b/classsirius_1_1_spline.html" target="_top" xlink:title="sirius::Spline\&lt; double \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="254,-643.9502 254,-662.9502 348,-662.9502 348,-643.9502 254,-643.9502"/>
-<text text-anchor="middle" x="301" y="-650.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Spline&lt; double &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="254,-619.2937 254,-638.2937 348,-638.2937 348,-619.2937 254,-619.2937"/>
+<text text-anchor="middle" x="301" y="-626.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Spline&lt; double &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node5 -->
 <g id="edge7" class="edge">
 <title>Node8&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M329.0811,-667.1C340.2974,-671.9047 353.4992,-676.7717 366,-679.4502 407.7559,-688.397 419.3056,-682.5611 462,-683.4502 503.7687,-684.32 514.3057,-686.0896 556,-683.4502 637.1396,-678.3137 844.206,-664.5746 918,-630.4502 936.5888,-621.8542 954.1961,-605.4849 964.2788,-595.0377"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="330.3606,-663.8382 319.803,-662.9502 327.5025,-670.2281 330.3606,-663.8382"/>
-<text text-anchor="middle" x="620" y="-685.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> free_atom_density_spline_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M351.9689,-617.1788C383.4875,-610.5253 424.8794,-602.7361 462,-598.7937 638.7251,-580.025 851.6419,-582.0528 935.996,-583.8261"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="351.1454,-613.7757 342.1004,-619.2928 352.6117,-620.6204 351.1454,-613.7757"/>
+<text text-anchor="middle" x="620" y="-592.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> free_atom_density_spline_</text>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="../../d0/d58/classsddk_1_1mdarray__base.html" target="_top" xlink:title="sddk::mdarray_base\l\&lt; sirius::Spline\&lt; double\l \&gt;, N \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="462,-632.9502 462,-673.9502 556,-673.9502 556,-632.9502 462,-632.9502"/>
-<text text-anchor="start" x="470" y="-661.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
-<text text-anchor="start" x="470" y="-650.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; sirius::Spline&lt; double</text>
-<text text-anchor="middle" x="509" y="-639.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> &gt;, N &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="462,-608.2937 462,-649.2937 556,-649.2937 556,-608.2937 462,-608.2937"/>
+<text text-anchor="start" x="470" y="-637.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
+<text text-anchor="start" x="470" y="-626.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; sirius::Spline&lt; double</text>
+<text text-anchor="middle" x="509" y="-615.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> &gt;, N &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node13 -->
 <g id="edge13" class="edge">
 <title>Node8&#45;&gt;Node13</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M358.4844,-653.4502C391.0627,-653.4502 431.3109,-653.4502 461.9884,-653.4502"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="358.1985,-649.9503 348.1984,-653.4502 358.1984,-656.9503 358.1985,-649.9503"/>
-<text text-anchor="middle" x="405" y="-667.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> raw_ptr_device_</text>
-<text text-anchor="middle" x="405" y="-656.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">raw_ptr_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M358.4844,-628.7937C391.0627,-628.7937 431.3109,-628.7937 461.9884,-628.7937"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="358.1985,-625.2938 348.1984,-628.7937 358.1984,-632.2938 358.1985,-625.2938"/>
+<text text-anchor="middle" x="405" y="-642.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> raw_ptr_device_</text>
+<text text-anchor="middle" x="405" y="-631.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">raw_ptr_</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="../../d9/dbf/classsirius_1_1_radial__grid.html" target="_top" xlink:title="sirius::Radial_grid\l\&lt; double \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="120.5,-578.4502 120.5,-608.4502 196.5,-608.4502 196.5,-578.4502 120.5,-578.4502"/>
-<text text-anchor="start" x="128.5" y="-596.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Radial_grid</text>
-<text text-anchor="middle" x="158.5" y="-585.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; double &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="120.5,-655.7937 120.5,-685.7937 196.5,-685.7937 196.5,-655.7937 120.5,-655.7937"/>
+<text text-anchor="start" x="128.5" y="-673.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Radial_grid</text>
+<text text-anchor="middle" x="158.5" y="-662.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; double &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node5 -->
 <g id="edge16" class="edge">
 <title>Node9&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M207.1241,-592.968C267.0604,-592.3741 372.0311,-591.335 462,-590.4502 639.4305,-588.7052 851.5155,-586.635 935.8123,-585.8128"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="206.793,-589.4711 196.8282,-593.0701 206.8624,-596.4707 206.793,-589.4711"/>
-<text text-anchor="start" x="471" y="-615.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> free_atom_radial_grid</text>
-<text text-anchor="middle" x="509" y="-604.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_</text>
-<text text-anchor="middle" x="509" y="-593.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">radial_grid_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M206.9297,-671.9207C313.1877,-673.8454 574.639,-675.5864 792,-652.7937 848.6149,-646.8571 866.3316,-653.6866 918,-629.7937 936.5888,-621.1978 954.1961,-604.8285 964.2788,-594.3813"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="206.9031,-668.4197 196.8383,-671.7288 206.7699,-675.4184 206.9031,-668.4197"/>
+<text text-anchor="start" x="471" y="-696.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> free_atom_radial_grid</text>
+<text text-anchor="middle" x="509" y="-685.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_</text>
+<text text-anchor="middle" x="509" y="-674.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">radial_grid_</text>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
 <g id="edge8" class="edge">
 <title>Node9&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M203.7271,-612.4931C228.6174,-622.9733 258.4196,-635.5216 278.4205,-643.943"/>
-<polygon fill="#191970" stroke="#191970" points="205.0333,-609.2456 194.4588,-608.5907 202.3169,-615.6971 205.0333,-609.2456"/>
+<path fill="none" stroke="#191970" d="M206.4465,-656.6622C226.8652,-650.644 250.1534,-643.7801 268.5085,-638.3702"/>
+<polygon fill="#191970" stroke="#191970" points="205.2899,-653.3541 196.6874,-659.5385 207.269,-660.0685 205.2899,-653.3541"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double\l_complex \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="691.5,-389.4502 691.5,-419.4502 784.5,-419.4502 784.5,-389.4502 691.5,-389.4502"/>
-<text text-anchor="start" x="699.5" y="-407.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double</text>
-<text text-anchor="middle" x="738" y="-396.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complex &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="691.5,-476.7937 691.5,-506.7937 784.5,-506.7937 784.5,-476.7937 691.5,-476.7937"/>
+<text text-anchor="start" x="699.5" y="-494.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double</text>
+<text text-anchor="middle" x="738" y="-483.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complex &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node5 -->
 <g id="edge9" class="edge">
 <title>Node10&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.6763,-411.5119C840.2661,-418.2323 899.6434,-429.6654 918,-445.4502 958.9865,-480.6941 969.6504,-550.4773 972.2312,-575.9"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="794.9879,-408.0209 784.5927,-410.0682 793.9957,-414.9503 794.9879,-408.0209"/>
-<text text-anchor="middle" x="864" y="-448.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> p_mtrx_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.6681,-494.9088C831.6604,-498.9362 879.9665,-508.0866 918,-528.7937 939.0641,-540.262 957.1611,-562.4302 966.4148,-575.1653"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="794.8495,-491.4097 784.5523,-493.9034 794.1571,-498.3754 794.8495,-491.4097"/>
+<text text-anchor="middle" x="864" y="-531.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> p_mtrx_</text>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="../../d0/d58/classsddk_1_1mdarray__base.html" target="_top" xlink:title="sddk::mdarray_base\l\&lt; double_complex, N \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="462,-401.4502 462,-431.4502 556,-431.4502 556,-401.4502 462,-401.4502"/>
-<text text-anchor="start" x="470" y="-419.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
-<text text-anchor="middle" x="509" y="-408.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; double_complex, N &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="462,-411.7937 462,-441.7937 556,-441.7937 556,-411.7937 462,-411.7937"/>
+<text text-anchor="start" x="470" y="-429.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
+<text text-anchor="middle" x="509" y="-418.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; double_complex, N &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node10 -->
 <g id="edge10" class="edge">
 <title>Node11&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M566.3398,-417.4399C596.1096,-417.5185 633.0533,-416.9381 666,-414.4502 674.1797,-413.8325 682.8474,-412.8838 691.2279,-411.812"/>
-<polygon fill="#191970" stroke="#191970" points="566.1454,-413.9389 556.1273,-417.3867 566.1089,-420.9388 566.1454,-413.9389"/>
+<path fill="none" stroke="#191970" d="M561.802,-445.0084C565.9186,-446.3234 570.0203,-447.6001 574,-448.7937 613.3304,-460.59 658.4949,-472.2986 691.4566,-480.5123"/>
+<polygon fill="#191970" stroke="#191970" points="562.8121,-441.6566 552.2199,-441.8917 560.6468,-448.3133 562.8121,-441.6566"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double\l_complex, 4 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="691.5,-438.4502 691.5,-468.4502 784.5,-468.4502 784.5,-438.4502 691.5,-438.4502"/>
-<text text-anchor="start" x="699.5" y="-456.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double</text>
-<text text-anchor="middle" x="738" y="-445.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complex, 4 &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="691.5,-427.7937 691.5,-457.7937 784.5,-457.7937 784.5,-427.7937 691.5,-427.7937"/>
+<text text-anchor="start" x="699.5" y="-445.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double</text>
+<text text-anchor="middle" x="738" y="-434.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complex, 4 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node14 -->
 <g id="edge15" class="edge">
 <title>Node11&#45;&gt;Node14</title>
-<path fill="none" stroke="#191970" d="M565.9854,-428.9705C568.6914,-429.4875 571.3735,-429.9838 574,-430.4502 613.3482,-437.4373 658.3163,-443.6176 691.2011,-447.8073"/>
-<polygon fill="#191970" stroke="#191970" points="566.6265,-425.5296 556.1376,-427.0245 565.2694,-432.3968 566.6265,-425.5296"/>
+<path fill="none" stroke="#191970" d="M566.2191,-430.7916C604.8129,-433.4881 655.1016,-437.0017 691.282,-439.5296"/>
+<polygon fill="#191970" stroke="#191970" points="566.3909,-427.2952 556.1713,-430.0896 565.903,-434.2781 566.3909,-427.2952"/>
+</g>
+<!-- Node32 -->
+<g id="node32" class="node">
+<title>Node32</title>
+<g id="a_node32"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double\l_complex, 3 \&gt;">
+<polygon fill="#ffffff" stroke="#000000" points="691.5,-378.7937 691.5,-408.7937 784.5,-408.7937 784.5,-378.7937 691.5,-378.7937"/>
+<text text-anchor="start" x="699.5" y="-396.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double</text>
+<text text-anchor="middle" x="738" y="-385.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complex, 3 &gt;</text>
+</a>
+</g>
+</g>
+<!-- Node11&#45;&gt;Node32 -->
+<g id="edge42" class="edge">
+<title>Node11&#45;&gt;Node32</title>
+<path fill="none" stroke="#191970" d="M566.2191,-418.5482C604.8129,-412.9866 655.1016,-405.7398 691.282,-400.526"/>
+<polygon fill="#191970" stroke="#191970" points="565.5698,-415.1055 556.1713,-419.9961 566.5683,-422.034 565.5698,-415.1055"/>
 </g>
 <!-- Node33 -->
 <g id="node33" class="node">
 <title>Node33</title>
-<g id="a_node33"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double\l_complex, 3 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="691.5,-292.4502 691.5,-322.4502 784.5,-322.4502 784.5,-292.4502 691.5,-292.4502"/>
-<text text-anchor="start" x="699.5" y="-310.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double</text>
-<text text-anchor="middle" x="738" y="-299.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complex, 3 &gt;</text>
+<g id="a_node33"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double\l_complex, 2 \&gt;">
+<polygon fill="#ffffff" stroke="#000000" points="691.5,-329.7937 691.5,-359.7937 784.5,-359.7937 784.5,-329.7937 691.5,-329.7937"/>
+<text text-anchor="start" x="699.5" y="-347.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double</text>
+<text text-anchor="middle" x="738" y="-336.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complex, 2 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node33 -->
-<g id="edge43" class="edge">
+<g id="edge44" class="edge">
 <title>Node11&#45;&gt;Node33</title>
-<path fill="none" stroke="#191970" d="M566.2837,-412.6681C604.7781,-409.0148 651.0977,-402.1027 666,-389.4502 684.6433,-373.6214 668.2733,-356.1796 684,-337.4502 688.9654,-331.5367 695.4093,-326.5765 702.1072,-322.5011"/>
-<polygon fill="#191970" stroke="#191970" points="565.8281,-409.1948 556.1794,-413.5712 566.4513,-416.167 565.8281,-409.1948"/>
-</g>
-<!-- Node34 -->
-<g id="node34" class="node">
-<title>Node34</title>
-<g id="a_node34"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; double\l_complex, 2 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="691.5,-243.4502 691.5,-273.4502 784.5,-273.4502 784.5,-243.4502 691.5,-243.4502"/>
-<text text-anchor="start" x="699.5" y="-261.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double</text>
-<text text-anchor="middle" x="738" y="-250.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_complex, 2 &gt;</text>
-</a>
-</g>
-</g>
-<!-- Node11&#45;&gt;Node34 -->
-<g id="edge45" class="edge">
-<title>Node11&#45;&gt;Node34</title>
-<path fill="none" stroke="#191970" d="M533.609,-394.5907C566.3163,-366.267 626.6731,-316.4913 684,-282.4502 689.2927,-279.3073 695.0708,-276.3193 700.816,-273.5862"/>
-<polygon fill="#191970" stroke="#191970" points="531.1441,-392.0963 525.9079,-401.3068 535.745,-397.3719 531.1441,-392.0963"/>
+<path fill="none" stroke="#191970" d="M558.2246,-408.276C563.5341,-406.381 568.8694,-404.52 574,-402.7937 614.5091,-389.1636 625.7795,-389.2532 666,-374.7937 678.4883,-370.3041 691.9666,-364.8555 703.8467,-359.8401"/>
+<polygon fill="#191970" stroke="#191970" points="556.9602,-405.0113 548.7451,-411.7019 559.3394,-411.5946 556.9602,-405.0113"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; sirius\l::Spline\&lt; double \&gt;, 2 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="692,-614.4502 692,-644.4502 784,-644.4502 784,-614.4502 692,-614.4502"/>
-<text text-anchor="start" x="700" y="-632.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; sirius</text>
-<text text-anchor="middle" x="738" y="-621.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Spline&lt; double &gt;, 2 &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="692,-613.7937 692,-643.7937 784,-643.7937 784,-613.7937 692,-613.7937"/>
+<text text-anchor="start" x="700" y="-631.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; sirius</text>
+<text text-anchor="middle" x="738" y="-620.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Spline&lt; double &gt;, 2 &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node5 -->
 <g id="edge11" class="edge">
 <title>Node12&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.448,-619.3417C829.9409,-612.9263 876.6787,-604.3696 918,-596.4502 923.7382,-595.3504 929.8078,-594.1619 935.7384,-592.9867"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="793.5013,-615.9559 784.2819,-621.1763 794.7445,-622.8446 793.5013,-615.9559"/>
-<text text-anchor="middle" x="864" y="-619.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> q_radial_functions_l_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.448,-618.6853C829.9409,-612.2698 876.6787,-603.7131 918,-595.7937 923.7382,-594.694 929.8078,-593.5055 935.7384,-592.3303"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="793.5013,-615.2995 784.2819,-620.5199 794.7445,-622.1882 793.5013,-615.2995"/>
+<text text-anchor="middle" x="864" y="-618.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> q_radial_functions_l_</text>
 </g>
 <!-- Node13&#45;&gt;Node12 -->
 <g id="edge12" class="edge">
 <title>Node13&#45;&gt;Node12</title>
-<path fill="none" stroke="#191970" d="M566.2534,-647.4498C604.9819,-643.3909 655.4752,-638.099 691.673,-634.3054"/>
-<polygon fill="#191970" stroke="#191970" points="565.752,-643.9831 556.1713,-648.5065 566.4817,-650.945 565.752,-643.9831"/>
+<path fill="none" stroke="#191970" d="M566.2534,-628.7937C604.9819,-628.7937 655.4752,-628.7937 691.673,-628.7937"/>
+<polygon fill="#191970" stroke="#191970" points="566.1713,-625.2938 556.1713,-628.7937 566.1712,-632.2938 566.1713,-625.2938"/>
 </g>
 <!-- Node14&#45;&gt;Node5 -->
 <g id="edge14" class="edge">
 <title>Node14&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.5195,-458.5311C839.695,-463.5423 898.563,-472.5001 918,-486.4502 949.468,-509.0348 965.0746,-555.4859 970.5968,-575.6974"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="794.8433,-455.0458 784.5275,-457.4613 794.0981,-462.006 794.8433,-455.0458"/>
-<text text-anchor="middle" x="864" y="-489.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> f_coefficients_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.996,-443.4691C833.194,-446.6025 882.7579,-456.143 918,-482.7937 949.7729,-506.821 965.2984,-554.6981 970.7025,-575.159"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="794.7626,-439.9447 784.5449,-442.7464 794.2796,-446.928 794.7626,-439.9447"/>
+<text text-anchor="middle" x="864" y="-485.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> f_coefficients_</text>
 </g>
 <!-- Node15&#45;&gt;Node1 -->
 <g id="edge36" class="edge">
 <title>Node15&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M789.068,-798.6427C826.2036,-804.3587 876.9489,-807.0519 918,-790.4502 1016.2511,-750.716 1094.2224,-641.2055 1120.4712,-600.7393"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="789.4129,-795.1521 778.9741,-796.9639 788.2643,-802.0572 789.4129,-795.1521"/>
-<text text-anchor="middle" x="973" y="-794.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> q_pw_</text>
-<text text-anchor="middle" x="973" y="-783.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">q_mtrx_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M789.068,-797.9863C826.2036,-803.7023 876.9489,-806.3954 918,-789.7937 1016.2511,-750.0595 1094.2224,-640.5491 1120.4712,-600.0829"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="789.4129,-794.4956 778.9741,-796.3074 788.2643,-801.4008 789.4129,-794.4956"/>
+<text text-anchor="middle" x="973" y="-794.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> q_pw_</text>
+<text text-anchor="middle" x="973" y="-783.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">q_mtrx_</text>
 </g>
 <!-- Node15&#45;&gt;Node5 -->
 <g id="edge17" class="edge">
 <title>Node15&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M778.2843,-774.3349C782.9678,-772.4998 787.6292,-770.5262 792,-768.4502 800.4688,-764.4276 801.2904,-760.9207 810,-757.4502 855.5903,-739.2837 880.8947,-766.5701 918,-734.4502 961.3639,-696.9125 970.57,-622.0103 972.4978,-595.2416"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="776.8751,-771.1248 768.7259,-777.8954 779.3187,-777.6845 776.8751,-771.1248"/>
-<text text-anchor="middle" x="864" y="-782.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> paw_ps_wfs_</text>
-<text text-anchor="middle" x="864" y="-771.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">paw_ae_wfs_</text>
-<text text-anchor="middle" x="864" y="-760.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">d_mtrx_ion_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M778.2843,-773.6785C782.9678,-771.8434 787.6292,-769.8698 792,-767.7937 800.4688,-763.7712 801.2904,-760.2643 810,-756.7937 855.5903,-738.6273 880.8947,-765.9137 918,-733.7937 961.3639,-696.2561 970.57,-621.3538 972.4978,-594.5852"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="776.8751,-770.4684 768.7259,-777.239 779.3187,-777.0281 776.8751,-770.4684"/>
+<text text-anchor="middle" x="864" y="-781.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> ae_paw_wfs_array_</text>
+<text text-anchor="middle" x="864" y="-770.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ps_paw_wfs_array_</text>
+<text text-anchor="middle" x="864" y="-759.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">d_mtrx_ion_</text>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
 <g id="a_node16"><a xlink:href="../../d0/d04/classsirius_1_1_simulation__parameters.html" target="_top" xlink:title="Set of basic parameters of a simulation. ">
-<polygon fill="#ffffff" stroke="#000000" points="472.5,-253.4502 472.5,-283.4502 545.5,-283.4502 545.5,-253.4502 472.5,-253.4502"/>
-<text text-anchor="start" x="480.5" y="-271.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Simulation</text>
-<text text-anchor="middle" x="509" y="-260.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_parameters</text>
+<polygon fill="#ffffff" stroke="#000000" points="472.5,-200.7937 472.5,-230.7937 545.5,-230.7937 545.5,-200.7937 472.5,-200.7937"/>
+<text text-anchor="start" x="480.5" y="-218.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Simulation</text>
+<text text-anchor="middle" x="509" y="-207.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_parameters</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node5 -->
 <g id="edge19" class="edge">
 <title>Node16&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M554.7458,-287.3118C589.6667,-301.1209 639.2366,-319.4666 684,-331.4502 786.0677,-358.7747 840.4925,-301.6377 918,-373.4502 948.6814,-401.8772 967.248,-538.0127 971.8632,-575.7386"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="555.8862,-283.9986 545.301,-283.5463 553.2938,-290.5009 555.8862,-283.9986"/>
-<text text-anchor="middle" x="738" y="-343.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> parameters_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M555.3834,-232.015C561.591,-233.8211 567.9143,-235.4795 574,-236.7937 611.6003,-244.9138 889.9531,-249.4672 918,-275.7937 962.9928,-318.0267 971.424,-527.4155 972.7697,-575.1122"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="556.361,-228.654 545.7748,-229.0834 554.3182,-235.3493 556.361,-228.654"/>
+<text text-anchor="middle" x="738" y="-255.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> parameters_</text>
 </g>
 <!-- Node16&#45;&gt;Node30 -->
 <g id="edge38" class="edge">
 <title>Node16&#45;&gt;Node30</title>
-<path fill="none" stroke="#191970" d="M555.4952,-256.5457C590.5442,-248.21 639.9416,-237.8128 684,-233.4502 774.3728,-224.5015 881.422,-228.7067 936.3893,-231.9388"/>
-<polygon fill="#191970" stroke="#191970" points="554.4533,-253.1966 545.5542,-258.9462 556.0964,-260.0011 554.4533,-253.1966"/>
+<path fill="none" stroke="#191970" d="M555.9496,-218.4509C632.0939,-222.9885 787.1866,-233.179 918,-247.7937 923.9454,-248.458 930.2371,-249.2697 936.3585,-250.1186"/>
+<polygon fill="#191970" stroke="#191970" points="555.9289,-214.9436 545.74,-217.8482 555.5163,-221.9315 555.9289,-214.9436"/>
 </g>
-<!-- Node16&#45;&gt;Node35 -->
-<g id="edge51" class="edge">
-<title>Node16&#45;&gt;Node35</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M526.1927,-245.4747C538.0406,-231.3559 555.0298,-214.167 574,-204.4502 596.2374,-193.0598 663.3151,-184.2772 704.4733,-179.7795"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="523.3912,-243.3731 519.8348,-253.3532 528.8386,-247.7692 523.3912,-243.3731"/>
-<text text-anchor="middle" x="620" y="-207.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> parameters_</text>
+<!-- Node16&#45;&gt;Node34 -->
+<g id="edge50" class="edge">
+<title>Node16&#45;&gt;Node34</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M552.3443,-197.1547C559.4744,-194.6623 566.8665,-192.4125 574,-190.7937 618.287,-180.7443 670.8254,-178.1633 704.2815,-177.6502"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="551.0012,-193.9196 542.8328,-200.6671 553.4261,-200.4862 551.0012,-193.9196"/>
+<text text-anchor="middle" x="620" y="-193.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> parameters_</text>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
 <g id="a_node17"><a xlink:href="../../d4/d6e/structsirius_1_1_parameters__input.html" target="_top" xlink:title="sirius::Parameters\l_input">
-<polygon fill="#ffffff" stroke="#000000" points="262.5,-354.4502 262.5,-384.4502 339.5,-384.4502 339.5,-354.4502 262.5,-354.4502"/>
-<text text-anchor="start" x="270.5" y="-372.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Parameters</text>
-<text text-anchor="middle" x="301" y="-361.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_input</text>
+<polygon fill="#ffffff" stroke="#000000" points="262.5,-69.7937 262.5,-99.7937 339.5,-99.7937 339.5,-69.7937 262.5,-69.7937"/>
+<text text-anchor="start" x="270.5" y="-87.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Parameters</text>
+<text text-anchor="middle" x="301" y="-76.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_input</text>
 </a>
 </g>
 </g>
 <!-- Node17&#45;&gt;Node16 -->
 <g id="edge20" class="edge">
 <title>Node17&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M349.5516,-362.3809C378.3626,-356.7216 414.8353,-346.9178 444,-330.4502 465.3203,-318.4118 484.9373,-297.8202 496.9214,-283.6942"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="348.8955,-358.9429 339.7049,-364.214 350.1766,-365.8246 348.8955,-358.9429"/>
-<text text-anchor="middle" x="405" y="-361.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> parameters_input_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M349.7253,-92.376C379.0659,-98.7353 416.0316,-110.0695 444,-129.7937 470.6125,-148.5618 491.077,-181.5469 501.4567,-200.7524"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="350.1903,-88.8988 339.6924,-90.3285 348.7906,-95.7575 350.1903,-88.8988"/>
+<text text-anchor="middle" x="405" y="-132.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> parameters_input_</text>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
 <g id="a_node18"><a xlink:href="../../da/de3/structsirius_1_1_control__input.html" target="_top" xlink:title="Parse control input section. ">
-<polygon fill="#ffffff" stroke="#000000" points="259.5,-315.9502 259.5,-334.9502 342.5,-334.9502 342.5,-315.9502 259.5,-315.9502"/>
-<text text-anchor="middle" x="301" y="-322.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Control_input</text>
+<polygon fill="#ffffff" stroke="#000000" points="259.5,-321.2937 259.5,-340.2937 342.5,-340.2937 342.5,-321.2937 259.5,-321.2937"/>
+<text text-anchor="middle" x="301" y="-328.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Control_input</text>
 </a>
 </g>
 </g>
 <!-- Node18&#45;&gt;Node16 -->
 <g id="edge21" class="edge">
 <title>Node18&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M352.7369,-317.6169C380.1974,-312.7962 414.311,-305.7453 444,-296.4502 455.2569,-292.9258 467.2118,-288.1072 477.7581,-283.4607"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="351.8291,-314.2212 342.5613,-319.3553 353.008,-321.1212 351.8291,-314.2212"/>
-<text text-anchor="middle" x="405" y="-318.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> control_input_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M352.8894,-327.7018C381.5714,-323.989 416.7966,-315.9737 444,-298.7937 470.7716,-281.8864 491.0439,-249.9259 501.3751,-230.9788"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="352.1781,-324.2605 342.6453,-328.884 352.9806,-331.2144 352.1781,-324.2605"/>
+<text text-anchor="middle" x="405" y="-328.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> control_input_</text>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
 <g id="a_node19"><a xlink:href="../../d2/dcd/structsirius_1_1_hubbard__input.html" target="_top" xlink:title="sirius::Hubbard_input">
-<polygon fill="#ffffff" stroke="#000000" points="257.5,-277.9502 257.5,-296.9502 344.5,-296.9502 344.5,-277.9502 257.5,-277.9502"/>
-<text text-anchor="middle" x="301" y="-284.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Hubbard_input</text>
+<polygon fill="#ffffff" stroke="#000000" points="257.5,-283.2937 257.5,-302.2937 344.5,-302.2937 344.5,-283.2937 257.5,-283.2937"/>
+<text text-anchor="middle" x="301" y="-290.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Hubbard_input</text>
 </a>
 </g>
 </g>
 <!-- Node19&#45;&gt;Node16 -->
 <g id="edge22" class="edge">
 <title>Node19&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M354.7104,-282.5439C391.6713,-279.1677 439.7933,-274.7719 472.3952,-271.7939"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="354.2437,-279.0719 344.6036,-283.4671 354.8806,-286.0429 354.2437,-279.0719"/>
-<text text-anchor="middle" x="405" y="-284.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> hubbard_input_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M354.8104,-285.7908C382.2941,-280.9736 415.7948,-273.1482 444,-260.7937 461.3494,-253.1944 478.8822,-240.7116 491.3592,-230.8186"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="353.8839,-282.3969 344.5952,-287.493 355.0345,-289.3017 353.8839,-282.3969"/>
+<text text-anchor="middle" x="405" y="-286.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> hubbard_input_</text>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
 <g id="a_node20"><a xlink:href="../../d6/de3/structsirius_1_1_settings__input.html" target="_top" xlink:title="Settings control the internal parameters related to the numerical implementation. ...">
-<polygon fill="#ffffff" stroke="#000000" points="258,-239.9502 258,-258.9502 344,-258.9502 344,-239.9502 258,-239.9502"/>
-<text text-anchor="middle" x="301" y="-246.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Settings_input</text>
+<polygon fill="#ffffff" stroke="#000000" points="258,-245.2937 258,-264.2937 344,-264.2937 344,-245.2937 258,-245.2937"/>
+<text text-anchor="middle" x="301" y="-252.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Settings_input</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node16 -->
 <g id="edge23" class="edge">
 <title>Node20&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M354.2189,-252.9633C381.1518,-254.8886 414.341,-257.4858 444,-260.4502 453.1639,-261.3661 463.0362,-262.5033 472.251,-263.6301"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="354.4447,-249.4706 344.2234,-252.2589 353.9526,-256.4533 354.4447,-249.4706"/>
-<text text-anchor="middle" x="405" y="-263.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> settings_input_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M354.0561,-247.3183C381.077,-243.2435 414.3924,-237.8083 444,-231.7937 453.2251,-229.9198 463.1197,-227.6298 472.3367,-225.3748"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="353.4044,-243.8767 344.0291,-248.8118 354.4357,-250.8003 353.4044,-243.8767"/>
+<text text-anchor="middle" x="405" y="-248.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> settings_input_</text>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
 <g id="a_node21"><a xlink:href="../../d7/d51/structsirius_1_1_unit__cell__input.html" target="_top" xlink:title="Parse unit cell input section. ">
-<polygon fill="#ffffff" stroke="#000000" points="257.5,-201.9502 257.5,-220.9502 344.5,-220.9502 344.5,-201.9502 257.5,-201.9502"/>
-<text text-anchor="middle" x="301" y="-208.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Unit_cell_input</text>
+<polygon fill="#ffffff" stroke="#000000" points="257.5,-207.2937 257.5,-226.2937 344.5,-226.2937 344.5,-207.2937 257.5,-207.2937"/>
+<text text-anchor="middle" x="301" y="-214.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Unit_cell_input</text>
 </a>
 </g>
 </g>
 <!-- Node21&#45;&gt;Node16 -->
 <g id="edge24" class="edge">
 <title>Node21&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M354.5873,-218.9885C381.7443,-223.5488 415.0212,-230.279 444,-239.4502 455.781,-243.1786 468.2763,-248.4192 479.1302,-253.4218"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="354.933,-215.4988 344.5005,-217.3464 353.8081,-222.4078 354.933,-215.4988"/>
-<text text-anchor="middle" x="405" y="-242.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> unit_cell_input_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M354.7104,-216.5355C391.6713,-216.3578 439.7933,-216.1265 472.3952,-215.9697"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="354.5866,-213.036 344.6036,-216.5841 354.6204,-220.0359 354.5866,-213.036"/>
+<text text-anchor="middle" x="405" y="-219.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> unit_cell_input_</text>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
 <g id="a_node22"><a xlink:href="../../d2/d6b/classgeometry3d_1_1vector3d.html" target="_top" xlink:title="geometry3d::vector3d\l\&lt; double \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="114,-196.4502 114,-226.4502 203,-226.4502 203,-196.4502 114,-196.4502"/>
-<text text-anchor="start" x="122" y="-214.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">geometry3d::vector3d</text>
-<text text-anchor="middle" x="158.5" y="-203.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; double &gt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="114,-201.7937 114,-231.7937 203,-231.7937 203,-201.7937 114,-201.7937"/>
+<text text-anchor="start" x="122" y="-219.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">geometry3d::vector3d</text>
+<text text-anchor="middle" x="158.5" y="-208.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; double &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node22&#45;&gt;Node21 -->
 <g id="edge25" class="edge">
 <title>Node22&#45;&gt;Node21</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M213.5778,-211.4502C228.1154,-211.4502 243.6014,-211.4502 257.4377,-211.4502"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="213.1969,-207.9503 203.1969,-211.4502 213.1969,-214.9503 213.1969,-207.9503"/>
-<text text-anchor="middle" x="228.5" y="-236.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> a2_</text>
-<text text-anchor="middle" x="228.5" y="-225.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">a1_</text>
-<text text-anchor="middle" x="228.5" y="-214.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">a0_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M213.5778,-216.7937C228.1154,-216.7937 243.6014,-216.7937 257.4377,-216.7937"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="213.1969,-213.2938 203.1969,-216.7937 213.1969,-220.2938 213.1969,-213.2938"/>
+<text text-anchor="middle" x="228.5" y="-241.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> a2_</text>
+<text text-anchor="middle" x="228.5" y="-230.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">a1_</text>
+<text text-anchor="middle" x="228.5" y="-219.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">a0_</text>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-196.4502 0,-226.4502 77,-226.4502 77,-196.4502 0,-196.4502"/>
-<text text-anchor="start" x="8" y="-214.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::array&lt; double</text>
-<text text-anchor="middle" x="38.5" y="-203.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> , 3 &gt;</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-201.7937 0,-231.7937 77,-231.7937 77,-201.7937 0,-201.7937"/>
+<text text-anchor="start" x="8" y="-219.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::array&lt; double</text>
+<text text-anchor="middle" x="38.5" y="-208.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> , 3 &gt;</text>
 </g>
 <!-- Node23&#45;&gt;Node22 -->
 <g id="edge26" class="edge">
 <title>Node23&#45;&gt;Node22</title>
-<path fill="none" stroke="#191970" d="M87.2034,-211.4502C95.9552,-211.4502 105.0396,-211.4502 113.6751,-211.4502"/>
-<polygon fill="#191970" stroke="#191970" points="87.1293,-207.9503 77.1293,-211.4502 87.1293,-214.9503 87.1293,-207.9503"/>
+<path fill="none" stroke="#191970" d="M87.2034,-216.7937C95.9552,-216.7937 105.0396,-216.7937 113.6751,-216.7937"/>
+<polygon fill="#191970" stroke="#191970" points="87.1293,-213.2938 77.1293,-216.7937 87.1293,-220.2938 87.1293,-213.2938"/>
 </g>
 <!-- Node24 -->
 <g id="node24" class="node">
 <title>Node24</title>
 <g id="a_node24"><a xlink:href="../../d2/d11/structsirius_1_1_iterative__solver__input.html" target="_top" xlink:title="sirius::Iterative_solver\l_input">
-<polygon fill="#ffffff" stroke="#000000" points="256.5,-152.4502 256.5,-182.4502 345.5,-182.4502 345.5,-152.4502 256.5,-152.4502"/>
-<text text-anchor="start" x="264.5" y="-170.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Iterative_solver</text>
-<text text-anchor="middle" x="301" y="-159.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_input</text>
+<polygon fill="#ffffff" stroke="#000000" points="256.5,-157.7937 256.5,-187.7937 345.5,-187.7937 345.5,-157.7937 256.5,-157.7937"/>
+<text text-anchor="start" x="264.5" y="-175.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Iterative_solver</text>
+<text text-anchor="middle" x="301" y="-164.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_input</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node16 -->
 <g id="edge27" class="edge">
 <title>Node24&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M355.6534,-175.7579C383.3879,-181.571 416.8585,-191.1249 444,-206.4502 465.3203,-218.4886 484.9373,-239.0802 496.9214,-253.2061"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="356.208,-172.2997 345.7174,-173.7817 354.8425,-179.1653 356.208,-172.2997"/>
-<text text-anchor="middle" x="405" y="-209.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> iterative_solver_input_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M355.7017,-183.7263C382.3553,-189.0942 414.8676,-195.7027 444,-201.7937 453.1523,-203.7073 463.0203,-205.8116 472.2348,-207.7942"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="356.2863,-180.2739 345.7925,-181.7334 354.9061,-187.1364 356.2863,-180.2739"/>
+<text text-anchor="middle" x="405" y="-204.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> iterative_solver_input_</text>
 </g>
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
 <g id="a_node25"><a xlink:href="../../d4/db0/structsirius_1_1_mixer__input.html" target="_top" xlink:title="Parse mixer input section. ">
-<polygon fill="#ffffff" stroke="#000000" points="262.5,-403.9502 262.5,-422.9502 339.5,-422.9502 339.5,-403.9502 262.5,-403.9502"/>
-<text text-anchor="middle" x="301" y="-410.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Mixer_input</text>
+<polygon fill="#ffffff" stroke="#000000" points="262.5,-119.2937 262.5,-138.2937 339.5,-138.2937 339.5,-119.2937 262.5,-119.2937"/>
+<text text-anchor="middle" x="301" y="-126.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Mixer_input</text>
 </a>
 </g>
 </g>
 <!-- Node25&#45;&gt;Node16 -->
 <g id="edge28" class="edge">
 <title>Node25&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M349.7417,-408.8228C379.4105,-403.9527 416.7194,-393.9583 444,-373.4502 475.1896,-350.0035 494.8846,-306.8247 503.6646,-283.8211"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="348.9672,-405.3997 339.5951,-410.3406 350.0028,-412.3226 348.9672,-405.3997"/>
-<text text-anchor="middle" x="405" y="-409.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> mixer_input_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M349.8556,-139.5705C378.1385,-146.7602 413.9696,-157.5243 444,-171.7937 460.4931,-179.6307 477.5291,-191.3188 490.0208,-200.6791"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="350.3498,-136.0873 339.8019,-137.0835 348.6688,-142.8824 350.3498,-136.0873"/>
+<text text-anchor="middle" x="405" y="-174.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> mixer_input_</text>
 </g>
 <!-- Node26&#45;&gt;Node5 -->
 <g id="edge29" class="edge">
 <title>Node26&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M769.8045,-697.6028C777.1242,-694.3362 784.856,-690.8216 792,-687.4502 800.0888,-683.6329 801.5581,-681.4054 810,-678.4502 856.3202,-662.2348 876.3502,-681.4077 918,-655.4502 942.1343,-640.4089 959.9886,-610.8273 968.1226,-595.3775"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="767.8998,-694.6183 760.1725,-701.8668 770.7334,-701.0191 767.8998,-694.6183"/>
-<text text-anchor="middle" x="864" y="-692.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> rf_coef_</text>
-<text text-anchor="middle" x="864" y="-681.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">vrf_coef_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M769.8045,-696.9464C777.1242,-693.6798 784.856,-690.1652 792,-686.7937 800.0888,-682.9765 801.5581,-680.749 810,-677.7937 856.3202,-661.5784 876.3502,-680.7512 918,-654.7937 942.1343,-639.7525 959.9886,-610.1709 968.1226,-594.7211"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="767.8998,-693.9619 760.1725,-701.2104 770.7334,-700.3627 767.8998,-693.9619"/>
+<text text-anchor="middle" x="864" y="-691.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> rf_coef_</text>
+<text text-anchor="middle" x="864" y="-680.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">vrf_coef_</text>
 </g>
 <!-- Node27&#45;&gt;Node5 -->
 <g id="edge31" class="edge">
 <title>Node27&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M775.567,-736.4093C781.0884,-734.4412 786.6992,-732.4128 792,-730.4502 800.0496,-727.4697 801.7757,-725.9076 810,-723.4502 857.0221,-709.3997 879.4495,-730.8204 918,-700.4502 952.9428,-672.9221 966.9204,-617.7276 971.3134,-595.2819"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="774.072,-733.2255 765.8111,-739.8593 776.4059,-739.8249 774.072,-733.2255"/>
-<text text-anchor="middle" x="864" y="-726.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> hubbard_matrix_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M775.567,-735.7528C781.0884,-733.7848 786.6992,-731.7564 792,-729.7937 800.0496,-726.8133 801.7757,-725.2512 810,-722.7937 857.0221,-708.7433 879.4495,-730.164 918,-699.7937 952.9428,-672.2657 966.9204,-617.0712 971.3134,-594.6254"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="774.072,-732.569 765.8111,-739.2029 776.4059,-739.1685 774.072,-732.569"/>
+<text text-anchor="middle" x="864" y="-725.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> hubbard_matrix_</text>
 </g>
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
 <g id="a_node28"><a xlink:href="../../d3/dfd/classsirius_1_1basis__functions__index.html" target="_top" xlink:title="A helper class to establish various index mappings for the atomic basis functions. ">
-<polygon fill="#ffffff" stroke="#000000" points="693,-526.4502 693,-556.4502 783,-556.4502 783,-526.4502 693,-526.4502"/>
-<text text-anchor="start" x="701" y="-544.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::basis_functions</text>
-<text text-anchor="middle" x="738" y="-533.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_index</text>
+<polygon fill="#ffffff" stroke="#000000" points="693,-525.7937 693,-555.7937 783,-555.7937 783,-525.7937 693,-525.7937"/>
+<text text-anchor="start" x="701" y="-543.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::basis_functions</text>
+<text text-anchor="middle" x="738" y="-532.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_index</text>
 </a>
 </g>
 </g>
 <!-- Node28&#45;&gt;Node5 -->
 <g id="edge33" class="edge">
 <title>Node28&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M793.4301,-542.7133C829.4612,-544.6492 877.159,-549.3273 918,-560.4502 931.1562,-564.0332 945.1337,-570.4241 955.7057,-575.8471"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="793.2757,-539.2019 783.1189,-542.2166 792.9388,-546.1938 793.2757,-539.2019"/>
-<text text-anchor="middle" x="864" y="-563.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> indexb_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M793.4301,-542.0569C829.4612,-543.9928 877.159,-548.6709 918,-559.7937 931.1562,-563.3768 945.1337,-569.7676 955.7057,-575.1906"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="793.2757,-538.5455 783.1189,-541.5602 792.9388,-545.5374 793.2757,-538.5455"/>
+<text text-anchor="middle" x="864" y="-562.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> indexb_</text>
 </g>
 <!-- Node29&#45;&gt;Node28 -->
 <g id="edge34" class="edge">
 <title>Node29&#45;&gt;Node28</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M565.7957,-536.9383C604.9211,-537.9634 656.2173,-539.3074 692.6191,-540.2611"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="565.7059,-533.4348 555.6176,-536.6716 565.5225,-540.4324 565.7059,-533.4348"/>
-<text text-anchor="middle" x="620" y="-543.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> index_by_idxrf_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M565.5461,-519.7077C604.7028,-524.4954 656.1398,-530.7846 692.6191,-535.245"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="565.9685,-516.2333 555.6176,-518.4937 565.1189,-523.1816 565.9685,-516.2333"/>
+<text text-anchor="middle" x="620" y="-534.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> index_by_idxrf_</text>
 </g>
 <!-- Node30&#45;&gt;Node1 -->
 <g id="edge37" class="edge">
 <title>Node30&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M983.9791,-258.9957C1014.3428,-326.879 1098.812,-515.7241 1123.279,-570.4243"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="987.0242,-257.2315 979.7461,-249.5322 980.6343,-260.0897 987.0242,-257.2315"/>
-<text text-anchor="middle" x="1049" y="-444.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> ctx_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M984.6731,-280.2551C1015.4237,-344.6943 1097.9954,-517.7268 1122.8348,-569.7787"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="987.8275,-278.7385 980.3619,-271.2208 981.5099,-281.7533 987.8275,-278.7385"/>
+<text text-anchor="middle" x="1049" y="-452.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> ctx_</text>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title="sddk::mdarray\&lt; char, 1 \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="688,-128.9502 688,-147.9502 788,-147.9502 788,-128.9502 688,-128.9502"/>
-<text text-anchor="middle" x="738" y="-135.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; char, 1 &gt;</text>
+<g id="a_node31"><a xlink:href="../../d0/dc8/classsddk_1_1memory__pool.html" target="_top" xlink:title="sddk::memory_pool">
+<polygon fill="#ffffff" stroke="#000000" points="697,-130.2937 697,-149.2937 779,-149.2937 779,-130.2937 697,-130.2937"/>
+<text text-anchor="middle" x="738" y="-137.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::memory_pool</text>
 </a>
 </g>
 </g>
 <!-- Node31&#45;&gt;Node30 -->
 <g id="edge40" class="edge">
 <title>Node31&#45;&gt;Node30</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M798.4923,-132.801C835.3719,-132.1537 882.1443,-136.5448 918,-157.4502 942.2683,-171.5996 958.6557,-201.2023 966.8625,-219.3005"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="798.2594,-129.3063 788.37,-133.1076 798.4714,-136.3031 798.2594,-129.3063"/>
-<text text-anchor="middle" x="864" y="-160.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> memory_buffer_</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M789.0255,-132.1582C827.5236,-129.1083 880.0164,-131.0001 918,-155.7937 948.1971,-175.5049 963.2565,-217.7325 969.4395,-240.4983"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="788.6948,-128.6737 779.0603,-133.0814 789.3406,-135.6439 788.6948,-128.6737"/>
+<text text-anchor="middle" x="864" y="-158.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> memory_pool_</text>
 </g>
-<!-- Node32 -->
-<g id="node32" class="node">
-<title>Node32</title>
-<g id="a_node32"><a xlink:href="../../d0/d58/classsddk_1_1mdarray__base.html" target="_top" xlink:title="sddk::mdarray_base\l\&lt; char, N \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="467,-83.4502 467,-113.4502 551,-113.4502 551,-83.4502 467,-83.4502"/>
-<text text-anchor="start" x="475" y="-101.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray_base</text>
-<text text-anchor="middle" x="509" y="-90.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; char, N &gt;</text>
+<!-- Node32&#45;&gt;Node30 -->
+<g id="edge41" class="edge">
+<title>Node32&#45;&gt;Node30</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.9837,-401.4976C833.1762,-403.5931 882.7386,-400.0477 918,-374.7937 952.9717,-349.7473 966.2838,-296.8214 970.8563,-270.8337"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="794.7532,-397.9731 784.5343,-400.7703 794.2671,-404.9563 794.7532,-397.9731"/>
+<text text-anchor="middle" x="864" y="-416.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> sym_phase_factors_</text>
+<text text-anchor="middle" x="864" y="-405.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">phase_factors_</text>
+</g>
+<!-- Node33&#45;&gt;Node30 -->
+<g id="edge43" class="edge">
+<title>Node33&#45;&gt;Node30</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.4686,-332.6671C842.9876,-322.0236 906.8531,-307.3932 918,-301.7937 933.3504,-294.0828 948.1335,-281.3181 958.5003,-271.189"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="793.7036,-329.2516 784.6814,-334.8059 795.1981,-336.0902 793.7036,-329.2516"/>
+<text text-anchor="middle" x="864" y="-332.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> phase_factors_t_</text>
+</g>
+<!-- Node34&#45;&gt;Node30 -->
+<g id="edge46" class="edge">
+<title>Node34&#45;&gt;Node30</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M781.8212,-171.8134C819.9102,-168.6743 875.4936,-169.1849 918,-190.7937 939.4792,-201.7131 955.9036,-225.079 965.0022,-240.6148"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="781.1943,-168.3569 771.5674,-172.7811 781.8521,-175.326 781.1943,-168.3569"/>
+<text text-anchor="middle" x="864" y="-193.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> unit_cell_</text>
+</g>
+<!-- Node35 -->
+<g id="node35" class="node">
+<title>Node35</title>
+<g id="a_node35"><a xlink:href="../../d2/dc9/classsddk_1_1splindex.html" target="_top" xlink:title="sddk::splindex\&lt; block \&gt;">
+<polygon fill="#ffffff" stroke="#000000" points="462,-91.2937 462,-110.2937 556,-110.2937 556,-91.2937 462,-91.2937"/>
+<text text-anchor="middle" x="509" y="-98.2937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::splindex&lt; block &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node32&#45;&gt;Node31 -->
-<g id="edge41" class="edge">
-<title>Node32&#45;&gt;Node31</title>
-<path fill="none" stroke="#191970" d="M561.1408,-105.5275C591.7669,-109.907 631.1801,-115.9275 666,-122.4502 676.1947,-124.3599 687.1461,-126.6629 697.3549,-128.9192"/>
-<polygon fill="#191970" stroke="#191970" points="561.5027,-102.0439 551.1107,-104.1068 560.521,-108.9747 561.5027,-102.0439"/>
-</g>
-<!-- Node33&#45;&gt;Node30 -->
-<g id="edge42" class="edge">
-<title>Node33&#45;&gt;Node30</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.5258,-299.1076C830.663,-292.6798 878.0708,-282.1881 918,-266.4502 929.3054,-261.9942 941.05,-255.4593 950.7689,-249.4549"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="793.9061,-295.6627 784.6478,-300.8138 795.0976,-302.5606 793.9061,-295.6627"/>
-<text text-anchor="middle" x="864" y="-310.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> sym_phase_factors_</text>
-<text text-anchor="middle" x="864" y="-299.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">phase_factors_</text>
-</g>
-<!-- Node34&#45;&gt;Node30 -->
-<g id="edge44" class="edge">
-<title>Node34&#45;&gt;Node30</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M794.6945,-252.6601C838.7242,-248.1634 898.4778,-242.0609 936.3936,-238.1887"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="794.302,-249.1819 784.7094,-253.6798 795.0133,-256.1457 794.302,-249.1819"/>
-<text text-anchor="middle" x="864" y="-254.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> phase_factors_t_</text>
-</g>
-<!-- Node35&#45;&gt;Node30 -->
+<!-- Node35&#45;&gt;Node34 -->
 <g id="edge47" class="edge">
-<title>Node35&#45;&gt;Node30</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M781.6136,-172.3948C819.1176,-170.5663 873.9647,-171.9174 918,-189.4502 934.0472,-195.8394 948.9917,-208.6987 959.2404,-219.0405"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="781.2979,-168.9072 771.5189,-172.984 781.7059,-175.8953 781.2979,-168.9072"/>
-<text text-anchor="middle" x="864" y="-192.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> unit_cell_</text>
+<title>Node35&#45;&gt;Node34</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M566.2339,-101.5614C597.9251,-104.4405 636.7093,-112.23 666,-131.7937 677.9931,-139.8041 672.6115,-149.9449 684,-158.7937 689.9644,-163.4281 697.1467,-166.9853 704.2981,-169.6966"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="566.4539,-98.0681 556.2149,-100.7905 565.9168,-105.0475 566.4539,-98.0681"/>
+<text text-anchor="middle" x="620" y="-167.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> spl_num_paw_atoms_</text>
+<text text-anchor="middle" x="620" y="-156.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">spl_num_atoms_</text>
+<text text-anchor="start" x="577" y="-145.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">spl_num_atom_symmetry</text>
+<text text-anchor="middle" x="620" y="-134.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_classes_</text>
 </g>
 <!-- Node36 -->
 <g id="node36" class="node">
 <title>Node36</title>
-<g id="a_node36"><a xlink:href="../../d2/dc9/classsddk_1_1splindex.html" target="_top" xlink:title="sddk::splindex\&lt; block \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="462,-132.9502 462,-151.9502 556,-151.9502 556,-132.9502 462,-132.9502"/>
-<text text-anchor="middle" x="509" y="-139.9502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::splindex&lt; block &gt;</text>
+<g id="a_node36"><a xlink:href="../../d6/dec/classsddk_1_1splindex__base.html" target="_top" xlink:title="sddk::splindex_base\l\&lt; int \&gt;">
+<polygon fill="#ffffff" stroke="#000000" points="259,-20.7937 259,-50.7937 343,-50.7937 343,-20.7937 259,-20.7937"/>
+<text text-anchor="start" x="267" y="-38.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::splindex_base</text>
+<text text-anchor="middle" x="301" y="-27.7937" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; int &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node36&#45;&gt;Node35 -->
 <g id="edge48" class="edge">
 <title>Node36&#45;&gt;Node35</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M554.1675,-130.8866C586.6787,-124.9217 630.8203,-121.7824 666,-137.4502 676.9243,-142.3155 674.0507,-150.8151 684,-157.4502 690.2013,-161.5857 697.4039,-164.9289 704.4888,-167.589"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="553.1704,-127.5164 544.0467,-132.9023 554.5377,-134.3815 553.1704,-127.5164"/>
-<text text-anchor="middle" x="620" y="-173.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> spl_num_paw_atoms_</text>
-<text text-anchor="middle" x="620" y="-162.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">spl_num_atoms_</text>
-<text text-anchor="start" x="577" y="-151.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">spl_num_atom_symmetry</text>
-<text text-anchor="middle" x="620" y="-140.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_classes_</text>
-</g>
-<!-- Node37 -->
-<g id="node37" class="node">
-<title>Node37</title>
-<g id="a_node37"><a xlink:href="../../d6/dec/classsddk_1_1splindex__base.html" target="_top" xlink:title="sddk::splindex_base\l\&lt; int \&gt;">
-<polygon fill="#ffffff" stroke="#000000" points="259,-103.4502 259,-133.4502 343,-133.4502 343,-103.4502 259,-103.4502"/>
-<text text-anchor="start" x="267" y="-121.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::splindex_base</text>
-<text text-anchor="middle" x="301" y="-110.4502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; int &gt;</text>
-</a>
-</g>
-</g>
-<!-- Node37&#45;&gt;Node36 -->
-<g id="edge49" class="edge">
-<title>Node37&#45;&gt;Node36</title>
-<path fill="none" stroke="#191970" d="M353.1268,-124.4648C386.526,-128.3186 429.5197,-133.2794 461.8909,-137.0145"/>
-<polygon fill="#191970" stroke="#191970" points="353.4272,-120.9763 343.0919,-123.3069 352.6248,-127.9302 353.4272,-120.9763"/>
+<path fill="none" stroke="#191970" d="M353.2454,-41.2897C380.8489,-45.2722 414.9371,-51.9266 444,-62.7937 463.1002,-69.9357 483.059,-82.4842 495.7373,-91.198"/>
+<polygon fill="#191970" stroke="#191970" points="353.3894,-37.7769 343.0076,-39.8909 352.4417,-44.7125 353.3894,-37.7769"/>
 </g>
 </g>
 </svg>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.05</span>
+   &#160;<span id="projectnumber">5.06</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -87,16 +87,14 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dbc/classsirius_1_1_simulation__context__base__inherit__graph.svg" width="108" height="231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dbc/classsirius_1_1_simulation__context__base__inherit__graph.svg" width="108" height="231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sirius::Simulation_context_base:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d68/classsirius_1_1_simulation__context__base__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d68/classsirius_1_1_simulation__context__base__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -158,9 +156,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>print_info</b> ()</td
 <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a239d8bad0851f697dec60cdb2463dbb4">comm_k</a> () const</td></tr>
 <tr class="memdesc:a239d8bad0851f697dec60cdb2463dbb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Communicator between k-points. <br /></td></tr>
 <tr class="separator:a239d8bad0851f697dec60cdb2463dbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a663172e39c9deb618c17bf0da24143a8"><td class="memItemLeft" align="right" valign="top"><a id="a663172e39c9deb618c17bf0da24143a8"></a>
-<a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a663172e39c9deb618c17bf0da24143a8">comm_band</a> () const</td></tr>
-<tr class="memdesc:a663172e39c9deb618c17bf0da24143a8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html" title="Setup and solve the eigen value problem. ">Band</a> and BLACS grid communicator. <br /></td></tr>
+<tr class="memitem:a663172e39c9deb618c17bf0da24143a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a663172e39c9deb618c17bf0da24143a8">comm_band</a> () const</td></tr>
+<tr class="memdesc:a663172e39c9deb618c17bf0da24143a8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/d1f/classsirius_1_1_band.html" title="Setup and solve the eigen value problem. ">Band</a> parallelization communicator.  <a href="#a663172e39c9deb618c17bf0da24143a8">More...</a><br /></td></tr>
 <tr class="separator:a663172e39c9deb618c17bf0da24143a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab603f11255e8837a2714b3ce5597febc"><td class="memItemLeft" align="right" valign="top"><a id="ab603f11255e8837a2714b3ce5597febc"></a>
 <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#ab603f11255e8837a2714b3ce5597febc">comm_fft</a> () const</td></tr>
@@ -221,9 +218,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a5e8bf72bdacbb6ab99e21306998e9f91"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; double_complex &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a5e8bf72bdacbb6ab99e21306998e9f91">make_periodic_function</a> (std::function&lt; double(int, double)&gt; form_factors__) const</td></tr>
 <tr class="memdesc:a5e8bf72bdacbb6ab99e21306998e9f91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make periodic function out of form factors.  <a href="#a5e8bf72bdacbb6ab99e21306998e9f91">More...</a><br /></td></tr>
 <tr class="separator:a5e8bf72bdacbb6ab99e21306998e9f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a16036a268f196165733122f3d21f5"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a12a16036a268f196165733122f3d21f5">memory_buffer</a> (size_t size__)</td></tr>
-<tr class="memdesc:a12a16036a268f196165733122f3d21f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return pointer to already allocated temporary memory buffer.  <a href="#a12a16036a268f196165733122f3d21f5">More...</a><br /></td></tr>
-<tr class="separator:a12a16036a268f196165733122f3d21f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bcf4756d62bdab3ba2f8dd52cb8400a"><td class="memItemLeft" align="right" valign="top"><a id="a5bcf4756d62bdab3ba2f8dd52cb8400a"></a>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a5bcf4756d62bdab3ba2f8dd52cb8400a">generate_sbessel_mt</a> (int lmax__) const</td></tr>
+<tr class="memdesc:a5bcf4756d62bdab3ba2f8dd52cb8400a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute values of spherical Bessel functions at MT boundary. <br /></td></tr>
+<tr class="separator:a5bcf4756d62bdab3ba2f8dd52cb8400a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439c810f51174cd65e3680ad4c71a8bd"><td class="memItemLeft" align="right" valign="top"><a id="a439c810f51174cd65e3680ad4c71a8bd"></a>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">matrix</a>&lt; double_complex &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>generate_gvec_ylm</b> (int lmax__)</td></tr>
+<tr class="separator:a439c810f51174cd65e3680ad4c71a8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0084f81ae2b475306524056a2d0c6e2b"><td class="memItemLeft" align="right" valign="top"><a id="a0084f81ae2b475306524056a2d0c6e2b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sum_fg_fl_yg</b> (int lmax__, double_complex const *fpw__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt; &amp;fl__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">matrix</a>&lt; double_complex &gt; &amp;gvec_ylm__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">matrix</a>&lt; double_complex &gt; &amp;flm__)</td></tr>
+<tr class="separator:a0084f81ae2b475306524056a2d0c6e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6195977ca21d5ed94a174f39d2f561b"><td class="memItemLeft" align="right" valign="top"><a id="aa6195977ca21d5ed94a174f39d2f561b"></a>
 <a class="el" href="../../de/d14/classsirius_1_1_radial__integrals__beta.html">Radial_integrals_beta</a>&lt; false &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>beta_ri</b> () const</td></tr>
 <tr class="separator:aa6195977ca21d5ed94a174f39d2f561b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,15 +240,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a8f818fcf68175a97a87d4c4c360d3721"><td class="memItemLeft" align="right" valign="top"><a id="a8f818fcf68175a97a87d4c4c360d3721"></a>
 <a class="el" href="../../d9/d29/classsirius_1_1_radial__integrals__aug.html">Radial_integrals_aug</a>&lt; true &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>aug_ri_djl</b> () const</td></tr>
 <tr class="separator:a8f818fcf68175a97a87d4c4c360d3721"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a0db5746dc1f9e970257f5296145edb"><td class="memItemLeft" align="right" valign="top"><a id="a0a0db5746dc1f9e970257f5296145edb"></a>
-<a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>atomic_wf_ri</b> () const</td></tr>
-<tr class="separator:a0a0db5746dc1f9e970257f5296145edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71e8a09fe0309d73303047b4f4f6e14"><td class="memItemLeft" align="right" valign="top"><a id="ab71e8a09fe0309d73303047b4f4f6e14"></a>
+<a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a>&lt; false &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>atomic_wf_ri</b> () const</td></tr>
+<tr class="separator:ab71e8a09fe0309d73303047b4f4f6e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7172eaf35bf2434a89d325a0dfc34ce9"><td class="memItemLeft" align="right" valign="top"><a id="a7172eaf35bf2434a89d325a0dfc34ce9"></a>
+<a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a>&lt; true &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>atomic_wf_djl</b> () const</td></tr>
+<tr class="separator:a7172eaf35bf2434a89d325a0dfc34ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5effb90a4f997a0c6a468f2bbed2bd5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#ab5effb90a4f997a0c6a468f2bbed2bd5">ewald_lambda</a> ()</td></tr>
 <tr class="memdesc:ab5effb90a4f997a0c6a468f2bbed2bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the lambda parameter used in the Ewald summation.  <a href="#ab5effb90a4f997a0c6a468f2bbed2bd5">More...</a><br /></td></tr>
 <tr class="separator:ab5effb90a4f997a0c6a468f2bbed2bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf63026a92718a15608446e84880e7db"><td class="memItemLeft" align="right" valign="top"><a id="aaf63026a92718a15608446e84880e7db"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>sym_phase_factors</b> () const</td></tr>
 <tr class="separator:aaf63026a92718a15608446e84880e7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7a021b95e4bb590da5deaadc804e98"><td class="memItemLeft" align="right" valign="top"><a id="a1f7a021b95e4bb590da5deaadc804e98"></a>
+<a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">memory_pool</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>mem_pool</b> ()</td></tr>
+<tr class="separator:a1f7a021b95e4bb590da5deaadc804e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4912451ff2ec4a4b0b938702b21b3f10"><td class="memItemLeft" align="right" valign="top"><a id="a4912451ff2ec4a4b0b938702b21b3f10"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized</b> () const</td></tr>
 <tr class="separator:a4912451ff2ec4a4b0b938702b21b3f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -315,7 +325,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_valence_relativit
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_processing_unit</b> (std::string name__)</td></tr>
 <tr class="separator:a300b62c9e51fec3d180f5c1b3204fdb3 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a520bb69cf30999c1dca9ad9f8dca149d inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a520bb69cf30999c1dca9ad9f8dca149d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_processing_unit</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>set_processing_unit</b> (<a class="el" href="../../d6/d71/mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__)</td></tr>
 <tr class="separator:a520bb69cf30999c1dca9ad9f8dca149d inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e66af468eb2c3c735cf659c8eb5faa7 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a8e66af468eb2c3c735cf659c8eb5faa7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_molecule</b> (bool molecule__)</td></tr>
@@ -394,7 +404,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>hubbard_correction</b
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>gamma_point</b> () const</td></tr>
 <tr class="separator:a1ce862e0f4bed9b8f010e5fc8567c541 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19849c5a918f3a9c8d8ed58f1df750c2 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a19849c5a918f3a9c8d8ed58f1df750c2"></a>
-<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>processing_unit</b> () const</td></tr>
+<a class="el" href="../../d6/d71/mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>processing_unit</b> () const</td></tr>
 <tr class="separator:a19849c5a918f3a9c8d8ed58f1df750c2 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1e533866ac5f6785a7f0808037e5735 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="ad1e533866ac5f6785a7f0808037e5735"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>smearing_width</b> () const</td></tr>
@@ -451,17 +461,17 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>spglib_tolerance</b
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>molecule</b> () const</td></tr>
 <tr class="separator:afe144b540f678878acfd4b21aeed437d inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f422694e3b8ce4972d2c6447c3b53e2 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a1f422694e3b8ce4972d2c6447c3b53e2"></a>
-<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>main_memory_t</b> () const</td></tr>
+<a class="el" href="../../d6/d71/mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>main_memory_t</b> () const</td></tr>
 <tr class="separator:a1f422694e3b8ce4972d2c6447c3b53e2 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146be2e9a14ab419c9c99289a6e28fcb inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a146be2e9a14ab419c9c99289a6e28fcb"></a>
-<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dual_memory_t</b> () const</td></tr>
+<a class="el" href="../../d6/d71/mdarray_8hpp.html#ad724f3c5b07010419730c654a1767283">memory_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dual_memory_t</b> () const</td></tr>
 <tr class="separator:a146be2e9a14ab419c9c99289a6e28fcb inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadd092cbd5df8bbddca51266cb59a73d inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="aadd092cbd5df8bbddca51266cb59a73d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>use_symmetry</b> () const</td></tr>
 <tr class="separator:aadd092cbd5df8bbddca51266cb59a73d inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4474c97bad09e3658d1cafb78d118dd5 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a4474c97bad09e3658d1cafb78d118dd5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_use_symmetry</b> (bool use_symmetry__)</td></tr>
-<tr class="separator:a4474c97bad09e3658d1cafb78d118dd5 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4523ee2c3e51d88bad27670d36637183 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a4523ee2c3e51d88bad27670d36637183"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>use_symmetry</b> (bool use_symmetry__)</td></tr>
+<tr class="separator:a4523ee2c3e51d88bad27670d36637183 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad88ac39e09e3df85477c042b7c2490e0 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="ad88ac39e09e3df85477c042b7c2490e0"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>iterative_solver_tolerance</b> () const</td></tr>
 <tr class="separator:ad88ac39e09e3df85477c042b7c2490e0 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -506,7 +516,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>init_fft</b> ()</td><
 &#160;</td><td class="memItemRight" valign="bottom"><b>Simulation_context_base</b> (<a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html">Simulation_context_base</a> const &amp;)=delete</td></tr>
 <tr class="separator:ae11d7380151d5ed3a13be16d649c86f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92f6bc9ef0ae6f5231252c38104acbd9"><td class="memItemLeft" align="right" valign="top"><a id="a92f6bc9ef0ae6f5231252c38104acbd9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a92f6bc9ef0ae6f5231252c38104acbd9">start</a> ()</td></tr>
+<tr class="memdesc:a92f6bc9ef0ae6f5231252c38104acbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the stsrting time stamp. <br /></td></tr>
 <tr class="separator:a92f6bc9ef0ae6f5231252c38104acbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e6a12fa006098f0aedc829a13731ad4"><td class="memItemLeft" align="right" valign="top"><a id="a1e6a12fa006098f0aedc829a13731ad4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>init_atoms_to_grid_idx</b> ()</td></tr>
@@ -518,9 +529,8 @@ Private Attributes</h2></td></tr>
 <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a0e471d39b33c103bd16a90bac11ac020">comm_</a></td></tr>
 <tr class="memdesc:a0e471d39b33c103bd16a90bac11ac020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Communicator for this simulation. <br /></td></tr>
 <tr class="separator:a0e471d39b33c103bd16a90bac11ac020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a378ac3bf6e79cca0ad22a99492e0529d"><td class="memItemLeft" align="right" valign="top"><a id="a378ac3bf6e79cca0ad22a99492e0529d"></a>
-<a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a378ac3bf6e79cca0ad22a99492e0529d">comm_ortho_fft_</a></td></tr>
-<tr class="memdesc:a378ac3bf6e79cca0ad22a99492e0529d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Auxiliary communicator for the fine-grid FFT transformation. <br /></td></tr>
+<tr class="memitem:a378ac3bf6e79cca0ad22a99492e0529d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a378ac3bf6e79cca0ad22a99492e0529d">comm_ortho_fft_</a></td></tr>
+<tr class="memdesc:a378ac3bf6e79cca0ad22a99492e0529d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Auxiliary communicator for the fine-grid FFT transformation.  <a href="#a378ac3bf6e79cca0ad22a99492e0529d">More...</a><br /></td></tr>
 <tr class="separator:a378ac3bf6e79cca0ad22a99492e0529d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fc2585ec4b5da88bdc4d1a1de1197bd"><td class="memItemLeft" align="right" valign="top"><a id="a7fc2585ec4b5da88bdc4d1a1de1197bd"></a>
 <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a7fc2585ec4b5da88bdc4d1a1de1197bd">comm_ortho_fft_coarse_</a></td></tr>
@@ -594,9 +604,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>start_time_tag
 <tr class="memitem:a6e4a1ee6bd885dc44c1f70567a29bd9c"><td class="memItemLeft" align="right" valign="top"><a id="a6e4a1ee6bd885dc44c1f70567a29bd9c"></a>
 std::vector&lt; <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atom_coord_</b></td></tr>
 <tr class="separator:a6e4a1ee6bd885dc44c1f70567a29bd9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23d17b0b087d69872304786850340485"><td class="memItemLeft" align="right" valign="top"><a id="a23d17b0b087d69872304786850340485"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; char, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>memory_buffer_</b></td></tr>
-<tr class="separator:a23d17b0b087d69872304786850340485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60a937c6a6f8134d136e6b3c5e43a57c"><td class="memItemLeft" align="right" valign="top"><a id="a60a937c6a6f8134d136e6b3c5e43a57c"></a>
 std::unique_ptr&lt; <a class="el" href="../../de/d14/classsirius_1_1_radial__integrals__beta.html">Radial_integrals_beta</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>beta_ri_</b></td></tr>
 <tr class="separator:a60a937c6a6f8134d136e6b3c5e43a57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -609,12 +616,19 @@ std::unique_ptr&lt; <a class="el" href="../../d9/d29/classsirius_1_1_radial__int
 <tr class="memitem:a807a41d35c988deaec70a5a10bda51a1"><td class="memItemLeft" align="right" valign="top"><a id="a807a41d35c988deaec70a5a10bda51a1"></a>
 std::unique_ptr&lt; <a class="el" href="../../d9/d29/classsirius_1_1_radial__integrals__aug.html">Radial_integrals_aug</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>aug_ri_djl_</b></td></tr>
 <tr class="separator:a807a41d35c988deaec70a5a10bda51a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72f3b79cc826e457371ac2339272d7fa"><td class="memItemLeft" align="right" valign="top"><a id="a72f3b79cc826e457371ac2339272d7fa"></a>
-std::unique_ptr&lt; <a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atomic_wf_ri_</b></td></tr>
-<tr class="separator:a72f3b79cc826e457371ac2339272d7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4830455780bae8be62f9ca96d99ceb38"><td class="memItemLeft" align="right" valign="top"><a id="a4830455780bae8be62f9ca96d99ceb38"></a>
+std::unique_ptr&lt; <a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atomic_wf_ri_</b></td></tr>
+<tr class="separator:a4830455780bae8be62f9ca96d99ceb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d75aa31f6b3012bfb8870306c7b7607"><td class="memItemLeft" align="right" valign="top"><a id="a9d75aa31f6b3012bfb8870306c7b7607"></a>
+std::unique_ptr&lt; <a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atomic_wf_ri_djl_</b></td></tr>
+<tr class="separator:a9d75aa31f6b3012bfb8870306c7b7607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adca2abccf1974f02c72442cc74bb2646"><td class="memItemLeft" align="right" valign="top"><a id="adca2abccf1974f02c72442cc74bb2646"></a>
 std::vector&lt; std::vector&lt; std::pair&lt; int, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atoms_to_grid_idx_</b></td></tr>
 <tr class="separator:adca2abccf1974f02c72442cc74bb2646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35eb666599dbf0552f979ccd570380a0"><td class="memItemLeft" align="right" valign="top"><a id="a35eb666599dbf0552f979ccd570380a0"></a>
+<a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">memory_pool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#a35eb666599dbf0552f979ccd570380a0">memory_pool_</a></td></tr>
+<tr class="memdesc:a35eb666599dbf0552f979ccd570380a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for various memory pools. <br /></td></tr>
+<tr class="separator:a35eb666599dbf0552f979ccd570380a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4e6852b00abcf9f6919e63f8f945ef4"><td class="memItemLeft" align="right" valign="top"><a id="aa4e6852b00abcf9f6919e63f8f945ef4"></a>
 const double&#160;</td><td class="memItemRight" valign="bottom"><b>av_atom_radius_</b> {2.0}</td></tr>
 <tr class="separator:aa4e6852b00abcf9f6919e63f8f945ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -629,7 +643,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {fal
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_classsirius_1_1_simulation__parameters"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classsirius_1_1_simulation__parameters')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d0/d04/classsirius_1_1_simulation__parameters.html">sirius::Simulation_parameters</a></td></tr>
 <tr class="memitem:a792a45ca1ec748a434b36754277a64b9 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a792a45ca1ec748a434b36754277a64b9"></a>
-<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d04/classsirius_1_1_simulation__parameters.html#a792a45ca1ec748a434b36754277a64b9">processing_unit_</a> {CPU}</td></tr>
+<a class="el" href="../../d6/d71/mdarray_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d04/classsirius_1_1_simulation__parameters.html#a792a45ca1ec748a434b36754277a64b9">processing_unit_</a> {CPU}</td></tr>
 <tr class="memdesc:a792a45ca1ec748a434b36754277a64b9 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the processing unit. <br /></td></tr>
 <tr class="separator:a792a45ca1ec748a434b36754277a64b9 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cd6b301b7ab72a9c9ca7193eb018fc9 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a7cd6b301b7ab72a9c9ca7193eb018fc9"></a>
@@ -669,8 +683,38 @@ relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for <a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html" title="Simulation context is a set of parameters and objects describing a single simulation. ">Simulation_context</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00046">46</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00050">50</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a663172e39c9deb618c17bf0da24143a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a663172e39c9deb618c17bf0da24143a8">&#9670;&nbsp;</a></span>comm_band()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const&amp; sirius::Simulation_context_base::comm_band </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d5/d1f/classsirius_1_1_band.html" title="Setup and solve the eigen value problem. ">Band</a> parallelization communicator. </p>
+<p>This communicator is used to parallelize the band problem. However it is not necessarily used to create the BLACS grid. Diagonalization might be sequential. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00348">348</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
+
+</div>
+</div>
 <a id="a5e8bf72bdacbb6ab99e21306998e9f91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e8bf72bdacbb6ab99e21306998e9f91">&#9670;&nbsp;</a></span>make_periodic_function()</h2>
 
@@ -700,38 +744,7 @@ template&lt;index_domain_t index_domain&gt; </div>
 <p>Make periodic function out of form factors. </p>
 <p>Return vector of plane-wave coefficients </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00504">504</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
-
-</div>
-</div>
-<a id="a12a16036a268f196165733122f3d21f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12a16036a268f196165733122f3d21f5">&#9670;&nbsp;</a></span>memory_buffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* sirius::Simulation_context_base::memory_buffer </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size__</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return pointer to already allocated temporary memory buffer. </p>
-<p>Buffer can only grow in size. The requested buffer length is in bytes. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00534">534</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00510">510</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
 
 </div>
 </div>
@@ -763,11 +776,38 @@ template&lt;index_domain_t index_domain&gt; </div>
 \[ {\rm erf}(\sqrt{\lambda}x) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00574">574</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00683">683</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a378ac3bf6e79cca0ad22a99492e0529d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a378ac3bf6e79cca0ad22a99492e0529d">&#9670;&nbsp;</a></span>comm_ortho_fft_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> sirius::Simulation_context_base::comm_ortho_fft_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Auxiliary communicator for the fine-grid FFT transformation. </p>
+<p>This communicator is orthogonal to the FFT communicator for density and potential within the full communicator of the simulation context. In other words, comm_ortho_fft_  <a class="el" href="../../db/d7d/classsirius_1_1_simulation__context__base.html#ab603f11255e8837a2714b3ce5597febc" title="Communicator of the dense FFT grid. ">comm_fft()</a> = ctx_.comm() </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00060">60</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
+
+</div>
+</div>
 <a id="a8c6ac463ce000f6dedfebfb1ac36e30a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c6ac463ce000f6dedfebfb1ac36e30a">&#9670;&nbsp;</a></span>fft_</h2>
 
@@ -791,7 +831,7 @@ template&lt;index_domain_t index_domain&gt; </div>
 <p>Fine-grained FFT for density and potential. </p>
 <p>This is the FFT driver to transform periodic functions such as density and potential on the fine-grained FFT grid. The transformation is parallel. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/df0/simulation__context__base_8h_source.html#l00079">79</a> of file <a class="el" href="../../de/df0/simulation__context__base_8h_source.html">simulation_context_base.h</a>.</p>
 
 </div>
 </div>
@@ -801,7 +841,7 @@ template&lt;index_domain_t index_domain&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 15 2018 10:55:34 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 27 2018 13:51:49 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

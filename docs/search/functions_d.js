@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['next_5fbyte_5fin_5frange',['next_byte_in_range',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#a2faa544ab5475523ead81f9cdef41a0a',1,'nlohmann::detail::lexer::next_byte_in_range()'],['../d8/dc4/classsddk_1_1nlohmann_1_1detail_1_1lexer.html#a09c736a31e9df62d3d1c6bd01a09c3ce',1,'sddk::nlohmann::detail::lexer::next_byte_in_range()']]],
-  ['normalize',['normalize',['../d4/d54/structnlohmann_1_1detail_1_1dtoa__impl_1_1diyfp.html#a2246b5b40c7c6992153ef174063d6aa6',1,'nlohmann::detail::dtoa_impl::diyfp::normalize()'],['../dd/def/structsddk_1_1nlohmann_1_1detail_1_1dtoa__impl_1_1diyfp.html#a037a9040dbe828b57e9adaa762767066',1,'sddk::nlohmann::detail::dtoa_impl::diyfp::normalize()']]],
+  ['next_5fbyte_5fin_5frange',['next_byte_in_range',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#a2faa544ab5475523ead81f9cdef41a0a',1,'nlohmann::detail::lexer']]],
+  ['normalize',['normalize',['../d4/d54/structnlohmann_1_1detail_1_1dtoa__impl_1_1diyfp.html#a2246b5b40c7c6992153ef174063d6aa6',1,'nlohmann::detail::dtoa_impl::diyfp']]],
   ['normalize_5fres',['normalize_res',['../d5/def/namespacesirius.html#a466a696b30427d2d0eb3a2a9b80b47d0',1,'sirius']]],
-  ['normalize_5fto',['normalize_to',['../d4/d54/structnlohmann_1_1detail_1_1dtoa__impl_1_1diyfp.html#a6b6665e467ebabe0c0f7418d3fe4b118',1,'nlohmann::detail::dtoa_impl::diyfp::normalize_to()'],['../dd/def/structsddk_1_1nlohmann_1_1detail_1_1dtoa__impl_1_1diyfp.html#ae9856edfe1d1cf74e34b41749d35e53d',1,'sddk::nlohmann::detail::dtoa_impl::diyfp::normalize_to()']]],
+  ['normalize_5fto',['normalize_to',['../d4/d54/structnlohmann_1_1detail_1_1dtoa__impl_1_1diyfp.html#a6b6665e467ebabe0c0f7418d3fe4b118',1,'nlohmann::detail::dtoa_impl::diyfp']]],
+  ['num_5fae_5fpaw_5fwf',['num_ae_paw_wf',['../d3/d37/classsirius_1_1_atom__type.html#ad151aa652644df3293207c22efbcb7a8',1,'sirius::Atom_type']]],
+  ['num_5fapplied',['num_applied',['../d6/dfb/classsirius_1_1_local__operator.html#a7de02bf01d35d5088a19bb05af43c31c',1,'sirius::Local_operator']]],
   ['num_5fatom_5flo_5fcols',['num_atom_lo_cols',['../d1/daf/classsirius_1_1_k__point.html#a3f723bedb1c2c41d126ec511dd386857',1,'sirius::K_point']]],
   ['num_5fatom_5flo_5frows',['num_atom_lo_rows',['../d1/daf/classsirius_1_1_k__point.html#a83e03282b20670c34845d52f46540e02',1,'sirius::K_point']]],
   ['num_5fatom_5fsymmetry_5fclasses',['num_atom_symmetry_classes',['../d6/dd1/classsirius_1_1_unit__cell.html#a2dbb6ea34fb14c359eacb99b705afaef',1,'sirius::Unit_cell']]],
