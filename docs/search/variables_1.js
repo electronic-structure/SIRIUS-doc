@@ -13,6 +13,8 @@ var searchData=
   ['beta_5fprojectors_5fcol_5f',['beta_projectors_col_',['../d1/daf/classsirius_1_1_k__point.html#a110faca112710bbfd269c2a1abe113ca',1,'sirius::K_point']]],
   ['beta_5fprojectors_5frow_5f',['beta_projectors_row_',['../d1/daf/classsirius_1_1_k__point.html#a86e2716ccf6a0c268bb785541a9a77c6',1,'sirius::K_point']]],
   ['beta_5fradial_5ffunctions_5f',['beta_radial_functions_',['../d3/d37/classsirius_1_1_atom__type.html#afd229c5af94e3405f51e20a391aed829',1,'sirius::Atom_type']]],
+  ['beta_5fri_5f',['beta_ri_',['../d6/d66/classsirius_1_1_simulation__context.html#aa07f8acb88837c8a7ce26340d85f9de9',1,'sirius::Simulation_context']]],
+  ['beta_5fri_5fdjl_5f',['beta_ri_djl_',['../d6/d66/classsirius_1_1_simulation__context.html#ad5d8274063691c67daacce864d6fece5',1,'sirius::Simulation_context']]],
   ['beta_5fscaling_5ffactor_5f',['beta_scaling_factor_',['../d4/db0/structsirius_1_1_mixer__input.html#a62a8eac23fbcbc60445feabae22332e3',1,'sirius::Mixer_input']]],
   ['blacs_5fgrid_5f',['blacs_grid_',['../d5/d1f/classsirius_1_1_band.html#a621c3610318f8b26c0f4167c3a0dca76',1,'sirius::Band::blacs_grid_()'],['../dc/deb/classsddk_1_1dmatrix.html#a90356b2f4ae42e31c9d081c53f1f37e1',1,'sddk::dmatrix::blacs_grid_()'],['../d6/d66/classsirius_1_1_simulation__context.html#a9d27b4b363bf0572e54ba140b7ac0855',1,'sirius::Simulation_context::blacs_grid_()']]],
   ['block_5fsize_5f',['block_size_',['../dd/d99/classsddk_1_1splindex_3_01block__cyclic_00_01_t_01_4.html#ac32a632137604b0e84304c053618fe36',1,'sddk::splindex&lt; block_cyclic, T &gt;']]],

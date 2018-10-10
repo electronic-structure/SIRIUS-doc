@@ -128,12 +128,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a41714635d8b3fa101613da61231f85e0">update</a> ()</td></tr>
 <tr class="memdesc:a41714635d8b3fa101613da61231f85e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update context after setting new lattice vectors or atomic coordinates. <br /></td></tr>
 <tr class="separator:a41714635d8b3fa101613da61231f85e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2b879882a2e603b2b1a6300d93cc3b4"><td class="memItemLeft" align="right" valign="top"><a id="ae2b879882a2e603b2b1a6300d93cc3b4"></a>
-std::vector&lt; std::vector&lt; std::pair&lt; int, double &gt; &gt; &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>atoms_to_grid_idx_map</b> ()</td></tr>
-<tr class="separator:ae2b879882a2e603b2b1a6300d93cc3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa27731f5fe47f9bde34f75b4e1db7c"><td class="memItemLeft" align="right" valign="top"><a id="a7aa27731f5fe47f9bde34f75b4e1db7c"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>av_atom_radius</b> ()</td></tr>
-<tr class="separator:a7aa27731f5fe47f9bde34f75b4e1db7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa58d359626fa5a26d52c2e26831ef985"><td class="memItemLeft" align="right" valign="top"><a id="aa58d359626fa5a26d52c2e26831ef985"></a>
+std::vector&lt; std::pair&lt; int, double &gt; &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>atoms_to_grid_idx_map</b> (int ia__) const</td></tr>
+<tr class="separator:aa58d359626fa5a26d52c2e26831ef985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade1dfea086e74e03304298a4a1944974"><td class="memItemLeft" align="right" valign="top"><a id="ade1dfea086e74e03304298a4a1944974"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>print_info</b> ()</td></tr>
 <tr class="separator:ade1dfea086e74e03304298a4a1944974"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,7 +240,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memdesc:a1df2241c3c67f877cc666a4f979a57ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate complex spherical harmoics for the local set of G-vectors. <br /></td></tr>
 <tr class="separator:a1df2241c3c67f877cc666a4f979a57ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71524d2a0306250f70cc3a86176fa42d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a71524d2a0306250f70cc3a86176fa42d">sum_fg_fl_yg</a> (int lmax__, double_complex const *fpw__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double, 3 &gt; &amp;fl__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">matrix</a>&lt; double_complex &gt; &amp;gvec_ylm__)</td></tr>
-<tr class="memdesc:a71524d2a0306250f70cc3a86176fa42d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sum over the plane-wave coefficients and spherical harmonics that apperas in Poisson solver and finding of the MT boundary values.  <a href="#a71524d2a0306250f70cc3a86176fa42d">More...</a><br /></td></tr>
 <tr class="separator:a71524d2a0306250f70cc3a86176fa42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66b174f8f28aaa4589ceb30fa54e7421"><td class="memItemLeft" align="right" valign="top"><a id="a66b174f8f28aaa4589ceb30fa54e7421"></a>
 <a class="el" href="../../de/d14/classsirius_1_1_radial__integrals__beta.html">Radial_integrals_beta</a>&lt; false &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>beta_ri</b> () const</td></tr>
@@ -278,9 +274,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:ac3a8eb9c6375e1120cc4a1709f53cc35"><td class="memItemLeft" align="right" valign="top"><a id="ac3a8eb9c6375e1120cc4a1709f53cc35"></a>
 <a class="el" href="../../d3/db4/classsirius_1_1_radial__integrals__vloc.html">Radial_integrals_vloc</a>&lt; true &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>vloc_ri_djl</b> () const</td></tr>
 <tr class="separator:ac3a8eb9c6375e1120cc4a1709f53cc35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9caa412667ecc0061ba61eeb1a8f3b16"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a9caa412667ecc0061ba61eeb1a8f3b16">ewald_lambda</a> ()</td></tr>
-<tr class="memdesc:a9caa412667ecc0061ba61eeb1a8f3b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the lambda parameter used in the Ewald summation.  <a href="#a9caa412667ecc0061ba61eeb1a8f3b16">More...</a><br /></td></tr>
-<tr class="separator:a9caa412667ecc0061ba61eeb1a8f3b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd2a43eca10da7d38de1c6d4b433ba94"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#acd2a43eca10da7d38de1c6d4b433ba94">ewald_lambda</a> () const</td></tr>
+<tr class="memdesc:acd2a43eca10da7d38de1c6d4b433ba94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the lambda parameter used in the Ewald summation.  <a href="#acd2a43eca10da7d38de1c6d4b433ba94">More...</a><br /></td></tr>
+<tr class="separator:acd2a43eca10da7d38de1c6d4b433ba94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b9fe3f74fee8476924699371ce0e8bd"><td class="memItemLeft" align="right" valign="top"><a id="a5b9fe3f74fee8476924699371ce0e8bd"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>sym_phase_factors</b> () const</td></tr>
 <tr class="separator:a5b9fe3f74fee8476924699371ce0e8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,7 +355,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>add_xc_functional</b>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>electronic_structure_method</b> (std::string name__)</td></tr>
 <tr class="separator:a81a7173ad36e78efcfe5c19df624fad6 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6dc1fad8f6aede8762b14bbd83c3c94 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="ab6dc1fad8f6aede8762b14bbd83c3c94"></a>
-<a class="el" href="../../d7/d69/typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128a">electronic_structure_method_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>electronic_structure_method</b> () const</td></tr>
+<a class="el" href="../../de/df7/typedefs_8hpp.html#ad0240253ab18ec5b88c5e78866b1128a">electronic_structure_method_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>electronic_structure_method</b> () const</td></tr>
 <tr class="separator:ab6dc1fad8f6aede8762b14bbd83c3c94 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8570cc64504d83c82748743d0beb1b0 inherit pub_methods_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="ac8570cc64504d83c82748743d0beb1b0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_core_relativity</b> (std::string name__)</td></tr>
@@ -574,9 +570,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a0d6536173005e08f917af37942e043da">start</a> ()</td></tr>
 <tr class="memdesc:a0d6536173005e08f917af37942e043da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the stsrting time stamp. <br /></td></tr>
 <tr class="separator:a0d6536173005e08f917af37942e043da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae51093b44dfab2b5034dd8e965d577e6"><td class="memItemLeft" align="right" valign="top"><a id="ae51093b44dfab2b5034dd8e965d577e6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>init_atoms_to_grid_idx</b> ()</td></tr>
-<tr class="separator:ae51093b44dfab2b5034dd8e965d577e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b7bcf56477656befe8687250e31ce71"><td class="memItemLeft" align="right" valign="top"><a id="a1b7bcf56477656befe8687250e31ce71"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a1b7bcf56477656befe8687250e31ce71">init_atoms_to_grid_idx</a> (double R__)</td></tr>
+<tr class="memdesc:a1b7bcf56477656befe8687250e31ce71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a list of real-space grid points around each atom. <br /></td></tr>
+<tr class="separator:a1b7bcf56477656befe8687250e31ce71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad57209758dc2e9c813a91e03da08ae68"><td class="memItemLeft" align="right" valign="top"><a id="ad57209758dc2e9c813a91e03da08ae68"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Simulation_context</b> (<a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html">Simulation_context</a> const &amp;)=delete</td></tr>
 <tr class="separator:ad57209758dc2e9c813a91e03da08ae68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -638,13 +635,16 @@ timeval&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=".
 <tr class="memdesc:a1f1edc57f044cacf58dd0c2ece553b51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creation time of the parameters. <br /></td></tr>
 <tr class="separator:a1f1edc57f044cacf58dd0c2ece553b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fce6bd9e1b9caf20ab969871d4da83b"><td class="memItemLeft" align="right" valign="top"><a id="a1fce6bd9e1b9caf20ab969871d4da83b"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>start_time_tag_</b></td></tr>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a1fce6bd9e1b9caf20ab969871d4da83b">start_time_tag_</a></td></tr>
+<tr class="memdesc:a1fce6bd9e1b9caf20ab969871d4da83b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A tag string based on the the starting time. <br /></td></tr>
 <tr class="separator:a1fce6bd9e1b9caf20ab969871d4da83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e41ea21833be1a12f8d46f12c8864d8"><td class="memItemLeft" align="right" valign="top"><a id="a7e41ea21833be1a12f8d46f12c8864d8"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>phase_factors_</b></td></tr>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a7e41ea21833be1a12f8d46f12c8864d8">phase_factors_</a></td></tr>
+<tr class="memdesc:a7e41ea21833be1a12f8d46f12c8864d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">1D phase factors for each atom coordinate and G-vector index. <br /></td></tr>
 <tr class="separator:a7e41ea21833be1a12f8d46f12c8864d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d82519ab424ed179f07b158fd43dff3"><td class="memItemLeft" align="right" valign="top"><a id="a0d82519ab424ed179f07b158fd43dff3"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sym_phase_factors_</b></td></tr>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a0d82519ab424ed179f07b158fd43dff3">sym_phase_factors_</a></td></tr>
+<tr class="memdesc:a0d82519ab424ed179f07b158fd43dff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">1D phase factors of the symmetry operations. <br /></td></tr>
 <tr class="separator:a0d82519ab424ed179f07b158fd43dff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac57aeaf31157bc84219d08dee97de7"><td class="memItemLeft" align="right" valign="top"><a id="a4ac57aeaf31157bc84219d08dee97de7"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a4ac57aeaf31157bc84219d08dee97de7">phase_factors_t_</a></td></tr>
@@ -655,40 +655,52 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>start_time_tag
 <tr class="memdesc:a11341c22975f11d9c9e1eff7d3fbed2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lattice coordinats of G-vectors in a GPU-friendly ordering. <br /></td></tr>
 <tr class="separator:a11341c22975f11d9c9e1eff7d3fbed2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa07f8acb88837c8a7ce26340d85f9de9"><td class="memItemLeft" align="right" valign="top"><a id="aa07f8acb88837c8a7ce26340d85f9de9"></a>
-std::unique_ptr&lt; <a class="el" href="../../de/d14/classsirius_1_1_radial__integrals__beta.html">Radial_integrals_beta</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>beta_ri_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../de/d14/classsirius_1_1_radial__integrals__beta.html">Radial_integrals_beta</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#aa07f8acb88837c8a7ce26340d85f9de9">beta_ri_</a></td></tr>
+<tr class="memdesc:aa07f8acb88837c8a7ce26340d85f9de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of beta-projectors. <br /></td></tr>
 <tr class="separator:aa07f8acb88837c8a7ce26340d85f9de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5d8274063691c67daacce864d6fece5"><td class="memItemLeft" align="right" valign="top"><a id="ad5d8274063691c67daacce864d6fece5"></a>
-std::unique_ptr&lt; <a class="el" href="../../de/d14/classsirius_1_1_radial__integrals__beta.html">Radial_integrals_beta</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>beta_ri_djl_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../de/d14/classsirius_1_1_radial__integrals__beta.html">Radial_integrals_beta</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#ad5d8274063691c67daacce864d6fece5">beta_ri_djl_</a></td></tr>
+<tr class="memdesc:ad5d8274063691c67daacce864d6fece5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of beta-projectors with derivatives of spherical Bessel functions. <br /></td></tr>
 <tr class="separator:ad5d8274063691c67daacce864d6fece5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb5296c86d79c20df7c733c4d0cdecd5"><td class="memItemLeft" align="right" valign="top"><a id="aeb5296c86d79c20df7c733c4d0cdecd5"></a>
-std::unique_ptr&lt; <a class="el" href="../../d9/d29/classsirius_1_1_radial__integrals__aug.html">Radial_integrals_aug</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>aug_ri_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d9/d29/classsirius_1_1_radial__integrals__aug.html">Radial_integrals_aug</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#aeb5296c86d79c20df7c733c4d0cdecd5">aug_ri_</a></td></tr>
+<tr class="memdesc:aeb5296c86d79c20df7c733c4d0cdecd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of augmentation operator. <br /></td></tr>
 <tr class="separator:aeb5296c86d79c20df7c733c4d0cdecd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2afdef5da6aa554523e4233b53eba69"><td class="memItemLeft" align="right" valign="top"><a id="ac2afdef5da6aa554523e4233b53eba69"></a>
-std::unique_ptr&lt; <a class="el" href="../../d9/d29/classsirius_1_1_radial__integrals__aug.html">Radial_integrals_aug</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>aug_ri_djl_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d9/d29/classsirius_1_1_radial__integrals__aug.html">Radial_integrals_aug</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#ac2afdef5da6aa554523e4233b53eba69">aug_ri_djl_</a></td></tr>
+<tr class="memdesc:ac2afdef5da6aa554523e4233b53eba69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of augmentation operator with derivatives of spherical Bessel functions. <br /></td></tr>
 <tr class="separator:ac2afdef5da6aa554523e4233b53eba69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa803f9ea1f7749579098c624a4b2255"><td class="memItemLeft" align="right" valign="top"><a id="afa803f9ea1f7749579098c624a4b2255"></a>
-std::unique_ptr&lt; <a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atomic_wf_ri_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#afa803f9ea1f7749579098c624a4b2255">atomic_wf_ri_</a></td></tr>
+<tr class="memdesc:afa803f9ea1f7749579098c624a4b2255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of atomic wave-functions. <br /></td></tr>
 <tr class="separator:afa803f9ea1f7749579098c624a4b2255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52a3556a737874d85e1a7e7b06d36241"><td class="memItemLeft" align="right" valign="top"><a id="a52a3556a737874d85e1a7e7b06d36241"></a>
-std::unique_ptr&lt; <a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atomic_wf_ri_djl_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d8/d35/classsirius_1_1_radial__integrals__atomic__wf.html">Radial_integrals_atomic_wf</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a52a3556a737874d85e1a7e7b06d36241">atomic_wf_ri_djl_</a></td></tr>
+<tr class="memdesc:a52a3556a737874d85e1a7e7b06d36241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of atomic wave-functions with derivatives of spherical Bessel functions. <br /></td></tr>
 <tr class="separator:a52a3556a737874d85e1a7e7b06d36241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a299eb71f28e21b3589af2c91ba1358c5"><td class="memItemLeft" align="right" valign="top"><a id="a299eb71f28e21b3589af2c91ba1358c5"></a>
-std::unique_ptr&lt; <a class="el" href="../../d5/dd8/classsirius_1_1_radial__integrals__rho__core__pseudo.html">Radial_integrals_rho_core_pseudo</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ps_core_ri_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d5/dd8/classsirius_1_1_radial__integrals__rho__core__pseudo.html">Radial_integrals_rho_core_pseudo</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a299eb71f28e21b3589af2c91ba1358c5">ps_core_ri_</a></td></tr>
+<tr class="memdesc:a299eb71f28e21b3589af2c91ba1358c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of pseudo-core charge density. <br /></td></tr>
 <tr class="separator:a299eb71f28e21b3589af2c91ba1358c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec91e67963d632dcf1c0e520274735e3"><td class="memItemLeft" align="right" valign="top"><a id="aec91e67963d632dcf1c0e520274735e3"></a>
-std::unique_ptr&lt; <a class="el" href="../../d5/dd8/classsirius_1_1_radial__integrals__rho__core__pseudo.html">Radial_integrals_rho_core_pseudo</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ps_core_ri_djl_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d5/dd8/classsirius_1_1_radial__integrals__rho__core__pseudo.html">Radial_integrals_rho_core_pseudo</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#aec91e67963d632dcf1c0e520274735e3">ps_core_ri_djl_</a></td></tr>
+<tr class="memdesc:aec91e67963d632dcf1c0e520274735e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of pseudo-core charge density with derivatives of spherical Bessel functions. <br /></td></tr>
 <tr class="separator:aec91e67963d632dcf1c0e520274735e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d63fbfab2b50d89468277fd91c92aa1"><td class="memItemLeft" align="right" valign="top"><a id="a6d63fbfab2b50d89468277fd91c92aa1"></a>
-std::unique_ptr&lt; <a class="el" href="../../db/d50/classsirius_1_1_radial__integrals__rho__pseudo.html">Radial_integrals_rho_pseudo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ps_rho_ri_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../db/d50/classsirius_1_1_radial__integrals__rho__pseudo.html">Radial_integrals_rho_pseudo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a6d63fbfab2b50d89468277fd91c92aa1">ps_rho_ri_</a></td></tr>
+<tr class="memdesc:a6d63fbfab2b50d89468277fd91c92aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of total pseudo-charge density. <br /></td></tr>
 <tr class="separator:a6d63fbfab2b50d89468277fd91c92aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12fe0fd07377f31a69b1ad3c0072eb9c"><td class="memItemLeft" align="right" valign="top"><a id="a12fe0fd07377f31a69b1ad3c0072eb9c"></a>
-std::unique_ptr&lt; <a class="el" href="../../d3/db4/classsirius_1_1_radial__integrals__vloc.html">Radial_integrals_vloc</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vloc_ri_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d3/db4/classsirius_1_1_radial__integrals__vloc.html">Radial_integrals_vloc</a>&lt; false &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a12fe0fd07377f31a69b1ad3c0072eb9c">vloc_ri_</a></td></tr>
+<tr class="memdesc:a12fe0fd07377f31a69b1ad3c0072eb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of the local part of pseudopotential. <br /></td></tr>
 <tr class="separator:a12fe0fd07377f31a69b1ad3c0072eb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada830397e7be4dba1d1dd003995a96d3"><td class="memItemLeft" align="right" valign="top"><a id="ada830397e7be4dba1d1dd003995a96d3"></a>
-std::unique_ptr&lt; <a class="el" href="../../d3/db4/classsirius_1_1_radial__integrals__vloc.html">Radial_integrals_vloc</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vloc_ri_djl_</b></td></tr>
+std::unique_ptr&lt; <a class="el" href="../../d3/db4/classsirius_1_1_radial__integrals__vloc.html">Radial_integrals_vloc</a>&lt; true &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#ada830397e7be4dba1d1dd003995a96d3">vloc_ri_djl_</a></td></tr>
+<tr class="memdesc:ada830397e7be4dba1d1dd003995a96d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial integrals of the local part of pseudopotential with derivatives of spherical Bessel functions. <br /></td></tr>
 <tr class="separator:ada830397e7be4dba1d1dd003995a96d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d643e0e538da4e4b99bf5a35f18c76e"><td class="memItemLeft" align="right" valign="top"><a id="a0d643e0e538da4e4b99bf5a35f18c76e"></a>
-std::vector&lt; std::vector&lt; std::pair&lt; int, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>atoms_to_grid_idx_</b></td></tr>
+std::vector&lt; std::vector&lt; std::pair&lt; int, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a0d643e0e538da4e4b99bf5a35f18c76e">atoms_to_grid_idx_</a></td></tr>
+<tr class="memdesc:a0d643e0e538da4e4b99bf5a35f18c76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of real-space point indices for each of the atoms. <br /></td></tr>
 <tr class="separator:a0d643e0e538da4e4b99bf5a35f18c76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a603c824ece5dc6ea6eedd18aecb788ef"><td class="memItemLeft" align="right" valign="top"><a id="a603c824ece5dc6ea6eedd18aecb788ef"></a>
 <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">memory_pool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a603c824ece5dc6ea6eedd18aecb788ef">memory_pool_</a></td></tr>
@@ -703,16 +715,12 @@ std::vector&lt; std::vector&lt; std::pair&lt; int, double &gt; &gt; &gt;&#160;</
 <tr class="memdesc:a50826bdfacb96b87a78c21acf371ca0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step function on the real-space grid. <br /></td></tr>
 <tr class="separator:a50826bdfacb96b87a78c21acf371ca0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22603ae9f8d43cf8c08e95a143599251"><td class="memItemLeft" align="right" valign="top"><a id="a22603ae9f8d43cf8c08e95a143599251"></a>
-std::vector&lt; <a class="el" href="../../d2/d41/classsirius_1_1_augmentation__operator.html">Augmentation_operator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>augmentation_op_</b></td></tr>
+std::vector&lt; <a class="el" href="../../d2/d41/classsirius_1_1_augmentation__operator.html">Augmentation_operator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#a22603ae9f8d43cf8c08e95a143599251">augmentation_op_</a></td></tr>
+<tr class="memdesc:a22603ae9f8d43cf8c08e95a143599251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Augmentation operator for each atom type. <br /></td></tr>
 <tr class="separator:a22603ae9f8d43cf8c08e95a143599251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d963adb830f1e87b0550a6b0207d472"><td class="memItemLeft" align="right" valign="top"><a id="a7d963adb830f1e87b0550a6b0207d472"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>av_atom_radius_</b> {2.0}</td></tr>
-<tr class="separator:a7d963adb830f1e87b0550a6b0207d472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64382a3d70111aa2cf9ea8124fecffe3"><td class="memItemLeft" align="right" valign="top"><a id="a64382a3d70111aa2cf9ea8124fecffe3"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>time_active_</b></td></tr>
-<tr class="separator:a64382a3d70111aa2cf9ea8124fecffe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3e30fc4cabec30bf47aaf4864fe447b"><td class="memItemLeft" align="right" valign="top"><a id="ae3e30fc4cabec30bf47aaf4864fe447b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>initialized_</b> {false}</td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#ae3e30fc4cabec30bf47aaf4864fe447b">initialized_</a> {false}</td></tr>
+<tr class="memdesc:ae3e30fc4cabec30bf47aaf4864fe447b"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the context is already initialized. <br /></td></tr>
 <tr class="separator:ae3e30fc4cabec30bf47aaf4864fe447b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -731,7 +739,7 @@ relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memdesc:ab54050138f051531ef2be6db38b41d66 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of relativity for core states. <br /></td></tr>
 <tr class="separator:ab54050138f051531ef2be6db38b41d66 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acab15dc027fa951c59b59e5c710ad3e6 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="acab15dc027fa951c59b59e5c710ad3e6"></a>
-<a class="el" href="../../d7/d69/typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128a">electronic_structure_method_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d04/classsirius_1_1_simulation__parameters.html#acab15dc027fa951c59b59e5c710ad3e6">electronic_structure_method_</a> {<a class="el" href="../../d7/d69/typedefs_8h.html#ad0240253ab18ec5b88c5e78866b1128aa5631a967093ee076a9e178b503774887">electronic_structure_method_t::full_potential_lapwlo</a>}</td></tr>
+<a class="el" href="../../de/df7/typedefs_8hpp.html#ad0240253ab18ec5b88c5e78866b1128a">electronic_structure_method_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d04/classsirius_1_1_simulation__parameters.html#acab15dc027fa951c59b59e5c710ad3e6">electronic_structure_method_</a> {<a class="el" href="../../de/df7/typedefs_8hpp.html#ad0240253ab18ec5b88c5e78866b1128aa5631a967093ee076a9e178b503774887">electronic_structure_method_t::full_potential_lapwlo</a>}</td></tr>
 <tr class="memdesc:acab15dc027fa951c59b59e5c710ad3e6 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of electronic structure method. <br /></td></tr>
 <tr class="separator:acab15dc027fa951c59b59e5c710ad3e6 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12bdcf87b198d49f920d083a36781db1 inherit pro_attribs_classsirius_1_1_simulation__parameters"><td class="memItemLeft" align="right" valign="top"><a id="a12bdcf87b198d49f920d083a36781db1"></a>
@@ -767,7 +775,7 @@ relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <div class="textblock"><p>Simulation context is a set of parameters and objects describing a single simulation. </p>
 <p>The order of initialization of the simulation context is the following: first, the default parameter values are set in the constructor, then (optionally) <a class="el" href="../../d0/d04/classsirius_1_1_simulation__parameters.html#aa9382e68a71ad1a70a36b8d01ade94da" title="Import parameters from a file or a serialized json string. ">import()</a> method is called and the parameters are overwritten with the those from the input file, and finally, the user sets the values with setter metods. Then the unit cell can be populated and the context can be initialized. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d5b/simulation__context_8h_source.html#l00055">55</a> of file <a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7790d42361e02e68e60a3d647bef68db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7790d42361e02e68e60a3d647bef68db">&#9670;&nbsp;</a></span>init_step_function()</h2>
@@ -799,7 +807,7 @@ relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p> where </p><p class="formulaDsp">
 \[ \Theta({\bf G}) = \frac{1}{\Omega} \int \Theta({\bf r}) e^{-i{\bf Gr}} d{\bf r} = \frac{1}{\Omega} \int_{\Omega} e^{-i{\bf Gr}} d{\bf r} - \frac{1}{\Omega} \int_{MT} e^{-i{\bf Gr}} d{\bf r} = \delta_{\bf G, 0} - \sum_{\alpha} \frac{1}{\Omega} \int_{MT_{\alpha}} e^{-i{\bf Gr}} d{\bf r} \]
 </p>
-<p> Integral of a plane-wave over the muffin-tin volume is taken using the spherical expansion of the plane-wave around central point \( \tau_{\alpha} \): </p><p class="formulaDsp">
+<p> Integralof a plane-wave over the muffin-tin volume is taken using the spherical expansion of the plane-wave around central point \( \tau_{\alpha} \): </p><p class="formulaDsp">
 \[ \int_{MT_{\alpha}} e^{-i{\bf Gr}} d{\bf r} = e^{-i{\bf G\tau_{\alpha}}} \int_{MT_{\alpha}} 4\pi \sum_{\ell m} (-i)^{\ell} j_{\ell}(Gr) Y_{\ell m}(\hat {\bf G}) Y_{\ell m}^{*}(\hat {\bf r}) r^2 \sin \theta dr d\phi d\theta \]
 </p>
 <p> In the above integral only \( \ell=m=0 \) term survives. So we have: </p><p class="formulaDsp">
@@ -812,7 +820,7 @@ relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 \[ \Theta({\bf G}) = \delta_{\bf G, 0} - \sum_{\alpha} \frac{4\pi}{\Omega} e^{-i{\bf G\tau_{\alpha}}} \Theta(\alpha, G) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d5/d5b/simulation__context_8h_source.html#l00260">260</a> of file <a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html#l00269">269</a> of file <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a>.</p>
 
 </div>
 </div>
@@ -842,7 +850,7 @@ relativity_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p><a class="el" href="../../d5/d1f/classsirius_1_1_band.html" title="Setup and solve the eigen value problem. ">Band</a> parallelization communicator. </p>
 <p>This communicator is used to parallelize the band problem. However it is not necessarily used to create the BLACS grid. Diagonalization might be sequential. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d5b/simulation__context_8h_source.html#l00600">600</a> of file <a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html#l00606">606</a> of file <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a>.</p>
 
 </div>
 </div>
@@ -875,7 +883,7 @@ template&lt;index_domain_t index_domain&gt; </div>
 <p>Make periodic function out of form factors. </p>
 <p>Return vector of plane-wave coefficients </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d5b/simulation__context_8h_source.html#l00757">757</a> of file <a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html#l00761">761</a> of file <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a>.</p>
 
 </div>
 </div>
@@ -924,18 +932,16 @@ template&lt;index_domain_t index_domain&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Sum over the plane-wave coefficients and spherical harmonics that apperas in Poisson solver and finding of the MT boundary values. </p>
-<p>The following operation is performed: </p><p class="formulaDsp">
+<p>Sum over the plane-wave coefficients and spherical harmonics that apperas in Poisson solver and finding of the MT boundary values. The following operation is performed: </p><p class="formulaDsp">
 \[ q_{\ell m}^{\alpha} = \sum_{\bf G} 4\pi \rho({\bf G}) e^{i{\bf G}{\bf r}_{\alpha}}i^{\ell}f_{\ell}^{\alpha}(G) Y_{\ell m}^{*}(\hat{\bf G}) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d5/d5b/simulation__context_8h_source.html#l00822">822</a> of file <a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html#l00828">828</a> of file <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a9caa412667ecc0061ba61eeb1a8f3b16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9caa412667ecc0061ba61eeb1a8f3b16">&#9670;&nbsp;</a></span>ewald_lambda()</h2>
+<a id="acd2a43eca10da7d38de1c6d4b433ba94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd2a43eca10da7d38de1c6d4b433ba94">&#9670;&nbsp;</a></span>ewald_lambda()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,7 +953,7 @@ template&lt;index_domain_t index_domain&gt; </div>
           <td class="memname">double sirius::Simulation_context::ewald_lambda </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -958,11 +964,11 @@ template&lt;index_domain_t index_domain&gt; </div>
 </div><div class="memdoc">
 
 <p>Find the lambda parameter used in the Ewald summation. </p>
-<p>lambda parameter scales the erfc function argument: </p><p class="formulaDsp">
+<p>Lambda parameter scales the erfc function argument: </p><p class="formulaDsp">
 \[ {\rm erf}(\sqrt{\lambda}x) \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../d5/d5b/simulation__context_8h_source.html#l00984">984</a> of file <a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html#l00984">984</a> of file <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a>.</p>
 
 </div>
 </div>
@@ -990,7 +996,7 @@ template&lt;index_domain_t index_domain&gt; </div>
 <p>Auxiliary communicator for the fine-grid FFT transformation. </p>
 <p>This communicator is orthogonal to the FFT communicator for density and potential within the full communicator of the simulation context. In other words, comm_ortho_fft_  <a class="el" href="../../d6/d66/classsirius_1_1_simulation__context.html#ae987422b5f39b8419d99f746c5e2b3c7" title="Communicator of the dense FFT grid. ">comm_fft()</a> = ctx_.comm() </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d5b/simulation__context_8h_source.html#l00065">65</a> of file <a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a>.</p>
 
 </div>
 </div>
@@ -1017,17 +1023,17 @@ template&lt;index_domain_t index_domain&gt; </div>
 <p>Fine-grained FFT for density and potential. </p>
 <p>This is the FFT driver to transform periodic functions such as density and potential on the fine-grained FFT grid. The transformation is parallel. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d5b/simulation__context_8h_source.html#l00084">84</a> of file <a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html#l00080">80</a> of file <a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d5/d5b/simulation__context_8h_source.html">simulation_context.h</a></li>
+<li><a class="el" href="../../d1/db8/simulation__context_8hpp_source.html">simulation_context.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 20 2018 11:12:32 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

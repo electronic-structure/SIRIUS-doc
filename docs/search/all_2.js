@@ -43,6 +43,8 @@ var searchData=
   ['beta_5fprojectors_5fstrain_5fderiv_2ehpp',['beta_projectors_strain_deriv.hpp',['../d2/de5/beta__projectors__strain__deriv_8hpp.html',1,'']]],
   ['beta_5fradial_5ffunction',['beta_radial_function',['../d3/d37/classsirius_1_1_atom__type.html#a0cf05406c80d7d7dab2666fb6735d351',1,'sirius::Atom_type']]],
   ['beta_5fradial_5ffunctions_5f',['beta_radial_functions_',['../d3/d37/classsirius_1_1_atom__type.html#afd229c5af94e3405f51e20a391aed829',1,'sirius::Atom_type']]],
+  ['beta_5fri_5f',['beta_ri_',['../d6/d66/classsirius_1_1_simulation__context.html#aa07f8acb88837c8a7ce26340d85f9de9',1,'sirius::Simulation_context']]],
+  ['beta_5fri_5fdjl_5f',['beta_ri_djl_',['../d6/d66/classsirius_1_1_simulation__context.html#ad5d8274063691c67daacce864d6fece5',1,'sirius::Simulation_context']]],
   ['beta_5fscaling_5ffactor_5f',['beta_scaling_factor_',['../d4/db0/structsirius_1_1_mixer__input.html#a62a8eac23fbcbc60445feabae22332e3',1,'sirius::Mixer_input']]],
   ['binary_5freader',['binary_reader',['../d6/d30/classnlohmann_1_1detail_1_1binary__reader.html',1,'nlohmann::detail::binary_reader&lt; BasicJsonType &gt;'],['../d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a7e643baadaf4c31718cd74833bdd542f',1,'nlohmann::detail::binary_reader::binary_reader()']]],
   ['binary_5fwriter',['binary_writer',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html',1,'nlohmann::detail::binary_writer&lt; BasicJsonType, CharType &gt;'],['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#a373289af95a946c19bb4a58a5df71a78',1,'nlohmann::detail::binary_writer::binary_writer()']]],

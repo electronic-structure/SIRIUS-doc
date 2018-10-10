@@ -149,7 +149,7 @@ Total energy variation</h1>
 \[ E^{XC}[\rho_{\alpha\beta}({\bf r})] \equiv E^{XC}[\rho({\bf r}),|{\bf m}({\bf r})|] = \int \rho({\bf r}) \eta_{XC}(\rho({\bf r}), m({\bf r})) d{\bf r} = \int \rho({\bf r}) \eta_{XC}(\rho^{\uparrow}({\bf r}), \rho_{\downarrow}({\bf r})) d{\bf r} \]
 </p>
 <p> Now we can write the total energy variation over auxiliary orbitals with constrain of orbital normalization: </p><p class="formulaDsp">
-\[ \frac{\delta \Big( E^{tot}+\varepsilon_i \big( 1-\sum_{\alpha} \int \psi^{\alpha*}_{i}({\bf r})\psi^{\alpha}_{i}({\bf r})d{\bf r} \big) \Big)} {\delta \psi_{i}^{\gamma*}({\bf r})} = 0 \]
+\[ \frac{\delta \Big( E^{tot}+\varepsilon_i \big( 1-\sum_{\alpha} \int \psi^{\alpha*}_{i}({\bf r}) \psi^{\alpha}_{i}({\bf r})d{\bf r} \big) \Big)} {\delta \psi_{i}^{\gamma*}({\bf r})} = 0 \]
 </p>
 <p> We will use the following chain rule: </p><p class="formulaDsp">
 \[ \frac{\delta F[\rho_{\alpha\beta}]}{\delta \psi_{i}^{\gamma *}({\bf r})} = \sum_{\alpha&#39; \beta&#39;} \frac{\delta F[\rho_{\alpha\beta}]}{\delta \rho_{\alpha&#39;\beta&#39;}({\bf r})} \frac{\delta \rho_{\alpha&#39;\beta&#39;}({\bf r})}{\delta \psi_{i}^{\gamma *}({\bf r})} = \sum_{\alpha&#39;\beta&#39;}\frac{\delta F[\rho_{\alpha\beta}]}{\delta \rho_{\alpha&#39;\beta&#39;}({\bf r})} \psi_{i}^{\alpha&#39;}({\bf r}) \delta_{\beta&#39;\gamma} = \sum_{\alpha&#39;}\frac{\delta F[\rho_{\alpha\beta}]}{\delta \rho_{\alpha&#39;\gamma}({\bf r})}\psi_{i}^{\alpha&#39;}({\bf r}) \]
@@ -204,12 +204,12 @@ Second-variational approach</h1>
 \[ \sum_{\nu&#39;\nu} C_{\nu&#39; j&#39;}^{*} H_{\nu&#39;\nu} C_{\nu j} = \varepsilon_j \delta_{j&#39;j} \]
 </p>
 <p>The expression for second-variational Hamiltonian is simple: </p><p class="formulaDsp">
-\[ \langle \phi_{i&#39;}|\hat H_{\alpha&#39;\alpha} |\phi_{i} \rangle = \langle \phi_{i&#39;} | \Big(-\frac{1}{2}\nabla^2 + v^{H}({\bf r}) + v^{ext}({\bf r}) + v^{XC}({\bf r}) \Big) \delta_{\alpha\alpha&#39;}|\phi_{i}\rangle + \langle \phi_{i&#39;} | {\boldsymbol \sigma}_{\alpha\alpha&#39;} \Big( \mu_{B}{\bf B}^{ext}({\bf r})+{\bf B}^{XC}({\bf r})\Big) | \phi_{i}\rangle =\\ \epsilon_{i}\delta_{i&#39;i}\delta_{\alpha\alpha&#39;} + {\boldsymbol \sigma}_{\alpha\alpha&#39;} \langle \phi_{i&#39;} | \Big( \mu_{B}{\bf B}^{ext}({\bf r}) + {\bf B}^{XC}({\bf r})\Big) | \phi_{i}\rangle \]
+\[ \langle \phi_{i&#39;}|\hat H_{\alpha&#39;\alpha} |\phi_{i} \rangle = \langle \phi_{i&#39;} | \Big(-\frac{1}{2}\nabla^2 + v^{H}({\bf r}) + v^{ext}({\bf r}) + v^{XC}({\bf r}) \Big) \delta_{\alpha\alpha&#39;}|\phi_{i}\rangle + \langle \phi_{i&#39;} | {\boldsymbol \sigma}_{\alpha\alpha&#39;} \Big( \mu_{B}{\bf B}^{ext}({\bf r})+ {\bf B}^{XC}({\bf r})\Big) | \phi_{i}\rangle =\\ \epsilon_{i}\delta_{i&#39;i}\delta_{\alpha\alpha&#39;} + {\boldsymbol \sigma}_{\alpha\alpha&#39;} \langle \phi_{i&#39;} | \Big( \mu_{B}{\bf B}^{ext}({\bf r}) + {\bf B}^{XC}({\bf r})\Big) | \phi_{i}\rangle \]
 </p>
  </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 20 2018 11:12:30 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

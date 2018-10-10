@@ -21,7 +21,7 @@ var searchData=
   ['sddk_5fprint_5ftimers',['sddk_print_timers',['../d9/d66/interfacesddk_1_1sddk__print__timers.html',1,'sddk']]],
   ['sddk_5fremap_5fwave_5ffunctions_5fbackward',['sddk_remap_wave_functions_backward',['../d5/d33/interfacesddk_1_1sddk__remap__wave__functions__backward.html',1,'sddk']]],
   ['sddk_5fremap_5fwave_5ffunctions_5fforward',['sddk_remap_wave_functions_forward',['../dd/d6d/interfacesddk_1_1sddk__remap__wave__functions__forward.html',1,'sddk']]],
-  ['serializer',['serializer',['../d9/d78/structsddk_1_1serializer.html',1,'sddk::serializer'],['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html',1,'nlohmann::detail::serializer&lt; BasicJsonType &gt;']]],
+  ['serializer',['serializer',['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html',1,'nlohmann::detail::serializer&lt; BasicJsonType &gt;'],['../d9/d78/structsddk_1_1serializer.html',1,'sddk::serializer']]],
   ['settings_5finput',['Settings_input',['../d6/de3/structsirius_1_1_settings__input.html',1,'sirius']]],
   ['sht',['SHT',['../d1/d08/classsirius_1_1_s_h_t.html',1,'sirius']]],
   ['simulation_5fcontext',['Simulation_context',['../d6/d66/classsirius_1_1_simulation__context.html',1,'sirius']]],

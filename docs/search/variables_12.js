@@ -34,14 +34,17 @@ var searchData=
   ['spl_5fz_5f',['spl_z_',['../dc/dd3/classsddk_1_1_f_f_t3_d.html#a2b8697edcd2c0f1bf81129611c84088d',1,'sddk::FFT3D']]],
   ['start',['start',['../d8/dba/classnlohmann_1_1detail_1_1input__buffer__adapter.html#a028e9bb232143d8a2b6b204fa28c3493',1,'nlohmann::detail::input_buffer_adapter']]],
   ['start_5ftime_5f',['start_time_',['../d6/d66/classsirius_1_1_simulation__context.html#a1f1edc57f044cacf58dd0c2ece553b51',1,'sirius::Simulation_context']]],
+  ['start_5ftime_5ftag_5f',['start_time_tag_',['../d6/d66/classsirius_1_1_simulation__context.html#a1fce6bd9e1b9caf20ab969871d4da83b',1,'sirius::Simulation_context']]],
   ['starting_5ftime_5f',['starting_time_',['../d4/ddf/classutils_1_1timer.html#aed779442945f07385327bf64fb1c6e59',1,'utils::timer']]],
   ['std_5fevp_5fsolver_5fname_5f',['std_evp_solver_name_',['../da/de3/structsirius_1_1_control__input.html#ad33c2dcf743fb3841e44134cbd8fdf8e',1,'sirius::Control_input']]],
   ['stream',['stream',['../d9/d78/structsddk_1_1serializer.html#abc662c3f19c34c557d2fc1215cd5f87f',1,'sddk::serializer']]],
+  ['stress_5f',['stress_',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#ae463ca1688d8a0cf29a214dc833501a1',1,'sirius::DFT_ground_state']]],
   ['string',['string',['../d1/de3/unionnlohmann_1_1basic__json_1_1json__value.html#a9856fb4271b50d738e14c5a9a2f05118',1,'nlohmann::basic_json::json_value']]],
   ['string_5fbuffer',['string_buffer',['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html#a9c9b7ca63a66e59e5e7ffe8a2acf5c8f',1,'nlohmann::detail::serializer']]],
   ['subspace_5fsize_5f',['subspace_size_',['../d2/d11/structsirius_1_1_iterative__solver__input.html#a4fb99809f8303fff972737ab71bd5879',1,'sirius::Iterative_solver_input']]],
   ['sv_5feigen_5fvectors_5f',['sv_eigen_vectors_',['../d1/daf/classsirius_1_1_k__point.html#afb5d65a6fb66c2532aefe946a0513eea',1,'sirius::K_point']]],
+  ['sym_5fphase_5ffactors_5f',['sym_phase_factors_',['../d6/d66/classsirius_1_1_simulation__context.html#a0d82519ab424ed179f07b158fd43dff3',1,'sirius::Simulation_context']]],
   ['sym_5ftable_5f',['sym_table_',['../d0/d56/classsirius_1_1_unit__cell__symmetry.html#a2dc67d6f7b1b1737b97e84efdf2c0c16',1,'sirius::Unit_cell_symmetry']]],
-  ['symbol_5f',['symbol_',['../d3/d37/classsirius_1_1_atom__type.html#aa3090438a53985cf41d2ac57d92feda3',1,'sirius::Atom_type']]],
+  ['symbol_5f',['symbol_',['../d3/d37/classsirius_1_1_atom__type.html#aa3090438a53985cf41d2ac57d92feda3',1,'sirius::Atom_type::symbol_()'],['../d1/dc9/classsirius_1_1_atom__type__base.html#a0352c598484a2e57cb660a59888fabd5',1,'sirius::Atom_type_base::symbol_()']]],
   ['symmetry_5fclass_5f',['symmetry_class_',['../d3/d50/classsirius_1_1_atom.html#af78d6835ad4d678ff385d503599e1810',1,'sirius::Atom']]]
 ];

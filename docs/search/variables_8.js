@@ -18,6 +18,7 @@ var searchData=
   ['indexr_5f',['indexr_',['../d3/d37/classsirius_1_1_atom__type.html#acefbdde63939f9ba69955295349c544a',1,'sirius::Atom_type']]],
   ['init_5feval_5fold_5f',['init_eval_old_',['../d2/d11/structsirius_1_1_iterative__solver__input.html#aeb0dc69b13d081c143291b4633bdef99',1,'sirius::Iterative_solver_input']]],
   ['init_5fsubspace_5f',['init_subspace_',['../d2/d11/structsirius_1_1_iterative__solver__input.html#a554f749aa0e9589a65b6b29136c7a9f0',1,'sirius::Iterative_solver_input']]],
+  ['initialized_5f',['initialized_',['../d6/d66/classsirius_1_1_simulation__context.html#ae3e30fc4cabec30bf47aaf4864fe447b',1,'sirius::Simulation_context']]],
   ['input_5fbuffer_5f',['input_buffer_',['../d1/d76/classsirius_1_1_mixer.html#a54eab77660d00c984d0a065a74e5ac0b',1,'sirius::Mixer']]],
   ['inverse_5flattice_5fvectors_5f',['inverse_lattice_vectors_',['../d6/dd1/classsirius_1_1_unit__cell.html#a1b06a6e1dabc61b9bb30fe6aa879e804',1,'sirius::Unit_cell']]],
   ['invr',['invR',['../d6/d5b/structsirius_1_1space__group__symmetry__descriptor.html#a8aec26d8c38b3e58f75f4521b579d89f',1,'sirius::space_group_symmetry_descriptor']]],

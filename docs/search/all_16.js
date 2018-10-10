@@ -28,6 +28,8 @@ var searchData=
   ['verification_5f',['verification_',['../da/de3/structsirius_1_1_control__input.html#af59ade202ac720ef1e2857c4389aadc7',1,'sirius::Control_input']]],
   ['vh_5fel_5f',['vh_el_',['../d2/d0b/classsirius_1_1_potential.html#a0126d2afa48714b359eede273905a64c',1,'sirius::Potential']]],
   ['vk_5f',['vk_',['../d1/daf/classsirius_1_1_k__point.html#a7d2852ebbede1528de4b8464f9ab1a7a',1,'sirius::K_point::vk_()'],['../dc/d9b/classsddk_1_1_gvec.html#a551efdd55a49e52f00682180671a8560',1,'sddk::Gvec::vk_()']]],
+  ['vloc_5fri_5f',['vloc_ri_',['../d6/d66/classsirius_1_1_simulation__context.html#a12fe0fd07377f31a69b1ad3c0072eb9c',1,'sirius::Simulation_context']]],
+  ['vloc_5fri_5fdjl_5f',['vloc_ri_djl_',['../d6/d66/classsirius_1_1_simulation__context.html#ada830397e7be4dba1d1dd003995a96d3',1,'sirius::Simulation_context']]],
   ['volume_5fit_5f',['volume_it_',['../d6/dd1/classsirius_1_1_unit__cell.html#ad9356b5d033e2cf0d02cc31d78db3561',1,'sirius::Unit_cell']]],
   ['volume_5fmt_5f',['volume_mt_',['../d6/dd1/classsirius_1_1_unit__cell.html#abc60aef6ddce77ee141f793d241a7954',1,'sirius::Unit_cell']]],
   ['vphi1_5f',['vphi1_',['../d6/dfb/classsirius_1_1_local__operator.html#a5abe267f9ac871cdee5b8a9c4da9540f',1,'sirius::Local_operator']]],

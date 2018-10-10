@@ -10,7 +10,7 @@ var searchData=
   ['main_5ftimer_5flabel',['main_timer_label',['../d6/d84/namespaceutils.html#a0d9d176e596413e9d15e407df23b8867',1,'utils']]],
   ['map_5fgvec_5fto_5ffft_5fbuffer_5f',['map_gvec_to_fft_buffer_',['../dc/dd3/classsddk_1_1_f_f_t3_d.html#a3bfd6b0f02d7e33b9e770ead53073a17',1,'sddk::FFT3D']]],
   ['map_5fgvec_5fto_5ffft_5fbuffer_5fx0y0_5f',['map_gvec_to_fft_buffer_x0y0_',['../dc/dd3/classsddk_1_1_f_f_t3_d.html#a281da81e427c185605cbd367c52dbad5',1,'sddk::FFT3D']]],
-  ['mass_5f',['mass_',['../d3/d37/classsirius_1_1_atom__type.html#af09ff617fe4a88ec3083036b7aff9918',1,'sirius::Atom_type']]],
+  ['mass_5f',['mass_',['../d3/d37/classsirius_1_1_atom__type.html#af09ff617fe4a88ec3083036b7aff9918',1,'sirius::Atom_type::mass_()'],['../d1/dc9/classsirius_1_1_atom__type__base.html#a141062902ad36c1ffc907221776b1bde',1,'sirius::Atom_type_base::mass_()']]],
   ['max_5faw_5forder_5f',['max_aw_order_',['../d3/d37/classsirius_1_1_atom__type.html#adc566d46112ed3e773d0124abaaa6882',1,'sirius::Atom_type']]],
   ['max_5fhistory_5f',['max_history_',['../d4/db0/structsirius_1_1_mixer__input.html#aed1bc82dc63dc3b63dbce628d976b9f2',1,'sirius::Mixer_input::max_history_()'],['../d1/d76/classsirius_1_1_mixer.html#ab7530cd633c6b0153ee3e2a482d42aa7',1,'sirius::Mixer::max_history_()']]],
   ['max_5fmt_5faw_5fbasis_5fsize_5f',['max_mt_aw_basis_size_',['../d6/dd1/classsirius_1_1_unit__cell.html#adfdf46843e5d5cb6eeb94b4e681f75ed',1,'sirius::Unit_cell']]],

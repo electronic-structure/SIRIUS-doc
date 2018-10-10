@@ -50,10 +50,5 @@ var searchData=
   ['type_5ferror',['type_error',['../da/d1c/classnlohmann_1_1detail_1_1type__error.html',1,'nlohmann::detail::type_error'],['../d9/dcc/classnlohmann_1_1basic__json.html#a4010e8e268fefd86da773c10318f2902',1,'nlohmann::basic_json::type_error()']]],
   ['type_5fid',['type_id',['../d3/d50/classsirius_1_1_atom.html#a016c3246850dc9aef2af33760a9ca21d',1,'sirius::Atom']]],
   ['type_5fname',['type_name',['../d9/dcc/classnlohmann_1_1basic__json.html#a9d0a478571f82f0163b96b2424cd998f',1,'nlohmann::basic_json']]],
-  ['type_5fwrapper',['type_wrapper',['../d4/d10/classtype__wrapper.html',1,'']]],
-  ['type_5fwrapper_3c_20double_20_3e',['type_wrapper&lt; double &gt;',['../da/d19/classtype__wrapper_3_01double_01_4.html',1,'']]],
-  ['type_5fwrapper_3c_20double_5fcomplex_20_3e',['type_wrapper&lt; double_complex &gt;',['../d0/d45/classtype__wrapper_3_01double__complex_01_4.html',1,'']]],
-  ['type_5fwrapper_3c_20float_20_3e',['type_wrapper&lt; float &gt;',['../dc/dd5/classtype__wrapper_3_01float_01_4.html',1,'']]],
-  ['type_5fwrapper_3c_20long_20double_20_3e',['type_wrapper&lt; long double &gt;',['../d2/d02/classtype__wrapper_3_01long_01double_01_4.html',1,'']]],
-  ['typedefs_2eh',['typedefs.h',['../d7/d69/typedefs_8h.html',1,'']]]
+  ['typedefs_2ehpp',['typedefs.hpp',['../de/df7/typedefs_8hpp.html',1,'']]]
 ];

@@ -234,6 +234,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>copy_to_device</b> ()
 <tr class="memitem:ae44afbd5cd9d2f9b6cb8daa103f35934 inherit pub_methods_classsirius_1_1_radial__grid"><td class="memItemLeft" align="right" valign="top"><a id="ae44afbd5cd9d2f9b6cb8daa103f35934"></a>
 <a class="el" href="../../d9/dbf/classsirius_1_1_radial__grid.html">Radial_grid</a>&lt; U &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>segment</b> (int num_points__) const</td></tr>
 <tr class="separator:ae44afbd5cd9d2f9b6cb8daa103f35934 inherit pub_methods_classsirius_1_1_radial__grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16c3a0fee9a3b80480b0f54e6dceb948 inherit pub_methods_classsirius_1_1_radial__grid"><td class="memItemLeft" align="right" valign="top"><a id="a16c3a0fee9a3b80480b0f54e6dceb948"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>values</b> () const</td></tr>
+<tr class="separator:a16c3a0fee9a3b80480b0f54e6dceb948 inherit pub_methods_classsirius_1_1_radial__grid"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -293,8 +296,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 class sirius::Spline&lt; T, U &gt;</h3>
 
 <p>Cubic spline with a not-a-knot boundary conditions. </p>
-<p>The following convention for spline coefficients is used: for \( x \) in <br />
- \( [x_i, x_{i+1}] \) the value of the spline is equal to \( a_i + b_i(x - x_i) + c_i(x - x_i)^2 + d_i(x - x_i)^3 \).</p>
+<p>The following convention for spline coefficients is used: for \( x \) in \( [x_i, x_{i+1}] \) the value of the spline is equal to \( a_i + b_i(x - x_i) + c_i(x - x_i)^2 + d_i(x - x_i)^3 \).</p>
 <p>Suppose we have \( n \) value points \( y_i = f(x_i) \) and \( n - 1 \) segments: </p><p class="formulaDsp">
 \[ S_i(x) = y_i + b_i(x - x_i) + c_i(x - x_i)^2 + d_i(x - x_i)^3 \]
 </p>
@@ -317,7 +319,7 @@ class sirius::Spline&lt; T, U &gt;</h3>
 \[ S_1&#39;&#39;&#39;(x_2) = S_2&#39;&#39;&#39;(x_2) \longrightarrow d_1 = d_2 \\ S_{n-2}&#39;&#39;&#39;(x_{n-1}) = S_{n-1}&#39;&#39;&#39;(x_{n-1}) \longrightarrow d_{n-2} = d_{n-1} \]
 </p>
  
-<p class="definition">Definition at line <a class="el" href="../../dd/d09/spline_8h_source.html#l00075">75</a> of file <a class="el" href="../../dd/d09/spline_8h_source.html">spline.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d05/spline_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d9/d05/spline_8hpp_source.html">spline.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0e4c013062753b7193fdfe4421d497c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e4c013062753b7193fdfe4421d497c7">&#9670;&nbsp;</a></span>interpolate()</h2>
@@ -347,17 +349,17 @@ template&lt;typename T, typename U = double&gt; </div>
 <li>this should be boundary conditions for natural spline (with zero second derivatives at boundaries) */ </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d09/spline_8h_source.html#l00282">282</a> of file <a class="el" href="../../dd/d09/spline_8h_source.html">spline.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d05/spline_8hpp_source.html#l00274">274</a> of file <a class="el" href="../../d9/d05/spline_8hpp_source.html">spline.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dd/d09/spline_8h_source.html">spline.h</a></li>
+<li><a class="el" href="../../d9/d05/spline_8hpp_source.html">spline.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 20 2018 11:12:32 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

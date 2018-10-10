@@ -236,9 +236,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_generate_initi
 <tr class="memitem:a6290a0e11f2530abdce3a473afdb701e"><td class="memItemLeft" align="right" valign="top"><a id="a6290a0e11f2530abdce3a473afdb701e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_generate_effective_potential</b> (void *const *handler__)</td></tr>
 <tr class="separator:a6290a0e11f2530abdce3a473afdb701e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d5dfced7f2967ba3607dc03d487fecd"><td class="memItemLeft" align="right" valign="top"><a id="a1d5dfced7f2967ba3607dc03d487fecd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_generate_density</b> (void *const *gs_handler__)</td></tr>
-<tr class="separator:a1d5dfced7f2967ba3607dc03d487fecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d6765bf9497a049f458db46e774f29a"><td class="memItemLeft" align="right" valign="top"><a id="a1d6765bf9497a049f458db46e774f29a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_generate_density</b> (void *const *gs_handler__, bool const *add_core__, bool const *transform_to_rg__)</td></tr>
+<tr class="separator:a1d6765bf9497a049f458db46e774f29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a087eb2db583e4c9bb3e49a40dd0f6265"><td class="memItemLeft" align="right" valign="top"><a id="a087eb2db583e4c9bb3e49a40dd0f6265"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_set_band_occupancies</b> (void *const *ks_handler__, int const *ik__, int const *ispn__, double const *band_occupancies__)</td></tr>
 <tr class="separator:a087eb2db583e4c9bb3e49a40dd0f6265"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -387,7 +387,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_update_atomic_
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">assert(h != <span class="keyword">nullptr</span>); \</div><div class="line">                       auto&amp; sim_ctx = <span class="keyword">static_cast&lt;</span><a class="code" href="../../d8/de7/classutils_1_1any__ptr.html">utils::any_ptr</a>*<span class="keyword">&gt;</span>(*h)-&gt;<a class="code" href="../../d8/de7/classutils_1_1any__ptr.html#a714aaca4ed9d7e8326684356059979b3">get</a>&lt;<a class="code" href="../../d6/d66/classsirius_1_1_simulation__context.html">sirius::Simulation_context</a>&gt;();</div><div class="ttc" id="classutils_1_1any__ptr_html"><div class="ttname"><a href="../../d8/de7/classutils_1_1any__ptr.html">utils::any_ptr</a></div><div class="ttdoc">Handle deallocation of a poiniter to an object of any type. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df2/any__ptr_8hpp_source.html#l00071">any_ptr.hpp:71</a></div></div>
-<div class="ttc" id="classsirius_1_1_simulation__context_html"><div class="ttname"><a href="../../d6/d66/classsirius_1_1_simulation__context.html">sirius::Simulation_context</a></div><div class="ttdoc">Simulation context is a set of parameters and objects describing a single simulation. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5b/simulation__context_8h_source.html#l00055">simulation_context.h:55</a></div></div>
+<div class="ttc" id="classsirius_1_1_simulation__context_html"><div class="ttname"><a href="../../d6/d66/classsirius_1_1_simulation__context.html">sirius::Simulation_context</a></div><div class="ttdoc">Simulation context is a set of parameters and objects describing a single simulation. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db8/simulation__context_8hpp_source.html#l00052">simulation_context.hpp:52</a></div></div>
 <div class="ttc" id="classutils_1_1any__ptr_html_a714aaca4ed9d7e8326684356059979b3"><div class="ttname"><a href="../../d8/de7/classutils_1_1any__ptr.html#a714aaca4ed9d7e8326684356059979b3">utils::any_ptr::get</a></div><div class="ttdeci">T &amp; get() const</div><div class="ttdoc">Cast pointer to a given type and return a const reference. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df2/any__ptr_8hpp_source.html#l00093">any_ptr.hpp:93</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../d4/d53/sirius__api_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d4/d53/sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
@@ -410,7 +410,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_update_atomic_
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">assert(h != <span class="keyword">nullptr</span>); \</div><div class="line">                  auto&amp; gs = <span class="keyword">static_cast&lt;</span><a class="code" href="../../d8/de7/classutils_1_1any__ptr.html">utils::any_ptr</a>*<span class="keyword">&gt;</span>(*h)-&gt;<a class="code" href="../../d8/de7/classutils_1_1any__ptr.html#a714aaca4ed9d7e8326684356059979b3">get</a>&lt;<a class="code" href="../../d6/d4c/classsirius_1_1_d_f_t__ground__state.html">sirius::DFT_ground_state</a>&gt;();</div><div class="ttc" id="classutils_1_1any__ptr_html"><div class="ttname"><a href="../../d8/de7/classutils_1_1any__ptr.html">utils::any_ptr</a></div><div class="ttdoc">Handle deallocation of a poiniter to an object of any type. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df2/any__ptr_8hpp_source.html#l00071">any_ptr.hpp:71</a></div></div>
-<div class="ttc" id="classsirius_1_1_d_f_t__ground__state_html"><div class="ttname"><a href="../../d6/d4c/classsirius_1_1_d_f_t__ground__state.html">sirius::DFT_ground_state</a></div><div class="ttdoc">The whole DFT ground state implementation. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc4/dft__ground__state_8hpp_source.html#l00039">dft_ground_state.hpp:39</a></div></div>
+<div class="ttc" id="classsirius_1_1_d_f_t__ground__state_html"><div class="ttname"><a href="../../d6/d4c/classsirius_1_1_d_f_t__ground__state.html">sirius::DFT_ground_state</a></div><div class="ttdoc">The whole DFT ground state implementation. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc4/dft__ground__state_8hpp_source.html#l00043">dft_ground_state.hpp:43</a></div></div>
 <div class="ttc" id="classutils_1_1any__ptr_html_a714aaca4ed9d7e8326684356059979b3"><div class="ttname"><a href="../../d8/de7/classutils_1_1any__ptr.html#a714aaca4ed9d7e8326684356059979b3">utils::any_ptr::get</a></div><div class="ttdeci">T &amp; get() const</div><div class="ttdoc">Cast pointer to a given type and return a const reference. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df2/any__ptr_8hpp_source.html#l00093">any_ptr.hpp:93</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../d4/d53/sirius__api_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d4/d53/sirius__api_8cpp_source.html">sirius_api.cpp</a>.</p>
@@ -443,7 +443,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>sirius_update_atomic_
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 20 2018 11:12:30 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 10 2018 14:52:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

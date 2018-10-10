@@ -1,8 +1,9 @@
 var searchData=
 [
+  ['u',['u',['../db/d31/classsirius_1_1_bound__state.html#a84bbde406119117b2010a5cd703d812f',1,'sirius::Bound_state']]],
   ['u_5f',['U_',['../d1/db3/classsirius_1_1_hamiltonian.html#a3d6bfbf1d60bde7614f85f4746bda640',1,'sirius::Hamiltonian']]],
   ['ubjson_5fprefix',['ubjson_prefix',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#a67e1f5bb505bf9269c1e1e71d389291d',1,'nlohmann::detail::binary_writer']]],
-  ['ud',['ud',['../d7/d69/typedefs_8h.html#aa601593c18fead5d638edfc9182ee436a3dfe3d7a171097592cb00d6a57b6f845',1,'typedefs.h']]],
+  ['ud',['ud',['../de/df7/typedefs_8hpp.html#aa601593c18fead5d638edfc9182ee436a3dfe3d7a171097592cb00d6a57b6f845',1,'typedefs.hpp']]],
   ['uj_5fcorrection_5fl_5f',['uj_correction_l_',['../d3/d50/classsirius_1_1_atom.html#adcf069a095d4f0f9b1c5debe34e6ed94',1,'sirius::Atom']]],
   ['uj_5fcorrection_5fmatrix_5f',['uj_correction_matrix_',['../d3/d50/classsirius_1_1_atom.html#a726686bb7f7d0efe87980b93496a4315',1,'sirius::Atom']]],
   ['unescape',['unescape',['../da/de8/classnlohmann_1_1json__pointer.html#ab85442d5fbcc289b79beeefc2175446f',1,'nlohmann::json_pointer']]],
@@ -15,18 +16,18 @@ var searchData=
   ['unique_5fptr_5fdevice_5f',['unique_ptr_device_',['../d0/d58/classsddk_1_1mdarray__base.html#a956a63062c0919ace1afb44f6ed60e0c',1,'sddk::mdarray_base']]],
   ['unit_5fcell',['Unit_cell',['../d6/dd1/classsirius_1_1_unit__cell.html',1,'sirius']]],
   ['unit_5fcell_2ehpp',['unit_cell.hpp',['../d4/d91/unit__cell_8hpp.html',1,'']]],
-  ['unit_5fcell_5f',['unit_cell_',['../d5/d1f/classsirius_1_1_band.html#a8776f7df889f8bca82ff5a9a24331205',1,'sirius::Band::unit_cell_()'],['../d7/d05/classsirius_1_1_density.html#a3211e17c9026accf293bdef96b96edcb',1,'sirius::Density::unit_cell_()'],['../d1/db3/classsirius_1_1_hamiltonian.html#aee914687a13718d007f566cf18ec407d',1,'sirius::Hamiltonian::unit_cell_()'],['../d1/daf/classsirius_1_1_k__point.html#aa67d12ebc672e0b301abe37761beb732',1,'sirius::K_point::unit_cell_()'],['../d6/d2c/classsirius_1_1_radial__integrals__base.html#a7cd84a2b44563db9f08b17e68806a857',1,'sirius::Radial_integrals_base::unit_cell_()'],['../d6/d66/classsirius_1_1_simulation__context.html#a5d0442d2307a97f467360ad68705decb',1,'sirius::Simulation_context::unit_cell_()']]],
+  ['unit_5fcell_5f',['unit_cell_',['../d5/d1f/classsirius_1_1_band.html#a8776f7df889f8bca82ff5a9a24331205',1,'sirius::Band::unit_cell_()'],['../d7/d05/classsirius_1_1_density.html#a3211e17c9026accf293bdef96b96edcb',1,'sirius::Density::unit_cell_()'],['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#ad79a6a76e8fd25e67b53d5e93e060637',1,'sirius::DFT_ground_state::unit_cell_()'],['../d1/db3/classsirius_1_1_hamiltonian.html#aee914687a13718d007f566cf18ec407d',1,'sirius::Hamiltonian::unit_cell_()'],['../d1/daf/classsirius_1_1_k__point.html#aa67d12ebc672e0b301abe37761beb732',1,'sirius::K_point::unit_cell_()'],['../d6/d2c/classsirius_1_1_radial__integrals__base.html#a7cd84a2b44563db9f08b17e68806a857',1,'sirius::Radial_integrals_base::unit_cell_()'],['../d6/d66/classsirius_1_1_simulation__context.html#a5d0442d2307a97f467360ad68705decb',1,'sirius::Simulation_context::unit_cell_()']]],
   ['unit_5fcell_5finput',['Unit_cell_input',['../d7/d51/structsirius_1_1_unit__cell__input.html',1,'sirius']]],
   ['unit_5fcell_5finput_5f',['unit_cell_input_',['../d0/d04/classsirius_1_1_simulation__parameters.html#a83389fa98374b4ed0c30a0356967a688',1,'sirius::Simulation_parameters']]],
   ['unit_5fcell_5fparameters_5fdescriptor',['unit_cell_parameters_descriptor',['../da/d31/structunit__cell__parameters__descriptor.html',1,'']]],
   ['unit_5fcell_5fsymmetry',['Unit_cell_symmetry',['../d0/d56/classsirius_1_1_unit__cell__symmetry.html',1,'sirius']]],
   ['unit_5fcell_5fsymmetry_2ehpp',['unit_cell_symmetry.hpp',['../d8/d7a/unit__cell__symmetry_8hpp.html',1,'']]],
-  ['update',['update',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#aa983fb5045bed56a0196fb2e9180321b',1,'sirius::DFT_ground_state::update()'],['../d6/d66/classsirius_1_1_simulation__context.html#a41714635d8b3fa101613da61231f85e0',1,'sirius::Simulation_context::update()'],['../d6/dd1/classsirius_1_1_unit__cell.html#ad3e7099a70c0d37eda7f7d59ff8a6d66',1,'sirius::Unit_cell::update()'],['../d9/dcc/classnlohmann_1_1basic__json.html#a1cfa9ae5e7c2434cab4cfe69bffffe11',1,'nlohmann::basic_json::update(const_reference j)'],['../d9/dcc/classnlohmann_1_1basic__json.html#a27921dafadb3bbefd180235ec763e3ea',1,'nlohmann::basic_json::update(const_iterator first, const_iterator last)']]],
+  ['update',['update',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#aa983fb5045bed56a0196fb2e9180321b',1,'sirius::DFT_ground_state::update()'],['../d2/d0b/classsirius_1_1_potential.html#abc39ad521981e230bcbc7b493a86f617',1,'sirius::Potential::update()'],['../d6/d66/classsirius_1_1_simulation__context.html#a41714635d8b3fa101613da61231f85e0',1,'sirius::Simulation_context::update()'],['../d6/dd1/classsirius_1_1_unit__cell.html#ad3e7099a70c0d37eda7f7d59ff8a6d66',1,'sirius::Unit_cell::update()'],['../d9/dcc/classnlohmann_1_1basic__json.html#a1cfa9ae5e7c2434cab4cfe69bffffe11',1,'nlohmann::basic_json::update(const_reference j)'],['../d9/dcc/classnlohmann_1_1basic__json.html#a27921dafadb3bbefd180235ec763e3ea',1,'nlohmann::basic_json::update(const_iterator first, const_iterator last)']]],
   ['use_5fsecond_5fvariation',['use_second_variation',['../db/d16/config_8h.html#a9765a8749f0cfd3968c8195daffb1309',1,'config.h']]],
   ['use_5fsymmetry_5f',['use_symmetry_',['../d4/d6e/structsirius_1_1_parameters__input.html#ac897c6430c4e79641e71dd387953aad0',1,'sirius::Parameters_input']]],
   ['used_5f',['used_',['../d9/db0/structsddk_1_1memory__block__descriptor.html#af5704a5da2303252fcb527a9d1e8abf9',1,'sddk::memory_block_descriptor']]],
   ['used_5fcount_5f',['used_count_',['../d9/db0/structsddk_1_1memory__block__descriptor.html#ada3b0beba3b42c01ee0417e5e4540135',1,'sddk::memory_block_descriptor']]],
   ['utils',['utils',['../d6/d84/namespaceutils.html',1,'']]],
   ['utils_2ehpp',['utils.hpp',['../df/d93/utils_8hpp.html',1,'']]],
-  ['uu',['uu',['../d7/d69/typedefs_8h.html#aa601593c18fead5d638edfc9182ee436a6277e2a7446059985dc9bcf0a4ac1a8f',1,'typedefs.h']]]
+  ['uu',['uu',['../de/df7/typedefs_8hpp.html#aa601593c18fead5d638edfc9182ee436a6277e2a7446059985dc9bcf0a4ac1a8f',1,'typedefs.hpp']]]
 ];

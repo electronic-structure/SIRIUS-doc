@@ -176,7 +176,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <div class="textblock"><p>Parse control input section. </p>
 <p>The following part of the input file is parsed: </p><div class="fragment"><div class="line">&quot;control&quot; : {</div><div class="line">  &quot;mpi_grid_dims&quot; : (1- 2- or 3-dimensional vector&lt;int&gt;) MPI grid layout</div><div class="line">  &quot;cyclic_block_size&quot; : (int) PBLAS / ScaLAPACK block size</div><div class="line">  &quot;reduce_gvec&quot; : (bool) use reduced G-vector set (reduce_gvec = true) or full set (reduce_gvec = false)</div><div class="line">  &quot;std_evp_solver_type&quot; : (string) type of eigen-solver for the standard eigen-problem</div><div class="line">  &quot;gen_evp_solver_type&quot; : (string) type of eigen-solver for the generalized eigen-problem</div><div class="line">  &quot;electronic_structure_method&quot; : (string) electronic structure method</div><div class="line">  &quot;processing_unit&quot; : (string) primary processing unit</div><div class="line">  &quot;fft_mode&quot; : (string) serial or parallel FFT</div><div class="line">}</div></div><!-- fragment --><p> Parameters of the control input sections do not in general change the numerics, but instead control how the results are obtained. Changing paremeters in control section should not change the significant digits in final results. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00313">313</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d46/input_8hpp_source.html#l00313">313</a> of file <a class="el" href="../../dd/d46/input_8hpp_source.html">input.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a2e98f6200bea2c83701e382204d8f0a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e98f6200bea2c83701e382204d8f0a5">&#9670;&nbsp;</a></span>reduce_gvec_</h2>
@@ -193,7 +193,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <p>Reduce G-vectors by inversion symmetry. </p>
 <p>For real-valued functions like density and potential it is sufficient to store only half of the G-vectors and use the relation f(G) = f^{*}(-G) to recover second half of the plane-wave expansion coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00324">324</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d46/input_8hpp_source.html#l00324">324</a> of file <a class="el" href="../../dd/d46/input_8hpp_source.html">input.hpp</a>.</p>
 
 </div>
 </div>
@@ -220,17 +220,17 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <li>3: extensive output (hi level of output) </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="../../de/ded/input_8h_source.html#l00353">353</a> of file <a class="el" href="../../de/ded/input_8h_source.html">input.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d46/input_8hpp_source.html#l00353">353</a> of file <a class="el" href="../../dd/d46/input_8hpp_source.html">input.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../de/ded/input_8h_source.html">input.h</a></li>
+<li><a class="el" href="../../dd/d46/input_8hpp_source.html">input.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 20 2018 11:12:31 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

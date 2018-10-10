@@ -1,6 +1,7 @@
 var searchData=
 [
   ['l1norm',['l1norm',['../d2/d6b/classgeometry3d_1_1vector3d.html#a87859bbfbaa0c86cfe1c27ec1a5c9e9c',1,'geometry3d::vector3d']]],
+  ['l_5fby_5flm',['l_by_lm',['../d6/d84/namespaceutils.html#a7d4fab4c89b0c097ef913263d9983895',1,'utils']]],
   ['laplacian',['laplacian',['../d5/def/namespacesirius.html#a75083934e73f314246096173230a0da1',1,'sirius::laplacian(Smooth_periodic_function&lt; double &gt; &amp;f__)'],['../d5/def/namespacesirius.html#a84accb2dc31d7144fe5b97e0b2965001',1,'sirius::laplacian(Spheric_function&lt; spectral, T &gt; const &amp;f__)']]],
   ['last',['last',['../d9/dbf/classsirius_1_1_radial__grid.html#a0b10418c66364f62f75be03f5e77569d',1,'sirius::Radial_grid']]],
   ['lattice_5fvector',['lattice_vector',['../d6/dd1/classsirius_1_1_unit__cell.html#a0b599473ab0fdbb16db7fba42c079f8e',1,'sirius::Unit_cell']]],
@@ -11,6 +12,7 @@ var searchData=
   ['linear_5fmixer',['Linear_mixer',['../de/d92/classsirius_1_1_linear__mixer.html#a7b258e4a4292417d98c988f53ec334eb',1,'sirius::Linear_mixer']]],
   ['little_5fendianess',['little_endianess',['../d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a1d8f70f95d241354f86a0b9ae711c1c3',1,'nlohmann::detail::binary_reader']]],
   ['lm',['lm',['../d6/d84/namespaceutils.html#a6964b8e209d9d6c8e077097675c8b7de',1,'utils']]],
+  ['lmax',['lmax',['../d6/d84/namespaceutils.html#a8db36672f4a37cd94b95484cc18c59fa',1,'utils']]],
   ['lmax_5fbeta',['lmax_beta',['../d3/d37/classsirius_1_1_atom__type.html#a2722672a11ac098824c15727743a4aea',1,'sirius::Atom_type']]],
   ['lmmax',['lmmax',['../d6/d84/namespaceutils.html#a20592872fec4e76ad3d8438ef3aae030',1,'utils']]],
   ['lo_5fcol',['lo_col',['../d1/daf/classsirius_1_1_k__point.html#aea2b7f8952c6d838687c7f4e34b352f6',1,'sirius::K_point']]],

@@ -27,8 +27,8 @@ var searchData=
   ['escape',['escape',['../da/de8/classnlohmann_1_1json__pointer.html#a8abf3577f9a0087f29a233893cdc73ad',1,'nlohmann::json_pointer']]],
   ['euler_5fangles',['euler_angles',['../d0/d56/classsirius_1_1_unit__cell__symmetry.html#a3783ef7a25c3e5b4f0092945bbb0a718',1,'sirius::Unit_cell_symmetry']]],
   ['eval_5fsum',['eval_sum',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#aa24e6ed0599025ee501d747010215a68',1,'sirius::DFT_ground_state']]],
-  ['ewald_5fenergy',['ewald_energy',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#af4ba0c4e7d2cae0611052e68e8f5bf93',1,'sirius::DFT_ground_state']]],
-  ['ewald_5flambda',['ewald_lambda',['../d6/d66/classsirius_1_1_simulation__context.html#a9caa412667ecc0061ba61eeb1a8f3b16',1,'sirius::Simulation_context']]],
+  ['ewald_5fenergy',['ewald_energy',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#a9d384784c112812693b40e32621ad721',1,'sirius::DFT_ground_state']]],
+  ['ewald_5flambda',['ewald_lambda',['../d6/d66/classsirius_1_1_simulation__context.html#acd2a43eca10da7d38de1c6d4b433ba94',1,'sirius::Simulation_context']]],
   ['expect',['expect',['../df/d6b/classnlohmann_1_1detail_1_1parser.html#a9abcc7b005c70ee67ce669c398273516',1,'nlohmann::detail::parser']]],
   ['expect_5feof',['expect_eof',['../d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#ad0eebfcfd82778a76e1ae72dec49c25f',1,'nlohmann::detail::binary_reader']]]
 ];

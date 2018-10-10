@@ -135,7 +135,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>print_checksum</b> (s
 void&#160;</td><td class="memItemRight" valign="bottom"><b>print_hash</b> (std::string label__, unsigned long long int hash__)</td></tr>
 <tr class="separator:a8b26d3594e1d1253b0f09f4347fbcec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20592872fec4e76ad3d8438ef3aae030"><td class="memItemLeft" align="right" valign="top"><a id="a20592872fec4e76ad3d8438ef3aae030"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a20592872fec4e76ad3d8438ef3aae030">lmmax</a> (int lmax)</td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a20592872fec4e76ad3d8438ef3aae030">lmmax</a> (int <a class="el" href="../../d6/d84/namespaceutils.html#a8db36672f4a37cd94b95484cc18c59fa">lmax</a>)</td></tr>
 <tr class="memdesc:a20592872fec4e76ad3d8438ef3aae030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of \( \ell, m \) combinations for a given \( \ell_{max} \). <br /></td></tr>
 <tr class="separator:a20592872fec4e76ad3d8438ef3aae030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6964b8e209d9d6c8e077097675c8b7de"><td class="memItemLeft" align="right" valign="top"><a id="a6964b8e209d9d6c8e077097675c8b7de"></a>
@@ -143,37 +143,44 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <tr class="memdesc:a6964b8e209d9d6c8e077097675c8b7de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get composite lm index by angular index l and azimuthal index m. <br /></td></tr>
 <tr class="separator:a6964b8e209d9d6c8e077097675c8b7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db36672f4a37cd94b95484cc18c59fa"><td class="memItemLeft" align="right" valign="top"><a id="a8db36672f4a37cd94b95484cc18c59fa"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax</b> (int lmmax__)</td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a8db36672f4a37cd94b95484cc18c59fa">lmax</a> (int lmmax__)</td></tr>
+<tr class="memdesc:a8db36672f4a37cd94b95484cc18c59fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum orbital quantum number by the maximum lm index. <br /></td></tr>
 <tr class="separator:a8db36672f4a37cd94b95484cc18c59fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bba587013f525fe7f2ca7ae323f2184"><td class="memItemLeft" align="right" valign="top"><a id="a6bba587013f525fe7f2ca7ae323f2184"></a>
-std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>l_by_lm</b> (int lmax)</td></tr>
-<tr class="separator:a6bba587013f525fe7f2ca7ae323f2184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be407aa46f9a279ff351c8d1c84ab95"><td class="memItemLeft" align="right" valign="top"><a id="a3be407aa46f9a279ff351c8d1c84ab95"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>file_exists</b> (std::string file_name)</td></tr>
+<tr class="memitem:a7d4fab4c89b0c097ef913263d9983895"><td class="memItemLeft" align="right" valign="top"><a id="a7d4fab4c89b0c097ef913263d9983895"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a7d4fab4c89b0c097ef913263d9983895">l_by_lm</a> (int lmax__)</td></tr>
+<tr class="memdesc:a7d4fab4c89b0c097ef913263d9983895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get array of orbital quantum numbers for each lm component. <br /></td></tr>
+<tr class="separator:a7d4fab4c89b0c097ef913263d9983895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be407aa46f9a279ff351c8d1c84ab95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a3be407aa46f9a279ff351c8d1c84ab95">file_exists</a> (std::string file_name)</td></tr>
+<tr class="memdesc:a3be407aa46f9a279ff351c8d1c84ab95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if file exists.  <a href="#a3be407aa46f9a279ff351c8d1c84ab95">More...</a><br /></td></tr>
 <tr class="separator:a3be407aa46f9a279ff351c8d1c84ab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d7a2701c1d297d79fdc1073e88e6a69"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a5d7a2701c1d297d79fdc1073e88e6a69">timestamp</a> (std::string fmt)</td></tr>
 <tr class="memdesc:a5d7a2701c1d297d79fdc1073e88e6a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the timestamp string in a specified format.  <a href="#a5d7a2701c1d297d79fdc1073e88e6a69">More...</a><br /></td></tr>
 <tr class="separator:a5d7a2701c1d297d79fdc1073e88e6a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a354f689f5888cfb5de83be4ef44c88b5"><td class="memItemLeft" align="right" valign="top"><a id="a354f689f5888cfb5de83be4ef44c88b5"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>wtime</b> ()</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a354f689f5888cfb5de83be4ef44c88b5">wtime</a> ()</td></tr>
+<tr class="memdesc:a354f689f5888cfb5de83be4ef44c88b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wall-clock time in seconds. <br /></td></tr>
 <tr class="separator:a354f689f5888cfb5de83be4ef44c88b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2652e8b0c0029368a2001619aa70f5d"><td class="memTemplParams" colspan="2"><a id="ab2652e8b0c0029368a2001619aa70f5d"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ab2652e8b0c0029368a2001619aa70f5d"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sign</b> (T val)</td></tr>
+<tr class="memitem:ab2652e8b0c0029368a2001619aa70f5d"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#ab2652e8b0c0029368a2001619aa70f5d">sign</a> (T val)</td></tr>
+<tr class="memdesc:ab2652e8b0c0029368a2001619aa70f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sign of the variable. <br /></td></tr>
 <tr class="separator:ab2652e8b0c0029368a2001619aa70f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a478e26041037f9868e57428ffe4acf7f"><td class="memItemLeft" align="right" valign="top"><a id="a478e26041037f9868e57428ffe4acf7f"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a478e26041037f9868e57428ffe4acf7f">packed_index</a> (int i__, int j__)</td></tr>
 <tr class="memdesc:a478e26041037f9868e57428ffe4acf7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pack two indices into one for symmetric matrices. <br /></td></tr>
 <tr class="separator:a478e26041037f9868e57428ffe4acf7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d19967ca71e21b3343b93e4684d71cf"><td class="memItemLeft" align="right" valign="top"><a id="a4d19967ca71e21b3343b93e4684d71cf"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>double_to_string</b> (double val, int precision=-1)</td></tr>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a4d19967ca71e21b3343b93e4684d71cf">double_to_string</a> (double val, int precision=-1)</td></tr>
+<tr class="memdesc:a4d19967ca71e21b3343b93e4684d71cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert double to a string with a given precision. <br /></td></tr>
 <tr class="separator:a4d19967ca71e21b3343b93e4684d71cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae4236d737fed48b27b7620fad85bf24"><td class="memItemLeft" align="right" valign="top"><a id="aae4236d737fed48b27b7620fad85bf24"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>phi_by_sin_cos</b> (double sinp, double cosp)</td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#aae4236d737fed48b27b7620fad85bf24">phi_by_sin_cos</a> (double sinp, double cosp)</td></tr>
+<tr class="memdesc:aae4236d737fed48b27b7620fad85bf24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return angle phi in the range [0, 2Pi) by its values of sin(phi) and cos(phi). <br /></td></tr>
 <tr class="separator:aae4236d737fed48b27b7620fad85bf24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a528cae0172d7846b417a949fb09f7e7d"><td class="memTemplParams" colspan="2"><a id="a528cae0172d7846b417a949fb09f7e7d"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a528cae0172d7846b417a949fb09f7e7d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>factorial</b> (int n)</td></tr>
+<tr class="memitem:a528cae0172d7846b417a949fb09f7e7d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a528cae0172d7846b417a949fb09f7e7d">factorial</a> (int n)</td></tr>
+<tr class="memdesc:a528cae0172d7846b417a949fb09f7e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a factorial. <br /></td></tr>
 <tr class="separator:a528cae0172d7846b417a949fb09f7e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4ccc252ccdfa123c9bf4c3df94aeee6"><td class="memItemLeft" align="right" valign="top"><a id="aa4ccc252ccdfa123c9bf4c3df94aeee6"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>num_blocks</b> (int length__, int block_size__)</td></tr>
@@ -207,6 +214,40 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>get_proc_threads</b> (
 <tr class="memitem:a201dfa97600fdf94b9001cb24a97ad5d"><td class="memItemLeft" align="right" valign="top"><a id="a201dfa97600fdf94b9001cb24a97ad5d"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>hostname</b> ()</td></tr>
 <tr class="separator:a201dfa97600fdf94b9001cb24a97ad5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56554e8b78cd39f513371cfe39bcdf53"><td class="memItemLeft" align="right" valign="top"><a id="a56554e8b78cd39f513371cfe39bcdf53"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>conj</b> (double x__)</td></tr>
+<tr class="separator:a56554e8b78cd39f513371cfe39bcdf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1aad0748f745ae40ad2152298b7aa56"><td class="memItemLeft" align="right" valign="top"><a id="ad1aad0748f745ae40ad2152298b7aa56"></a>
+std::complex&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>conj</b> (std::complex&lt; double &gt; x__)</td></tr>
+<tr class="separator:ad1aad0748f745ae40ad2152298b7aa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7adfeb8ba6730a578544384b2569ec32"><td class="memTemplParams" colspan="2"><a id="a7adfeb8ba6730a578544384b2569ec32"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7adfeb8ba6730a578544384b2569ec32"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>zero_if_not_complex</b> (std::complex&lt; double &gt; x__)</td></tr>
+<tr class="separator:a7adfeb8ba6730a578544384b2569ec32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b291604670a63fcbf5cbce9056bc637"><td class="memTemplParams" colspan="2"><a id="a8b291604670a63fcbf5cbce9056bc637"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a8b291604670a63fcbf5cbce9056bc637"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>zero_if_not_complex&lt; double &gt;</b> (std::complex&lt; double &gt; x__)</td></tr>
+<tr class="separator:a8b291604670a63fcbf5cbce9056bc637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7162d4246704ca4e34abfa2403eca8f5"><td class="memTemplParams" colspan="2"><a id="a7162d4246704ca4e34abfa2403eca8f5"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a7162d4246704ca4e34abfa2403eca8f5"><td class="memTemplItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>zero_if_not_complex&lt; std::complex&lt; double &gt; &gt;</b> (std::complex&lt; double &gt; x__)</td></tr>
+<tr class="separator:a7162d4246704ca4e34abfa2403eca8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a957c9090934b88d3168905a56de04350"><td class="memItemLeft" align="right" valign="top"><a id="a957c9090934b88d3168905a56de04350"></a>
+uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d84/namespaceutils.html#a957c9090934b88d3168905a56de04350">rnd</a> ()</td></tr>
+<tr class="memdesc:a957c9090934b88d3168905a56de04350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple random number generator. <br /></td></tr>
+<tr class="separator:a957c9090934b88d3168905a56de04350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5545f2fdf9937ea1f791f227c64e85e"><td class="memTemplParams" colspan="2"><a id="ab5545f2fdf9937ea1f791f227c64e85e"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab5545f2fdf9937ea1f791f227c64e85e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>random</b> ()</td></tr>
+<tr class="separator:ab5545f2fdf9937ea1f791f227c64e85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4de72cafee4fd7358d7a329f71782fc"><td class="memTemplParams" colspan="2"><a id="ac4de72cafee4fd7358d7a329f71782fc"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:ac4de72cafee4fd7358d7a329f71782fc"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>random&lt; double &gt;</b> ()</td></tr>
+<tr class="separator:ac4de72cafee4fd7358d7a329f71782fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2abc4668f726517ff26be8b28582609f"><td class="memTemplParams" colspan="2"><a id="a2abc4668f726517ff26be8b28582609f"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a2abc4668f726517ff26be8b28582609f"><td class="memTemplItemLeft" align="right" valign="top">std::complex&lt; double &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>random&lt; std::complex&lt; double &gt; &gt;</b> ()</td></tr>
+<tr class="separator:a2abc4668f726517ff26be8b28582609f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -278,6 +319,43 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
+<a id="a3be407aa46f9a279ff351c8d1c84ab95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3be407aa46f9a279ff351c8d1c84ab95">&#9670;&nbsp;</a></span>file_exists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool utils::file_exists </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>file_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if file exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>Full path to the file being checked. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if file exists, false otherwise. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../df/d93/utils_8hpp_source.html#l00133">133</a> of file <a class="el" href="../../df/d93/utils_8hpp_source.html">utils.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a5d7a2701c1d297d79fdc1073e88e6a69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d7a2701c1d297d79fdc1073e88e6a69">&#9670;&nbsp;</a></span>timestamp()</h2>
 
@@ -305,7 +383,7 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <p>Return the timestamp string in a specified format. </p>
 <p>Typical format strings: "%Y%m%d_%H%M%S", "%Y-%m-%d %H:%M:%S", "%H:%M:%S" </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d93/utils_8hpp_source.html#l00133">133</a> of file <a class="el" href="../../df/d93/utils_8hpp_source.html">utils.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d93/utils_8hpp_source.html#l00142">142</a> of file <a class="el" href="../../df/d93/utils_8hpp_source.html">utils.hpp</a>.</p>
 
 </div>
 </div>
@@ -352,7 +430,7 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <p>Simple hash function. </p>
 <p>Example: printf("hash: %16llX\n", <a class="el" href="../../d6/d84/namespaceutils.html#ab509a990e8adedfebd103786462d4860" title="Simple hash function. ">hash()</a>); </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d93/utils_8hpp_source.html#l00249">249</a> of file <a class="el" href="../../df/d93/utils_8hpp_source.html">utils.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d93/utils_8hpp_source.html#l00263">263</a> of file <a class="el" href="../../df/d93/utils_8hpp_source.html">utils.hpp</a>.</p>
 
 </div>
 </div>
@@ -383,14 +461,14 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <p>Read json dictionary from file or string. </p>
 <p>Terminate if file doesn't exist. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/d93/utils_8hpp_source.html#l00293">293</a> of file <a class="el" href="../../df/d93/utils_8hpp_source.html">utils.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d93/utils_8hpp_source.html#l00307">307</a> of file <a class="el" href="../../df/d93/utils_8hpp_source.html">utils.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 20 2018 11:12:32 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

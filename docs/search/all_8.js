@@ -5,6 +5,7 @@ var searchData=
   ['ha2ev',['ha2ev',['../d2/d6f/constants_8h.html#a751c7a27c14e2e0bf06a31f6e4daf26a',1,'constants.h']]],
   ['hamiltonian',['Hamiltonian',['../d1/db3/classsirius_1_1_hamiltonian.html',1,'sirius::Hamiltonian'],['../d1/db3/classsirius_1_1_hamiltonian.html#aee533abaa39b4a5fe63ab1dbb3eed1e1',1,'sirius::Hamiltonian::Hamiltonian()']]],
   ['hamiltonian_2ehpp',['hamiltonian.hpp',['../de/dec/hamiltonian_8hpp.html',1,'']]],
+  ['hamiltonian_5f',['hamiltonian_',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#aa33e5d0fd39f37b3378d71d2e7034756',1,'sirius::DFT_ground_state']]],
   ['hartree_5fpotential_5f',['hartree_potential_',['../d2/d0b/classsirius_1_1_potential.html#a67c9d72f0486c5fe5fd802146cdcbb8a',1,'sirius::Potential']]],
   ['has_5ffrom_5fjson',['has_from_json',['../dc/dac/structnlohmann_1_1detail_1_1has__from__json.html',1,'nlohmann::detail']]],
   ['has_5fnon_5fdefault_5ffrom_5fjson',['has_non_default_from_json',['../d7/d08/structnlohmann_1_1detail_1_1has__non__default__from__json.html',1,'nlohmann::detail']]],

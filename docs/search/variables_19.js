@@ -10,5 +10,5 @@ var searchData=
   ['zcol_5fgvec_5fcount_5fmax_5f',['zcol_gvec_count_max_',['../dc/dd3/classsddk_1_1_f_f_t3_d.html#a2b900e6b74712a24cbecb62b1123ee2c',1,'sddk::FFT3D']]],
   ['zcol_5foffs_5f',['zcol_offs_',['../d7/def/classsddk_1_1_gvec__partition.html#a596e5213a3df246471067aec057a355e',1,'sddk::Gvec_partition']]],
   ['zil_5f',['zil_',['../d1/daf/classsirius_1_1_k__point.html#a63bb5c2fb436b8292cfc9215f488b44a',1,'sirius::K_point']]],
-  ['zn_5f',['zn_',['../d0/d78/classsirius_1_1_radial__solver.html#a7f03ef84b603fa56fa0ee2d263f48eed',1,'sirius::Radial_solver::zn_()'],['../d3/d37/classsirius_1_1_atom__type.html#a8f913917b54707ed690586c8fa53c539',1,'sirius::Atom_type::zn_()']]]
+  ['zn_5f',['zn_',['../d0/d78/classsirius_1_1_radial__solver.html#a7f03ef84b603fa56fa0ee2d263f48eed',1,'sirius::Radial_solver::zn_()'],['../d3/d37/classsirius_1_1_atom__type.html#a8f913917b54707ed690586c8fa53c539',1,'sirius::Atom_type::zn_()'],['../d1/dc9/classsirius_1_1_atom__type__base.html#a19dd33ef444d3cd60dfb7b0f44104bfb',1,'sirius::Atom_type_base::zn_()']]]
 ];

@@ -161,6 +161,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 <tr class="memitem:a87c1461b9ee2cda1a1e87cdc5d09fa92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9b/classsddk_1_1_gvec.html#a87c1461b9ee2cda1a1e87cdc5d09fa92">offset</a> () const</td></tr>
 <tr class="memdesc:a87c1461b9ee2cda1a1e87cdc5d09fa92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset (in the global index) of G-vectors for a fine-grained distribution for a current MPI rank.  <a href="#a87c1461b9ee2cda1a1e87cdc5d09fa92">More...</a><br /></td></tr>
 <tr class="separator:a87c1461b9ee2cda1a1e87cdc5d09fa92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0fad4eedc3ebe0485f196609bb34ea0"><td class="memItemLeft" align="right" valign="top"><a id="aa0fad4eedc3ebe0485f196609bb34ea0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9b/classsddk_1_1_gvec.html#aa0fad4eedc3ebe0485f196609bb34ea0">skip_g0</a> () const</td></tr>
+<tr class="memdesc:aa0fad4eedc3ebe0485f196609bb34ea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local starting index of G-vectors if G=0 is not counted. <br /></td></tr>
+<tr class="separator:aa0fad4eedc3ebe0485f196609bb34ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae57a56b7470b0dd294e104583d45a298"><td class="memItemLeft" align="right" valign="top"><a id="ae57a56b7470b0dd294e104583d45a298"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d9b/classsddk_1_1_gvec.html#ae57a56b7470b0dd294e104583d45a298">num_shells</a> () const</td></tr>
 <tr class="memdesc:ae57a56b7470b0dd294e104583d45a298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of G-vector shells. <br /></td></tr>
@@ -633,7 +637,7 @@ std::vector&lt; <a class="el" href="../../db/dfd/structsddk_1_1z__column__descri
 <p>Return a global G-vector index in the range [0, num_gvec) by the G-vector. </p>
 <p>The information about a G-vector index is encoded by two numbers: a starting index for the column of G-vectors and column's size. Depending on the geometry of the reciprocal lattice, z-columns may have only negative, only positive or both negative and positive frequencies for a given x and y. This information is used to compute the offset which is added to the starting index in order to get a full G-vector index. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00742">742</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00748">748</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -726,7 +730,7 @@ std::vector&lt; <a class="el" href="../../db/dfd/structsddk_1_1z__column__descri
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 20 2018 11:12:31 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

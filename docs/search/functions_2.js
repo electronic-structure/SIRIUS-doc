@@ -27,7 +27,7 @@ var searchData=
   ['comm_5fk',['comm_k',['../d6/d66/classsirius_1_1_simulation__context.html#a8fd0f2befa7502c0da46735f7295e78b',1,'sirius::Simulation_context']]],
   ['communicator',['Communicator',['../da/d70/classsddk_1_1_communicator.html#a1a6949d5b0ab726398e2e72f01a4eeed',1,'sddk::Communicator::Communicator()'],['../da/d70/classsddk_1_1_communicator.html#a74d08c2e24699de2e253407e73e7c1f9',1,'sddk::Communicator::Communicator(MPI_Comm mpi_comm__)'],['../da/d70/classsddk_1_1_communicator.html#abb956271307484b94b358a56c44dcd51',1,'sddk::Communicator::Communicator(Communicator &amp;&amp;src__)']]],
   ['compare_5findex_5fbeta_5ffunctions',['compare_index_beta_functions',['../d3/d37/classsirius_1_1_atom__type.html#a790ca22876f897c2046cb4a3c7d47151',1,'sirius::Atom_type']]],
-  ['compute_5fatomic_5fmag_5fmom',['compute_atomic_mag_mom',['../d7/d05/classsirius_1_1_density.html#a47ed357c44454904f5c42de0d4c3058c',1,'sirius::Density::compute_atomic_mag_mom()'],['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#add5087f10a1458a456082a696fb56393',1,'sirius::DFT_ground_state::compute_atomic_mag_mom()']]],
+  ['compute_5fatomic_5fmag_5fmom',['compute_atomic_mag_mom',['../d7/d05/classsirius_1_1_density.html#a47ed357c44454904f5c42de0d4c3058c',1,'sirius::Density']]],
   ['compute_5fboundaries',['compute_boundaries',['../dc/d41/namespacenlohmann_1_1detail_1_1dtoa__impl.html#a22b6e37654ac93c6d0d9c06ec1bf5ded',1,'nlohmann::detail::dtoa_impl']]],
   ['compute_5fdmat',['compute_dmat',['../d5/d79/classsirius_1_1_force.html#af5b1cd613700d08843a1fab2eb2b1c17',1,'sirius::Force']]],
   ['compute_5fgradient_5fstrain_5fwavefunctions',['compute_gradient_strain_wavefunctions',['../d7/d27/classsirius_1_1_hubbard.html#af07dea229e51dcf925b1a8cedfd4b804',1,'sirius::Hubbard']]],
@@ -52,5 +52,6 @@ var searchData=
   ['create_5fnode',['create_node',['../d7/d90/classsddk_1_1_h_d_f5__tree.html#a5c5adf7113ef8f5332501405407f741b',1,'sddk::HDF5_tree::create_node(int idx)'],['../d7/d90/classsddk_1_1_h_d_f5__tree.html#aa6bb73bf23750034069e6ec0fb684bf8',1,'sddk::HDF5_tree::create_node(const std::string &amp;name)']]],
   ['create_5fstreams',['create_streams',['../d8/d7b/cuda_8hpp.html#a77f2c9031f691d884c7cc734e7ef62d4',1,'acc']]],
   ['crend',['crend',['../d9/dcc/classnlohmann_1_1basic__json.html#a5795b029dbf28e0cb2c7a439ec5d0a88',1,'nlohmann::basic_json']]],
+  ['ctx',['ctx',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#a7dcc7cfdcedde346a816dbc98907bb68',1,'sirius::DFT_ground_state']]],
   ['cufft_5fbatch_5funload_5fgpu',['cufft_batch_unload_gpu',['../d3/d62/fft__kernels_8cu.html#a2ea0f4bccc49380b678c237fd49e0450',1,'cufft_batch_unload_gpu(int fft_size, int num_pw_components, int num_fft, int const *map, cuDoubleComplex const *fft_buffer, cuDoubleComplex *data, double alpha, double beta, int stream_id):&#160;fft_kernels.cu'],['../dc/dac/fft__kernels_8hpp.html#a2ea0f4bccc49380b678c237fd49e0450',1,'cufft_batch_unload_gpu(int fft_size, int num_pw_components, int num_fft, int const *map, cuDoubleComplex const *fft_buffer, cuDoubleComplex *data, double alpha, double beta, int stream_id):&#160;fft_kernels.cu']]]
 ];

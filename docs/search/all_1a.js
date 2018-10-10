@@ -14,5 +14,5 @@ var searchData=
   ['zcol_5foffs_5f',['zcol_offs_',['../d7/def/classsddk_1_1_gvec__partition.html#a596e5213a3df246471067aec057a355e',1,'sddk::Gvec_partition']]],
   ['zero',['zero',['../d0/d6d/classsirius_1_1_periodic__function.html#a96f5eb8ba8a0fc5f2166ab3554185221',1,'sirius::Periodic_function::zero()'],['../d0/d58/classsddk_1_1mdarray__base.html#a3722b90ee023b4c0eac29ce28ac8aa7d',1,'sddk::mdarray_base::zero()'],['../d8/d7b/cuda_8hpp.html#ae7491c0345c430f8b0a92c711e633ef6',1,'acc::zero(T *ptr__, size_t n__)'],['../d8/d7b/cuda_8hpp.html#a4ade204ae91625a90728abe1306c6720',1,'acc::zero(T *ptr__, int ld__, int nrow__, int ncol__)']]],
   ['zil_5f',['zil_',['../d1/daf/classsirius_1_1_k__point.html#a63bb5c2fb436b8292cfc9215f488b44a',1,'sirius::K_point']]],
-  ['zn_5f',['zn_',['../d0/d78/classsirius_1_1_radial__solver.html#a7f03ef84b603fa56fa0ee2d263f48eed',1,'sirius::Radial_solver::zn_()'],['../d3/d37/classsirius_1_1_atom__type.html#a8f913917b54707ed690586c8fa53c539',1,'sirius::Atom_type::zn_()']]]
+  ['zn_5f',['zn_',['../d0/d78/classsirius_1_1_radial__solver.html#a7f03ef84b603fa56fa0ee2d263f48eed',1,'sirius::Radial_solver::zn_()'],['../d3/d37/classsirius_1_1_atom__type.html#a8f913917b54707ed690586c8fa53c539',1,'sirius::Atom_type::zn_()'],['../d1/dc9/classsirius_1_1_atom__type__base.html#a19dd33ef444d3cd60dfb7b0f44104bfb',1,'sirius::Atom_type_base::zn_()']]]
 ];

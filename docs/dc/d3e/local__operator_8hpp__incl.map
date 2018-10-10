@@ -1,39 +1,45 @@
 <map id="local_operator.hpp" name="local_operator.hpp">
-<area shape="rect" id="node2" href="$de/df2/potential_8hpp.html" title="Contains declaration and partial implementation of sirius::Potential class. " alt="" coords="1714,80,1867,107"/>
-<area shape="rect" id="node3" href="$d3/d6a/periodic__function_8hpp.html" title="Contains declaration and partial implementation of sirius::Periodic_function class. " alt="" coords="628,251,777,278"/>
-<area shape="rect" id="node4" href="$d5/d5b/simulation__context_8h.html" title="Contains definition and implementation of Simulation_context class. " alt="" coords="364,333,508,360"/>
-<area shape="rect" id="node34" href="$d0/d9a/density_8hpp.html" title="Contains definition and partial implementation of sirius::Density class. " alt="" coords="1465,162,1604,189"/>
-<area shape="rect" id="node46" href="$d9/d3d/generate__d__operator__matrix_8hpp.html" title="Contains implementation of sirius::Potential::generate_D_operator_matrix method. " alt="" coords="1628,155,1775,196"/>
-<area shape="rect" id="node47" href="$de/d98/generate__pw__coefs_8hpp.html" title="Generate plane&#45;wave coefficients of the potential for the LAPW Hamiltonian. " alt="" coords="1799,162,1963,189"/>
-<area shape="rect" id="node48" href="$d3/d59/xc_8hpp.html" title="Generate XC potential. " alt="" coords="1988,162,2049,189"/>
-<area shape="rect" id="node49" href="$df/d0f/poisson_8hpp.html" title="Implementation of the Poisson solver for the full&#45;potential muffin&#45;tin case. " alt="" coords="2073,162,2167,189"/>
-<area shape="rect" id="node50" href="$d6/d77/paw__potential_8hpp.html" title="Generate PAW potential. " alt="" coords="2191,162,2321,189"/>
-<area shape="rect" id="node27" href="$db/d16/spheric__function_8h.html" title="Contains declaration and implementation of sirius::Spheric_function and sirius::Spheric_function_grad..." alt="" coords="867,572,997,599"/>
-<area shape="rect" id="node33" href="$d6/ddf/smooth__periodic__function_8hpp.html" title="Contains declaration and implementation of sirius::Smooth_periodic_function and sirius::Smooth_period..." alt="" coords="792,333,992,360"/>
-<area shape="rect" id="node7" href="$d1/de1/simulation__parameters_8h.html" title="Contains definition and implementation of sirius::Simulation_parameters_base class. " alt="" coords="56,721,224,748"/>
-<area shape="rect" id="node10" href="$d1/d76/mpi__grid_8hpp.html" title="Contains declaration and implementation of sddk::MPI_grid class. " alt="" coords="261,721,360,748"/>
-<area shape="rect" id="node14" href="$d8/d7b/cuda_8hpp.html" title="Interface to CUDA related functions. " alt="" coords="96,871,205,897"/>
-<area shape="rect" id="node16" href="$d4/df7/radial__integrals_8hpp.html" title="Representation of various radial integrals. " alt="" coords="140,497,279,524"/>
-<area shape="rect" id="node19" href="$df/d93/utils_8hpp.html" title="A collection of utility functions. " alt="" coords="562,796,673,823"/>
-<area shape="rect" id="node25" href="$d5/dc0/memory__pool_8hpp.html" title="Contains implementation of simple memory pool object. " alt="" coords="371,415,501,442"/>
-<area shape="rect" id="node26" href="$d3/d1c/augmentation__operator_8hpp.html" title="Contains implementation of sirius::Augmentation_operator class. " alt="" coords="145,408,295,449"/>
-<area shape="rect" id="node8" href="$d7/d69/typedefs_8h.html" title="Contains typedefs, enums and type_wrapper class. " alt="" coords="137,796,221,823"/>
-<area shape="rect" id="node9" href="$de/ded/input_8h.html" title="Contains input parameters structures. " alt="" coords="50,796,113,823"/>
-<area shape="rect" id="node11" href="$d4/d32/communicator_8hpp.html" title="Contains declaration and implementation of sddk::Communicator class. " alt="" coords="245,796,377,823"/>
-<area shape="rect" id="node17" href="$d4/d91/unit__cell_8hpp.html" title="Contains definition and partial implementation of sirius::Unit_cell class. " alt="" coords="144,647,296,673"/>
-<area shape="rect" id="node18" href="$d1/d2b/sbessel_8hpp.html" title="Contains implementation of sirius::Spherical_Bessel_functions classe. " alt="" coords="123,572,216,599"/>
-<area shape="rect" id="node30" href="$dc/da1/radial__grid_8h.html" title="Contains declaraion and partial implementation of sirius::Radial_grid class. " alt="" coords="988,721,1084,748"/>
-<area shape="rect" id="node31" href="$dd/d09/spline_8h.html" title="Contains definition and partial implementaiton of sirius::Spline class. " alt="" coords="1006,647,1074,673"/>
-<area shape="rect" id="node32" href="$d0/db9/sht_8hpp.html" title="Contains declaration and particular implementation of sirius::SHT class. " alt="" coords="741,647,837,673"/>
-<area shape="rect" id="node35" href="$db/da2/field4d_8hpp.html" title="Base class for sirius::Density and sirius::Potential. " alt="" coords="2063,251,2150,278"/>
-<area shape="rect" id="node36" href="$d3/de4/k__point__set_8hpp.html" title="Contains declaration and partial implementation of sirius::K_point_set class. " alt="" coords="2175,251,2340,278"/>
-<area shape="rect" id="node37" href="$d2/d69/mixer_8h.html" title="Contains definition and implementation of sirius::Mixer, sirius::Linear_mixer, sirius::Broyden1 and s..." alt="" coords="2365,251,2430,278"/>
-<area shape="rect" id="node38" href="$de/d63/initial__density_8hpp.html" title="Compute initial charge density. " alt="" coords="2455,251,2583,278"/>
-<area shape="rect" id="node39" href="$df/d37/add__k__point__contribution__rg_8hpp.html" title="Contains implementation of sirius::Density::add_k_point_contribution_rg() function. " alt="" coords="801,244,972,285"/>
-<area shape="rect" id="node40" href="$d4/d81/add__k__point__contribution__dm_8hpp.html" title="Contains implementation of sirius::Density::add_k_point_contribution_dm() function. " alt="" coords="996,244,1167,285"/>
-<area shape="rect" id="node41" href="$dc/df3/generate__valence_8hpp.html" title="Generate valence charge density (sum of occupied bands). " alt="" coords="1191,251,1345,278"/>
-<area shape="rect" id="node42" href="$dd/d8d/generate__rho__aug_8hpp.html" title="Generate augmentation charge. " alt="" coords="1369,251,1527,278"/>
-<area shape="rect" id="node43" href="$df/dbc/symmetrize__density__matrix_8hpp.html" title="Symmetrization of a density matrix. " alt="" coords="1551,244,1691,285"/>
-<area shape="rect" id="node44" href="$d1/d4d/generate__valence__mt_8hpp.html" title="Generate LAPW valence density in the muffin&#45;tins. " alt="" coords="1716,251,1892,278"/>
-<area shape="rect" id="node45" href="$d4/d2c/paw__density_8hpp.html" title="Generate PAW density. " alt="" coords="1916,251,2039,278"/>
+<area shape="rect" id="node2" href="$de/df2/potential_8hpp.html" title="Contains declaration and partial implementation of sirius::Potential class. " alt="" coords="3220,80,3373,107"/>
+<area shape="rect" id="node3" href="$d0/d9a/density_8hpp.html" title="Contains definition and partial implementation of sirius::Density class. " alt="" coords="2813,162,2951,189"/>
+<area shape="rect" id="node46" href="$d9/d3d/generate__d__operator__matrix_8hpp.html" title="Contains implementation of sirius::Potential::generate_D_operator_matrix method. " alt="" coords="2975,155,3122,196"/>
+<area shape="rect" id="node47" href="$de/d98/generate__pw__coefs_8hpp.html" title="Generate plane&#45;wave coefficients of the potential for the LAPW Hamiltonian. " alt="" coords="3147,162,3311,189"/>
+<area shape="rect" id="node48" href="$d3/d59/xc_8hpp.html" title="Generate XC potential. " alt="" coords="3335,162,3397,189"/>
+<area shape="rect" id="node49" href="$df/d0f/poisson_8hpp.html" title="Implementation of the Poisson solver for the full&#45;potential muffin&#45;tin case. " alt="" coords="3421,162,3514,189"/>
+<area shape="rect" id="node50" href="$d6/d77/paw__potential_8hpp.html" title="Generate PAW potential. " alt="" coords="3538,162,3669,189"/>
+<area shape="rect" id="node4" href="$db/da2/field4d_8hpp.html" title="Base class for sirius::Density and sirius::Potential. " alt="" coords="2108,251,2195,278"/>
+<area shape="rect" id="node5" href="$d3/d6a/periodic__function_8hpp.html" title="Contains declaration and partial implementation of sirius::Periodic_function class. " alt="" coords="2270,251,2419,278"/>
+<area shape="rect" id="node24" href="$d3/de4/k__point__set_8hpp.html" title="Contains declaration and partial implementation of sirius::K_point_set class. " alt="" coords="1442,333,1607,360"/>
+<area shape="rect" id="node37" href="$da/d9e/mixer_8hpp_source.html" title="mixer.hpp" alt="" coords="2443,251,2523,278"/>
+<area shape="rect" id="node38" href="$de/d63/initial__density_8hpp.html" title="Compute initial charge density. " alt="" coords="2547,251,2675,278"/>
+<area shape="rect" id="node39" href="$df/d37/add__k__point__contribution__rg_8hpp.html" title="Contains implementation of sirius::Density::add_k_point_contribution_rg() function. " alt="" coords="2699,244,2870,285"/>
+<area shape="rect" id="node40" href="$d4/d81/add__k__point__contribution__dm_8hpp.html" title="Contains implementation of sirius::Density::add_k_point_contribution_dm() function. " alt="" coords="2894,244,3065,285"/>
+<area shape="rect" id="node41" href="$dc/df3/generate__valence_8hpp.html" title="Generate valence charge density (sum of occupied bands). " alt="" coords="3089,251,3243,278"/>
+<area shape="rect" id="node42" href="$dd/d8d/generate__rho__aug_8hpp.html" title="Generate augmentation charge. " alt="" coords="3267,251,3425,278"/>
+<area shape="rect" id="node43" href="$df/dbc/symmetrize__density__matrix_8hpp.html" title="Symmetrization of a density matrix. " alt="" coords="3449,244,3589,285"/>
+<area shape="rect" id="node44" href="$d1/d4d/generate__valence__mt_8hpp.html" title="Generate LAPW valence density in the muffin&#45;tins. " alt="" coords="3614,251,3790,278"/>
+<area shape="rect" id="node45" href="$d4/d2c/paw__density_8hpp.html" title="Generate PAW density. " alt="" coords="3814,251,3937,278"/>
+<area shape="rect" id="node6" href="$d1/db8/simulation__context_8hpp.html" title="Contains definition and implementation of Simulation_context class. " alt="" coords="2164,333,2323,360"/>
+<area shape="rect" id="node18" href="$d0/df9/spheric__function_8hpp.html" title="Contains declaration and implementation of sirius::Spheric_function and sirius::Spheric_function_grad..." alt="" coords="2780,333,2925,360"/>
+<area shape="rect" id="node23" href="$d6/ddf/smooth__periodic__function_8hpp.html" title="Contains declaration and implementation of sirius::Smooth_periodic_function and sirius::Smooth_period..." alt="" coords="2347,333,2547,360"/>
+<area shape="rect" id="node9" href="$de/d06/simulation__parameters_8hpp.html" title="Contains definition and implementation of sirius::Simulation_parameters_base class. " alt="" coords="1859,415,2041,442"/>
+<area shape="rect" id="node10" href="$d1/d76/mpi__grid_8hpp.html" title="Contains declaration and implementation of sddk::MPI_grid class. " alt="" coords="2066,415,2165,442"/>
+<area shape="rect" id="node11" href="$d4/df7/radial__integrals_8hpp.html" title="Representation of various radial integrals. " alt="" coords="2478,505,2617,531"/>
+<area shape="rect" id="node12" href="$df/d93/utils_8hpp.html" title="A collection of utility functions. " alt="" coords="1465,415,1576,442"/>
+<area shape="rect" id="node14" href="$d5/dc0/memory__pool_8hpp.html" title="Contains implementation of simple memory pool object. " alt="" coords="2323,415,2452,442"/>
+<area shape="rect" id="node15" href="$d3/d1c/augmentation__operator_8hpp.html" title="Contains implementation of sirius::Augmentation_operator class. " alt="" coords="2528,408,2679,449"/>
+<area shape="rect" id="node16" href="$d8/d7b/cuda_8hpp.html" title="Interface to CUDA related functions. " alt="" coords="2189,415,2298,442"/>
+<area shape="rect" id="node21" href="$d9/d05/spline_8hpp.html" title="Contains definition and partial implementaiton of sirius::Spline class. " alt="" coords="3018,415,3101,442"/>
+<area shape="rect" id="node22" href="$d0/db9/sht_8hpp.html" title="Contains declaration and particular implementation of sirius::SHT class. " alt="" coords="2805,415,2901,442"/>
+<area shape="rect" id="node25" href="$d3/d9a/k__point_8hpp.html" title="Contains definition and partial implementation of sirius::K_point class. " alt="" coords="793,415,883,442"/>
+<area shape="rect" id="node35" href="$d6/d99/geometry3d_8hpp.html" title="Simple classes and functions to work with the 3D vectors and matrices of the crystal lattice..." alt="" coords="1600,415,1719,442"/>
+<area shape="rect" id="node36" href="$d5/df3/smearing_8hpp.html" title="Smearing functions used in finding the band occupancies. " alt="" coords="1339,415,1441,442"/>
+<area shape="rect" id="node26" href="$db/d47/matching__coefficients_8hpp.html" title="Contains definition and partial implementation of sirius::Matching_coefficients class. " alt="" coords="1026,505,1202,531"/>
+<area shape="rect" id="node27" href="$d0/d85/beta__projectors_8hpp.html" title="Contains declaration and implementation of sirius::Beta_projectors class. " alt="" coords="1227,497,1372,539"/>
+<area shape="rect" id="node28" href="$d7/de9/wave__functions_8hpp.html" title="Contains declaration and implementation of Wave_functions class. " alt="" coords="1396,505,1536,531"/>
+<area shape="rect" id="node29" href="$d6/dcb/generate__fv__states_8hpp.html" title="Contains implementation of sirius::K_point::generate_fv_states method. " alt="" coords="5,505,167,531"/>
+<area shape="rect" id="node30" href="$d1/dfa/generate__spinor__wave__functions_8hpp.html" title="Generate LAPW spinor wave functions from first&#45;variational states. " alt="" coords="191,497,349,539"/>
+<area shape="rect" id="node31" href="$d6/d78/generate__gklo__basis_8hpp.html" title="Generate LAPW basis of G+k augmented plane waves and local orbitals. " alt="" coords="373,505,543,531"/>
+<area shape="rect" id="node32" href="$d4/dd6/initialize_8hpp.html" title="Initialize sirius::K_point class. " alt="" coords="567,505,663,531"/>
+<area shape="rect" id="node33" href="$d4/d32/test__fv__states_8hpp.html" title="Test orthonormalisation of first&#45;variational states. " alt="" coords="687,505,818,531"/>
+<area shape="rect" id="node34" href="$d7/d13/generate__atomic__wave__functions_8hpp.html" title="Generation of initial guess atomic wave&#45;functions. " alt="" coords="842,497,1002,539"/>
 </map>

@@ -2,6 +2,7 @@ var searchData=
 [
   ['l',['l',['../d8/ddb/structatomic__level__descriptor.html#ad0bb3ad2f4eab20df397def844ff210f',1,'atomic_level_descriptor::l()'],['../df/d32/structradial__solution__descriptor.html#a006a1f6f6efe200121f1ff1168581828',1,'radial_solution_descriptor::l()'],['../dd/dee/structlocal__orbital__descriptor.html#af7230f942b0a7fea1328b8ba180b4043',1,'local_orbital_descriptor::l()'],['../d8/d59/structlo__basis__descriptor.html#a8e71167cce641d248983f6632958295c',1,'lo_basis_descriptor::l()'],['../d3/d98/structsirius_1_1basis__function__index__descriptor.html#a6867089e2fda2551cdcc67acf4b01985',1,'sirius::basis_function_index_descriptor::l()']]],
   ['l1norm',['l1norm',['../d2/d6b/classgeometry3d_1_1vector3d.html#a87859bbfbaa0c86cfe1c27ec1a5c9e9c',1,'geometry3d::vector3d']]],
+  ['l_5fby_5flm',['l_by_lm',['../d6/d84/namespaceutils.html#a7d4fab4c89b0c097ef913263d9983895',1,'utils']]],
   ['l_5fby_5flm_5f',['l_by_lm_',['../d7/d05/classsirius_1_1_density.html#ade06e0d3019316f0cf544a5bc2303776',1,'sirius::Density::l_by_lm_()'],['../d1/daf/classsirius_1_1_k__point.html#afcd70ca076b5714dfbc9ceb8503299b6',1,'sirius::K_point::l_by_lm_()']]],
   ['label_5f',['label_',['../d0/d58/classsddk_1_1mdarray__base.html#ac901c98b22f5d42b0a1a57a097e43904',1,'sddk::mdarray_base::label_()'],['../db/d56/classsddk_1_1profiler.html#abd35b0d66ff447123ec280bbc0857471',1,'sddk::profiler::label_()'],['../d3/d37/classsirius_1_1_atom__type.html#ad79bc28c0df0bc7819723e8013fba602',1,'sirius::Atom_type::label_()'],['../d4/ddf/classutils_1_1timer.html#a79befe92c59962e0e3bcf4fb3c0989da',1,'utils::timer::label_()']]],
   ['labels_5f',['labels_',['../d7/d51/structsirius_1_1_unit__cell__input.html#ab0bf3aa24b528372331857d82463e4ee',1,'sirius::Unit_cell_input']]],
@@ -38,6 +39,7 @@ var searchData=
   ['literal_5ftrue',['literal_true',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#a3f313cdbe187cababfc5e06f0b69b098a85cc1a37b0aaa52de40e72f0ed4e0c0d',1,'nlohmann::detail::lexer']]],
   ['little_5fendianess',['little_endianess',['../d6/d30/classnlohmann_1_1detail_1_1binary__reader.html#a1d8f70f95d241354f86a0b9ae711c1c3',1,'nlohmann::detail::binary_reader']]],
   ['lm',['lm',['../d8/d59/structlo__basis__descriptor.html#ae2fb8ed488b4b69f0785c05d2c798c4e',1,'lo_basis_descriptor::lm()'],['../d3/d98/structsirius_1_1basis__function__index__descriptor.html#a0b782d1371c3476fab43d1d324776149',1,'sirius::basis_function_index_descriptor::lm()'],['../d6/d84/namespaceutils.html#a6964b8e209d9d6c8e077097675c8b7de',1,'utils::lm()']]],
+  ['lmax',['lmax',['../d6/d84/namespaceutils.html#a8db36672f4a37cd94b95484cc18c59fa',1,'utils']]],
   ['lmax1_5f',['lmax1_',['../de/dfd/classsirius_1_1_gaunt__coefficients.html#a8ddbcceeffa0ce2992080d8a671c023d',1,'sirius::Gaunt_coefficients']]],
   ['lmax2_5f',['lmax2_',['../de/dfd/classsirius_1_1_gaunt__coefficients.html#adac237ddd6c522f74e5f97e1ebcaceb9',1,'sirius::Gaunt_coefficients']]],
   ['lmax3_5f',['lmax3_',['../de/dfd/classsirius_1_1_gaunt__coefficients.html#a9491247cb6d44417403af75a42aac68a',1,'sirius::Gaunt_coefficients']]],

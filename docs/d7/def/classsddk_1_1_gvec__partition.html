@@ -153,7 +153,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memdesc:a1eea4c78b08ef2467324140d1a4044ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate offsets of z-columns inside each local buffer of PW coefficients. <br /></td></tr>
 <tr class="separator:a1eea4c78b08ef2467324140d1a4044ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cf19cbdd18899f96a58d79dc8b71894"><td class="memItemLeft" align="right" valign="top"><a id="a8cf19cbdd18899f96a58d79dc8b71894"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>pile_gvec</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html#a8cf19cbdd18899f96a58d79dc8b71894">pile_gvec</a> ()</td></tr>
+<tr class="memdesc:a8cf19cbdd18899f96a58d79dc8b71894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stack together the G-vector slabs to make a larger ("fat") slab for a FFT driver. <br /></td></tr>
 <tr class="separator:a8cf19cbdd18899f96a58d79dc8b71894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -199,7 +200,7 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Stores information about G-vector partitioning between MPI ranks for the FFT transformation. </p>
 <p>FFT driver works with a small communicator. G-vectors are distributed over the entire communicator which is larger than the FFT communicator. In order to transform the functions, G-vectors must be redistributed to the FFT-friendly "fat" slabs based on the FFT communicator size. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00904">904</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00910">910</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a596e5213a3df246471067aec057a355e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a596e5213a3df246471067aec057a355e">&#9670;&nbsp;</a></span>zcol_offs_</h2>
@@ -224,7 +225,7 @@ Private Attributes</h2></td></tr>
 <p>Offset of the z-column in the local data buffer. </p>
 <p>Global index of z-column is expected </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00926">926</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00932">932</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -251,7 +252,7 @@ Private Attributes</h2></td></tr>
 <p>Global index of z-column in new (fat-slab) distrubution. </p>
 <p>This is a mapping between new and original ordering of z-columns. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00932">932</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00938">938</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -261,7 +262,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 20 2018 11:12:31 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

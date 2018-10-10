@@ -20,6 +20,7 @@ var searchData=
   ['diff',['diff',['../d9/dcc/classnlohmann_1_1basic__json.html#a543bd5f7490de54c875b2c0912dc9a49',1,'nlohmann::basic_json']]],
   ['dismiss',['dismiss',['../d6/dfb/classsirius_1_1_local__operator.html#adeed051901f299991309fd2341aea1d9',1,'sirius::Local_operator']]],
   ['distribute_5fz_5fcolumns',['distribute_z_columns',['../dc/d9b/classsddk_1_1_gvec.html#a774a4e2d37d31b7eec8e36c05fb98093',1,'sddk::Gvec']]],
+  ['double_5fto_5fstring',['double_to_string',['../d6/d84/namespaceutils.html#a4d19967ca71e21b3343b93e4684d71cf',1,'utils']]],
   ['drlm_5fdphi_5fsin_5ftheta',['dRlm_dphi_sin_theta',['../d1/d08/classsirius_1_1_s_h_t.html#a9ff5f893473b98d1a5dbb5ab51dda895',1,'sirius::SHT']]],
   ['drlm_5fdr',['dRlm_dr',['../d1/d08/classsirius_1_1_s_h_t.html#a5ec0d7dc515b55cd9fbae31d37a22308',1,'sirius::SHT']]],
   ['drlm_5fdtheta',['dRlm_dtheta',['../d1/d08/classsirius_1_1_s_h_t.html#a6b1a2e48290e6b400b90b96b1ed97886',1,'sirius::SHT']]],

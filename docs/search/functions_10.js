@@ -18,8 +18,9 @@ var searchData=
   ['reset',['reset',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#acba34bc18af19f93186e682d02c3942d',1,'nlohmann::detail::lexer::reset()'],['../d8/d7b/cuda_8hpp.html#aeaaf3c79c6e10a322dbfee4face9aea8',1,'acc::reset()']]],
   ['residuals',['residuals',['../d5/d1f/classsirius_1_1_band.html#a1fcfa9e22eac0a2781d03792c5166fcb',1,'sirius::Band']]],
   ['residuals_5faux',['residuals_aux',['../d5/d1f/classsirius_1_1_band.html#a700c3b4a50e349a11112507710e80ba0',1,'sirius::Band']]],
+  ['rho',['rho',['../db/d31/classsirius_1_1_bound__state.html#a23abb744d4d7ff2a30cfb6b412860173',1,'sirius::Bound_state']]],
   ['rms_5fdeviation',['rms_deviation',['../d1/d76/classsirius_1_1_mixer.html#acb065062533d0831f26855dcbb43a624',1,'sirius::Mixer']]],
-  ['rnd',['rnd',['../d7/d69/typedefs_8h.html#aa7c9acf7857577576f5a1a9e3ea1338e',1,'typedefs.h']]],
+  ['rnd',['rnd',['../d6/d84/namespaceutils.html#a957c9090934b88d3168905a56de04350',1,'utils']]],
   ['rot_5fmtrx_5fcart',['rot_mtrx_cart',['../d0/d56/classsirius_1_1_unit__cell__symmetry.html#a28437ea331870436ff2574a99eaa5274',1,'sirius::Unit_cell_symmetry']]],
   ['rotation_5fmatrix_5fsu2',['rotation_matrix_su2',['../d1/d08/classsirius_1_1_s_h_t.html#a7735cdb1028f52dc1b48902a22754095',1,'sirius::SHT']]]
 ];

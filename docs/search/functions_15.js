@@ -7,5 +7,6 @@ var searchData=
   ['write_5fcbor',['write_cbor',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#aa0ab8d27fd88a33a2f801413ac4c7fbc',1,'nlohmann::detail::binary_writer']]],
   ['write_5fcif',['write_cif',['../d6/dd1/classsirius_1_1_unit__cell.html#a948f43cc5840cb1021494c45628043d4',1,'sirius::Unit_cell']]],
   ['write_5fmsgpack',['write_msgpack',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#ae4e0852b64102ce4b07d99f08f828b7c',1,'nlohmann::detail::binary_writer']]],
-  ['write_5fubjson',['write_ubjson',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#a0f6c65053d859269f88eb4ebb0cd7060',1,'nlohmann::detail::binary_writer']]]
+  ['write_5fubjson',['write_ubjson',['../df/d1a/classnlohmann_1_1detail_1_1binary__writer.html#a0f6c65053d859269f88eb4ebb0cd7060',1,'nlohmann::detail::binary_writer']]],
+  ['wtime',['wtime',['../d6/d84/namespaceutils.html#a354f689f5888cfb5de83be4ef44c88b5',1,'utils']]]
 ];

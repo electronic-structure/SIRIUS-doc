@@ -9,6 +9,7 @@ var searchData=
   ['atom_2ehpp',['atom.hpp',['../de/d6d/atom_8hpp.html',1,'']]],
   ['atom_5fsymmetry_5fclass_2ehpp',['atom_symmetry_class.hpp',['../d6/d50/atom__symmetry__class_8hpp.html',1,'']]],
   ['atom_5ftype_2ehpp',['atom_type.hpp',['../db/df7/atom__type_8hpp.html',1,'']]],
+  ['atom_5ftype_5fbase_2ehpp',['atom_type_base.hpp',['../de/dfd/atom__type__base_8hpp.html',1,'']]],
   ['atomic_5fdata_2ehpp',['atomic_data.hpp',['../d0/d41/atomic__data_8hpp.html',1,'']]],
   ['augmentation_5foperator_2ehpp',['augmentation_operator.hpp',['../d3/d1c/augmentation__operator_8hpp.html',1,'']]]
 ];

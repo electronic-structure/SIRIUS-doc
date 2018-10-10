@@ -6,6 +6,7 @@ var searchData=
   ['decimal_5fpoint',['decimal_point',['../d4/d0a/classnlohmann_1_1detail_1_1serializer.html#a311e5d6f4b31d5be0eb3c0cb20b6965a',1,'nlohmann::detail::serializer']]],
   ['decimal_5fpoint_5fchar',['decimal_point_char',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#a16593b0475f6d1cddd5eaf7c045771f3',1,'nlohmann::detail::lexer']]],
   ['deleter_5f',['deleter_',['../d8/de7/classutils_1_1any__ptr.html#a3f4875844dd472330f010da565db786c',1,'utils::any_ptr']]],
+  ['density_5f',['density_',['../d6/d4c/classsirius_1_1_d_f_t__ground__state.html#a3198d0356e087ee84fe8c2d0fbf5e3db',1,'sirius::DFT_ground_state']]],
   ['density_5fmatrix_5f',['density_matrix_',['../d7/d05/classsirius_1_1_density.html#aae98b9da0334e70ab463a59ed0afe75d',1,'sirius::Density']]],
   ['depth',['depth',['../df/d6b/classnlohmann_1_1detail_1_1parser.html#a49dca6af052e9cab3a48dc1eaa163063',1,'nlohmann::detail::parser']]],
   ['desc_5f',['desc_',['../d5/de6/structsirius_1_1beta__chunk__t.html#a842af7d2f321ee9ca94452f3a6d1b983',1,'sirius::beta_chunk_t']]],
