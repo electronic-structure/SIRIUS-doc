@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -98,14 +98,16 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/db9/wave__functions_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/db9/wave__functions_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d7/de9/wave__functions_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classsddk_1_1spin__idx.html">sddk::spin_idx</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class to wrap spin index (integer number).  <a href="../../d6/dc9/classsddk_1_1spin__idx.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">sddk::Wave_functions</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wave-functions representation.  <a href="../../d9/d04/classsddk_1_1_wave__functions.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,10 +126,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>add_square_sum_gpu</b
 <tr class="memitem:a6bff23eedd22f9370337888e72418e7c"><td class="memItemLeft" align="right" valign="top"><a id="a6bff23eedd22f9370337888e72418e7c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>add_checksum_gpu</b> (double_complex *wf__, int num_rows_loc__, int nwf__, double_complex *result__)</td></tr>
 <tr class="separator:a6bff23eedd22f9370337888e72418e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8abbbc05d2052f531ede46c36c74b8e"><td class="memItemLeft" align="right" valign="top"><a id="ad8abbbc05d2052f531ede46c36c74b8e"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4d/namespacesddk.html#ad8abbbc05d2052f531ede46c36c74b8e">sddk::get_spins</a> (int ispn__)</td></tr>
+<tr class="memdesc:ad8abbbc05d2052f531ede46c36c74b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function: get a list of spin-indices. <br /></td></tr>
+<tr class="separator:ad8abbbc05d2052f531ede46c36c74b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a400657a70f2386a5c9f424c31f7a50e8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a400657a70f2386a5c9f424c31f7a50e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d4d/namespacesddk.html#a400657a70f2386a5c9f424c31f7a50e8">sddk::inner</a> (<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;bra__, int i0__, int m__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;ket__, int j0__, int n__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;result__, int irow0__, int jcol0__)</td></tr>
 <tr class="memdesc:a400657a70f2386a5c9f424c31f7a50e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inner product between wave-functions.  <a href="../../d6/d4d/namespacesddk.html#a400657a70f2386a5c9f424c31f7a50e8">More...</a><br /></td></tr>
 <tr class="separator:a400657a70f2386a5c9f424c31f7a50e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c7cfdc9dcc814d96a18ec16d75fbe34"><td class="memTemplParams" colspan="2"><a id="a7c7cfdc9dcc814d96a18ec16d75fbe34"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7c7cfdc9dcc814d96a18ec16d75fbe34"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::inner_local</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;bra__, int i0__, int m__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;ket__, int j0__, int n__, T *beta__, T *buf__, int ld__, <a class="el" href="../../d3/d99/classstream__id.html">stream_id</a> sid__)</td></tr>
+<tr class="separator:a7c7cfdc9dcc814d96a18ec16d75fbe34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0745b98cfaa99938bf80889ae71553f"><td class="memTemplParams" colspan="2"><a id="aa0745b98cfaa99938bf80889ae71553f"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:aa0745b98cfaa99938bf80889ae71553f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::inner_local&lt; double &gt;</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;bra__, int i0__, int m__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;ket__, int j0__, int n__, double *beta__, double *buf__, int ld__, <a class="el" href="../../d3/d99/classstream__id.html">stream_id</a> sid__)</td></tr>
+<tr class="separator:aa0745b98cfaa99938bf80889ae71553f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21d305db6f6bbc3a0fe066fed3c323e8"><td class="memTemplParams" colspan="2"><a id="a21d305db6f6bbc3a0fe066fed3c323e8"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a21d305db6f6bbc3a0fe066fed3c323e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::inner_local&lt; double_complex &gt;</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;bra__, int i0__, int m__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;ket__, int j0__, int n__, double_complex *beta__, double_complex *buf__, int ld__, <a class="el" href="../../d3/d99/classstream__id.html">stream_id</a> sid__)</td></tr>
+<tr class="separator:a21d305db6f6bbc3a0fe066fed3c323e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af103c09b5fe6680d11a23e56ed07e5a5"><td class="memTemplParams" colspan="2"><a id="af103c09b5fe6680d11a23e56ed07e5a5"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af103c09b5fe6680d11a23e56ed07e5a5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::inner</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;bra__, int i0__, int m__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;ket__, int j0__, int n__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;result__, int irow0__, int jcol0__)</td></tr>
+<tr class="separator:af103c09b5fe6680d11a23e56ed07e5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ebeb873c609029e179e6e6c1b28a9dd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0ebeb873c609029e179e6e6c1b28a9dd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d4d/namespacesddk.html#a0ebeb873c609029e179e6e6c1b28a9dd">sddk::transform</a> (<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__, int ispn__, double alpha__, std::vector&lt; <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> *&gt; wf_in__, int i0__, int m__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx__, int irow0__, int jcol0__, double beta__, std::vector&lt; <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> *&gt; wf_out__, int j0__, int n__)</td></tr>
 <tr class="memdesc:a0ebeb873c609029e179e6e6c1b28a9dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear transformation of the wave-functions.  <a href="../../d6/d4d/namespacesddk.html#a0ebeb873c609029e179e6e6c1b28a9dd">More...</a><br /></td></tr>
@@ -144,6 +166,18 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a48c9329f57cb123116bee8d4a1d7ec6a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::transform</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;wf_in__, int i0__, int m__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx__, int irow0__, int jcol0__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;wf_out__, int j0__, int n__)</td></tr>
 <tr class="separator:a48c9329f57cb123116bee8d4a1d7ec6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf3cd403cbc94a7af841a911696b80ca"><td class="memTemplParams" colspan="2"><a id="acf3cd403cbc94a7af841a911696b80ca"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:acf3cd403cbc94a7af841a911696b80ca"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::transform</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, double alpha__, std::vector&lt; <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> *&gt; wf_in__, int i0__, int m__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx__, int irow0__, int jcol0__, double beta__, std::vector&lt; <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> *&gt; wf_out__, int j0__, int n__)</td></tr>
+<tr class="separator:acf3cd403cbc94a7af841a911696b80ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0665527d85cc3cd70ed8c49d94cd33"><td class="memTemplParams" colspan="2"><a id="a3b0665527d85cc3cd70ed8c49d94cd33"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3b0665527d85cc3cd70ed8c49d94cd33"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::transform</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, std::vector&lt; <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> *&gt; wf_in__, int i0__, int m__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx__, int irow0__, int jcol0__, std::vector&lt; <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> *&gt; wf_out__, int j0__, int n__)</td></tr>
+<tr class="separator:a3b0665527d85cc3cd70ed8c49d94cd33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50b1aee0c58de7fe8b9fdd2af29d2e1"><td class="memTemplParams" colspan="2"><a id="ab50b1aee0c58de7fe8b9fdd2af29d2e1"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab50b1aee0c58de7fe8b9fdd2af29d2e1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::transform</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;wf_in__, int i0__, int m__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;mtrx__, int irow0__, int jcol0__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;wf_out__, int j0__, int n__)</td></tr>
+<tr class="separator:ab50b1aee0c58de7fe8b9fdd2af29d2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58c39fe8da7afbba6bc2703ab63759b7"><td class="memTemplParams" colspan="2"><a id="a58c39fe8da7afbba6bc2703ab63759b7"></a>
 template&lt;typename T , int idx_bra__, int idx_ket__&gt; </td></tr>
 <tr class="memitem:a58c39fe8da7afbba6bc2703ab63759b7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d4d/namespacesddk.html#a58c39fe8da7afbba6bc2703ab63759b7">sddk::orthogonalize</a> (<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__, int ispn__, std::vector&lt; <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> *&gt; wfs__, int N__, int n__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;o__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;tmp__)</td></tr>
@@ -157,6 +191,14 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad02925daf9e37b5ae6f254927a1468db"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::orthogonalize</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a> pu__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;phi__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;hphi__, int N__, int n__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;o__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;tmp__)</td></tr>
 <tr class="separator:ad02925daf9e37b5ae6f254927a1468db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00581b9ae2a776fe348fe4e954bec99d"><td class="memTemplParams" colspan="2"><a id="a00581b9ae2a776fe348fe4e954bec99d"></a>
+template&lt;typename T , int idx_bra__, int idx_ket__&gt; </td></tr>
+<tr class="memitem:a00581b9ae2a776fe348fe4e954bec99d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::orthogonalize</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, std::vector&lt; <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> *&gt; wfs__, int N__, int n__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;o__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;tmp__)</td></tr>
+<tr class="separator:a00581b9ae2a776fe348fe4e954bec99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af93a3f7dcdda81cf783f00a2dce8b7ca"><td class="memTemplParams" colspan="2"><a id="af93a3f7dcdda81cf783f00a2dce8b7ca"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af93a3f7dcdda81cf783f00a2dce8b7ca"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>sddk::orthogonalize</b> (<a class="el" href="../../d6/d4d/namespacesddk.html#ad724f3c5b07010419730c654a1767283">memory_t</a> mem__, linalg_t la__, int ispn__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;phi__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;hphi__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;ophi__, int N__, int n__, <a class="el" href="../../dc/deb/classsddk_1_1dmatrix.html">dmatrix</a>&lt; T &gt; &amp;o__, <a class="el" href="../../d9/d04/classsddk_1_1_wave__functions.html">Wave_functions</a> &amp;tmp__)</td></tr>
+<tr class="separator:af93a3f7dcdda81cf783f00a2dce8b7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -171,7 +213,7 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>sddk_default_blo
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

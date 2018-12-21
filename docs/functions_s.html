@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -77,6 +77,10 @@ $(function() {
 </li>
 <li>s1()
 : <a class="el" href="d9/d04/classsddk_1_1_wave__functions.html#af5273a6c6af20aa278aa4a949d89edd9">sddk::Wave_functions</a>
+</li>
+<li>save()
+: <a class="el" href="d1/daf/classsirius_1_1_k__point.html#a5ee07cb5f74a0ff5feca9afc6081fe6c">sirius::K_point</a>
+, <a class="el" href="d9/dbd/classsirius_1_1_k__point__set.html#aea44dc910dea41f3a4e57ae008950ec3">sirius::K_point_set</a>
 </li>
 <li>scan_literal()
 : <a class="el" href="d8/d22/classnlohmann_1_1detail_1_1lexer.html#a6f717deb553337736f27cdacccaee536">nlohmann::detail::lexer&lt; BasicJsonType &gt;</a>
@@ -132,7 +136,7 @@ $(function() {
 : <a class="el" href="d3/d50/classsirius_1_1_atom.html#aa531003c5aa71b9282b95ff2dfaa1d22">sirius::Atom</a>
 </li>
 <li>set_num_extra()
-: <a class="el" href="d9/db3/classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#ac607dbe8eb3033c84b2aab9f0d61e37f">sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;</a>
+: <a class="el" href="d9/db3/classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#a1c45855ffa368f7c4d04d6479dca13c0">sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;</a>
 </li>
 <li>set_o_apw_lo()
 : <a class="el" href="d1/db3/classsirius_1_1_hamiltonian.html#a2b72868b24f2b81b57726734ffcca5c0">sirius::Hamiltonian</a>
@@ -181,13 +185,12 @@ $(function() {
 , <a class="el" href="da/d70/classsddk_1_1_communicator.html#a660a96a015c88637d90e7d07a9bb5edd">sddk::Communicator</a>
 , <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#af3b1af2b900f04f6f1a10e89bf79870a">sddk::dmatrix&lt; T &gt;</a>
 , <a class="el" href="dd/d26/classsddk_1_1_f_f_t3_d__grid.html#a0307ee01de78961417389b8ddbd1893d">sddk::FFT3D_grid</a>
-, <a class="el" href="d0/d58/classsddk_1_1mdarray__base.html#a5e1033f17bf198c28c49010f02a37b59">sddk::mdarray_base&lt; T, N &gt;</a>
+, <a class="el" href="d7/dab/classsddk_1_1mdarray.html#ae61046c7e06453de319bf18c8d2d0972">sddk::mdarray&lt; T, N &gt;</a>
 , <a class="el" href="df/d46/classsddk_1_1mdarray__index__descriptor.html#a66f084e8361c4f3581620f9507412738">sddk::mdarray_index_descriptor</a>
 , <a class="el" href="d3/dfd/classsirius_1_1basis__functions__index.html#a2121c99935edd4a7ef917f7c864fdfbc">sirius::basis_functions_index</a>
 </li>
 <li>size_
 : <a class="el" href="df/d46/classsddk_1_1mdarray__index__descriptor.html#a725ee21beb6f1a31b735afc14316ad99">sddk::mdarray_index_descriptor</a>
-, <a class="el" href="db/d10/structsddk_1_1mdarray__mem__mgr.html#af4fdc0b787515b21c2aa3460b6512c8e">sddk::mdarray_mem_mgr&lt; T &gt;</a>
 , <a class="el" href="d9/db0/structsddk_1_1memory__block__descriptor.html#aecb07cdd2391a9748e30ac1db80fc529">sddk::memory_block_descriptor</a>
 </li>
 <li>size_aw_
@@ -215,7 +218,7 @@ $(function() {
 : <a class="el" href="d5/d15/classsirius_1_1_atom__symmetry__class.html#a3320c301ad81367c8a6ce0492150b8c1">sirius::Atom_symmetry_class</a>
 </li>
 <li>solve()
-: <a class="el" href="d5/d48/class_eigensolver.html#a50bd7e106cb8ca84b764114a47db96cd">Eigensolver&lt; T &gt;</a>
+: <a class="el" href="d5/d48/class_eigensolver.html#a8cddde165c1d424ba4d86dd1300fce14">Eigensolver&lt; T &gt;</a>
 , <a class="el" href="dd/d36/class_eigensolver__elpa.html#afc8a8f4c96c3567ebfc25f812547af04">Eigensolver_elpa&lt; T &gt;</a>
 , <a class="el" href="dc/dab/class_eigensolver__lapack.html#a10283cbc8ed10a9a7f563b680edbefc7">Eigensolver_lapack&lt; T &gt;</a>
 , <a class="el" href="d2/d95/class_eigensolver__scalapack.html#a41d73b36e6b563e640eed266b6a5f3d1">Eigensolver_scalapack&lt; T &gt;</a>
@@ -271,6 +274,9 @@ $(function() {
 <li>spl_num_gsh
 : <a class="el" href="d7/dcc/structsddk_1_1remap__gvec__to__shells.html#a7aabe5a798a12d2c427b03ff7b5f7f76">sddk::remap_gvec_to_shells</a>
 </li>
+<li>spl_num_kpoints_
+: <a class="el" href="d9/dbd/classsirius_1_1_k__point__set.html#a12a30147a9df930203250cbfe1ecabd0">sirius::K_point_set</a>
+</li>
 <li>spl_num_paw_atoms()
 : <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#aa976eecc072c52cb4fc89c74d7717780">sirius::Unit_cell</a>
 </li>
@@ -295,19 +301,19 @@ $(function() {
 <li>splindex()
 : <a class="el" href="d9/d84/classsddk_1_1splindex_3_01block_00_01_t_01_4.html#a6860e56ea0f7def61f916208f2a8f70c">sddk::splindex&lt; block, T &gt;</a>
 , <a class="el" href="dd/d99/classsddk_1_1splindex_3_01block__cyclic_00_01_t_01_4.html#a859976665bf4329207eba8005671cc7e">sddk::splindex&lt; block_cyclic, T &gt;</a>
-, <a class="el" href="d9/dc3/classsddk_1_1splindex_3_01chunk_00_01_t_01_4.html#a0199e0d128437a900c9fb86b6fab400c">sddk::splindex&lt; chunk, T &gt;</a>
+, <a class="el" href="d9/dc3/classsddk_1_1splindex_3_01chunk_00_01_t_01_4.html#a89062e8d9e1659f2a33e1ea54b435ebc">sddk::splindex&lt; chunk, T &gt;</a>
 </li>
 <li>splindex_base()
 : <a class="el" href="d6/dec/classsddk_1_1splindex__base.html#a3391f02acb0022c9e55f6f4bd41321e0">sddk::splindex_base&lt; T &gt;</a>
 </li>
 <li>Spline()
-: <a class="el" href="d5/d6b/classsirius_1_1_spline.html#a16fdaf51e813936f4f40271bbd832e5a">sirius::Spline&lt; T, U &gt;</a>
+: <a class="el" href="d5/d6b/classsirius_1_1_spline.html#af819ffbe65a1d373b1ab9aba0db348d1">sirius::Spline&lt; T, U &gt;</a>
 </li>
 <li>split()
 : <a class="el" href="da/de8/classnlohmann_1_1json__pointer.html#ae01c32c6a071c2e5198d5dfcce290e50">nlohmann::json_pointer&lt; BasicJsonType &gt;</a>
 </li>
 <li>split_in_chunks()
-: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#af53b14170abaf9e1a542f7f4891a3fcb">sirius::Beta_projectors_base&lt; N &gt;</a>
+: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#aa2de996019feef4768b5e67f38e99f55">sirius::Beta_projectors_base</a>
 </li>
 <li>stack()
 : <a class="el" href="d4/ddf/classutils_1_1timer.html#ad4a6e1c0df687e90823ef48b88a5e1ba">utils::timer</a>
@@ -334,8 +340,8 @@ $(function() {
 <li>stop()
 : <a class="el" href="d4/ddf/classutils_1_1timer.html#a7d28a1589af1a37bb3b797f4ac7345e3">utils::timer</a>
 </li>
-<li>stream
-: <a class="el" href="d9/d78/structsddk_1_1serializer.html#abc662c3f19c34c557d2fc1215cd5f87f">sddk::serializer</a>
+<li>stream_
+: <a class="el" href="d1/dc1/classsddk_1_1serializer.html#ad6b980f9796c1bcd8c76e63c0d72719a">sddk::serializer</a>
 </li>
 <li>stress_
 : <a class="el" href="d6/d4c/classsirius_1_1_d_f_t__ground__state.html#ae463ca1688d8a0cf29a214dc833501a1">sirius::DFT_ground_state</a>
@@ -359,7 +365,7 @@ $(function() {
 : <a class="el" href="d6/d66/classsirius_1_1_simulation__context.html#a71524d2a0306250f70cc3a86176fa42d">sirius::Simulation_context</a>
 </li>
 <li>sum_L3_gaunt()
-: <a class="el" href="de/dfd/classsirius_1_1_gaunt__coefficients.html#adb27177443aaf6685526aa91dd19f5a6">sirius::Gaunt_coefficients&lt; T &gt;</a>
+: <a class="el" href="de/dfd/classsirius_1_1_gaunt__coefficients.html#a30d7070d0f2215b46b0c008e03cee913">sirius::Gaunt_coefficients&lt; T &gt;</a>
 </li>
 <li>sv_eigen_vectors_
 : <a class="el" href="d1/daf/classsirius_1_1_k__point.html#afb5d65a6fb66c2532aefe946a0513eea">sirius::K_point</a>
@@ -391,7 +397,7 @@ $(function() {
 : <a class="el" href="d0/d56/classsirius_1_1_unit__cell__symmetry.html#a1797e4f23dd5cd1295df79c4a8bb7107">sirius::Unit_cell_symmetry</a>
 </li>
 <li>symmetry_class()
-: <a class="el" href="d3/d50/classsirius_1_1_atom.html#a35b6a5e198f42cd7f386b14305f2db71">sirius::Atom</a>
+: <a class="el" href="d3/d50/classsirius_1_1_atom.html#aaabb7ef7db2f472a68d85b033cbd6928">sirius::Atom</a>
 </li>
 <li>symmetry_class_
 : <a class="el" href="d3/d50/classsirius_1_1_atom.html#af78d6835ad4d678ff385d503599e1810">sirius::Atom</a>
@@ -406,7 +412,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:59 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

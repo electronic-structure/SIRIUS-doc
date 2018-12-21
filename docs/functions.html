@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -126,7 +126,7 @@ $(function() {
 : <a class="el" href="d3/d37/classsirius_1_1_atom__type.html#a8b35fea3806d3c69d2e5ebdacf64d2e3">sirius::Atom_type</a>
 </li>
 <li>add_k_point_contribution()
-: <a class="el" href="d0/dec/classsirius_1_1_non__local__functor.html#aa0d611884f615eae4d39adeb88734c44">sirius::Non_local_functor&lt; T, N &gt;</a>
+: <a class="el" href="d0/dec/classsirius_1_1_non__local__functor.html#a475d4f7e9c2be5288a85c1e1dc73a50b">sirius::Non_local_functor&lt; T &gt;</a>
 </li>
 <li>add_k_point_contribution_dm()
 : <a class="el" href="d7/d05/classsirius_1_1_density.html#a196bae7e30dffa1e83db9976ef8e0109">sirius::Density</a>
@@ -156,13 +156,15 @@ $(function() {
 : <a class="el" href="da/d70/classsddk_1_1_communicator.html#a08792ef4843e367ff79170ed47f3496f">sddk::Communicator</a>
 </li>
 <li>allocate()
-: <a class="el" href="d0/d58/classsddk_1_1mdarray__base.html#a3d2b56cd689e51d0b922af849e437559">sddk::mdarray_base&lt; T, N &gt;</a>
+: <a class="el" href="d9/db3/classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#afe8debae42bc6f46f860d74124a328a0">sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;</a>
+, <a class="el" href="d7/dab/classsddk_1_1mdarray.html#a0fc82b5916cba7b903cffd8144b17625">sddk::mdarray&lt; T, N &gt;</a>
+, <a class="el" href="d0/dc8/classsddk_1_1memory__pool.html#a66ad59453727a0b0f9a4f9e5760deb14">sddk::memory_pool</a>
 </li>
 <li>allocate_mt()
 : <a class="el" href="d0/d6d/classsirius_1_1_periodic__function.html#a7d05cae35bbee9ab1c825ad28520b415">sirius::Periodic_function&lt; T &gt;</a>
 </li>
-<li>allocate_on_device()
-: <a class="el" href="d9/db3/classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#aff411a242bc539feafcfe671ddeb48be">sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;</a>
+<li>allocate_subblock()
+: <a class="el" href="d9/db0/structsddk_1_1memory__block__descriptor.html#a58be4597fb95c8e489038cc4b52ab3bf">sddk::memory_block_descriptor</a>
 </li>
 <li>allocator_type
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a86ce930490cf7773b26f5ef49c04a350">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
@@ -193,6 +195,9 @@ $(function() {
 </li>
 <li>any_ptr()
 : <a class="el" href="d8/de7/classutils_1_1any__ptr.html#ad40ff90a0245682e901daa287593b476">utils::any_ptr</a>
+</li>
+<li>apply()
+: <a class="el" href="da/d46/classsirius_1_1_non__local__operator.html#a9b2b411972268dd1c75b2a7b27cac2ac">sirius::Non_local_operator&lt; T &gt;</a>
 </li>
 <li>apply_b()
 : <a class="el" href="d6/dfb/classsirius_1_1_local__operator.html#af14d04dc211b42b52b5f597ede47caac">sirius::Local_operator</a>
@@ -249,6 +254,10 @@ $(function() {
 </li>
 <li>at()
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a73ae333487310e3302135189ce8ff5d8">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+, <a class="el" href="d7/dab/classsddk_1_1mdarray.html#a63de1236059e2132451706dd1940c780">sddk::mdarray&lt; T, N &gt;</a>
+</li>
+<li>at_idx()
+: <a class="el" href="d7/dab/classsddk_1_1mdarray.html#a7b081b934723faacb6b67b50e7ebb32c">sddk::mdarray&lt; T, N &gt;</a>
 </li>
 <li>Atom()
 : <a class="el" href="d3/d50/classsirius_1_1_atom.html#a8463863f95273d4b427c362e881a957b">sirius::Atom</a>
@@ -288,7 +297,7 @@ $(function() {
 : <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#a3e78840bc6c66018adaf378969a9dca5">sirius::Unit_cell</a>
 </li>
 <li>atom_type()
-: <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#a9cb64348513a41da01eab5eb93e3eb34">sirius::Unit_cell</a>
+: <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#a1ea078d2bead28d4b1ad5fb695b9c57f">sirius::Unit_cell</a>
 </li>
 <li>atom_type_
 : <a class="el" href="d5/d15/classsirius_1_1_atom__symmetry__class.html#a2668fe2a989f893e02a0bc1e5424e4ea">sirius::Atom_symmetry_class</a>
@@ -322,10 +331,13 @@ $(function() {
 : <a class="el" href="d6/d66/classsirius_1_1_simulation__context.html#ac2afdef5da6aa554523e4233b53eba69">sirius::Simulation_context</a>
 </li>
 <li>augment()
-: <a class="el" href="d7/d05/classsirius_1_1_density.html#ab24421e0c72f7eb03c9ccd4006673e9f">sirius::Density</a>
+: <a class="el" href="d7/d05/classsirius_1_1_density.html#a663a8c76c344c5983092ddb6bd31f56a">sirius::Density</a>
 </li>
 <li>augment_
 : <a class="el" href="d3/d37/classsirius_1_1_atom__type.html#a3ef68c6952cfd33d42f2055049d18c83">sirius::Atom_type</a>
+</li>
+<li>augmentation_op()
+: <a class="el" href="d6/d66/classsirius_1_1_simulation__context.html#a5d65fc4dbbfacfc5fbf6c917bf91f76b">sirius::Simulation_context</a>
 </li>
 <li>augmentation_op_
 : <a class="el" href="d6/d66/classsirius_1_1_simulation__context.html#a22603ae9f8d43cf8c08e95a143599251">sirius::Simulation_context</a>
@@ -335,6 +347,9 @@ $(function() {
 </li>
 <li>auto_rmt_
 : <a class="el" href="d4/d6e/structsirius_1_1_parameters__input.html#a3f38afc2d89925bd7a763ae7484c845c">sirius::Parameters_input</a>
+</li>
+<li>aux_preferred_memory_t()
+: <a class="el" href="d6/d66/classsirius_1_1_simulation__context.html#ad6ddbc0cbea1b0a5de8cf1bb1d1d8fe9">sirius::Simulation_context</a>
 </li>
 <li>avg_val
 : <a class="el" href="d0/d0b/structutils_1_1timer__stats__t.html#a2a526e856558799a515668aad19d2d84">utils::timer_stats_t</a>
@@ -368,7 +383,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:58 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -90,8 +90,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/daf/classsirius_1_1_local__operator__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/daf/classsirius_1_1_local__operator__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -101,7 +100,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae8d9c89b95c61d58d4c6bbf09a5bef82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:ae8d9c89b95c61d58d4c6bbf09a5bef82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a711479d54338e7aca05991fc845ad661"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#a711479d54338e7aca05991fc845ad661">prepare</a> (<a class="el" href="../../d2/d0b/classsirius_1_1_potential.html">Potential</a> &amp;potential__)</td></tr>
-<tr class="memdesc:a711479d54338e7aca05991fc845ad661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map effective potential and magnetic field to a coarse FFT mesh in case of PP-PW.  <a href="#a711479d54338e7aca05991fc845ad661">More...</a><br /></td></tr>
+<tr class="memdesc:a711479d54338e7aca05991fc845ad661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map effective potential and magnetic field to a coarse FFT mesh.  <a href="#a711479d54338e7aca05991fc845ad661">More...</a><br /></td></tr>
 <tr class="separator:a711479d54338e7aca05991fc845ad661"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eb06ca5e0d9995bee56d009614441d4"><td class="memItemLeft" align="right" valign="top"><a id="a0eb06ca5e0d9995bee56d009614441d4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#a0eb06ca5e0d9995bee56d009614441d4">prepare</a> (<a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html">Gvec_partition</a> const &amp;gkvec_p__)</td></tr>
@@ -156,21 +155,16 @@ Private Attributes</h2></td></tr>
 std::array&lt; <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt;, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#a8e76e1c2a71f5889482e319675176a16">veff_vec_</a></td></tr>
 <tr class="memdesc:a8e76e1c2a71f5889482e319675176a16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Effective potential components on a coarse FFT grid. <br /></td></tr>
 <tr class="separator:a8e76e1c2a71f5889482e319675176a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5abe267f9ac871cdee5b8a9c4da9540f"><td class="memItemLeft" align="right" valign="top"><a id="a5abe267f9ac871cdee5b8a9c4da9540f"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#a5abe267f9ac871cdee5b8a9c4da9540f">vphi1_</a></td></tr>
-<tr class="memdesc:a5abe267f9ac871cdee5b8a9c4da9540f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary array to store [V*phi](G) <br /></td></tr>
-<tr class="separator:a5abe267f9ac871cdee5b8a9c4da9540f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02c46e60c2e63850bc20c054d9463030"><td class="memItemLeft" align="right" valign="top"><a id="a02c46e60c2e63850bc20c054d9463030"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#a02c46e60c2e63850bc20c054d9463030">vphi2_</a></td></tr>
-<tr class="memdesc:a02c46e60c2e63850bc20c054d9463030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Second temporary array to store [V*phi](G) <br /></td></tr>
-<tr class="separator:a02c46e60c2e63850bc20c054d9463030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8febe225e7879b5018981d3f81476cc"><td class="memItemLeft" align="right" valign="top"><a id="ab8febe225e7879b5018981d3f81476cc"></a>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#ab8febe225e7879b5018981d3f81476cc">vphi_</a></td></tr>
+<tr class="memdesc:ab8febe225e7879b5018981d3f81476cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary array to store [V*phi](G) <br /></td></tr>
+<tr class="separator:ab8febe225e7879b5018981d3f81476cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83db9cdabfbb2506b6daa132d01ddacd"><td class="memItemLeft" align="right" valign="top"><a id="a83db9cdabfbb2506b6daa132d01ddacd"></a>
 <a class="el" href="../../d6/d10/classsirius_1_1_smooth__periodic__function.html">Smooth_periodic_function</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#a83db9cdabfbb2506b6daa132d01ddacd">theta_</a></td></tr>
 <tr class="memdesc:a83db9cdabfbb2506b6daa132d01ddacd"><td class="mdescLeft">&#160;</td><td class="mdescRight">LAPW unit step function on a coarse FFT grid. <br /></td></tr>
 <tr class="separator:a83db9cdabfbb2506b6daa132d01ddacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e448374aaeda9332be52b4a9ddbfbd9"><td class="memItemLeft" align="right" valign="top"><a id="a4e448374aaeda9332be52b4a9ddbfbd9"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#a4e448374aaeda9332be52b4a9ddbfbd9">buf_rg_</a></td></tr>
-<tr class="memdesc:a4e448374aaeda9332be52b4a9ddbfbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary array to store psi_{up}(r). <br /></td></tr>
+<tr class="memitem:a4e448374aaeda9332be52b4a9ddbfbd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#a4e448374aaeda9332be52b4a9ddbfbd9">buf_rg_</a></td></tr>
+<tr class="memdesc:a4e448374aaeda9332be52b4a9ddbfbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary array to store psi_{up}(r).  <a href="#a4e448374aaeda9332be52b4a9ddbfbd9">More...</a><br /></td></tr>
 <tr class="separator:a4e448374aaeda9332be52b4a9ddbfbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc6455d5cfa6b34e9abaa13fa9349e10"><td class="memItemLeft" align="right" valign="top"><a id="acc6455d5cfa6b34e9abaa13fa9349e10"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#acc6455d5cfa6b34e9abaa13fa9349e10">v0_</a> [2]</td></tr>
@@ -212,7 +206,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="..
 </table>
 </div><div class="memdoc">
 
-<p>Map effective potential and magnetic field to a coarse FFT mesh in case of PP-PW. </p>
+<p>Map effective potential and magnetic field to a coarse FFT mesh. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">potential</td><td>\( V_{eff}({\bf r}) \) and \( {\bf B}_{eff}({\bf r}) \) on the fine grid FFT grid.</td></tr>
@@ -221,7 +215,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="..
 </dl>
 <p>This function should be called prior to the band diagonalziation. In case of GPU execution all effective fields on the coarse grid will be copied to the device and will remain there until the <a class="el" href="../../d6/dfb/classsirius_1_1_local__operator.html#adeed051901f299991309fd2341aea1d9" title="Cleanup the local operator. ">dismiss()</a> method is called after band diagonalization. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html#l00129">129</a> of file <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html">local_operator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html#l00126">126</a> of file <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html">local_operator.hpp</a>.</p>
 
 </div>
 </div>
@@ -284,15 +278,18 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="..
     <tr><td class="paramdir">[in]</td><td class="paramname">phi</td><td>Input wave-functions. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">hphi</td><td><a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html" title="Representation of Kohn-Sham Hamiltonian. ">Hamiltonian</a> applied to wave-function. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">idx0</td><td>Starting index of wave-functions. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>Number of wave-functions to which H is applied. <pre class="fragment">Index of spin can take the following values:
-  - 0: apply H_{uu} to the up- component of wave-functions
-  - 1: apply H_{dd} to the dn- component of wave-functions
-  - 2: apply full Hamiltonian to the spinor wave-functions</pre> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>Number of wave-functions to which H is applied.</td></tr>
   </table>
   </dd>
 </dl>
+<p>Index of spin can take the following values:</p><ul>
+<li>0: apply H_{uu} to the up- component of wave-functions</li>
+<li>1: apply H_{dd} to the dn- component of wave-functions</li>
+<li>2: apply full <a class="el" href="../../d1/db3/classsirius_1_1_hamiltonian.html" title="Representation of Kohn-Sham Hamiltonian. ">Hamiltonian</a> to the spinor wave-functions</li>
+</ul>
+<p>In the current implementation for the GPUs sequential FFT is assumed. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html#l00312">312</a> of file <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html">local_operator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html#l00301">301</a> of file <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html">local_operator.hpp</a>.</p>
 
 </div>
 </div>
@@ -345,7 +342,35 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="..
 <p>Apply magnetic field to the wave-functions. </p>
 <p>In case of collinear magnetism only Bz is applied to <code>phi</code> and stored in the first component of <code>bphi</code>. In case of non-collinear magnetims Bx-iBy is also applied and stored in the third component of <code>bphi</code>. The second component of <code>bphi</code> is used to store -Bz|phi&gt;. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html#l00826">826</a> of file <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html">local_operator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html#l00978">978</a> of file <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html">local_operator.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4e448374aaeda9332be52b4a9ddbfbd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e448374aaeda9332be52b4a9ddbfbd9">&#9670;&nbsp;</a></span>buf_rg_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt;double_complex, 1&gt; sirius::Local_operator::buf_rg_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Temporary array to store psi_{up}(r). </p>
+<p>The size of the array is equal to the size of FFT buffer. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../d3/d2c/local__operator_8hpp_source.html">local_operator.hpp</a>.</p>
 
 </div>
 </div>
@@ -355,7 +380,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="..
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:58 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

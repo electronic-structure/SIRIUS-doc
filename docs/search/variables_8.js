@@ -8,7 +8,7 @@ var searchData=
   ['idx_5fzcol_5f',['idx_zcol_',['../d7/def/classsddk_1_1_gvec__partition.html#ae87b1d01f05d183dc32c47de40e11d9d',1,'sddk::Gvec_partition']]],
   ['idxlo',['idxlo',['../d3/d98/structsirius_1_1basis__function__index__descriptor.html#a667a58f6190a6e48dbb4ab3736bc94a6',1,'sirius::basis_function_index_descriptor']]],
   ['idxrf',['idxrf',['../d8/d59/structlo__basis__descriptor.html#aef20fdb76c57632a87ee216a121af342',1,'lo_basis_descriptor::idxrf()'],['../d3/d98/structsirius_1_1basis__function__index__descriptor.html#a182a17d4ffd3b2b1276c2ceb9aa6b6a3',1,'sirius::basis_function_index_descriptor::idxrf()']]],
-  ['igk_5f',['igk_',['../d1/d5a/classsirius_1_1_beta__projectors__base.html#ace89ab1a9eae6b448a41642f0d002298',1,'sirius::Beta_projectors_base']]],
+  ['igk_5f',['igk_',['../d1/d5a/classsirius_1_1_beta__projectors__base.html#a6a3a175115fb94c8f35e734c0de8fde6',1,'sirius::Beta_projectors_base']]],
   ['igk_5fcol_5f',['igk_col_',['../d1/daf/classsirius_1_1_k__point.html#ae68852b4bbf0a196a2060c2e867f32ee',1,'sirius::K_point']]],
   ['igk_5floc_5f',['igk_loc_',['../d1/daf/classsirius_1_1_k__point.html#aefa8a6ed74a91dcbafa2ed40b5ee762c',1,'sirius::K_point']]],
   ['igk_5frow_5f',['igk_row_',['../d1/daf/classsirius_1_1_k__point.html#a28715b2ca94b300b0e9c31f4adc09509',1,'sirius::K_point']]],

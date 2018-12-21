@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -87,8 +87,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d93/wf__ortho_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d93/wf__ortho_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d2/d68/wf__ortho_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -108,6 +107,14 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad40d98d549bfe953689ce5553c1a7f18"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>orthogonalize</b> (device_t pu__, int ispn__, Wave_functions &amp;phi__, Wave_functions &amp;hphi__, int N__, int n__, dmatrix&lt; T &gt; &amp;o__, Wave_functions &amp;tmp__)</td></tr>
 <tr class="separator:ad40d98d549bfe953689ce5553c1a7f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb034d67849aadcbc772a5504d20dfb"><td class="memTemplParams" colspan="2"><a id="a1bb034d67849aadcbc772a5504d20dfb"></a>
+template&lt;typename T , int idx_bra__, int idx_ket__&gt; </td></tr>
+<tr class="memitem:a1bb034d67849aadcbc772a5504d20dfb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>orthogonalize</b> (memory_t mem__, linalg_t la__, int ispn__, std::vector&lt; Wave_functions *&gt; wfs__, int N__, int n__, dmatrix&lt; T &gt; &amp;o__, Wave_functions &amp;tmp__)</td></tr>
+<tr class="separator:a1bb034d67849aadcbc772a5504d20dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ea5c604f9aba10b0f158f377fb6514"><td class="memTemplParams" colspan="2"><a id="a10ea5c604f9aba10b0f158f377fb6514"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a10ea5c604f9aba10b0f158f377fb6514"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>orthogonalize</b> (memory_t mem__, linalg_t la__, int ispn__, Wave_functions &amp;phi__, Wave_functions &amp;hphi__, Wave_functions &amp;ophi__, int N__, int n__, dmatrix&lt; T &gt; &amp;o__, Wave_functions &amp;tmp__)</td></tr>
+<tr class="separator:a10ea5c604f9aba10b0f158f377fb6514"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wave-function orthonormalization. </p>
@@ -116,7 +123,7 @@ template&lt;typename T &gt; </td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

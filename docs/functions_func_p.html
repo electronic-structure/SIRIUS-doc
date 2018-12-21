@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -74,6 +74,9 @@ $(function() {
 <h3><a id="index_p"></a>- p -</h3><ul>
 <li>p()
 : <a class="el" href="db/d31/classsirius_1_1_bound__state.html#aced099477036069a350650578106da6a">sirius::Bound_state</a>
+</li>
+<li>pack()
+: <a class="el" href="dc/d9b/classsddk_1_1_gvec.html#a69d39c7efb42000e6b95adbf27c06d80">sddk::Gvec</a>
 </li>
 <li>parallel()
 : <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#ac6909aa4118ae3ae4817ce2a1ab60b9a">sddk::FFT3D</a>
@@ -134,9 +137,12 @@ $(function() {
 : <a class="el" href="da/d10/classsddk_1_1linalg_3_01_c_p_u_01_4.html#a3580a2d3ddc3d7e59eef83f653fbc7a1">sddk::linalg&lt; CPU &gt;</a>
 , <a class="el" href="d9/d5e/classsddk_1_1linalg_3_01_g_p_u_01_4.html#abfe72c25212cac9572262cfafbe7e3de">sddk::linalg&lt; GPU &gt;</a>
 </li>
+<li>preferred_memory_t()
+: <a class="el" href="d6/d66/classsirius_1_1_simulation__context.html#a910b4e70fe28e34d775cb7d6da044d66">sirius::Simulation_context</a>
+</li>
 <li>prepare()
 : <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#a51f26b3e686edcaddedabdf1aa61d86f">sddk::FFT3D</a>
-, <a class="el" href="d1/db3/classsirius_1_1_hamiltonian.html#aab3d901563386f816170611983e73bf1">sirius::Hamiltonian</a>
+, <a class="el" href="d1/db3/classsirius_1_1_hamiltonian.html#a2cd60fe091d8fda4e00bddb38c870f1f">sirius::Hamiltonian</a>
 , <a class="el" href="d6/dfb/classsirius_1_1_local__operator.html#a711479d54338e7aca05991fc845ad661">sirius::Local_operator</a>
 </li>
 <li>print()
@@ -144,22 +150,22 @@ $(function() {
 </li>
 <li>print_info()
 : <a class="el" href="d6/d4c/classsirius_1_1_d_f_t__ground__state.html#a774703bc2e2f52946ef6b68c0d1ca1b1">sirius::DFT_ground_state</a>
-, <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#aaa8632b9f2d62183100a46e7dd0790ba">sirius::Unit_cell</a>
+, <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#a36584652bc4c8b26c2e88d475cacc8ce">sirius::Unit_cell</a>
 </li>
 <li>print_magnetic_moment()
 : <a class="el" href="d6/d4c/classsirius_1_1_d_f_t__ground__state.html#a55931409cf5d0054c770e986c14d4ba1">sirius::DFT_ground_state</a>
+</li>
+<li>print_memory_usage()
+: <a class="el" href="d6/d66/classsirius_1_1_simulation__context.html#ad0a04c0b354181bbefe4afb787107cb0">sirius::Simulation_context</a>
 </li>
 <li>pu()
 : <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#a29a16c3425cb55ec18316700023829cd">sddk::FFT3D</a>
 </li>
 <li>push_back()
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#ae11a3a51782c058fff2f6550cdfb9b3c">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#ab4384af330b79de0e5f279576803a2c7">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 </li>
 <li>pw_coeffs_a()
-: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#a852e718f9e37213825d69d1da95863f6">sirius::Beta_projectors_base&lt; N &gt;</a>
-</li>
-<li>pw_coeffs_a_shared()
-: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#adc530c1abe156d7d44ccf447c8bc7d34">sirius::Beta_projectors_base&lt; N &gt;</a>
+: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#aaeba4c672b32f39fdc6fd314268edcdf">sirius::Beta_projectors_base</a>
 </li>
 <li>pw_cutoff()
 : <a class="el" href="d0/d04/classsirius_1_1_simulation__parameters.html#aa8a8b9c822557a3eccd821fc10a4811a">sirius::Simulation_parameters</a>
@@ -168,7 +174,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:59 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

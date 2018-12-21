@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -76,6 +76,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">simulation_context.hpp File Reference</div>  </div>
@@ -89,16 +90,14 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/dd4/simulation__context_8hpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/dd4/simulation__context_8hpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dc3/simulation__context_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dc3/simulation__context_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d1/db8/simulation__context_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -115,11 +114,21 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:d5/def/namespacesirius"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace of the SIRIUS library. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:aff83a05bc48faf9329320f66a74a38b5"><td class="memItemLeft" align="right" valign="top"><a id="aff83a05bc48faf9329320f66a74a38b5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>MEMORY_USAGE_INFO</b>()&#160;&#160;&#160;print_memory_usage(__FILE__, __LINE__);</td></tr>
+<tr class="separator:aff83a05bc48faf9329320f66a74a38b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a3e74a43dc94e6ae706cd15b53ff33afe"><td class="memItemLeft" align="right" valign="top"><a id="a3e74a43dc94e6ae706cd15b53ff33afe"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_phase_factors_gpu</b> (int num_gvec_loc__, int num_atoms__, int const *gvec__, double const *atom_pos__, double_complex *phase_factors__)</td></tr>
 <tr class="separator:a3e74a43dc94e6ae706cd15b53ff33afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db44355ad27a1f851246e6219b16530"><td class="memItemLeft" align="right" valign="top"><a id="a0db44355ad27a1f851246e6219b16530"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/def/namespacesirius.html#a0db44355ad27a1f851246e6219b16530">sirius::print_memory_usage</a> (const char *file__, int line__)</td></tr>
+<tr class="memdesc:a0db44355ad27a1f851246e6219b16530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to print a CPU and GPU memory utilization. <br /></td></tr>
+<tr class="separator:a0db44355ad27a1f851246e6219b16530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains definition and implementation of Simulation_context class. </p>
@@ -128,7 +137,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_phase_factor
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

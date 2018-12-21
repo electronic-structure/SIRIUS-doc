@@ -6,9 +6,9 @@ var searchData=
   ['gaunt_5fpacked_5fl3_5f',['gaunt_packed_L3_',['../de/dfd/classsirius_1_1_gaunt__coefficients.html#ae81678a8f6226e3f1d92037ad5f2e1ad',1,'sirius::Gaunt_coefficients']]],
   ['gen_5fevp_5fsolver_5fname_5f',['gen_evp_solver_name_',['../da/de3/structsirius_1_1_control__input.html#a4202a430db64064c18cc272c690da4a1',1,'sirius::Control_input']]],
   ['gk_5fcutoff_5f',['gk_cutoff_',['../d4/d6e/structsirius_1_1_parameters__input.html#abd54abf86e5b0c852ed4809944a43880',1,'sirius::Parameters_input']]],
-  ['gkvec_5f',['gkvec_',['../d1/d5a/classsirius_1_1_beta__projectors__base.html#aa0b60e691f0c023de915373bd61c006e',1,'sirius::Beta_projectors_base::gkvec_()'],['../d1/daf/classsirius_1_1_k__point.html#ac80a9d8e6047fd2382817e282408f12e',1,'sirius::K_point::gkvec_()']]],
+  ['gkvec_5f',['gkvec_',['../d1/d5a/classsirius_1_1_beta__projectors__base.html#a582f7088f7b9c1147bae1ddae5439da0',1,'sirius::Beta_projectors_base::gkvec_()'],['../d1/daf/classsirius_1_1_k__point.html#ac80a9d8e6047fd2382817e282408f12e',1,'sirius::K_point::gkvec_()']]],
   ['gkvec_5fcart_5f',['gkvec_cart_',['../dc/d9b/classsddk_1_1_gvec.html#a8dd50840825ece05b3130b4ddd23b80e',1,'sddk::Gvec']]],
-  ['gkvec_5fcoord_5f',['gkvec_coord_',['../d1/d5a/classsirius_1_1_beta__projectors__base.html#a9d21de96e43897033b4ec06be2c7aca2',1,'sirius::Beta_projectors_base']]],
+  ['gkvec_5fcoord_5f',['gkvec_coord_',['../d1/d5a/classsirius_1_1_beta__projectors__base.html#a05179641f91f837975ae4ebaf4dfdd77',1,'sirius::Beta_projectors_base']]],
   ['gkvec_5foffset_5f',['gkvec_offset_',['../d1/daf/classsirius_1_1_k__point.html#abe122856c7ada3a58fa51034e417671a',1,'sirius::K_point']]],
   ['gkvec_5fpartition_5f',['gkvec_partition_',['../d1/daf/classsirius_1_1_k__point.html#af51ffa1ceed8588064f7357b017a23bf',1,'sirius::K_point']]],
   ['gkvecp_5f',['gkvecp_',['../d9/d04/classsddk_1_1_wave__functions.html#a5051d59c092804c94c314dfb98d3f701',1,'sddk::Wave_functions']]],
@@ -32,6 +32,6 @@ var searchData=
   ['gvec_5fremapped_5f',['gvec_remapped_',['../d7/dcc/structsddk_1_1remap__gvec__to__shells.html#ad84d66939dae454c3d350ace39f095aa',1,'sddk::remap_gvec_to_shells']]],
   ['gvec_5fshell_5f',['gvec_shell_',['../dc/d9b/classsddk_1_1_gvec.html#adc60dc3bc088745caaa64fe58996e155',1,'sddk::Gvec']]],
   ['gvec_5fshell_5fremapped_5f',['gvec_shell_remapped_',['../d7/dcc/structsddk_1_1remap__gvec__to__shells.html#ac57263e03ef5df0f68756d5641a9d0cc',1,'sddk::remap_gvec_to_shells']]],
-  ['gvecp_5f',['gvecp_',['../d6/d10/classsirius_1_1_smooth__periodic__function.html#a4d16e419f2834fa9761ef9436fec1830',1,'sirius::Smooth_periodic_function::gvecp_()'],['../da/d6f/classsirius_1_1_smooth__periodic__function__gradient.html#a8b49886e7623aeb5a88ddd9c37e955f7',1,'sirius::Smooth_periodic_function_gradient::gvecp_()']]],
+  ['gvecp_5f',['gvecp_',['../d6/d10/classsirius_1_1_smooth__periodic__function.html#a4d16e419f2834fa9761ef9436fec1830',1,'sirius::Smooth_periodic_function::gvecp_()'],['../de/d2a/classsirius_1_1_smooth__periodic__vector__function.html#aa96cef07bfd58770f55fb34d5e22fd7a',1,'sirius::Smooth_periodic_vector_function::gvecp_()']]],
   ['gvp_5f',['gvp_',['../d9/db3/classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#a1d3e5dd4364d5f952d8f4347f9a4ff5c',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;']]]
 ];

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -75,6 +75,12 @@ $(function() {
 <li>n
 : <a class="el" href="d8/ddb/structatomic__level__descriptor.html#ab90b943aaee4e6747cd9dd8647212b1c">atomic_level_descriptor</a>
 , <a class="el" href="df/d32/structradial__solution__descriptor.html#ab0246e8a65be162caf9028b42741c8fd">radial_solution_descriptor</a>
+</li>
+<li>N_
+: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#aca3edff6e955a4442dab00e41a33185f">sirius::Beta_projectors_base</a>
+</li>
+<li>n_
+: <a class="el" href="d0/d88/classsirius_1_1hubbard__orbital__descriptor.html#aa2bc5c467ea9657aa7824ab75988bf63">sirius::hubbard_orbital_descriptor</a>
 </li>
 <li>name_
 : <a class="el" href="d3/d37/classsirius_1_1_atom__type.html#aaed973114158f85972d3aee81d4a5682">sirius::Atom_type</a>
@@ -138,7 +144,8 @@ $(function() {
 : <a class="el" href="d5/de6/structsirius_1_1beta__chunk__t.html#a8dd559b074f31c10047b9ed1fa0840dc">sirius::beta_chunk_t</a>
 </li>
 <li>num_bands()
-: <a class="el" href="d0/d04/classsirius_1_1_simulation__parameters.html#a93e5e667162a8ec22393a9f322f1cf6f">sirius::Simulation_parameters</a>
+: <a class="el" href="d1/daf/classsirius_1_1_k__point.html#a5e89a2b77caa4651ce40d65f095e28a7">sirius::K_point</a>
+, <a class="el" href="d0/d04/classsirius_1_1_simulation__parameters.html#a93e5e667162a8ec22393a9f322f1cf6f">sirius::Simulation_parameters</a>
 </li>
 <li>num_bands_
 : <a class="el" href="d4/d6e/structsirius_1_1_parameters__input.html#a86e8529dfa9e5ebccdf45a6ec8d71f0b">sirius::Parameters_input</a>
@@ -153,7 +160,10 @@ $(function() {
 : <a class="el" href="d3/d37/classsirius_1_1_atom__type.html#a12be53db2d5e378f49f1ae92c94987cb">sirius::Atom_type</a>
 </li>
 <li>num_beta_t_
-: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#a8972cd71d8a261a8d9ac2ba950a7f571">sirius::Beta_projectors_base&lt; N &gt;</a>
+: <a class="el" href="d1/d5a/classsirius_1_1_beta__projectors__base.html#a0b5a22790eda55ab033a0a48147dbc92">sirius::Beta_projectors_base</a>
+</li>
+<li>num_blocks()
+: <a class="el" href="d0/dc8/classsddk_1_1memory__pool.html#af609ccbeee208b27bd5cbd3823edfaa1">sddk::memory_pool</a>
 </li>
 <li>num_cols_
 : <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#a6b7c813717810ff63c246504c67e1ab5">sddk::dmatrix&lt; T &gt;</a>
@@ -215,6 +225,9 @@ $(function() {
 <li>num_gvec_
 : <a class="el" href="dc/d9b/classsddk_1_1_gvec.html#ad376b1d40e9241a3bdfd227b8ce487fa">sddk::Gvec</a>
 </li>
+<li>num_gvec_shells_
+: <a class="el" href="dc/d9b/classsddk_1_1_gvec.html#ac9ea9f17ce196efec8dc38e912e0ce14">sddk::Gvec</a>
+</li>
 <li>num_lo_col()
 : <a class="el" href="d1/daf/classsirius_1_1_k__point.html#a1236e2f2e975301c735c1a700f27869c">sirius::K_point</a>
 </li>
@@ -237,7 +250,7 @@ $(function() {
 : <a class="el" href="d3/d37/classsirius_1_1_atom__type.html#a3a6c91967a8723e58c05ff4a662bf588">sirius::Atom_type</a>
 </li>
 <li>num_occupied_bands()
-: <a class="el" href="d1/daf/classsirius_1_1_k__point.html#a96cb8a5ecb6def0d01b451dd426feee3">sirius::K_point</a>
+: <a class="el" href="d1/daf/classsirius_1_1_k__point.html#a27dc7b2732a471aa028b00f6e435c707">sirius::K_point</a>
 </li>
 <li>num_paw_atoms()
 : <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#a2a6169f857efcaeb73e0a7b9755577b7">sirius::Unit_cell</a>
@@ -261,6 +274,9 @@ $(function() {
 <li>num_ranks_row_
 : <a class="el" href="d1/daf/classsirius_1_1_k__point.html#a6d22d73298126cecf5853a03da603f09">sirius::K_point</a>
 </li>
+<li>num_rows()
+: <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#a5ba5109fe1dad53d65320a889b2b5a69">sddk::dmatrix&lt; T &gt;</a>
+</li>
 <li>num_rows_
 : <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#ada5ad5c79203f9db5863ff8a94785968">sddk::dmatrix&lt; T &gt;</a>
 </li>
@@ -269,6 +285,9 @@ $(function() {
 </li>
 <li>num_rows_loc_
 : <a class="el" href="d9/db3/classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#aed403722d47dae87a9a721b94c8a3ead">sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;</a>
+</li>
+<li>num_rows_local()
+: <a class="el" href="dc/deb/classsddk_1_1dmatrix.html#aae59e73c7b5b82cb9761ed191c970e8f">sddk::dmatrix&lt; T &gt;</a>
 </li>
 <li>num_sc_
 : <a class="el" href="d9/d04/classsddk_1_1_wave__functions.html#a74bd94242f84525f49b2bf2662a23a6e">sddk::Wave_functions</a>
@@ -287,6 +306,9 @@ $(function() {
 </li>
 <li>num_steps_
 : <a class="el" href="d2/d11/structsirius_1_1_iterative__solver__input.html#a73fe941b455d95f6e08742a8deb434d9">sirius::Iterative_solver_input</a>
+</li>
+<li>num_stored_ptr()
+: <a class="el" href="d0/dc8/classsddk_1_1memory__pool.html#a0ada4f1139248b8fc0f3f63f9b9454a4">sddk::memory_pool</a>
 </li>
 <li>num_valence_electrons()
 : <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#aaa1280940327f400d600a4523563977a">sirius::Unit_cell</a>
@@ -324,7 +346,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:58 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

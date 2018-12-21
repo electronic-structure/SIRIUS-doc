@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -97,6 +97,9 @@ $(function() {
 <li>occupancy
 : <a class="el" href="d8/ddb/structatomic__level__descriptor.html#ac4be6454ae689054fdd700814f1c9030">atomic_level_descriptor</a>
 </li>
+<li>occupancy_
+: <a class="el" href="d0/d88/classsirius_1_1hubbard__orbital__descriptor.html#a4e2f604f72a24d38097d57d2a50c8009">sirius::hubbard_orbital_descriptor</a>
+</li>
 <li>occupation_matrix_
 : <a class="el" href="d3/d50/classsirius_1_1_atom.html#a8c4ee868930d86572a234d1c10dd8afc">sirius::Atom</a>
 </li>
@@ -119,7 +122,7 @@ $(function() {
 : <a class="el" href="dc/dd3/classsddk_1_1_f_f_t3_d.html#a57e693bd91fbce44258bbcaa1a7991ea">sddk::FFT3D</a>
 </li>
 <li>offsets_
-: <a class="el" href="d0/d58/classsddk_1_1mdarray__base.html#ab05299ec7173f452acb24878d75aa439">sddk::mdarray_base&lt; T, N &gt;</a>
+: <a class="el" href="d7/dab/classsddk_1_1mdarray.html#a27fc350d5b04f636a67fe18d2e64a090">sddk::mdarray&lt; T, N &gt;</a>
 </li>
 <li>omega()
 : <a class="el" href="dc/d9b/classsddk_1_1_gvec.html#a1d3b1d6f4cb662f55bb76e011be28581">sddk::Gvec</a>
@@ -127,6 +130,9 @@ $(function() {
 </li>
 <li>omega_
 : <a class="el" href="d6/dd1/classsirius_1_1_unit__cell.html#ac587c752016025de36db5ac4312112b4">sirius::Unit_cell</a>
+</li>
+<li>on_device()
+: <a class="el" href="d7/dab/classsddk_1_1mdarray.html#aabe081bdfa5331c8d5a7d34e2f03f1a3">sddk::mdarray&lt; T, N &gt;</a>
 </li>
 <li>op_
 : <a class="el" href="da/d46/classsirius_1_1_non__local__operator.html#ac9e033a0db6c48d61946dc68bfe7285d">sirius::Non_local_operator&lt; T &gt;</a>
@@ -146,8 +152,8 @@ $(function() {
 , <a class="el" href="dc/dda/classnlohmann_1_1detail_1_1iteration__proxy_1_1iteration__proxy__internal.html#ad96488c5cb13952a183324f9f34598d1">nlohmann::detail::iteration_proxy&lt; IteratorType &gt;::iteration_proxy_internal</a>
 </li>
 <li>operator()()
-: <a class="el" href="db/d10/structsddk_1_1mdarray__mem__mgr.html#ac2c61589a3a118745df9d7a454f288fe">sddk::mdarray_mem_mgr&lt; T &gt;</a>
-, <a class="el" href="d5/d6b/classsirius_1_1_spline.html#a6eef515be2591215198debc190f1a297">sirius::Spline&lt; T, U &gt;</a>
+: <a class="el" href="d7/dab/classsddk_1_1mdarray.html#a2570156a4e70e7c798039529d28844f4">sddk::mdarray&lt; T, N &gt;</a>
+, <a class="el" href="d5/d6b/classsirius_1_1_spline.html#a7406345fa20816311810f249afd2d2be">sirius::Spline&lt; T, U &gt;</a>
 , <a class="el" href="dd/d6b/structstd_1_1hash_3_01nlohmann_1_1json_01_4.html#aec1567d1fa47dbe5b77954dce3a55b64">std::hash&lt; nlohmann::json &gt;</a>
 , <a class="el" href="d0/dac/structstd_1_1less_3_01_1_1nlohmann_1_1detail_1_1value__t_01_4.html#a76d2a6c170cfd74f3b1882be1b5a6671">std::less&lt; ::nlohmann::detail::value_t &gt;</a>
 </li>
@@ -184,7 +190,7 @@ $(function() {
 : <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a6da3d2b34528aff328f3dcb513076dec">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
 </li>
 <li>operator&lt;
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a7999ee3a69a4979d92e98ab1e88c8759">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#aacd442b66140c764c594ac8ad7dfd5b3">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 , <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a0d14cd76203e00bdcef6a64a5d055cc7">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
 </li>
 <li>operator&lt;&lt;
@@ -199,28 +205,30 @@ $(function() {
 , <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a7159ed1cfe7c423a2baef8bea0c94509">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
 , <a class="el" href="da/d70/classsddk_1_1_communicator.html#a4befc1018975809550ad68e8374a1df6">sddk::Communicator</a>
 , <a class="el" href="dc/d9b/classsddk_1_1_gvec.html#a507447501d2707d86c5316d8fbda5b26">sddk::Gvec</a>
-, <a class="el" href="d0/d58/classsddk_1_1mdarray__base.html#a614ef2a7a293efd41049fceee0c51045">sddk::mdarray_base&lt; T, N &gt;</a>
+, <a class="el" href="d7/dab/classsddk_1_1mdarray.html#a9687a9a530df039141042cc0b9f47317">sddk::mdarray&lt; T, N &gt;</a>
 </li>
 <li>operator==
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a122640e7e2db1814fc7bbb3c122ec76e">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#aba21440ea1aff44f718285ed7d6d20d9">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 , <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a2b592605b63ae7f5401996ffa3b14393">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
 </li>
 <li>operator&gt;
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a87db51b6b936fb2ea293cdbc8702dcb8">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a412895af9a582869a4d369a64fb1b6d6">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 , <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#aaf3620b8dfa4bed8a9ac2b51dd55dbd7">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
 </li>
 <li>operator&gt;=
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a5ee0e3e8afc7cbd932d6ed66418fa80a">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a74a943800c7f103d0990d7eef82c6453">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 , <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a634f85da575cb60b012a687efa26e11a">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
 </li>
 <li>operator&gt;&gt;
 : <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#a9e06deabe69262c3ffc5533d32856983">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
-, <a class="el" href="d0/d58/classsddk_1_1mdarray__base.html#a882705034aedd51129447a3600215601">sddk::mdarray_base&lt; T, N &gt;</a>
+, <a class="el" href="d7/dab/classsddk_1_1mdarray.html#a42bbdfedc508598dd29a437695500874">sddk::mdarray&lt; T, N &gt;</a>
 </li>
 <li>operator[]()
-: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#abb8eaa633584b5aff9c8fcd242f25ca8">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
+: <a class="el" href="d9/dcc/classnlohmann_1_1basic__json.html#ab2318780e5ae692039e816b6ac32c91e">nlohmann::basic_json&lt; ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer &gt;</a>
 , <a class="el" href="d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#ac0b9276f1102ed4b9cd3f5f56287e3ce">nlohmann::detail::iter_impl&lt; BasicJsonType &gt;</a>
 , <a class="el" href="de/d74/classnlohmann_1_1detail_1_1json__reverse__iterator.html#a8ed9e445e03c49c46612eb7f7d55bb61">nlohmann::detail::json_reverse_iterator&lt; Base &gt;</a>
+, <a class="el" href="d7/dab/classsddk_1_1mdarray.html#ad614bd7ea25379b1104402287f0e3495">sddk::mdarray&lt; T, N &gt;</a>
+, <a class="el" href="dd/d99/classsddk_1_1splindex_3_01block__cyclic_00_01_t_01_4.html#a1f638051d26de09f2c750c35b1b86a37">sddk::splindex&lt; block_cyclic, T &gt;</a>
 , <a class="el" href="d9/dbf/classsirius_1_1_radial__grid.html#a86a6f17bc373a88e8a691d6cafdfe6ad">sirius::Radial_grid&lt; T &gt;</a>
 </li>
 <li>order
@@ -248,14 +256,11 @@ $(function() {
 <li>output_buffer_
 : <a class="el" href="d1/d76/classsirius_1_1_mixer.html#aaf8fd4ade6cd0b1a5b368be25c6335d3">sirius::Mixer&lt; T &gt;</a>
 </li>
-<li>overlap()
-: <a class="el" href="d9/d04/classsddk_1_1_wave__functions.html#ac9ff4af349a642e6444887bf52fb184b">sddk::Wave_functions</a>
-</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:58 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

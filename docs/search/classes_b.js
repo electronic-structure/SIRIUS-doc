@@ -3,6 +3,7 @@ var searchData=
   ['less_3c_20_3a_3anlohmann_3a_3adetail_3a_3avalue_5ft_20_3e',['less&lt; ::nlohmann::detail::value_t &gt;',['../d0/dac/structstd_1_1less_3_01_1_1nlohmann_1_1detail_1_1value__t_01_4.html',1,'std']]],
   ['lexer',['lexer',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html',1,'nlohmann::detail']]],
   ['linalg',['linalg',['../d8/d6c/classsddk_1_1linalg.html',1,'sddk']]],
+  ['linalg2',['linalg2',['../d2/de2/classsddk_1_1linalg2.html',1,'sddk']]],
   ['linalg_3c_20cpu_20_3e',['linalg&lt; CPU &gt;',['../da/d10/classsddk_1_1linalg_3_01_c_p_u_01_4.html',1,'sddk']]],
   ['linalg_3c_20gpu_20_3e',['linalg&lt; GPU &gt;',['../d9/d5e/classsddk_1_1linalg_3_01_g_p_u_01_4.html',1,'sddk']]],
   ['linalg_5fbase',['linalg_base',['../db/d14/classsddk_1_1linalg__base.html',1,'sddk']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['size_5ftype',['size_type',['../d9/dcc/classnlohmann_1_1basic__json.html#a39f2cd0b58106097e0e67bf185cc519b',1,'nlohmann::basic_json']]],
-  ['string_5ft',['string_t',['../d9/dcc/classnlohmann_1_1basic__json.html#a61f8566a1a85a424c7266fb531dca005',1,'nlohmann::basic_json']]]
+  ['radial_5fsolution_5fdescriptor_5fset',['radial_solution_descriptor_set',['../de/df7/typedefs_8hpp.html#aec4b6e691d842d5c6b06552800a478b3',1,'typedefs.hpp']]],
+  ['reference',['reference',['../d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a5be8001be099c6b82310f4d387b953ce',1,'nlohmann::detail::iter_impl::reference()'],['../de/d74/classnlohmann_1_1detail_1_1json__reverse__iterator.html#a42f51a69bac7b2aebb613b2164e457f1',1,'nlohmann::detail::json_reverse_iterator::reference()'],['../d9/dcc/classnlohmann_1_1basic__json.html#ac6a5eddd156c776ac75ff54cfe54a5bc',1,'nlohmann::basic_json::reference()']]],
+  ['reverse_5fiterator',['reverse_iterator',['../d9/dcc/classnlohmann_1_1basic__json.html#ac223d5560c2b05a208c88de67376c5f2',1,'nlohmann::basic_json']]]
 ];

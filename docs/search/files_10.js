@@ -6,6 +6,5 @@ var searchData=
   ['radial_5fsolver_2ehpp',['radial_solver.hpp',['../d0/ddf/radial__solver_8hpp.html',1,'']]],
   ['random_2ecu',['random.cu',['../db/deb/random_8cu.html',1,'']]],
   ['residuals_2ehpp',['residuals.hpp',['../dc/d95/residuals_8hpp.html',1,'']]],
-  ['residuals_5faux_2ecu',['residuals_aux.cu',['../d1/dc0/residuals__aux_8cu.html',1,'']]],
-  ['runtime_2ehpp',['runtime.hpp',['../d0/df9/runtime_8hpp.html',1,'']]]
+  ['residuals_5faux_2ecu',['residuals_aux.cu',['../d1/dc0/residuals__aux_8cu.html',1,'']]]
 ];

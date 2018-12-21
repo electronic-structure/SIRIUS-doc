@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['radial_5fsolution_5fdescriptor_5fset',['radial_solution_descriptor_set',['../de/df7/typedefs_8hpp.html#aec4b6e691d842d5c6b06552800a478b3',1,'typedefs.hpp']]],
-  ['reference',['reference',['../d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a5be8001be099c6b82310f4d387b953ce',1,'nlohmann::detail::iter_impl::reference()'],['../de/d74/classnlohmann_1_1detail_1_1json__reverse__iterator.html#a42f51a69bac7b2aebb613b2164e457f1',1,'nlohmann::detail::json_reverse_iterator::reference()'],['../d9/dcc/classnlohmann_1_1basic__json.html#ac6a5eddd156c776ac75ff54cfe54a5bc',1,'nlohmann::basic_json::reference()']]],
-  ['reverse_5fiterator',['reverse_iterator',['../d9/dcc/classnlohmann_1_1basic__json.html#ac223d5560c2b05a208c88de67376c5f2',1,'nlohmann::basic_json']]]
+  ['parse_5ferror',['parse_error',['../d9/dcc/classnlohmann_1_1basic__json.html#af1efc2468e6022be6e35fc2944cabe4d',1,'nlohmann::basic_json']]],
+  ['parse_5fevent_5ft',['parse_event_t',['../d9/dcc/classnlohmann_1_1basic__json.html#aaceba2e4cf75fc983bb75c78c8742e65',1,'nlohmann::basic_json']]],
+  ['parser_5fcallback_5ft',['parser_callback_t',['../d9/dcc/classnlohmann_1_1basic__json.html#ab4f78c5f9fd25172eeec84482e03f5b7',1,'nlohmann::basic_json']]],
+  ['pointer',['pointer',['../d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a69e52f890ce8c556fd68ce109e24b360',1,'nlohmann::detail::iter_impl::pointer()'],['../d9/dcc/classnlohmann_1_1basic__json.html#aefee1f777198c68724bd127e0c8abbe4',1,'nlohmann::basic_json::pointer()']]]
 ];

@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -90,8 +90,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de1/classsddk_1_1_gvec__partition__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de1/classsddk_1_1_gvec__partition__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -168,7 +167,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:ab7f2b2be90e2ccace3e23abeaa67b645"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../da/d70/classsddk_1_1_communicator.html" title="MPI communicator wrapper. ">Communicator</a> for the FFT. <br /></td></tr>
 <tr class="separator:ab7f2b2be90e2ccace3e23abeaa67b645"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fec0a75a66ff543f9a5e3119420ea30"><td class="memItemLeft" align="right" valign="top"><a id="a7fec0a75a66ff543f9a5e3119420ea30"></a>
-<a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>comm_ortho_fft_</b></td></tr>
+<a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html#a7fec0a75a66ff543f9a5e3119420ea30">comm_ortho_fft_</a></td></tr>
+<tr class="memdesc:a7fec0a75a66ff543f9a5e3119420ea30"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../da/d70/classsddk_1_1_communicator.html" title="MPI communicator wrapper. ">Communicator</a> which is orthogonal to FFT communicator. <br /></td></tr>
 <tr class="separator:a7fec0a75a66ff543f9a5e3119420ea30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2992a89220c7828c436c2d9e1d1ace1"><td class="memItemLeft" align="right" valign="top"><a id="ac2992a89220c7828c436c2d9e1d1ace1"></a>
 <a class="el" href="../../db/dea/structsddk_1_1block__data__descriptor.html">block_data_descriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html#ac2992a89220c7828c436c2d9e1d1ace1">gvec_distr_fft_</a></td></tr>
@@ -186,7 +186,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a596e5213a3df246471067aec057a355e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of the z-column in the local data buffer.  <a href="#a596e5213a3df246471067aec057a355e">More...</a><br /></td></tr>
 <tr class="separator:a596e5213a3df246471067aec057a355e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3754b1405d18210096025f49ec427730"><td class="memItemLeft" align="right" valign="top"><a id="a3754b1405d18210096025f49ec427730"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; int, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>rank_map_</b></td></tr>
+<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; int, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html#a3754b1405d18210096025f49ec427730">rank_map_</a></td></tr>
+<tr class="memdesc:a3754b1405d18210096025f49ec427730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping of MPI ranks used to split G-vectors to a 2D grid. <br /></td></tr>
 <tr class="separator:a3754b1405d18210096025f49ec427730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae87b1d01f05d183dc32c47de40e11d9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; int, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html#ae87b1d01f05d183dc32c47de40e11d9d">idx_zcol_</a></td></tr>
 <tr class="memdesc:ae87b1d01f05d183dc32c47de40e11d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global index of z-column in new (fat-slab) distrubution.  <a href="#ae87b1d01f05d183dc32c47de40e11d9d">More...</a><br /></td></tr>
@@ -200,7 +201,7 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Stores information about G-vector partitioning between MPI ranks for the FFT transformation. </p>
 <p>FFT driver works with a small communicator. G-vectors are distributed over the entire communicator which is larger than the FFT communicator. In order to transform the functions, G-vectors must be redistributed to the FFT-friendly "fat" slabs based on the FFT communicator size. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00910">910</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00950">950</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a596e5213a3df246471067aec057a355e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a596e5213a3df246471067aec057a355e">&#9670;&nbsp;</a></span>zcol_offs_</h2>
@@ -225,7 +226,7 @@ Private Attributes</h2></td></tr>
 <p>Offset of the z-column in the local data buffer. </p>
 <p>Global index of z-column is expected </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00932">932</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00973">973</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -252,7 +253,7 @@ Private Attributes</h2></td></tr>
 <p>Global index of z-column in new (fat-slab) distrubution. </p>
 <p>This is a mapping between new and original ordering of z-columns. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00938">938</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dd8/gvec_8hpp_source.html#l00980">980</a> of file <a class="el" href="../../d6/dd8/gvec_8hpp_source.html">gvec.hpp</a>.</p>
 
 </div>
 </div>
@@ -262,7 +263,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

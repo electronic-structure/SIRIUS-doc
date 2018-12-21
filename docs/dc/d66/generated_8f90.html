@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -90,9 +90,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a2f759bef3472c68085541fb1b986714f"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d66/generated_8f90.html#a2f759bef3472c68085541fb1b986714f">sirius_initialize</a> (call_mpi_init)</td></tr>
 <tr class="memdesc:a2f759bef3472c68085541fb1b986714f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the SIRIUS library.  <a href="#a2f759bef3472c68085541fb1b986714f">More...</a><br /></td></tr>
 <tr class="separator:a2f759bef3472c68085541fb1b986714f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab81057377b8a46318e09503d87ead1df"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d66/generated_8f90.html#ab81057377b8a46318e09503d87ead1df">sirius_finalize</a> (call_mpi_fin)</td></tr>
-<tr class="memdesc:ab81057377b8a46318e09503d87ead1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shut down the SIRIUS library.  <a href="#ab81057377b8a46318e09503d87ead1df">More...</a><br /></td></tr>
-<tr class="separator:ab81057377b8a46318e09503d87ead1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34410bed6640eee8ea8d2a84e606c4e7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d66/generated_8f90.html#a34410bed6640eee8ea8d2a84e606c4e7">sirius_finalize</a> (call_mpi_fin, call_device_reset, call_fftw_fin)</td></tr>
+<tr class="memdesc:a34410bed6640eee8ea8d2a84e606c4e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shut down the SIRIUS library.  <a href="#a34410bed6640eee8ea8d2a84e606c4e7">More...</a><br /></td></tr>
+<tr class="separator:a34410bed6640eee8ea8d2a84e606c4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c2b39612b9f8657ab7194a6846034fc"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d66/generated_8f90.html#a4c2b39612b9f8657ab7194a6846034fc">sirius_start_timer</a> (name)</td></tr>
 <tr class="memdesc:a4c2b39612b9f8657ab7194a6846034fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the timer.  <a href="#a4c2b39612b9f8657ab7194a6846034fc">More...</a><br /></td></tr>
 <tr class="separator:a4c2b39612b9f8657ab7194a6846034fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,8 +371,8 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 
 </div>
 </div>
-<a id="ab81057377b8a46318e09503d87ead1df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab81057377b8a46318e09503d87ead1df">&#9670;&nbsp;</a></span>sirius_finalize()</h2>
+<a id="a34410bed6640eee8ea8d2a84e606c4e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34410bed6640eee8ea8d2a84e606c4e7">&#9670;&nbsp;</a></span>sirius_finalize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -380,9 +380,25 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
         <tr>
           <td class="memname">subroutine sirius_finalize </td>
           <td>(</td>
-          <td class="paramtype">logical(c_bool), intent(in)&#160;</td>
-          <td class="paramname"><em>call_mpi_fin</em></td><td>)</td>
+          <td class="paramtype">logical(c_bool), intent(in), optional, target&#160;</td>
+          <td class="paramname"><em>call_mpi_fin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">logical(c_bool), intent(in), optional, target&#160;</td>
+          <td class="paramname"><em>call_device_reset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical(c_bool), intent(in), optional, target&#160;</td>
+          <td class="paramname"><em>call_fftw_fin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -391,11 +407,13 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">call_mpi_fin</td><td>If .true. then MPI_Finalize must be called after the shutdown. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">call_device_reset</td><td>If .true. then cuda device is reset after shutdown. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">call_fftw_fin</td><td>If .true. then fft_cleanup must be called after the shutdown. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00025">25</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00027">27</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -423,7 +441,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00041">41</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00060">60</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -451,7 +469,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00057">57</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00076">76</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -479,7 +497,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00086">86</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00105">105</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -539,7 +557,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00106">106</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00125">125</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -567,7 +585,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00130">130</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00149">149</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -595,7 +613,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00151">151</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00170">170</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -634,7 +652,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00170">170</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00189">189</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -827,7 +845,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00215">215</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00234">234</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -866,7 +884,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00379">379</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00398">398</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -912,7 +930,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00399">399</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00418">418</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -965,7 +983,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00422">422</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00441">441</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -993,7 +1011,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00444">444</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00463">463</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1021,7 +1039,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00460">460</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00479">479</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1049,7 +1067,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00476">476</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00495">495</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1077,7 +1095,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00492">492</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00511">511</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1130,7 +1148,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00511">511</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00530">530</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1190,7 +1208,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00546">546</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00565">565</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1243,7 +1261,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00578">578</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00597">597</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1271,7 +1289,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00603">603</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00622">622</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1310,7 +1328,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00622">622</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00641">641</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1338,7 +1356,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00644">644</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00663">663</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1412,7 +1430,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00666">666</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00685">685</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1465,7 +1483,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00720">720</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00739">739</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1560,7 +1578,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00754">754</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00773">773</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1655,7 +1673,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00819">819</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00838">838</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1708,7 +1726,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00857">857</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00876">876</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1768,7 +1786,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00884">884</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00903">903</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1821,7 +1839,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00912">912</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00931">931</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1867,7 +1885,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00940">940</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00959">959</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -1941,7 +1959,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00967">967</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l00986">986</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2008,7 +2026,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01018">1018</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01037">1037</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2082,7 +2100,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01063">1063</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01082">1082</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2121,7 +2139,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01106">1106</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01125">1125</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2174,7 +2192,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01128">1128</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01147">1147</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2202,7 +2220,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01156">1156</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01175">1175</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2230,7 +2248,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01172">1172</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01191">1191</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2258,7 +2276,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01188">1188</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01207">1207</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2304,7 +2322,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01206">1206</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01225">1225</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2357,7 +2375,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01237">1237</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01256">1256</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2410,7 +2428,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01262">1262</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01281">1281</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2470,7 +2488,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01288">1288</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01307">1307</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2530,7 +2548,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01316">1316</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01335">1335</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2583,7 +2601,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01343">1343</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01362">1362</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2636,7 +2654,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01368">1368</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01387">1387</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2689,7 +2707,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01393">1393</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01412">1412</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2742,7 +2760,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01418">1418</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01437">1437</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2788,7 +2806,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01442">1442</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01461">1461</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2834,7 +2852,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01464">1464</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01483">1483</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2880,7 +2898,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01486">1486</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01505">1505</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2919,7 +2937,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01507">1507</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01526">1526</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -2993,7 +3011,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01533">1533</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01552">1552</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3074,7 +3092,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01568">1568</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01587">1587</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3141,7 +3159,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01604">1604</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01623">1623</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3169,7 +3187,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01637">1637</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01656">1656</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3215,7 +3233,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01655">1655</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01674">1674</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3261,7 +3279,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01677">1677</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01696">1696</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3307,7 +3325,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01699">1699</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01718">1718</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3353,7 +3371,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01721">1721</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01740">1740</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3427,7 +3445,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01748">1748</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01767">1767</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3508,7 +3526,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01785">1785</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01804">1804</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3582,7 +3600,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01824">1824</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01843">1843</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3628,7 +3646,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01855">1855</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01874">1874</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3688,7 +3706,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01879">1879</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01898">1898</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3727,7 +3745,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01904">1904</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01923">1923</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3766,7 +3784,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01923">1923</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01942">1942</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3805,7 +3823,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01942">1942</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01961">1961</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3833,7 +3851,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01960">1960</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01979">1979</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3893,7 +3911,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l01982">1982</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02001">2001</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3921,7 +3939,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02024">2024</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02043">2043</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3960,7 +3978,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02043">2043</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02062">2062</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -3988,7 +4006,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02061">2061</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02080">2080</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4069,7 +4087,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02087">2087</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02106">2106</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4115,7 +4133,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02121">2121</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02140">2140</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4154,7 +4172,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02142">2142</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02161">2161</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4249,7 +4267,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02170">2170</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02189">2189</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4330,7 +4348,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02237">2237</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02256">2256</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4418,7 +4436,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02292">2292</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02311">2311</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4492,7 +4510,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02356">2356</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02375">2375</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4531,7 +4549,7 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02398">2398</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02417">2417</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
@@ -4559,14 +4577,14 @@ subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02416">2416</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d66/generated_8f90_source.html#l02435">2435</a> of file <a class="el" href="../../dc/d66/generated_8f90_source.html">generated.f90</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

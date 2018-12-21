@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -87,8 +87,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dde/wf__inner_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dde/wf__inner_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../dc/d17/wf__inner_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -99,6 +98,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a2eeca586df53035c14edaba0bed6dc23"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/d17/wf__inner_8hpp.html#a2eeca586df53035c14edaba0bed6dc23">inner</a> (device_t pu__, int ispn__, Wave_functions &amp;bra__, int i0__, int m__, Wave_functions &amp;ket__, int j0__, int n__, dmatrix&lt; T &gt; &amp;result__, int irow0__, int jcol0__)</td></tr>
 <tr class="memdesc:a2eeca586df53035c14edaba0bed6dc23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inner product between wave-functions.  <a href="#a2eeca586df53035c14edaba0bed6dc23">More...</a><br /></td></tr>
 <tr class="separator:a2eeca586df53035c14edaba0bed6dc23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b38850e651a58cb831ab6741dd193d"><td class="memTemplParams" colspan="2"><a id="a40b38850e651a58cb831ab6741dd193d"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a40b38850e651a58cb831ab6741dd193d"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>inner_local</b> (memory_t mem__, linalg_t la__, int ispn__, Wave_functions &amp;bra__, int i0__, int m__, Wave_functions &amp;ket__, int j0__, int n__, T *beta__, T *buf__, int ld__, <a class="el" href="../../d3/d99/classstream__id.html">stream_id</a> sid__)</td></tr>
+<tr class="separator:a40b38850e651a58cb831ab6741dd193d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5f0fe080ee152ac8ffa12cdddb451e"><td class="memTemplParams" colspan="2"><a id="a8c5f0fe080ee152ac8ffa12cdddb451e"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a8c5f0fe080ee152ac8ffa12cdddb451e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>inner_local&lt; double &gt;</b> (memory_t mem__, linalg_t la__, int ispn__, Wave_functions &amp;bra__, int i0__, int m__, Wave_functions &amp;ket__, int j0__, int n__, double *beta__, double *buf__, int ld__, <a class="el" href="../../d3/d99/classstream__id.html">stream_id</a> sid__)</td></tr>
+<tr class="separator:a8c5f0fe080ee152ac8ffa12cdddb451e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe38c10a0ca995456556cadf443973c"><td class="memTemplParams" colspan="2"><a id="a0fe38c10a0ca995456556cadf443973c"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a0fe38c10a0ca995456556cadf443973c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>inner_local&lt; double_complex &gt;</b> (memory_t mem__, linalg_t la__, int ispn__, Wave_functions &amp;bra__, int i0__, int m__, Wave_functions &amp;ket__, int j0__, int n__, double_complex *beta__, double_complex *buf__, int ld__, <a class="el" href="../../d3/d99/classstream__id.html">stream_id</a> sid__)</td></tr>
+<tr class="separator:a0fe38c10a0ca995456556cadf443973c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b6534da3690c1f39a3cec939a708ee5"><td class="memTemplParams" colspan="2"><a id="a9b6534da3690c1f39a3cec939a708ee5"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9b6534da3690c1f39a3cec939a708ee5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>inner</b> (memory_t mem__, linalg_t la__, int ispn__, Wave_functions &amp;bra__, int i0__, int m__, Wave_functions &amp;ket__, int j0__, int n__, dmatrix&lt; T &gt; &amp;result__, int irow0__, int jcol0__)</td></tr>
+<tr class="separator:a9b6534da3690c1f39a3cec939a708ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains implementation of inner product for wave-functions. </p>
@@ -223,7 +238,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:56 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

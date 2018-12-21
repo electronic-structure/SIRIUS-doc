@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -90,16 +90,14 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d33/classsddk_1_1_f_f_t3_d__inherit__graph.svg" width="140" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d33/classsddk_1_1_f_f_t3_d__inherit__graph.svg" width="140" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for sddk::FFT3D:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d0e/classsddk_1_1_f_f_t3_d__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d0e/classsddk_1_1_f_f_t3_d__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -152,20 +150,19 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <a class="el" href="../../d6/d4d/namespacesddk.html#a8ec5c207c724e5271f35f5ccb8f4abb6">device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a29a16c3425cb55ec18316700023829cd">pu</a> () const</td></tr>
 <tr class="memdesc:a29a16c3425cb55ec18316700023829cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the type of processing unit. <br /></td></tr>
 <tr class="separator:a29a16c3425cb55ec18316700023829cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f26b3e686edcaddedabdf1aa61d86f"><td class="memItemLeft" align="right" valign="top"><a id="a51f26b3e686edcaddedabdf1aa61d86f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a51f26b3e686edcaddedabdf1aa61d86f">prepare</a> (<a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html">Gvec_partition</a> const &amp;gvp__)</td></tr>
-<tr class="memdesc:a51f26b3e686edcaddedabdf1aa61d86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare FFT driver to transfrom functions with the specific G-vector distribution. <br /></td></tr>
+<tr class="memitem:a51f26b3e686edcaddedabdf1aa61d86f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a51f26b3e686edcaddedabdf1aa61d86f">prepare</a> (<a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html">Gvec_partition</a> const &amp;gvp__)</td></tr>
+<tr class="memdesc:a51f26b3e686edcaddedabdf1aa61d86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare FFT driver to transfrom functions with the specific G-vector distribution.  <a href="#a51f26b3e686edcaddedabdf1aa61d86f">More...</a><br /></td></tr>
 <tr class="separator:a51f26b3e686edcaddedabdf1aa61d86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a718a8fa98b535c672b508b24fc7345b3"><td class="memItemLeft" align="right" valign="top"><a id="a718a8fa98b535c672b508b24fc7345b3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dismiss</b> ()</td></tr>
 <tr class="separator:a718a8fa98b535c672b508b24fc7345b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a325411fde89909d3753fa08dd67c8561"><td class="memTemplParams" colspan="2"><a id="a325411fde89909d3753fa08dd67c8561"></a>
-template&lt;int direction, device_t data_ptr_type = CPU&gt; </td></tr>
+template&lt;int direction, memory_t mem = memory_t::host&gt; </td></tr>
 <tr class="memitem:a325411fde89909d3753fa08dd67c8561"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a325411fde89909d3753fa08dd67c8561">transform</a> (double_complex *data__)</td></tr>
 <tr class="memdesc:a325411fde89909d3753fa08dd67c8561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform a single functions. <br /></td></tr>
 <tr class="separator:a325411fde89909d3753fa08dd67c8561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5434e4c93246fcbffea897f1ad94315"><td class="memTemplParams" colspan="2"><a id="ad5434e4c93246fcbffea897f1ad94315"></a>
-template&lt;int direction, device_t data_ptr_type = CPU&gt; </td></tr>
+template&lt;int direction, memory_t mem = memory_t::host&gt; </td></tr>
 <tr class="memitem:ad5434e4c93246fcbffea897f1ad94315"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#ad5434e4c93246fcbffea897f1ad94315">transform</a> (double_complex *data1__, double_complex *data2__)</td></tr>
 <tr class="memdesc:ad5434e4c93246fcbffea897f1ad94315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform two real functions. <br /></td></tr>
 <tr class="separator:ad5434e4c93246fcbffea897f1ad94315"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,25 +219,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../.
 <tr class="memitem:a9b1493f0ffbe3df80ba32252897a6465"><td class="memItemLeft" align="right" valign="top"><a id="a9b1493f0ffbe3df80ba32252897a6465"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reallocate_fft_buffer_aux</b> (<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;fft_buffer_aux__)</td></tr>
 <tr class="separator:a9b1493f0ffbe3df80ba32252897a6465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d1d965763915ce6940782e1a0bc93be"><td class="memTemplParams" colspan="2"><a id="a6d1d965763915ce6940782e1a0bc93be"></a>
-template&lt;int direction, device_t data_ptr_type&gt; </td></tr>
+<tr class="memitem:a6d1d965763915ce6940782e1a0bc93be"><td class="memTemplParams" colspan="2">template&lt;int direction, memory_t mem&gt; </td></tr>
 <tr class="memitem:a6d1d965763915ce6940782e1a0bc93be"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a6d1d965763915ce6940782e1a0bc93be">transform_z_serial</a> (double_complex *data__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;fft_buffer_aux__, cufftHandle &amp;cufft_plan_z__)</td></tr>
-<tr class="memdesc:a6d1d965763915ce6940782e1a0bc93be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serial part of 1D transformation of columns. <br /></td></tr>
+<tr class="memdesc:a6d1d965763915ce6940782e1a0bc93be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serial part of 1D transformation of columns.  <a href="#a6d1d965763915ce6940782e1a0bc93be">More...</a><br /></td></tr>
 <tr class="separator:a6d1d965763915ce6940782e1a0bc93be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3c80d23189ff641571481929acefaa8"><td class="memTemplParams" colspan="2"><a id="ac3c80d23189ff641571481929acefaa8"></a>
-template&lt;int direction, device_t data_ptr_type&gt; </td></tr>
+template&lt;int direction, memory_t mem&gt; </td></tr>
 <tr class="memitem:ac3c80d23189ff641571481929acefaa8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#ac3c80d23189ff641571481929acefaa8">transform_z</a> (double_complex *data__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;fft_buffer_aux__, cufftHandle cufft_plan_z__)</td></tr>
 <tr class="memdesc:ac3c80d23189ff641571481929acefaa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation of z-columns. <br /></td></tr>
 <tr class="separator:ac3c80d23189ff641571481929acefaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad99db88adf43a4416e451fd0b4b4f5de"><td class="memTemplParams" colspan="2"><a id="ad99db88adf43a4416e451fd0b4b4f5de"></a>
-template&lt;int direction&gt; </td></tr>
+<tr class="memitem:ad99db88adf43a4416e451fd0b4b4f5de"><td class="memTemplParams" colspan="2">template&lt;int direction&gt; </td></tr>
 <tr class="memitem:ad99db88adf43a4416e451fd0b4b4f5de"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#ad99db88adf43a4416e451fd0b4b4f5de">transform_xy</a> (<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;fft_buffer_aux__)</td></tr>
-<tr class="memdesc:ad99db88adf43a4416e451fd0b4b4f5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply 2D FFT transformation to z-columns of one complex function. <br /></td></tr>
+<tr class="memdesc:ad99db88adf43a4416e451fd0b4b4f5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply 2D FFT transformation to z-columns of one complex function.  <a href="#ad99db88adf43a4416e451fd0b4b4f5de">More...</a><br /></td></tr>
 <tr class="separator:ad99db88adf43a4416e451fd0b4b4f5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b873d2a7f01dc44c6b54aa77db159e5"><td class="memTemplParams" colspan="2"><a id="a8b873d2a7f01dc44c6b54aa77db159e5"></a>
-template&lt;int direction&gt; </td></tr>
+<tr class="memitem:a8b873d2a7f01dc44c6b54aa77db159e5"><td class="memTemplParams" colspan="2">template&lt;int direction&gt; </td></tr>
 <tr class="memitem:a8b873d2a7f01dc44c6b54aa77db159e5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a8b873d2a7f01dc44c6b54aa77db159e5">transform_xy</a> (<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;fft_buffer_aux1__, <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;fft_buffer_aux2__)</td></tr>
-<tr class="memdesc:a8b873d2a7f01dc44c6b54aa77db159e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply 2D FFT transformation to z-columns of two real functions. <br /></td></tr>
+<tr class="memdesc:a8b873d2a7f01dc44c6b54aa77db159e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply 2D FFT transformation to z-columns of two real functions.  <a href="#a8b873d2a7f01dc44c6b54aa77db159e5">More...</a><br /></td></tr>
 <tr class="separator:a8b873d2a7f01dc44c6b54aa77db159e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -265,9 +259,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../..
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a57e693bd91fbce44258bbcaa1a7991ea">offset_z_</a></td></tr>
 <tr class="memdesc:a57e693bd91fbce44258bbcaa1a7991ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset in the global z-dimension. <br /></td></tr>
 <tr class="separator:a57e693bd91fbce44258bbcaa1a7991ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6483ea5038aceb6cd74c9ca94a37eaac"><td class="memItemLeft" align="right" valign="top"><a id="a6483ea5038aceb6cd74c9ca94a37eaac"></a>
-<a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a6483ea5038aceb6cd74c9ca94a37eaac">fft_buffer_</a></td></tr>
-<tr class="memdesc:a6483ea5038aceb6cd74c9ca94a37eaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main input/output buffer. <br /></td></tr>
+<tr class="memitem:a6483ea5038aceb6cd74c9ca94a37eaac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#a6483ea5038aceb6cd74c9ca94a37eaac">fft_buffer_</a></td></tr>
+<tr class="memdesc:a6483ea5038aceb6cd74c9ca94a37eaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main input/output buffer.  <a href="#a6483ea5038aceb6cd74c9ca94a37eaac">More...</a><br /></td></tr>
 <tr class="separator:a6483ea5038aceb6cd74c9ca94a37eaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af73e16ad5cfd2ee76bcc013ee2f26f90"><td class="memItemLeft" align="right" valign="top"><a id="af73e16ad5cfd2ee76bcc013ee2f26f90"></a>
 <a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd3/classsddk_1_1_f_f_t3_d.html#af73e16ad5cfd2ee76bcc013ee2f26f90">fft_buffer_aux1_</a></td></tr>
@@ -402,8 +395,133 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>zcol_gkvec_count_max_<
 <p class="enddd">decompose 3D fft into three consecutive 1D ffts </p>
 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00082">82</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00084">84</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6d1d965763915ce6940782e1a0bc93be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d1d965763915ce6940782e1a0bc93be">&#9670;&nbsp;</a></span>transform_z_serial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int direction, memory_t mem&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sddk::FFT3D::transform_z_serial </td>
+          <td>(</td>
+          <td class="paramtype">double_complex *&#160;</td>
+          <td class="paramname"><em>data__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fft_buffer_aux__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">cufftHandle &amp;&#160;</td>
+          <td class="paramname"><em>cufft_plan_z__</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serial part of 1D transformation of columns. </p>
+<p>Transform local set of z-columns from G-domain to r-domain or vice versa. The G-domain is located in data buffer, the r-domain is located in fft_buffer_aux. The template parameter mem specifies the locatio of the data: host or device. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00236">236</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad99db88adf43a4416e451fd0b4b4f5de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad99db88adf43a4416e451fd0b4b4f5de">&#9670;&nbsp;</a></span>transform_xy() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int direction&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sddk::FFT3D::transform_xy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fft_buffer_aux__</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Apply 2D FFT transformation to z-columns of one complex function. </p>
+<p>The transformation is always done in the memory of processing unit. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00499">499</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8b873d2a7f01dc44c6b54aa77db159e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b873d2a7f01dc44c6b54aa77db159e5">&#9670;&nbsp;</a></span>transform_xy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int direction&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sddk::FFT3D::transform_xy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fft_buffer_aux1__</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt; double_complex, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fft_buffer_aux2__</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Apply 2D FFT transformation to z-columns of two real functions. </p>
+<p>The transformation is always done in the memory of processing unit. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00590">590</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ad21e23460b01e6db30c68190fa805f24"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad21e23460b01e6db30c68190fa805f24">&#9670;&nbsp;</a></span>input()</h2>
 
@@ -438,7 +556,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00860">860</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00815">815</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
 
 </div>
 </div>
@@ -474,7 +592,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00872">872</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00827">827</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
 
 </div>
 </div>
@@ -510,11 +628,78 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00884">884</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00839">839</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a51f26b3e686edcaddedabdf1aa61d86f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51f26b3e686edcaddedabdf1aa61d86f">&#9670;&nbsp;</a></span>prepare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sddk::FFT3D::prepare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/def/classsddk_1_1_gvec__partition.html">Gvec_partition</a> const &amp;&#160;</td>
+          <td class="paramname"><em>gvp__</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepare FFT driver to transfrom functions with the specific G-vector distribution. </p>
+<p>Because the full 3D transformtation is decomposed into 1D and 2D transformtations we need to make a preparatory step in order to find locations of non-zero z-sticks in a given FFT buffer. The following steps are performed here:</p><ul>
+<li>address of G-vector partition object is saved in the internal class variable</li>
+<li>positions of non-zero z-columns are stored in a buffer; this is actually a reason to make a preparatory step: non-zero columns are different for different G-vector sets</li>
+</ul>
+<p>In case of GPU the following additional steps are performed:</p><ul>
+<li>a mapping between G-vector index an a position in FFT buffer for 1D z-transforms is created</li>
+<li>cuFFT plan for 1D transforms is re-created if the number of columns has increased since the previous call</li>
+<li>work buffer is allocated on GPU and attached to z- and xy- cuFFT plans</li>
+<li>main FFT buffer and two auxiliary buffers are allocated on GPU </li>
+</ul>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00919">919</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6483ea5038aceb6cd74c9ca94a37eaac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6483ea5038aceb6cd74c9ca94a37eaac">&#9670;&nbsp;</a></span>fft_buffer_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dab/classsddk_1_1mdarray.html">mdarray</a>&lt;double_complex, 1&gt; sddk::FFT3D::fft_buffer_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Main input/output buffer. </p>
+<p>This buffer stores the real-space values of the transformed function </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00104">104</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a2b900e6b74712a24cbecb62b1123ee2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b900e6b74712a24cbecb62b1123ee2c">&#9670;&nbsp;</a></span>zcol_gvec_count_max_</h2>
 
@@ -538,7 +723,7 @@ template&lt;typename T &gt; </div>
 <p>Maximum number of z-columns ever transformed. </p>
 <p>This is used to recreate the cuFFT plan only when the number of columns has increased </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00173">173</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html#l00175">175</a> of file <a class="el" href="../../dd/d4a/fft3d_8hpp_source.html">fft3d.hpp</a>.</p>
 
 </div>
 </div>
@@ -548,7 +733,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

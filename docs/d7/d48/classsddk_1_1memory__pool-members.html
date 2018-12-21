@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -80,19 +80,24 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>, including all inherited members.</p>
 <table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>allocate</b>(size_t num_elements__) (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>free</b>(void *ptr__) (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>max_allocated_</b> (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a4b02518d00d0b39dedfb9a13240293d9">memory_blocks_</a></td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a606ccb0cef163e9f082fb2ec9a9795cd">memory_pool</a>()</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a66ad59453727a0b0f9a4f9e5760deb14">allocate</a>(size_t num_elements__)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a848ae7dbb6d4eeaf76671967b5a33ec9">free</a>(void *ptr__)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a5a9389155a0755425414ff88d6d1ac2c">free_size</a>() const</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_unique_ptr</b>(size_t n__) (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>M_</b> (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a0360d4dac8f145db4cb49478106db9ed">map_ptr_</a></td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a9b90e2ca0eaa48ff53f10429653ea126">memory_blocks_</a></td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a87e830d58135a0d98c9a65895d965466">memory_pool</a>(memory_t M__, size_t initial_size__=0)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#ab307d05bf4bd39995784fed17354a67e">memory_type</a>() const</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#af609ccbeee208b27bd5cbd3823edfaa1">num_blocks</a>() const</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a0ada4f1139248b8fc0f3f63f9b9454a4">num_stored_ptr</a>() const</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>print</b>() (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>remove_block</b>(std::list&lt; memory_block_descriptor &gt;::iterator it__) (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>reset</b>() (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>size_allocated_</b> (defined in <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a>)</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a6d5b88a1f6151aebf2d2a02ab4a3b802">reset</a>()</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html#a2c7d80009f029150ad4b3701e1dffcd6">total_size</a>() const</td><td class="entry"><a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">sddk::memory_pool</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

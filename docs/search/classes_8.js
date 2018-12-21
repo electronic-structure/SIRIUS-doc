@@ -25,6 +25,8 @@ var searchData=
   ['is_5fcompatible_5ftype',['is_compatible_type',['../d3/d71/structnlohmann_1_1detail_1_1is__compatible__type.html',1,'nlohmann::detail']]],
   ['is_5fcomplete_5ftype',['is_complete_type',['../d2/db3/structnlohmann_1_1detail_1_1is__complete__type.html',1,'nlohmann::detail']]],
   ['is_5fcomplete_5ftype_3c_20t_2c_20decltype_28void_28sizeof_28t_29_29_29_3e',['is_complete_type&lt; T, decltype(void(sizeof(T)))&gt;',['../dc/d2b/structnlohmann_1_1detail_1_1is__complete__type_3_01_t_00_01decltype_07void_07sizeof_07_t_08_08_08_4.html',1,'nlohmann::detail']]],
+  ['is_5fcomplex',['is_complex',['../d9/d15/structsddk_1_1is__complex.html',1,'sddk']]],
+  ['is_5fcomplex_3c_20std_3a_3acomplex_3c_20t_20_3e_20_3e',['is_complex&lt; std::complex&lt; T &gt; &gt;',['../db/d83/structsddk_1_1is__complex_3_01std_1_1complex_3_01_t_01_4_01_4.html',1,'sddk']]],
   ['iter_5fimpl',['iter_impl',['../d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html',1,'nlohmann::detail']]],
   ['iteration_5fproxy',['iteration_proxy',['../db/dda/classnlohmann_1_1detail_1_1iteration__proxy.html',1,'nlohmann::detail']]],
   ['iteration_5fproxy_5finternal',['iteration_proxy_internal',['../dc/dda/classnlohmann_1_1detail_1_1iteration__proxy_1_1iteration__proxy__internal.html',1,'nlohmann::detail::iteration_proxy']]],

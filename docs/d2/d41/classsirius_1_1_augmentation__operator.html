@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -89,8 +89,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/daf/classsirius_1_1_augmentation__operator__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/daf/classsirius_1_1_augmentation__operator__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -98,12 +97,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2e813f5faba19f0c0406e914d987380"><td class="memItemLeft" align="right" valign="top"><a id="ac2e813f5faba19f0c0406e914d987380"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Augmentation_operator</b> (<a class="el" href="../../d3/d37/classsirius_1_1_atom__type.html">Atom_type</a> const &amp;atom_type__, <a class="el" href="../../dc/d9b/classsddk_1_1_gvec.html">Gvec</a> const &amp;gvec__, <a class="el" href="../../da/d70/classsddk_1_1_communicator.html">Communicator</a> const &amp;comm__)</td></tr>
 <tr class="separator:ac2e813f5faba19f0c0406e914d987380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7e412fe0583639e8ba7c92cc2737c07"><td class="memItemLeft" align="right" valign="top"><a id="ac7e412fe0583639e8ba7c92cc2737c07"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_pw_coeffs</b> (<a class="el" href="../../d9/d29/classsirius_1_1_radial__integrals__aug.html">Radial_integrals_aug</a>&lt; false &gt; const &amp;radial_integrals__)</td></tr>
-<tr class="separator:ac7e412fe0583639e8ba7c92cc2737c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac07ce2e9659601cfe41fb20c59320f2e"><td class="memItemLeft" align="right" valign="top"><a id="ac07ce2e9659601cfe41fb20c59320f2e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>prepare</b> (int stream_id__)</td></tr>
-<tr class="separator:ac07ce2e9659601cfe41fb20c59320f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee0e9ec5c9664d10f71c3a8002eedcb4"><td class="memItemLeft" align="right" valign="top"><a id="aee0e9ec5c9664d10f71c3a8002eedcb4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>generate_pw_coeffs</b> (<a class="el" href="../../d9/d29/classsirius_1_1_radial__integrals__aug.html">Radial_integrals_aug</a>&lt; false &gt; const &amp;radial_integrals__, <a class="el" href="../../d0/dc8/classsddk_1_1memory__pool.html">memory_pool</a> &amp;mp__)</td></tr>
+<tr class="separator:aee0e9ec5c9664d10f71c3a8002eedcb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc28c5c440c3fe1ca686b57df9396b37"><td class="memItemLeft" align="right" valign="top"><a id="abc28c5c440c3fe1ca686b57df9396b37"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>prepare</b> (<a class="el" href="../../d3/d99/classstream__id.html">stream_id</a> sid)</td></tr>
+<tr class="separator:abc28c5c440c3fe1ca686b57df9396b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aace7cab49460041e1172d70e85812585"><td class="memItemLeft" align="right" valign="top"><a id="aace7cab49460041e1172d70e85812585"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dismiss</b> ()</td></tr>
 <tr class="separator:aace7cab49460041e1172d70e85812585"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +124,9 @@ double &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>q_mtrx</b> (i
 <tr class="memitem:abcde17fc75b94c2b2f5f36a286eda6dd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d41/classsirius_1_1_augmentation__operator.html#abcde17fc75b94c2b2f5f36a286eda6dd">sym_weight</a> (int idx__) const</td></tr>
 <tr class="memdesc:abcde17fc75b94c2b2f5f36a286eda6dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight of Q_{,'}.  <a href="#abcde17fc75b94c2b2f5f36a286eda6dd">More...</a><br /></td></tr>
 <tr class="separator:abcde17fc75b94c2b2f5f36a286eda6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad25fd04bd6d06d09219e73a52190731c"><td class="memItemLeft" align="right" valign="top"><a id="ad25fd04bd6d06d09219e73a52190731c"></a>
+<a class="el" href="../../d3/d37/classsirius_1_1_atom__type.html">Atom_type</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>atom_type</b> () const</td></tr>
+<tr class="separator:ad25fd04bd6d06d09219e73a52190731c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -180,7 +182,7 @@ Private Attributes</h2></td></tr>
 <p>Weight of Q_{,'}. </p>
 <p>2 if off-diagonal (xi != xi'), 1 if diagonal (xi=xi') </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d1c/augmentation__operator_8hpp_source.html#l00217">217</a> of file <a class="el" href="../../d3/d1c/augmentation__operator_8hpp_source.html">augmentation_operator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d1c/augmentation__operator_8hpp_source.html#l00221">221</a> of file <a class="el" href="../../d3/d1c/augmentation__operator_8hpp_source.html">augmentation_operator.hpp</a>.</p>
 
 </div>
 </div>
@@ -190,7 +192,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:19 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:57 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

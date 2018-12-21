@@ -1,6 +1,7 @@
 var searchData=
 [
   ['n',['n',['../d8/ddb/structatomic__level__descriptor.html#ab90b943aaee4e6747cd9dd8647212b1c',1,'atomic_level_descriptor::n()'],['../df/d32/structradial__solution__descriptor.html#ab0246e8a65be162caf9028b42741c8fd',1,'radial_solution_descriptor::n()']]],
+  ['n_5f',['n_',['../d0/d88/classsirius_1_1hubbard__orbital__descriptor.html#aa2bc5c467ea9657aa7824ab75988bf63',1,'sirius::hubbard_orbital_descriptor::n_()'],['../d1/d5a/classsirius_1_1_beta__projectors__base.html#aca3edff6e955a4442dab00e41a33185f',1,'sirius::Beta_projectors_base::N_()']]],
   ['name_5f',['name_',['../d9/dbf/classsirius_1_1_radial__grid.html#a69ef061e3d74880674caeeebfb8c15fa',1,'sirius::Radial_grid::name_()'],['../d3/d37/classsirius_1_1_atom__type.html#aaed973114158f85972d3aee81d4a5682',1,'sirius::Atom_type::name_()'],['../d1/dc9/classsirius_1_1_atom__type__base.html#ad6a5675bd5c7369b72928e62173582d2',1,'sirius::Atom_type_base::name_()']]],
   ['nearest_5fneighbours_5f',['nearest_neighbours_',['../d6/dd1/classsirius_1_1_unit__cell.html#a4362a0696328acee16058705d538c4f4',1,'sirius::Unit_cell']]],
   ['ngridk_5f',['ngridk_',['../d4/d6e/structsirius_1_1_parameters__input.html#a52c1412ebc040c9f0e1d28e19d5d044a',1,'sirius::Parameters_input']]],
@@ -13,7 +14,7 @@ var searchData=
   ['num_5fbands_5f',['num_bands_',['../d4/d6e/structsirius_1_1_parameters__input.html#a86e8529dfa9e5ebccdf45a6ec8d71f0b',1,'sirius::Parameters_input']]],
   ['num_5fbands_5fto_5fprint_5f',['num_bands_to_print_',['../da/de3/structsirius_1_1_control__input.html#a9ff6ed57dbcf79c01e3b3230a4805868',1,'sirius::Control_input']]],
   ['num_5fbeta_5f',['num_beta_',['../d5/de6/structsirius_1_1beta__chunk__t.html#a9ddbc3e11037c8d9a32ab278c534392a',1,'sirius::beta_chunk_t']]],
-  ['num_5fbeta_5ft_5f',['num_beta_t_',['../d1/d5a/classsirius_1_1_beta__projectors__base.html#a8972cd71d8a261a8d9ac2ba950a7f571',1,'sirius::Beta_projectors_base']]],
+  ['num_5fbeta_5ft_5f',['num_beta_t_',['../d1/d5a/classsirius_1_1_beta__projectors__base.html#a0b5a22790eda55ab033a0a48147dbc92',1,'sirius::Beta_projectors_base']]],
   ['num_5fcols_5f',['num_cols_',['../dc/deb/classsddk_1_1dmatrix.html#a6b7c813717810ff63c246504c67e1ab5',1,'sddk::dmatrix::num_cols_()'],['../d9/db3/classsddk_1_1matrix__storage_3_01_t_00_01matrix__storage__t_1_1slab_01_4.html#aea07eddfd0f46bb0649933617389a2d1',1,'sddk::matrix_storage&lt; T, matrix_storage_t::slab &gt;::num_cols_()']]],
   ['num_5fcore_5felectrons_5f',['num_core_electrons_',['../d3/d37/classsirius_1_1_atom__type.html#a82db9b4154e9e293353036e2b7c901ab',1,'sirius::Atom_type::num_core_electrons_()'],['../d1/dc9/classsirius_1_1_atom__type__base.html#ab0b35a898fc4610a0b04047083d2116e',1,'sirius::Atom_type_base::num_core_electrons_()'],['../d6/dd1/classsirius_1_1_unit__cell.html#ac618473d45a36ccca6be2b6bfd27a5de',1,'sirius::Unit_cell::num_core_electrons_()']]],
   ['num_5fdft_5fiter_5f',['num_dft_iter_',['../d4/d6e/structsirius_1_1_parameters__input.html#a482a79573b2a45126558a886052dfe38',1,'sirius::Parameters_input']]],
@@ -22,6 +23,7 @@ var searchData=
   ['num_5fgkvec_5fcol_5f',['num_gkvec_col_',['../d1/daf/classsirius_1_1_k__point.html#ac3074a84beb6d7df14aff1d8e1402d07',1,'sirius::K_point']]],
   ['num_5fgkvec_5frow_5f',['num_gkvec_row_',['../d1/daf/classsirius_1_1_k__point.html#a5d6c36943d1096bf7e27e0a81ac834e3',1,'sirius::K_point']]],
   ['num_5fgvec_5f',['num_gvec_',['../dc/d9b/classsddk_1_1_gvec.html#ad376b1d40e9241a3bdfd227b8ce487fa',1,'sddk::Gvec']]],
+  ['num_5fgvec_5fshells_5f',['num_gvec_shells_',['../dc/d9b/classsddk_1_1_gvec.html#ac9ea9f17ce196efec8dc38e912e0ce14',1,'sddk::Gvec']]],
   ['num_5fmag_5fdims_5f',['num_mag_dims_',['../d4/d6e/structsirius_1_1_parameters__input.html#a4207fa0a9dd1562ae553bd2f5bd63b9c',1,'sirius::Parameters_input']]],
   ['num_5fmt_5fcoeffs_5f',['num_mt_coeffs_',['../d9/d04/classsddk_1_1_wave__functions.html#a796dfe0686fe21c7b1f41e77e40235c2',1,'sddk::Wave_functions']]],
   ['num_5fpoints_5f',['num_points_',['../d1/d08/classsirius_1_1_s_h_t.html#aba431b6e45480bff0aada56bbb4326b1',1,'sirius::SHT']]],

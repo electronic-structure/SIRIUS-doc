@@ -7,6 +7,5 @@ var searchData=
   ['_7ehdf5_5fdataspace',['~HDF5_dataspace',['../d8/dec/classsddk_1_1_h_d_f5__tree_1_1_h_d_f5__dataspace.html#a0d52a6993c688ea0882597192155f500',1,'sddk::HDF5_tree::HDF5_dataspace']]],
   ['_7ehdf5_5fgroup',['~HDF5_group',['../d7/d16/classsddk_1_1_h_d_f5__tree_1_1_h_d_f5__group.html#ac62906fc68b07925458420180a707b19',1,'sddk::HDF5_tree::HDF5_group']]],
   ['_7ehdf5_5ftree',['~HDF5_tree',['../d7/d90/classsddk_1_1_h_d_f5__tree.html#a53808f3dc00ee6bfadb1fa544f3b448d',1,'sddk::HDF5_tree']]],
-  ['_7emdarray_5fbase',['~mdarray_base',['../d0/d58/classsddk_1_1mdarray__base.html#aceb56a51d14decb7061393b87b51ab42',1,'sddk::mdarray_base']]],
   ['_7etimer',['~timer',['../d4/ddf/classutils_1_1timer.html#a05d34cfa86959512443555de8eba5262',1,'utils::timer']]]
 ];

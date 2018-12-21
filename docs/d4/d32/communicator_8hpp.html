@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -77,7 +77,8 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">communicator.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -90,16 +91,14 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/ddd/communicator_8hpp__incl.svg" width="100%" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/ddd/communicator_8hpp__incl.svg" width="100%" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d44/communicator_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d44/communicator_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d4/d32/communicator_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -111,6 +110,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da7/structsddk_1_1mpi__op__wrapper_3_01mpi__op__t_1_1sum_01_4.html">sddk::mpi_op_wrapper&lt; mpi_op_t::sum &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d19/structsddk_1_1mpi__op__wrapper_3_01mpi__op__t_1_1max_01_4.html">sddk::mpi_op_wrapper&lt; mpi_op_t::max &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db4/structsddk_1_1mpi__op__wrapper_3_01mpi__op__t_1_1min_01_4.html">sddk::mpi_op_wrapper&lt; mpi_op_t::min &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d13/structsddk_1_1mpi__type__wrapper.html">sddk::mpi_type_wrapper&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,6 +148,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d70/classsddk_1_1_communicator.html">sddk::Communicator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">MPI communicator wrapper.  <a href="../../da/d70/classsddk_1_1_communicator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d53/classsddk_1_1pstdout.html">sddk::pstdout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel standard output.  <a href="../../d9/d53/classsddk_1_1pstdout.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -162,9 +166,17 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ab2383741825010aeab8292a77eaa8068"><td class="memItemLeft" align="right" valign="top"><a id="ab2383741825010aeab8292a77eaa8068"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>mpi_op_t</b> { <b>sum</b>, 
-<b>max</b>
+<b>max</b>, 
+<b>min</b>
  }</td></tr>
 <tr class="separator:ab2383741825010aeab8292a77eaa8068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8503c522563e91b66d39d3ff4435e8e7"><td class="memItemLeft" align="right" valign="top"><a id="a8503c522563e91b66d39d3ff4435e8e7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d4d/namespacesddk.html#a8503c522563e91b66d39d3ff4435e8e7">sddk::num_ranks_per_node</a> ()</td></tr>
+<tr class="memdesc:a8503c522563e91b66d39d3ff4435e8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of ranks per node. <br /></td></tr>
+<tr class="separator:a8503c522563e91b66d39d3ff4435e8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains declaration and implementation of <a class="el" href="../../da/d70/classsddk_1_1_communicator.html" title="MPI communicator wrapper. ">sddk::Communicator</a> class. </p>
@@ -197,14 +209,14 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{                                                                                    \</div><div class="line">    if (func__ args__ != MPI_SUCCESS) {                                              \</div><div class="line">        printf(<span class="stringliteral">&quot;error in %s at line %i of file %s\n&quot;</span>, #func__, __LINE__, __FILE__);  \</div><div class="line">        MPI_Abort(MPI_COMM_WORLD, -1);                                               \</div><div class="line">    }                                                                                \</div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d4/d32/communicator_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d4/d32/communicator_8hpp_source.html">communicator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d32/communicator_8hpp_source.html#l00040">40</a> of file <a class="el" href="../../d4/d32/communicator_8hpp_source.html">communicator.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:18 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:55 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

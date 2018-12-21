@@ -46,6 +46,7 @@ var searchData=
   ['enu_5f',['enu_',['../d8/db2/classsirius_1_1_free__atom.html#ac576c8d50b7fc32d1918ee7739adb572',1,'sirius::Free_atom']]],
   ['enu_5ffinder',['Enu_finder',['../d6/d7f/classsirius_1_1_enu__finder.html',1,'sirius::Enu_finder'],['../d6/d7f/classsirius_1_1_enu__finder.html#ad408a4e71b7c896473f7a364a8f31ad7',1,'sirius::Enu_finder::Enu_finder()']]],
   ['enu_5ftolerance_5f',['enu_tolerance_',['../db/d31/classsirius_1_1_bound__state.html#ab77aa89bd55cf2acd87c03514c47e4d5',1,'sirius::Bound_state']]],
+  ['env_2ehpp',['env.hpp',['../d3/de5/env_8hpp.html',1,'']]],
   ['equivalent_5fatoms_5f',['equivalent_atoms_',['../d6/dd1/classsirius_1_1_unit__cell.html#a2c9eea8e1e25c25a75851e8cdafff370',1,'sirius::Unit_cell']]],
   ['erase',['erase',['../d9/dcc/classnlohmann_1_1basic__json.html#a068a16e76be178e83da6a192916923ed',1,'nlohmann::basic_json::erase(IteratorType pos)'],['../d9/dcc/classnlohmann_1_1basic__json.html#a4b3f7eb2d4625d95a51fbbdceb7c5f39',1,'nlohmann::basic_json::erase(IteratorType first, IteratorType last)'],['../d9/dcc/classnlohmann_1_1basic__json.html#a2f8484d69c55d8f2a9697a7bec29362a',1,'nlohmann::basic_json::erase(const typename object_t::key_type &amp;key)'],['../d9/dcc/classnlohmann_1_1basic__json.html#a88cbcefe9a3f4d294bed0653550a5cb9',1,'nlohmann::basic_json::erase(const size_type idx)']]],
   ['error_5fmessage',['error_message',['../d8/d22/classnlohmann_1_1detail_1_1lexer.html#ae2a15e440f1889e0ab0c6a35344e48df',1,'nlohmann::detail::lexer']]],

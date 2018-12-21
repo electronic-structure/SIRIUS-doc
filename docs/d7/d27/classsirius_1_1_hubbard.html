@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">SIRIUS
-   &#160;<span id="projectnumber">5.8</span>
+   &#160;<span id="projectnumber">5.9</span>
    </div>
    <div id="projectbrief">Electronic structure library and applications</div>
   </td>
@@ -91,8 +91,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d19/classsirius_1_1_hubbard__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d19/classsirius_1_1_hubbard__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -103,9 +102,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set_hubbard_U_plus_V<
 <tr class="memitem:af5c7da9530d181cf5059c1142af6b0d9"><td class="memItemLeft" align="right" valign="top"><a id="af5c7da9530d181cf5059c1142af6b0d9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_hubbard_simple_correction</b> ()</td></tr>
 <tr class="separator:af5c7da9530d181cf5059c1142af6b0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35b16f2801d9eae4aafa934d70b60b5a"><td class="memItemLeft" align="right" valign="top"><a id="a35b16f2801d9eae4aafa934d70b60b5a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>hubbard_lmax</b> () const</td></tr>
-<tr class="separator:a35b16f2801d9eae4aafa934d70b60b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e9cdfb207111c79ac8aa3602988c388"><td class="memItemLeft" align="right" valign="top"><a id="a5e9cdfb207111c79ac8aa3602988c388"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>lmax</b> () const</td></tr>
+<tr class="separator:a5e9cdfb207111c79ac8aa3602988c388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20c1ae86dbbd197fc4b30a671288f8ae"><td class="memItemLeft" align="right" valign="top"><a id="a20c1ae86dbbd197fc4b30a671288f8ae"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set_orthogonalize_hubbard_orbitals</b> (const bool test)</td></tr>
 <tr class="separator:a20c1ae86dbbd197fc4b30a671288f8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,12 +123,12 @@ double_complex&#160;</td><td class="memItemRight" valign="bottom"><b>U</b> (int 
 <tr class="memitem:af4936b5dc6bbfa966b2bff55ded33b7e"><td class="memItemLeft" align="right" valign="top"><a id="af4936b5dc6bbfa966b2bff55ded33b7e"></a>
 double_complex &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>U</b> (int m1, int m2, int m3, int m4, int channel)</td></tr>
 <tr class="separator:af4936b5dc6bbfa966b2bff55ded33b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea6a57c0757aa9f85c5b6182d9723eca"><td class="memItemLeft" align="right" valign="top"><a id="aea6a57c0757aa9f85c5b6182d9723eca"></a>
-const bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>orthogonalize_hubbard_orbitals</b> () const</td></tr>
-<tr class="separator:aea6a57c0757aa9f85c5b6182d9723eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac32b774621ad53c2c01c7330c9b19969"><td class="memItemLeft" align="right" valign="top"><a id="ac32b774621ad53c2c01c7330c9b19969"></a>
-const bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>normalize_hubbard_orbitals</b> () const</td></tr>
-<tr class="separator:ac32b774621ad53c2c01c7330c9b19969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3533822db8146c0e8eaae4db8659d57"><td class="memItemLeft" align="right" valign="top"><a id="ac3533822db8146c0e8eaae4db8659d57"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>orthogonalize_hubbard_orbitals</b> () const</td></tr>
+<tr class="separator:ac3533822db8146c0e8eaae4db8659d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f09f77095e51cdd32c244d35ec935d9"><td class="memItemLeft" align="right" valign="top"><a id="a0f09f77095e51cdd32c244d35ec935d9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>normalize_hubbard_orbitals</b> () const</td></tr>
+<tr class="separator:a0f09f77095e51cdd32c244d35ec935d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a8edc607f5ab35e0fe4ce067a8873ef"><td class="memItemLeft" align="right" valign="top"><a id="a7a8edc607f5ab35e0fe4ce067a8873ef"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d27/classsirius_1_1_hubbard.html#a7a8edc607f5ab35e0fe4ce067a8873ef">apply_hubbard_potential</a> (<a class="el" href="../../d1/daf/classsirius_1_1_k__point.html">K_point</a> &amp;kp, const int ispn, const int idx, const int n, Wave_functions &amp;phi, Wave_functions &amp;ophi)</td></tr>
 <tr class="memdesc:a7a8edc607f5ab35e0fe4ce067a8873ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the hubbard potential on wave functions. <br /></td></tr>
@@ -369,7 +368,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div><div class="memdoc">
 <p>Compute the strain gradient of the hubbard wave functions. Unfortunately it is dependent of the pp. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d74/hubbard_8hpp_source.html#l00398">398</a> of file <a class="el" href="../../db/d74/hubbard_8hpp_source.html">hubbard.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d74/hubbard_8hpp_source.html#l00387">387</a> of file <a class="el" href="../../db/d74/hubbard_8hpp_source.html">hubbard.hpp</a>.</p>
 
 </div>
 </div>
@@ -444,7 +443,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d74/hubbard_8hpp_source.html#l00218">218</a> of file <a class="el" href="../../db/d74/hubbard_8hpp_source.html">hubbard.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d74/hubbard_8hpp_source.html#l00217">217</a> of file <a class="el" href="../../db/d74/hubbard_8hpp_source.html">hubbard.hpp</a>.</p>
 
 </div>
 </div>
@@ -540,7 +539,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return the occupancy matrix if the first parameter is set to "get" </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../db/d74/hubbard_8hpp_source.html#l00586">586</a> of file <a class="el" href="../../db/d74/hubbard_8hpp_source.html">hubbard.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d74/hubbard_8hpp_source.html#l00574">574</a> of file <a class="el" href="../../db/d74/hubbard_8hpp_source.html">hubbard.hpp</a>.</p>
 
 </div>
 </div>
@@ -608,7 +607,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 10 2018 14:52:20 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 16:32:58 for SIRIUS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
