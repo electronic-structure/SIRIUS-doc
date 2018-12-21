@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['sbessel_2ehpp',['sbessel.hpp',['../d1/d2b/sbessel_8hpp.html',1,'']]],
+  ['scalapack_2eh',['scalapack.h',['../d3/ddb/scalapack_8h.html',1,'']]],
+  ['scale_5fmatrix_2ecu',['scale_matrix.cu',['../d7/d93/scale__matrix_8cu.html',1,'']]],
+  ['sddk_2ef90',['sddk.f90',['../d1/d3c/sddk_8f90.html',1,'']]],
+  ['sddk_2ehpp',['sddk.hpp',['../db/d5a/sddk_8hpp.html',1,'']]],
+  ['sddk_5fapi_2ecpp',['sddk_api.cpp',['../d4/dde/sddk__api_8cpp.html',1,'']]],
+  ['serializer_2ehpp',['serializer.hpp',['../db/d1c/serializer_8hpp.html',1,'']]],
+  ['set_5flapw_5fh_5fo_2ehpp',['set_lapw_h_o.hpp',['../d2/dc1/set__lapw__h__o_8hpp.html',1,'']]],
+  ['set_5fsubspace_5fmtrx_2ehpp',['set_subspace_mtrx.hpp',['../db/d74/set__subspace__mtrx_8hpp.html',1,'']]],
+  ['sht_2ehpp',['sht.hpp',['../d0/db9/sht_8hpp.html',1,'']]],
+  ['simulation_5fcontext_2ehpp',['simulation_context.hpp',['../d1/db8/simulation__context_8hpp.html',1,'']]],
+  ['simulation_5fparameters_2ehpp',['simulation_parameters.hpp',['../de/d06/simulation__parameters_8hpp.html',1,'']]],
+  ['sirius_2ef90',['sirius.f90',['../d3/d7b/sirius_8f90.html',1,'']]],
+  ['sirius_2eh',['sirius.h',['../dd/dc2/sirius_8h.html',1,'']]],
+  ['sirius_5fapi_2ecpp',['sirius_api.cpp',['../d4/d53/sirius__api_8cpp.html',1,'']]],
+  ['smearing_2ehpp',['smearing.hpp',['../d5/df3/smearing_8hpp.html',1,'']]],
+  ['smooth_5fperiodic_5ffunction_2ehpp',['smooth_periodic_function.hpp',['../d6/ddf/smooth__periodic__function_8hpp.html',1,'']]],
+  ['solve_2ehpp',['solve.hpp',['../d0/da3/solve_8hpp.html',1,'']]],
+  ['spheric_5ffunction_2ehpp',['spheric_function.hpp',['../d0/df9/spheric__function_8hpp.html',1,'']]],
+  ['splindex_2ehpp',['splindex.hpp',['../d0/d86/splindex_8hpp.html',1,'']]],
+  ['spline_2ecu',['spline.cu',['../dc/dd0/spline_8cu.html',1,'']]],
+  ['spline_2ehpp',['spline.hpp',['../d9/d05/spline_8hpp.html',1,'']]],
+  ['stress_2ehpp',['stress.hpp',['../d7/dd1/stress_8hpp.html',1,'']]],
+  ['sum_5fq_5fpw_5fdm_5fpw_2ecu',['sum_q_pw_dm_pw.cu',['../d9/dea/sum__q__pw__dm__pw_8cu.html',1,'']]],
+  ['symmetrize_5fdensity_5fmatrix_2ehpp',['symmetrize_density_matrix.hpp',['../df/dbc/symmetrize__density__matrix_8hpp.html',1,'']]]
+];
