@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['x',['x',['../db/dfd/structsddk_1_1z__column__descriptor.html#a43362f0968086f2690d79b2528d9bb4c',1,'sddk::z_column_descriptor::x()'],['../d9/dbf/classsirius_1_1_radial__grid.html#a941168555a4b6bf90e889ddc67e853ab',1,'sirius::Radial_grid::x()']]],
+  ['x_5f',['x_',['../d9/dbf/classsirius_1_1_radial__grid.html#aea1cf5bdf41c7089f4e02964683a1c87',1,'sirius::Radial_grid']]],
+  ['x_5finv',['x_inv',['../d9/dbf/classsirius_1_1_radial__grid.html#aaca03871e96d68e6247bbbaa6121ad9a',1,'sirius::Radial_grid']]],
+  ['x_5finv_5f',['x_inv_',['../d9/dbf/classsirius_1_1_radial__grid.html#acaf4d8799db03c90247864fb506d8648',1,'sirius::Radial_grid']]],
+  ['xc',['xc',['../d2/d0b/classsirius_1_1_potential.html#a998c461b7cd69e56f4c4b0b547781737',1,'sirius::Potential']]],
+  ['xc_2ecpp',['xc.cpp',['../d6/d2b/xc_8cpp.html',1,'']]],
+  ['xc_5fenergy_5fdensity_5f',['xc_energy_density_',['../d2/d0b/classsirius_1_1_potential.html#a5df64003cb5a6a88239e52c68bf0717f',1,'sirius::Potential']]],
+  ['xc_5ffunctional',['XC_functional',['../d8/de5/classsirius_1_1_x_c__functional.html',1,'sirius']]],
+  ['xc_5ffunctional_2ehpp',['xc_functional.hpp',['../d9/d55/xc__functional_8hpp.html',1,'']]],
+  ['xc_5ffunctional_5fbase',['XC_functional_base',['../dd/d9c/classsirius_1_1_x_c__functional__base.html',1,'sirius']]],
+  ['xc_5ffunctionals_5f',['xc_functionals_',['../d4/d6e/structsirius_1_1_parameters__input.html#a2e3318c7decbab7fabdee95e1f245058',1,'sirius::Parameters_input']]],
+  ['xc_5fmt',['xc_mt',['../d2/d0b/classsirius_1_1_potential.html#a8b566572b8f15cd252e2d86ca0be185e',1,'sirius::Potential']]],
+  ['xc_5fmt_5fmagnetic',['xc_mt_magnetic',['../d2/d0b/classsirius_1_1_potential.html#a9606543e95770d33b2afad3acceb10d8',1,'sirius::Potential']]],
+  ['xc_5fmt_5fnonmagnetic',['xc_mt_nonmagnetic',['../d2/d0b/classsirius_1_1_potential.html#a160c56d355724305c00fed1c0078c69c',1,'sirius::Potential']]],
+  ['xc_5fpotential_5f',['xc_potential_',['../d2/d0b/classsirius_1_1_potential.html#aa048fa432a3d56bd07e3fac7efc31cf0',1,'sirius::Potential']]],
+  ['xc_5frg_5fmagnetic',['xc_rg_magnetic',['../d2/d0b/classsirius_1_1_potential.html#a2ae1ae4feb183313f6fcf666cee475d2',1,'sirius::Potential']]],
+  ['xc_5frg_5fnonmagnetic',['xc_rg_nonmagnetic',['../d2/d0b/classsirius_1_1_potential.html#ac624a14a70b218d3d9c0b1a1c3583faa',1,'sirius::Potential']]]
+];

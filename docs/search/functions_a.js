@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['l1norm',['l1norm',['../d2/d6b/classgeometry3d_1_1vector3d.html#a87859bbfbaa0c86cfe1c27ec1a5c9e9c',1,'geometry3d::vector3d']]],
+  ['l_5fby_5flm',['l_by_lm',['../d6/d84/namespaceutils.html#a7d4fab4c89b0c097ef913263d9983895',1,'utils']]],
+  ['laplacian',['laplacian',['../d5/def/namespacesirius.html#a75083934e73f314246096173230a0da1',1,'sirius::laplacian(Smooth_periodic_function&lt; double &gt; &amp;f__)'],['../d5/def/namespacesirius.html#aeb3b2e33ae022b54d6ab67aa4a933539',1,'sirius::laplacian(Spheric_function&lt; function_domain_t::spectral, T &gt; const &amp;f__)']]],
+  ['last',['last',['../d9/dbf/classsirius_1_1_radial__grid.html#a0b10418c66364f62f75be03f5e77569d',1,'sirius::Radial_grid']]],
+  ['lattice_5fvector',['lattice_vector',['../d6/dd1/classsirius_1_1_unit__cell.html#a0b599473ab0fdbb16db7fba42c079f8e',1,'sirius::Unit_cell']]],
+  ['lattice_5fvectors',['lattice_vectors',['../dc/d9b/classsddk_1_1_gvec.html#a8cbf5cc96c372767950ca5d81bad510b',1,'sddk::Gvec::lattice_vectors(matrix3d&lt; double &gt; lattice_vectors__)'],['../dc/d9b/classsddk_1_1_gvec.html#a1d3b267698ace0f9011466ac685d04b5',1,'sddk::Gvec::lattice_vectors() const']]],
+  ['ld',['ld',['../d7/dab/classsddk_1_1mdarray.html#a9cdefcb4cef8f502ca47f2c7a80d1ea4',1,'sddk::mdarray']]],
+  ['length',['length',['../d2/d6b/classgeometry3d_1_1vector3d.html#adb884c07e23f848e977735a74a1e0a69',1,'geometry3d::vector3d']]],
+  ['length2',['length2',['../d2/d6b/classgeometry3d_1_1vector3d.html#a6bb0e6a9ab546784be4358e80aa92f14',1,'geometry3d::vector3d']]],
+  ['limits',['limits',['../dd/d26/classsddk_1_1_f_f_t3_d__grid.html#aa8ebd4984127dde4c20409f37977450f',1,'sddk::FFT3D_grid']]],
+  ['linear_5fmixer',['Linear_mixer',['../de/d92/classsirius_1_1_linear__mixer.html#a7b258e4a4292417d98c988f53ec334eb',1,'sirius::Linear_mixer']]],
+  ['lm',['lm',['../d6/d84/namespaceutils.html#a6964b8e209d9d6c8e077097675c8b7de',1,'utils']]],
+  ['lmax',['lmax',['../d6/d84/namespaceutils.html#a8db36672f4a37cd94b95484cc18c59fa',1,'utils']]],
+  ['lmax_5fbeta',['lmax_beta',['../d3/d37/classsirius_1_1_atom__type.html#a2722672a11ac098824c15727743a4aea',1,'sirius::Atom_type']]],
+  ['lmmax',['lmmax',['../d6/d84/namespaceutils.html#a20592872fec4e76ad3d8438ef3aae030',1,'utils']]],
+  ['lo_5fcol',['lo_col',['../d1/daf/classsirius_1_1_k__point.html#aea2b7f8952c6d838687c7f4e34b352f6',1,'sirius::K_point']]],
+  ['lo_5frow',['lo_row',['../d1/daf/classsirius_1_1_k__point.html#a16406ae263cdddbedb8ba15c58481d73',1,'sirius::K_point']]],
+  ['load',['load',['../d9/dbd/classsirius_1_1_k__point__set.html#afcfce565bf318b680684ba144456a4a4',1,'sirius::K_point_set']]],
+  ['local_5findex',['local_index',['../d8/ddc/classsddk_1_1splindex_3_01splindex__t_1_1block_00_01_t_01_4.html#a8a7c4bc506a7259554a72c7fd317c100',1,'sddk::splindex&lt; splindex_t::block, T &gt;::local_index()'],['../db/db5/classsddk_1_1splindex_3_01splindex__t_1_1block__cyclic_00_01_t_01_4.html#ad8b30948e2611d13f3e9e9f69d7f14b8',1,'sddk::splindex&lt; splindex_t::block_cyclic, T &gt;::local_index()']]],
+  ['local_5foperator',['Local_operator',['../d6/dfb/classsirius_1_1_local__operator.html#a379ba0bd6b0dbabb14c71da988f527a3',1,'sirius::Local_operator']]],
+  ['local_5frank',['local_rank',['../d8/ddc/classsddk_1_1splindex_3_01splindex__t_1_1block_00_01_t_01_4.html#a2c70ff3fd4d498612eb273c936dd0aa4',1,'sddk::splindex&lt; splindex_t::block, T &gt;::local_rank()'],['../db/db5/classsddk_1_1splindex_3_01splindex__t_1_1block__cyclic_00_01_t_01_4.html#a1d64836e4db92b613b5979caa7e71c89',1,'sddk::splindex&lt; splindex_t::block_cyclic, T &gt;::local_rank()']]],
+  ['local_5fsize',['local_size',['../d8/ddc/classsddk_1_1splindex_3_01splindex__t_1_1block_00_01_t_01_4.html#a7cb63606096f13a790937fb149e23986',1,'sddk::splindex&lt; splindex_t::block, T &gt;::local_size(int rank__) const'],['../d8/ddc/classsddk_1_1splindex_3_01splindex__t_1_1block_00_01_t_01_4.html#a4847386b6b0fd6b7c1d35e3ad43d2c2c',1,'sddk::splindex&lt; splindex_t::block, T &gt;::local_size() const'],['../db/db5/classsddk_1_1splindex_3_01splindex__t_1_1block__cyclic_00_01_t_01_4.html#a6b18d5b5c4ab6a07a29f021d121db584',1,'sddk::splindex&lt; splindex_t::block_cyclic, T &gt;::local_size(int rank__) const'],['../db/db5/classsddk_1_1splindex_3_01splindex__t_1_1block__cyclic_00_01_t_01_4.html#ab1bc57fe081cc91d97e6ae71d7582185',1,'sddk::splindex&lt; splindex_t::block_cyclic, T &gt;::local_size() const']]],
+  ['location',['location',['../d8/ddc/classsddk_1_1splindex_3_01splindex__t_1_1block_00_01_t_01_4.html#a42de2cc13d9adb9be9be814e7e8fc7d8',1,'sddk::splindex&lt; splindex_t::block, T &gt;::location()'],['../db/db5/classsddk_1_1splindex_3_01splindex__t_1_1block__cyclic_00_01_t_01_4.html#ada89b201e4bd21d8e46118e8343ac719',1,'sddk::splindex&lt; splindex_t::block_cyclic, T &gt;::location()']]]
+];
