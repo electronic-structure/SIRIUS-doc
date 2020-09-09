@@ -9,42 +9,42 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 80)">
 <title>sirius::Non_local_operator</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-80 213.5,-80 213.5,4 -4,4"/>
-<!-- Node0 -->
+<!-- Node1 -->
 <g id="node1" class="node">
-<title>Node0</title>
+<title>Node1</title>
 <g id="a_node1"><a xlink:title="Non&#45;local part of the Hamiltonian and S&#45;operator in the pseudopotential method.">
 <polygon fill="#bfbfbf" stroke="#000000" points="38,-56.5 38,-75.5 171,-75.5 171,-56.5 38,-56.5"/>
 <text text-anchor="middle" x="104.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Non_local_operator</text>
 </a>
 </g>
 </g>
-<!-- Node1 -->
+<!-- Node2 -->
 <g id="node2" class="node">
-<title>Node1</title>
+<title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d4/dcb/classsirius_1_1_d__operator.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 95,-19.5 95,-.5 0,-.5"/>
 <text text-anchor="middle" x="47.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::D_operator</text>
 </a>
 </g>
 </g>
-<!-- Node0&#45;&gt;Node1 -->
+<!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
-<title>Node0&#45;&gt;Node1</title>
+<title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="#191970" d="M87.2729,-49.0751C77.4659,-39.4402 65.536,-27.7196 57.3149,-19.6427"/>
 <polygon fill="#191970" stroke="#191970" points="84.9851,-51.734 94.5714,-56.2455 89.8909,-46.7406 84.9851,-51.734"/>
 </g>
-<!-- Node2 -->
+<!-- Node3 -->
 <g id="node3" class="node">
-<title>Node2</title>
+<title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d4/d66/classsirius_1_1_q__operator.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="113.5,-.5 113.5,-19.5 209.5,-19.5 209.5,-.5 113.5,-.5"/>
 <text text-anchor="middle" x="161.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Q_operator</text>
 </a>
 </g>
 </g>
-<!-- Node0&#45;&gt;Node2 -->
+<!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
-<title>Node0&#45;&gt;Node2</title>
+<title>Node1&#45;&gt;Node3</title>
 <path fill="none" stroke="#191970" d="M121.7271,-49.0751C131.5341,-39.4402 143.464,-27.7196 151.6851,-19.6427"/>
 <polygon fill="#191970" stroke="#191970" points="119.1091,-46.7406 114.4286,-56.2455 124.0149,-51.734 119.1091,-46.7406"/>
 </g>

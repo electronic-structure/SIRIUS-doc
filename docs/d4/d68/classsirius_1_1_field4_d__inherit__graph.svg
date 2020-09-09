@@ -9,42 +9,42 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 80)">
 <title>sirius::Field4D</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-80 185.5,-80 185.5,4 -4,4"/>
-<!-- Node0 -->
+<!-- Node1 -->
 <g id="node1" class="node">
-<title>Node0</title>
-<g id="a_node1"><a xlink:title=" ">
+<title>Node1</title>
+<g id="a_node1"><a xlink:title="Four&#45;component function consisting of scalar and vector parts.">
 <polygon fill="#bfbfbf" stroke="#000000" points="49.5,-56.5 49.5,-75.5 129.5,-75.5 129.5,-56.5 49.5,-56.5"/>
 <text text-anchor="middle" x="89.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Field4D</text>
 </a>
 </g>
 </g>
-<!-- Node1 -->
+<!-- Node2 -->
 <g id="node2" class="node">
-<title>Node1</title>
+<title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d7/d05/classsirius_1_1_density.html" target="_top" xlink:title="Generate charge density and magnetization from occupied spinor wave&#45;functions.">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 79,-19.5 79,-.5 0,-.5"/>
 <text text-anchor="middle" x="39.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Density</text>
 </a>
 </g>
 </g>
-<!-- Node0&#45;&gt;Node1 -->
+<!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
-<title>Node0&#45;&gt;Node1</title>
+<title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="#191970" d="M73.8753,-48.5004C65.3727,-38.9775 55.1782,-27.5596 48.1095,-19.6427"/>
 <polygon fill="#191970" stroke="#191970" points="71.5197,-51.1172 80.7907,-56.2455 76.7413,-46.4551 71.5197,-51.1172"/>
 </g>
-<!-- Node2 -->
+<!-- Node3 -->
 <g id="node3" class="node">
-<title>Node2</title>
+<title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d2/d0b/classsirius_1_1_potential.html" target="_top" xlink:title="Generate effective potential from charge density and magnetization.">
 <polygon fill="#ffffff" stroke="#000000" points="97.5,-.5 97.5,-19.5 181.5,-19.5 181.5,-.5 97.5,-.5"/>
 <text text-anchor="middle" x="139.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Potential</text>
 </a>
 </g>
 </g>
-<!-- Node0&#45;&gt;Node2 -->
+<!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
-<title>Node0&#45;&gt;Node2</title>
+<title>Node1&#45;&gt;Node3</title>
 <path fill="none" stroke="#191970" d="M105.1247,-48.5004C113.6273,-38.9775 123.8218,-27.5596 130.8905,-19.6427"/>
 <polygon fill="#191970" stroke="#191970" points="102.2587,-46.4551 98.2093,-56.2455 107.4803,-51.1172 102.2587,-46.4551"/>
 </g>

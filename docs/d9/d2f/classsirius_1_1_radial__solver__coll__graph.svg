@@ -9,34 +9,34 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 258)">
 <title>sirius::Radial_solver</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-258 277,-258 277,4 -4,4"/>
-<!-- Node3 -->
+<!-- Node1 -->
 <g id="node1" class="node">
-<title>Node3</title>
+<title>Node1</title>
 <g id="a_node1"><a xlink:title="Finds a solution to radial Schrodinger, Koelling&#45;Harmon or Dirac equation.">
 <polygon fill="#bfbfbf" stroke="#000000" points="32,-.5 32,-19.5 138,-19.5 138,-.5 32,-.5"/>
 <text text-anchor="middle" x="85" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Radial_solver</text>
 </a>
 </g>
 </g>
-<!-- Node4 -->
+<!-- Node2 -->
 <g id="node2" class="node">
-<title>Node4</title>
+<title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d5/d6b/classsirius_1_1_spline.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="143,-67.5 143,-86.5 263,-86.5 263,-67.5 143,-67.5"/>
 <text text-anchor="middle" x="203" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Spline&lt; double &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
+<!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
-<title>Node4&#45;&gt;Node3</title>
+<title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M177.2595,-62.3846C154.3753,-49.391 121.5767,-30.7681 101.8752,-19.5817"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="175.6693,-65.5065 186.0935,-67.4005 179.1256,-59.4193 175.6693,-65.5065"/>
 <text text-anchor="middle" x="160.5" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> ve_</text>
 </g>
-<!-- Node5 -->
+<!-- Node3 -->
 <g id="node3" class="node">
-<title>Node5</title>
+<title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d9/dbf/classsirius_1_1_radial__grid.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="21,-134.5 21,-164.5 117,-164.5 117,-134.5 21,-134.5"/>
 <text text-anchor="start" x="29" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sirius::Radial_grid</text>
@@ -44,49 +44,49 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node3 -->
+<!-- Node3&#45;&gt;Node1 -->
 <g id="edge5" class="edge">
-<title>Node5&#45;&gt;Node3</title>
+<title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M71.6982,-123.9403C73.4412,-107.6402 75.7889,-86.0708 78,-67 79.9291,-50.3616 82.3409,-31.0132 83.7711,-19.6773"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="68.175,-123.9734 70.5972,-134.2876 75.1357,-124.7141 68.175,-123.9734"/>
 <text text-anchor="middle" x="106" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> radial_grid_</text>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
+<!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
-<title>Node5&#45;&gt;Node4</title>
+<title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#191970" d="M105.8844,-129.5439C131.6637,-115.5961 164.9541,-97.5845 185.1041,-86.6825"/>
 <polygon fill="#191970" stroke="#191970" points="103.8946,-126.641 96.7649,-134.478 107.2256,-132.7976 103.8946,-126.641"/>
 </g>
-<!-- Node6 -->
+<!-- Node4 -->
 <g id="node4" class="node">
-<title>Node6</title>
+<title>Node4</title>
 <g id="a_node4"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="0,-234.5 0,-253.5 138,-253.5 138,-234.5 0,-234.5"/>
 <text text-anchor="middle" x="69" y="-241.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 1 &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
+<!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
-<title>Node6&#45;&gt;Node5</title>
+<title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M69,-224.1282C69,-206.3779 69,-180.7574 69,-164.6257"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="65.5001,-224.2427 69,-234.2428 72.5001,-224.2428 65.5001,-224.2427"/>
 <text text-anchor="middle" x="83.5" y="-208" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> dx_</text>
 <text text-anchor="middle" x="83.5" y="-197" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">x_inv_</text>
 <text text-anchor="middle" x="83.5" y="-186" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">x_</text>
 </g>
-<!-- Node7 -->
+<!-- Node5 -->
 <g id="node5" class="node">
-<title>Node7</title>
+<title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d7/dab/classsddk_1_1mdarray.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="135,-140 135,-159 273,-159 273,-140 135,-140"/>
 <text text-anchor="middle" x="204" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sddk::mdarray&lt; double, 2 &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node4 -->
+<!-- Node5&#45;&gt;Node2 -->
 <g id="edge4" class="edge">
-<title>Node7&#45;&gt;Node4</title>
+<title>Node5&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M203.7256,-129.6054C203.5327,-115.6237 203.2832,-97.5346 203.1327,-86.6228"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="200.2275,-129.7716 203.8651,-139.7223 207.2268,-129.675 200.2275,-129.7716"/>
 <text text-anchor="middle" x="221" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> coeffs_</text>

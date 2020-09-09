@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['_7eany_5fptr',['~any_ptr',['../d8/de7/classutils_1_1any__ptr.html#a23aa0417f023de782fcdac51f24aa2bc',1,'utils::any_ptr']]],
-  ['_7ehdf5_5fdataset',['~HDF5_dataset',['../da/d4c/classsddk_1_1_h_d_f5__tree_1_1_h_d_f5__dataset.html#a6e7dcb933d47597073e9e647c5d892a6',1,'sddk::HDF5_tree::HDF5_dataset']]],
-  ['_7ehdf5_5fdataspace',['~HDF5_dataspace',['../d8/dec/classsddk_1_1_h_d_f5__tree_1_1_h_d_f5__dataspace.html#a0d52a6993c688ea0882597192155f500',1,'sddk::HDF5_tree::HDF5_dataspace']]],
-  ['_7ehdf5_5fgroup',['~HDF5_group',['../d7/d16/classsddk_1_1_h_d_f5__tree_1_1_h_d_f5__group.html#ac62906fc68b07925458420180a707b19',1,'sddk::HDF5_tree::HDF5_group']]],
-  ['_7ehdf5_5ftree',['~HDF5_tree',['../d7/d90/classsddk_1_1_h_d_f5__tree.html#a53808f3dc00ee6bfadb1fa544f3b448d',1,'sddk::HDF5_tree']]],
-  ['_7emdarray',['~mdarray',['../d7/dab/classsddk_1_1mdarray.html#ab93cb35c8d71a867b7772e73a19af37c',1,'sddk::mdarray']]],
-  ['_7etimer',['~timer',['../d4/ddf/classutils_1_1timer.html#a05d34cfa86959512443555de8eba5262',1,'utils::timer']]]
+  ['z_5fcolumn_5fdescriptor_2868',['z_column_descriptor',['../db/dfd/structsddk_1_1z__column__descriptor.html#a7a7e6a642a6d4b676116ef8505a9deee',1,'sddk::z_column_descriptor::z_column_descriptor(int x__, int y__, std::vector&lt; int &gt; z__)'],['../db/dfd/structsddk_1_1z__column__descriptor.html#a07753f87938b8187872d5c11d952be3f',1,'sddk::z_column_descriptor::z_column_descriptor()']]],
+  ['zcol_5fcount_2869',['zcol_count',['../dc/d9b/classsddk_1_1_gvec.html#acf53e94aada24b073232f3f2fb0b804f',1,'sddk::Gvec']]],
+  ['zcol_5fcount_5ffft_2870',['zcol_count_fft',['../d7/def/classsddk_1_1_gvec__partition.html#ad289e142f908aa1b38e6a696914e51a9',1,'sddk::Gvec_partition']]],
+  ['zcol_5foffset_2871',['zcol_offset',['../dc/d9b/classsddk_1_1_gvec.html#af962b33cb74065ab5724bb9272b21e12',1,'sddk::Gvec']]],
+  ['zero_2872',['zero',['../d0/d6d/classsirius_1_1_periodic__function.html#a96f5eb8ba8a0fc5f2166ab3554185221',1,'sirius::Periodic_function::zero()'],['../d6/d10/classsirius_1_1_smooth__periodic__function.html#ad6454e473757b357cb098a827a5350d8',1,'sirius::Smooth_periodic_function::zero()'],['../d7/dab/classsddk_1_1mdarray.html#a95cfb51109cd804cb82e4a70a58760fe',1,'sddk::mdarray::zero(memory_t mem__, size_t idx0__, size_t n__)'],['../d7/dab/classsddk_1_1mdarray.html#a6f9295c3db0bb90763c82c4306cbbb9f',1,'sddk::mdarray::zero(memory_t mem__=memory_t::host)'],['../db/de3/namespaceacc.html#ae7491c0345c430f8b0a92c711e633ef6',1,'acc::zero(T *ptr__, size_t n__)'],['../db/de3/namespaceacc.html#a4ade204ae91625a90728abe1306c6720',1,'acc::zero(T *ptr__, int ld__, int nrow__, int ncol__)']]],
+  ['zn_2873',['zn',['../d3/d37/classsirius_1_1_atom__type.html#a50551ca84dbfdd3f5009be4094f778ec',1,'sirius::Atom_type::zn() const'],['../d3/d37/classsirius_1_1_atom__type.html#a62fc215e7ef5d3828582c57eb7438b65',1,'sirius::Atom_type::zn(int zn__)'],['../d1/dc9/classsirius_1_1_atom__type__base.html#aa552fdf10758b30c4b81edf810e94957',1,'sirius::Atom_type_base::zn() const'],['../d1/dc9/classsirius_1_1_atom__type__base.html#a4249528e5a30eb6eee93fe851d8a882f',1,'sirius::Atom_type_base::zn(int zn__)']]]
 ];
