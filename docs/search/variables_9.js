@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['j_0',['j',['../d3/d98/structsirius_1_1basis__function__index__descriptor.html#a8f252c2125f2e7288fc57ef83225ffdc',1,'sirius::basis_function_index_descriptor::j()'],['../d4/daf/structsirius_1_1radial__function__index__descriptor.html#ab47a3cd5d1a143431f0881c6ee60088b',1,'sirius::radial_function_index_descriptor::j()']]]
+  ['j_5f_0',['J_',['../d0/d88/classsirius_1_1hubbard__orbital__descriptor.html#a0a3f875cae2b6368974bd7e508f47eeb',1,'sirius::hubbard_orbital_descriptor']]]
 ];

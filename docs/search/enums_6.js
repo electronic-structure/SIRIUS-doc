@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['linalg_5ft_0',['linalg_t',['../d2/dfd/linalg__base_8hpp.html#ab55edd78c3ceafb551de0245e6d03810',1,'sddk']]]
+  ['memory_5ft_0',['memory_t',['../da/d3e/memory_8hpp.html#a6294b29576bb64a2587cdfdb73920fba',1,'sirius::sddk']]]
 ];

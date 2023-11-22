@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['beta_5fdesc_5fidx_0',['beta_desc_idx',['../d5/def/namespacesirius.html#aa85831f0ebd13ecc4d27b17ec224c3ba',1,'sirius']]]
+  ['cbor_5ftag_5fhandler_5ft_0',['cbor_tag_handler_t',['../dd/d39/namespacedetail.html#a7c070b2bf3d61e3d8b8013f6fb18d592',1,'detail']]]
 ];

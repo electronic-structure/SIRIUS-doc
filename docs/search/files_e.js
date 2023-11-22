@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['paw_5fdensity_2ehpp_0',['paw_density.hpp',['../d4/d2c/paw__density_8hpp.html',1,'']]],
-  ['periodic_5ffunction_2ehpp_1',['periodic_function.hpp',['../d3/d6a/periodic__function_8hpp.html',1,'']]],
-  ['plasma_5finterface_2ecpp_2',['plasma_interface.cpp',['../dd/dcd/plasma__interface_8cpp.html',1,'']]],
-  ['potential_2ecpp_3',['potential.cpp',['../d1/d97/potential_8cpp.html',1,'']]],
-  ['potential_2ehpp_4',['potential.hpp',['../de/df2/potential_8hpp.html',1,'']]],
-  ['power_2ehpp_5',['power.hpp',['../db/dfa/power_8hpp.html',1,'']]],
-  ['profiler_2ecpp_6',['profiler.cpp',['../da/d97/profiler_8cpp.html',1,'']]],
-  ['profiler_2ehpp_7',['profiler.hpp',['../dc/ddc/profiler_8hpp.html',1,'']]]
+  ['diag_5fmm_2ecu_0',['diag_mm.cu',['../d3/d45/nlcglib_2preconditioner_2diag__mm_8cu.html',1,'']]],
+  ['non_5flocal_5ffunctor_2ehpp_1',['non_local_functor.hpp',['../d5/d72/non__local__functor_8hpp.html',1,'']]],
+  ['non_5flocal_5foperator_2ecpp_2',['non_local_operator.cpp',['../d2/d6d/non__local__operator_8cpp.html',1,'']]],
+  ['non_5flocal_5foperator_2ehpp_3',['non_local_operator.hpp',['../de/de7/non__local__operator_8hpp.html',1,'']]],
+  ['non_5flocal_5foperator_5fbase_2ehpp_4',['non_local_operator_base.hpp',['../d6/d4a/non__local__operator__base_8hpp.html',1,'']]]
 ];

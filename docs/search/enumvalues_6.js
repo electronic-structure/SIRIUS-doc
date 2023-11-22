@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['global_0',['global',['../d0/d86/splindex_8hpp.html#a8fb829ddf0c85d19e1263274fb98229ba9c70933aff6b2a6d08c687a6cbb6b765',1,'sddk']]],
-  ['gpu_1',['GPU',['../da/d3e/memory_8hpp.html#a8ec5c207c724e5271f35f5ccb8f4abb6a52f9ec21735243ad9917cda3ca077d32',1,'sddk']]],
-  ['gpublas_2',['gpublas',['../d2/dfd/linalg__base_8hpp.html#ab55edd78c3ceafb551de0245e6d03810adec4681e44dde489ae3e24bfa9af2a70',1,'sddk']]]
+  ['global_0',['global',['../d5/def/namespacesirius.html#a5f87b70f17843d5b79071ad9cbc35a80a9c70933aff6b2a6d08c687a6cbb6b765',1,'sirius']]],
+  ['gpu_1',['GPU',['../da/d3e/memory_8hpp.html#a087e4362a6e6e95f53abd7303445f7d0a52f9ec21735243ad9917cda3ca077d32',1,'sirius::sddk']]],
+  ['gpublas_2',['gpublas',['../d2/dff/namespacesirius_1_1la.html#a4174cb7401c6ea8345ed6831f6730a0aadec4681e44dde489ae3e24bfa9af2a70',1,'sirius::la']]]
 ];

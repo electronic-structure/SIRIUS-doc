@@ -1,6 +1,25 @@
 var searchData=
 [
-  ['detail_0',['detail',['../dc/df0/namespacenlohmann_1_1detail.html',1,'nlohmann']]],
-  ['dtoa_5fimpl_1',['dtoa_impl',['../dc/d41/namespacenlohmann_1_1detail_1_1dtoa__impl.html',1,'nlohmann::detail']]],
-  ['nlohmann_2',['nlohmann',['../d3/d9b/namespacenlohmann.html',1,'']]]
+  ['acc_0',['acc',['../d4/d75/namespacesirius_1_1acc.html',1,'sirius']]],
+  ['blas_1',['blas',['../dd/d7a/namespacesirius_1_1acc_1_1blas.html',1,'sirius::acc']]],
+  ['blas_5fapi_2',['blas_api',['../da/dc3/namespacesirius_1_1acc_1_1blas__api.html',1,'sirius::acc']]],
+  ['cg_3',['cg',['../da/dde/namespacesirius_1_1cg.html',1,'sirius']]],
+  ['cusolver_4',['cusolver',['../da/db2/namespacesirius_1_1acc_1_1cusolver.html',1,'sirius::acc']]],
+  ['env_5',['env',['../d2/d5c/namespacesirius_1_1env.html',1,'sirius']]],
+  ['fft_6',['fft',['../d8/d67/namespacesirius_1_1fft.html',1,'sirius']]],
+  ['la_7',['la',['../d2/dff/namespacesirius_1_1la.html',1,'sirius']]],
+  ['lapack_8',['lapack',['../d3/d21/namespacesirius_1_1acc_1_1lapack.html',1,'sirius::acc']]],
+  ['local_9',['local',['../da/dac/namespacesirius_1_1local.html',1,'sirius']]],
+  ['lr_10',['lr',['../d3/dc8/namespacesirius_1_1lr.html',1,'sirius']]],
+  ['magma_11',['magma',['../d7/d6e/namespacesirius_1_1magma.html',1,'sirius']]],
+  ['mixer_12',['mixer',['../d6/d4e/namespacesirius_1_1mixer.html',1,'sirius']]],
+  ['mpi_13',['mpi',['../d8/dd2/namespacesirius_1_1mpi.html',1,'sirius']]],
+  ['r3_14',['r3',['../d7/d33/namespacesirius_1_1r3.html',1,'sirius']]],
+  ['rocsolver_15',['rocsolver',['../d6/d11/namespacesirius_1_1acc_1_1rocsolver.html',1,'sirius::acc']]],
+  ['rte_16',['rte',['../d5/d70/namespacesirius_1_1rte.html',1,'sirius']]],
+  ['sf_17',['sf',['../d3/de7/namespacesirius_1_1sf.html',1,'sirius']]],
+  ['sirius_18',['sirius',['../d5/def/namespacesirius.html',1,'']]],
+  ['smearing_19',['smearing',['../d7/d9d/namespacesirius_1_1smearing.html',1,'sirius']]],
+  ['wf_20',['wf',['../d5/d9d/namespacesirius_1_1wf.html',1,'sirius']]],
+  ['xt_21',['xt',['../dc/d4a/namespacesirius_1_1acc_1_1blas_1_1xt.html',1,'sirius::acc::blas']]]
 ];

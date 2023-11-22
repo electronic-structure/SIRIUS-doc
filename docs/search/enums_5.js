@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['index_5fdomain_5ft_0',['index_domain_t',['../d0/d86/splindex_8hpp.html#a8fb829ddf0c85d19e1263274fb98229b',1,'sddk']]],
-  ['input_5fformat_5ft_1',['input_format_t',['../dc/df0/namespacenlohmann_1_1detail.html#aa554fc6a11519e4f347deb25a9f0db40',1,'nlohmann::detail']]]
+  ['lib_5ft_0',['lib_t',['../d2/dff/namespacesirius_1_1la.html#a4174cb7401c6ea8345ed6831f6730a0a',1,'sirius::la']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['radial_5ffunction_5findex_5fdescriptor_0',['radial_function_index_descriptor',['../d4/daf/structsirius_1_1radial__function__index__descriptor.html',1,'sirius']]],
-  ['radial_5ffunctions_5findex_1',['radial_functions_index',['../d2/de3/classsirius_1_1experimental_1_1radial__functions__index.html',1,'sirius::experimental::radial_functions_index'],['../d1/df3/classsirius_1_1radial__functions__index.html',1,'sirius::radial_functions_index']]],
+  ['radial_5ffunctions_5findex_1',['radial_functions_index',['../d1/df3/classsirius_1_1radial__functions__index.html',1,'sirius']]],
   ['radial_5fgrid_2',['Radial_grid',['../d9/dbf/classsirius_1_1_radial__grid.html',1,'sirius']]],
   ['radial_5fgrid_3c_20double_20_3e_3',['Radial_grid&lt; double &gt;',['../d9/dbf/classsirius_1_1_radial__grid.html',1,'sirius']]],
   ['radial_5fgrid_5fexp_4',['Radial_grid_exp',['../df/da7/classsirius_1_1_radial__grid__exp.html',1,'sirius']]],
@@ -19,13 +19,16 @@ var searchData=
   ['radial_5fintegrals_5frho_5fcore_5fpseudo_16',['Radial_integrals_rho_core_pseudo',['../d5/dd8/classsirius_1_1_radial__integrals__rho__core__pseudo.html',1,'sirius']]],
   ['radial_5fintegrals_5frho_5ffree_5fatom_17',['Radial_integrals_rho_free_atom',['../d6/d14/classsirius_1_1_radial__integrals__rho__free__atom.html',1,'sirius']]],
   ['radial_5fintegrals_5frho_5fpseudo_18',['Radial_integrals_rho_pseudo',['../db/d50/classsirius_1_1_radial__integrals__rho__pseudo.html',1,'sirius']]],
-  ['radial_5fintegrals_5fvloc_19',['Radial_integrals_vloc',['../d3/db4/classsirius_1_1_radial__integrals__vloc.html',1,'sirius']]],
-  ['radial_5fsolution_5fdescriptor_20',['radial_solution_descriptor',['../df/d32/structradial__solution__descriptor.html',1,'']]],
-  ['radial_5fsolver_21',['Radial_solver',['../d0/d78/classsirius_1_1_radial__solver.html',1,'sirius']]],
-  ['real_22',['Real',['../d9/d5a/struct_real.html',1,'']]],
-  ['real_3c_20std_3a_3acomplex_3c_20t_20_3e_20_3e_23',['Real&lt; std::complex&lt; T &gt; &gt;',['../d7/d87/struct_real_3_01std_1_1complex_3_01_t_01_4_01_4.html',1,'']]],
-  ['request_24',['Request',['../dd/dbe/classsddk_1_1_request.html',1,'sddk']]],
-  ['residual_5fresult_25',['residual_result',['../d5/d87/structresidual__result.html',1,'']]],
-  ['rotate_26',['Rotate',['../d9/d41/structsirius_1_1mixer_1_1mixer__impl_1_1_rotate.html',1,'sirius::mixer::mixer_impl']]],
-  ['rotate_3c_200_2c_20funcs_2e_2e_2e_20_3e_27',['Rotate&lt; 0, FUNCS... &gt;',['../d5/d5d/structsirius_1_1mixer_1_1mixer__impl_1_1_rotate_3_010_00_01_f_u_n_c_s_8_8_8_01_4.html',1,'sirius::mixer::mixer_impl']]]
+  ['radial_5fintegrals_5ft_19',['radial_integrals_t',['../df/d6f/structsirius_1_1radial__integrals__t.html',1,'sirius']]],
+  ['radial_5fintegrals_5fvloc_20',['Radial_integrals_vloc',['../d3/db4/classsirius_1_1_radial__integrals__vloc.html',1,'sirius']]],
+  ['radial_5fsolution_5fdescriptor_21',['radial_solution_descriptor',['../df/d17/structsirius_1_1radial__solution__descriptor.html',1,'sirius']]],
+  ['radial_5fsolver_22',['Radial_solver',['../d0/d78/classsirius_1_1_radial__solver.html',1,'sirius']]],
+  ['real_23',['Real',['../df/d53/structsirius_1_1_real.html',1,'sirius']]],
+  ['real_3c_20gpu_5fcomplex_5ftype_3c_20double_20_3e_20_3e_24',['Real&lt; gpu_complex_type&lt; double &gt; &gt;',['../de/d2a/structsirius_1_1_real_3_01gpu__complex__type_3_01double_01_4_01_4.html',1,'sirius']]],
+  ['real_3c_20gpu_5fcomplex_5ftype_3c_20float_20_3e_20_3e_25',['Real&lt; gpu_complex_type&lt; float &gt; &gt;',['../d1/d10/structsirius_1_1_real_3_01gpu__complex__type_3_01float_01_4_01_4.html',1,'sirius']]],
+  ['real_3c_20std_3a_3acomplex_3c_20t_20_3e_20_3e_26',['Real&lt; std::complex&lt; T &gt; &gt;',['../df/d0a/structsirius_1_1_real_3_01std_1_1complex_3_01_t_01_4_01_4.html',1,'sirius']]],
+  ['request_27',['Request',['../d7/db6/classsirius_1_1mpi_1_1_request.html',1,'sirius::mpi']]],
+  ['residual_5fresult_5ft_28',['residual_result_t',['../d0/de6/structresidual__result__t.html',1,'']]],
+  ['rotate_29',['Rotate',['../d9/d41/structsirius_1_1mixer_1_1mixer__impl_1_1_rotate.html',1,'sirius::mixer::mixer_impl']]],
+  ['rotate_3c_200_2c_20funcs_2e_2e_2e_20_3e_30',['Rotate&lt; 0, FUNCS... &gt;',['../d5/d5d/structsirius_1_1mixer_1_1mixer__impl_1_1_rotate_3_010_00_01_f_u_n_c_s_8_8_8_01_4.html',1,'sirius::mixer::mixer_impl']]]
 ];

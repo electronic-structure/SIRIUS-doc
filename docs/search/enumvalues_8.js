@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ia_0',['ia',['../d5/def/namespacesirius.html#aa85831f0ebd13ecc4d27b17ec224c3baab40788f566d1124a95169068077031a9',1,'sirius']]],
-  ['ignore_1',['ignore',['../dc/df0/namespacenlohmann_1_1detail.html#a58bb1ef1a9ad287a9cfaf1855784d9aca567bc1d268f135496de3d5b946b691f3',1,'nlohmann::detail::ignore()'],['../dc/df0/namespacenlohmann_1_1detail.html#a5a76b60b26dc8c47256a996d18d967dfa567bc1d268f135496de3d5b946b691f3',1,'nlohmann::detail::ignore()']]]
+  ['ignore_0',['ignore',['../dd/d39/namespacedetail.html#a7c070b2bf3d61e3d8b8013f6fb18d592a567bc1d268f135496de3d5b946b691f3',1,'detail::ignore()'],['../dd/d39/namespacedetail.html#abe7cfa1fd8fa706ff4392bff9d1a8298a567bc1d268f135496de3d5b946b691f3',1,'detail::ignore()']]]
 ];

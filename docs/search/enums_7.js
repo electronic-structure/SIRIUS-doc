@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['memory_5ft_0',['memory_t',['../da/d3e/memory_8hpp.html#ad724f3c5b07010419730c654a1767283',1,'sddk']]]
+  ['op_5ft_0',['op_t',['../d8/dd2/namespacesirius_1_1mpi.html#a45ac285eda2169cc86751874f48531a9',1,'sirius::mpi']]]
 ];

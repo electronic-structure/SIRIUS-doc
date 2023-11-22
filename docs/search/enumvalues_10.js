@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['scalapack_0',['scalapack',['../d9/dbf/eigensolver_8hpp.html#a203f2c57422a6e64834e6e9ab85982bfa75ed89791e1997d58d57456262786673',1,'scalapack():&#160;eigensolver.hpp'],['../d2/dfd/linalg__base_8hpp.html#ab55edd78c3ceafb551de0245e6d03810a75ed89791e1997d58d57456262786673',1,'scalapack()sddk']]],
-  ['spatial_1',['spatial',['../de/df7/typedefs_8hpp.html#a1e9abc1cdcdeb1cc57c6bc9c630b0357acdb36c370b737074c455bf1ee75a2f56',1,'typedefs.hpp']]],
-  ['spectral_2',['spectral',['../de/df7/typedefs_8hpp.html#a1e9abc1cdcdeb1cc57c6bc9c630b0357ac6d79e22d837d4172867f7dce96d2a62',1,'typedefs.hpp']]],
-  ['spla_3',['spla',['../d2/dfd/linalg__base_8hpp.html#ab55edd78c3ceafb551de0245e6d03810a78373467bf6179f11cbcfcf871b2a07c',1,'sddk']]],
-  ['strict_4',['strict',['../dc/df0/namespacenlohmann_1_1detail.html#a5a76b60b26dc8c47256a996d18d967dfa2133fd717402a7966ee88d06f9e0b792',1,'nlohmann::detail']]],
-  ['string_5',['string',['../dc/df0/namespacenlohmann_1_1detail.html#a1ed8fc6239da25abcaf681d30ace4985ab45cffe084dd3d20d928bee85e7b0f21',1,'nlohmann::detail']]]
+  ['scalapack_0',['scalapack',['../d2/dff/namespacesirius_1_1la.html#aaed174ae9d645545b7c6b95820b3aec6a75ed89791e1997d58d57456262786673',1,'sirius::la::scalapack()'],['../d2/dff/namespacesirius_1_1la.html#a4174cb7401c6ea8345ed6831f6730a0aa75ed89791e1997d58d57456262786673',1,'sirius::la::scalapack()']]],
+  ['spatial_1',['spatial',['../d5/def/namespacesirius.html#a8721b707dd55e317f08e0ba1bf0a2f2aacdb36c370b737074c455bf1ee75a2f56',1,'sirius']]],
+  ['spectral_2',['spectral',['../d5/def/namespacesirius.html#a8721b707dd55e317f08e0ba1bf0a2f2aac6d79e22d837d4172867f7dce96d2a62',1,'sirius']]],
+  ['spla_3',['spla',['../d2/dff/namespacesirius_1_1la.html#a4174cb7401c6ea8345ed6831f6730a0aa78373467bf6179f11cbcfcf871b2a07c',1,'sirius::la']]],
+  ['store_4',['store',['../dd/d39/namespacedetail.html#a7c070b2bf3d61e3d8b8013f6fb18d592a8cd892b7b97ef9489ae4479d3f4ef0fc',1,'detail']]],
+  ['strict_5',['strict',['../dd/d39/namespacedetail.html#abe7cfa1fd8fa706ff4392bff9d1a8298a2133fd717402a7966ee88d06f9e0b792',1,'detail']]],
+  ['string_6',['string',['../dd/d39/namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632ab45cffe084dd3d20d928bee85e7b0f21',1,'detail']]]
 ];

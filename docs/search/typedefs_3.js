@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['difference_5ftype_0',['difference_type',['../d1/d7c/classnlohmann_1_1detail_1_1iter__impl.html#a2f7ea9f7022850809c60fc3263775840',1,'nlohmann::detail::iter_impl::difference_type()'],['../d9/dcc/classnlohmann_1_1basic__json.html#a3d20d11e5dfe95084a76f62eca54fadd',1,'nlohmann::basic_json::difference_type()']]]
+  ['default_5fobject_5fcomparator_5ft_0',['default_object_comparator_t',['../d1/d72/classbasic__json.html#a991d005e7f648cbf37bb36daf85183ca',1,'basic_json']]],
+  ['difference_5ftype_1',['difference_type',['../d7/d0e/classdetail_1_1iter__impl.html#a6d51e1372282929d1c240223aa973c6e',1,'detail::iter_impl::difference_type()'],['../d1/d72/classbasic__json.html#ae45e8f7ce7c3e62035cd097a39910399',1,'basic_json::difference_type()']]]
 ];

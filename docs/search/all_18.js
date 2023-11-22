@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x_0',['x',['../db/dfd/structsddk_1_1z__column__descriptor.html#a43362f0968086f2690d79b2528d9bb4c',1,'sddk::z_column_descriptor::x()'],['../d9/dbf/classsirius_1_1_radial__grid.html#a941168555a4b6bf90e889ddc67e853ab',1,'sirius::Radial_grid::x(const int i) const']]],
+  ['x_0',['x',['../d0/d20/structsirius_1_1fft_1_1z__column__descriptor.html#ae9101480239e9f1623ec3f6539a7bf24',1,'sirius::fft::z_column_descriptor::x()'],['../d9/dbf/classsirius_1_1_radial__grid.html#a941168555a4b6bf90e889ddc67e853ab',1,'sirius::Radial_grid::x(const int i) const']]],
   ['x_5f_1',['x_',['../d9/dbf/classsirius_1_1_radial__grid.html#a181ded683fd28ce8c4826e8cba06848b',1,'sirius::Radial_grid']]],
   ['x_5finv_2',['x_inv',['../d9/dbf/classsirius_1_1_radial__grid.html#aaca03871e96d68e6247bbbaa6121ad9a',1,'sirius::Radial_grid']]],
   ['x_5finv_5f_3',['x_inv_',['../d9/dbf/classsirius_1_1_radial__grid.html#a2a95aba3f52377b78577fd41aa449525',1,'sirius::Radial_grid']]],

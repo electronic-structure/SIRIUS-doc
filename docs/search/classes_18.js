@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['z_5fcolumn_5fdescriptor_0',['z_column_descriptor',['../db/dfd/structsddk_1_1z__column__descriptor.html',1,'sddk']]]
+  ['z_5fcolumn_5fdescriptor_0',['z_column_descriptor',['../d0/d20/structsirius_1_1fft_1_1z__column__descriptor.html',1,'sirius::fft']]]
 ];
